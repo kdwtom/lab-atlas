@@ -788,11 +788,11 @@
       }
     ],
     "summary_ko": {
-      "one_line": "전사인자 MYC2·MYC3이 줄기 수(pith)의 리그닌화를 조율해 야생담배를 줄기 천공 바구미로부터 방어한다는 연구.",
-      "background": "리그닌은 구조 고분자이자 강력한 생물 스트레스 방어 수단이다. 야생담배에서는 초식 곤충이 유도하는 자스모네이트 의존 줄기 수 리그닌화가 줄기 천공 바구미(Trichobaris mucorea) 방어에 중요하지만 조절 기전은 거의 알려지지 않았다.",
-      "methods": "Namyc2/3 이중 돌연변이 등 여러 돌연변이체에서 RNA 시퀀싱과 방어 표현형(유충 성장) 분석을 수행했다.",
-      "findings": "NaMYC2와 NaMYC3이 바구미 공격에 대한 줄기 수 특이적 리그닌화를 조율했다. 이중 돌연변이에서는 모노리그놀 생합성과 중합 관련 유전자가 유도되지 않았다. MYC2/3 의존 유전자 중 비전형 모노리그놀 N-FT를 만드는 NaTHT1이 줄기 방어에 핵심이었고, 초과산화물 불균등화효소 NaNEC1a/1c 결손 시 리그닌화가 줄고 유충 성장이 좋아져 초과산화물 대사와 리그닌화의 직접 연결을 뒷받침했다.",
-      "significance": "모노리그놀 생합성, 리그닌 중합, 비전형 모노리그놀 합성을 통합하는 줄기 방어 조절망을 제시한다."
+      "one_line": "야생 담배에서 MYC2와 MYC3가 줄기 바구미 공격에 대응한 수질(pith) 목질화를 총괄해 줄기를 방어한다는 연구.",
+      "background": "리그닌은 구조 고분자이면서 생물 스트레스에 대한 강력한 방어 수단이며, Nicotiana attenuata에서 초식자 유도 자스몬산 의존 수질 목질화는 줄기 천공 해충 Trichobaris mucorea 방어에 핵심이지만 조절 기전은 거의 알려지지 않았다.",
+      "methods": "Namyc2/3 이중 돌연변이에서 T. mucorea 공격 후 RNA 시퀀싱을 수행하고, NaMYC2/3 의존 유전자 NaTHT1과 초과산화물 불균등화효소 NaNEC1a·NaNEC1c 돌연변이의 목질화와 유충 성장을 분석했다.",
+      "findings": "NaMYC2와 NaMYC3는 T. mucorea 공격에 대응한 수질 특이 목질화를 조율했고, 이중 돌연변이에서는 모노리그놀 생합성과 중합 관련 유전자가 유도되지 않았다. NaTHT1은 비정형 모노리그놀 N-FT를 합성했으며 N-FT는 줄기 방어에 핵심이었다. Nanec1a/1c 이중 돌연변이는 목질화가 줄고 유충 성장이 좋아져 초과산화물 대사와 유도 목질화의 직접적 연관을 뒷받침했다.",
+      "significance": "모노리그놀 생합성, 리그닌 중합, 비정형 모노리그놀 생합성을 통합하는 NaMYC2/3 조절 네트워크를 밝혀 식물 줄기 방어 이해를 넓힌다."
     },
     "openalex_url": "https://openalex.org/W4411701625",
     "retrieved_at": "2026-10-04"
@@ -9869,7 +9869,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "예쁜꼬마선충 내구 유충(dauer)의 화학적 신경 연결체를 재구성해 발생 단계에 따른 신경계 재배선을 밝힌 연구.",
+      "background": "신경발생 생물학의 근본 질문 중 하나는 발생 중 신경계가 얼마나 유연하게 변하는가이다. 내구 유충은 선충의 대체 발생 단계로 독특한 행동 특성을 보인다.",
+      "methods": "부피 재구성과 딥러닝 기반 자동 시냅스 검출로 내구 유충의 화학적 연결체(connectome)를 재구성하고 그래프 이론 분석을 수행했다.",
+      "findings": "신경계 기본 구조는 보존되었지만, 크고 작은 신경세포 구조 변화가 연결성 변화와 밀접히 연관되었고 이는 니크테이션(nictation) 같은 내구 유충 특이 행동을 일으켰다. 그래프 분석에서 감각 신경세포 연결성의 유의한 재배선과 운동 신경세포 내 군집 증가가 나타났다.",
+      "significance": "선충 신경계가 양적·질적으로 분화된 연결체를 만들어 가혹한 환경에 대응하도록 진화했음을 시사한다."
+    },
     "openalex_url": "https://openalex.org/W4392198362",
     "retrieved_at": "2026-10-04"
   },
@@ -11475,7 +11481,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "조현병 관련 AS3MT d2d3 변이체가 대뇌피질 발생 중 신경 줄기세포의 운명 결정을 교란한다는 생쥐·오가노이드 연구.",
+      "background": "조현병의 신경발달 이론은 초기 뇌 발달을 원인으로 강조하며, 전장 유전체 연관 연구는 조현병을 AS3MT 유전자 변이, 특히 AS3MT d2d3 변이체 발현 증가와 연결했다.",
+      "methods": "대뇌피질 신경 줄기세포에서 AS3MT d2d3를 이소성으로 발현하는 형질전환 생쥐(AS3MT d2d3-Tg)를 만들고 행동, 단일세포·단일핵 RNA 시퀀싱, 오가노이드, 구조 분석을 수행했다.",
+      "findings": "형질전환 생쥐는 뇌실 확장과 감각운동 관문(sensorimotor gating), 사회성 결함을 보였다. 세포 운명 불균형과 흥분성 신경세포 구성 변화가 나타났다. AS3MT d2d3는 중심체에 위치해 부분적으로 NPM1을 통해 유사분열 방추 방향과 분화를 교란했고, 노출된 소수성 잔기가 병적 기능에 중요했다.",
+      "significance": "조현병의 초기 병리 특징을 설명하는 발달 기전을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4408929103",
     "retrieved_at": "2026-10-04"
   },
@@ -14461,7 +14473,13 @@
         "domain": "Physical Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "인터넷 연결 없이 개인 컴퓨터에서 생존 분석을 할 수 있는 OASIS portable을 소개한 논문.",
+      "background": "생존 분석 온라인 도구 OASIS와 OASIS 2는 생명·의학 분야에서 널리 쓰였지만 데이터를 온라인 서버에 올려야 했다.",
+      "methods": "OASIS 2 웹서버를 사용자 컴퓨터에서 가상화·격리된 형태로 실행하는 오프라인 통합 도구를 개발했다.",
+      "findings": "OASIS portable은 인터넷 연결이나 보안 문제 없이 사용자 친화적인 생존 분석을 가능하게 한다.",
+      "significance": "데이터를 외부로 보내지 않는 안전한 생존 분석 환경을 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4390956375",
     "retrieved_at": "2026-10-04"
   },
@@ -20841,7 +20859,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "다가오는 시각 자극으로 공포를 학습시키는 새 패러다임에서 후방 섬피질→팔곁핵 경로가 통증 없는 공포 학습에 필수임을 밝힌 연구.",
+      "background": "전통적 파블로프 공포 조건화는 전기 충격만 위협 자극으로 써 왔기 때문에 다양한 위협이 공포 기억을 만드는 방식에 대한 이해가 제한적이었다.",
+      "methods": "생쥐에서 다가오는 시각 자극(looming stimulus)을 무조건 자극으로 쓰는 조건화 패러다임을 개발하고, 팔곁핵(parabrachial nucleus, PBN) CGRP 신경세포와 상위 후방 섬피질(posterior insular cortex, pIC) 신경세포의 역할을 조사했다.",
+      "findings": "팔곁핵 CGRP 신경세포는 시각 위협 조건화와 기억 인출 모두에 필요했다. pIC 신경세포는 다가오는 자극에 반응했고, pIC에서 PBN으로 가는 투사는 혐오 상태를 유도하고 조건화를 일으켰다. 그러나 이 경로는 발 전기충격 조건화에는 필요하지 않았다.",
+      "significance": "통증이 아닌 시각 자극이 혐오 상태와 공포 기억을 만드는 별도 회로를 제시해 외상 후 스트레스 장애 같은 위협 관련 질환 이해를 넓힌다."
+    },
     "openalex_url": "https://openalex.org/W4410227782",
     "retrieved_at": "2026-10-04"
   },
@@ -20941,7 +20965,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "생쥐 해마 dCA1 신경세포의 개별 반응 증가와 동기화된 집단 활동이 맥락 공포 기억 인출을 표상한다는 칼슘 이미징 연구.",
+      "background": "해마는 맥락 기억 인출에 핵심적이며 등쪽 CA1(dorsal CA1, dCA1)의 일부 신경세포 활성화가 기억 인출에 필요하지만, 개별 신경세포나 신경세포 집단(ensemble)의 활동 양상이 인출과 어떤 관계인지는 불분명했다.",
+      "methods": "생체 내 미세내시경 칼슘 이미징(in vivo microendoscope calcium imaging)으로 암수 생쥐 dCA1 신경세포 활동을 기록하며 맥락 공포 조건화(contextual fear conditioning) 전후를 비교했다.",
+      "findings": "공포 조건화 후 일부 dCA1 신경세포가 학습한 맥락에 대한 반응을 높였고, 이 증가는 중립 맥락에서는 사라졌으며 인출 시 기억 강도에 비례했다. 증가는 주로 날카로운 파동 잔물결(sharp wave ripple) 추정 구간에 나타났고 움직임 때문이 아니었다. 집단 수준에서는 동기화된 세포 활동 패턴이 기억 인출과 연관되었고, 조건 맥락과 중립 맥락의 패턴이 비슷할수록 얼어붙기 반응도 비슷했다.",
+      "significance": "개별 신경세포 반응 증가와 동기화된 집단 활동이 함께 맥락 기억 인출을 표상한다는 dCA1의 동적 활동 특성을 보여준다."
+    },
     "openalex_url": "https://openalex.org/W4308255817",
     "retrieved_at": "2026-10-04"
   },
@@ -20991,7 +21021,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "24시간 뒤 반복된 공포 학습은 신경세포 흥분성과 무관한 방식으로 기억을 새 세포에 할당한다는 연구.",
+      "background": "사건이 반복될 때 기억이 세포 집단에 어떻게 조직되는지는 잘 알려지지 않았다. 흥분성이 높은 신경세포가 기억 할당 경쟁에서 이긴다는 규칙이 제안되어 있었고, 저자들은 이전에 24시간 뒤 재훈련이 외측 편도체(lateral amygdala, LA)의 기억 세포를 교체함을 발견했다.",
+      "methods": "공포 조건화 전에 외측 편도체 일부 신경세포의 흥분성을 인위적으로 높인 뒤, 6시간 또는 24시간 간격의 재훈련 후 이 세포들이 기억 인출에 필요한지와 재활성화되는지를 조사했다.",
+      "findings": "흥분성을 높인 세포는 처음 공포 기억 부호화에 우선 참여했지만, 24시간 뒤 재훈련 후에는 기억 인출에 필요하지 않게 되었고 인출 시 재활성화될 가능성도 낮아졌다. 6시간 뒤 재훈련에서는 이런 재편이 없이 기억이 함께 할당되었다. 24시간 재훈련 직전에 흥분성을 높여도 공동 할당이 일어나지 않았다.",
+      "significance": "시간적으로 떨어진 반복 사건에는 흥분성 경쟁과 다른 기억 할당 기전이 작동함을 시사한다."
+    },
     "openalex_url": "https://openalex.org/W4286828293",
     "retrieved_at": "2026-10-04"
   },
@@ -21291,7 +21327,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "3D 자세 추정 AI로 파킨슨병 생쥐의 행동을 정밀 분석하고, 광유전학 RET 신호 조절(optoRET)의 치료 효과를 확인한 연구.",
+      "background": "파킨슨병(Parkinson's disease, PD)은 복잡한 운동 증상을 보이는 진행성 신경퇴행 질환이며 질병 진행을 바꾸는 효과적 치료가 없다.",
+      "methods": "자유롭게 움직이는 수컷 AAV-hA53T 파킨슨병 모델 생쥐에서 3D 자세 추정(3D pose estimation)과 트리 기반 AI 모델로 중증도를 분류하고, 설명 가능한 AI로 행동 지표를 찾았다. c-RET 신호를 빛으로 조절하는 optoRET를 적용해 치료 효과를 AI로 평가했다.",
+      "findings": "AI 모델은 기존 방법보다 더 일찍, 더 정확하게 파킨슨병 중증도 집단을 구별했고, 보행과 스펙트럼-시간 특징을 포함한 다양한 행동 지표를 찾아냈다. optoRET는 사지 협응과 이동을 개선하고 가슴 떨림을 줄여 질병 진행을 완화했다.",
+      "significance": "AI와 광유전학을 결합해 과제 없이도 가능한 행동 기반 진단과 새로운 파킨슨병 치료 전략의 가능성을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4413399312",
     "retrieved_at": "2026-10-04"
   },
@@ -21591,7 +21633,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "광유전학 도구 OptoSTIM1로 성상교세포 칼슘을 높이면 만성 뇌졸중 생쥐의 회복이 크게 좋아진다는 연구.",
+      "background": "뇌졸중 치료 연구는 주로 신경세포 활동 조절에 초점을 맞췄지만, 성상교세포(astrocyte)가 뇌졸중 진행에 중요한 역할을 하며 회복의 치료 표적이 될 수 있다는 근거가 쌓여 왔다.",
+      "methods": "내인성 칼슘 채널을 활성화하는 광유전학 도구 OptoSTIM1을 이용해 만성 피막 경색(capsular infarct) 모델에서 성상교세포 칼슘 신호를 선택적으로 조절하고, 채널로돕신-2(ChR2)와 비교했다.",
+      "findings": "OptoSTIM1은 ChR2와 달리 한 번의 활성화로 성상교세포 칼슘을 10분 이상 강하게 높였다. 병변 쪽 감각-두정엽 피질 성상교세포의 칼슘 상승은 뇌졸중 후 장애에서 뚜렷한 회복을 이끌었다.",
+      "significance": "성상교세포 세포 내 칼슘 조절이 뇌졸중 회복을 돕는 새로운 치료 전략이 될 수 있음을 보여준다."
+    },
     "openalex_url": "https://openalex.org/W4407054401",
     "retrieved_at": "2026-10-04"
   },
@@ -21833,7 +21881,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "빛으로 켜지는 분할형 Cas13(paCas13)과 이를 이용한 RNA 염기 편집 도구 padCas13을 개발한 연구.",
+      "background": "CRISPR-Cas13은 프로그래밍 가능한 RNA 간섭, 이미징, 편집에 널리 쓰이지만, 이를 빛으로 정밀하게 켜고 끄는 방법이 필요했다.",
+      "methods": "광반응 단백질 쌍 Magnet을 Cas13 조각에 융합해 빛으로 유도되는 paCas13을 만들고 최적 분할 지점을 찾았다. 촉매 비활성 paCas13 조각에 ADAR2를 융합해 빛 유도 염기 편집기 padCas13을 만들어 포유류 세포와 생쥐에서 시험했다.",
+      "findings": "분할 지점 N351/C350이 낮은 배경 활성과 높은 유도성을 보였고 paCas13은 빛에 따라 내인성 전사체를 교란했다. padCas13 편집기는 빛 아래에서 가역적으로 A→I, C→U RNA 편집을 수행해 질환 관련 전사체를 표적하고 번역 후 변형을 조절했으며, 생쥐 생체 내에서도 표적 전사체를 활성화했다.",
+      "significance": "RNA 분해와 염기 편집을 빛으로 시공간적으로 조절하는 기법으로, 다양한 질환과 생리 과정 연구 및 치료 개발에 활용될 수 있다."
+    },
     "openalex_url": "https://openalex.org/W4391096127",
     "retrieved_at": "2026-10-04"
   },
@@ -22545,7 +22599,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "노화 세포의 크기 증가가 GATA4와 YAP의 균형에 따른 세포골격 재편으로 만들어지며 염증성 분비 표현형(SASP)을 지시한다는 연구.",
+      "background": "세포 크기 증가는 세포 노화의 두드러진 형태적 특징이지만 그 기능적 의미와 노화 세포가 커진 상태를 유지하는 방식은 잘 알려지지 않았다.",
+      "methods": "노화 세포에서 액틴 세포골격 재편, GATA4·YAP의 RHOU 발현 조절, 세포 크기를 줄이는 유전·약물 처리의 효과, LINC 복합체의 역할을 분석하고 생쥐와 인간 지방조직을 조사했다.",
+      "findings": "광범위한 액틴 세포골격 재편이 노화 연관 세포 비대와 염증성 노화 연관 분비 표현형(senescence-associated secretory phenotype, SASP) 확립에 필요했다. 이 재편은 SASP 조절자 GATA4와 기계 감지자 YAP가 Rho 계열 GTPase RHOU 발현을 놓고 균형을 이룬 결과였다. 세포 크기를 줄이면 성장 정지에는 큰 영향 없이 SASP가 약해졌고, 세포골격 재편은 LINC 복합체를 통해 GATA4와 NF-κB의 핵 위치와 연결되었다. 노화 유도 조건에서 생쥐 지방조직에 RhoU가 쌓였고, 인간 노화 지방조직에서 RHOU 발현은 SASP와 상관을 보였다.",
+      "significance": "세포 크기 증가가 SASP를 조절한다는 예상 밖의 역할과 노화 조절 네트워크의 기계적 갈래를 밝힌다."
+    },
     "openalex_url": "https://openalex.org/W4407640112",
     "retrieved_at": "2026-10-04"
   },
@@ -22601,7 +22661,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "골관절염 연골세포에서 세포질에 남은 UDP-GlcNAc가 O-GlcNAc 당화로 GATA4를 안정화해 노화 연관 분비 표현형을 일으킨다는 연구.",
+      "background": "UDP-GlcNAc는 연골 프로테오글리칸의 글리코사미노글리칸(GAG) 사슬 재료이면서 O-GlcNAc 당화의 기질이다.",
+      "methods": "골관절염 연골에서 UDP-GlcNAc 수송체 발현과 O-GlcNAc 당화를 분석하고, GATA4의 S406 당화와 p62 매개 선택적 자가포식 분해를 조사했으며, 생쥐 연골 표층 Gata4 결손, O-GlcNAc 전이효소 억제, 과량 글루코사민 투여 실험을 수행했다.",
+      "findings": "골관절염 연골에서 UDP-GlcNAc를 소포체와 골지로 옮기는 수송체가 크게 줄어 연골세포의 세포질 UDP-GlcNAc와 O-GlcNAc 당화가 늘었다. 증가한 당화는 GATA4의 S406을 당화해 p62 매개 선택적 자가포식 분해를 막고 GATA4를 안정화해 노화 연관 분비 표현형(SASP)을 조절했다. 연골 표층 Gata4 결손과 O-GlcNAc 전이효소 억제는 외상 후 골관절염을 완화했고, 과량 글루코사민은 GATA4를 안정화해 골관절염을 악화시켰다.",
+      "significance": "UDP-GlcNAc의 세포 내 구획화가 만성 관절 염증 관련 분비 경로를 조절함을 밝히고 골관절염의 세노스타틱(senostatic) 치료 전략을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4407144151",
     "retrieved_at": "2026-10-04"
   },
@@ -22707,7 +22773,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "라민 B 수용체(LBR)가 유전체 안정성을 지키고 노화를 억제해 세포 불멸화를 돕는다는 발견을 소개한 해설.",
+      "background": "세포 불멸화는 노화 같은 제한 장벽을 넘기 위한 여러 유전 변화가 필요하며, p53과 p16-RB 종양 억제 경로 돌연변이만으로는 완전한 불멸화에 부족하다고 알려져 있다.",
+      "methods": "En 등의 연구 결과를 소개하고 논평한 해설 논문이다.",
+      "findings": "En 등은 라민 B 수용체(lamin B receptor, LBR)가 p53과 RB가 결핍된 세포에서 유전체 무결성을 유지하고 노화를 억제해 세포 증식과 불멸화를 촉진함을 밝혔다.",
+      "significance": "LBR 조절이 암 치료와 세포 회춘에 활용될 수 있음을 시사한다."
+    },
     "openalex_url": "https://openalex.org/W4395009366",
     "retrieved_at": "2026-10-04"
   },
@@ -22869,7 +22941,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "천연물 선별로 대청(Isatis tinctoria) 추출물이 노화 피부 섬유아세포를 제거하고 SASP를 억제함을 찾은 연구.",
+      "background": "세포 노화는 피부 노화의 주요 원인으로 여겨지지만, 피부 노화 세포를 특이적으로 표적하는 천연물은 충분히 탐색되지 않았다.",
+      "methods": "항노화 효과를 가진 천연물을 찾기 위한 집중 화합물 선별(focused compound screen)을 수행했다.",
+      "findings": "대청 추출물은 노화된 인간 피부 섬유아세포를 선택적으로 죽이는 세놀리틱(senolytic) 효과를 보였고, 염증성 SASP 발현을 줄이는 세노스타틱(senostatic) 활성도 보였다. 반면 노화된 인간 폐 섬유아세포에는 세포독성이 미미했다.",
+      "significance": "대청 추출물이 피부 노화 예방 화장품 원료로 활용될 가능성을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4309074407",
     "retrieved_at": "2026-10-04"
   },
@@ -23025,7 +23103,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "방선균 아연 흡수 조절자 Zur가 세 개의 조절 아연 결합 부위가 모두 채워질 때 DNA 결합이 크게 강해진다는 연구.",
+      "background": "Zur는 세균의 아연 항상성을 조절하는 Fur 계열 금속 조절자로, Streptomyces coelicolor의 Zur(ScZur)는 아연 흡수 유전자 znuA를 억제하고 아연 배출 유전자 zitB를 활성화한다. 이전 구조 연구는 단량체당 구조용 아연 1개와 조절용 아연 2개를 밝혔다.",
+      "methods": "생화학, 유전학, 열량 측정 실험과 포괄적 열역학 모델로 Zur의 아연 결합과 DNA 결합을 분석했다.",
+      "findings": "방선균에 널리 보존된 히스티딘 H36을 가진 네 번째 특이적 아연 결합 부위가 조절 기능을 가졌다. H36은 zitB 조절 서열(zurbox)에 Zur가 육량체로 결합하고 상류 영역까지 결합해 완전 활성화하는 데 필수였다. 세 조절 아연 부위가 모두 채워지면 znuA와 zitB zurbox에 대한 DNA 결합 친화도가 크게 높아졌고, 모델은 아연 결합과 DNA 결합의 강한 결합이 넓은 아연 농도 변화에 대한 zitB 유전자의 이상(biphasic) 활성화를 일으킨다고 예측했다.",
+      "significance": "여러 조절 금속 결합으로 반응 범위를 넓히는 기전이 다른 금속단백질에도 적용될 수 있음을 시사한다."
+    },
     "openalex_url": "https://openalex.org/W4391787104",
     "retrieved_at": "2026-10-04"
   },
@@ -23075,7 +23159,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "DNA나 무질서 단백질 같은 선형 격자 위에서 일어나는 다가 결합을 정량적으로 다루는 이론 틀을 정리한 리뷰.",
+      "background": "다가 거대분자 상호작용은 변하는 세포 상태에서 다양한 생명 과정을 역동적으로 조절하며, 반복 인식 모티프를 가진 내재적 무질서 단백질과 염색체 DNA 같은 선형 격자에 여러 단백질이 결합하는 경우가 많다.",
+      "methods": "선형 격자-단백질 상호작용의 정량 모델을 정리한 리뷰 논문이다.",
+      "findings": "격자 안 잠재적 결합 부위가 겹치는 문제를 다루는 조합 모델과 조건부 확률 모델을 소개하고, 전사인자의 염색체 DNA 비특이 결합이 유전자 특이 전사에 미치는 영향, 핵공 단백질 무질서 영역 안 표적 결합 부위의 복잡한 조직을 해석한 두 사례를 제시했다. 특히 무질서 영역이 서로 다른 세포 과정을 잇는 분자 스위치로 작동할 수 있음을 시사했다.",
+      "significance": "상분리된 생체분자 응축체 같은 더 복잡한 체계의 해부와 기능 연구로 확장될 수 있는 정량적 틀을 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4283587616",
     "retrieved_at": "2026-10-04"
   },
@@ -23275,7 +23365,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "근육 내 중간엽 전구세포가 슈반세포의 GDNF를 감지해 BDNF를 내며 말초신경 재생의 수초 재형성을 돕는다는 연구.",
+      "background": "섬유-지방 생성 전구세포(FAP)는 근육 항상성과 재생, 신경근육계 유지에 기여하며 말초신경 손상으로 활성화된다고 보고되었지만, 해부학적으로 먼 신경 손상을 어떻게 감지하는지, 신경 재생에 직접 기여하는지는 알려지지 않았다.",
+      "methods": "단일세포 전사체 분석과 생쥐 모델을 이용하고, FAP 특이 Bdnf 결손 생쥐(Prrx1Cre; Bdnffl/fl)와 노화 생쥐에서 신경 손상 후 반응을 분석했다.",
+      "findings": "GDNF 수용체 Ret과 Gfra1을 발현하는 FAP 아집단이 슈반세포가 분비한 GDNF를 감지해 활성화되고 Bdnf를 발현했다. FAP에서 Bdnf를 없애면 수초 재형성 결함으로 신경 재생이 지연되었다. 노화 생쥐에서는 신경 손상 후 FAP의 Bdnf 발현이 크게 줄었다.",
+      "significance": "말초신경 재생에서 FAP의 새로운 역할을 밝히고, 노화에 따른 신경 재생 지연과 FAP 유래 BDNF의 관련 가능성을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4402872077",
     "retrieved_at": "2026-10-04"
   },
@@ -23523,7 +23619,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "염색질 리모델링 복합체 구성 요소 Baf155가 HIF-1α 신호를 통해 골격근 에너지 대사를 조절한다는 연구.",
+      "background": "운동 중 골격근은 저산소 상태에 놓이며, 이때 안정화된 저산소 유도 인자 1α(HIF-1α)가 해당 대사 관련 표적 유전자 발현을 유도한다.",
+      "methods": "골격근 특이 Baf155 결손 생쥐를 만들어 대사, 운동 능력, 염색질 면역침전(ChIP)으로 HIF-1α의 표적 프로모터 결합을 분석했다.",
+      "findings": "SWI/SNF 복합체 핵심 소단위 Baf155는 골격근 HIF-1α 신호에 필수였다. Baf155를 없애면 HIF-1α 기능이 줄어 산화 대사가 늘고 운동 중 젖산 생성이 감소했으며, 근육 내 ATP가 높아져 지구력 운동 능력이 향상되었다. Baf155는 HIF-1α의 표적 프로모터 결합을 조절했고, 이를 위해 HIF-1α와 공동활성 복합체를 이루는 인산화 STAT3(pSTAT3)가 필요했다.",
+      "significance": "골격근 에너지 대사에서 Baf155의 핵심 역할과 저산소 신호와의 상호작용을 밝힌다."
+    },
     "openalex_url": "https://openalex.org/W4385064611",
     "retrieved_at": "2026-10-04"
   },
@@ -23623,7 +23725,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "근육 내 Dpp4+ 중간엽 전구세포에서 Bap1이 SMN 단백질을 안정화해 신경근육계를 유지한다는 연구.",
+      "background": "운동신경세포 생존(survival of motor neuron, SMN) 단백질은 mRNA 전구체 스플라이싱 장치의 주요 구성 요소로 척수성 근위축증 같은 신경근육 질환과 관련되며, 최근 말초의 비신경세포에서도 필요하다는 사실이 밝혀졌다.",
+      "methods": "생쥐에서 Dpp4를 발현하는 섬유-지방 생성 전구세포(fibro-adipogenic progenitor, FAP) 아집단의 역할을 조사하고, FAP 특이 Bap1 불활성화, 유비퀴틴화 저항 SMN 변이체(SMNK186R) 과발현, Dpp4+ 또는 Dpp4- FAP 이식 실험을 수행했다.",
+      "findings": "Dpp4+ FAP는 신경근육계에 필요했다. BRCA1 연관 단백질 1(Bap1)은 유비퀴틴화 의존 분해를 막아 FAP의 SMN을 안정화했고, FAP에서 Bap1을 없애면 SMN이 줄면서 신경근 접합부가 퇴행해 운동신경세포 소실과 근위축이 일어났다. SMNK186R 과발현은 이 퇴행을 완전히 막았고, Dpp4+ FAP 이식(Dpp4- FAP는 아님)은 신경근육 결함을 완전히 회복시켰다.",
+      "significance": "Dpp4+ FAP의 Bap1 매개 SMN 안정화가 신경근육계에 중요함을 밝히고 신경근육 질환의 세포 기반 치료 가능성을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4281253442",
     "retrieved_at": "2026-10-04"
   },
@@ -23891,7 +23999,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "마이크로RNA 가공 보조 인자 ERH는 군집 여부와 관계없이 일차 마이크로RNA 가공을 넓게 돕고, SAFB2는 군집 안 비최적 머리핀만 돕는다는 연구.",
+      "background": "마이크로RNA 성숙은 DROSHA와 DGCR8로 이루어진 Microprocessor가 일차 마이크로RNA(pri-miRNA)를 자르면서 시작되며, ERH와 SAFB2는 최적 pri-miRNA가 인접한 비최적 pri-miRNA 가공을 돕는 '군집 보조'에 필요한 보조 인자로 알려졌지만 구체적 작용 방식은 정의되지 않았다.",
+      "methods": "ERH와 SAFB2를 억제한 세포에서 단독·군집 pri-miRNA의 가공 효율을 비교 분석했다.",
+      "findings": "ERH는 유전체 맥락과 관계없이 단독·군집 pri-miRNA 가공을 모두 넓게 촉진했으며, 효율적으로 가공되는 머리핀보다 비최적 머리핀이 ERH 억제에 더 큰 영향을 받았다. 반면 SAFB2는 군집 안의 비최적 머리핀 가공만 특이적으로 도왔다.",
+      "significance": "SAFB2는 Microprocessor의 머리핀 간 이동을 돕고 ERH는 비최적 pri-miRNA의 효율적 가공을 가능하게 한다는 새로운 군집 보조 모델을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4413580572",
     "retrieved_at": "2026-10-04"
   },
@@ -24109,7 +24223,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "유전체 수준 CRISPR 선별로 지질나노입자 mRNA의 흡수·탈출 인자와, 산성 pH에서 활성화되어 외부 mRNA를 분해하는 TRIM25를 찾은 연구.",
+      "background": "외부에서 넣은 mRNA는 전달과 번역에 세포 기구가 필요하지만 억제 인자도 만나며, 그 조절 경로는 포괄적으로 밝혀지지 않았다.",
+      "methods": "지질나노입자(lipid nanoparticle, LNP)에 담은 시험관 전사 mRNA로 유전체 수준 CRISPR 선별을 수행하고, 확인된 인자들의 기능과 RNA 결합을 분석했다.",
+      "findings": "헤파란 황산 프로테오글리칸(HSPG)과 V-ATPase가 각각 LNP 흡수와 엔도솜 탈출을 매개했다. RNA 결합 E3 유비퀴틴 연결효소 TRIM25가 선형·원형 mRNA 분해를 유도하는 핵심 억제자였고, 핵산내부분해효소 N4BP1, KHNYN과 항바이러스 단백질 ZAP가 중복적으로 함께 작용했다. TRIM25는 엔도솜으로 전달된 mRNA를 표적했으며 산성 pH에서 RNA 친화도가 높아졌고, N1-메틸슈도우리딘 변형은 TRIM25 결합을 줄여 억제를 피하게 했다.",
+      "significance": "LNP-mRNA를 조절하는 세포 경로를 포괄적으로 지도화해 RNA 면역과 mRNA 치료제 개발에 통찰을 준다."
+    },
     "openalex_url": "https://openalex.org/W4409176656",
     "retrieved_at": "2026-10-04"
   },
@@ -24409,7 +24529,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "poly(A) 꼬리에 섞인 비아데노신 염기가 탈아데닐화를 얼마나 늦추는지 단일 뉴클레오타이드 수준에서 정량한 연구.",
+      "background": "mRNA poly(A) 꼬리를 줄이는 탈아데닐화는 mRNA 분해의 속도 결정 단계이며, 척추동물과 바이러스에서는 꼬리에 아데노신 외 염기가 섞이는 '혼합 꼬리'가 관찰되었다.",
+      "methods": "완전한 인간 CCR4-NOT 복합체로 재구성한 시험관 탈아데닐화 체계에서 탈아데닐화 반응을 단일 뉴클레오타이드 해상도로 수학적 모델링했다.",
+      "findings": "구아노신, 우리딘, 시토신 하나는 탈아데닐화 방해 효과가 각각 약 6개, 8개, 11개 아데노신에 해당했다. CCR4-NOT은 비아데노신 잔기를 기준으로 0, -1, -2 위치에서 멈췄고, 효소 소단위 CAF1과 CCR4는 모두 아데노신을 선호하지만 서열 선택성과 정지 위치가 달랐다.",
+      "significance": "탈아데닐화를 관찰하는 분석 틀을 제공하고 꼬리 서열에 따른 mRNA 안정성 조절의 분자적 기반을 밝힌다."
+    },
     "openalex_url": "https://openalex.org/W4391927123",
     "retrieved_at": "2026-10-04"
   },
@@ -24671,7 +24797,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "나노포어 직접 RNA 시퀀싱으로 바이러스 전사체의 RNA 변형을 분석하는 프로토콜을 정리한 논문.",
+      "background": "N6-메틸아데노신 같은 RNA 변형이 바이러스 전사체와 RNA 유전체에서도 발견되며, 일부는 바이러스 복제 효율을 높이고 면역 회피를 돕지만 숙주의 RNA 변형 효소가 항바이러스 인자로 작용하는 예도 많다. MeRIP-seq와 miCLIP 같은 짧은 읽기 기법으로는 복잡하게 겹치는 바이러스 전사체 이소폼을 구분하기 어렵다.",
+      "methods": "긴 읽기와 직접 신호 판독을 제공하는 나노포어 직접 RNA 시퀀싱(direct RNA sequencing, DRS)을 이용한 분석 프로토콜을 기술했다.",
+      "findings": "나노포어 기술로 바이러스 전사체의 RNA 변형을 분석하는 개선된 프로토콜을 제시했다.",
+      "significance": "바이러스 전사체 이소폼 수준에서 RNA 변형을 연구하는 실용적 방법을 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4292961062",
     "retrieved_at": "2026-10-04"
   },
@@ -24821,7 +24953,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "단일세포 전사체 분석으로 밝혀진 지방조직의 다양한 세포 유형과 상태, 이를 분석하는 기법을 정리한 리뷰.",
+      "background": "지방조직의 기능적 다양성은 여러 세포 유형과 병태생리 자극에 따라 서로 다른 기능 상태로 전환하는 능력에서 나오며, 단일세포 전사체 분석으로 지방세포, 지방 줄기·전구세포, 면역세포, 혈관세포, 중피세포의 새로운 유형과 상태가 많이 밝혀졌다.",
+      "methods": "지방조직 세포 이질성과 분석 기법에 관한 연구를 종합한 리뷰 논문이다.",
+      "findings": "지방조직의 이질적 세포 유형과 상태, 세포 아집단의 주요 특징과 지방조직 가소성의 세포 기전, 이를 규명하는 새로운 기법을 정리했다.",
+      "significance": "단일세포 시대에 지방조직을 연구하기 위한 기초 지식을 제공한다."
+    },
     "openalex_url": "https://openalex.org/W7140623738",
     "retrieved_at": "2026-10-04"
   },
@@ -25063,7 +25201,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "짧은 금식 중 PKA가 지방 분해를 촉진하고 AMPK를 억제해 자가포식 시작을 늦춘다는 연구.",
+      "background": "자가포식은 영양 결핍에 적응하도록 에너지를 공급하는 세포 내 분해 과정이지만, 세포가 지질 부족을 감지하고 자가포식을 조절하는 방식은 잘 알려지지 않았다.",
+      "methods": "결맞음 반스토크스 라만 분광법(coherent anti-Stokes Raman spectroscopy)으로 생체 내 유리지방산을 시각화하고, 단백질 키나아제 A(PKA), AMPK, 자가포식의 관계를 분석했으며, 예쁜꼬마선충에서 금식 중 운동성과 수명을 조사했다.",
+      "findings": "PKA 의존 지방 분해가 AMP 활성 단백질 키나아제(AMPK)를 억제해 짧은 영양 결핍 동안 자가포식 시작을 늦췄다. 지방 분해로 생긴 유리지방산이 자가포식 전에 먼저 쓰였고, 유리지방산 공급이 에너지 수요를 채우지 못할 때 자가포식이 시작되는 것으로 보였다. 이 조절 축이 무너지면 금식 중 예쁜꼬마선충의 운동성이 손상되고 수명이 줄었다.",
+      "significance": "PKA가 AMPK를 조절해 일시적 영양 결핍 때 자가포식보다 지방 분해를 우선시하는 이화 경로 조절자임을 확립한다."
+    },
     "openalex_url": "https://openalex.org/W4404300429",
     "retrieved_at": "2026-10-04"
   },
@@ -25375,7 +25519,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "지방 생성(lipogenesis)의 조절 기전과 여러 조직에서의 생리·병리적 역할, 치료적 함의를 정리한 리뷰.",
+      "background": "지질은 에너지원, 구조 성분, 신호 매개자로 필수적이며, 대부분의 세포는 탄수화물을 지방산으로 바꿔 지질 방울 형태로 저장한다. 지방 생성이 과하거나 부족하면 이상지질혈증, 당뇨, 지방간, 자가면역·신경퇴행 질환, 암과 연관될 수 있다.",
+      "methods": "지방조직, 간, 면역계, 신경계의 지방 생성 연구를 종합한 리뷰 논문이다.",
+      "findings": "지방 생성 효소들이 전사 조절과 번역 후 변형으로 엄격히 조절된다는 점과, 지방 생성이 대사 조직뿐 아니라 면역·신경계의 증식, 분화, 병태생리에도 중요하다는 최근 발견을 정리했다.",
+      "significance": "지방 생성 조절을 질병 치료에 활용할 가능성을 간략히 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4368373869",
     "retrieved_at": "2026-10-04"
   },
@@ -25965,7 +26115,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "동위원소 표지 탐침을 쓴 근접 표지법 ICAX로 미토콘드리아 크리스타 내부 공간의 단백질 분포를 나노미터 수준에서 지도화한 연구.",
+      "background": "공학 아스코르브산 과산화효소(APEX) 근접 표지는 막으로 둘러싸인 소기관 단백체 분석에 널리 쓰였지만, 막으로 나뉘지 않은 인접한 두 공간 사이의 단백질 분포를 구분하기는 어려웠다.",
+      "methods": "서로 다른 위치의 두 APEX 효소에 동위원소 코드 페놀 탐침을 쓰는 근접 표지법(ICAX)을 개발해, 주변 공간과 물리적으로 분리되지 않은 미토콘드리아 크리스타 내부 공간(intracristal space, ICS)을 분석하고, MICOS 복합체 억제와 미토콘드리아 탈공역 조건을 비교했다.",
+      "findings": "ICAX로 ICS의 공간 단백체 구조를 밝혔고, MICOS 복합체 억제와 미토콘드리아 탈공역 조건에서 미토콘드리아 공간 단백체가 예상치 못하게 역동적으로 변함을 보였다.",
+      "significance": "역동적 스트레스 조건에서 미토콘드리아 품질 관리에 ICS가 중요함을 강조한다."
+    },
     "openalex_url": "https://openalex.org/W4413366498",
     "retrieved_at": "2026-10-04"
   },
@@ -26651,7 +26807,13 @@
         "domain": "Physical Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "서로 간섭하지 않는 두 가지 효소 표지법으로 소포체-미토콘드리아 접촉 부위 단백질을 시공간적으로 분석하는 OrthoID를 개발한 연구.",
+      "background": "미토콘드리아 연관 소포체 막(MAM) 같은 소기관 접촉 부위의 단백질을 찾는 것은 중요한 세포 과정 이해에 필수지만, 역동적인 특성 때문에 어렵다.",
+      "methods": "공학 효소 TurboID와 APEX2로 미토콘드리아와 소포체 근처 단백질을 각각 비오틴화와 아다만틸화한 뒤, 스트렙타비딘-비오틴과 쿠커비투릴[7]-아다만테인이라는 고친화 결합 쌍으로 직교적으로 농축하는 OrthoID를 개발했다.",
+      "findings": "OrthoID는 소포체-미토콘드리아 접촉과 관련된 단백질 후보들을 효과적으로 찾았고, 그중 LRC59는 접촉 부위에서의 역할이 이전에 알려지지 않았던 단백질이었다. 미토파지 동안 MAM에서 구조와 위치가 바뀌는 여러 단백질 집합도 추적했다.",
+      "significance": "소기관 접촉 부위의 시공간적 단백질을 찾고 그 동적 행동을 밝히는 강력한 단백체 도구가 될 수 있다."
+    },
     "openalex_url": "https://openalex.org/W4392297802",
     "retrieved_at": "2026-10-04"
   },
@@ -26807,7 +26969,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "인터페론 유도 단백질 SCOTIN이 소포체 막에서 응축체를 만들어 COPII 외피 단백질을 붙잡고 소포체-골지 수송을 억제한다는 연구.",
+      "background": "소포체에서 새로 합성된 단백질은 소포체 출구에서 COPII 외피 복합체에 의해 골지로 운반되며, 세포 스트레스 시 COPII 단백질이 수송 조절의 표적이 된다.",
+      "methods": "세포질 쪽에 내재적 무질서 영역(intrinsically disordered region, IDR)을 가진 소포체 막단백질 SCOTIN/SHISA-5의 응축체 형성과 수송 영향을 세포에서 분석하고, IFN-γ 자극과 암 관련 SCOTIN 돌연변이의 효과를 조사했다.",
+      "findings": "COPII 외피 단백질 Sec31과 Sec13이 SCOTIN 응축체에 선택적으로 격리되어 COPII 소낭 형성을 방해하고 소포체-골지 수송을 억제했다. 응축체 형성에는 SCOTIN의 IDR이 필수였다. SCOTIN 발현과 응축을 유도하는 IFN-γ 자극에서 수송이 SCOTIN 의존적으로 억제되었고, 암 관련 SCOTIN 돌연변이는 응축체 형성과 수송 조절 능력을 교란했다.",
+      "significance": "소포체 막의 응축체가 단백질 수송을 조절하는 새로운 방식을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4387444662",
     "retrieved_at": "2026-10-04"
   },
@@ -26907,7 +27075,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "초해상도 근접 표지(SR-PL)로 SARS-CoV-2 ORF3a와 M 단백질의 숙주 상호작용 단백질을 지도화하고 RNF5의 항바이러스 역할을 찾은 연구.",
+      "background": "SARS-CoV-2는 감염 후 숙주 인자와 상호작용하며 인간 세포에서 복제하므로, 바이러스-숙주 상호작용 단백질을 공간적으로 이해할 필요가 있다.",
+      "methods": "GFP 결합 나노바디와 융합한 TurboID(TurboID-GBP)를 이용한 초해상도 근접 표지(super-resolution proximity labeling, SR-PL) 방법을 도입해, 소포체 구조를 크게 교란하는 SARS-CoV-2 ORF3a와 막 단백질(M)의 상호작용 단백질을 분석했다.",
+      "findings": "ORF3a와 M의 상호작용체로 각각 224개, 272개 펩타이드를 확인했다. ORF3a 상호작용체 중 RNF5는 ORF3a와 함께 위치하며 단백질 분해와 관련될 수 있는 유비퀴틴 변형을 ORF3a에 만들었고, 숙주 세포에서 RNF5를 과발현하면 SARS-CoV-2 감염률이 효과적으로 줄었다.",
+      "significance": "다른 바이러스의 바이러스-숙주 상호작용 연구에도 효율적으로 쓰일 수 있는 방법과 공개 데이터를 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4385064043",
     "retrieved_at": "2026-10-04"
   },
@@ -27563,7 +27737,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "육종 면역치료의 현황과 한계, 극복 전략을 정리한 리뷰.",
+      "background": "육종(sarcoma)은 뼈나 연부조직에서 생기는 드물고 이질적인 중간엽 종양으로, 수술과 항암·방사선 치료 후에도 국소 재발과 전이가 문제이며, 다른 종양보다 면역원성이 낮아 면역치료가 어렵다고 여겨진다.",
+      "methods": "육종 면역치료 연구를 종합한 리뷰 논문이다.",
+      "findings": "육종에서 발현되는 암-고환 항원을 면역치료 기회로 검토하고, 암 백신, 면역관문억제제, 입양 세포 치료의 현황을 정리했다. 낮은 종양 돌연변이 부담과 면역 억제 종양 미세환경 같은 한계와 이를 극복할 전략을 논의했다.",
+      "significance": "희귀 악성 종양인 육종 환자의 예후 개선을 위한 효과적이고 개인 맞춤형 치료 개발 방향을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4387765155",
     "retrieved_at": "2026-10-04"
   },
@@ -27897,7 +28077,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "셀레노인산 합성효소 1(SEPHS1) 결핍이 연골세포 산화환원 항상성을 무너뜨려 골관절염을 악화시킨다는 연구.",
+      "background": "노화와 기계적 과부하는 골관절염(osteoarthritis, OA)의 주요 위험 요인으로 산화환원 항상성 불균형을 일으키며, 그 결과 산화 스트레스가 연골세포의 병적 전환을 이끌지만 관여하는 구체적 분자 경로는 불분명했다.",
+      "methods": "인간과 생쥐 골관절염 연골의 SEPHS1 발현을 분석하고, 성체 생쥐 연골 특이 Sephs1 결손, N-아세틸시스테인(NAC) 보충, 셀레늄 결핍 식이 실험을 수행했다.",
+      "findings": "SEPHS1 발현은 인간과 생쥐 골관절염 연골에서 감소했다. SEPHS1이 줄면 산화환원효소 기능을 가진 셀레노단백질 합성 능력이 떨어져 활성산소가 늘고 연골세포 노화가 촉진되었다. 연골 특이 Sephs1 결손은 노화 연관 골관절염을 일으키고 외상 후 골관절염을 악화시켰으며 NAC 보충으로 회복되었다. 셀레늄 결핍 식이와 Sephs1 결손은 골관절염 병리를 상승적으로 악화시켰다.",
+      "significance": "SEPHS1을 셀레늄 대사와 산화환원 항상성의 필수 조절자이자 골관절염 진행을 좌우하는 인자로 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4210925581",
     "retrieved_at": "2026-10-04"
   },
@@ -27997,7 +28183,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "원숭이 조가비핵의 촉각·시각 가치 통합 신경세포 집단이 가치와 감각 양식 정보를 효율적인 공유 표상으로 함께 보존한다는 연구.",
+      "background": "기저핵은 제한된 자원으로 여러 감각 양식의 보상 가치를 처리해야 하며, 단일 신경세포 수준의 가치 통합은 효율적이지만 양식별 정보를 잃게 할 수 있다는 질문이 있었다.",
+      "methods": "마카크 원숭이 조가비핵(putamen)에서 촉각과 시각 입력의 가치를 통합하는 이중 양식 가치 신경세포의 집단 표상과 그 신경 기하 구조를 분석했다.",
+      "findings": "이중 양식 가치 신경세포 집단은 공유된 추상 표상으로 가치와 양식 정보를 효율적으로 보존했다. 이 표상은 같은 양식과 가치에 걸쳐 일반화되었고, 한 시행 안에서 가치 유도 움직임으로 동적으로 이동하면서도 효율적인 저차원 표상을 유지했다. 공유 가치 표상으로의 빠른 전환은 잘 적응·학습된 행동을 반영하는 인지 상태와 연관되었지만, 단일 양식 가치 신경세포에서는 이런 관계가 없었다.",
+      "significance": "조가비핵 이중 양식 가치 신경세포가 공유 신경 표상으로 효율과 정보 충실도의 균형을 맞추며 가치 유도 행동에 필요한 인지 상태를 돕는다는 점을 보여준다."
+    },
     "openalex_url": "https://openalex.org/W4414292871",
     "retrieved_at": "2026-10-04"
   },
@@ -28039,7 +28231,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "영장류 기저핵이 앞쪽 영역에서 인지적 유연성을, 뒤쪽 영역에서 습관적 안정성을 처리한다는 앞-뒤 축 기능 조직 원리를 정리한 리뷰.",
+      "background": "인지적 유연성과 습관적 안정성은 변하는 환경 적응과 안정된 조건에서의 효율에 필수지만 서로 상충해 보이며, 뇌가 이를 어떻게 조화시키는지가 핵심 질문이다.",
+      "methods": "영장류 기저핵의 기능 조직에 관한 연구를 종합한 리뷰 논문이다.",
+      "findings": "미상핵의 앞쪽과 뒤쪽 영역이 각각 인지적 유연성과 습관적 안정성을 처리한다는 발견에서 출발해, 대부분의 기저핵 영역에서 앞쪽은 유연하고 갱신 가능한 목표 지향 행동을, 뒤쪽은 안정적이고 지속되는 습관 행동을 지원한다는 앞-뒤 기능 조직 원리를 정리했다.",
+      "significance": "병렬 피질-기저핵 체계로 두 상반된 행동 전략을 학습·유지·실행하는 방식을 설명하는 통합 틀을 제공하고, 회로 수준 의사결정 기전과 기저핵 관련 질환의 병태생리 이해에 기여한다."
+    },
     "openalex_url": "https://openalex.org/W4414380489",
     "retrieved_at": "2026-10-04"
   },
@@ -28389,7 +28587,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "영장류 미상핵 꼬리와 설치류 선조체 꼬리의 해부와 기능을 비교한 리뷰.",
+      "background": "선조체 꼬리(tail of the striatum, TS)는 선조체 뒤쪽 끝에 있으며, 최근 연구로 해부와 기능 이해가 넓어졌지만 설치류와 영장류 TS의 차이에 대한 의문이 제기되었다.",
+      "methods": "설치류와 영장류 뇌의 TS 해부와 기능 연구를 비교한 리뷰 논문이다.",
+      "findings": "영장류 TS는 발달 중 설치류보다 더 뒤쪽으로 확장된다. 설치류 TS에는 피질과 시상에서 오는 다섯 가지 감각 입력이 모이지만 영장류에서는 그렇지 않고, 미상핵 꼬리와 조가비핵 꼬리를 포함한 영장류 TS는 주로 시각 영역 입력을 받아 행동 생성을 위한 시각 정보 처리에 특화된 것으로 보인다.",
+      "significance": "영장류 뇌가 더 다양한 복잡한 시각 자극을 처리해 습관적 행동을 만드는 방식을 이해하기 위한 회로 모델 논의의 기반을 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4384468341",
     "retrieved_at": "2026-10-04"
   },
@@ -28919,7 +29123,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "접힘 스트레스에서 미토콘드리아 Hsp60-Hsp10 샤페론 복합체의 세포 내 구조와 기능을 극저온 전자 단층촬영으로 밝힌 연구.",
+      "background": "미토콘드리아 단백질 항상성이 무너지면 미토콘드리아 미접힘 단백질 반응이 샤페론을 늘려 접힘 스트레스를 완화하지만, 샤페론이 이를 어떻게 완화하는지는 불분명했다.",
+      "methods": "상관 극저온 전자 단층촬영(correlated cryo-electron tomography)과 부분 단층상 분석(subtomogram analysis)으로 스트레스 조건의 세포를 관찰하고, mtHsp60-Hsp10 억제 실험을 수행했다.",
+      "findings": "접힘 스트레스는 무정형 단백질 응집체 축적, mtHsp60-Hsp10 복합체의 양 증가와 공간적 군집 등 뚜렷한 미토콘드리아 형태 변화를 일으켰다. 복합체는 표준적인 이중 고리 구조를 유지하면서 축구공형, 반 축구공형, 총알형의 서로 다른 상태를 보였고, 보존된 소수성 상호작용으로 구조화되지 않은 기질을 감쌌다. 복합체를 억제하면 세포 스트레스 반응과 미토파지 활성화가 늘어 접힘 스트레스가 악화되었다.",
+      "significance": "접힘 스트레스에서 mtHsp60-Hsp10 복합체가 미토콘드리아 단백질 항상성을 지키는 기전에 대한 구조적 통찰을 준다."
+    },
     "openalex_url": "https://openalex.org/W4415440497",
     "retrieved_at": "2026-10-04"
   },
@@ -28969,7 +29179,13 @@
         "domain": "Physical Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "잡음이 있는 원본 영상만으로 학습하는 자기지도 잡음 제거 신경망 SHINE으로 저선량 전자현미경 분석을 가속한 연구.",
+      "background": "투과전자현미경(TEM)은 재료과학과 구조생물학에서 원자·분자 수준 구조를 보여주는 핵심 도구지만, 전자빔은 저선량에서도 시료를 손상시킨다.",
+      "methods": "고유 잡음이 있는 단일 원본 영상 데이터셋만으로 학습해 비싼 정답 학습 데이터가 필요 없는 자기지도 고처리량 영상 잡음 제거 신경망 SHINE을 개발했다.",
+      "findings": "SHINE은 고해상도 TEM, 액체상 현장 TEM, 시계열 주사 TEM, cryo-TEM에서 현재의 정보 한계를 넘어선다는 것을 정량적으로 보였다.",
+      "significance": "다양한 재료에서 시료 손상을 줄인 저선량 전자현미경으로 명확한 고처리량 구조 분석을 가능하게 한다."
+    },
     "openalex_url": "https://openalex.org/W4409094515",
     "retrieved_at": "2026-10-04"
   },
@@ -29169,7 +29385,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "메탄올 이용 세균의 포름산 탈수소효소 MeFDH1 구조를 cryo-EM으로 2.8 Å 해상도에서 밝힌 연구.",
+      "background": "포름산 탈수소효소(formate dehydrogenase, FDH)는 포름산과 이산화탄소의 상호 전환에 중요하지만, 구조가 복잡하고 생산이 어려워 고유한 물리화학적 성질을 밝히기 어려웠다.",
+      "methods": "Methylobacterium extorquens AM1의 재조합 FDH(MeFDH1)를 정제하고 극저온 전자현미경으로 구조를 결정했다.",
+      "findings": "이종이량체 MeFDH1 구조를 2.8 Å 해상도로 풀어 비정형 활성 부위와 잘 박힌 철-황 산화환원 전달 사슬을 확인했다. 텅스텐 비스-몰리브도프테린 구아닌 다이뉴클레오타이드 활성 부위는 유연한 C-말단 덮개 도메인과 함께 열린 형태를 보였다.",
+      "significance": "효소의 구조적·동적 이질성을 시사하며 포름산-이산화탄소 전환 효소의 이해에 기여한다."
+    },
     "openalex_url": "https://openalex.org/W4391847274",
     "retrieved_at": "2026-10-04"
   },
@@ -30255,7 +30477,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "폴리아민 대사산물 아크롤레인이 암세포에서 페롭토시스는 일으키지만 네크롭토시스를 막아 항암 치료 효과를 떨어뜨린다는 연구.",
+      "background": "항암 치료로 유도되는 세포 사멸은 치료 성공에 중요하지만 대사 부산물에 의해 손상될 수 있으며, 그 방해 방식은 불분명했다.",
+      "methods": "암세포에서 아크롤레인의 세포 사멸 영향, MLKL 올리고머화, 아크롤레인 생성 효소 SAT1 결손 효과를 분석하고, 생쥐에서 아크롤레인 포착제와 사이클로포스파마이드 병용 효과를 시험했으며, 환자 데이터를 분석했다.",
+      "findings": "폴리아민, 담배 연기, 연료 연소에서 유래하는 아크롤레인은 ZBP1과 무관하게 페롭토시스를 유도하는 한편, 네크롭토시스 실행자 MLKL의 올리고머화를 막아 네크롭토시스를 억제했다. SAT1이 없으면 세포가 네크롭토시스에 민감해졌다. 생쥐에서 아크롤레인 포착제는 네크롭토시스 차단을 풀고 사이클로포스파마이드의 항종양 효과를 높였으며, 세포 사멸 활성은 높고 폴리아민 대사 유전자 발현은 낮은 환자의 생존이 더 좋았다.",
+      "significance": "대사 부산물 제거가 일부 항암 화학요법의 성공률을 높일 수 있음을 보여준다."
+    },
     "openalex_url": "https://openalex.org/W4410769516",
     "retrieved_at": "2026-10-04"
   },
@@ -30505,7 +30733,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "파이롭토시스, 아폽토시스, 네크롭토시스, 페롭토시스의 기전과 이들 사이의 교차, PANoptosis 개념을 정리한 리뷰.",
+      "background": "가장 많이 연구된 조절된 세포 사멸(regulated cell death, RCD) 경로인 파이롭토시스, 아폽토시스, 네크롭토시스, 페롭토시스는 감염되거나 암이 될 수 있는 세포를 제거해 항상성, 숙주 방어, 암 등에 중요하다.",
+      "methods": "네 가지 RCD 경로와 그 교차에 관한 연구를 종합한 리뷰 논문이다.",
+      "findings": "네 경로의 분자·세포 기전과 항상성 유지에서의 중요성을 개관하고, 경로들 사이의 유연성과 교차, 특히 감염 반응에서 두드러지는 파이롭토시스·아폽토시스·네크롭토시스의 교차를 개념화한 PANoptosis의 근거를 감염 질환과 암 중심으로 정리했다.",
+      "significance": "감염, 무균 염증, 암 등 여러 질환의 새로운 치료제 개발에 필요한 세포 사멸 기전 이해를 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4386098083",
     "retrieved_at": "2026-10-04"
   },
@@ -30555,7 +30789,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "선천 면역 감지자 ZBP1이 인플라마좀을 포함한 PANoptosome을 통해 염증성 세포 사멸 PANoptosis를 일으키는 역할을 정리한 리뷰.",
+      "background": "조절된 세포 사멸은 선천 면역 활성화의 핵심 요소로, 병원체를 제거하면서 과도한 염증은 막도록 엄격히 조절되어야 한다.",
+      "methods": "감염에서 ZBP1, 인플라마좀, PANoptosome에 관한 연구를 종합한 리뷰 논문이다.",
+      "findings": "인플루엔자 A 바이러스 감염 시 Z-DNA 결합 단백질 1(ZBP1)이 NLRP3 인플라마좀을 활성화하고, NLRP3는 ZBP1-PANoptosome의 구성 요소로서 카스파아제-1 활성화와 IL-1β, IL-18 성숙에는 필수지만 PANoptosome 분자들의 기능 중복 때문에 세포 사멸에는 필수가 아니라고 정리했다. Francisella novicida와 단순 헤르페스 바이러스 1 감염에서는 ZBP1이 AIM2 인플라마좀을 포함한 AIM2-PANoptosome의 중심이 된다.",
+      "significance": "중증 질환을 완화하는 표적 치료 개발에 필요한 선천 면역과 세포 사멸 기전 이해를 높인다."
+    },
     "openalex_url": "https://openalex.org/W4378901018",
     "retrieved_at": "2026-10-04"
   },
@@ -31255,7 +31495,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "GPU 가속 MMseqs2로 단백질 상동성 검색과 구조 예측·검색을 크게 빠르게 한 연구.",
+      "background": "단백질 데이터베이스가 빠르게 커지면서 더 빠르고 민감한 검색 도구가 필요하다.",
+      "methods": "그래픽 처리 장치(GPU)로 가속한 MMseqs2를 개발하고 CPU 방법 및 다른 도구와 속도·비용을 비교했다.",
+      "findings": "MMseqs2-GPU는 단일 단백질 검색에서 2×64 코어 CPU 방법보다 6배 빨랐고, 큰 질의 묶음에서는 GPU 8개로 가장 빠른 대안보다 2.4배 앞서 가장 비용 효율적이었다. ColabFold 구조 예측을 표준 AlphaFold2 파이프라인보다 31.8배, Foldseek 구조 검색을 4–27배 가속했다.",
+      "significance": "오픈소스로 공개되어 대규모 서열·구조 분석의 속도와 비용 부담을 크게 줄인다."
+    },
     "openalex_url": "https://openalex.org/W4414335961",
     "retrieved_at": "2026-10-04"
   },
@@ -31411,7 +31657,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "잘못 표기된 공개 서열의 영향을 줄이는 완전 자동 계통 기반 곰팡이 검증·동정 파이프라인 FunVIP를 개발한 연구.",
+      "background": "공개 염기서열 데이터베이스가 커지면서 DNA 서열 기반 동정이 곰팡이 동정에 필수 도구가 되었지만, 잘못 표기된 서열이 많아 오동정이 잦고, 이는 산업·임상 곰팡이와 식용 버섯에서 심각한 문제를 일으킨다.",
+      "methods": "입력 관리, 서열 집합 구성, 정렬, 다듬기, 연결, 모델 선택, 계통수 추론, 계통수 해석, 보고서 생성의 9단계로 이루어진 자동 파이프라인 FunVIP를 개발하고, 잘못 표기된 서열이 있는 Fuscoporia 속 재검토와 Sanghuangporus, Aspergillus section Terrei 데이터셋으로 BLAST, q2-feature-classifier와 비교했다.",
+      "findings": "FunVIP는 질의, 데이터베이스, 명령 하나만으로 계통 기반 동정과 검증 결과, 계통수 근거, 여러 점검 단계에서 발견한 충돌·문제 보고서를 제공했다. Fuscoporia 수동 재검토를 재현해 충돌 시료 검증 성능을 보였고, 비교 데이터셋에서 높은 동정 성능을 보였다.",
+      "significance": "자동 검증 능력과 높은 동정 성능으로 쉽고 정확한 곰팡이 동정 도구가 될 수 있다."
+    },
     "openalex_url": "https://openalex.org/W4409959429",
     "retrieved_at": "2026-10-04"
   },
@@ -32351,7 +32603,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "단백질 3차 구조를 '구조 알파벳' 서열로 바꿔 구조 검색 속도를 수만~수십만 배 높인 Foldseek.",
+      "background": "구조 예측 방법으로 수백만 개의 단백질 구조가 공개되면서 이 데이터베이스를 검색하는 일이 병목이 되었다.",
+      "methods": "단백질 내 3차 아미노산 상호작용을 구조 알파벳(structural alphabet) 위의 서열로 기술해 질의 단백질 구조를 데이터베이스와 정렬하는 Foldseek을 개발했다.",
+      "findings": "Foldseek은 계산 시간을 4–5자릿수 줄이면서 Dali, TM-align, CE 대비 각각 86%, 88%, 133%의 민감도를 보였다.",
+      "significance": "대규모 예측 구조 데이터베이스에서 빠르고 민감한 구조 검색을 가능하게 한다."
+    },
     "openalex_url": "https://openalex.org/W4375858802",
     "retrieved_at": "2026-10-04"
   },
@@ -32851,7 +33109,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "MMseqs2의 빠른 상동성 검색과 AlphaFold2·RoseTTAFold를 결합해 누구나 무료로 단백질 구조를 예측할 수 있게 한 ColabFold.",
+      "background": "초록에서 확인 불가",
+      "methods": "MMseqs2의 빠른 상동성 검색을 AlphaFold2 또는 RoseTTAFold와 결합하고 모델 활용을 최적화했으며, Google Colaboratory와 연동했다.",
+      "findings": "ColabFold는 검색이 40–60배 빨라 GPU 하나인 서버에서 하루 약 1,000개 구조를 예측할 수 있었고, 단백질 복합체 예측도 지원한다. 오픈소스 소프트웨어와 새로운 환경 데이터베이스를 공개했다.",
+      "significance": "단백질 구조 예측을 무료로, 누구나 쉽게 이용할 수 있는 플랫폼을 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4281790889",
     "retrieved_at": "2026-10-04"
   },
@@ -33001,7 +33265,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "인간 거대세포바이러스 IE1 전사체의 m6A 변형이 자기 프로모터를 억제해 잠복 감염을 확립하게 한다는 연구.",
+      "background": "인간 거대세포바이러스(HCMV)는 인구 대부분을 만성 감염시키며, 주요 즉시 초기 프로모터(MIEP)를 후성유전적으로 억제해 전사가 멈추고 면역을 회피하는 잠복 상태를 유지한다.",
+      "methods": "숙주 m6A 메틸전이효소 METTL3 결손 세포, 잠복 감염 단핵구의 전사체 수준 m6A 분석, IE1 특이 m6A 제거 돌연변이 바이러스를 THP-1 세포와 일차 CD14+ 단핵구에 적용했다.",
+      "findings": "METTL3가 없으면 잠복 확립이 방해되었다. 잠복 감염 중 주요 즉시 초기 유전자 산물인 IE1 전사체가 m6A로 변형되었고, 이 변형은 MIEP의 효율적 억제에 필요했다. IE1 m6A 제거 돌연변이 바이러스는 잠복 확립에 큰 결함을 보이고 용해 유사 감염으로 진행했다.",
+      "significance": "HCMV가 숙주 m6A 기구로 자신의 용해 프로그램을 억제해 잠복을 확립하며, 즉시 초기 유전자 mRNA가 자기 발현을 조절한다는 예상 밖의 역할을 밝힌다."
+    },
     "openalex_url": "https://openalex.org/W4411177813",
     "retrieved_at": "2026-10-04"
   },
@@ -33257,7 +33527,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "단백질 서열 하나로 동종 올리고머 대칭을 빠르고 정확하게 예측하는 모델 Seq2Symm을 개발한 연구.",
+      "background": "대부분의 단백질은 고차 조립체를 이뤄야 기능하지만, 같은 사슬 여러 개로 이루어진 조립체의 대칭을 빠르고 정확하게 예측하는 기계학습 모델은 거의 없었다.",
+      "methods": "여러 종류의 단백질 기반 모델(protein foundation model)을 미세조정해 동종 올리고머 대칭을 예측하게 했고, ESM2 기반 최고 모델 Seq2Symm을 세 개의 보류 시험 세트로 평가한 뒤 5개 단백질체와 약 350만 개 서열에 적용했다.",
+      "findings": "Seq2Symm은 평균 AUC-PR 0.47, 0.44, 0.49로 주형 기반 검색(0.24, 0.24, 0.25)과 기존 딥러닝 방법을 능가했다. 단일 서열만 입력으로 시간당 약 8만 개 단백질을 예측했다.",
+      "significance": "RoseTTAFold2나 AlphaFold2-multimer 같은 계산량이 큰 전원자 구조 생성 방법과 함께 쓰여 단백질체 규모 예측을 가능하게 한다."
+    },
     "openalex_url": "https://openalex.org/W4408010982",
     "retrieved_at": "2026-10-04"
   },
@@ -33357,7 +33633,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "단백질-단백질, 단백질-리간드 상호작용을 단백질체 규모로 예측하는 딥러닝 방법을 정리한 리뷰.",
+      "background": "단백질체 규모 상호작용 예측은 단백질 기능과 질병 기전 이해에 필수지만, 전통적 실험 방법은 규모와 복잡성에 한계가 있어 계산적 접근이 필요하다.",
+      "methods": "딥러닝 기반 상호작용 예측 방법과 학습 데이터셋을 정리한 리뷰 논문이다.",
+      "findings": "단백질-단백질과 단백질-리간드 상호작용 선별을 위한 최근 딥러닝 방법과 학습 데이터셋을 정리하고, 데이터 품질과 검증 편향 같은 남은 과제를 지적했으며, 예측 정확도를 높이기 위한 구조 정보 통합의 중요성을 논의했다.",
+      "significance": "구조 기반 딥러닝이 현재 한계를 극복해 생물학 연구와 신약 개발을 발전시킬 방향을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4406811692",
     "retrieved_at": "2026-10-04"
   },
@@ -33507,7 +33789,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "딥러닝 모델 RoseTTAFold2-Lite로 19개 인간 병원성 세균의 단백질 상호작용을 단백질체 수준에서 예측하고 구조를 밝힌 연구.",
+      "background": "세균 단백질-단백질 상호작용과 그 복합체 구조를 예측하면 병원성 기전을 이해하고 감염병 치료법을 개발하는 데 도움이 된다.",
+      "methods": "잔기 간 공진화와 단백질 구조 예측을 활용하는 빠른 딥러닝 모델 RoseTTAFold2-Lite를 개발해 19개 인간 병원성 세균의 단백질 쌍 7,800만 개를 탐색하고, 새 예측 12개를 실험으로 검증했다.",
+      "findings": "필수 유전자가 관여하는 복합체 1,923개와 병독성 인자가 관여하는 복합체 256개를 높은 신뢰도로 예측했으며, 상당수는 이전에 알려지지 않았다. 실험으로 시험한 12개 중 절반이 검증되었다. 예측된 상호작용은 전사 후 변형, 산 중화, 외막 기구 등 핵심 대사와 병독성 경로에 걸쳐 있었다.",
+      "significance": "중요 병원균의 생물학 이해와 이를 막는 약물 설계에 기여할 수 있다."
+    },
     "openalex_url": "https://openalex.org/W4402634787",
     "retrieved_at": "2026-10-04"
   },
@@ -34057,7 +34345,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "암에서 자가포식이 보이는 이중 역할과 이를 조절하는 전사·후성유전 기전을 정리한 리뷰.",
+      "background": "자가포식은 손상된 소기관과 잘못 접힌 단백질을 분해·재활용해 세포 항상성을 유지하는 이화 과정이며, 암에서는 초기에 유전체 무결성을 지키고 산화 스트레스를 제한하는 종양 억제자로, 진행기에는 대사 적응, 치료 저항, 면역 회피, 전이를 돕는 촉진자로 작용한다.",
+      "methods": "암세포 자가포식의 전사·후성유전 조절에 관한 연구를 종합한 리뷰 논문이다.",
+      "findings": "이중 기능의 분자 기전을 정리하고, mTORC1과 AMPK가 매개하는 스트레스 반응 경로 맥락에서 MiT/TFE 계열, FOXO 계열, p53 등 핵심 전사인자와 추가 조절자를 논의했다.",
+      "significance": "암 단계에 따라 자가포식을 촉진하거나 억제하는 맥락 특이적 치료 전략 개발에 필요한 이해를 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4410265067",
     "retrieved_at": "2026-10-04"
   },
@@ -34363,7 +34657,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "염색질 리모델링 인자 ARID1A가 프라이온 유사 도메인으로 상분리해 유잉 육종의 발암 유전자 활성 허브를 만든다는 연구.",
+      "background": "액체-액체 상분리(LLPS)는 세포 안에 막 없는 소기관을 만들며 여러 생명 현상과 질병에 관여한다. 염색질 리모델링 인자 ARID1A는 암 돌연변이와 자주 연관되지만 기능 기전은 거의 알려지지 않았다.",
+      "methods": "ARID1A의 프라이온 유사 도메인(prion-like domain, PrLD)에 의한 응축체 형성을 분석하고, 유잉 육종 환자 검체와 세포에서 응축체를 관찰했으며, 유전체 수준 염색질 구조와 전사 분석을 수행했다.",
+      "findings": "ARID1A는 PrLD를 통해 상분리로 액체 응축체를 형성했고, 이 핵 응축체는 유잉 육종 환자 검체에서 크게 증가했다. ARID1A 상분리를 방해하면 유잉 육종 세포의 증식과 침윤 능력이 떨어졌다. ARID1A 응축체는 EWS/FLI1 표적 인핸서에 위치해 발암 표적 유전자에서 기능적 염색질 리모델링 허브를 만들며 장거리 염색질 구조 변화를 유도했다.",
+      "significance": "ARID1A가 PrLD 매개 상분리로 발암 능력을 높인다는 점을 밝혀 유잉 육종의 잠재적 치료 접근을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4401305237",
     "retrieved_at": "2026-10-04"
   },
@@ -34625,7 +34925,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "번역 후 변형이 단백질 분해 신호(degron)를 켜거나 꺼서 단백질 안정성을 조절하는 방식을 정리한 리뷰.",
+      "background": "번역 후 변형(post-translational modification, PTM)은 표적 단백질 조절 도메인의 특정 아미노산에 일어나 단백질 안정성을 조절하며, 이런 영역을 분해 신호(degron)라 한다. PTM은 분해를 앞당기는 신호(PTM 활성화 degron)가 되거나 분해를 막아 단백질을 안정화하는 신호(PTM 불활성화 degron)가 된다.",
+      "methods": "다양한 PTM에 의한 단백질 안정성 조절 연구를 종합한 리뷰 논문이다.",
+      "findings": "알려진 조절 기전의 다양성과 범위를 정리하고 PTM 조절 degron의 공통 주제를 부각했다.",
+      "significance": "현재 약물 표적이 부족한 영역에서 새로운 약물 표적을 찾을 가능성을 높이는 데 기여한다."
+    },
     "openalex_url": "https://openalex.org/W4315865958",
     "retrieved_at": "2026-10-04"
   },
@@ -34881,7 +35187,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "남극 기지에서 최대 16개월 머문 대원 48명의 장내 미생물 변화를 장기 추적한 연구.",
+      "background": "남극 기지의 장기 체류는 극한 환경, 제한된 식단, 저온 등으로 장내 미생물에 영향을 줄 수 있지만, 작은 집단과 짧은 연구 기간 때문에 이해가 제한적이었다.",
+      "methods": "남극 기지에 최대 16개월 머문 참가자 48명에게서 종단적으로 수집한 대변 시료 467개를 분석했다.",
+      "findings": "출발 전 남성 참가자는 세 가지 장내 미생물 유형을 보였고, 체류 중·후 변화는 기존 유형에 따라 달랐다. Prevotella 우점형은 Bacteroides 우점형보다 식단 등 환경 변화에 더 민감했다. 우점 속은 안정적이었지만 변동이 큰 소수 속이 변화를 매개할 수 있었다. 식단을 공유하고 자주 접촉한 유전적으로 무관한 참가자들 사이에 동거 효과가 나타났고, 분류 조성은 바뀌었지만 예측된 미생물 기능은 비교적 안정적이었다.",
+      "significance": "극한·고립 환경에서 인간 장내 미생물의 적응이 원래 미생물 유형에 따라 다르게 일어남을 보여준다."
+    },
     "openalex_url": "https://openalex.org/W4410607710",
     "retrieved_at": "2026-10-04"
   },
@@ -35123,7 +35435,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "건강인, 대장 선종, 대장암 환자의 장내 미생물을 비교해 젖산·부티르산 생성균이 대장암 진행을 막을 가능성을 제시한 연구.",
+      "background": "장내 미생물은 여러 위험 요인과 대장암 발생을 연결하는 핵심 요소로 떠올랐지만, 대장암 발병에서의 역할은 여전히 불분명하다.",
+      "methods": "대장암 감시나 위장 증상으로 병원을 찾은 참가자를 전향적으로 모집해 대변 시료로 건강 대조군, 대장 선종, 대장암 환자의 장내 미생물을 성별과 연령 하위 집단별로 분석했다.",
+      "findings": "건강 대조군에서 선종, 대장암으로 갈수록 젖산 생성균(Streptococcus salivarius)과 부티르산 생성균(Faecalibacterium prausnitzii, Anaerostipes hadrus, Eubacterium hallii)이 적었다. 건강 대조군 중 여성은 남성보다 젖산 생성균이 많았고, 젊은 사람은 고령자보다 부티르산 생성균이 많았다. 이런 성별·연령 차이는 선종과 대장암 집단에서는 관찰되지 않았다.",
+      "significance": "젖산·부티르산 생성균이 대장암 진행 예방에 기여할 수 있으며, 건강한 남성에서 젖산 생성균이 적은 점이 남성의 높은 대장암 발생률과 관련될 수 있음을 시사한다."
+    },
     "openalex_url": "https://openalex.org/W4389154298",
     "retrieved_at": "2026-10-04"
   },
@@ -35223,7 +35541,13 @@
         "domain": "Physical Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "수련 잎에서 착안해 물 위에 뜨는 미생물 하이드로겔 장치로 햇빛 기반 수소 생산 효율을 크게 높인 연구.",
+      "background": "미생물 대사로 햇빛과 유기 탄소를 지속 가능한 에너지원으로 바꾸는 기술은 잠재력이 크지만, 효율적이고 규모 확장이 가능한 연료 생산 플랫폼은 초기 단계이며, 특히 기체 반응물과 생성물을 미생물과 주고받는 것이 걸림돌이다.",
+      "methods": "공기-물 경계면에서 작동해 기체 반응물 공급, 기체 생성물 포집, 햇빛 전달을 동시에 돕는 부유형 미생물 장치를 만들고, 이 연구에서 처음 질소 고정 활성을 확인한 Rhodopseudomonas parapalustris를 탑재했다.",
+      "findings": "부유형 장치는 시간당 제곱미터당 104 mmol의 수소를 생산해 배지 2 cm 깊이에 둔 기존 장치보다 53배 높았다. 144 cm² 크기로 확장한 장치도 시간당 제곱미터당 1.52 L의 높은 속도로 수소를 생산했다.",
+      "significance": "효율적인 질소 고정과 수소 생산, 낮은 제작 비용, 기계적 내구성으로 실용적인 태양 에너지 전환 가능성을 보여준다."
+    },
     "openalex_url": "https://openalex.org/W4386946702",
     "retrieved_at": "2026-10-04"
   },
@@ -35679,7 +36003,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "같은 미뢰에서 미각 세포의 기능 반응과 유전자 발현을 연결하는 상관 이미징 플랫폼을 개발한 연구.",
+      "background": "미각 세포 생리를 이해하려면 유전자 발현부터 기능 반응까지 다양한 정보가 필요하지만, 미각 세포에서 단일세포 수준의 유전·기능 정보를 함께 얻는 방법은 없었다.",
+      "methods": "근적외선 표지(near-infrared branding, NIRB)로 살아 있는 조직과 고정 조직의 공간 대응을 확보해, 온전한 미뢰의 같은 영역에서 기능 영상과 제자리 혼성화 또는 면역형광 데이터를 얻는 플랫폼을 개발했다.",
+      "findings": "생체 내 신맛 세포가 탄산탈수효소 IV(CA4)를 전사와 번역 수준에서 특이적으로 발현함을 보였다. 미각 신경의 단맛/감칠맛 이중 반응은 주로 Tas1R 모든 아형을 함께 발현하는 미각 세포의 시냅스 입력으로 매개되었다.",
+      "significance": "선호 맛의 조합적 부호화를 시사하며 미각 정보 처리에 대한 깊은 이해를 도울 수 있다."
+    },
     "openalex_url": "https://openalex.org/W4416829597",
     "retrieved_at": "2026-10-04"
   },
@@ -35841,7 +36171,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "환자의 전립선암 오가노이드와 암 연관 섬유아세포를 결합해 종양 미세환경을 재현하는 전립선암 어셈블로이드를 만든 연구.",
+      "background": "전립선암은 남성에서 가장 흔히 진단되는 악성 종양이지만, 국소 전립선암부터 거세 저항성 전립선암까지 여러 아형의 유전·표현형 특성과 기질 세포를 충실히 재현하는 전임상 모델이 부족했다.",
+      "methods": "국소 전립선암과 거세 저항성 전립선암 조직에서 종양 오가노이드를 만들고 해당 환자의 암 연관 섬유아세포(cancer-associated fibroblast, CAF)와 재구성해 어셈블로이드를 제작하고, 유전체·표현형 유사성과 약물 반응을 비교했다.",
+      "findings": "오가노이드는 원래 종양과 유전체 지형이 높은 일치도를 보였고, 어셈블로이드는 CAF 없는 오가노이드보다 원래 종양과 표현형이 더 비슷했다. 어셈블로이드는 증식이 늘고 항암 치료 감수성이 낮았다.",
+      "significance": "전립선암 생물학, 종양-CAF 상호작용 연구, 개인 맞춤 치료 표적 발굴에 유용한 도구를 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4409011662",
     "retrieved_at": "2026-10-04"
   },
@@ -35891,7 +36227,13 @@
         "domain": "Physical Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "AAVS1 안전 부위에 ChR2를 넣은 줄기세포로 바이러스 없이 빛으로 일관되게 조절되는 인간 전뇌 오가노이드를 만든 연구.",
+      "background": "스스로 조직화하는 뇌 오가노이드는 인간 발생과 질병 연구에 유망한 도구다.",
+      "methods": "AAVS1 안전 부위에 채널로돕신-2(ChR2)를 삽입한 인간 다능성 줄기세포를 만들어 전뇌 오가노이드로 분화시키고, 척수 오가노이드와 골격근 구상체를 연결한 복합 플랫폼에서 광자극 효과를 시험했다.",
+      "findings": "전뇌 오가노이드 전 영역에서 구조·기능 교란 없이 ChR2가 균일하게 발현되었고, 빛 자극에 일관되고 강한 신경 활성을 보여 바이러스 없이 신경 활동을 시공간적으로 제어할 수 있었다. 복합 플랫폼에서는 뇌 특이 광자극으로 강하고 일관된 근육 수축이 유도되었다.",
+      "significance": "정상·질환 인간 뇌의 신경 회로와 뇌-말초 조직 연결을 연구할 수 있는 전임상 인간 오가노이드 체계를 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4399471765",
     "retrieved_at": "2026-10-04"
   },
@@ -36109,7 +36451,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "줄기세포로 초기 포유류 배아 발생을 재현하는 블라스토이드, 합성 배아 등 체외 모델을 정리한 리뷰.",
+      "background": "줄기세포와 발생생물학의 최근 발견으로 초기 포유류 발생을 재현하는 체외 모델이 만들어져 배아 발생 연구에 전례 없는 기회가 열렸다.",
+      "methods": "인간과 생쥐 줄기세포로 만든 초기 배아 발생 모델에 관한 연구를 종합한 리뷰 논문이다.",
+      "findings": "줄기세포 생물학의 역사적 배경과 기본 원리를 짚고, 발생 단계별로 생체 배아를 재현하는 체외 모델을 소개하며, 이 모델들을 질병 모델링에 활용하는 방법과 향후 과제를 논의했다.",
+      "significance": "줄기세포 기반 배아 모델이 임상에서 쓰일 수 있는 모델로 발전하기 위한 방향을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4387235387",
     "retrieved_at": "2026-10-04"
   },
@@ -36199,7 +36547,13 @@
         "domain": "Physical Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "네트워크 기반 기계학습(NetBio)으로 면역관문억제제 치료 반응을 여러 암에서 예측한 연구.",
+      "background": "면역관문억제제(immune checkpoint inhibitor, ICI)는 암 환자 생존을 크게 개선했지만 고형암에서 반응하는 환자는 약 30%에 불과하고 기존 바이오마커는 반응 예측에 자주 실패한다.",
+      "methods": "네트워크 기반 분석으로 ICI 치료 바이오마커를 고르는 기계학습 체계 NetBio를 개발하고, 임상 결과와 전사체 데이터가 있는 700개 이상의 ICI 치료 환자 표본으로 검증했다.",
+      "findings": "NetBio 기반 예측은 흑색종, 위암, 방광암 세 암종에서 ICI 반응을 정확히 예측했고, ICI 표적이나 종양 미세환경 지표 같은 기존 바이오마커 기반 예측보다 우수했다.",
+      "significance": "정밀 종양학을 위해 면역치료 반응 관련 바이오마커를 효과적으로 고르는 네트워크 기반 방법을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4283662269",
     "retrieved_at": "2026-10-04"
   },
@@ -36999,7 +37353,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "침입 해충인 유리알락하늘소와 알락하늘소의 첫 염색체 수준 기준 유전체를 조립한 연구.",
+      "background": "유리알락하늘소(Anoplophora glabripennis)와 알락하늘소(A. malasiaca)는 북미와 유럽에 유입되어 경제적으로 중요한 활엽수림에 큰 피해를 준 해충이다. 유리알락하늘소는 기준 유전체가 처음 만들어진 하늘소지만 스캐폴드 수준에 머물러 염색체 수준 분석이 제한되었다.",
+      "methods": "PacBio HiFi 긴 읽기와 Pore-C 염색질 구조 포착 시퀀싱으로 두 종의 유전체를 조립하고 동기성(synteny) 분석과 유전자 주석을 수행했다.",
+      "findings": "두 유전체의 크기는 각각 730.1 Mbp와 708.0 Mbp, 스캐폴드 N50은 81.3 Mbp와 43.9 Mbp였다. 각각 96.7%와 95.2%가 10개와 15개의 염색체 수준 스캐폴드에 배치되었고 X 염색체를 확인했다. 반복 서열은 66.5%와 65.5%였고, 단백질 암호화 유전자 14,624개와 13,814개를 주석했다.",
+      "significance": "목재 섭식과 온대 적응의 유전체 기반을 비교 연구할 틀과 침입 개체군 관리 전략의 기반을 제공한다."
+    },
     "openalex_url": "https://openalex.org/W7134940339",
     "retrieved_at": "2026-10-04"
   },
@@ -37299,7 +37659,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "개 149품종의 형질과 유전체를 분석해 체격과 침흘림이 수명과 관련된 후보 요인임을 제시한 연구.",
+      "background": "크고 무거운 개가 수명이 짧다는 것은 잘 알려져 있지만, 체격 외에 수명과 관련된 형질이 있는지는 불분명했다.",
+      "methods": "미국 켄넬 클럽과 동료 심사 자료로 149품종의 체격, 수명, 주둥이 비율, 털 빠짐 등 20개 표현형 행렬을 만들고, 보정 표현형을 이용한 전장 유전체 연관 분석, 멘델 무작위 분석 같은 통계 검증, 침샘 차등 유전자 발현 분석을 수행했다.",
+      "findings": "침흘림이 수명 및 체질량 지수와 연관될 수 있었고, 침샘 분석에서 과다 침분비 관련 단백질이 관찰되었다. 수명 관련 표현형에 영향을 줄 수 있는 후보 유전자로 IGSF1, PACSIN2, PIK3R1, MCCC2를 찾았다.",
+      "significance": "체격과 침흘림이 개 수명에 영향을 주는 후보 요인일 수 있음을 유전적으로 시사한다."
+    },
     "openalex_url": "https://openalex.org/W4404634857",
     "retrieved_at": "2026-10-04"
   },
@@ -37699,7 +38065,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "모든 현존 아과를 포함한 다중 유전자 분석으로 꼽등이과의 계통과 생물지리 역사를 재구성한 연구.",
+      "background": "꼽등이(Rhaphidophoridae)는 메뚜기목 안의 오래되고 날개 없는 계통으로 남극을 제외한 전 세계에 분포하며, 각 아과의 고유성이 높다.",
+      "methods": "미토콘드리아와 핵 유전자좌의 다중 유전자 데이터셋으로 현존 모든 아과를 처음 포함한 계통수를 만들고, 분기 시간 추정과 조상 분포 재구성으로 생물지리 분석을 수행했다.",
+      "findings": "Anoplophilinae와 Gammarotettiginae의 자매 관계를 포함한 아과 간 관계를 밝히고 새로운 공유 파생 형질을 제안했다. 캘리포니아의 Gammarotettiginae는 베링 육교로 아시아와 아메리카가 이어졌을 때 아시아 계통에서 기원했고, 서부 내륙 해로의 형성이 북미에서 Ceuthophilinae와 Tropidischiinae의 분리에 영향을 주었다고 제안했다. 꼽등이과는 약 1억 3,800만 년 전 판게아 전역에서 기원한 것으로 추정했다.",
+      "significance": "꼽등이의 날개 상실이 중생대 저온에 대한 적응일 수 있다는 가설을 포함해 생물지리 역사에 대한 새로운 가설을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4393411999",
     "retrieved_at": "2026-10-04"
   },
@@ -38199,7 +38571,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "긴 읽기와 짧은 읽기를 결합한 초파리 유충 혈구 전사체 지도로, 기생벌 감염 때 유도되는 새로운 긴 비암호화 RNA 349개를 찾은 연구.",
+      "background": "초파리 유충 혈구가 일으키는 선천 면역 반응은 잘 연구되었지만, 그 밑에 있는 전사·전사 후 조절의 전모는 잘 알려지지 않았다.",
+      "methods": "Oxford Nanopore 긴 읽기와 Illumina 짧은 읽기 시퀀싱을 결합한 하이브리드 전략으로 전사체를 주석하고, 긴 읽기 cDNA 특유의 내부 프라이밍 인공물을 제거했으며, 단일세포 분석과 RNAi 억제 실험을 수행했다.",
+      "findings": "5′·3′ 경계가 새로운 전장 전사체를 찾았고, 기생벌 감염 후기에 크게 유도되는 미주석 긴 비암호화 RNA(lncRNA) 349개를 발견했다. 신뢰도 높은 전사체 모델로 라멜로사이트와 결정세포의 세포 유형 특이 lncRNA 표지를 찾았으며 혈구 분화 궤적이 재현되었다. 크게 유도되는 lncRNA 두 개를 RNAi로 줄이면 기생벌 감염 시 라멜로사이트 형성이 손상되었다.",
+      "significance": "초파리 유충 면역 전사체에 대한 상세한 정보를 제공하고 선천 면역에서 비암호화 RNA의 조절 역할을 부각한다."
+    },
     "openalex_url": "https://openalex.org/W7202203329",
     "retrieved_at": "2026-10-04"
   },
@@ -38355,7 +38733,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "인간 거대세포바이러스가 숙주 L1 레트로트랜스포존 단백질을 끌어들여 바이러스 DNA 복제를 가속한다는 연구.",
+      "background": "바이러스와 트랜스포존 같은 유전 기생체는 숙주 구성 요소를 이용해 복제하지만, 숙주 세포 안에서 바이러스와 트랜스포존의 상호작용은 거의 알려지지 않았다.",
+      "methods": "HCMV 감염 세포에서 L1 발현 조절, L1 발현과 바이러스 복제 적합도의 관계를 분석하고, 친화 단백체 분석으로 L1 리보핵산단백질 복합체에 결합하는 바이러스 단백질을 찾았다.",
+      "findings": "HCMV 감염은 L1 활성 전사인자 YY1과 RUNX3 발현과 L1 프로모터의 염색질 접근성을 높여 L1 발현을 늘렸고, 늘어난 L1은 HCMV 복제 적합도를 높였다. 바이러스 DNA 중합효소 소단위 UL44가 L1 RNP 복합체에 가장 많이 결합하는 바이러스 단백질이었고, L1 ORF2p와 직접 상호작용해 복제 구획에서 DNA 손상 반응을 유도했다. L1 유도 돌연변이 증가는 관찰되지 않았지만, UL44-ORF2p 상호작용은 복제 스트레스를 완화해 바이러스 DNA 복제를 가속했다.",
+      "significance": "바이러스가 숙주 레트로트랜스포존을 이용해 적합도를 높이는 새로운 전략을 밝힌다."
+    },
     "openalex_url": "https://openalex.org/W4402125683",
     "retrieved_at": "2026-10-04"
   },
@@ -38411,7 +38795,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "인간 거대세포바이러스의 긴 비암호화 RNA가 바이러스 전사체의 큰 비중을 차지하고 m6A 변형으로 안정화되며 잠복·용해 감염에 필수임을 밝힌 연구.",
+      "background": "작은 유전체는 바이러스에 유리하지만 인간 거대세포바이러스(HCMV)는 RNA1.2, RNA2.7, RNA4.9, RNA5.0 같은 긴 비암호화 RNA(lncRNA)를 발현하며, 그 기능은 거의 알려지지 않았다.",
+      "methods": "바이러스 생활사 전반에서 lncRNA의 양과 기능을 억제 실험으로 분석하고, 나노포어 직접 RNA 시퀀싱과 상호작용체 분석으로 전사 후 특성을 조사했다.",
+      "findings": "HCMV lncRNA는 생활사 전반에서 전체 바이러스 전사체의 약 30%, poly(A)+ 전사체의 50–60%를 차지했다. 많이 발현되는 RNA1.2, RNA2.7, RNA4.9는 모든 감염 상태에서 필수로 보였고, RNA2.7과 RNA4.9를 줄이면 각각 잠복 저장소 유지와 용해 복제 촉진에 가장 큰 결함이 생겼다. lncRNA는 N6-메틸아데노신(m6A)으로 변형되어 m6A 판독 단백질과 상호작용했고, m6A 기구가 lncRNA를 안정화했다.",
+      "significance": "HCMV 생활사 전반에서 바이러스 lncRNA가 매개하는 숙주-바이러스 상호작용 이해의 기반을 마련한다."
+    },
     "openalex_url": "https://openalex.org/W4308765700",
     "retrieved_at": "2026-10-04"
   },
@@ -38611,7 +39001,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "단분자 힘 분광법 등으로 밝혀진 막단백질 접힘 경로의 공통 양상과 진화적 균형을 정리한 리뷰.",
+      "background": "막단백질 접힘 연구는 박테리오로돕신 같은 단순 체계에서 ABC 수송체와 전압 개폐 이온 채널 같은 복잡한 구조로 발전했고, 단분자 힘 분광법과 생체 내 힘 프로파일링으로 아미노산 해상도의 접힘 경로 분석이 가능해졌다.",
+      "methods": "막단백질 접힘 경로 연구를 종합한 리뷰 논문이다.",
+      "findings": "막단백질은 소수성 붕괴가 없고 지질 이중층이 점성이 있어 울퉁불퉁한 에너지 지형을 지나며 접힘 속도에 한계가 있다. 많은 막관통 나선은 기능을 위해 소수성이 낮아 삽입 장벽이 높아지는 기능-접힘성 절충을 보이며, 이런 나선은 Sec61 전위체와 소포체 막단백질 복합체의 도움을 받아 N-말단에서 C-말단 방향으로 나선 머리핀 형태로 삽입·접힌다. 다중 도메인 막단백질은 도메인을 가로지르는 알로스테릭 네트워크로 접힘 경로가 정해지고, N-말단 도메인은 접힘성, C-말단 도메인은 기능성을 높이는 도메인 특화가 흔한 진화 전략으로 보인다.",
+      "significance": "진화가 생물물리적 제약 속에서 막단백질 서열을 접힘성, 안정성, 기능성에 맞게 조율해 왔다는 관점을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4410117871",
     "retrieved_at": "2026-10-04"
   },
@@ -38711,7 +39107,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "적은 수의 세포에서 BCL2 계열 단백질 상호작용 20여 종을 정량해 급성 골수성 백혈병의 BH3 모방체 약효를 예측한 연구.",
+      "background": "BH3 모방체는 BCL2 계열 항세포사멸 단백질을 포화시켜 암세포 사멸을 유도하는 단백질-단백질 상호작용(PPI) 억제제로, ABT-199가 혈액암 치료에 성공했지만 일부 환자만 반응하고 대부분 결국 내성이 생긴다.",
+      "methods": "단분자 풀다운과 공동 면역침전으로 시료당 120만 개 세포에서 BCL2 계열 PPI 20여 종을 정량하고, 생체 외에서 측정한 BH3 모방체 약효와 비교해 예측 모델을 만들었다.",
+      "findings": "모델은 BCL2 계열 단백질의 두 복합체를 약효와 내성의 주요 매개자로 지목했으며, 급성 골수성 백혈병 환자의 치료 결정을 전향적으로 돕는 데 적용되었다.",
+      "significance": "임상 검체의 PPI 복합체 특성 분석이 개인 맞춤형 단백질 복합체 표적 치료의 길을 연다."
+    },
     "openalex_url": "https://openalex.org/W4400781625",
     "retrieved_at": "2026-10-04"
   },
@@ -39195,7 +39597,13 @@
         "domain": "Physical Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "단일 분자에 힘과 회전력을 가해 구조 변화를 고해상도로 측정하는 단분자 자기 집게 기술을 정리한 리뷰.",
+      "background": "단분자 자기 집게(magnetic tweezers)는 단일 표적 분자에 자기력과 회전력을 전달해 생체분자 구조와 상호작용의 동적 변화를 연구하게 해 준다.",
+      "methods": "고해상도 단분자 자기 집게 기술과 응용을 정리한 리뷰 논문이다.",
+      "findings": "자기장이 수십 mm에 걸쳐 천천히 변하므로 실험 중 1–100 pN의 생물학적 힘을 거의 일정하게 유지할 수 있다. 더 작은 자성 비드와 짧은 연결 구조, 고속 카메라, 강한 광원, GPU를 쓰면 밀리초 이하 시간 척도에서 나노미터 변화를 추적할 수 있다. 힘 고정 능력으로 평형에 가까운 조건에서 분자 현상의 에너지 지형을 직접 그릴 수 있다.",
+      "significance": "기계적 신호 전달과 단백질 접힘 등 단일 단백질 분자의 중요한 구조 변화를 관찰하는 도구로서의 가능성을 정리한다."
+    },
     "openalex_url": "https://openalex.org/W4220888435",
     "retrieved_at": "2026-10-04"
   },
@@ -39857,7 +40265,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "RbohC와 RbohE가 만드는 활성산소 진동 회로가 애기장대 뿌리골무 주축세포의 분열과 탈락을 조율한다는 연구.",
+      "background": "초록에서 확인 불가",
+      "methods": "애기장대 뿌리골무 주축세포(columella)에서 활성산소(ROS) 수준을 관찰하고, 화학 억제제나 외부 ROS로 진동을 교란했으며, ROS 생성 효소와 그 조절자, 옥신 수송체에 대한 영향을 분석했다.",
+      "findings": "ROS 수준은 주축세포 발달 주기 동안 진동했다. 진동을 교란하면 주축세포 시원세포 분열과 탈락이 손상되었다. RbohC와 RbohE가 주요 ROS 생산자였고 NAC 전사인자 ANAC33/SOMBRERO에 의해 음성 조절되었다. ROS 진동은 옥신 수송체 PIN-FORMED2를 조절해 옥신 분포에도 영향을 주었다.",
+      "significance": "ROS와 옥신 신호를 통합해 뿌리골무 교체를 조율하는 산화환원 기반 기전을 밝힌다."
+    },
     "openalex_url": "https://openalex.org/W4416344885",
     "retrieved_at": "2026-10-04"
   },
@@ -40181,7 +40595,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "개구리밥(Spirodela polyrhiza)의 잎 모양체 통기조직이 세포 사멸과 증식의 균형, 식물 호르몬 신호로 조직된다는 연구.",
+      "background": "공기 공간 또는 통기조직(aerenchyma)은 식물 발달과 저산소, 가뭄, 영양 결핍 적응에 중요하다. 에틸렌 신호가 저산소에서 줄기와 뿌리의 통기조직 형성을 조절한다고 알려졌지만 정확한 기전과 지상부 공기 공간 형성의 세포 동역학은 잘 알려지지 않았다.",
+      "methods": "물에 뜨는 잎 모양체에 통기조직이 발달한 큰개구리밥에서 X선 미세 컴퓨터 단층촬영과 조직학 분석으로 단계별 구조 변화를 관찰하고, 전사체 분석과 약리 실험을 수행했다.",
+      "findings": "통기조직의 공간 틀은 세포 분열과 팽창으로 잎 모양체 부피가 커지기 전에 확립되었다. 통기조직과 기공을 잇는 기공 아래 공간은 예정 세포 사멸(PCD)로 형성되었고 공변세포 발달과 밀접히 연관되었다. 통기조직 조직화는 PCD와 증식의 상호작용으로 결정되었고, 이 균형은 에틸렌, 앱시스산, 살리실산 신호의 시공간적 조절로 지배되었다.",
+      "significance": "식물이 독특한 구조 배열을 만드는 방식을 이해하고, 다른 식물 종과 육상 식물 잎의 공기 공간 형성 연구에 응용될 수 있다."
+    },
     "openalex_url": "https://openalex.org/W4393901603",
     "retrieved_at": "2026-10-04"
   },
@@ -40281,7 +40701,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "식물 세포 밖에서 만들어진 활성산소가 세포 안의 신호 표적에 도달하는 경로를 정리한 리뷰.",
+      "background": "활성산소(ROS)는 발달과 신호 전달을 조절하는 이차 전령이며 식물에서는 주로 RBOH(NADPH 산화효소)가 만든다. 그러나 RBOH는 세포 밖에서 막을 잘 통과하지 못하는 초과산화물(O2•−)을 만들어, 세포질 신호에 필요할 것으로 예상되는 ROS의 종류·위치와 다르다.",
+      "methods": "세포 밖 ROS(eROS)의 작용 기전에 관한 연구를 종합한 리뷰 논문이다.",
+      "findings": "eROS가 초과산화물 불균등화효소로 H2O2가 된 뒤 아쿠아포린으로 유입된다는 기존 모델이 표적 특이성과 손상 최소화를 설명하지 못한다는 점을 짚고, 아포플라스트에서의 eROS 감지, eROS와 활성질소종의 교차, 세포 내 소기관의 세포질 ROS 폭발 기여 등 최근 발견을 정리했다.",
+      "significance": "eROS로 인한 변화가 세포 안으로 전달되는 경로에 대한 개관을 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4321165447",
     "retrieved_at": "2026-10-04"
   },
@@ -40531,7 +40957,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "토지 이용 교란 경사와 배설물 종류에 따른 소똥구리 다양성을 분석해 보전 우선 서식지를 찾은 연구.",
+      "background": "토지 이용 변화와 과도한 이용으로 소똥구리가 감소하고 있어, 보전을 위해 우선 서식지와 관련 종을 찾을 필요가 있다.",
+      "methods": "도시, 농경지, 침엽수림, 활엽수림의 교란 경사에 멧돼지, 소, 삵 배설물을 미끼로 한 함정 트랩을 설치하고 분류학적·기능적 다양성 지수를 분석했다.",
+      "findings": "대부분의 경우 활엽수림이 가장 중요한 서식지였지만, 작은 소똥구리와 배설물 내부 거주형은 농경지를 선호했다. 배설물 종류에서는 모든 경우 멧돼지 배설물을 선호했고 소와 삵 배설물 선호는 유의하게 낮았다.",
+      "significance": "활엽수림, 농경지, 멧돼지가 소똥구리 보전에 중요함을 여러 지수로 보여준다."
+    },
     "openalex_url": "https://openalex.org/W4414585420",
     "retrieved_at": "2026-10-04"
   },
@@ -40681,7 +41113,13 @@
         "domain": "Physical Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "고라니 배설물에서 싹튼 종자를 분석해 고라니가 숲에서 특정 형질의 종자를 일관되게 산포한다는 연구.",
+      "background": "유제류의 체내 섭식 종자 산포(endozoochory)는 종자를 멀리 퍼뜨리고 특정 형질의 종자만 산포하는 생태적 여과 역할을 할 수 있으며, 고라니는 한국 저지대에서 잠재적 장거리 종자 산포자다.",
+      "methods": "경기도 광주 태화산 학술림에서 신선한 고라니 배설물 202개 무더기를 수집해 유묘 출현법으로 종자를 확인하고, 식생 조사와 이전 저지대 연구 결과와 비교했다.",
+      "findings": "배설물에서 22종, 유묘 115개체가 나왔고 배설물 무더기의 19.8%에 발아 가능한 종자가 하나 이상 있었다. 길이 2 mm 이하의 작은 종자를 가진 개방 서식지 초본, 산포를 위한 특수 형태가 없는 종자가 가장 많이 산포되었으며, 이는 이용 가능한 식물상이 달라도 이전 저지대 연구와 일치했다.",
+      "significance": "고라니가 숲 식물 군집에 특정 형질의 종자를 산포하는 일관된 생태적 여과자로 작용할 수 있음을 시사한다."
+    },
     "openalex_url": "https://openalex.org/W4308742853",
     "retrieved_at": "2026-10-04"
   },
@@ -40731,7 +41169,13 @@
         "domain": "Physical Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "북극 스발바르에서 토양 세균 군집이 식물 종보다 지역 환경과 토양 pH에 더 크게 좌우된다는 연구.",
+      "background": "북극 생태계는 해빙 감소, 영구동토 해빙, 빙하 후퇴로 빠르게 변하고 있으며, 북극 토양 미생물 군집 구조를 이해하는 것은 기후 변화가 극지 생물 상호작용에 미칠 영향을 예측하는 데 중요하다.",
+      "methods": "스발바르 뉘올레순의 석탄 채굴지와 해안 인접지에서 식생 없는 토양과 북극 식물 세 종(Cassiope tetragona, Dryas octopetala, Silene acaulis)의 근권 토양의 세균 군집과 토양 화학 특성을 분석했다.",
+      "findings": "식물 근권 사이에서는 미생물 군집 구조의 뚜렷한 차이가 없었지만 지역 환경에 따라 군집 구조가 달랐다. 석탄 채굴지 시료는 Bacteroidetes와 Firmicutes가, 해안 인접지 시료는 Acidobacteria가 상대적으로 많았다. Proteobacteria와 Acidobacteria는 토양 pH가 높을수록 줄었고 Bacteroidetes와 Firmicutes는 pH와 양의 상관을 보였다.",
+      "significance": "빙하가 물러난 성숙 토양에서 세균 군집 차이는 공간적 이질성, 특히 생물 요인인 식물 종보다 비생물 요인인 토양 pH에 더 크게 좌우됨을 시사한다."
+    },
     "openalex_url": "https://openalex.org/W4302761376",
     "retrieved_at": "2026-10-04"
   },
@@ -40893,7 +41337,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "알려진 5′ 말단 서열을 공유하는 저발현 RNA 이소폼을 2시간 안에 선택적으로 증폭·정량하는 STALARD 기법을 개발한 연구.",
+      "background": "RNA 이소폼의 정확한 정량은 유전자 조절 이해에 중요하지만, 일반 RT-qPCR은 저발현 이소폼 감도가 낮아 Cq 30 이상은 신뢰하기 어렵고, 전사체 분석은 비용이 크며, 이소폼 특이 qPCR은 프라이머 효율 차이로 혼동되기 쉽다.",
+      "methods": "표준 실험 시약으로 알려진 5′ 말단 서열을 공유하는 폴리아데닐화 전사체를 선택적으로 증폭하는 2단계 RT-PCR 기법 STALARD를 개발해 애기장대에 적용하고 나노포어 시퀀싱과 결합했다.",
+      "findings": "STALARD는 저발현 VIN3 전사체를 신뢰할 수 있게 정량 가능한 수준으로 증폭했다. FLM, MAF2, EIN4, ATX2 이소폼 증폭은 춘화 중 알려진 스플라이싱 변화를 반영했으며 일반 RT-qPCR이 검출하지 못한 경우도 포함했다. 극저발현 안티센스 전사체 COOLAIR를 일관되게 정량해 이전 연구 간 불일치를 해소했고, 나노포어 시퀀싱과 결합해 기존 주석에 없는 COOLAIR 폴리아데닐화 부위를 찾았다.",
+      "significance": "이소폼 특이 5′ 말단 서열을 알 때 저발현 전사체를 민감하고 간단하게 정량하고 새로운 3′ 말단 구조를 찾는 범용 도구를 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4414629346",
     "retrieved_at": "2026-10-04"
   },
@@ -40949,7 +41399,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "저온 반응 전사인자 CBF가 춘화 중 안티센스 RNA COOLAIR 발현을 유도하지만 COOLAIR 자체는 춘화에 필수가 아니라는 연구.",
+      "background": "많은 식물은 긴 겨울 저온을 거쳐 개화가 촉진되는 춘화(vernalization)로 개화를 봄에 맞추며, 애기장대에서는 개화 억제 유전자 FLC의 저온 매개 후성유전 침묵으로 이루어진다. FLC 유전자좌에서 전사되는 저온 유도 안티센스 RNA COOLAIR가 FLC 침묵을 돕는다고 제안되었다.",
+      "methods": "FLC 3′ 말단의 C-반복/탈수 반응 요소(CRT/DRE)와 이에 결합하는 CBF의 결합을 시험관·생체 내에서 확인하고, 모든 CBF 유전자를 없앤 돌연변이, CBF 과발현 식물, COOLAIR 결손 FLC 돌연변이를 분석했다.",
+      "findings": "CBF는 FLC 3′ 말단 CRT/DRE에 결합했고 춘화 중 CBF 수준이 점차 증가했다. cbfs 돌연변이에서는 저온 유도 COOLAIR 발현이 크게 손상되었고, CBF 과발현 식물은 따뜻한 온도에서도 COOLAIR가 늘었다. COOLAIR는 춘화 초기에 CBF로 유도되지만, FLC 염색질이 CBF가 결합할 수 없는 비활성 상태로 바뀌는 후기에는 줄었다. cbfs와 COOLAIR 결손 돌연변이는 저온에서 COOLAIR를 활성화하지 못해도 정상적인 춘화 반응을 보였다.",
+      "significance": "COOLAIR 발현 기전을 밝히는 동시에 COOLAIR가 춘화 과정에 필수가 아님을 보여준다."
+    },
     "openalex_url": "https://openalex.org/W4318754281",
     "retrieved_at": "2026-10-04"
   },
@@ -41049,7 +41505,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "자율 경로 유전자가 염색질 기반 기전으로 개화 억제 유전자 FLC를 억제하는 최신 연구를 정리한 리뷰.",
+      "background": "영양 생장에서 생식 생장으로의 전환인 개화 시기는 식물 적합도에 중요하며, 애기장대에서는 개화 억제 유전자 FLC가 주요 결정 요인이다. 빨리 개화하는 계통에서는 자율 경로(autonomous pathway, AP) 유전자가 광주기와 무관하게 주로 히스톤 변형으로 FLC를 억제하지만 자세한 기전은 불분명했다.",
+      "methods": "AP 단백질의 FLC 억제 기전에 관한 연구를 종합한 리뷰 논문이다.",
+      "findings": "염색질 구조 변화, RNA 중합효소 일시정지, 액체-액체 상분리, 비암호화 RNA 매개 유전자 침묵 등 AP 단백질이 FLC를 억제하는 새로운 기전과 각 기전이 FLC 염색질의 히스톤 변형과 연결되는 방식을 정리했다.",
+      "significance": "개화 시기 조절의 염색질 기반 기전 이해를 넓힌다."
+    },
     "openalex_url": "https://openalex.org/W4291152235",
     "retrieved_at": "2026-10-04"
   },
@@ -41155,7 +41617,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "선충류에서 텔로미어 결합 단백질의 결합 특이성 차이와 간헐적 유전자 소실이 새로운 텔로미어 반복 서열 진화와 연관된다는 연구.",
+      "background": "텔로미어는 선형 염색체 끝을 보호하는 핵단백질 복합체로, 반복 DNA와 이에 특이적으로 결합하는 단백질로 이루어져 반복 모티프가 진화하기 어렵다고 여겨졌지만, 최근 표준 TTAGGC와 다른 텔로미어 반복을 가진 선충이 발견되었다.",
+      "methods": "선충류 텔로미어 결합 단백질(TBP) 두 종류에 대해 계통 분석과 전기영동 이동성 변화 분석(EMSA)으로 결합 친화도를 평가했다.",
+      "findings": "잘 보존된 단백질 CEH-37은 특이성이 제한적이어서 TTAGGG 모티프를 제외한 선충의 텔로미어 반복들을 구별하지 못했고, 덜 보존된 POT 단백질들은 엄격한 특이성을 보였다.",
+      "significance": "새로운 텔로미어 반복 모티프의 출현이 TBP의 특성과 진화적 결과와 관련됨을 보여 단백질과 DNA의 공진화 이해를 넓힌다."
+    },
     "openalex_url": "https://openalex.org/W4410312204",
     "retrieved_at": "2026-10-04"
   },
@@ -41595,7 +42063,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "예쁜꼬마선충 두 계통으로 HiFi와 CLR 긴 읽기 시퀀싱의 변이 검출 성능을 비교해, 10배 깊이 조립 기반 변이 검출을 제안한 연구.",
+      "background": "긴 읽기 시퀀싱 기술의 발전으로 개인이나 세포의 모든 유전 변이를 정확히 찾는 변이 검출이 가능해졌지만, 서로 다른 긴 읽기 기술의 변이 검출 성능을 비교한 기준 연구는 부족했다.",
+      "methods": "계통 제작 중 도입된 참양성 변이를 공유하는 예쁜꼬마선충 두 계통에서 고정확도(HiFi)와 연속 긴 읽기(CLR) 데이터를 얻어 변이 검출 성능을 비교하고, 읽기 기반·조립 기반 방법을 여러 시퀀싱 깊이로 비교했다.",
+      "findings": "HiFi는 CLR보다 참양성 변이를 평균 1.65배 더 많이 찾았고 위양성은 60% 적었다. 정확한 긴 읽기 데이터 10배 깊이에서도 유전체 조립 후 변이 검출이 특히 큰 삽입 검출에 효과적이었다.",
+      "significance": "HiFi의 높은 비용을 고려해 비용 효율적이고 질 높은 10배 조립 기반 변이 검출을 제안하며, 집단 수준 전체 변이 식별 방법 개발에 기여한다."
+    },
     "openalex_url": "https://openalex.org/W4361019137",
     "retrieved_at": "2026-10-04"
   },
@@ -41951,7 +42425,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "원형질연락사를 통해 이동하는 조절 인자가 애기장대 뿌리의 물관, 체관, 형성층 발달을 어떻게 조율하는지 정리한 리뷰.",
+      "background": "관다발 조직은 식물의 수송·지지 체계로 물·영양 흡수와 장거리 신호, 생장 조절을 통합하며, 뿌리에서는 위아래 축과 방사 축을 따라 역동적으로 발달하면서 환경 변화에 반응해야 한다.",
+      "methods": "애기장대 뿌리 관다발 발달에서 이동성 조절 인자에 관한 연구를 종합한 리뷰 논문이다.",
+      "findings": "원형질연락사(plasmodesmata)를 통한 펩타이드, 전사인자, 작은 RNA의 이동이 세포 분열, 운명 결정, 분화를 조율한다는 점, 공간적으로 제한되고 방향성 있는 신호 이동이 조직 경계를 정하고 줄기세포 활성을 유지하며 계보 진행을 이끈다는 점을 정리했다. 원형질연락사 투과성의 동적 조절이 생물·비생물 스트레스 신호를 관다발 발달 프로그램에 통합한다는 점도 논의했다.",
+      "significance": "원형질연락사 매개 세포 간 이동을 관다발 패턴과 발달 회복력을 잇는 핵심 조절층으로 자리매김한다."
+    },
     "openalex_url": "https://openalex.org/W7135029435",
     "retrieved_at": "2026-10-04"
   },
@@ -42051,7 +42531,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "식물 위험 신호 펩타이드 PEP1에 대한 뿌리 분열조직 반응을 시간대별로 분석해 STZ가 생장-방어 균형의 연결점임을 밝힌 연구.",
+      "background": "높아진 스트레스 신호는 분열조직의 증식·형성 분열을 억제해 식물 생장을 해친다. 생물·비생물 스트레스로 유발되는 내인성 위험 신호인 식물 유도 펩타이드(plant elicitor peptide)는 애기장대 뿌리에서 증식 분열을 억제하고 물관 배열을 바꾸며 세포 간 연결을 끊는다.",
+      "methods": "합성 PEP1 처리 후 뿌리 분열조직의 시간대별 RNA 시퀀싱을 수행하고, 기능·표현형·전사체 분석으로 STZ의 역할을 조사했다.",
+      "findings": "SALT TOLERANCE ZINC FINGER(STZ)와 그 상동 유전자가 스트레스 반응과 증식 세포주기 조절을 잇는 잠재적 연결점이었다. STZ는 뿌리 분열조직의 조직층마다 세포주기, 세포 분화, 스트레스 반응 유전자를 다르게 조절했고, 생장-방어 절충을 가능하게 하는 결정적 STZ 발현 수준을 찾았다.",
+      "significance": "위험 신호 인지 시 뿌리 분열조직의 동적 유전자 발현 변화를 밝혀 스트레스에 강한 식물을 만드는 공학 전략에 정보를 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4405597039",
     "retrieved_at": "2026-10-04"
   },
@@ -42207,7 +42693,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "내한성이 다른 대목에 접목한 사과에서 대목과 접수 사이를 이동할 가능성이 있는 mRNA 544개를 찾은 연구.",
+      "background": "접목 사과에서 대목 유래 신호는 겨울을 나기 위한 생리 변화를 시작해 접수의 내한성에 영향을 준다.",
+      "methods": "내한성 대목 'G202'와 저온 민감 대목 'M9'에 'Gala'를 접목한 두 조합의 겨울철 줄기 바깥층(관다발 포함)에서 전사체·대사체 데이터를 만들고, 이동 가능 mRNA 일부를 유전체 변이 추적과 담배·애기장대 실험으로 검증했다.",
+      "findings": "두 접목 조합의 차등 발현 유전자는 서로 다른 발현 동역학을 보여 접수 내한성이 대목 유전형에 의존함을 뒷받침했다. 대목과 접수 사이에서 계절 동역학의 상관이 높은 이동 가능 mRNA 544개를 찾았고 일부의 이동성을 검증했으며, 애기장대에서 RNA 이동성을 가진 저온 조절 네트워크에 속하는 상동 유전자를 확인했다.",
+      "significance": "저온에 반응하는 대목-접수 간 유전자 상호작용과 신호 교환을 포괄적으로 보여 접목 과수 작물의 내한성 향상 연구에 기여한다."
+    },
     "openalex_url": "https://openalex.org/W4384663727",
     "retrieved_at": "2026-10-04"
   },
@@ -42307,7 +42799,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "두 A62 압타머를 연결한 이량체 압타머가 인슐린 수용체를 완전히 인산화시키는 구조적 기전을 밝힌 연구.",
+      "background": "저자들은 인슐린 수용체(IR)를 부분적으로 활성화하는 DNA 압타머 A62를 찾았고, 생체 안정성을 높이려 두 A62를 링커로 연결하자 IR이 완전히 인산화되면서도 AKT 경로 선택성은 유지됨을 발견했다.",
+      "methods": "8 뉴클레오타이드 연결자로 이은 이량체 A62(A62D)와 결합한 IR의 구조를 결정했다.",
+      "findings": "화살촉형, 유사 화살촉형, 유사 감마형의 세 가지 IR 구조를 찾았고, 유사 감마형은 인슐린 한 분자가 결합한 완전 활성 IR과 매우 비슷했다. 이 구조들에서 A62D 중 하나의 A62 단량체만 IR 이량체에 결합해 IR 단량체들을 가깝게 만들어 분자 간 교차 인산화를 촉진했다.",
+      "significance": "IR을 표적하는 새로운 치료 전략 개발에 구조적 통찰을 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4411923482",
     "retrieved_at": "2026-10-04"
   },
@@ -44191,7 +44689,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "한국 조간대와 서태평양 해양 환경에서 Cladosporium 14종을 분리하고 그중 5종을 신종으로 기재한 연구.",
+      "background": "Cladosporium은 전 세계에 분포하는 곰팡이로 해양 환경에서도 발견되며, 해양 유래 종의 응용 연구는 많았지만 분류학적 연구는 드물었다.",
+      "methods": "한국 조간대와 서태평양 공해의 퇴적물, 해수, 해조류에서 Cladosporium을 분리하고 ITS, 액틴, 번역 신장 인자 1 유전자 표지로 다중 유전자 분석을 수행했으며 형태를 기재했다.",
+      "findings": "14종을 동정했고 그중 5종이 신종이었다: C. cladosporioides 종 복합체의 C. lagenariiforme, C. maltirimosum, C. marinum, C. herbarum 종 복합체의 C. snafimbriatum, C. sphaerospermum 종 복합체의 C. marinisedimentum.",
+      "significance": "덜 연구된 해양 서식지의 Cladosporium 다양성을 밝히고 신종의 형태·분자 특징을 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4379230165",
     "retrieved_at": "2026-10-04"
   },
@@ -44441,7 +44945,13 @@
         "domain": "Physical Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "한국 해안의 PET 플라스틱 쓰레기에서 곰팡이 108종을 분리하고 그중 87종이 PCL 플라스틱 분해 능력을 보임을 확인한 연구.",
+      "background": "플라스틱 쓰레기는 해양 생태계에 해를 끼치며 계속 늘고 있고, 여러 미생물을 이용한 플라스틱 생분해 연구가 이루어져 왔다.",
+      "methods": "한국 해안의 폴리에틸렌 테레프탈레이트(PET) 쓰레기 47개에서 곰팡이를 분리해 분자적으로 동정하고, 폴리카프로락톤(PCL) 한천 배지에서 투명대 지름을 비교해 분해 능력을 평가했다.",
+      "findings": "262개 균주를 분리해 108종을 동정했고, 87종이 다양한 정도의 PCL 분해 능력을 보였으며 일부 종은 강한 분해자였다.",
+      "significance": "플라스틱에 사는 일부 곰팡이가 해양에서 플라스틱을 분해할 가능성을 보여 해양 플라스틱권의 생물 정화 시스템 개발에 기반을 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4306174784",
     "retrieved_at": "2026-10-04"
   },
@@ -44891,7 +45401,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "Cas9 표적 나노포어 시퀀싱과 분석 파이프라인 RepeatLab으로 근긴장성 이영양증 1형의 긴 반복 서열 길이와 메틸화를 정확히 측정한 연구.",
+      "background": "직렬 반복 확장 질환은 반복이 200개를 넘으면 서던 블롯이나 변형 PCR 같은 표준 방법이 자주 실패해 진단이 어렵다.",
+      "methods": "Cas9 표적 나노포어 시퀀싱 워크플로와 자동 분석 파이프라인 RepeatLab을 개발하고, 근긴장성 이영양증 1형 시료 13개, 건강 대조군 4개, 세포주 4개로 검증했다.",
+      "findings": "이 접근법은 큰 확장에서 향상된 민감도와 정확도를 보였다. 긴 반복을 위한 대체 염기 판독 전략과 낮은 시퀀싱 처리량에서도 견고한 반복 길이 판정 알고리즘을 도입했고, DMPK 반복 영역 근처 5개 CpG 부위 그룹의 메틸화를 자동 보고했다. 처리 시간은 24시간 이내이고 비용은 표준 검사와 비슷했다.",
+      "significance": "쉽게 구할 수 있는 계산 자원과 호환되는 빠르고 비용 효율적인 진단 해법을 제공하며, 메틸화 정보로 더 세밀한 임상 평가에 도움을 줄 수 있다."
+    },
     "openalex_url": "https://openalex.org/W7153984209",
     "retrieved_at": "2026-10-04"
   },
@@ -45191,7 +45707,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "볼프람 증후군의 두 원인 유전자 WFS1과 CISD2가 IP3R 활성에 서로 필수이며 서로의 결핍을 보완할 수 있다는 연구.",
+      "background": "볼프람 증후군(Wolfram syndrome, WS)은 소아기 발병 당뇨, 시신경 위축, 요붕증, 감각신경성 난청이 특징이며, 원인 유전자 WFS1과 CISD2가 각각 1형과 2형에 해당한다.",
+      "methods": "WFS1 또는 CISD2 결핍 포유류 세포에서 IP3R 활성을 분석하고, dWFS1 또는 dCISD가 없는 초파리 WS 모델을 만들었으며, IP3R 상호작용에 중요한 CISD2의 CDGSH 도메인 펩타이드와 세포 투과 펩타이드 결합형을 시험했다.",
+      "findings": "WFS1과 CISD2는 이노시톨 삼인산 수용체(IP3R) 활성에 서로 필수였고, 각각이 다른 쪽 결핍 세포의 감소한 IP3R 활성을 회복시켰다. 초파리 WS 모델은 환자와 비슷한 당뇨 유사 표현형을 보였고 dWFS1과 dCISD 과발현으로 완화되었다. CISD2 펩타이드 과발현이나 세포 투과형 처리는 결핍 세포의 칼슘 항상성을 회복시켰고, 상동 dCISD 펩타이드는 초파리의 당뇨 유사 표현형을 억제했다.",
+      "significance": "소포체 칼슘 조절에서 WFS1과 CISD2의 관여를 밝히고 WS 관련 당뇨의 치료 가능성을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4409159198",
     "retrieved_at": "2026-10-04"
   },
@@ -45247,7 +45769,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "탈유비퀴틴화효소 UCHL1 손실이 초파리에서 신경 인슐린 저항성과 당뇨병성 감각 신경병증을 일으킨다는 연구.",
+      "background": "당뇨병성 감각 신경병증(diabetic sensory neuropathy, DSN)은 제2형 당뇨병의 가장 흔한 합병증 중 하나지만, 두 질환을 잇는 분자 기전은 밝혀지지 않았다.",
+      "methods": "초파리에서 신경세포에 많이 발현되는 탈유비퀴틴화효소 UCHL1을 결손·과발현시키고, IRS1 탈유비퀴틴화와 E3 연결효소 CUL1의 역할을 유전·약리적으로 분석했다.",
+      "findings": "UCHL1을 없애면 신경 인슐린 저항성과 당뇨 관련 증상이 생겼고, 외부 유해 자극에 대한 둔감함과 다리 감각 신경세포의 축삭 퇴행 같은 DSN 유사 표현형이 나타났다. UCHL1 과발현은 당뇨 모델 초파리의 DSN 유사 결함을 개선했다. UCHL1은 인슐린 수용체 기질 1(IRS1)을 탈유비퀴틴화해 인슐린 신호를 조절하고 IRS1의 E3 연결효소 CUL1에 길항했으며, CUL1 억제는 당뇨와 DSN 관련 표현형을 회복시켰다.",
+      "significance": "제2형 당뇨병과 DSN을 설명하는 유전 요인과 잠재적 치료법을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4390753551",
     "retrieved_at": "2026-10-04"
   },
@@ -45297,7 +45825,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "PINK1과 Parkin이 CISD1을 통해 IP3R 매개 소포체 칼슘 방출을 조절하며, CISD 억제가 파킨슨병 표현형을 회복시킨다는 연구.",
+      "background": "세포 내 칼슘 항상성 결함이 파킨슨병(PD) 발병에 관여한다고 알려져 있지만, 그 분자 기전은 불분명했다.",
+      "methods": "PINK1·Parkin 결손 포유류 세포와 초파리에서 이노시톨 삼인산 수용체(IP3R) 활성과 소포체 칼슘 방출을 측정하고, CISD1(mitoNEET)과 초파리 상동 유전자 CISD의 유전·약리적 억제 효과를 분석했다.",
+      "findings": "PINK1과 Parkin이 없으면 IP3R 활성이 조절되지 않아 소포체 칼슘 방출이 크게 늘었다. CISD1은 Parkin 하류에서 IP3R을 직접 조절했고, CISD1과 CISD를 억제하면 PINK1·Parkin 결손 세포와 초파리에서 늘어난 칼슘 방출이 회복되었다. 초파리에서 CISD 억제는 운동 결함과 도파민 신경세포 퇴행 등 PD 관련 표현형도 회복시켰다.",
+      "significance": "PINK1-Parkin 경로의 진화적으로 보존된 칼슘 항상성 조절 기전을 밝히고, CISD1과 IP3R을 통한 소포체 칼슘 방출 조절을 PD 치료 표적으로 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4386161533",
     "retrieved_at": "2026-10-04"
   },
@@ -45703,7 +46237,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "1만 년에 걸친 고대 소 166마리의 유전체로 동아시아 소의 기원과 변화 역사를 밝힌 연구.",
+      "background": "지난 5,000년간 동아시아 가축 소의 진화 역사는 대부분 밝혀지지 않았다.",
+      "methods": "멸종한 동아시아 오록스와 주요 고고학 문화의 가축 소를 포함해 1만 년에 걸친 고대 소 166마리의 샷건 유전체 서열을 분석했다.",
+      "findings": "동아시아와 북아시아 오록스는 서쪽 오록스와 구별되었지만 동아시아 오록스는 약 15%의 서쪽 조상을 가졌다. 황하 지역 최초의 가축 소는 조상의 약 10%를 지역 오록스에서 받았고 유전체 분포는 불균등했다. 신장 지역 초기 소는 유전적으로 구별되었고 이후 중국 북부 소에 일부 기여했다. 인디쿠스(혹소) 혼합은 중세에 들어서야 중국 북부에 널리 퍼졌다.",
+      "significance": "중국 소 유전 다양성의 기원과 진화를 고대 유전체로 재구성한다."
+    },
     "openalex_url": "https://openalex.org/W4417474750",
     "retrieved_at": "2026-10-04"
   },
@@ -46515,7 +47055,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "에게해 선사 시대 102명의 고대 유전체로 동쪽 유전자 흐름과 전례 없이 높은 빈도의 근친혼을 밝힌 연구.",
+      "background": "신석기와 청동기는 유럽 유전 역사의 큰 전환기였지만, 유럽 선사에 핵심적인 에게해 지역에서 문화 전환의 생물학적 측면은 제한적으로만 밝혀졌다.",
+      "methods": "신석기부터 철기까지 크레타, 그리스 본토, 에게해 섬의 고대인 102명에게서 새로 얻은 전장 유전체 데이터를 분석했다.",
+      "findings": "크레타 초기 농경민은 동시대 다른 에게해 신석기인과 같은 조상을 공유했다. 신석기 말과 초기 청동기에는 '동쪽' 유전자 흐름이 나타났고 크레타에서는 주로 아나톨리아 기원이었다. 중기 청동기 그리스 본토의 중·동유럽 조상을 확인하고, 이런 신호가 본토 영향이 커진 기원전 17–12세기에 크레타에 점진적으로 나타났음을 보였다. 또한 전 세계 고대 DNA 기록에서 전례 없는 높은 빈도의 혈족 근친혼이 확인되었다.",
+      "significance": "에게해에서 유전적 혼합, 혼인 등 문화 관행의 상호작용을 밝히는 고고유전체학의 잠재력을 보여준다."
+    },
     "openalex_url": "https://openalex.org/W4316507344",
     "retrieved_at": "2026-10-04"
   },
@@ -46815,7 +47361,13 @@
         "domain": "Social Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "네팔 히말라야 고지대 고대인 33명의 유전체로 티베트인과 이웃 티베트-버마어 사용 집단의 유전 역사를 밝힌 연구.",
+      "background": "오늘날 티베트인은 티베트 고원의 고지대 환경에 유전적·문화적으로 적응했지만 기원에 관한 근본 질문은 남아 있다. 최근 연구는 4만 년 이내 초기 집단의 존재와 1만 년 이내 후속 집단의 도래를 시사한다.",
+      "methods": "티베트 고원 남쪽 가장자리 네팔의 고지대 유적에서 고대인 33명의 전장 유전체 데이터를 새로 얻어 현대 집단과 비교했다.",
+      "findings": "이 고대인들은 현대 티베트인과 가장 가까웠고, 조상 대부분은 고원 북동쪽 끝의 후기 신석기 집단과 관련되었지만 뚜렷이 구별되는 깊은 구석기 유라시아 조상도 일부 가졌다. 고원 남쪽과 동쪽 중간 고도에 사는 비티베트계 티베트-버마어 사용자들은 다른 유전 역사를 반영하는 유전적 연속 경사를 이뤘다. 고대와 현대 고지대인 비교로 고지대 적응 대립유전자에 대한 지속적인 양성 선택을 확인했다.",
+      "significance": "티베트 고원 주변 티베트인과 티베트-버마어 사용 집단의 깊은 유전 역사를 세밀하게 밝힌다."
+    },
     "openalex_url": "https://openalex.org/W4220666315",
     "retrieved_at": "2026-10-04"
   },
@@ -46915,7 +47467,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "PIN2 친수성 고리가 보존된 β-시트 모티프로 서로 결합하며, 이 결합이 PIN2의 군집, 극성, 수송을 조절하는 허브라는 연구.",
+      "background": "PIN-FORMED 옥신 수송체는 세포막의 비대칭 위치에 의존해 식물 발달에 필수적이며, 중앙 친수성 고리(HL)가 여러 조절 신호를 통합한다고 알려졌지만 그 구조적 기반은 불분명했다.",
+      "methods": "PIN-HL 도메인의 동종 상호작용을 분석하고, PIN2에서 β-시트 모티프를 결실시킨 뒤 라파마이신 유도 HL-HL 상호작용 재구성과 HL 인산화의 영향을 조사했다.",
+      "findings": "PIN-HL 도메인은 막관통 도메인과 무관하게 보존된 β-시트 모티프로 동종 상호작용했다. PIN2에서 이 모티프를 없애면 단백질 군집과 극성이 강화되고 세포 내 수송이 손상되어 뿌리 굴중성에 결함이 생겼으며, 라파마이신으로 HL-HL 상호작용을 재구성하면 회복되었다. HL 인산화는 이 상호작용을 억제해 PIN 조절 인자 모집을 조절했다.",
+      "significance": "HL-HL 상호작용이 인산화 등 여러 조절 신호가 모이는 허브로 PIN 행동에 영향을 준다는 모델을 뒷받침한다."
+    },
     "openalex_url": "https://openalex.org/W7214942763",
     "retrieved_at": "2026-10-04"
   },
@@ -46965,7 +47523,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "GTPase 활성화 단백질 ROPGAP3가 기존 ROP 신호 기능과 별개로 PIN2에 직접 결합해 군집과 극성을 강화한다는 연구.",
+      "background": "GTPase 활성화 단백질(GAP)은 GTP 가수분해를 촉진해 작은 GTPase 신호를 음성 조절하며, ROP 신호 경로는 옥신에 의한 PIN 옥신 배출 수송체 세포 내 섭취 억제를 매개한다.",
+      "methods": "애기장대에서 PIN과 직접 상호작용하는 ROPGAP3를 찾고, ROP6 활성 결손·과활성 조건에서 PIN2 군집, 측면 확산, 세포 내 섭취, 극성을 분석했으며 근연 유전자 ROPGAP1과 비교했다.",
+      "findings": "ROPGAP3는 ROP6 활성이 없거나 과한 조건에서도 PIN2 군집을 촉진하고 측면 확산과 세포 내 섭취를 억제하며 극성을 강화했다. ROP 신호를 따르는 근연 ROPGAP1은 이런 특성을 보이지 않았다. ROPGAP3의 기능은 뿌리 굴중성과 곁뿌리 형성 같은 발달 과정에도 이어졌다.",
+      "significance": "GAP의 전통적 기능을 넘어선 새로운 역할을 밝혀 식물의 단백질 군집과 세포막 극성 강화 기전에 통찰을 준다."
+    },
     "openalex_url": "https://openalex.org/W4416714765",
     "retrieved_at": "2026-10-04"
   },
@@ -47171,7 +47735,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "지질 인산화효소 FAB1C가 옥신 수송체 PIN의 친수성 고리에 직접 결합해 인산화 상태에 따라 액포 분해 수송을 조절한다는 연구.",
+      "background": "PIN-FORMED(PIN)는 세포막에 비대칭적으로 위치하는 옥신 배출 수송체로 국소 옥신 기울기와 반응 형성에 중요하다. 세포질 쪽 친수성 고리 도메인(PIN-HL)에 인산화 같은 조절 신호가 있지만, 복잡한 옥신 반응을 고려하면 추가 조절 모듈이 있을 것으로 보였다.",
+      "methods": "PIN-HL 상호작용 단백질을 찾고, 포스파티딜이노시톨-3-인산 5-키나아제 FAB1C의 PIN 결합, 극성 확립, 액포 수송, 곁뿌리 형성에 대한 영향을 분석했다.",
+      "findings": "FAB1C는 PIN-HL과 직접 상호작용했고 PIN의 극성 확립과 액포 수송에 필요했다. 인산화되지 않은 PIN2는 FAB1C와 더 쉽게 결합해 인산화형보다 액포 분해 수송에 더 민감했다. FAB1C는 자라는 곁뿌리 원기에서 수층 방향 PIN1의 양과 옥신 최대점을 조절해 곁뿌리 형성에도 영향을 주었다.",
+      "significance": "막 지질 변형 효소가 화물 단백질과 직접 결합해 화물의 인산화 상태에 따라 수송을 조절할 수 있음을 시사한다."
+    },
     "openalex_url": "https://openalex.org/W4388451649",
     "retrieved_at": "2026-10-04"
   },
@@ -47421,7 +47991,13 @@
         "domain": "Physical Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "도시화가 지상 곤충보다 지하 곤충 군집, 특히 포식성 곤충의 다양성을 불균형하게 줄인다는 한국 연구.",
+      "background": "도시화 같은 인간 활동은 환경 스트레스를 일으켜 생물다양성을 줄이고, 곤충 다양성 감소는 해충 억제 같은 생태계 서비스를 약화시킬 수 있다. 지상과 지하 곤충은 서로 다른 요인의 영향을 받아 도시화 영향이 다를 수 있지만 아직 불분명했다.",
+      "methods": "인구 밀도가 다른 한국 도시 지역에서 기온, 불투수면, 건물 밀도, 식생 피복 등 도시화 요인을 측정하고, 지상 곤충은 쓸어잡기로, 지하 곤충은 체질법과 베를레제 깔때기로 채집해 다양성과 기능군을 분석했다.",
+      "findings": "전체 곤충 종 풍부도와 개체수는 비교적 안정적이었지만, 지상 곤충은 도시화와 관계가 없었던 반면 지하 곤충은 종 풍부도와 개체수가 줄었다. 지하의 일반종과 전문종 풍부도는 반대 패턴을 보였고, 지하 포식성 곤충이 가장 큰 영향을 받았으며 지상 초식성 곤충 개체수는 늘었다.",
+      "significance": "도시 계획에서 곤충 다양성을 지키는 표적 보전 전략 개발에 정보를 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4410040380",
     "retrieved_at": "2026-10-04"
   },
@@ -47621,7 +48197,13 @@
         "domain": "Physical Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "숲 하층 다년생 초본 10종의 개체 수준 지상·지하 탄소 고정량을 현장 실험으로 추정한 연구.",
+      "background": "식물의 탄소 고정 능력은 탄소 배출을 줄이는 자연 기반 해법으로 쓰이며, 다년생 초본도 지하부에 탄소를 배분해 기여할 수 있지만 개체 수준 추정은 주로 나무에 대해서만 이루어졌다.",
+      "methods": "다년생 초본 10종을 심어 수확 시 지상부 생물량 증가를 측정하고 지하부 생물량 증가를 추정했으며, 광합성과 잎 면적 같은 비파괴 지상부 지표도 측정했다.",
+      "findings": "투구꽃(Aconitum jaluense), 하늘매발톱(Aquilegia oxysepala), 애기나리(Disporum smilacinum), 퉁둥굴레(Polygonatum odoratum var. pluriflorum) 4종이 실험 기간 동안 양의 지하부 탄소 고정을 보였다. 노화기의 지상부 생물량과 잎 면적이 지하부 탄소 고정의 비파괴 추정 지표로 쓰일 수 있었다.",
+      "significance": "도시숲 탄소 흡수원과 산림 복원에 쓸 다년생 초본을 지하부 생물량 증가를 기준으로 평가해야 함을 제안한다."
+    },
     "openalex_url": "https://openalex.org/W4392089036",
     "retrieved_at": "2026-10-04"
   },
@@ -47771,7 +48353,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "관심 영역마다 검출기 픽셀 하나를 배정하는 압축 판독 방식으로 신경 회로 막전위를 5 kHz 이상으로 기록한 연구.",
+      "background": "생물학적 동역학의 기능 영상은 보통 시계열 영상을 얻은 뒤 관심 영역(ROI)의 평균 강도를 정량하는데, 이 과정에서 얻은 데이터의 상당 부분이 버려져 데이터 획득이 비효율적이다.",
+      "methods": "공간 광 변조기 한 쌍과 마이크로렌즈 배열로 이루어진 검출 모듈을 구현해 ROI마다 다른 각도 이동을 주어 원래 영상을 여러 하위 영상으로 나누고, 각 ROI 신호를 단일 픽셀로 판독하게 했다.",
+      "findings": "공간 압축으로 ROI의 공간 정보를 잃지 않으면서 시간 정보를 최대화했고, 5 kHz 이상의 샘플링 속도로 회로 규모의 신경세포 막전위 동역학을 기록해 세포 하위 구조 안의 개별 활동전위 파형과 밀리초 미만의 시간 지연을 밝혔다.",
+      "significance": "기능 영상 데이터 획득의 효율을 근본적으로 높이는 새로운 획득 파이프라인 개념을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4412974916",
     "retrieved_at": "2026-10-04"
   },
@@ -48255,7 +48843,13 @@
         "domain": "Physical Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "광학 기법만으로 신경 활동에 따라 유수 축삭이 나노미터 이하 수준으로 가역적으로 부풀어 오른다는 것을 관찰한 연구.",
+      "background": "신경 활동이 나노미터 수준의 세포 변형을 동반한다는 연구가 있었지만, 살아 있는 조직에서 나노 구조 동역학을 관찰하기 어려워 신경 활동이 유수 축삭을 동적으로 재형성하는지는 탐구되지 않았다.",
+      "methods": "급성 뇌 절편에서 스펙트럼 간섭계 기반 나노 수준 동적 판독과 광유전학적 신경 흥분 제어를 결합한 전광학적 접근법을 도입했다.",
+      "findings": "광유전학으로 유발한 신경세포 연발 발화에 반응해 유수 축삭은 점진적이고 가역적인 스펙트럼 적색 이동을 보였으며, 이는 나노미터 미만의 일시적 팽창에 해당했다. 이 활동 의존 나노 구조 동역학은 결절주위부(paranode)에 국한되었다.",
+      "significance": "활동 의존 나노 팽창이 신경 정보 전달 속도를 동적으로 조율할 가능성을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4317718237",
     "retrieved_at": "2026-10-04"
   },
@@ -48555,7 +49149,13 @@
         "domain": "Social Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "지연 탈출 행동을 학습한 순환 신경망에서 전장 유사 신경세포 군집이 시간적으로 떨어진 입력을 동적 궤적으로 통합함을 보인 연구.",
+      "background": "전장은 거의 모든 피질 영역과 상호 연결되어 인지·감각·운동 정보를 통합하는 허브로 오래 가정되었지만, 실제로 서로 다른 입력을 기능적으로 통합하는지와 그 방식은 불분명했다.",
+      "methods": "시간적으로 떨어진 과제 관련 신호의 통합이 필요한 지연 탈출 행동 지표로 순환 신경망(RNN)을 지도 학습시키고, 전장 유사 신경세포 군집의 계산 특성을 집단 활동 차원 축소로 분석했으며, 전장 뇌 절편 자극 실험과 전장 기록 데이터와 비교했다.",
+      "findings": "RNN 신경세포 일부가 행동 중 전장 앞쪽 신경세포와 비슷한 동역학을 보였고 순환 군집을 이뤘으며, 이 구조는 시험관 절편 자극 실험으로 뒷받침되었다. 네트워크는 시간적으로 분산된 입력을 비선형적으로 통합하고 시너지 정보를 늘렸으며, 끌개에 안착하지 않고 계속 변하는 신경 궤적을 따라 통합 정보를 동적으로 부호화했다. 비슷한 궤적 패턴이 실제 전장 기록에서도 관찰되었다.",
+      "significance": "전장 앞쪽이 과제 관련 입력을 시간에 걸쳐 동적으로 통합하고 그 표상을 하류 뇌 영역에 전달한다는 모델을 제안한다."
+    },
     "openalex_url": "https://openalex.org/W4416026659",
     "retrieved_at": "2026-10-04"
   },
@@ -48655,7 +49255,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "흔적 공포 조건화 후 기억 인출 때 쥐 전장 신경세포 일부가 자극 종료 후에도 지속 활동하며 얼어붙기 강도와 상관한다는 연구.",
+      "background": "저자들은 공포 조건 자극이 끝난 뒤에도 수십 초 이상 관련 정보를 유지하는 전장 신경세포 집단을 찾았고, 이 '온라인 상태'를 담당한다면 위협 자극의 감각 양식이나 방어 행동 종류와 무관하게 작동해야 한다고 보았다.",
+      "methods": "이전 연구의 빛 단서와 탈출 행동 대신 소리 단서와 얼어붙기 행동을 쓰는 흔적 조건화(trace conditioning)를 수행하고, 인출 시험 동안 rsCla 신경세포의 단일 단위 활동을 기록했다.",
+      "findings": "인출 시험에서 rsCla 신경세포 일부가 조건 자극에, 특히 흔적 간격 동안 지속 활동을 보였다. 얼어붙지 않은 구간을 제외하면 흔적 간격 동안 이 신경세포 활동과 얼어붙기 크기 사이에 양의 상관이 있었다.",
+      "significance": "이 rsCla 신경세포들이 기억 인출 중 '온라인 신경세포'의 특성을 보이며, 그 기능이 자극 양식과 방어 행동 종류에 독립적임을 뒷받침한다."
+    },
     "openalex_url": "https://openalex.org/W4407372374",
     "retrieved_at": "2026-10-04"
   },
@@ -48739,7 +49345,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "정보를 잠시 붙들었다가 나중에 탈출하는 지연 탈출 행동에 쥐 전장(claustrum) 신경세포 활동이 필요하다는 연구.",
+      "background": "동물은 선천적·학습된 방어 행동을 보이지만, 이 두 형태가 아닌 방식으로 탈출할 수 있는지는 불분명했다.",
+      "methods": "수컷 쥐가 미래 탈출에 필요한 정보를 일시적으로 유지해야 하는 지연 탈출 과제를 개발하고, 선조체 앞쪽 전장(rostral-to-striatum claustrum, rsCla) 신경세포 활동을 기록하며 유지 기간 초반에 일시적으로 억제했다.",
+      "findings": "행동 결과를 직접 경험하지 않고 과거 경험에서 추론하는 이 과제는 기존 두 형태의 방어 행동 어느 쪽에도 속하지 않았다. 유지 기간 동안 rsCla 신경세포 일부가 감각 자극 없이도 집단으로 묶었을 때만 높아진 활동을 지속했다. 유지 기간 초반의 일시적 억제는 높아진 활동을 오래 억제했고 지연 탈출 행동을 약화시켰다.",
+      "significance": "rsCla 활동이 탈출 유발 자극과 지연된 탈출 시작을 잇는 다리 역할을 함을 시사한다."
+    },
     "openalex_url": "https://openalex.org/W4391573315",
     "retrieved_at": "2026-10-04"
   },
@@ -50393,7 +51005,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "나노포어 긴 읽기 시퀀싱으로 애기장대 감수분열 교차를 고해상도로 지도화하는 파이프라인 COmapper를 개발한 연구.",
+      "background": "감수분열 교차는 상동 염색체 사이 유전 변이를 재배열해 유전체 다양성에 큰 영향을 주며, 염색체 쌍당 1–3개로 제한되고 염색질 접근성과 DNA 다형성의 영향을 받는다. 식물에서는 짧은 읽기 또는 연결 읽기 시퀀싱으로 교차 지도를 만들어 왔다.",
+      "methods": "애기장대 Col과 Ler 교배에서 얻은 F1 잡종 꽃가루와 F2 재조합 유묘의 혼합 DNA를 나노포어 긴 읽기로 시퀀싱하는 COmapper를 개발하고, 짧은 읽기로 교차를 지도화한 F2 개체로 정확도를 검증했다. 야생형과 교차가 증가한 recq4a recq4b 돌연변이에 적용했다.",
+      "findings": "COmapper는 높은 정확도를 보였고 짧은 읽기 시퀀싱과 비슷한 결과를 냈다. 야생형에서 교차는 유전자 근처 프로모터에 많았고, recq4a recq4b에서는 교차가 늘었지만 높은 다형성 밀도에 의해 분포가 바뀌었다.",
+      "significance": "다양한 식물 종에서 유전·후성유전·환경 변화가 교차 패턴에 미치는 영향을 탐구하는 데 널리 쓰일 수 있다."
+    },
     "openalex_url": "https://openalex.org/W4411434990",
     "retrieved_at": "2026-10-04"
   },
@@ -51417,7 +52035,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "DDM1에 의한 유전자 본체 DNA 메틸화가 애기장대 방어 유전자의 유도성 활성화를 조절한다는 연구.",
+      "background": "식물은 이전 병원체 공격을 기억해 더 빠르고 강한 방어 반응을 준비(priming)하며, 트랜스포존 탈메틸화가 저항성에 영향을 준다는 보고는 있었지만 유전자 본체 메틸화(gene body methylation, GBM)의 역할은 불분명했다.",
+      "methods": "염색질 리모델러 DDM1 결손 돌연변이에서 약한 화학적 준비 조건의 병원체 저항성, 메틸화와 발현, 탈메틸화 유전자 GPK1 결손 효과, 자연 집단의 후성유전 변이를 분석했다.",
+      "findings": "ddm1 결손은 약한 화학적 준비 아래 생영양성 병원체 저항성을 상승적으로 높였다. DDM1은 일반 GBM 유전자와 다른 염색질 특성을 가진 일부 스트레스 반응 유전자의 본체 메틸화를 매개했고, 메틸화가 줄면 이 유전자들이 과활성화되었다. GPK1을 없애면 방어 반응 준비가 손상되었고, 자연 집단에서 DDM1 매개 GBM은 후성유전 변이가 잦았으며 GPK1이 탈메틸화된 변이체에서 GPK1 발현이 높았다.",
+      "significance": "DDM1 매개 GBM이 식물 면역 반응의 유도성을 조절하는 축이 될 수 있음을 제안한다."
+    },
     "openalex_url": "https://openalex.org/W4372334037",
     "retrieved_at": "2026-10-04"
   },
@@ -52405,7 +53029,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "장내 미생물과 뇌 상주 CD4+ T세포가 자폐 유사 행동을 조절하는 장-면역-뇌 축을 밝히고 프로바이오틱 후보를 제시한 연구.",
+      "background": "자폐 스펙트럼 장애(autism spectrum disorder, ASD)에 장-뇌 원인이 관여한다는 근거가 늘고 있지만 그 기전은 불분명했다.",
+      "methods": "무균(germ-free) BTBR 자폐 모델 생쥐를 만들고 CD4+ T세포 제거, 미생물·대사체 분석, 대사산물 예측 모델을 이용한 프로바이오틱 후보 선정과 투여 실험을 수행했다.",
+      "findings": "수컷 생쥐에서 장내 미생물이 없으면 자폐 관련 행동이 개선되고 염증성 뇌 상주 T세포가 줄었다. CD4+ T세포 제거는 신경염증과 자폐 행동을 완화했다. 글루탐산/GABA 비율과 3-하이드록시글루타르산과 관련된 미생물·대사 조절자를 찾았고, Limosilactobacillus reuteri IMB015 투여는 글루탐산/GABA 비율과 신경염증을 낮춰 행동을 개선했다.",
+      "significance": "장내 미생물과 그 대사산물이 뇌 면역세포를 통해 자폐 관련 행동을 조절한다는 장-면역-뇌 축을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4412199154",
     "retrieved_at": "2026-10-04"
   },
@@ -52511,7 +53141,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "전사인자 ETV5가 호르몬 치료 중 전립선암을 신경내분비 전립선암으로 바꾸며, 오베티콜산이 이를 억제할 수 있다는 연구.",
+      "background": "신경내분비 전립선암(neuroendocrine prostate cancer, NEPC)은 호르몬 치료로 유도되는 공격적 아형으로 효과적 치료법이 없다.",
+      "methods": "여러 전립선암 데이터셋을 분석하고, 세포와 생체 내 실험으로 ETV5의 기능과 표적 유전자를 조사했으며, ETV5 억제제를 찾아 효과를 시험했다.",
+      "findings": "NEPC는 다른 아형보다 ETV5 발현이 크게 높았고, 호르몬 치료 중 후성유전 변화로 ETV5 발현이 점차 증가했다. ETV5는 전립선암 세포에 신경 줄기세포 유사 특성을 유도하고 호르몬 처리 조건에서 NEPC로의 분화를 촉진했다. PBX3와 TLL1이 거세 저항성과 줄기세포성에 기여하는 ETV5 표적이었고, 이 연구에서 ETV5 억제제로 찾은 오베티콜산(obeticholic acid)은 NEPC 발생을 억제했다.",
+      "significance": "ETV5를 NEPC 발생의 핵심 전사인자이자 치료 표적으로 제시하고, 간 질환 승인 약물의 재창출 가능성을 보여준다."
+    },
     "openalex_url": "https://openalex.org/W4408695367",
     "retrieved_at": "2026-10-04"
   },
@@ -52729,7 +53365,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "ETV5가 오스테오폰틴 발현을 유도해 여포 보조 T세포 분화와 루푸스 발병을 촉진한다는 생쥐·환자 연구.",
+      "background": "여포 보조 T세포(follicular helper T, TFH)는 배중심 반응으로 고친화도 항체를 만들게 하며, 과도하게 생기면 전신성 홍반성 루푸스(SLE) 같은 자가면역 질환과 연관된다. ETS 전사인자 ETV5는 생쥐에서 TFH 분화를 촉진한다.",
+      "methods": "T세포 특이 Etv5 결손 생쥐를 루푸스 모델에 적용하고, ETV5 표적 유전자를 찾았으며, SLE 환자 CD4+ T세포의 ETV5와 SPP1 수준을 분석했다.",
+      "findings": "T세포에서 Etv5를 없애면 루푸스 모델의 TFH 분화와 자가면역 표현형이 완화되었다. SPP1이 생쥐와 인간 모두에서 TFH 분화를 촉진하는 ETV5 표적이었고, SPP1이 암호화하는 세포 밖 오스테오폰틴(OPN)은 CD44-AKT 신호를 활성화해 TFH 분화를 높였다. SLE 환자 CD4+ T세포에서 ETV5와 SPP1이 증가했고 질병 활성도와 양의 상관을 보였다.",
+      "significance": "ETV5를 루푸스를 촉진하는 전사인자로, 분비 OPN을 TFH 분화 촉진 인자로 규명해 치료 표적 가능성을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4399394233",
     "retrieved_at": "2026-10-04"
   },
@@ -52779,7 +53421,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "뇌 연구에 쓰이는 공간 전사체 기술과 그 응용을 정리한 리뷰.",
+      "background": "단일세포 RNA 시퀀싱(scRNA-seq)은 뇌의 다양한 세포 유형을 효율적으로 분류하지만 공간 정보가 없어, 세포 배치와 연결이 뇌 영역의 기능을 어떻게 만드는지 이해하기 어렵다.",
+      "methods": "이미징과 시퀀싱 기반의 여러 공간 전사체학(spatial transcriptomics, ST) 도구와 신경과학 응용을 정리한 리뷰 논문이다.",
+      "findings": "지난 10년간 개발된 ST 도구들이 뇌의 복잡한 세포 공간 구성과 연결을 해석하고 기능적 뇌 지도를 만드는 데 기여했으며, 신경 회로의 특성을 더 선명하게 밝혀 왔음을 정리했다.",
+      "significance": "단일세포 정체성과 조직 내 공간 정보를 결합해 뇌 기능을 이해하는 연구 방향을 안내한다."
+    },
     "openalex_url": "https://openalex.org/W4387235767",
     "retrieved_at": "2026-10-04"
   },
@@ -52885,7 +53533,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "200 뉴클레오타이드 이상이고 짝짓지 않은 구아노신을 가진 인핸서 RNA가 NELF와 다중 결합해 RNA 중합효소 II 일시정지를 해제한다는 연구.",
+      "background": "인핸서 RNA(enhancer RNA, eRNA)는 활성 인핸서에서 전사되는 긴 비암호화 RNA지만, 기능에 필요한 분자 특징과 표적 유전자 전사에 영향을 주는 기전은 확립되지 않았다.",
+      "methods": "eRNA가 일시정지된 RNA 중합효소 II(Pol II)에서 NELF를 떼어내는 과정을 모델로 eRNA의 서열, 구조, 길이 요건을 조사했다.",
+      "findings": "eRNA는 공통 구조나 서열 모티프로 작동하지 않았다. 대신 길이가 200 뉴클레오타이드를 넘고 짝짓지 않은 구아노신을 포함한 eRNA가 NELF 소단위 A와 E에 여러 알로스테릭 접촉을 만들어 효율적으로 NELF를 해리시켰다.",
+      "significance": "eRNA 기능의 분자 결정 요인을 밝혀 Pol II 일시정지 해제에서 eRNA의 역할과 후생동물 전사 조절에 새로운 통찰을 준다."
+    },
     "openalex_url": "https://openalex.org/W4225377993",
     "retrieved_at": "2026-10-04"
   },
@@ -52985,7 +53639,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "막에 묶인 SCOTIN 응축체가 소포체 내강의 샤페론 BiP를 붙잡아 소포체 스트레스 반응을 일으킨다는 연구.",
+      "background": "소포체 스트레스 반응은 세포 생존과 사멸 사이의 균형을 조절한다.",
+      "methods": "인터페론 유도 소포체 단백질 SCOTIN을 과발현하고 프롤린 풍부 도메인(proline-rich domain, PRD)과 시스테인 풍부 도메인(CRD)의 역할, BiP와의 공동 위치, 소포체 스트레스 반응을 분석했다.",
+      "findings": "SCOTIN 과발현은 여러 겹의 소포체를 감싸는 응축체를 만들며 소기관 스트레스의 형태적 징후를 보였다. 소포체 내강 샤페론 BiP가 이 응축체 안에 격리되어 소포체 스트레스 반응이 유도되었고, BiP와 SCOTIN의 공동 위치는 소포체 막 가까운 세포질에서 PRD 매개 응축이 일어날 때만 나타났다. 스트레스 유도에는 PRD와 함께 CRD가 필요했다.",
+      "significance": "막 연관 응축이 소포체 막을 가로질러 신호를 전달해 BiP 집합과 스트레스 반응을 일으킨다는 새로운 신호 전달 방식을 제안한다."
+    },
     "openalex_url": "https://openalex.org/W4407401200",
     "retrieved_at": "2026-10-04"
   },
@@ -53035,7 +53695,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "세포막 근처나 막 위에서 형성되는 생체분자 응축체의 성질과 생물학적 기능을 정리한 리뷰.",
+      "background": "액체-액체 상분리(liquid-liquid phase separation, LLPS)는 막 없이 세포 공간을 조직하는 핵심 기전으로 떠올랐으며, 응축체의 액체에서 젤·비가역 응집체로의 상전이 조절은 생리 기능과 신경퇴행 질환·암의 병리 진행에 중요하다.",
+      "methods": "막 연관 응축체에 관한 연구를 종합한 리뷰 논문이다.",
+      "findings": "초기 응축체 연구는 세포질 같은 유체 환경에 집중했지만, 최근에는 막 가까이, 막 위, 또는 막을 구성하는 응축체가 발견되었음을 정리하고, 세포 맥락에서 막 연관 응축체의 성질과 막과 관련된 생물학적 기능을 개관했다.",
+      "significance": "막과 응축체의 상호작용이 막 관련 세포 과정을 조절한다는 관점을 정리해 이 분야 연구의 틀을 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4403931192",
     "retrieved_at": "2026-10-04"
   },
@@ -53385,7 +54051,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "전립선암이 신경내분비 전립선암으로 진행하는 과정에서 전사인자의 역할을 정리한 리뷰.",
+      "background": "전립선암 대부분은 처음에 안드로겐 차단 치료에 반응하지만 상당수가 거세 저항성 전립선암으로 진행하며, 안드로겐 수용체(AR) 경로 억제제를 오래 쓰면 신경내분비 표지를 발현하고 AR 활성이 낮은 치명적 아형인 신경내분비 전립선암(NEPC)이 나타날 수 있다.",
+      "methods": "NEPC 발생에 관여하는 전사인자 연구를 종합한 리뷰 논문이다.",
+      "findings": "선암에서 NEPC로의 전환은 암세포가 치료를 피하기 위해 신경내분비 표현형을 택하는 계보 가소성(lineage plasticity)에 의해 일어나며, 이 과정에서 전사인자가 하는 역할과 치료 표적으로서의 가능성을 정리했다.",
+      "significance": "치료 선택지가 부족한 NEPC 환자의 예후 개선을 위해 분자 기전 이해와 표적 발굴 방향을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4407319847",
     "retrieved_at": "2026-10-04"
   },
@@ -53841,7 +54513,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "흑색종 유전자 조작 생쥐 모델의 최근 발전과 이 모델로 밝혀진 발암 신호 경로를 정리한 리뷰.",
+      "background": "생쥐 피부는 구조와 계보 구성이 인간과 비슷해, 흑색종 유전자 조작 생쥐(GEM) 모델로 멜라닌세포와 색소 줄기세포에서의 흑색종 시작과 표피에서 진피로의 진행을 연구할 수 있다.",
+      "methods": "흑색종 GEM 모델에 관한 최근 연구를 종합한 리뷰 논문이다.",
+      "findings": "초기 흑색종 발생은 주로 MAPK와 PI3K 경로로 조절되지만, Cdk4 세포주기 조절, Jak-Stat 전사 조절, Hippo-Yap/Taz 신호, p62-Igf2bp1 축, Tet2 같은 후성유전 조절자가 흑색종 이질성과 표현형 가소성에 기여한다는 최근 발견을 정리했다.",
+      "significance": "흑색종 생물학 이해와 잠재적 치료 표적 발굴에서 GEM 모델의 유용성을 강조한다."
+    },
     "openalex_url": "https://openalex.org/W7170066573",
     "retrieved_at": "2026-10-04"
   },
@@ -53941,7 +54619,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "모낭 재생에서 모낭·색소·피지샘 줄기세포의 동역학을 조절하는 분자 기전을 정리한 리뷰.",
+      "background": "포유류 모낭은 평생 재생, 퇴행, 휴지기를 반복하며, 모낭 줄기세포는 모발 주기를 유지하고 색소 줄기세포와 피지샘 줄기세포는 색소 형성과 피부 장벽 유지에 중요하다.",
+      "methods": "모발 재생과 관련 질환에서 줄기세포 조절 기전을 종합한 리뷰 논문이다.",
+      "findings": "이 줄기세포들이 미세환경(niche)에서 유지되며, 주변 구성 요소가 분비하는 인자, 면역 매개 손상 신호, 노화, 대사 상태, 스트레스에 의해 엄격히 조절된다는 연구를 정리했다.",
+      "significance": "질환 기전과 모발·피부 질환 치료에 새로운 관점을 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4390618490",
     "retrieved_at": "2026-10-04"
   },
@@ -54041,7 +54725,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "모낭 줄기세포와 그 미세환경의 노화가 탈모로 이어지는 기전과 이를 늦추는 접근법을 정리한 리뷰.",
+      "background": "모낭에 있는 줄기세포는 조직 항상성과 모발 주기 유지에 중요하며, 노화에 따른 모낭 줄기세포(HFSC) 활성 감소는 모낭 재생 능력을 떨어뜨린다.",
+      "methods": "모낭 노화와 노화성 탈모에 관한 연구를 종합한 리뷰 논문이다.",
+      "findings": "HFSC 내재적·외재적 노화 기전이 HFSC 노화와 탈모를 일으키는 방식을 정리하고, HFSC와 미세환경의 노화 변화를 완화해 모발 재생을 촉진하려는 접근법을 논의했다.",
+      "significance": "노화성 탈모 치료 전략 개발의 근거를 정리한다."
+    },
     "openalex_url": "https://openalex.org/W4309159192",
     "retrieved_at": "2026-10-04"
   },
@@ -54191,7 +54881,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "파킨슨병 환자 장에서 늘어난 Streptococcus mutans가 효소 UrdA로 만든 이미다졸 프로피온산이 뇌에 도달해 파킨슨병 병리를 일으킨다는 연구.",
+      "background": "파킨슨병은 중뇌 도파민 신경세포의 선택적 퇴행과 α-시누클레인(α-synuclein) 응집이 특징이며 장내 미생물이 관여한다는 근거가 있지만, 어떤 미생물과 대사산물이 관여하는지, 장 유래 대사산물이 뇌에 직접 신경퇴행을 일으키는지는 불분명했다.",
+      "methods": "파킨슨병 환자의 장내 미생물과 혈장 대사산물을 분석하고, UrdA를 가진 S. mutans 또는 UrdA를 발현하는 대장균을 생쥐에 정착시키거나 이미다졸 프로피온산(imidazole propionate, ImP)을 직접 투여해 병리를 관찰했다.",
+      "findings": "환자의 장내 미생물에서 S. mutans와 ImP 생성 효소 우로카네이트 환원효소(UrdA)가 늘었고 혈장 ImP도 증가했다. 이 미생물을 정착시킨 생쥐는 전신과 뇌의 ImP가 늘며 도파민 신경세포 소실, 성상교세포·미세아교세포 활성화, 운동 장애를 보였고, S. mutans는 α-시누클레인 병리를 악화시켰다. ImP 투여만으로도 주요 특징이 재현되었으며 mTORC1 활성화가 병리에 핵심이었다.",
+      "significance": "UrdA-ImP 축을 장-뇌 축(gut-brain axis)의 직접적 병리 매개자로 제시해 파킨슨병의 미생물 기반 원인과 치료 표적을 시사한다."
+    },
     "openalex_url": "https://openalex.org/W4414022372",
     "retrieved_at": "2026-10-04"
   },
@@ -54541,7 +55237,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "인체 미생물군이 암 발생과 항암·면역치료 반응에 미치는 영향을 정리한 리뷰.",
+      "background": "시퀀싱 기술의 발달로 장뿐 아니라 종양 조직 안에도 세균, 바이러스, 곰팡이로 이루어진 미생물 군집이 있으며 암 종류별로 다른 특징을 보인다는 사실이 밝혀졌다.",
+      "methods": "최근 연구를 종합한 리뷰 논문이다.",
+      "findings": "특정 미생물 분류군이 종양 발생과 화학요법·면역치료 반응에 관여한다는 근거를 정리하고, 구강 미생물의 장으로의 이동이 여러 암에서 미생물 불균형(dysbiosis)의 지표가 될 수 있음을 강조했으며, 암 촉진 기전을 논의했다.",
+      "significance": "미생물군을 암 예방과 치료 전략 강화에 활용할 가능성을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4394572234",
     "retrieved_at": "2026-10-04"
   },
@@ -54591,7 +55293,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "생애 초기 장내 미생물군 교란이 평생 건강과 질병에 남기는 영향을 정리한 리뷰.",
+      "background": "장내 미생물군은 인체 생리와 병리에 큰 영향을 주는 역동적 기관이며, 역학·코호트 연구는 생애 초기 미생물군 교란이 장기적 건강 영향을 남긴다는 근거를 제시해 왔다.",
+      "methods": "생애 전반의 장내 미생물 변화와 그 요인, 생애 초기 교란의 장기 영향에 관한 연구를 종합한 리뷰 논문이다.",
+      "findings": "출생 전·중·후의 다양한 요인이 신생아와 영아 미생물군의 구성과 기능을 형성하며, 이런 변화는 시간이 지나 부분적으로 회복되더라도 대사 표현형은 지속될 수 있다고 정리했다. 생애 초기 교란이 이후 질병 발생에 미치는 영향을 강조했다.",
+      "significance": "미생물 구성을 넘어 표현형 회복을 위한 조기 개입의 결정적 시기를 찾는 연구가 필요하다는 관점을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4385807856",
     "retrieved_at": "2026-10-04"
   },
@@ -54741,7 +55449,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "고초균 Ku 단백질만으로 두 DNA 절단 말단을 연결하는 복합체 구조를 cryo-EM으로 밝힌 연구.",
+      "background": "세포는 DNA 이중가닥 절단(double-strand break, DSB)을 상동 재조합과 비상동 말단 연결(non-homologous end joining, NHEJ)로 복구한다. 세균 NHEJ는 Ku 동종이량체와 LigD만으로 이루어진 단순한 체계지만 끊어진 말단을 잇는 기전은 불분명했다.",
+      "methods": "고초균(Bacillus subtilis) Ku-DNA 복합체의 극저온 전자현미경(cryo-EM) 구조를 2.74 Å 해상도로 풀고 생화학 실험으로 보완했다.",
+      "findings": "Ku 단백질 단독으로 두 개의 평활 DNA 말단을 연결한 구조를 포착했다. 이를 바탕으로 Ku 동종이량체의 올리고머 배열이 두 DNA 말단을 연결하고 안정화한다는 통합 모델을 제안했다.",
+      "significance": "진핵생물과 구별되는 세균 Ku 매개 DNA 연결 기전을 밝혀 원핵생물 DNA 복구에 대한 구조적 통찰을 준다."
+    },
     "openalex_url": "https://openalex.org/W4415396390",
     "retrieved_at": "2026-10-04"
   },
@@ -54991,7 +55705,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "식물 노화의 핵심 조절자인 NAC 전사인자 ORE1이 DNA를 인식하는 방식을 결정 구조로 밝힌 연구.",
+      "background": "ORE1(애기장대 NAC092)은 식물 특이적 NAC 전사인자 계열의 노화 핵심 조절자로 여러 DNA 표적에 결합하지만, 표적 서열을 인식하는 기전은 불분명했다.",
+      "methods": "ORE1 NAC 도메인 단독과 DNA 결합 형태의 결정 구조(crystal structure)를 풀었다.",
+      "findings": "DNA 결합 구조에서 염기 인식과 인산 골격 상호작용의 분자적 기반을 밝혔다. DNA 결합 부위의 국소적 유연성과 ORE1 NAC 동종이량체의 도메인 유연성이 함께 작용해 본래 유연한 DNA에 결합을 유지한다는 것을 보였다.",
+      "significance": "다른 식물 특이적 NAC 단백질-DNA 상호작용과 농업·과학적으로 중요한 NAC 조절자의 구조적 이해에 기반을 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4312130101",
     "retrieved_at": "2026-10-04"
   },
@@ -55141,7 +55861,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "전임상 모델과 인간 사이의 유전형-표현형 차이(GPD)를 반영한 기계학습으로 약물 독성을 더 잘 예측한 연구.",
+      "background": "인간과 모델 생물의 생물학적 차이 때문에 전임상 독성 결과가 인간에게 잘 들어맞지 않아 임상시험 실패와 시판 후 철수가 많으며, 기존 독성 예측은 주로 화학적 특성에 의존했다.",
+      "methods": "약물 표적의 유전자 필수성, 조직 발현, 네트워크 연결성에서 세포주·생쥐와 인간 사이의 유전형-표현형 차이(genotype-phenotype differences, GPD)를 계산해 화학 특성과 함께 랜덤 포레스트 모델에 넣고, 위험 약물 434개와 승인 약물 790개로 학습·검증했다.",
+      "findings": "GPD 특성은 심각한 부작용으로 인한 약물 실패와 유의하게 연관되었다. GPD와 화학 특성을 통합한 모델은 AUPRC 0.63(기준 0.35), AUROC 0.75(기준 0.50)로 예측력이 높았고 특히 신경독성과 심혈관 독성에서 우수했으며, 최신 화학 구조 기반 모델을 능가하고 향후 약물 철수를 예측할 수 있었다.",
+      "significance": "임상 개발 초기에 고위험 약물을 가려내 개발 비용을 줄이고 환자 안전과 승인 성공률을 높일 수 있는 생물학 기반 전략을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4415612386",
     "retrieved_at": "2026-10-04"
   },
@@ -56003,7 +56729,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "단일세포 RNA 시퀀싱 데이터 군집화의 일관성을 빠르게 평가하는 도구 scICE를 개발한 연구.",
+      "background": "군집화는 단일세포 RNA 시퀀싱(scRNA-seq) 분석의 기본 단계지만 알고리즘의 확률적 과정 때문에 시행마다 결과가 달라지며, 기존 합의 군집화 방법은 계산 비용이 커서 대규모 데이터에 적용하기 어렵다.",
+      "methods": "군집화 일관성을 평가하고 일관된 결과를 제공하는 single-cell Inconsistency Clustering Estimator(scICE)를 개발해 48개 실제·시뮬레이션 데이터셋에 적용했다.",
+      "findings": "scICE는 multiK, chooseR 같은 기존 합의 군집화 방법보다 최대 30배 빨랐고, 1만 개 이상 세포를 가진 데이터를 포함해 모든 일관된 군집화 결과를 찾아 탐색할 군집 수를 크게 줄였다.",
+      "significance": "더 신뢰할 수 있는 후보 군집에 집중하게 해 계산 부담을 줄이고 세포 유형 식별을 더 견고하게 만든다."
+    },
     "openalex_url": "https://openalex.org/W4411924410",
     "retrieved_at": "2026-10-04"
   },
@@ -56449,7 +57181,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "지방조직 지질 관련 대식세포의 TM4SF19가 리소좀 산성화를 억제해 비만 염증과 대사 이상에 기여한다는 연구.",
+      "background": "과영양 상태의 지방조직에서는 면역세포가 기능 이상 지방세포를 제거하고 교체하며, 그중 지질 관련 대식세포(lipid-associated macrophage, LAM)가 비만과 지질 스트레스 질환의 핵심 세포로 떠올랐다.",
+      "methods": "LAM에서 선택적으로 발현되는 리소좀 단백질 TM4SF19의 기능을 세포 실험과 고지방식 수컷 결손 생쥐에서 분석했다.",
+      "findings": "TM4SF19는 V-ATPase와 상호작용해 리소좀 산성화를 억제했다. TM4SF19를 없애면 리소좀 산성화가 높아지고 죽어가는 지방세포 제거가 빨라졌으며, LAM 축적이 줄고 회복형 대식세포 비율이 늘었다. 결손 생쥐는 고지방식에 지방세포 비대 대신 증식으로 적응해 국소·전신 인슐린 감수성과 에너지 소비가 개선되었다.",
+      "significance": "TM4SF19 억제가 비만 관련 대사 이상을 막는 새로운 방법이 될 수 있음을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4393342748",
     "retrieved_at": "2026-10-04"
   },
@@ -56949,7 +57687,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "p57Kip2가 위 주세포를 예비 줄기세포 상태로 유지하는 분자 스위치임을 밝힌 연구.",
+      "background": "위 본체의 주세포(chief cell)는 소화 효소를 만들지만 손상 시 빠르게 증식해 조직을 재생하며, 이 예비 줄기세포 상태를 조절하는 분자는 알려지지 않았다.",
+      "methods": "생쥐에서 단일세포 RNA 시퀀싱, 독시사이클린 유도 계보 추적, 위 체부 오가노이드, 생체 내 p57 지속 발현 실험을 수행했다.",
+      "findings": "p57은 평상시 주세포에서 계속 발현되지만 손상 후 빠르게 줄고 이어서 강한 증식이 일어났다. 오가노이드에서 p57 과발현은 장기적 예비 줄기세포 상태와 성숙한 분비 표현형을 유도했고, 생체 내 p57 지속 발현은 주세포의 손상 반응을 손상시켰다.",
+      "significance": "p57이 항상성 동안 주세포의 예비 줄기세포 상태를 유지하는 문지기임을 보여 위 재생 기전 이해에 기여한다."
+    },
     "openalex_url": "https://openalex.org/W4229011837",
     "retrieved_at": "2026-10-04"
   },
@@ -57149,7 +57893,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "직장수지검사 없이 채취한 소변의 RNA 바이오마커와 기계학습으로 전립선암을 진단하는 PCASSO 체계를 개발한 연구.",
+      "background": "전립선암은 남성에서 두 번째로 흔한 암이지만 혈청 PSA 검사와 직장수지검사(DRE)는 특이도가 낮고 위양성이 많아 불필요한 생검과 과잉 치료로 이어진다.",
+      "methods": "전립선암 112명, 양성 전립선 비대증 51명의 소변 163개에서 긴 비암호화 RNA 2개, 융합 유전자 1개, miRNA 17개 등 RNA 바이오마커 20개를 정량 PCR로 측정하고 6가지 기계학습 분류기를 비교했다.",
+      "findings": "최적화된 9개 바이오마커 패널을 쓴 그래디언트 부스팅 모델이 AUC 0.99로 가장 좋았고 교차검증 결과도 견고했다(Stratified K-Fold 0.912, LOOCV 0.890). PSA 회색 지대(3–10 ng/mL) 환자에서도 높은 정확도를 유지했다.",
+      "significance": "비침습 소변 RNA 기반 전립선암 진단의 가능성을 내부 검증으로 보여주며 향후 외부 검증 연구의 기반이 된다."
+    },
     "openalex_url": "https://openalex.org/W7117232523",
     "retrieved_at": "2026-10-04"
   },
@@ -57499,7 +58249,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "트리거 RNA에 반응하는 조건부 가이드 RNA로 대장균 내인성 유전자를 논리 연산처럼 조절한 합성생물학 연구.",
+      "background": "가이드 RNA(gRNA) 공학으로 CRISPR-Cas 시스템을 조건부로 제어할 수 있게 되었지만, 세포 내부 대사 과정을 효율적으로 조절할 만큼 정밀한 조절은 여전히 어려웠다.",
+      "methods": "대장균에서 조건부 gRNA를 갖춘 dCas9 조절 시스템을 설계하고, 대사 유전자(lacZ, malT, poxB)와 세포골격 필수 유전자(ftsZ, mreB)를 표적으로 시험했다.",
+      "findings": "조건부 gRNA는 트리거 RNA와 결합했을 때 최대 130배 범위로 유전자 발현을 조절했고 A OR (B AND C) 같은 3입력 논리를 수행했다. 대사 유전자 표적으로 대사 흐름을 바꿔 성장을 조절했고, ftsZ·mreB 조절로 세포 필라멘트화와 분열을 제어했으며, 세 종류의 2입력 논리 게이트로 형태 변화를 일으켰다.",
+      "significance": "프로그래밍 가능한 RNA 상호작용 기반 조절이 다른 Cas 효과기와 숙주 생물에도 적용될 수 있음을 시사한다."
+    },
     "openalex_url": "https://openalex.org/W4400158456",
     "retrieved_at": "2026-10-04"
   },
@@ -57549,7 +58305,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "토홀드 센서를 중심으로 현장 진단용 RNA 기반 바이러스 검출 기술을 정리한 리뷰.",
+      "background": "코로나19 대유행으로 빠르고 정확한 바이러스 식별이 가능한 현장 진단(point-of-care, POC) 도구의 중요성이 커졌고, RNA 기반 센서는 선택성과 민감도 덕분에 유망한 후보로 떠올랐다.",
+      "methods": "토홀드 센서(toehold sensor)를 중심으로 POC 바이러스 RNA 검출용 RNA 센서의 개발과 활용을 정리한 리뷰 논문이다.",
+      "findings": "토홀드 센서는 표적 RNA와 결합하면 구조가 바뀌는 RNA 스위치로 검출 신호를 내며, 그 장점과 한계, POC 시스템에서 성능을 높이기 위한 과제와 방향을 논의했다.",
+      "significance": "자원이 제한된 환경에서 현재와 미래의 감염병 대유행에 대응할 수 있는 빠르고 민감한 진단 기술로서의 가능성을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4394582058",
     "retrieved_at": "2026-10-04"
   },
@@ -58149,7 +58911,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "전장 키나아제-MAM 상호작용 스크리닝으로 CK2A1이 MAM 칼슘 동역학을 조절하며 이 과정의 교란이 발달성 뇌전증 뇌병증 DEE66과 연결됨을 밝힌 연구.",
+      "background": "소포체와 미토콘드리아가 만나는 미토콘드리아 연관 소포체 막(mitochondria-associated ER membrane, MAM)이 손상되면 칼슘 항상성이 깨져 신경계에 다양한 영향을 준다.",
+      "methods": "유전체 수준의 키나아제-MAM 상호작용 스크리닝을 수행하고, PACS2 인산화와 질환 관련 PACS2 돌연변이(E209K, E211K)의 영향을 신경세포에서 분석했다.",
+      "findings": "카제인 키나아제 2 알파 1(CK2A1)이 MAM 구성과 칼슘 수송을 조절했다. CK2A1이 PACS2의 Ser207/208/213을 인산화하면 CK2A1-PACS2-PKD2 복합체가 MAM에 자리 잡아 PKD2 의존 미토콘드리아 칼슘 유입을 조절했다. DEE66 관련 PACS2 돌연변이는 이 인산화를 방해해 MAM 무결성을 손상시키고, 미토콘드리아 칼슘 흡수 감소와 세포질 칼슘 급증을 일으켜 흥분성 신경세포 축삭 말단에서 신경전달물질 방출을 유도했다.",
+      "significance": "병적 PACS2 돌연변이가 MAM 변화를 통해 칼슘 의존 신경전달물질 방출을 조절하는 분자 기전을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4385409401",
     "retrieved_at": "2026-10-04"
   },
@@ -58199,7 +58967,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "MAM 내부 칼슘을 비율 측정 방식으로 재는 BRET 기반 지시자 MAM-Calflux를 개발한 연구.",
+      "background": "MAM은 칼슘 조절 소기관들이 밀접하게 맞닿아 칼슘을 주고받는 구조로 다양한 생명 현상에 중요하지만, MAM 안의 칼슘 농도를 직접·특이적으로 측정하기는 기술적으로 어려웠다.",
+      "methods": "이분자 형광 상보(bimolecular fluorescence complementation, BiFC) 개념을 적용해 MAM 특이적 BRET 기반 칼슘 지시자 MAM-Calflux를 만들고, 파킨슨병 모델 생쥐 신경세포에 적용했다.",
+      "findings": "BiFC 전략으로 MAM에서 칼슘 반응 BRET 신호를 얻었고, 지시자는 칼슘 지시자와 MAM 정량 구조 표지라는 두 기능을 동시에 가졌다. 정상 상태 MAM 칼슘 수준을 추정하고 세포 내 MAM 칼슘의 불균등 분포를 시각화했으며, 파킨슨병 모델 신경세포에서 정상·자극 상태 모두 MAM 칼슘이 비정상적으로 축적됨을 밝혔다.",
+      "significance": "소기관 사이 칼슘 소통을 비율 측정으로 정량하는 범용 도구를 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4380989549",
     "retrieved_at": "2026-10-04"
   },
@@ -58511,7 +59285,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "E3 유비퀴틴 연결효소 WWP1의 기능 획득 변이가 TGFβ 경로 억제를 통해 발달 중인 뇌에서 부착 상실 세포사(anoikis)를 일으킨다는 연구.",
+      "background": "E3 유비퀴틴 연결효소 WWP1은 발암 역할은 잘 알려져 있지만 신경발달에서의 역할과 조절 이상의 병리적 의미는 거의 밝혀지지 않았다.",
+      "methods": "발달 중인 생쥐 뇌와 인간 신경 전구세포 모델에서 과활성 WWP1의 영향을 분석하고, 경로 수준 스크리닝, 전사체 분석, 환자 유래 신규 변이의 생화학·생체 내 기능 분석을 수행했다.",
+      "findings": "과활성 WWP1은 신경세포 이동 장애와 카스파아제 의존 세포사를 일으켰다. 기능 획득 변이는 세포 부착을 방해해 부착 상실 세포사(anoikis)를 유발했고, TGFβ1 처리는 세포 생존을 회복시킨 반면 TGFβ 경로 억제는 WWP1 유도 세포사를 재현했다. 발달성 뇌전증 뇌병증 환자에서 찾은 신규 WWP1 변이도 기능 획득형이었다.",
+      "significance": "WWP1을 신경세포 생존과 부착의 핵심 조절자로 제시하고 신경발달장애에서 WWP1 조절 이상의 임상적 의미를 뒷받침한다."
+    },
     "openalex_url": "https://openalex.org/W7133629935",
     "retrieved_at": "2026-10-04"
   },
@@ -58711,7 +59491,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "교모세포종에서 Wnt/β-카테닌 신호로 늘어난 NLGN3가 분비되어 주변 세포를 암 줄기세포로 바꾼다는 연구.",
+      "background": "교모세포종(glioblastoma, GBM)은 가장 악성인 뇌종양으로 치료 저항성이 높고, 암 줄기세포(cancer stem cell, CSC) 증가가 치료 실패에 기여하는 것으로 보이지만 CSC 특성 획득 기전은 충분히 밝혀지지 않았다.",
+      "methods": "GBM 세포에서 DAB2IP와 시냅스 단백질 뉴로리긴 3(NLGN3)의 관계, NLGN3 분비와 CSC 유도, Wnt/β-카테닌 억제제와 기존 치료 병용 효과를 조사했다.",
+      "findings": "DAB2IP는 NLGN3를 표적해 CSC 특성을 억제했고, GBM 유래 NLGN3는 CSC 특성을 유도하는 발암 기능을 가졌다. Wnt/β-카테닌 신호로 NLGN3 전사가 늘어 종양 미세환경으로 분비가 증가했으며, NLGN3를 포함한 배양액이나 재조합 NLGN3가 이웃 세포를 CSC로 바꿨다. 상위 Wnt/β-카테닌 억제제는 기존 치료 효과를 상승적으로 높였다.",
+      "significance": "GBM 치료 효과를 높이는 새로운 표적 전략을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4384154292",
     "retrieved_at": "2026-10-04"
   },
@@ -58861,7 +59647,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "스타니오칼신 2(STC2)가 MAPK 경로로 SNAI2와 MMP를 늘려 교모세포종을 더 악성으로 만든다는 연구.",
+      "background": "다형성 교모세포종(GBM)은 기존 치료에 반응하지 않는 가장 악성인 뇌종양이며 발병 기전은 여전히 불분명하다.",
+      "methods": "GBM 세포에서 STC2 발현·분비를 조절하고 STC2 함유 배양액과 재조합 STC2를 처리해 성장, 침윤, 관련 유전자와 신호 경로를 분석했다.",
+      "findings": "STC2 발현·분비 증가는 GBM 세포 성장과 침윤 표현형을 크게 높였다. STC2는 상피-중간엽 전이 전사인자 SNAI2와 기질 금속단백분해효소(MMP) 발현을 늘려 더 악성인 표현형으로 전환시켰고, 이 발암 기능은 MAPK 신호 경로를 통해 매개되었다.",
+      "significance": "STC2-SNAI2/MMP 축을 GBM의 잠재적 치료 표적으로 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4283817801",
     "retrieved_at": "2026-10-04"
   },
@@ -59117,7 +59909,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "막에 결합한 IFNγ/Fas 키메라를 발현하는 대장암 세포가 강한 전신 항종양 면역을 유도한다는 생쥐 연구.",
+      "background": "인터페론 감마(IFNγ)는 병원체 감염과 암에 대해 면역세포를 자극하는 것으로 잘 알려져 있으며, 효과적인 암 치료 백신 개발에 활용될 수 있다.",
+      "methods": "CT26 대장암 세포가 IFNγ를 분비형(sIFNγ) 또는 Fas의 세포 외 시스테인 풍부 도메인, 막관통, 세포질 도메인과 융합한 막결합형(mbIFNγ/Fas)으로 발현하도록 조작해 생쥐에서 종양 성장과 면역 반응을 비교했다.",
+      "findings": "두 형태 모두 대조군보다 종양 성장이 느렸고, mbIFNγ/Fas 발현 세포의 종양 형성력이 가장 낮았다. mbIFNγ/Fas 종양을 주입한 생쥐의 약 85%가 두 달 이상 종양이 없었고, 이를 거부한 생쥐는 CD4+, CD8+ T세포와 자연살해세포가 증가한 전신 항종양 면역을 보였다. mbIFNγ/Fas 종양으로 활성화한 비장세포는 sIFNγ보다 높은 세포독성을 보였다.",
+      "significance": "막결합 IFNγ/Fas 키메라 발현이 전체 종양세포 백신이나 암 면역 유전자 치료의 유망한 전략이 될 수 있음을 시사한다."
+    },
     "openalex_url": "https://openalex.org/W4405995661",
     "retrieved_at": "2026-10-04"
   },
@@ -59317,7 +60115,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "cryo-EM 구조를 바탕으로 SARS-CoV-2 스파이크 수용체 결합 도메인의 두 부위를 동시에 막는 이가 압타머를 개발한 연구.",
+      "background": "SARS-CoV-2는 높은 병원성, 감염성, 유전체 변이로 백신 효능을 떨어뜨렸으며, 스파이크 단백질은 수용체 ACE2와 상호작용해 바이러스의 세포 진입에 핵심 역할을 한다.",
+      "methods": "스파이크 단백질 수용체 결합 도메인(RBD)을 표적하는 압타머(aptamer)를 개발하고, 압타머-RBD 복합체의 3차원 구조를 cryo-EM으로 풀어 압타머를 최소화·최적화한 뒤 두 압타머를 결합했다.",
+      "findings": "한 압타머는 RBD의 ACE2 결합 부위를 직접 막았고, 다른 압타머는 RBD의 다른 면에 결합해 ACE2를 알로스테릭하게 억제했다. 최적화한 두 압타머를 결합한 이가 압타머는 각 압타머보다 바이러스 감염을 더 강하게 억제했다.",
+      "significance": "구조 기반 압타머 설계가 SARS-CoV-2와 다른 바이러스에 대한 항바이러스제 개발에 유망함을 확인한다."
+    },
     "openalex_url": "https://openalex.org/W4380089072",
     "retrieved_at": "2026-10-04"
   },
@@ -59467,7 +60271,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "긴 이중가닥 RNA에 결합한 TLR3 이량체들이 일정 간격으로 질서 있게 모여 집단을 이룬다는 cryo-EM 구조 연구.",
+      "background": "Toll 유사 수용체 3(TLR3)은 이중가닥 RNA에 결합해 강한 항바이러스 면역 반응을 시작한다. 이전 결정 구조에서 TLR3는 46 염기쌍 RNA에 동종이량체로 결합했지만, 이런 짧은 RNA는 강한 면역 반응을 일으키지 못했다.",
+      "methods": "평균 약 400 염기쌍 길이의 합성 RNA 리간드 poly(I:C)와 결합한 전장 TLR3의 극저온 전자현미경(cryo-EM) 구조를 풀고, 세포 내·막관통 도메인 결손체로 집단 형성을 시험했다.",
+      "findings": "TLR3 이량체들이 이중가닥 RNA 나선을 따라 103 Å의 균일한 간격으로 협동적이고 고도로 정렬된 집단을 이루었다. 세포 내 도메인과 막관통 도메인을 없애도 집단 형성은 방해받지 않았다.",
+      "significance": "리간드 유도 TLR3 이량체 집단화가 세포 내 신호 어댑터의 질서 있는 조립을 촉발해 강한 선천 면역 반응을 시작한다는 모델을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4308842138",
     "retrieved_at": "2026-10-04"
   },
@@ -59817,7 +60627,13 @@
         "domain": "Social Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "장내 미생물, 면역, 중추신경계가 서로 신호를 주고받는 장-면역-뇌 축을 정리한 리뷰.",
+      "background": "장내 미생물과 대사산물은 면역·신경 항상성에 큰 영향을 주며, 미생물 구성과 장벽 무결성의 교란은 자폐 스펙트럼 장애, 알츠하이머병, 파킨슨병, 우울, 불안 등 여러 신경·정신 질환과 연관된다.",
+      "methods": "주로 전임상 모델에서 얻은 숙주-미생물 상호작용 연구를 종합한 리뷰 논문이다.",
+      "findings": "미생물이 장벽과 뇌 장벽, 면역 신호, 미주신경 같은 신경 경로를 조절해 건강과 질병에 기여하는 방식을 정리하고, 개인 맞춤 미생물 중재, 미생물 기반 바이오마커, 장벽 강화 전략 같은 치료적 함의를 논의했다.",
+      "significance": "개인의 미생물군과 면역 특성에 맞춘 신경·면역 질환 치료법 개발 방향을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4413115178",
     "retrieved_at": "2026-10-04"
   },
@@ -59867,7 +60683,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "장내 미생물이 조절 T세포의 생성과 기능을 조절하는 기전과 건강 영향을 정리한 리뷰.",
+      "background": "면역 항상성은 공생 미생물과 숙주 면역계 사이의 양방향 정보 교환으로 유지되며, 그 중심에 CD4+Foxp3+ 조절 T세포(regulatory T cell, Treg)가 있다.",
+      "methods": "장내 미생물과 Treg의 상호작용에 관한 연구를 종합한 리뷰 논문이다.",
+      "findings": "장내 미생물이 Treg의 분화, 증식, 기능적 특화를 조절해 장 면역 관용을 이끄는 기전과 미생물 구조 성분·대사산물의 역할을 정리했다. 미생물 불균형이 면역 관용을 무너뜨려 염증·자가면역 질환에 기여하는 과정도 다뤘다.",
+      "significance": "미생물 기반 전략으로 장 면역을 재조정하고 면역 관용을 회복할 가능성을 제시한다."
+    },
     "openalex_url": "https://openalex.org/W4411315788",
     "retrieved_at": "2026-10-04"
   },
@@ -61135,7 +61957,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "압타머 결합 구조 등을 바탕으로 인슐린 수용체가 단계적으로 활성화된다는 모델을 제안한 리뷰.",
+      "background": "인슐린이 인슐린 수용체(insulin receptor, IR)에 결합하면 구조 변화와 자가인산화가 연쇄적으로 일어나 대사·증식 경로가 활성화된다. 비활성과 완전 활성 상태의 세포 외 도메인 구조는 밝혀졌지만 초기 활성화 기전은 잘 알려지지 않았다.",
+      "methods": "다양한 리간드와 결합한 IR의 구조·기능 연구를 종합한 리뷰 논문이다.",
+      "findings": "압타머와 결합한 부분 활성 IR 구조가 초기 활성화 기전의 단서를 준다는 점을 바탕으로 순차적 활성화 모델을 제안했고, 대사 경로를 선택적으로 활성화하는 편향 작용제(biased agonist)와 결합한 IR 구조를 논의했다.",
+      "significance": "선택적 작용제 설계와 그 임상적 함의에 대한 통찰을 제공한다."
+    },
     "openalex_url": "https://openalex.org/W4387235647",
     "retrieved_at": "2026-10-04"
   },
@@ -61241,7 +62069,13 @@
         "domain": "Health Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "압타머로 붙잡은 인슐린 수용체 구조 세 가지를 cryo-EM으로 풀어 대사 신호 선택적 활성화의 구조적 기반을 밝힌 연구.",
+      "background": "인슐린 수용체 활성화는 구조 변화와 자가인산화의 연쇄로 일어나며, A62 작용제 압타머는 대사 신호를 선택적으로 활성화한다.",
+      "methods": "극저온 전자현미경(cryo-EM)으로 A62 작용제 압타머와 양성 알로스테릭 조절자 A43 압타머에 붙잡힌 IR 구조 세 가지를 결정했다.",
+      "findings": "인슐린이 없을 때 두 A62 압타머는 인슐린 결합 방식을 모방해 IR을 인슐린이 접근 가능한 화살촉 형태로 만들었다. 한쪽 부위의 인슐린 결합은 한 단량체의 구조 변화를 일으켰지만 반대쪽의 A62가 다른 단량체의 움직임을 막았고, 이렇게 포착된 두 독특한 구조가 Tyr1150 단일 인산화와 대사 신호 선택적 활성화의 바탕이 되었다. A43은 인슐린 결합 모듈 반대편에 결합해 두 FnIII-3 영역을 가깝게 만드는 단일 인슐린 결합 구조를 안정화했다.",
+      "significance": "두 FnIII-3 말단의 근접이 단일 인산화에 중요하며, 다중 인산화에는 세포 외·막관통 도메인 협응을 통한 세포 내 도메인의 추가 재배열이 필요함을 시사한다."
+    },
     "openalex_url": "https://openalex.org/W4307953431",
     "retrieved_at": "2026-10-04"
   },
@@ -61525,7 +62359,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "히스톤 변이체 H2A.W가 애기장대 동원체 주변 이질염색질에서 감수분열 교차를 억제한다는 연구.",
+      "background": "감수분열 교차(crossover)는 대립유전자 조합을 재배열해 자손 다양성을 만들며, 애기장대에서는 H3K9me2와 H2A 변이체 H2A.W로 표시된 동원체 주변 이질염색질에서 적게 일어난다. H3K9me2가 없으면 이질염색질 교차가 늘지만 H2A.W의 영향은 알려지지 않았다.",
+      "methods": "감수분열 특이 microRNA 유도 유전자 침묵(meiMIGS)과 형광 재조합 리포터로 H2A.W.6/7/12를 억제하고, 고해상도 교차 지도, h2a.w 돌연변이 조합 분석, 미세구균 핵산분해효소 시퀀싱(MNase-seq)으로 뉴클레오솜 밀도를 측정했다.",
+      "findings": "감수분열 중 H2A.W.6/7/12를 억제하면 동원체 주변 교차가 H3K9me2 경로 억제 때처럼 늘었다. h2a.w.6, h2a.w.7 및 이들을 포함한 조합 돌연변이는 이질염색질 교차가 증가했지만 h2a.w.12 단독은 그렇지 않아 H2A.W.6과 H2A.W.7이 교차를 제한함을 보였다. 교차가 늘어난 돌연변이는 감수분열 중 이질염색질 접근성이 높고 H3K9me2가 낮았다.",
+      "significance": "H2A.W 변이체가 이질염색질을 압축해 동원체 주변 교차를 억제하는 역할을 밝힌다."
+    },
     "openalex_url": "https://openalex.org/W4409182672",
     "retrieved_at": "2026-10-04"
   },
@@ -61793,7 +62633,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "애기장대에서 감수분열 교차의 위치, 빈도, 유전체 분포를 정밀하게 측정하는 방법들을 정리한 리뷰.",
+      "background": "감수분열 재조합은 과도한 DNA 이중가닥 절단으로 시작되고 그중 일부가 교차로 복구된다. 교차는 유전 다양성과 육종에 큰 영향을 주며, 첫 감수분열 분리에 최소 1개가 필수지만 식물에서는 대개 3개 미만이고 동원체에서는 억제된다.",
+      "methods": "애기장대를 중심으로 식물 교차 측정 기법을 정리한 리뷰 논문이다.",
+      "findings": "교차의 빈도와 분포가 교차 촉진·억제 인자와 후성유전 요인으로 조절됨을 설명하고, 교차의 위치, 빈도, 유전체 지형을 빠르고 정확하게 측정하는 최신 접근법을 정리했다.",
+      "significance": "교차 형성과 염색체 행동 연구에 필요한 측정 도구 선택을 돕는다."
+    },
     "openalex_url": "https://openalex.org/W4224254762",
     "retrieved_at": "2026-10-04"
   },
@@ -61993,7 +62839,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "염 스트레스가 전사인자 LBD11의 프로테아좀 분해를 앞당겨 활성산소 매개 분열조직 유지와 뿌리 생장을 억제한다는 애기장대 연구.",
+      "background": "뿌리는 토양 염분에 특히 민감하며, 식물은 염 스트레스에서 뿌리 분열조직 크기를 줄여 생장을 억제하지만 그 기전은 불분명했다.",
+      "methods": "애기장대에서 활성산소(reactive oxygen species, ROS)와 LBD11의 역할을 유전·분자 실험으로 분석했다.",
+      "findings": "평상시 LBD11은 주요 ROS 대사 유전자 발현을 조절해 뿌리 발달 구역의 ROS 항상성을 유지하고 분열조직 크기와 뿌리 생장을 조절했다. 염 스트레스를 감지하면 LBD11이 프로테아좀에 의해 빠르게 분해되어 초과산화 음이온(O2⋅−) 분포가 줄고, 분열조직 크기와 뿌리 길이가 제한되었다.",
+      "significance": "생장 촉진 LBD11/ROS 경로를 낮춰 뿌리 생장을 조절하는 식물 적응 전략을 밝혀 염해 환경에서 수확량이 높은 작물 개발에 단서를 준다."
+    },
     "openalex_url": "https://openalex.org/W4406198110",
     "retrieved_at": "2026-10-04"
   },
@@ -62127,7 +62979,13 @@
         "domain": "Life Sciences"
       }
     ],
-    "summary_ko": null,
+    "summary_ko": {
+      "one_line": "핵공 단백질 CPR5가 옥신 억제 단백질 IAA12·IAA19의 핵-세포질 분포를 조절해 스트레스 조건의 곁뿌리 발달을 결정한다는 연구.",
+      "background": "뿌리 구조의 가소성은 식물이 환경 스트레스에 대처하는 데 중요하며 주로 옥신이 조절한다. 비생물 스트레스는 옥신 신호를 낮춰 곁뿌리 발달을 억제하지만, 그 연결 기전은 완전히 밝혀지지 않았다.",
+      "methods": "애기장대에서 옥신 신호 음성 조절자 IAA12와 IAA19의 세포 내 위치, 핵공 복합체 구성 요소의 역할, 스트레스 조건과 cpr5 돌연변이의 곁뿌리 발달을 분석했다.",
+      "findings": "뿌리 신장 구역에서 IAA12·IAA19가 세포질에 있으면 옥신 신호가 강화되어 곁뿌리가 발달했다. 핵공 구성 요소 CPR5가 IAA12/19의 세포질 이동을 선택적으로 매개했고, 비생물 스트레스에서 CPR5 발현이 크게 줄어 IAA12/19가 핵에 쌓이고 곁뿌리 발달이 억제되었으며, cpr5 돌연변이에서도 같은 현상이 나타났다.",
+      "significance": "AUX/IAA 조절자의 공간 분포가 변동하는 환경에서 곁뿌리 발달을 좌우하는 옥신 신호 조절 기전을 밝힌다."
+    },
     "openalex_url": "https://openalex.org/W4313856066",
     "retrieved_at": "2026-10-04"
   },

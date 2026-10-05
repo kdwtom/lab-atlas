@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04",
+  "generated_at": "2026-10-05",
   "data_retrieved_at": "2026-10-04",
   "window_years": [
     2022,
@@ -18,9 +18,9 @@
   },
   "summary_coverage": {
     "representative_papers": 311,
-    "papers_with_summary": 117,
+    "papers_with_summary": 263,
     "labs": 106,
-    "labs_with_intro": 40
+    "labs_with_intro": 90
   },
   "excluded_namesake_papers": 317
 }
