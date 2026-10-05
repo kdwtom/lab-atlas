@@ -102,7 +102,13 @@ export default function LabPage({ mode }: { mode: Mode }) {
 
       <section>
         <h2>연구실 소개</h2>
-        <p className={lab.intro_ko ? 'lead' : 'muted'}>{lab.intro_ko ?? NA}</p>
+        {lab.intro_ko ? <p className="lead">{lab.intro_ko}</p> : (
+          <p className="muted">
+            {NA} — 소개와 논문 요약을 아직 쓰지 못한 연구실입니다. 작성 순서 때문이며 이 연구실의
+            연구 성과와는 무관합니다. 아래 대표 논문 목록과 키워드, 링크는 정상적으로 제공되며,
+            작성 현황은 <Link to="/about">방법론 페이지</Link>에 있습니다.
+          </p>
+        )}
         {lab.keywords.length > 0 && <ul className="tags">{lab.keywords.map((k) => <li key={k}>{k}</li>)}</ul>}
       </section>
 

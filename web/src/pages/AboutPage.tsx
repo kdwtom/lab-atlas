@@ -1,13 +1,20 @@
 import { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useAtlas } from '../data/DataContext';
-import { ISSUE_URL, fmtDate } from '../lib/format';
+import { ISSUE_URL, UNIV_LABEL, UNIV_ORDER, fmtDate } from '../lib/format';
 
 export default function AboutPage() {
-  const { meta, clusters } = useAtlas();
+  const { meta, clusters, labs } = useAtlas();
   const { hash } = useLocation();
   const sc = meta.summary_coverage;
   const [y0, y1] = meta.window_years;
+
+  // Summaries are written in lab-id order, so an unfinished run leaves whole universities empty.
+  // Computed from the data so this disclosure disappears on its own once the remaining batches land.
+  const gaps = UNIV_ORDER.map((u) => {
+    const own = labs.filter((l) => l.univ === u);
+    return { label: UNIV_LABEL[u], total: own.length, missing: own.filter((l) => !l.intro_ko).length };
+  }).filter((g) => g.missing > 0);
 
   useEffect(() => {
     document.title = '방법론 · Lab Atlas';
@@ -109,7 +116,16 @@ export default function AboutPage() {
         {sc && (
           <p className="notice">
             현재 작성 현황: 대표 논문 {sc.representative_papers}편 중 <strong>{sc.papers_with_summary}편</strong>,
-            연구실 {sc.labs}곳 중 <strong>{sc.labs_with_intro}곳</strong>의 소개가 작성되었습니다. 나머지는 “정보 없음”으로 표시되며 순차적으로 보완할 예정입니다.
+            연구실 {sc.labs}곳 중 <strong>{sc.labs_with_intro}곳</strong>의 소개가 작성되었습니다. 나머지는 “정보 없음”으로 표시됩니다.
+            {gaps.length > 0 && (
+              <>
+                {' '}요약은 연구실 ID 순서대로 작성해서{' '}
+                <strong>아직 쓰지 못한 부분이 특정 대학에 몰려 있습니다</strong>
+                {' '}({gaps.map((g) => `${g.label} ${g.missing}/${g.total}곳`).join(', ')} 미작성).
+                요약이 없다고 해서 그 연구실의 연구 성과가 적다는 뜻은 전혀 아니며, 작성 순서 때문입니다.
+                비교할 때는 이 점을 감안해 주세요.
+              </>
+            )}
           </p>
         )}
       </section>
