@@ -1,0 +1,7 @@
+# Stage 3 (similarity / clustering) - CPU only. Keep this file ASCII (pip reads it as cp949 on Korean Windows).
+-r requirements.txt
+sentence-transformers>=3.0
+networkx>=3.2
+umap-learn>=0.5
+scikit-learn>=1.4
+numpy>=1.26

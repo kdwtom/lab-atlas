@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+local.env
+node_modules/
+web/dist/
+web/*.log
+web/tsconfig.tsbuildinfo
+pipeline/cache/
+pipeline/output/run_log*.txt
+pipeline/output/*_log.txt
+
+# Not published (principle 4 / personal data): abstracts, TLDR text and raw faculty pages (contain e-mail
+# addresses). All are regenerated from the cache by the pipeline.
+pipeline/output/papers_raw.jsonl
+pipeline/output/tldr.json
+pipeline/output/summary_tasks/
+pipeline/output/faculty.json

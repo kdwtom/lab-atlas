@@ -1,0 +1,96 @@
+{
+  "kaist": {
+    "id": "I157485424",
+    "display_name": "Korea Advanced Institute of Science and Technology",
+    "ror": "https://ror.org/05apxxy63",
+    "works_count": 121994,
+    "query": "Korea Advanced Institute of Science and Technology",
+    "alternatives": [
+      {
+        "id": "I157485424",
+        "display_name": "Korea Advanced Institute of Science and Technology"
+      }
+    ]
+  },
+  "snu": {
+    "id": "I139264467",
+    "display_name": "Seoul National University",
+    "ror": "https://ror.org/04h9pn542",
+    "works_count": 290736,
+    "query": "Seoul National University",
+    "alternatives": [
+      {
+        "id": "I139264467",
+        "display_name": "Seoul National University"
+      },
+      {
+        "id": "I2802835388",
+        "display_name": "Seoul National University Hospital"
+      },
+      {
+        "id": "I2803058125",
+        "display_name": "Seoul National University Bundang Hospital"
+      },
+      {
+        "id": "I118373667",
+        "display_name": "Seoul National University of Science and Technology"
+      },
+      {
+        "id": "I4210158657",
+        "display_name": "Seoul National University Dental Hospital"
+      }
+    ]
+  },
+  "postech": {
+    "id": "I123900574",
+    "display_name": "Pohang University of Science and Technology",
+    "ror": "https://ror.org/04xysgw12",
+    "works_count": 56431,
+    "query": "Pohang University of Science and Technology",
+    "alternatives": [
+      {
+        "id": "I123900574",
+        "display_name": "Pohang University of Science and Technology"
+      }
+    ]
+  },
+  "unist": {
+    "id": "I48566637",
+    "display_name": "Ulsan National Institute of Science and Technology",
+    "ror": "https://ror.org/017cjz748",
+    "works_count": 24471,
+    "query": "Ulsan National Institute of Science and Technology",
+    "alternatives": [
+      {
+        "id": "I48566637",
+        "display_name": "Ulsan National Institute of Science and Technology"
+      }
+    ]
+  },
+  "gist": {
+    "id": "I39534123",
+    "display_name": "Gwangju Institute of Science and Technology",
+    "ror": "https://ror.org/024kbgz78",
+    "works_count": 25564,
+    "query": "Gwangju Institute of Science and Technology",
+    "alternatives": [
+      {
+        "id": "I39534123",
+        "display_name": "Gwangju Institute of Science and Technology"
+      }
+    ]
+  },
+  "dgist": {
+    "id": "I193352282",
+    "display_name": "Daegu Gyeongbuk Institute of Science and Technology",
+    "ror": "https://ror.org/03frjya69",
+    "works_count": 10638,
+    "query": "Daegu Gyeongbuk Institute of Science and Technology",
+    "alternatives": [
+      {
+        "id": "I193352282",
+        "display_name": "Daegu Gyeongbuk Institute of Science and Technology"
+      }
+    ]
+  }
+}

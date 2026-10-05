@@ -1,0 +1,136 @@
+{
+  "window": [
+    2022,
+    2026
+  ],
+  "min_senior_papers": 5,
+  "funnel": [
+    {
+      "univ": "kaist",
+      "dept": "KAIST 생명과학과",
+      "listed": 39,
+      "full_time": 39,
+      "matched": 30,
+      "matched_high": 0,
+      "meets_criterion": 21,
+      "blocked": false
+    },
+    {
+      "univ": "snu",
+      "dept": "서울대학교 생명과학부",
+      "listed": 50,
+      "full_time": 50,
+      "matched": 47,
+      "matched_high": 39,
+      "meets_criterion": 37,
+      "blocked": false
+    },
+    {
+      "univ": "postech",
+      "dept": "POSTECH 생명과학과",
+      "listed": 29,
+      "full_time": 29,
+      "matched": 24,
+      "matched_high": 24,
+      "meets_criterion": 16,
+      "blocked": false
+    },
+    {
+      "univ": "unist",
+      "dept": "UNIST 생명과학과",
+      "listed": 18,
+      "full_time": 18,
+      "matched": 14,
+      "matched_high": 0,
+      "meets_criterion": 11,
+      "blocked": false
+    },
+    {
+      "univ": "gist",
+      "dept": "GIST 생명과학과",
+      "listed": 21,
+      "full_time": 21,
+      "matched": 18,
+      "matched_high": 4,
+      "meets_criterion": 12,
+      "blocked": false
+    },
+    {
+      "univ": "dgist",
+      "dept": "DGIST 뉴바이올로지학과",
+      "listed": 23,
+      "full_time": 21,
+      "matched": 18,
+      "matched_high": 0,
+      "meets_criterion": 9,
+      "blocked": false
+    }
+  ],
+  "total": {
+    "listed": 180,
+    "full_time": 178,
+    "matched": 151,
+    "matched_high": 67,
+    "meets_criterion": 106
+  },
+  "excluded_by_reason": {
+    "ambiguous_multiple_candidates": 9,
+    "below_paper_threshold": 45,
+    "affiliation_mismatch": 1,
+    "topic_mismatch": 8,
+    "no_candidate": 5,
+    "name_mismatch": 3,
+    "no_english_name_no_anchor": 1,
+    "not_full_time": 2
+  },
+  "excluded_by_univ_reason": {
+    "kaist": {
+      "ambiguous_multiple_candidates": 4,
+      "below_paper_threshold": 9,
+      "affiliation_mismatch": 1,
+      "topic_mismatch": 2,
+      "no_candidate": 1,
+      "name_mismatch": 1
+    },
+    "snu": {
+      "name_mismatch": 1,
+      "below_paper_threshold": 10,
+      "topic_mismatch": 2
+    },
+    "postech": {
+      "below_paper_threshold": 8,
+      "no_candidate": 3,
+      "no_english_name_no_anchor": 1,
+      "ambiguous_multiple_candidates": 1
+    },
+    "unist": {
+      "ambiguous_multiple_candidates": 2,
+      "name_mismatch": 1,
+      "below_paper_threshold": 3,
+      "topic_mismatch": 1
+    },
+    "gist": {
+      "below_paper_threshold": 6,
+      "ambiguous_multiple_candidates": 1,
+      "no_candidate": 1,
+      "topic_mismatch": 1
+    },
+    "dgist": {
+      "below_paper_threshold": 9,
+      "ambiguous_multiple_candidates": 1,
+      "topic_mismatch": 2,
+      "not_full_time": 2
+    }
+  },
+  "abstracts": {
+    "papers": 1699,
+    "with_abstract": 1412,
+    "senior_papers": 1109,
+    "senior_with_abstract": 914,
+    "with_tldr": 1446,
+    "analysis_papers": 1630,
+    "analysis_with_abstract": 1356
+  },
+  "labs_with_lt3_senior_abstracts": 5,
+  "faculty_errors": []
+}

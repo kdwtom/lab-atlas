@@ -1,0 +1,110 @@
+[
+  {
+    "id": 0,
+    "label_ko": "대사·자가포식·미토콘드리아",
+    "keywords": [
+      "Adipose Tissue and Metabolism",
+      "Hippo pathway signaling and YAP/TAZ",
+      "Adipokines, Inflammation, and Metabolic Diseases",
+      "Autophagy in Disease and Therapy",
+      "Mitochondrial Function and Pathology"
+    ],
+    "size": 19
+  },
+  {
+    "id": 1,
+    "label_ko": "단백질 구조·막 수송·수용체 신호",
+    "keywords": [
+      "Protein Structure and Dynamics",
+      "RNA and protein synthesis mechanisms",
+      "Enzyme Structure and Function",
+      "Machine Learning in Bioinformatics",
+      "Cellular transport and secretion"
+    ],
+    "size": 17
+  },
+  {
+    "id": 2,
+    "label_ko": "신경과학·뇌질환",
+    "keywords": [
+      "Neuroscience and Neuropharmacology Research",
+      "Genetics and Neurodevelopmental Disorders",
+      "Neural dynamics and brain function",
+      "Memory and Neural Mechanisms",
+      "Neuroinflammation and Neurodegeneration Mechanisms"
+    ],
+    "size": 16
+  },
+  {
+    "id": 3,
+    "label_ko": "식물 분자생물학",
+    "keywords": [
+      "Plant Molecular Biology Research",
+      "Photosynthetic Processes and Mechanisms",
+      "Plant Gene Expression Analysis",
+      "Plant Reproductive Biology",
+      "Light effects on plants"
+    ],
+    "size": 14
+  },
+  {
+    "id": 4,
+    "label_ko": "면역학·염증",
+    "keywords": [
+      "Immune Cell Function and Interaction",
+      "T-cell and B-cell Immunology",
+      "Extracellular vesicles in disease",
+      "Inflammasome and immune disorders",
+      "CAR-T cell therapy research"
+    ],
+    "size": 11
+  },
+  {
+    "id": 5,
+    "label_ko": "RNA 생물학·노화 유전학",
+    "keywords": [
+      "RNA modifications and cancer",
+      "RNA Research and Splicing",
+      "Genetics, Aging, and Longevity in Model Organisms",
+      "RNA and protein synthesis mechanisms",
+      "Circular RNAs in diseases"
+    ],
+    "size": 8
+  },
+  {
+    "id": 6,
+    "label_ko": "미생물·마이크로바이옴",
+    "keywords": [
+      "Gut microbiota and health",
+      "Bacterial biofilms and quorum sensing",
+      "Vibrio bacteria research studies",
+      "Advanced Nanomaterials in Catalysis",
+      "Antibiotic Resistance in Bacteria"
+    ],
+    "size": 8
+  },
+  {
+    "id": 7,
+    "label_ko": "염색질·후성유전·단일세포 유전체",
+    "keywords": [
+      "Genomics and Chromatin Dynamics",
+      "Epigenetics and DNA Methylation",
+      "Single-cell and spatial transcriptomics",
+      "RNA Research and Splicing",
+      "RNA modifications and cancer"
+    ],
+    "size": 7
+  },
+  {
+    "id": 8,
+    "label_ko": "생태·진화·균류",
+    "keywords": [
+      "Mycorrhizal Fungi and Plant Interactions",
+      "Plant Pathogens and Fungal Diseases",
+      "Forensic and Genetic Research",
+      "Fungal Biology and Applications",
+      "Genetic diversity and population structure"
+    ],
+    "size": 6
+  }
+]

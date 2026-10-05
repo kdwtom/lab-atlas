@@ -1,0 +1,75 @@
+﻿name_ko,name_en,univ,reason,reason_ko,detail,candidate_ids,faculty_page_url
+김미영,Mi Young Kim,kaist,ambiguous_multiple_candidates,후보 여러 명(동명이인 가능성),3 strong candidates,A5100743278;A5100743277;A5100743274;A5013893562;A5100755762;A5100780392;A5100460048;A5100755754,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9731&menuSeq=3344&bbsSeq=120
+김재경,Jaekyung Kim,kaist,ambiguous_multiple_candidates,후보 여러 명(동명이인 가능성),2 strong candidates,A5101701675;A5049345058;A5100434602;A5000491897;A5044424113,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9722&menuSeq=3344&bbsSeq=120
+김재훈,Jaehoon Kim,kaist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 4 / all 18,A5100347901,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9729&menuSeq=3344&bbsSeq=120
+김진우,Jin Woo Kim,kaist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 4 / all 11,A5100372671,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9730&menuSeq=3344&bbsSeq=120
+김현우,Hyeonwoo Kim,kaist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 1 / all 9,A5100667694,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9771&menuSeq=3344&bbsSeq=120
+박민희,Minhee Park,kaist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 3 / all 7,A5101985820,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9770&menuSeq=3344&bbsSeq=120
+박승열,Seung-Yeol Park,kaist,affiliation_mismatch,후보의 최근 소속 불일치,no candidate with recent affiliation to the institution,A5107657538,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9802&menuSeq=3344&bbsSeq=120
+배준환,Alexander Bae,kaist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 1 / all 19,A5100780771,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9803&menuSeq=3344&bbsSeq=120
+송지준,Ji-Joon Song,kaist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 0 / all 1,A5135944817,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9740&menuSeq=3344&bbsSeq=120
+양한슬,Hanseul Yang,kaist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 0 / all 1,A5137663456,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9767&menuSeq=3344&bbsSeq=120
+이규리,Gyu Rie Lee,kaist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 1 / all 15,A5081678768,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9788&menuSeq=3344&bbsSeq=120
+이소현,Sohyon Lee,kaist,topic_mismatch,후보 연구주제가 생명과학 밖,"affiliated, name-matching candidates are outside life sciences",A5023559592,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9786&menuSeq=3344&bbsSeq=120
+이승희,Seung-Hee Lee,kaist,ambiguous_multiple_candidates,후보 여러 명(동명이인 가능성),2 strong candidates,A5100424985;A5112532514;A5103259274;A5100700141;A5013047009;A5030586134;A5100605185;A5113740974,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9735&menuSeq=3344&bbsSeq=120
+장민혁,Minhyeok Chang,kaist,no_candidate,OpenAlex 후보 없음,no OpenAlex author found at this institution,,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=20711&menuSeq=3344&bbsSeq=120
+전상용,Sangyong Jon,kaist,topic_mismatch,후보 연구주제가 생명과학 밖,"affiliated, name-matching candidates are outside life sciences",A5041133038,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9724&menuSeq=3344&bbsSeq=120
+정인경,Inkyung Jung,kaist,ambiguous_multiple_candidates,후보 여러 명(동명이인 가능성),5 strong candidates,A5080272556;A5124967699;A5121167167;A5124039702;A5153163206;A5083550513;A5143926968,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9752&menuSeq=3344&bbsSeq=120
+조성익,"Sung Ik, Cho",kaist,name_mismatch,후보 이름 불일치,affiliated candidates do not match the name,A5016813807,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9791&menuSeq=3344&bbsSeq=120
+홍인기,Ingie Hong,kaist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 3 / all 6,A5038912226,https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9789&menuSeq=3344&bbsSeq=120
+김현아,Joy Kim,snu,name_mismatch,후보 이름 불일치,affiliated candidates do not match the name,A5041172263;A5152623284,https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=11
+노유선,Yoo-Sun Noh,snu,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 3 / all 7,A5049176811,https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=12
+박상우,Sang Woo Park,snu,topic_mismatch,후보 연구주제가 생명과학 밖,"affiliated, name-matching candidates are outside life sciences",A5039621391;A5100422622;A5100746890;A5088837397;A5057920247;A5100661682;A5100608258;A5100776705,https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=116
+박주홍,Joo-Hong Park,snu,topic_mismatch,후보 연구주제가 생명과학 밖,"affiliated, name-matching candidates are outside life sciences",A5064408083;A5112493125,https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=88
+백대현,Daehyun Baek,snu,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 4 / all 12,A5080394046,https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=17
+설재홍,Jae Hong Seol,snu,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 0 / all 0,A5112600121,https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=20
+신혜영,Hyeyoung Shin,snu,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 1 / all 4,A5085893859,https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=108
+이원재,Won-Jae Lee,snu,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 4 / all 14,A5100638533,https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=51
+이현숙,Hyunsook Lee,snu,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 4 / all 6,A5052639020,https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=34
+이홍균,Hong-Gyun Lee,snu,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 4 / all 23,A5016011384,https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=115
+장원열,Wonyul Jang,snu,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 0 / all 6,A5038896327,https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=112
+최성화,Sunghwa Choe,snu,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 2 / all 2,A5050439559,https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=44
+황수석,Soo Seok Hwang,snu,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 4 / all 9,A5084548293,https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=111
+김광순,,postech,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 4 / all 10,A5101953959,https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?mode=view&id=fdf7c49c167de224cc78528fcfdcfbe8
+김성철,,postech,no_candidate,OpenAlex 후보 없음,no OpenAlex author found at this institution,,https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?mode=view&id=1ae444a2f44d62ba86384b57194c85ef
+김정훈,,postech,no_candidate,OpenAlex 후보 없음,no OpenAlex author found at this institution,,https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?mode=view&id=3f0f056e4fad5c7ff805253491ee03ff
+김종신,,postech,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 0 / all 1,A5135134030,https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?mode=view&id=ca582d6a0b812ba87c27f95338ba11dd
+이승우,,postech,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 3 / all 22,A5100403762,https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?mode=view&id=c1111180290fc3a3f6ef78b9cfbe9b35
+고용송,,postech,no_candidate,OpenAlex 후보 없음,no OpenAlex author found at this institution,,https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?mode=view&id=749a9f72399d0927583407259ca8bd7f
+김영진,,postech,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 2 / all 7,A5100440437,https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?mode=view&id=50705cf571ba48309476bb553c2356b8
+김종흠,,postech,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 4 / all 11,A5051879388,https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?mode=view&id=5f198105100143316777af8a3c5e6d4b
+복서연,,postech,no_english_name_no_anchor,영문명·대표논문 모두 없음,no English name and no publications on page,,https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?mode=view&id=1e0986de5992f7715872118d72e5356f
+유웅재,,postech,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 2 / all 5,A5015067711,https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?mode=view&id=2d8a05711c73101da3adb5114339a869
+이민식,,postech,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 1 / all 3,A5070012952,https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?mode=view&id=54847f8af8af755d701d642eb2889ce1
+장지원,,postech,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 2 / all 11,A5101989256,https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?mode=view&id=f5d5875b5c523c59f197eb4a1b955321
+허윤하,,postech,ambiguous_multiple_candidates,후보 여러 명(동명이인 가능성),2 strong candidates,A5091803046;A5082352958,https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?mode=view&id=0338f11c96903a40633ed02cc9426f4f
+김은희,Eunhee Kim,unist,ambiguous_multiple_candidates,후보 여러 명(동명이인 가능성),3 strong candidates,A5100339473;A5100339482;A5100339484;A5100339481;A5100339488,https://research.unist.ac.kr/research/faculty/faculty.do?mode=view&profileNo=36
+김정석,Jung-Seok Kim,unist,name_mismatch,후보 이름 불일치,affiliated candidates do not match the name,A5100333884;A5103043253;A5038388189,https://research.unist.ac.kr/research/faculty/faculty.do?mode=view&profileNo=311
+김홍태,Hongtae Kim,unist,ambiguous_multiple_candidates,후보 여러 명(동명이인 가능성),2 strong candidates,A5007382558;A5081213179;A5041873865,https://research.unist.ac.kr/research/faculty/faculty.do?mode=view&profileNo=231
+남덕우,Dougu Nam,unist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 3 / all 9,A5062938377,https://research.unist.ac.kr/research/faculty/faculty.do?mode=view&profileNo=161
+박지영,Jiyoung Park,unist,topic_mismatch,후보 연구주제가 생명과학 밖,"affiliated, name-matching candidates are outside life sciences",A5100409597;A5100409605;A5100409592;A5100409601,https://research.unist.ac.kr/research/faculty/faculty.do?mode=view&profileNo=21
+이자일,Jayil Lee,unist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 0 / all 0,A5060193001,https://research.unist.ac.kr/research/faculty/faculty.do?mode=view&profileNo=235
+황성민,Sung-Min Hwang,unist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 1 / all 11,A5076737114,https://research.unist.ac.kr/research/faculty/faculty.do?mode=view&profileNo=315
+권용훈,Yonghoon Kwon,gist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 0 / all 5,A5076320252,https://life.gist.ac.kr/prog/gsPerson/life/P/view.do?personId=B000000080044Xs9mY5v
+박대호,Daeho Park,gist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 4 / all 15,A5088811678,https://life.gist.ac.kr/prog/gsPerson/life/P/view.do?personId=P00001722
+송미령,Mi-Ryoung Song,gist,ambiguous_multiple_candidates,후보 여러 명(동명이인 가능성),2 strong candidates,A5013222112;A5108231641,https://life.gist.ac.kr/prog/gsPerson/life/P/view.do?personId=P00001727
+심해홍,Hai-Hong Shen,gist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 3 / all 4,A5110807672,https://life.gist.ac.kr/prog/gsPerson/life/P/view.do?personId=P00001729
+정강훈,Kanghoon Jung,gist,no_candidate,OpenAlex 후보 없음,no OpenAlex author found at this institution,,https://life.gist.ac.kr/prog/gsPerson/life/P/view.do?personId=B000000092123Zt1cC3a
+정현수,Hyeonsoo Jeong,gist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 0 / all 9,A5021740365,https://life.gist.ac.kr/prog/gsPerson/life/P/view.do?personId=B000000099832Rs0pA6j
+조정희,Chunghee Cho,gist,topic_mismatch,후보 연구주제가 생명과학 밖,"affiliated, name-matching candidates are outside life sciences",A5075126907,https://life.gist.ac.kr/prog/gsPerson/life/P/view.do?personId=P00001736
+진석원,Suk-Won Jin,gist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 3 / all 5,A5077161977,https://life.gist.ac.kr/prog/gsPerson/life/P/view.do?personId=P00001738
+최진욱,Choi Jin-Wook,gist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 0 / all 10,A5023257702,https://life.gist.ac.kr/prog/gsPerson/life/P/view.do?personId=B000000066676Ss5wI9e
+구재형,JaeHyung Koo,dgist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 4 / all 6,A5068493893,https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do
+김민석,Minseok S. Kim,dgist,ambiguous_multiple_candidates,후보 여러 명(동명이인 가능성),4 strong candidates,A5100332525;A5100332508;A5009996613;A5067118695;A5100332530;A5004876274;A5100332515;A5030486777,https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do
+김민식,Kim Min Sik,dgist,topic_mismatch,후보 연구주제가 생명과학 밖,"affiliated, name-matching candidates are outside life sciences",A5064143823;A5113696500;A5100629731;A5136249463,https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do
+김유리,Yoori Kim,dgist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 4 / all 10,A5028471243,https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do
+김진해,Jin Hae Kim,dgist,topic_mismatch,후보 연구주제가 생명과학 밖,"affiliated, name-matching candidates are outside life sciences",A5076817004,https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do
+김태완,Tae Wan Kim,dgist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 3 / all 8,A5100670572,https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do
+이송이,Song-Yi Lee,dgist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 0 / all 9,A5101724646,https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do
+이영삼,Young-Sam Lee,dgist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 3 / all 4,A5102833618,https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do
+이재민,Jaemin Lee,dgist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 0 / all 0,A5132760735,https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do
+이종찬,Jong-Chan Lee,dgist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 0 / all 0,A5128182557,https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do
+최일규,Il-Kyu Choi,dgist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 3 / all 7,A5055481445,https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do
+요나스 페릭스,Felix Jonas,dgist,below_paper_threshold,최근 5년 마지막/교신저자 논문 5편 미만,senior papers 4 / all 11,A5007588066,https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do
+임평옥,Pyung Ok Lim,dgist,not_full_time,전임교원 아님(교수진 페이지 직위 기준),position: 명예교수 Emerita Professor,,https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do
+문대원,Dae Won Moon,dgist,not_full_time,전임교원 아님(교수진 페이지 직위 기준),position: 석좌교수 Adjunct Professor,,https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do

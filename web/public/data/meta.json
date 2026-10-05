@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-10-04",
+  "data_retrieved_at": "2026-10-04",
+  "window_years": [
+    2022,
+    2026
+  ],
+  "min_senior_papers": 5,
+  "louvain_resolution": 1.65,
+  "louvain_seed": 42,
+  "similarity_k": 5,
+  "similarity_threshold": 0.8997,
+  "counts": {
+    "labs": 106,
+    "papers": 1630,
+    "edges_similarity": 280,
+    "edges_coauthor": 164
+  },
+  "summary_coverage": {
+    "representative_papers": 311,
+    "papers_with_summary": 117,
+    "labs": 106,
+    "labs_with_intro": 40
+  },
+  "excluded_namesake_papers": 317
+}

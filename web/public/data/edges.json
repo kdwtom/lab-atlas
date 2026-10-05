@@ -1,0 +1,5052 @@
+[
+  {
+    "source": "kaist-A5103056397",
+    "target": "snu-A5027374744",
+    "type": "similarity",
+    "weight": 0.932,
+    "reasons": [
+      "Cancer, Hypoxia, and Metabolism",
+      "Mitochondrial Function and Pathology",
+      "Extracellular vesicles in disease"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5103056397",
+    "target": "postech-A5034657214",
+    "type": "similarity",
+    "weight": 0.9416,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "T-cell and B-cell Immunology",
+      "Cancer, Hypoxia, and Metabolism"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5103056397",
+    "target": "postech-A5100635271",
+    "type": "similarity",
+    "weight": 0.9368,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "T-cell and B-cell Immunology",
+      "IL-33, ST2, and ILC Pathways"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5103056397",
+    "target": "unist-A5100749356",
+    "type": "similarity",
+    "weight": 0.9388,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "CAR-T cell therapy research",
+      "IL-33, ST2, and ILC Pathways"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5103056397",
+    "target": "unist-A5007769445",
+    "type": "similarity",
+    "weight": 0.9167,
+    "reasons": [
+      "interferon and immune responses",
+      "Immune Response and Inflammation",
+      "Immune Cell Function and Interaction"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5023173703",
+    "target": "kaist-A5103056397",
+    "type": "similarity",
+    "weight": 0.9371,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "CAR-T cell therapy research",
+      "T-cell and B-cell Immunology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5102961870",
+    "target": "snu-A5059278158",
+    "type": "similarity",
+    "weight": 0.9391,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Stress Responses and Tolerance",
+      "Photosynthetic Processes and Mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5102961870",
+    "target": "snu-A5100447456",
+    "type": "similarity",
+    "weight": 0.9375,
+    "reasons": [
+      "Plant Parasitism and Resistance",
+      "Plant Molecular Biology Research",
+      "Plant tissue culture and regeneration"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5102961870",
+    "target": "snu-A5073424725",
+    "type": "similarity",
+    "weight": 0.9618,
+    "reasons": [
+      "Insect-Plant Interactions and Control",
+      "Plant Parasitism and Resistance",
+      "Plant and animal studies"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5102961870",
+    "target": "snu-A5055484396",
+    "type": "similarity",
+    "weight": 0.9461,
+    "reasons": [
+      "Plant biochemistry and biosynthesis",
+      "Plant Parasitism and Resistance",
+      "Microbial Natural Products and Biosynthesis"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5102961870",
+    "target": "postech-A5010154886",
+    "type": "similarity",
+    "weight": 0.9257,
+    "reasons": [
+      "Plant Parasitism and Resistance",
+      "Plant biochemistry and biosynthesis",
+      "Plant and animal studies"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5038114229",
+    "target": "kaist-A5101520308",
+    "type": "similarity",
+    "weight": 0.9458,
+    "reasons": [
+      "Adipose Tissue and Metabolism",
+      "Autophagy in Disease and Therapy",
+      "Helicobacter pylori-related gastroenterology studies"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5101520308",
+    "target": "snu-A5080563770",
+    "type": "similarity",
+    "weight": 0.9176,
+    "reasons": [
+      "Adipose Tissue and Metabolism",
+      "Immune Cell Function and Interaction",
+      "Pancreatic function and diabetes"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5101520308",
+    "target": "snu-A5043286860",
+    "type": "similarity",
+    "weight": 0.9268,
+    "reasons": [
+      "Autophagy in Disease and Therapy",
+      "Cellular transport and secretion",
+      "T-cell and B-cell Immunology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5101520308",
+    "target": "snu-A5027374744",
+    "type": "similarity",
+    "weight": 0.95,
+    "reasons": [
+      "Adipose Tissue and Metabolism",
+      "Immune Cell Function and Interaction",
+      "T-cell and B-cell Immunology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5101520308",
+    "target": "postech-A5018682015",
+    "type": "similarity",
+    "weight": 0.9282,
+    "reasons": [
+      "T-cell and B-cell Immunology",
+      "Immune Cell Function and Interaction",
+      "Computational Drug Discovery Methods"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5101520308",
+    "target": "unist-A5021577151",
+    "type": "similarity",
+    "weight": 0.934,
+    "reasons": [
+      "Adipose Tissue and Metabolism",
+      "Autophagy in Disease and Therapy",
+      "Computational Drug Discovery Methods"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5101520308",
+    "target": "unist-A5100749356",
+    "type": "similarity",
+    "weight": 0.9408,
+    "reasons": [
+      "Autophagy in Disease and Therapy",
+      "Adipose Tissue and Metabolism",
+      "T-cell and B-cell Immunology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5101520308",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9497,
+    "reasons": [
+      "Autophagy in Disease and Therapy",
+      "Metabolomics and Mass Spectrometry Studies",
+      "Pancreatic function and diabetes"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5023739451",
+    "target": "kaist-A5101520308",
+    "type": "similarity",
+    "weight": 0.9003,
+    "reasons": [],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5102904761",
+    "target": "kaist-A5101520308",
+    "type": "similarity",
+    "weight": 0.9413,
+    "reasons": [
+      "Autophagy in Disease and Therapy",
+      "Cellular transport and secretion",
+      "Pancreatic function and diabetes"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5021944943",
+    "target": "kaist-A5101520308",
+    "type": "similarity",
+    "weight": 0.9405,
+    "reasons": [
+      "Retinal Development and Disorders"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5028509727",
+    "target": "kaist-A5059786116",
+    "type": "similarity",
+    "weight": 0.9333,
+    "reasons": [
+      "RNA modifications and cancer",
+      "RNA Research and Splicing",
+      "Circular RNAs in diseases"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5028509727",
+    "target": "kaist-A5038871139",
+    "type": "similarity",
+    "weight": 0.9274,
+    "reasons": [
+      "RNA Research and Splicing",
+      "RNA modifications and cancer",
+      "Genetics, Aging, and Longevity in Model Organisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5028509727",
+    "target": "snu-A5043554497",
+    "type": "similarity",
+    "weight": 0.9492,
+    "reasons": [
+      "RNA Research and Splicing",
+      "RNA modifications and cancer",
+      "RNA and protein synthesis mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5028509727",
+    "target": "snu-A5010084845",
+    "type": "similarity",
+    "weight": 0.9196,
+    "reasons": [
+      "Genomics and Chromatin Dynamics",
+      "Cancer-related gene regulation",
+      "RNA modifications and cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5028509727",
+    "target": "snu-A5073947704",
+    "type": "similarity",
+    "weight": 0.9249,
+    "reasons": [
+      "RNA modifications and cancer",
+      "RNA Research and Splicing",
+      "RNA and protein synthesis mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5010447099",
+    "target": "kaist-A5028509727",
+    "type": "similarity",
+    "weight": 0.9033,
+    "reasons": [
+      "RNA Research and Splicing",
+      "RNA modifications and cancer",
+      "Cancer-related molecular mechanisms research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5013204190",
+    "target": "kaist-A5087466819",
+    "type": "similarity",
+    "weight": 0.9134,
+    "reasons": [
+      "Neurogenesis and neuroplasticity mechanisms",
+      "Genetics and Neurodevelopmental Disorders",
+      "Neuroinflammation and Neurodegeneration Mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5013204190",
+    "target": "postech-A5069176618",
+    "type": "similarity",
+    "weight": 0.9267,
+    "reasons": [
+      "Genetics and Neurodevelopmental Disorders",
+      "Neuroscience and Neuropharmacology Research",
+      "Congenital heart defects research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5013204190",
+    "target": "postech-A5080004279",
+    "type": "similarity",
+    "weight": 0.9163,
+    "reasons": [
+      "Genetics and Neurodevelopmental Disorders",
+      "Congenital heart defects research",
+      "Genomics and Rare Diseases"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5013204190",
+    "target": "unist-A5057203654",
+    "type": "similarity",
+    "weight": 0.9332,
+    "reasons": [
+      "Neuroscience and Neuropharmacology Research",
+      "Neuroinflammation and Neurodegeneration Mechanisms",
+      "Neurogenesis and neuroplasticity mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5023660115",
+    "target": "snu-A5055820463",
+    "type": "similarity",
+    "weight": 0.9153,
+    "reasons": [
+      "Cellular transport and secretion",
+      "Nanopore and Nanochannel Transport Studies",
+      "Protein Structure and Dynamics"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5023660115",
+    "target": "snu-A5091015282",
+    "type": "similarity",
+    "weight": 0.9423,
+    "reasons": [
+      "Protein Structure and Dynamics",
+      "Lipid Membrane Structure and Behavior",
+      "RNA Research and Splicing"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5023660115",
+    "target": "snu-A5043286860",
+    "type": "similarity",
+    "weight": 0.9438,
+    "reasons": [
+      "Cellular transport and secretion",
+      "Protein Kinase Regulation and GTPase Signaling"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5023660115",
+    "target": "postech-A5047859685",
+    "type": "similarity",
+    "weight": 0.9179,
+    "reasons": [
+      "Cancer Cells and Metastasis",
+      "vaccines and immunoinformatics approaches",
+      "Protein Structure and Dynamics"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5023660115",
+    "target": "postech-A5074578302",
+    "type": "similarity",
+    "weight": 0.9449,
+    "reasons": [
+      "Immune Response and Inflammation",
+      "RNA Interference and Gene Delivery",
+      "Monoclonal and Polyclonal Antibodies Research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5023660115",
+    "target": "postech-A5103183496",
+    "type": "similarity",
+    "weight": 0.9489,
+    "reasons": [
+      "Monoclonal and Polyclonal Antibodies Research",
+      "Cellular transport and secretion",
+      "Protein Structure and Dynamics"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5023660115",
+    "target": "unist-A5041027236",
+    "type": "similarity",
+    "weight": 0.9242,
+    "reasons": [
+      "RNA Interference and Gene Delivery",
+      "Monoclonal and Polyclonal Antibodies Research",
+      "Glycosylation and Glycoproteins Research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5102904761",
+    "target": "kaist-A5023660115",
+    "type": "similarity",
+    "weight": 0.9377,
+    "reasons": [
+      "Cellular transport and secretion",
+      "Cancer Cells and Metastasis",
+      "Cell Adhesion Molecules Research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5088628057",
+    "target": "kaist-A5023660115",
+    "type": "similarity",
+    "weight": 0.913,
+    "reasons": [
+      "Cellular transport and secretion",
+      "Protein Structure and Dynamics",
+      "Lipid Membrane Structure and Behavior"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5015429226",
+    "target": "kaist-A5023660115",
+    "type": "similarity",
+    "weight": 0.9155,
+    "reasons": [
+      "RNA Interference and Gene Delivery",
+      "Monoclonal and Polyclonal Antibodies Research",
+      "Immunotherapy and Immune Responses"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5072366749",
+    "target": "kaist-A5087466819",
+    "type": "similarity",
+    "weight": 0.9114,
+    "reasons": [
+      "Neuroinflammation and Neurodegeneration Mechanisms",
+      "Alzheimer's disease research and treatments",
+      "Neurogenesis and neuroplasticity mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "kaist-A5089863464",
+    "type": "similarity",
+    "weight": 0.9442,
+    "reasons": [
+      "Neurogenesis and neuroplasticity mechanisms",
+      "CRISPR and Genetic Engineering",
+      "RNA and protein synthesis mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "snu-A5100619952",
+    "type": "similarity",
+    "weight": 0.944,
+    "reasons": [
+      "Pluripotent Stem Cells Research",
+      "Neurogenesis and neuroplasticity mechanisms",
+      "3D Printing in Biomedical Research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "snu-A5091015282",
+    "type": "similarity",
+    "weight": 0.9233,
+    "reasons": [
+      "Pluripotent Stem Cells Research",
+      "CRISPR and Genetic Engineering",
+      "Wnt/β-catenin signaling in development and cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "postech-A5068518101",
+    "type": "similarity",
+    "weight": 0.9556,
+    "reasons": [
+      "RNA Research and Splicing",
+      "Epigenetics and DNA Methylation",
+      "RNA modifications and cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "postech-A5069176618",
+    "type": "similarity",
+    "weight": 0.9446,
+    "reasons": [
+      "Genetics and Neurodevelopmental Disorders",
+      "Microtubule and mitosis dynamics",
+      "Epigenetics and DNA Methylation"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "postech-A5080004279",
+    "type": "similarity",
+    "weight": 0.9474,
+    "reasons": [
+      "RNA Research and Splicing",
+      "Epigenetics and DNA Methylation",
+      "Genetics and Neurodevelopmental Disorders"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "unist-A5057203654",
+    "type": "similarity",
+    "weight": 0.9216,
+    "reasons": [
+      "Neurogenesis and neuroplasticity mechanisms",
+      "Neuroinflammation and Neurodegeneration Mechanisms",
+      "Alzheimer's disease research and treatments"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "unist-A5008036043",
+    "type": "similarity",
+    "weight": 0.9346,
+    "reasons": [
+      "CRISPR and Genetic Engineering",
+      "Cancer-related molecular mechanisms research",
+      "Epigenetics and DNA Methylation"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5038871139",
+    "target": "kaist-A5059786116",
+    "type": "similarity",
+    "weight": 0.9256,
+    "reasons": [
+      "RNA modifications and cancer",
+      "RNA Research and Splicing",
+      "Genetics, Aging, and Longevity in Model Organisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5059786116",
+    "target": "kaist-A5089223715",
+    "type": "similarity",
+    "weight": 0.9323,
+    "reasons": [
+      "Genomics and Chromatin Dynamics",
+      "RNA Interference and Gene Delivery",
+      "RNA Research and Splicing"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5059786116",
+    "target": "snu-A5091561167",
+    "type": "similarity",
+    "weight": 0.9122,
+    "reasons": [
+      "Genomics and Chromatin Dynamics",
+      "RNA Research and Splicing",
+      "RNA and protein synthesis mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5059786116",
+    "target": "snu-A5043554497",
+    "type": "similarity",
+    "weight": 0.9413,
+    "reasons": [
+      "RNA Interference and Gene Delivery",
+      "RNA modifications and cancer",
+      "RNA Research and Splicing"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5059786116",
+    "target": "snu-A5079762603",
+    "type": "similarity",
+    "weight": 0.9234,
+    "reasons": [
+      "RNA modifications and cancer",
+      "Bacterial Genetics and Biotechnology",
+      "RNA Interference and Gene Delivery"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5059786116",
+    "target": "snu-A5073947704",
+    "type": "similarity",
+    "weight": 0.9107,
+    "reasons": [
+      "RNA modifications and cancer",
+      "DNA Repair Mechanisms",
+      "RNA Interference and Gene Delivery"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5010447099",
+    "target": "kaist-A5059786116",
+    "type": "similarity",
+    "weight": 0.9115,
+    "reasons": [
+      "DNA Repair Mechanisms",
+      "Genomics and Chromatin Dynamics",
+      "RNA modifications and cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5046978935",
+    "target": "kaist-A5089223715",
+    "type": "similarity",
+    "weight": 0.9403,
+    "reasons": [
+      "Genomics and Chromatin Dynamics",
+      "RNA Research and Splicing",
+      "RNA and protein synthesis mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5046978935",
+    "target": "snu-A5010084845",
+    "type": "similarity",
+    "weight": 0.9464,
+    "reasons": [
+      "Genomics and Chromatin Dynamics",
+      "Cancer Cells and Metastasis",
+      "Ubiquitin and proteasome pathways"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5046978935",
+    "target": "snu-A5027374744",
+    "type": "similarity",
+    "weight": 0.9371,
+    "reasons": [
+      "Cancer Genomics and Diagnostics",
+      "RNA modifications and cancer",
+      "Epigenetics and DNA Methylation"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5046978935",
+    "target": "postech-A5068518101",
+    "type": "similarity",
+    "weight": 0.949,
+    "reasons": [
+      "RNA Research and Splicing",
+      "Genomics and Chromatin Dynamics",
+      "Epigenetics and DNA Methylation"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5046978935",
+    "target": "unist-A5008186315",
+    "type": "similarity",
+    "weight": 0.919,
+    "reasons": [
+      "Epigenetics and DNA Methylation",
+      "RNA modifications and cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5100740580",
+    "target": "kaist-A5046978935",
+    "type": "similarity",
+    "weight": 0.9441,
+    "reasons": [
+      "RNA modifications and cancer",
+      "Cancer Genomics and Diagnostics",
+      "Cancer Cells and Metastasis"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5038871139",
+    "target": "kaist-A5100434399",
+    "type": "similarity",
+    "weight": 0.9382,
+    "reasons": [
+      "RNA modifications and cancer",
+      "Genetics, Aging, and Longevity in Model Organisms",
+      "RNA Research and Splicing"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5100434399",
+    "target": "snu-A5079132836",
+    "type": "similarity",
+    "weight": 0.9281,
+    "reasons": [
+      "RNA modifications and cancer",
+      "RNA Research and Splicing",
+      "Genetics, Aging, and Longevity in Model Organisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5100434399",
+    "target": "snu-A5043554497",
+    "type": "similarity",
+    "weight": 0.9234,
+    "reasons": [
+      "RNA modifications and cancer",
+      "RNA Research and Splicing",
+      "RNA and protein synthesis mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5100434399",
+    "target": "snu-A5082258548",
+    "type": "similarity",
+    "weight": 0.9309,
+    "reasons": [
+      "RNA Research and Splicing",
+      "RNA modifications and cancer",
+      "RNA and protein synthesis mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5100434399",
+    "target": "snu-A5100366248",
+    "type": "similarity",
+    "weight": 0.9363,
+    "reasons": [
+      "Genetics, Aging, and Longevity in Model Organisms",
+      "Mitochondrial Function and Pathology",
+      "Circadian rhythm and melatonin"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5102904761",
+    "target": "kaist-A5100434399",
+    "type": "similarity",
+    "weight": 0.9308,
+    "reasons": [
+      "Mitochondrial Function and Pathology",
+      "RNA and protein synthesis mechanisms",
+      "interferon and immune responses"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5031437702",
+    "target": "postech-A5074578302",
+    "type": "similarity",
+    "weight": 0.9085,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "Immunotherapy and Immune Responses",
+      "T-cell and B-cell Immunology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5031437702",
+    "target": "postech-A5018682015",
+    "type": "similarity",
+    "weight": 0.9522,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "Gut microbiota and health",
+      "T-cell and B-cell Immunology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5015429226",
+    "target": "kaist-A5031437702",
+    "type": "similarity",
+    "weight": 0.9111,
+    "reasons": [
+      "Immunotherapy and Immune Responses",
+      "CAR-T cell therapy research",
+      "Immune cells in cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5038114229",
+    "target": "snu-A5080563770",
+    "type": "similarity",
+    "weight": 0.9272,
+    "reasons": [
+      "Adipose Tissue and Metabolism",
+      "Lipid metabolism and biosynthesis",
+      "Hippo pathway signaling and YAP/TAZ"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5038114229",
+    "target": "snu-A5010084845",
+    "type": "similarity",
+    "weight": 0.9393,
+    "reasons": [
+      "Cancer Cells and Metastasis",
+      "Cancer-related gene regulation",
+      "Extracellular vesicles in disease"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5038114229",
+    "target": "snu-A5027374744",
+    "type": "similarity",
+    "weight": 0.9543,
+    "reasons": [
+      "Epigenetics and DNA Methylation",
+      "Mitochondrial Function and Pathology",
+      "Adipose Tissue and Metabolism"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5038114229",
+    "target": "postech-A5034657214",
+    "type": "similarity",
+    "weight": 0.9495,
+    "reasons": [
+      "Hippo pathway signaling and YAP/TAZ",
+      "Cancer Cells and Metastasis",
+      "Cancer-related gene regulation"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5038114229",
+    "target": "postech-A5100635271",
+    "type": "similarity",
+    "weight": 0.9583,
+    "reasons": [
+      "Adipose Tissue and Metabolism",
+      "Hippo pathway signaling and YAP/TAZ",
+      "Cancer Cells and Metastasis"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5038114229",
+    "target": "unist-A5008036043",
+    "type": "similarity",
+    "weight": 0.9243,
+    "reasons": [
+      "Cellular Mechanics and Interactions",
+      "Renal and related cancers",
+      "Epigenetics and DNA Methylation"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5038114229",
+    "target": "unist-A5035895380",
+    "type": "similarity",
+    "weight": 0.9495,
+    "reasons": [
+      "Autophagy in Disease and Therapy",
+      "Mitochondrial Function and Pathology",
+      "Renal and related cancers"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5038114229",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9472,
+    "reasons": [
+      "Extracellular vesicles in disease",
+      "Autophagy in Disease and Therapy",
+      "Genetics and Neurodevelopmental Disorders"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5038114229",
+    "target": "unist-A5017217837",
+    "type": "similarity",
+    "weight": 0.926,
+    "reasons": [
+      "Adipose Tissue and Metabolism",
+      "Autophagy in Disease and Therapy",
+      "Genetics and Neurodevelopmental Disorders"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5071676695",
+    "target": "kaist-A5038114229",
+    "type": "similarity",
+    "weight": 0.902,
+    "reasons": [
+      "Hippo pathway signaling and YAP/TAZ",
+      "Wnt/β-catenin signaling in development and cancer",
+      "Cancer Cells and Metastasis"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5038871139",
+    "target": "kaist-A5089223715",
+    "type": "similarity",
+    "weight": 0.9256,
+    "reasons": [
+      "RNA Research and Splicing",
+      "RNA modifications and cancer",
+      "RNA and protein synthesis mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5038871139",
+    "target": "snu-A5043554497",
+    "type": "similarity",
+    "weight": 0.928,
+    "reasons": [
+      "RNA Research and Splicing",
+      "RNA modifications and cancer",
+      "RNA and protein synthesis mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5038871139",
+    "target": "snu-A5100366248",
+    "type": "similarity",
+    "weight": 0.9043,
+    "reasons": [
+      "Genetics, Aging, and Longevity in Model Organisms",
+      "Stress Responses and Cortisol"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5055397906",
+    "target": "kaist-A5083929538",
+    "type": "similarity",
+    "weight": 0.9293,
+    "reasons": [
+      "Memory and Neural Mechanisms",
+      "Neuroscience and Neuropharmacology Research",
+      "Neural dynamics and brain function"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5083929538",
+    "target": "kaist-A5089863464",
+    "type": "similarity",
+    "weight": 0.9063,
+    "reasons": [
+      "Neuroscience and Neuropharmacology Research",
+      "Neural dynamics and brain function",
+      "Memory and Neural Mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5083929538",
+    "target": "snu-A5059809445",
+    "type": "similarity",
+    "weight": 0.9435,
+    "reasons": [
+      "Neural dynamics and brain function",
+      "Neuroscience and Neuropharmacology Research",
+      "Memory and Neural Mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5083929538",
+    "target": "snu-A5103145861",
+    "type": "similarity",
+    "weight": 0.9342,
+    "reasons": [
+      "Neural dynamics and brain function",
+      "Memory and Neural Mechanisms",
+      "Neuroscience and Neuropharmacology Research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5072366749",
+    "target": "postech-A5069176618",
+    "type": "similarity",
+    "weight": 0.9139,
+    "reasons": [
+      "Neuroscience and Neuropharmacology Research",
+      "Acute Ischemic Stroke Management",
+      "Epigenetics and DNA Methylation"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5072366749",
+    "target": "unist-A5057203654",
+    "type": "similarity",
+    "weight": 0.943,
+    "reasons": [
+      "Neuroscience and Neuropharmacology Research",
+      "Neuroinflammation and Neurodegeneration Mechanisms",
+      "Alzheimer's disease research and treatments"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5072366749",
+    "target": "unist-A5100749356",
+    "type": "similarity",
+    "weight": 0.9068,
+    "reasons": [
+      "Neuroinflammation and Neurodegeneration Mechanisms",
+      "Autophagy in Disease and Therapy",
+      "Immune cells in cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5089223715",
+    "target": "snu-A5091561167",
+    "type": "similarity",
+    "weight": 0.9088,
+    "reasons": [
+      "RNA Research and Splicing",
+      "Genomics and Chromatin Dynamics",
+      "Nuclear Structure and Function"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5089223715",
+    "target": "snu-A5010084845",
+    "type": "similarity",
+    "weight": 0.9331,
+    "reasons": [
+      "Genomics and Chromatin Dynamics",
+      "Epigenetics and DNA Methylation",
+      "RNA modifications and cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5089223715",
+    "target": "postech-A5068518101",
+    "type": "similarity",
+    "weight": 0.9205,
+    "reasons": [
+      "RNA Research and Splicing",
+      "Genomics and Chromatin Dynamics",
+      "Epigenetics and DNA Methylation"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5089750807",
+    "target": "snu-A5059278158",
+    "type": "similarity",
+    "weight": 0.9442,
+    "reasons": [
+      "Photosynthetic Processes and Mechanisms",
+      "Plant Molecular Biology Research",
+      "Plant Reproductive Biology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5089750807",
+    "target": "snu-A5073145639",
+    "type": "similarity",
+    "weight": 0.9203,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Photosynthetic Processes and Mechanisms",
+      "Plant Gene Expression Analysis"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5089750807",
+    "target": "snu-A5048256742",
+    "type": "similarity",
+    "weight": 0.9325,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Light effects on plants",
+      "Plant Reproductive Biology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5089750807",
+    "target": "postech-A5010154886",
+    "type": "similarity",
+    "weight": 0.9455,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Photosynthetic Processes and Mechanisms",
+      "Plant Gene Expression Analysis"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5083518122",
+    "target": "kaist-A5089750807",
+    "type": "similarity",
+    "weight": 0.9334,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Gene Expression Analysis",
+      "Plant Reproductive Biology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5083365266",
+    "target": "kaist-A5089750807",
+    "type": "similarity",
+    "weight": 0.9471,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Photosynthetic Processes and Mechanisms",
+      "Plant Gene Expression Analysis"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5055397906",
+    "target": "snu-A5103145861",
+    "type": "similarity",
+    "weight": 0.9105,
+    "reasons": [
+      "Memory and Neural Mechanisms",
+      "Neuroscience and Neuropharmacology Research",
+      "Neural dynamics and brain function"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5089863464",
+    "target": "snu-A5002951805",
+    "type": "similarity",
+    "weight": 0.9372,
+    "reasons": [
+      "Photoreceptor and optogenetics research",
+      "Neural dynamics and brain function",
+      "Neuroscience and Neural Engineering"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5089863464",
+    "target": "snu-A5091015282",
+    "type": "similarity",
+    "weight": 0.9222,
+    "reasons": [
+      "CRISPR and Genetic Engineering",
+      "Receptor Mechanisms and Signaling",
+      "RNA Research and Splicing"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5089863464",
+    "target": "postech-A5069176618",
+    "type": "similarity",
+    "weight": 0.941,
+    "reasons": [
+      "Neuroscience and Neuropharmacology Research",
+      "Receptor Mechanisms and Signaling",
+      "Cellular Mechanics and Interactions"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5089863464",
+    "target": "unist-A5057203654",
+    "type": "similarity",
+    "weight": 0.9437,
+    "reasons": [
+      "Neuroscience and Neuropharmacology Research",
+      "Neuroscience and Neural Engineering",
+      "Neurogenesis and neuroplasticity mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5079132836",
+    "target": "snu-A5100752174",
+    "type": "similarity",
+    "weight": 0.9415,
+    "reasons": [
+      "Antimicrobial Peptides and Activities",
+      "Immune Response and Inflammation",
+      "Telomeres, Telomerase, and Senescence"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5010084845",
+    "target": "snu-A5079132836",
+    "type": "similarity",
+    "weight": 0.9359,
+    "reasons": [
+      "Histone Deacetylase Inhibitors Research",
+      "Chromosomal and Genetic Variations",
+      "Cancer-related gene regulation"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5027374744",
+    "target": "snu-A5079132836",
+    "type": "similarity",
+    "weight": 0.931,
+    "reasons": [
+      "RNA modifications and cancer",
+      "Single-cell and spatial transcriptomics",
+      "Cancer, Hypoxia, and Metabolism"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5079132836",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9353,
+    "reasons": [
+      "Cancer, Hypoxia, and Metabolism",
+      "RNA regulation and disease",
+      "Inflammasome and immune disorders"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5021944943",
+    "target": "snu-A5079132836",
+    "type": "similarity",
+    "weight": 0.949,
+    "reasons": [
+      "Antimicrobial Peptides and Activities",
+      "Telomeres, Telomerase, and Senescence",
+      "Cancer, Hypoxia, and Metabolism"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5079762603",
+    "target": "snu-A5091561167",
+    "type": "similarity",
+    "weight": 0.9377,
+    "reasons": [
+      "Heat shock proteins research",
+      "RNA and protein synthesis mechanisms",
+      "Endoplasmic Reticulum Stress and Disease"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5055820463",
+    "target": "snu-A5091561167",
+    "type": "similarity",
+    "weight": 0.9029,
+    "reasons": [
+      "RNA and protein synthesis mechanisms",
+      "Endoplasmic Reticulum Stress and Disease",
+      "Enzyme Structure and Function"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5043554497",
+    "target": "snu-A5073947704",
+    "type": "similarity",
+    "weight": 0.952,
+    "reasons": [
+      "RNA modifications and cancer",
+      "RNA and protein synthesis mechanisms",
+      "RNA Research and Splicing"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5079762603",
+    "target": "snu-A5082258548",
+    "type": "similarity",
+    "weight": 0.9402,
+    "reasons": [
+      "RNA modifications and cancer",
+      "RNA and protein synthesis mechanisms",
+      "Endoplasmic Reticulum Stress and Disease"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5010084845",
+    "target": "snu-A5082258548",
+    "type": "similarity",
+    "weight": 0.9595,
+    "reasons": [
+      "RNA modifications and cancer",
+      "RNA Research and Splicing",
+      "Autophagy in Disease and Therapy"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5035400785",
+    "target": "snu-A5082258548",
+    "type": "similarity",
+    "weight": 0.9427,
+    "reasons": [
+      "Mitochondrial Function and Pathology",
+      "Endoplasmic Reticulum Stress and Disease",
+      "RNA modifications and cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5027374744",
+    "target": "snu-A5082258548",
+    "type": "similarity",
+    "weight": 0.9424,
+    "reasons": [
+      "RNA modifications and cancer",
+      "Mitochondrial Function and Pathology",
+      "Plant Molecular Biology Research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5048461457",
+    "target": "snu-A5082258548",
+    "type": "similarity",
+    "weight": 0.9171,
+    "reasons": [
+      "RNA Research and Splicing",
+      "RNA regulation and disease",
+      "RNA modifications and cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5069176618",
+    "target": "snu-A5082258548",
+    "type": "similarity",
+    "weight": 0.9415,
+    "reasons": [
+      "Mitochondrial Function and Pathology",
+      "Endoplasmic Reticulum Stress and Disease",
+      "Biotin and Related Studies"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5082258548",
+    "target": "unist-A5021577151",
+    "type": "similarity",
+    "weight": 0.9351,
+    "reasons": [
+      "Mitochondrial Function and Pathology",
+      "RNA regulation and disease",
+      "RNA and protein synthesis mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5082258548",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9434,
+    "reasons": [
+      "Mitochondrial Function and Pathology",
+      "RNA regulation and disease",
+      "Autophagy in Disease and Therapy"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5102904761",
+    "target": "snu-A5082258548",
+    "type": "similarity",
+    "weight": 0.9561,
+    "reasons": [
+      "Cellular transport and secretion",
+      "Mitochondrial Function and Pathology",
+      "RNA and protein synthesis mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5038581059",
+    "target": "snu-A5082258548",
+    "type": "similarity",
+    "weight": 0.9087,
+    "reasons": [
+      "Mitochondrial Function and Pathology",
+      "RNA and protein synthesis mechanisms",
+      "Cellular transport and secretion"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5010846406",
+    "target": "snu-A5082258548",
+    "type": "similarity",
+    "weight": 0.9239,
+    "reasons": [
+      "Cellular transport and secretion",
+      "Mitochondrial Function and Pathology",
+      "RNA regulation and disease"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5000829476",
+    "target": "snu-A5082258548",
+    "type": "similarity",
+    "weight": 0.9227,
+    "reasons": [
+      "RNA and protein synthesis mechanisms",
+      "RNA Research and Splicing",
+      "RNA modifications and cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5027374744",
+    "target": "snu-A5100752174",
+    "type": "similarity",
+    "weight": 0.9494,
+    "reasons": [
+      "Ubiquitin and proteasome pathways",
+      "Telomeres, Telomerase, and Senescence",
+      "RNA regulation and disease"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5100752174",
+    "target": "unist-A5100749356",
+    "type": "similarity",
+    "weight": 0.9448,
+    "reasons": [
+      "Cancer-related molecular mechanisms research",
+      "CAR-T cell therapy research",
+      "RNA regulation and disease"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5100752174",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9354,
+    "reasons": [
+      "RNA regulation and disease",
+      "Ubiquitin and proteasome pathways",
+      "Inflammasome and immune disorders"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5023739451",
+    "target": "snu-A5100752174",
+    "type": "similarity",
+    "weight": 0.9032,
+    "reasons": [
+      "Chemokine receptors and signaling",
+      "Osteoarthritis Treatment and Mechanisms",
+      "Muscle Physiology and Disorders"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5102904761",
+    "target": "snu-A5100752174",
+    "type": "similarity",
+    "weight": 0.9294,
+    "reasons": [
+      "interferon and immune responses",
+      "Trace Elements in Health",
+      "Chemokine receptors and signaling"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5055820463",
+    "target": "snu-A5079762603",
+    "type": "similarity",
+    "weight": 0.9227,
+    "reasons": [
+      "Protein Structure and Dynamics",
+      "Lipid Membrane Structure and Behavior",
+      "RNA and protein synthesis mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5048461457",
+    "target": "snu-A5079762603",
+    "type": "similarity",
+    "weight": 0.907,
+    "reasons": [
+      "RNA modifications and cancer",
+      "Lipid Membrane Structure and Behavior",
+      "Endoplasmic Reticulum Stress and Disease"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5038581059",
+    "target": "snu-A5079762603",
+    "type": "similarity",
+    "weight": 0.9367,
+    "reasons": [
+      "RNA and protein synthesis mechanisms",
+      "Endoplasmic Reticulum Stress and Disease",
+      "Ubiquitin and proteasome pathways"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5010846406",
+    "target": "snu-A5079762603",
+    "type": "similarity",
+    "weight": 0.9046,
+    "reasons": [
+      "Endoplasmic Reticulum Stress and Disease",
+      "RNA regulation and disease",
+      "Ubiquitin and proteasome pathways"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5088628057",
+    "target": "snu-A5079762603",
+    "type": "similarity",
+    "weight": 0.9165,
+    "reasons": [
+      "RNA modifications and cancer",
+      "RNA and protein synthesis mechanisms",
+      "Advanced Electron Microscopy Techniques and Applications"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5027374744",
+    "target": "snu-A5079920356",
+    "type": "similarity",
+    "weight": 0.9269,
+    "reasons": [
+      "RNA modifications and cancer",
+      "Cancer, Lipids, and Metabolism",
+      "Immune Cell Function and Interaction"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5018682015",
+    "target": "snu-A5079920356",
+    "type": "similarity",
+    "weight": 0.9281,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "FOXO transcription factor regulation",
+      "RNA modifications and cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5079920356",
+    "target": "unist-A5100749356",
+    "type": "similarity",
+    "weight": 0.9386,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "IL-33, ST2, and ILC Pathways",
+      "Cell death mechanisms and regulation"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5079920356",
+    "target": "unist-A5007769445",
+    "type": "similarity",
+    "weight": 0.9749,
+    "reasons": [
+      "Inflammasome and immune disorders",
+      "interferon and immune responses",
+      "Alcohol Consumption and Health Effects"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5079920356",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9399,
+    "reasons": [
+      "Inflammasome and immune disorders",
+      "Heme Oxygenase-1 and Carbon Monoxide",
+      "Neutrophil, Myeloperoxidase and Oxidative Mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5019985343",
+    "target": "snu-A5044961635",
+    "type": "similarity",
+    "weight": 0.943,
+    "reasons": [
+      "Protein Structure and Dynamics",
+      "Machine Learning in Bioinformatics",
+      "RNA and protein synthesis mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5044961635",
+    "target": "snu-A5091015282",
+    "type": "similarity",
+    "weight": 0.9047,
+    "reasons": [
+      "Bioinformatics and Genomic Networks",
+      "Protein Structure and Dynamics",
+      "RNA and protein synthesis mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5010084845",
+    "target": "snu-A5027374744",
+    "type": "similarity",
+    "weight": 0.9522,
+    "reasons": [
+      "Pancreatic and Hepatic Oncology Research",
+      "Epigenetics and DNA Methylation",
+      "Single-cell and spatial transcriptomics"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5010084845",
+    "target": "unist-A5008186315",
+    "type": "similarity",
+    "weight": 0.9125,
+    "reasons": [
+      "Epigenetics and DNA Methylation",
+      "Histone Deacetylase Inhibitors Research",
+      "Extracellular vesicles in disease"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5010084845",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9414,
+    "reasons": [
+      "Autophagy in Disease and Therapy",
+      "Extracellular vesicles in disease",
+      "Ubiquitin and proteasome pathways"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5000829476",
+    "target": "snu-A5010084845",
+    "type": "similarity",
+    "weight": 0.9033,
+    "reasons": [
+      "Autophagy in Disease and Therapy",
+      "Protein Degradation and Inhibitors",
+      "Ubiquitin and proteasome pathways"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5087260130",
+    "target": "snu-A5056148684",
+    "type": "similarity",
+    "weight": 0.9302,
+    "reasons": [
+      "Gut microbiota and health",
+      "Diet, Metabolism, and Disease",
+      "Genomics and Phylogenetic Studies"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5056148684",
+    "target": "unist-A5068286820",
+    "type": "similarity",
+    "weight": 0.921,
+    "reasons": [
+      "Bacterial Genetics and Biotechnology",
+      "Vibrio bacteria research studies",
+      "Antibiotic Resistance in Bacteria"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5102904761",
+    "target": "snu-A5056148684",
+    "type": "similarity",
+    "weight": 0.9049,
+    "reasons": [],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5027374744",
+    "target": "snu-A5100619952",
+    "type": "similarity",
+    "weight": 0.9257,
+    "reasons": [
+      "Cancer Genomics and Diagnostics",
+      "Immune cells in cancer",
+      "Cancer Cells and Metastasis"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5047859685",
+    "target": "snu-A5100619952",
+    "type": "similarity",
+    "weight": 0.9162,
+    "reasons": [
+      "Computational Drug Discovery Methods",
+      "Cancer Genomics and Diagnostics",
+      "Bioinformatics and Genomic Networks"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5100635271",
+    "target": "snu-A5100619952",
+    "type": "similarity",
+    "weight": 0.9358,
+    "reasons": [
+      "Cancer Cells and Metastasis",
+      "Gut microbiota and health",
+      "Immune cells in cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5102904761",
+    "target": "snu-A5100619952",
+    "type": "similarity",
+    "weight": 0.9212,
+    "reasons": [
+      "Immune cells in cancer",
+      "Cancer Cells and Metastasis",
+      "Neurogenesis and neuroplasticity mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5100740580",
+    "target": "snu-A5100619952",
+    "type": "similarity",
+    "weight": 0.936,
+    "reasons": [
+      "Renal and related cancers",
+      "Immune cells in cancer",
+      "Cancer Genomics and Diagnostics"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5075061660",
+    "target": "snu-A5100619952",
+    "type": "similarity",
+    "weight": 0.9077,
+    "reasons": [
+      "Click Chemistry and Applications",
+      "Viral Infectious Diseases and Gene Expression in Insects",
+      "Neuroendocrine regulation and behavior"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5073947704",
+    "target": "snu-A5101407061",
+    "type": "similarity",
+    "weight": 0.9108,
+    "reasons": [
+      "RNA modifications and cancer",
+      "Cytomegalovirus and herpesvirus research",
+      "Cancer-related molecular mechanisms research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5055820463",
+    "target": "snu-A5091015282",
+    "type": "similarity",
+    "weight": 0.9368,
+    "reasons": [
+      "Lipid Membrane Structure and Behavior",
+      "Neuropeptides and Animal Physiology",
+      "Receptor Mechanisms and Signaling"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5103183496",
+    "target": "snu-A5055820463",
+    "type": "similarity",
+    "weight": 0.9162,
+    "reasons": [
+      "RNA and protein synthesis mechanisms",
+      "Lipid Membrane Structure and Behavior",
+      "Protein Structure and Dynamics"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5102904761",
+    "target": "snu-A5055820463",
+    "type": "similarity",
+    "weight": 0.9156,
+    "reasons": [
+      "Cellular transport and secretion",
+      "RNA and protein synthesis mechanisms",
+      "Endoplasmic Reticulum Stress and Disease"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5059278158",
+    "target": "snu-A5100447456",
+    "type": "similarity",
+    "weight": 0.9592,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Reproductive Biology",
+      "Plant Stress Responses and Tolerance"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5059278158",
+    "target": "snu-A5073424725",
+    "type": "similarity",
+    "weight": 0.9157,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Reproductive Biology",
+      "Plant Stress Responses and Tolerance"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5010154886",
+    "target": "snu-A5059278158",
+    "type": "similarity",
+    "weight": 0.9565,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant responses to water stress",
+      "Photosynthetic Processes and Mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5083518122",
+    "target": "snu-A5059278158",
+    "type": "similarity",
+    "weight": 0.9461,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Stress Responses and Tolerance",
+      "Plant responses to water stress"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5083365266",
+    "target": "snu-A5059278158",
+    "type": "similarity",
+    "weight": 0.9556,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Stress Responses and Tolerance",
+      "Plant Reproductive Biology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5048256742",
+    "target": "snu-A5073145639",
+    "type": "similarity",
+    "weight": 0.923,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Reproductive Biology",
+      "Light effects on plants"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5057696830",
+    "target": "snu-A5073145639",
+    "type": "similarity",
+    "weight": 0.9042,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Gene Expression Analysis",
+      "Photosynthetic Processes and Mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5055484396",
+    "target": "snu-A5073145639",
+    "type": "similarity",
+    "weight": 0.934,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Reproductive Biology",
+      "Cancer-related molecular mechanisms research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5010154886",
+    "target": "snu-A5073145639",
+    "type": "similarity",
+    "weight": 0.937,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Photosynthetic Processes and Mechanisms",
+      "Plant Gene Expression Analysis"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5083365266",
+    "target": "snu-A5073145639",
+    "type": "similarity",
+    "weight": 0.9403,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Gene Expression Analysis",
+      "Plant Reproductive Biology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5091015282",
+    "target": "snu-A5100366248",
+    "type": "similarity",
+    "weight": 0.9082,
+    "reasons": [
+      "CRISPR and Genetic Engineering",
+      "Pluripotent Stem Cells Research",
+      "Genetics, Aging, and Longevity in Model Organisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5073424725",
+    "target": "snu-A5100447456",
+    "type": "similarity",
+    "weight": 0.9104,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Parasitism and Resistance",
+      "Plant Reproductive Biology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5010154886",
+    "target": "snu-A5100447456",
+    "type": "similarity",
+    "weight": 0.9627,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant nutrient uptake and metabolism",
+      "Photosynthetic Processes and Mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5083518122",
+    "target": "snu-A5100447456",
+    "type": "similarity",
+    "weight": 0.9362,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant nutrient uptake and metabolism",
+      "Plant Reproductive Biology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5083365266",
+    "target": "snu-A5100447456",
+    "type": "similarity",
+    "weight": 0.9464,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Reproductive Biology",
+      "Plant Stress Responses and Tolerance"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5100740580",
+    "target": "snu-A5073947704",
+    "type": "similarity",
+    "weight": 0.901,
+    "reasons": [
+      "RNA modifications and cancer",
+      "Cancer-related molecular mechanisms research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5069176618",
+    "target": "snu-A5035400785",
+    "type": "similarity",
+    "weight": 0.9449,
+    "reasons": [
+      "Genetics and Neurodevelopmental Disorders",
+      "Mitochondrial Function and Pathology",
+      "Endoplasmic Reticulum Stress and Disease"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5035400785",
+    "target": "unist-A5021577151",
+    "type": "similarity",
+    "weight": 0.926,
+    "reasons": [
+      "Endoplasmic Reticulum Stress and Disease",
+      "Mitochondrial Function and Pathology",
+      "Autophagy in Disease and Therapy"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5035400785",
+    "target": "unist-A5035895380",
+    "type": "similarity",
+    "weight": 0.9279,
+    "reasons": [
+      "Autophagy in Disease and Therapy",
+      "Mitochondrial Function and Pathology",
+      "Cancer, Hypoxia, and Metabolism"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5031635205",
+    "target": "snu-A5035400785",
+    "type": "similarity",
+    "weight": 0.928,
+    "reasons": [
+      "Neuroinflammation and Neurodegeneration Mechanisms",
+      "Protein Degradation and Inhibitors"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5000829476",
+    "target": "snu-A5035400785",
+    "type": "similarity",
+    "weight": 0.9081,
+    "reasons": [
+      "Autophagy in Disease and Therapy",
+      "Endoplasmic Reticulum Stress and Disease",
+      "Parkinson's Disease Mechanisms and Treatments"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5048256742",
+    "target": "snu-A5055484396",
+    "type": "similarity",
+    "weight": 0.9253,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Reproductive Biology",
+      "Light effects on plants"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5100650467",
+    "target": "snu-A5048256742",
+    "type": "similarity",
+    "weight": 0.9021,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Light effects on plants",
+      "Plant Stress Responses and Tolerance"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5052023515",
+    "target": "snu-A5048256742",
+    "type": "similarity",
+    "weight": 0.9184,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Chromosomal and Genetic Variations",
+      "Genomics and Chromatin Dynamics"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5010154886",
+    "target": "snu-A5048256742",
+    "type": "similarity",
+    "weight": 0.9587,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant nutrient uptake and metabolism",
+      "Plant Reproductive Biology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5083518122",
+    "target": "snu-A5048256742",
+    "type": "similarity",
+    "weight": 0.9354,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant nutrient uptake and metabolism",
+      "Plant Reproductive Biology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5083365266",
+    "target": "snu-A5048256742",
+    "type": "similarity",
+    "weight": 0.9389,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Reproductive Biology",
+      "Plant nutrient uptake and metabolism"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5002951805",
+    "target": "unist-A5057203654",
+    "type": "similarity",
+    "weight": 0.902,
+    "reasons": [
+      "Neuroscience and Neural Engineering",
+      "Advanced Fluorescence Microscopy Techniques",
+      "Neural dynamics and brain function"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5055484396",
+    "target": "snu-A5057696830",
+    "type": "similarity",
+    "weight": 0.9265,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Chromosomal and Genetic Variations",
+      "Plant Reproductive Biology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5052023515",
+    "target": "snu-A5057696830",
+    "type": "similarity",
+    "weight": 0.9133,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Photosynthetic Processes and Mechanisms",
+      "Plant responses to water stress"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5043286860",
+    "target": "snu-A5091015282",
+    "type": "similarity",
+    "weight": 0.924,
+    "reasons": [
+      "Receptor Mechanisms and Signaling",
+      "Neuropeptides and Animal Physiology",
+      "Olfactory and Sensory Function Studies"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5103183496",
+    "target": "snu-A5091015282",
+    "type": "similarity",
+    "weight": 0.9179,
+    "reasons": [
+      "Receptor Mechanisms and Signaling",
+      "Lipid Membrane Structure and Behavior",
+      "RNA Research and Splicing"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5034657214",
+    "target": "snu-A5043286860",
+    "type": "similarity",
+    "weight": 0.928,
+    "reasons": [
+      "T-cell and B-cell Immunology",
+      "Neurobiology and Insect Physiology Research",
+      "Receptor Mechanisms and Signaling"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5103183496",
+    "target": "snu-A5043286860",
+    "type": "similarity",
+    "weight": 0.9222,
+    "reasons": [
+      "Receptor Mechanisms and Signaling",
+      "Multiple Myeloma Research and Treatments",
+      "Cellular transport and secretion"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5043286860",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9346,
+    "reasons": [
+      "Autophagy in Disease and Therapy",
+      "Receptor Mechanisms and Signaling"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5102904761",
+    "target": "snu-A5043286860",
+    "type": "similarity",
+    "weight": 0.9291,
+    "reasons": [
+      "Autophagy in Disease and Therapy",
+      "Chemokine receptors and signaling",
+      "Endoplasmic Reticulum Stress and Disease"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5038581059",
+    "target": "snu-A5043286860",
+    "type": "similarity",
+    "weight": 0.9028,
+    "reasons": [
+      "Endoplasmic Reticulum Stress and Disease",
+      "Cellular transport and secretion",
+      "Lipid metabolism and biosynthesis"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5010846406",
+    "target": "snu-A5043286860",
+    "type": "similarity",
+    "weight": 0.9052,
+    "reasons": [
+      "Endoplasmic Reticulum Stress and Disease",
+      "Autophagy in Disease and Therapy",
+      "Cellular transport and secretion"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5100650467",
+    "target": "snu-A5055484396",
+    "type": "similarity",
+    "weight": 0.9024,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Parasitism and Resistance",
+      "RNA Research and Splicing"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5052023515",
+    "target": "snu-A5055484396",
+    "type": "similarity",
+    "weight": 0.9227,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Chromosomal and Genetic Variations",
+      "Genomics and Phylogenetic Studies"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5010154886",
+    "target": "snu-A5055484396",
+    "type": "similarity",
+    "weight": 0.9376,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Reproductive Biology",
+      "Plant Parasitism and Resistance"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5034657214",
+    "target": "snu-A5027374744",
+    "type": "similarity",
+    "weight": 0.9394,
+    "reasons": [
+      "RNA modifications and cancer",
+      "Epigenetics and DNA Methylation",
+      "Cancer, Hypoxia, and Metabolism"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5047859685",
+    "target": "snu-A5027374744",
+    "type": "similarity",
+    "weight": 0.9447,
+    "reasons": [
+      "Cancer Genomics and Diagnostics",
+      "Single-cell and spatial transcriptomics",
+      "Immune cells in cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5100635271",
+    "target": "snu-A5027374744",
+    "type": "similarity",
+    "weight": 0.9542,
+    "reasons": [
+      "Immune cells in cancer",
+      "Plant Molecular Biology Research",
+      "Single-cell and spatial transcriptomics"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5027374744",
+    "target": "unist-A5008186315",
+    "type": "similarity",
+    "weight": 0.9264,
+    "reasons": [
+      "Epigenetics and DNA Methylation",
+      "Immune cells in cancer",
+      "RNA modifications and cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5027374744",
+    "target": "unist-A5100749356",
+    "type": "similarity",
+    "weight": 0.9481,
+    "reasons": [
+      "Immune cells in cancer",
+      "Adipose Tissue and Metabolism",
+      "Cancer Immunotherapy and Biomarkers"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5027374744",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9542,
+    "reasons": [
+      "Cancer, Hypoxia, and Metabolism",
+      "Mitochondrial Function and Pathology",
+      "Extracellular vesicles in disease"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5027374744",
+    "target": "unist-A5017217837",
+    "type": "similarity",
+    "weight": 0.9321,
+    "reasons": [
+      "Adipose Tissue and Metabolism",
+      "Pluripotent Stem Cells Research",
+      "Genetics and Neurodevelopmental Disorders"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5071676695",
+    "target": "snu-A5027374744",
+    "type": "similarity",
+    "weight": 0.9294,
+    "reasons": [
+      "Cancer Genomics and Diagnostics",
+      "Photosynthetic Processes and Mechanisms",
+      "Cancer Cells and Metastasis"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5023739451",
+    "target": "snu-A5027374744",
+    "type": "similarity",
+    "weight": 0.903,
+    "reasons": [
+      "Cancer Genomics and Diagnostics",
+      "Pluripotent Stem Cells Research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5102904761",
+    "target": "snu-A5027374744",
+    "type": "similarity",
+    "weight": 0.9526,
+    "reasons": [
+      "Immune cells in cancer",
+      "Mitochondrial Function and Pathology",
+      "Cancer Cells and Metastasis"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5100740580",
+    "target": "snu-A5027374744",
+    "type": "similarity",
+    "weight": 0.9655,
+    "reasons": [
+      "Immune cells in cancer",
+      "Cancer Genomics and Diagnostics",
+      "RNA modifications and cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5075061660",
+    "target": "snu-A5027374744",
+    "type": "similarity",
+    "weight": 0.9044,
+    "reasons": [
+      "Cancer, Hypoxia, and Metabolism",
+      "Mitochondrial Function and Pathology",
+      "Mass Spectrometry Techniques and Applications"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5021944943",
+    "target": "snu-A5027374744",
+    "type": "similarity",
+    "weight": 0.9417,
+    "reasons": [
+      "Cancer, Hypoxia, and Metabolism",
+      "Telomeres, Telomerase, and Senescence",
+      "Advanced Proteomics Techniques and Applications"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5034657214",
+    "target": "postech-A5068518101",
+    "type": "similarity",
+    "weight": 0.9386,
+    "reasons": [
+      "T-cell and B-cell Immunology",
+      "Epigenetics and DNA Methylation",
+      "RNA modifications and cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5068518101",
+    "target": "postech-A5100635271",
+    "type": "similarity",
+    "weight": 0.9443,
+    "reasons": [
+      "T-cell and B-cell Immunology",
+      "Single-cell and spatial transcriptomics",
+      "Gut microbiota and health"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5068518101",
+    "target": "postech-A5080004279",
+    "type": "similarity",
+    "weight": 0.9261,
+    "reasons": [
+      "Epigenetics and DNA Methylation",
+      "Genetic Associations and Epidemiology",
+      "RNA Research and Splicing"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5100740580",
+    "target": "postech-A5068518101",
+    "type": "similarity",
+    "weight": 0.945,
+    "reasons": [
+      "RNA modifications and cancer",
+      "Single-cell and spatial transcriptomics",
+      "Immune cells in cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5038581059",
+    "target": "postech-A5048461457",
+    "type": "similarity",
+    "weight": 0.9,
+    "reasons": [
+      "Cellular transport and secretion",
+      "Endoplasmic Reticulum Stress and Disease",
+      "Lipid metabolism and biosynthesis"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5010846406",
+    "target": "postech-A5048461457",
+    "type": "similarity",
+    "weight": 0.9454,
+    "reasons": [
+      "Cellular transport and secretion",
+      "Endoplasmic Reticulum Stress and Disease",
+      "Autophagy in Disease and Therapy"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5034657214",
+    "target": "postech-A5100635271",
+    "type": "similarity",
+    "weight": 0.9438,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "T-cell and B-cell Immunology",
+      "Cancer Cells and Metastasis"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5034657214",
+    "target": "unist-A5100749356",
+    "type": "similarity",
+    "weight": 0.9409,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "T-cell and B-cell Immunology",
+      "Neutrophil, Myeloperoxidase and Oxidative Mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5023173703",
+    "target": "postech-A5034657214",
+    "type": "similarity",
+    "weight": 0.9314,
+    "reasons": [
+      "T-cell and B-cell Immunology",
+      "Immune Cell Function and Interaction",
+      "RNA modifications and cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5018682015",
+    "target": "postech-A5087260130",
+    "type": "similarity",
+    "weight": 0.9245,
+    "reasons": [
+      "Gut microbiota and health",
+      "Probiotics and Fermented Foods",
+      "Extracellular vesicles in disease"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5018682015",
+    "target": "postech-A5047859685",
+    "type": "similarity",
+    "weight": 0.9225,
+    "reasons": [
+      "Cancer Immunotherapy and Biomarkers",
+      "Computational Drug Discovery Methods",
+      "Gut microbiota and health"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5100740580",
+    "target": "postech-A5047859685",
+    "type": "similarity",
+    "weight": 0.9423,
+    "reasons": [
+      "Single-cell and spatial transcriptomics",
+      "Cancer Genomics and Diagnostics",
+      "Cancer Immunotherapy and Biomarkers"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5100635271",
+    "target": "unist-A5008036043",
+    "type": "similarity",
+    "weight": 0.9241,
+    "reasons": [
+      "Single-cell and spatial transcriptomics",
+      "Pluripotent Stem Cells Research",
+      "CRISPR and Genetic Engineering"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5100740580",
+    "target": "postech-A5100635271",
+    "type": "similarity",
+    "weight": 0.9547,
+    "reasons": [
+      "Single-cell and spatial transcriptomics",
+      "Immune Cell Function and Interaction",
+      "Immune cells in cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5069176618",
+    "target": "postech-A5080004279",
+    "type": "similarity",
+    "weight": 0.9268,
+    "reasons": [
+      "Genetics and Neurodevelopmental Disorders",
+      "Ubiquitin and proteasome pathways",
+      "Microtubule and mitosis dynamics"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5069176618",
+    "target": "unist-A5057203654",
+    "type": "similarity",
+    "weight": 0.944,
+    "reasons": [
+      "Neuroscience and Neuropharmacology Research",
+      "Receptor Mechanisms and Signaling",
+      "Mitochondrial Function and Pathology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5069176618",
+    "target": "unist-A5008036043",
+    "type": "similarity",
+    "weight": 0.9238,
+    "reasons": [
+      "Cellular Mechanics and Interactions",
+      "Microtubule and mitosis dynamics",
+      "Congenital heart defects research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5100740580",
+    "target": "postech-A5080004279",
+    "type": "similarity",
+    "weight": 0.9182,
+    "reasons": [
+      "Hedgehog Signaling Pathway Studies",
+      "Cellular Mechanics and Interactions",
+      "Epigenetics and DNA Methylation"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5080133701",
+    "target": "postech-A5080004279",
+    "type": "similarity",
+    "weight": 0.9061,
+    "reasons": [
+      "Epigenetics and DNA Methylation",
+      "Cancer Mechanisms and Therapy",
+      "Ubiquitin and proteasome pathways"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5018682015",
+    "target": "postech-A5074578302",
+    "type": "similarity",
+    "weight": 0.9227,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "Immunotherapy and Immune Responses",
+      "T-cell and B-cell Immunology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5074578302",
+    "target": "unist-A5041027236",
+    "type": "similarity",
+    "weight": 0.933,
+    "reasons": [
+      "Advanced biosensing and bioanalysis techniques",
+      "Immune Cell Function and Interaction",
+      "RNA Interference and Gene Delivery"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5074578302",
+    "target": "unist-A5007769445",
+    "type": "similarity",
+    "weight": 0.9225,
+    "reasons": [
+      "Immune Response and Inflammation",
+      "Immune Cell Function and Interaction",
+      "interferon and immune responses"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5023173703",
+    "target": "postech-A5074578302",
+    "type": "similarity",
+    "weight": 0.9262,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "Extracellular vesicles in disease",
+      "Immunotherapy and Immune Responses"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5015429226",
+    "target": "postech-A5074578302",
+    "type": "similarity",
+    "weight": 0.9355,
+    "reasons": [
+      "Immunotherapy and Immune Responses",
+      "Extracellular vesicles in disease",
+      "RNA Interference and Gene Delivery"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5018682015",
+    "target": "unist-A5100749356",
+    "type": "similarity",
+    "weight": 0.9335,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "T-cell and B-cell Immunology",
+      "Cancer Immunotherapy and Biomarkers"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5018682015",
+    "target": "unist-A5007769445",
+    "type": "similarity",
+    "weight": 0.9223,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "CAR-T cell therapy research",
+      "Epigenetics and DNA Methylation"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5023173703",
+    "target": "postech-A5018682015",
+    "type": "similarity",
+    "weight": 0.9279,
+    "reasons": [
+      "T-cell and B-cell Immunology",
+      "Immune Cell Function and Interaction",
+      "Immunotherapy and Immune Responses"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5103183496",
+    "target": "unist-A5041027236",
+    "type": "similarity",
+    "weight": 0.9004,
+    "reasons": [
+      "Monoclonal and Polyclonal Antibodies Research",
+      "Advanced biosensing and bioanalysis techniques",
+      "Glycosylation and Glycoproteins Research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5088628057",
+    "target": "postech-A5103183496",
+    "type": "similarity",
+    "weight": 0.9176,
+    "reasons": [
+      "RNA and protein synthesis mechanisms",
+      "RNA Research and Splicing",
+      "RNA modifications and cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5010154886",
+    "target": "postech-A5052023515",
+    "type": "similarity",
+    "weight": 0.9209,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Photosynthetic Processes and Mechanisms",
+      "DNA Repair Mechanisms"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5083518122",
+    "target": "postech-A5010154886",
+    "type": "similarity",
+    "weight": 0.9589,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant nutrient uptake and metabolism",
+      "Plant responses to water stress"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5083365266",
+    "target": "postech-A5010154886",
+    "type": "similarity",
+    "weight": 0.9594,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Photosynthetic Processes and Mechanisms",
+      "Plant nutrient uptake and metabolism"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "unist-A5021577151",
+    "target": "unist-A5035895380",
+    "type": "similarity",
+    "weight": 0.9485,
+    "reasons": [
+      "Mitochondrial Function and Pathology",
+      "Autophagy in Disease and Therapy",
+      "MicroRNA in disease regulation"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "unist-A5021577151",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9558,
+    "reasons": [
+      "Mitochondrial Function and Pathology",
+      "Heat shock proteins research",
+      "ATP Synthase and ATPases Research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5031635205",
+    "target": "unist-A5021577151",
+    "type": "similarity",
+    "weight": 0.9187,
+    "reasons": [
+      "Immune cells in cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5075061660",
+    "target": "unist-A5021577151",
+    "type": "similarity",
+    "weight": 0.9114,
+    "reasons": [
+      "Endoplasmic Reticulum Stress and Disease",
+      "Mitochondrial Function and Pathology",
+      "Autophagy in Disease and Therapy"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5021944943",
+    "target": "unist-A5021577151",
+    "type": "similarity",
+    "weight": 0.9372,
+    "reasons": [
+      "Retinal Diseases and Treatments",
+      "Immune cells in cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "unist-A5041027236",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9021,
+    "reasons": [
+      "RNA Interference and Gene Delivery",
+      "Monoclonal and Polyclonal Antibodies Research",
+      "Ubiquitin and proteasome pathways"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5015429226",
+    "target": "unist-A5041027236",
+    "type": "similarity",
+    "weight": 0.9444,
+    "reasons": [
+      "Monoclonal and Polyclonal Antibodies Research",
+      "RNA Interference and Gene Delivery",
+      "CAR-T cell therapy research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "unist-A5008186315",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9058,
+    "reasons": [
+      "Extracellular vesicles in disease",
+      "Immune cells in cancer",
+      "Epigenetics and DNA Methylation"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5100740580",
+    "target": "unist-A5008186315",
+    "type": "similarity",
+    "weight": 0.9152,
+    "reasons": [
+      "Immune cells in cancer",
+      "RNA modifications and cancer",
+      "Extracellular vesicles in disease"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "unist-A5007769445",
+    "target": "unist-A5100749356",
+    "type": "similarity",
+    "weight": 0.9196,
+    "reasons": [
+      "Toxin Mechanisms and Immunotoxins",
+      "Immune Cell Function and Interaction",
+      "Transgenic Plants and Applications"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "unist-A5041900986",
+    "target": "unist-A5100749356",
+    "type": "similarity",
+    "weight": 0.942,
+    "reasons": [
+      "Toxin Mechanisms and Immunotoxins",
+      "Autophagy in Disease and Therapy",
+      "RNA Interference and Gene Delivery"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5100740580",
+    "target": "unist-A5008036043",
+    "type": "similarity",
+    "weight": 0.923,
+    "reasons": [
+      "Single-cell and spatial transcriptomics",
+      "Renal and related cancers",
+      "Cancer-related molecular mechanisms research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "unist-A5035895380",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9558,
+    "reasons": [
+      "Cancer, Hypoxia, and Metabolism",
+      "Autophagy in Disease and Therapy",
+      "Mitochondrial Function and Pathology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "unist-A5017217837",
+    "target": "unist-A5035895380",
+    "type": "similarity",
+    "weight": 0.9457,
+    "reasons": [
+      "Autophagy in Disease and Therapy",
+      "Sirtuins and Resveratrol in Medicine",
+      "Liver Disease Diagnosis and Treatment"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5031635205",
+    "target": "unist-A5035895380",
+    "type": "similarity",
+    "weight": 0.9205,
+    "reasons": [
+      "Epigenetics and DNA Methylation",
+      "Metabolism, Diabetes, and Cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5075061660",
+    "target": "unist-A5035895380",
+    "type": "similarity",
+    "weight": 0.9042,
+    "reasons": [
+      "Cancer, Hypoxia, and Metabolism",
+      "Autophagy in Disease and Therapy",
+      "Mitochondrial Function and Pathology"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5021944943",
+    "target": "unist-A5035895380",
+    "type": "similarity",
+    "weight": 0.9389,
+    "reasons": [
+      "Cancer, Hypoxia, and Metabolism",
+      "Biochemical and Structural Characterization"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "unist-A5017217837",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9474,
+    "reasons": [
+      "Autophagy in Disease and Therapy",
+      "DNA Repair Mechanisms",
+      "PARP inhibition in cancer therapy"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5071676695",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9238,
+    "reasons": [
+      "Autophagy in Disease and Therapy",
+      "Cancer, Hypoxia, and Metabolism",
+      "Ferroptosis and cancer prognosis"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5102904761",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9473,
+    "reasons": [
+      "Autophagy in Disease and Therapy",
+      "Mitochondrial Function and Pathology",
+      "Pancreatic function and diabetes"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5075061660",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9131,
+    "reasons": [
+      "Mitochondrial Function and Pathology",
+      "Cancer, Hypoxia, and Metabolism",
+      "Autophagy in Disease and Therapy"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5021944943",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9482,
+    "reasons": [
+      "Cancer, Hypoxia, and Metabolism",
+      "Cancer Research and Treatments",
+      "Immune cells in cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5015429226",
+    "target": "unist-A5041900986",
+    "type": "similarity",
+    "weight": 0.9202,
+    "reasons": [
+      "Extracellular vesicles in disease",
+      "RNA Interference and Gene Delivery",
+      "MicroRNA in disease regulation"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5071676695",
+    "target": "unist-A5017217837",
+    "type": "similarity",
+    "weight": 0.9102,
+    "reasons": [
+      "Autophagy in Disease and Therapy",
+      "Sirtuins and Resveratrol in Medicine",
+      "Endoplasmic Reticulum Stress and Disease"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5021944943",
+    "target": "unist-A5017217837",
+    "type": "similarity",
+    "weight": 0.9286,
+    "reasons": [],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5087995307",
+    "target": "gist-A5088628057",
+    "type": "similarity",
+    "weight": 0.9051,
+    "reasons": [
+      "Adenosine and Purinergic Signaling",
+      "Pharmacological Receptor Mechanisms and Effects",
+      "Cancer-related gene regulation"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5071676695",
+    "target": "gist-A5100740580",
+    "type": "similarity",
+    "weight": 0.9131,
+    "reasons": [
+      "Cancer Genomics and Diagnostics",
+      "Cancer Cells and Metastasis",
+      "Cancer Immunotherapy and Biomarkers"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5031635205",
+    "target": "gist-A5102904761",
+    "type": "similarity",
+    "weight": 0.9282,
+    "reasons": [
+      "Histone Deacetylase Inhibitors Research",
+      "Immune cells in cancer",
+      "Tryptophan and brain disorders"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5021944943",
+    "target": "gist-A5031635205",
+    "type": "similarity",
+    "weight": 0.9267,
+    "reasons": [
+      "Immune cells in cancer"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5010846406",
+    "target": "gist-A5038581059",
+    "type": "similarity",
+    "weight": 0.9402,
+    "reasons": [
+      "Cellular transport and secretion",
+      "Endoplasmic Reticulum Stress and Disease",
+      "Microtubule and mitosis dynamics"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5038581059",
+    "target": "gist-A5088628057",
+    "type": "similarity",
+    "weight": 0.932,
+    "reasons": [
+      "RNA and protein synthesis mechanisms",
+      "Cellular transport and secretion",
+      "Trace Elements in Health"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5015429226",
+    "target": "gist-A5023173703",
+    "type": "similarity",
+    "weight": 0.9271,
+    "reasons": [
+      "CAR-T cell therapy research",
+      "Extracellular vesicles in disease",
+      "Immunotherapy and Immune Responses"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5083365266",
+    "target": "dgist-A5083518122",
+    "type": "similarity",
+    "weight": 0.9433,
+    "reasons": [
+      "Plant Molecular Biology Research",
+      "Plant Gene Expression Analysis",
+      "Plant Stress Responses and Tolerance"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5000829476",
+    "target": "postech-A5103183496",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4308775203"
+    ]
+  },
+  {
+    "source": "dgist-A5015429226",
+    "target": "postech-A5018682015",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4310568234",
+      "W4403688825"
+    ]
+  },
+  {
+    "source": "dgist-A5083365266",
+    "target": "snu-A5027374744",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4210806855",
+      "W4221041191"
+    ]
+  },
+  {
+    "source": "dgist-A5083518122",
+    "target": "postech-A5100635271",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4409153063"
+    ]
+  },
+  {
+    "source": "dgist-A5083518122",
+    "target": "snu-A5059278158",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4401054268",
+      "W7126180693"
+    ]
+  },
+  {
+    "source": "gist-A5010846406",
+    "target": "gist-A5038581059",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4319655919",
+      "W4388152823"
+    ]
+  },
+  {
+    "source": "gist-A5010846406",
+    "target": "gist-A5071676695",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4213024819",
+      "W4324346028"
+    ]
+  },
+  {
+    "source": "gist-A5010846406",
+    "target": "gist-A5088628057",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4388152823"
+    ]
+  },
+  {
+    "source": "gist-A5023173703",
+    "target": "gist-A5087995307",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4385988513"
+    ]
+  },
+  {
+    "source": "gist-A5023173703",
+    "target": "gist-A5088628057",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4385988513"
+    ]
+  },
+  {
+    "source": "gist-A5023173703",
+    "target": "gist-A5100740580",
+    "type": "coauthor",
+    "weight": 3.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4394803789",
+      "W4412695676",
+      "W4416203330"
+    ]
+  },
+  {
+    "source": "gist-A5031635205",
+    "target": "gist-A5075061660",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4296604565"
+    ]
+  },
+  {
+    "source": "gist-A5031635205",
+    "target": "gist-A5087995307",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4407444004"
+    ]
+  },
+  {
+    "source": "gist-A5031635205",
+    "target": "gist-A5088628057",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4401212369",
+      "W4407444004"
+    ]
+  },
+  {
+    "source": "gist-A5031635205",
+    "target": "gist-A5102904761",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4291711029"
+    ]
+  },
+  {
+    "source": "gist-A5038581059",
+    "target": "gist-A5087995307",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4415685900",
+      "W7125510582"
+    ]
+  },
+  {
+    "source": "gist-A5038581059",
+    "target": "gist-A5088628057",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4388152823"
+    ]
+  },
+  {
+    "source": "gist-A5087995307",
+    "target": "gist-A5088628057",
+    "type": "coauthor",
+    "weight": 4.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4224326372",
+      "W4385988513",
+      "W4401327186",
+      "W4407444004"
+    ]
+  },
+  {
+    "source": "gist-A5088628057",
+    "target": "kaist-A5059786116",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7134805416"
+    ]
+  },
+  {
+    "source": "gist-A5088628057",
+    "target": "postech-A5074578302",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4409109823"
+    ]
+  },
+  {
+    "source": "gist-A5100757887",
+    "target": "gist-A5102904761",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4403042088"
+    ]
+  },
+  {
+    "source": "gist-A5100757887",
+    "target": "snu-A5035400785",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4309714986"
+    ]
+  },
+  {
+    "source": "kaist-A5013204190",
+    "target": "kaist-A5072366749",
+    "type": "coauthor",
+    "weight": 3.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4296793802",
+      "W4385431179",
+      "W7204224264"
+    ]
+  },
+  {
+    "source": "kaist-A5013204190",
+    "target": "kaist-A5083929538",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4300865008",
+      "W4307838103"
+    ]
+  },
+  {
+    "source": "kaist-A5013204190",
+    "target": "kaist-A5087466819",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4385431179",
+      "W7204224264"
+    ]
+  },
+  {
+    "source": "kaist-A5013204190",
+    "target": "kaist-A5089223715",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4396731278"
+    ]
+  },
+  {
+    "source": "kaist-A5013204190",
+    "target": "kaist-A5089863464",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4390663416"
+    ]
+  },
+  {
+    "source": "kaist-A5013204190",
+    "target": "snu-A5027374744",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4382024028"
+    ]
+  },
+  {
+    "source": "kaist-A5013204190",
+    "target": "unist-A5057203654",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7204224264"
+    ]
+  },
+  {
+    "source": "kaist-A5023660115",
+    "target": "kaist-A5062127128",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7171413559"
+    ]
+  },
+  {
+    "source": "kaist-A5023660115",
+    "target": "kaist-A5089863464",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4415737183"
+    ]
+  },
+  {
+    "source": "kaist-A5023660115",
+    "target": "snu-A5027374744",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4280490304",
+      "W4307138125"
+    ]
+  },
+  {
+    "source": "kaist-A5028509727",
+    "target": "kaist-A5038114229",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4402971595"
+    ]
+  },
+  {
+    "source": "kaist-A5028509727",
+    "target": "kaist-A5059786116",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7131281448",
+      "W7161948467"
+    ]
+  },
+  {
+    "source": "kaist-A5028509727",
+    "target": "kaist-A5087466819",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4283784345",
+      "W7171815941"
+    ]
+  },
+  {
+    "source": "kaist-A5028509727",
+    "target": "kaist-A5089223715",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4387409613"
+    ]
+  },
+  {
+    "source": "kaist-A5028509727",
+    "target": "kaist-A5100434399",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7131281448",
+      "W7161948467"
+    ]
+  },
+  {
+    "source": "kaist-A5028509727",
+    "target": "snu-A5082258548",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4417339786"
+    ]
+  },
+  {
+    "source": "kaist-A5028509727",
+    "target": "snu-A5091015282",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4410539573"
+    ]
+  },
+  {
+    "source": "kaist-A5038114229",
+    "target": "kaist-A5087466819",
+    "type": "coauthor",
+    "weight": 6.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7118379233",
+      "W7118703964",
+      "W7118783455",
+      "W7118921375",
+      "W7119034862",
+      "W7119222260"
+    ]
+  },
+  {
+    "source": "kaist-A5038114229",
+    "target": "snu-A5080563770",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4399140804"
+    ]
+  },
+  {
+    "source": "kaist-A5038871139",
+    "target": "kaist-A5100434399",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4412934487"
+    ]
+  },
+  {
+    "source": "kaist-A5038871139",
+    "target": "snu-A5079132836",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4412934487"
+    ]
+  },
+  {
+    "source": "kaist-A5046978935",
+    "target": "kaist-A5101520308",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4280511624"
+    ]
+  },
+  {
+    "source": "kaist-A5046978935",
+    "target": "kaist-A5103056397",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4387233882"
+    ]
+  },
+  {
+    "source": "kaist-A5046978935",
+    "target": "postech-A5068518101",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7204438967"
+    ]
+  },
+  {
+    "source": "kaist-A5059786116",
+    "target": "kaist-A5089223715",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4406149683"
+    ]
+  },
+  {
+    "source": "kaist-A5059786116",
+    "target": "kaist-A5100434399",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7131281448",
+      "W7161948467"
+    ]
+  },
+  {
+    "source": "kaist-A5059786116",
+    "target": "kaist-A5101520308",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4406149683"
+    ]
+  },
+  {
+    "source": "kaist-A5062127128",
+    "target": "kaist-A5072366749",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4285097788"
+    ]
+  },
+  {
+    "source": "kaist-A5062127128",
+    "target": "kaist-A5089863464",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4400344783"
+    ]
+  },
+  {
+    "source": "kaist-A5062127128",
+    "target": "kaist-A5101520308",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4285097788",
+      "W4385971674"
+    ]
+  },
+  {
+    "source": "kaist-A5072366749",
+    "target": "kaist-A5087466819",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4385431179",
+      "W7204224264"
+    ]
+  },
+  {
+    "source": "kaist-A5072366749",
+    "target": "kaist-A5101520308",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4285097788"
+    ]
+  },
+  {
+    "source": "kaist-A5072366749",
+    "target": "unist-A5057203654",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7131062401",
+      "W7204224264"
+    ]
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "kaist-A5089863464",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4410966948"
+    ]
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "postech-A5068518101",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4408929103"
+    ]
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "postech-A5069176618",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4308891940",
+      "W4408929103"
+    ]
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "postech-A5080004279",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4408929103"
+    ]
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "postech-A5100635271",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4391944321",
+      "W4417347122"
+    ]
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "postech-A5100650467",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4408929103"
+    ]
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "snu-A5002951805",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4407693094"
+    ]
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "unist-A5057203654",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7204224264"
+    ]
+  },
+  {
+    "source": "kaist-A5089223715",
+    "target": "kaist-A5101520308",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4406149683"
+    ]
+  },
+  {
+    "source": "kaist-A5100434399",
+    "target": "postech-A5047859685",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4390956375"
+    ]
+  },
+  {
+    "source": "kaist-A5100434399",
+    "target": "snu-A5079132836",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4400927382",
+      "W4412934487"
+    ]
+  },
+  {
+    "source": "kaist-A5101520308",
+    "target": "kaist-A5103056397",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4403891671"
+    ]
+  },
+  {
+    "source": "kaist-A5102961870",
+    "target": "snu-A5055484396",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4404545348"
+    ]
+  },
+  {
+    "source": "kaist-A5102961870",
+    "target": "snu-A5059278158",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4282913883"
+    ]
+  },
+  {
+    "source": "kaist-A5102961870",
+    "target": "snu-A5073424725",
+    "type": "coauthor",
+    "weight": 3.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4394931590",
+      "W4411701625",
+      "W4411859581"
+    ]
+  },
+  {
+    "source": "postech-A5010154886",
+    "target": "postech-A5052023515",
+    "type": "coauthor",
+    "weight": 4.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4281785758",
+      "W4372334037",
+      "W4378966360",
+      "W4391960246"
+    ]
+  },
+  {
+    "source": "postech-A5010154886",
+    "target": "snu-A5027374744",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4372334037"
+    ]
+  },
+  {
+    "source": "postech-A5018682015",
+    "target": "postech-A5034657214",
+    "type": "coauthor",
+    "weight": 3.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4360827997",
+      "W4399394233",
+      "W7167611218"
+    ]
+  },
+  {
+    "source": "postech-A5018682015",
+    "target": "postech-A5047859685",
+    "type": "coauthor",
+    "weight": 6.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4283662269",
+      "W4384214813",
+      "W4391418260",
+      "W4395454055",
+      "W4414542798",
+      "W7167611218"
+    ]
+  },
+  {
+    "source": "postech-A5018682015",
+    "target": "postech-A5068518101",
+    "type": "coauthor",
+    "weight": 3.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4399394233",
+      "W4412199154",
+      "W7167611218"
+    ]
+  },
+  {
+    "source": "postech-A5018682015",
+    "target": "postech-A5100635271",
+    "type": "coauthor",
+    "weight": 3.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4395454055",
+      "W4401335506",
+      "W7167611218"
+    ]
+  },
+  {
+    "source": "postech-A5018682015",
+    "target": "snu-A5100619952",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4395454055",
+      "W4414542798"
+    ]
+  },
+  {
+    "source": "postech-A5034657214",
+    "target": "postech-A5047859685",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7167611218"
+    ]
+  },
+  {
+    "source": "postech-A5034657214",
+    "target": "postech-A5068518101",
+    "type": "coauthor",
+    "weight": 4.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4399394233",
+      "W4405022450",
+      "W4408695367",
+      "W7167611218"
+    ]
+  },
+  {
+    "source": "postech-A5034657214",
+    "target": "postech-A5100635271",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7167611218"
+    ]
+  },
+  {
+    "source": "postech-A5047859685",
+    "target": "postech-A5068518101",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7167611218"
+    ]
+  },
+  {
+    "source": "postech-A5047859685",
+    "target": "postech-A5100635271",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4395454055",
+      "W7167611218"
+    ]
+  },
+  {
+    "source": "postech-A5047859685",
+    "target": "snu-A5100619952",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4395454055",
+      "W4414542798"
+    ]
+  },
+  {
+    "source": "postech-A5048461457",
+    "target": "snu-A5082258548",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4387444662"
+    ]
+  },
+  {
+    "source": "postech-A5052023515",
+    "target": "snu-A5027374744",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4372334037"
+    ]
+  },
+  {
+    "source": "postech-A5052023515",
+    "target": "snu-A5055484396",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4411434990"
+    ]
+  },
+  {
+    "source": "postech-A5068518101",
+    "target": "postech-A5069176618",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4382245057",
+      "W4408929103"
+    ]
+  },
+  {
+    "source": "postech-A5068518101",
+    "target": "postech-A5080004279",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4408929103"
+    ]
+  },
+  {
+    "source": "postech-A5068518101",
+    "target": "postech-A5100635271",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7167611218"
+    ]
+  },
+  {
+    "source": "postech-A5068518101",
+    "target": "postech-A5100650467",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4408929103"
+    ]
+  },
+  {
+    "source": "postech-A5069176618",
+    "target": "postech-A5080004279",
+    "type": "coauthor",
+    "weight": 3.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4316135823",
+      "W4321004788",
+      "W4408929103"
+    ]
+  },
+  {
+    "source": "postech-A5069176618",
+    "target": "postech-A5100650467",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4408929103"
+    ]
+  },
+  {
+    "source": "postech-A5069176618",
+    "target": "snu-A5082258548",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4392297802"
+    ]
+  },
+  {
+    "source": "postech-A5070884113",
+    "target": "snu-A5035400785",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4390753551"
+    ]
+  },
+  {
+    "source": "postech-A5080004279",
+    "target": "postech-A5100650467",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4408929103"
+    ]
+  },
+  {
+    "source": "postech-A5100635271",
+    "target": "snu-A5010084845",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4390571016",
+      "W4402169306"
+    ]
+  },
+  {
+    "source": "postech-A5100635271",
+    "target": "snu-A5027374744",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4390571016",
+      "W4403115840"
+    ]
+  },
+  {
+    "source": "postech-A5100635271",
+    "target": "snu-A5080563770",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4390049408"
+    ]
+  },
+  {
+    "source": "postech-A5100635271",
+    "target": "snu-A5100619952",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4395454055"
+    ]
+  },
+  {
+    "source": "snu-A5002329152",
+    "target": "snu-A5055484396",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4317494301"
+    ]
+  },
+  {
+    "source": "snu-A5002329152",
+    "target": "snu-A5057696830",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4317494301"
+    ]
+  },
+  {
+    "source": "snu-A5002951805",
+    "target": "snu-A5079762603",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4391658614",
+      "W4415464327"
+    ]
+  },
+  {
+    "source": "snu-A5002951805",
+    "target": "snu-A5100619952",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4416829597"
+    ]
+  },
+  {
+    "source": "snu-A5010084845",
+    "target": "snu-A5027374744",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4312112785",
+      "W4390571016"
+    ]
+  },
+  {
+    "source": "snu-A5019985343",
+    "target": "snu-A5055820463",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4225113875"
+    ]
+  },
+  {
+    "source": "snu-A5019985343",
+    "target": "snu-A5056148684",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4411208635"
+    ]
+  },
+  {
+    "source": "snu-A5019985343",
+    "target": "snu-A5067045439",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4382932151",
+      "W4409959429"
+    ]
+  },
+  {
+    "source": "snu-A5019985343",
+    "target": "snu-A5079762603",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4225113875",
+      "W4411208635"
+    ]
+  },
+  {
+    "source": "snu-A5019985343",
+    "target": "snu-A5082258548",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4411208635"
+    ]
+  },
+  {
+    "source": "snu-A5019985343",
+    "target": "snu-A5091015282",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4225113875"
+    ]
+  },
+  {
+    "source": "snu-A5027374744",
+    "target": "snu-A5055484396",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7134126703"
+    ]
+  },
+  {
+    "source": "snu-A5027374744",
+    "target": "snu-A5059278158",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4393901603"
+    ]
+  },
+  {
+    "source": "snu-A5027374744",
+    "target": "snu-A5073145639",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7134126703"
+    ]
+  },
+  {
+    "source": "snu-A5027374744",
+    "target": "snu-A5080563770",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4396896827"
+    ]
+  },
+  {
+    "source": "snu-A5027374744",
+    "target": "unist-A5100749356",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4407909936"
+    ]
+  },
+  {
+    "source": "snu-A5035400785",
+    "target": "snu-A5079132836",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4322766835"
+    ]
+  },
+  {
+    "source": "snu-A5035400785",
+    "target": "snu-A5079762603",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4415440497",
+      "W7212035691"
+    ]
+  },
+  {
+    "source": "snu-A5035400785",
+    "target": "snu-A5082258548",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4411205666"
+    ]
+  },
+  {
+    "source": "snu-A5035400785",
+    "target": "snu-A5100752174",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4322766835"
+    ]
+  },
+  {
+    "source": "snu-A5035400785",
+    "target": "snu-A5101786821",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4385064611"
+    ]
+  },
+  {
+    "source": "snu-A5043286860",
+    "target": "snu-A5091015282",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4389429309"
+    ]
+  },
+  {
+    "source": "snu-A5043286860",
+    "target": "snu-A5100366248",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4404345042"
+    ]
+  },
+  {
+    "source": "snu-A5043554497",
+    "target": "snu-A5073947704",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4292961062",
+      "W4415988384"
+    ]
+  },
+  {
+    "source": "snu-A5043554497",
+    "target": "snu-A5079762603",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4321480162",
+      "W7164132522"
+    ]
+  },
+  {
+    "source": "snu-A5043554497",
+    "target": "snu-A5082258548",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4412654054",
+      "W4412981038"
+    ]
+  },
+  {
+    "source": "snu-A5043554497",
+    "target": "snu-A5100752174",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4415988384"
+    ]
+  },
+  {
+    "source": "snu-A5043554497",
+    "target": "snu-A5101407061",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4413054749"
+    ]
+  },
+  {
+    "source": "snu-A5044961635",
+    "target": "snu-A5056148684",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7171856029"
+    ]
+  },
+  {
+    "source": "snu-A5044961635",
+    "target": "snu-A5079762603",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7171856029"
+    ]
+  },
+  {
+    "source": "snu-A5044961635",
+    "target": "snu-A5091015282",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4414499039"
+    ]
+  },
+  {
+    "source": "snu-A5048256742",
+    "target": "snu-A5057696830",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4388907447"
+    ]
+  },
+  {
+    "source": "snu-A5055484396",
+    "target": "snu-A5057696830",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4317494301"
+    ]
+  },
+  {
+    "source": "snu-A5055484396",
+    "target": "snu-A5073145639",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4318754281",
+      "W7134126703"
+    ]
+  },
+  {
+    "source": "snu-A5055484396",
+    "target": "snu-A5100447456",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4402354528"
+    ]
+  },
+  {
+    "source": "snu-A5055820463",
+    "target": "snu-A5079762603",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4225113875"
+    ]
+  },
+  {
+    "source": "snu-A5055820463",
+    "target": "snu-A5091015282",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4212950351",
+      "W4225113875"
+    ]
+  },
+  {
+    "source": "snu-A5056148684",
+    "target": "snu-A5079762603",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4411208635",
+      "W7171856029"
+    ]
+  },
+  {
+    "source": "snu-A5056148684",
+    "target": "snu-A5082258548",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4411208635"
+    ]
+  },
+  {
+    "source": "snu-A5059278158",
+    "target": "snu-A5073424725",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4412387978"
+    ]
+  },
+  {
+    "source": "snu-A5073145639",
+    "target": "snu-A5082258548",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4402661585"
+    ]
+  },
+  {
+    "source": "snu-A5073947704",
+    "target": "snu-A5100752174",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4415988384"
+    ]
+  },
+  {
+    "source": "snu-A5073947704",
+    "target": "snu-A5101407061",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4308765700"
+    ]
+  },
+  {
+    "source": "snu-A5079132836",
+    "target": "snu-A5082258548",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4404107428"
+    ]
+  },
+  {
+    "source": "snu-A5079132836",
+    "target": "snu-A5091015282",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4229025076"
+    ]
+  },
+  {
+    "source": "snu-A5079132836",
+    "target": "snu-A5100752174",
+    "type": "coauthor",
+    "weight": 4.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4322766835",
+      "W4407144151",
+      "W4409713803",
+      "W4409714004"
+    ]
+  },
+  {
+    "source": "snu-A5079762603",
+    "target": "snu-A5082258548",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4411208635"
+    ]
+  },
+  {
+    "source": "snu-A5079762603",
+    "target": "snu-A5091015282",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4225113875"
+    ]
+  },
+  {
+    "source": "snu-A5079920356",
+    "target": "unist-A5007769445",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7152994500",
+      "W7171533437"
+    ]
+  },
+  {
+    "source": "snu-A5080563770",
+    "target": "snu-A5082258548",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4225918575"
+    ]
+  },
+  {
+    "source": "snu-A5091015282",
+    "target": "snu-A5100366248",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4224132206",
+      "W4410312204"
+    ]
+  },
+  {
+    "source": "snu-A5091015282",
+    "target": "snu-A5101407061",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4402125683"
+    ]
+  },
+  {
+    "source": "unist-A5007769445",
+    "target": "unist-A5041027236",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4410057254"
+    ]
+  },
+  {
+    "source": "unist-A5007769445",
+    "target": "unist-A5100749356",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4410057254"
+    ]
+  },
+  {
+    "source": "unist-A5008036043",
+    "target": "unist-A5017217837",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4214617915"
+    ]
+  },
+  {
+    "source": "unist-A5008036043",
+    "target": "unist-A5035895380",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4392976885"
+    ]
+  },
+  {
+    "source": "unist-A5008036043",
+    "target": "unist-A5041027236",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W7124890041"
+    ]
+  },
+  {
+    "source": "unist-A5017217837",
+    "target": "unist-A5035895380",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4409386692"
+    ]
+  },
+  {
+    "source": "unist-A5017217837",
+    "target": "unist-A5041900986",
+    "type": "coauthor",
+    "weight": 2.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4382344985",
+      "W4385408033"
+    ]
+  },
+  {
+    "source": "unist-A5017217837",
+    "target": "unist-A5100749356",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4385408033"
+    ]
+  },
+  {
+    "source": "unist-A5035895380",
+    "target": "unist-A5041027236",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4319456379"
+    ]
+  },
+  {
+    "source": "unist-A5041027236",
+    "target": "unist-A5041900986",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4284988801"
+    ]
+  },
+  {
+    "source": "unist-A5041027236",
+    "target": "unist-A5100749356",
+    "type": "coauthor",
+    "weight": 3.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4389279062",
+      "W4402214765",
+      "W4410057254"
+    ]
+  },
+  {
+    "source": "unist-A5041900986",
+    "target": "unist-A5057203654",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4388071517"
+    ]
+  },
+  {
+    "source": "unist-A5041900986",
+    "target": "unist-A5100749356",
+    "type": "coauthor",
+    "weight": 1.0,
+    "reasons": [],
+    "paper_ids": [
+      "W4385408033"
+    ]
+  }
+]

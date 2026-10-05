@@ -1,0 +1,3737 @@
+[
+ {
+  "lab_id": "kaist-A5103056397",
+  "paper_id": "W4388221728",
+  "pi_name": "강석조",
+  "cosine": 0.743,
+  "senior": true,
+  "title": "MARCH5 promotes STING pathway activation by suppressing polymer formation of oxidized STING",
+  "venue": "EMBO Reports"
+ },
+ {
+  "lab_id": "kaist-A5102961870",
+  "paper_id": "W7125527698",
+  "pi_name": "김상규",
+  "cosine": 0.727,
+  "senior": true,
+  "title": "Chemically guided single-cell transcriptomics reveals sulfotransferase-mediated scaffold remodeling in securinine biosynthesis",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "kaist-A5102961870",
+  "paper_id": "W4410954525",
+  "pi_name": "김상규",
+  "cosine": 0.753,
+  "senior": false,
+  "title": "READRetro web: A user-friendly platform for predicting plant natural product biosynthesis",
+  "venue": "Molecules and Cells"
+ },
+ {
+  "lab_id": "kaist-A5102961870",
+  "paper_id": "W4401192719",
+  "pi_name": "김상규",
+  "cosine": 0.733,
+  "senior": true,
+  "title": "READRetro : natural product biosynthesis predicting with retrieval‐augmented dual‐view retrosynthesis",
+  "venue": "New Phytologist"
+ },
+ {
+  "lab_id": "kaist-A5102961870",
+  "paper_id": "W4388188054",
+  "pi_name": "김상규",
+  "cosine": 0.773,
+  "senior": true,
+  "title": "A push–pull strategy for controlling Riptortus pedestris (Hemiptera: Alydidae) using host plant semiochemicals",
+  "venue": "Animal Cells and Systems"
+ },
+ {
+  "lab_id": "kaist-A5102961870",
+  "paper_id": "W4366728433",
+  "pi_name": "김상규",
+  "cosine": 0.775,
+  "senior": false,
+  "title": "CRISPR/Cas9-mediated gene editing to confer turnip mosaic virus (TuMV) resistance in Chinese cabbage (Brassica rapa)",
+  "venue": "Horticulture Research"
+ },
+ {
+  "lab_id": "kaist-A5102961870",
+  "paper_id": "W4362608881",
+  "pi_name": "김상규",
+  "cosine": 0.762,
+  "senior": false,
+  "title": "A novel physiological function of pheromone biosynthesis-activating neuropeptide in production of aggregation pheromone",
+  "venue": "Scientific Reports"
+ },
+ {
+  "lab_id": "kaist-A5102961870",
+  "paper_id": "W4313245047",
+  "pi_name": "김상규",
+  "cosine": 0.777,
+  "senior": false,
+  "title": "Effect of Low-Temperature Tolerant Rootstocks on the Growth and Fruit Quality of Watermelon in Semi-Forcing and Retarding Culture",
+  "venue": "Agronomy"
+ },
+ {
+  "lab_id": "kaist-A5101520308",
+  "paper_id": "W7167071088",
+  "pi_name": "김세윤",
+  "cosine": 0.652,
+  "senior": true,
+  "title": "Voices across Asia and Oceania: Biochemistry across borders",
+  "venue": "Trends in Biochemical Sciences"
+ },
+ {
+  "lab_id": "kaist-A5101520308",
+  "paper_id": "W4390503486",
+  "pi_name": "김세윤",
+  "cosine": 0.716,
+  "senior": false,
+  "title": "Effects of Pharmacoacupuncture for Obesity: A Systematic Review and Meta-Analysis",
+  "venue": "Journal of Korean Medicine for Obesity Research"
+ },
+ {
+  "lab_id": "kaist-A5028509727",
+  "paper_id": "W7124940831",
+  "pi_name": "김윤기",
+  "cosine": 0.748,
+  "senior": false,
+  "title": "The HigB-like SehA toxin promotes non-replicating Salmonella inside macrophages by inhibiting ribonuclease III-dependent rRNA maturation",
+  "venue": "Nucleic Acids Research"
+ },
+ {
+  "lab_id": "kaist-A5028509727",
+  "paper_id": "W4283784345",
+  "pi_name": "김윤기",
+  "cosine": 0.737,
+  "senior": true,
+  "title": "Resolving m6A epitranscriptome with stoichiometry",
+  "venue": "Trends in Genetics"
+ },
+ {
+  "lab_id": "kaist-A5028509727",
+  "paper_id": "W4210279169",
+  "pi_name": "김윤기",
+  "cosine": 0.725,
+  "senior": false,
+  "title": "TAZ links exercise to mitochondrial biogenesis via mitochondrial transcription factor A",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "kaist-A5013204190",
+  "paper_id": "W4390663416",
+  "pi_name": "김은준",
+  "cosine": 0.78,
+  "senior": false,
+  "title": "Real-time visualization of structural dynamics of synapses in live cells in vivo",
+  "venue": "Nature Methods"
+ },
+ {
+  "lab_id": "kaist-A5100372671",
+  "paper_id": "W4401853059",
+  "pi_name": "김진우",
+  "cosine": 0.723,
+  "senior": true,
+  "title": "Enhancement of skin regeneration through activation of TGF-β/SMAD signaling pathway by Panax ginseng meyer non-edible callus-derived extracellular vesicles",
+  "venue": "Journal of Ginseng Research"
+ },
+ {
+  "lab_id": "kaist-A5100372671",
+  "paper_id": "W4403000980",
+  "pi_name": "김진우",
+  "cosine": 0.695,
+  "senior": false,
+  "title": "Melanin Synthesis Gene Inhibition Effect through Inhibition of Tyrosinase and TRPs Expression of Coriandrum sativum-derived Exosome",
+  "venue": "Asian Journal of Beauty and Cosmetology"
+ },
+ {
+  "lab_id": "kaist-A5100372671",
+  "paper_id": "W4388619229",
+  "pi_name": "김진우",
+  "cosine": 0.714,
+  "senior": false,
+  "title": "Alleviative effect of microalgae on scopolamine-induced dry eye mouse model",
+  "venue": "Korean Journal of Food Science and Technology"
+ },
+ {
+  "lab_id": "kaist-A5100372671",
+  "paper_id": "W4312647226",
+  "pi_name": "김진우",
+  "cosine": 0.772,
+  "senior": false,
+  "title": "Global Histone Modifications Predict the Outcome of Glaucoma Surgery",
+  "venue": "Journal of the Korean Glaucoma Society"
+ },
+ {
+  "lab_id": "kaist-A5023660115",
+  "paper_id": "W7139916278",
+  "pi_name": "김호민",
+  "cosine": 0.747,
+  "senior": false,
+  "title": "Bazedoxifene reverses sexually dimorphic autistic-like abnormalities in biallelic MDGA1-mutant mice",
+  "venue": "EMBO Molecular Medicine"
+ },
+ {
+  "lab_id": "kaist-A5023660115",
+  "paper_id": "W4416723378",
+  "pi_name": "김호민",
+  "cosine": 0.731,
+  "senior": false,
+  "title": "ATF5‐Dependent GDF15 Expression Mediates Anesthesia‐Induced Neuroprotection Against Stroke",
+  "venue": "Advanced Science"
+ },
+ {
+  "lab_id": "kaist-A5023660115",
+  "paper_id": "W4415737183",
+  "pi_name": "김호민",
+  "cosine": 0.769,
+  "senior": false,
+  "title": "A Rho GTPase-effector ensemble governs cell migration behavior",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "kaist-A5023660115",
+  "paper_id": "W4415817944",
+  "pi_name": "김호민",
+  "cosine": 0.756,
+  "senior": false,
+  "title": "Intranasal Nanoliposomes Delivering Interferon Lambda with Enhanced Mucosal Retention as an Antiviral",
+  "venue": "Biomaterials Research"
+ },
+ {
+  "lab_id": "kaist-A5023660115",
+  "paper_id": "W4392906876",
+  "pi_name": "김호민",
+  "cosine": 0.705,
+  "senior": false,
+  "title": "A dual role of the conserved PEX19 helix in safeguarding peroxisomal membrane proteins",
+  "venue": "iScience"
+ },
+ {
+  "lab_id": "kaist-A5023660115",
+  "paper_id": "W4391821016",
+  "pi_name": "김호민",
+  "cosine": 0.762,
+  "senior": false,
+  "title": "Polymorphic Self‐Assembly with Procedural Flexibility for Monodisperse Quaternary Protein Structures of DegQ Enzymes",
+  "venue": "Advanced Materials"
+ },
+ {
+  "lab_id": "kaist-A5023660115",
+  "paper_id": "W4385638515",
+  "pi_name": "김호민",
+  "cosine": 0.622,
+  "senior": false,
+  "title": "Characterization of passive microfluidic mixer with a three-dimensional zig-zag channel for cryo-EM sampling",
+  "venue": "Chemical Engineering Science"
+ },
+ {
+  "lab_id": "kaist-A5023660115",
+  "paper_id": "W4319215969",
+  "pi_name": "김호민",
+  "cosine": 0.763,
+  "senior": false,
+  "title": "Yam-derived exosome-like nanovesicles stimulate osteoblast formation and prevent osteoporosis in mice",
+  "venue": "Journal of Controlled Release"
+ },
+ {
+  "lab_id": "kaist-A5023660115",
+  "paper_id": "W4285593273",
+  "pi_name": "김호민",
+  "cosine": 0.775,
+  "senior": false,
+  "title": "SLITRK2 variants associated with neurodevelopmental disorders impair excitatory synaptic function and cognition in mice",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "kaist-A5045941705",
+  "paper_id": "W4414573330",
+  "pi_name": "남윤성",
+  "cosine": 0.725,
+  "senior": true,
+  "title": "Precision cellular imaging: ratiometric fluorescence techniques for tracking intracellular MicroRNAs",
+  "venue": "Chemical Engineering Journal"
+ },
+ {
+  "lab_id": "kaist-A5045941705",
+  "paper_id": "W4414530179",
+  "pi_name": "남윤성",
+  "cosine": 0.699,
+  "senior": true,
+  "title": "Aberrant neuronal firing: a paracrine route to glioblastoma expansion",
+  "venue": "Cell Communication and Signaling"
+ },
+ {
+  "lab_id": "kaist-A5045941705",
+  "paper_id": "W4412885413",
+  "pi_name": "남윤성",
+  "cosine": 0.768,
+  "senior": true,
+  "title": "Reflection-Enhanced Raman Identification of Single Bacterial Cells Patterned Using Capillary Assembly",
+  "venue": "ACS Sensors"
+ },
+ {
+  "lab_id": "kaist-A5045941705",
+  "paper_id": "W4412694953",
+  "pi_name": "남윤성",
+  "cosine": 0.758,
+  "senior": false,
+  "title": "Battery‐Free, Wireless Multi‐Sensing Platform for Comprehensive Management of Pressure Injury and Hygiene",
+  "venue": "Advanced Functional Materials"
+ },
+ {
+  "lab_id": "kaist-A5045941705",
+  "paper_id": "W4400584596",
+  "pi_name": "남윤성",
+  "cosine": 0.769,
+  "senior": true,
+  "title": "Assessing Barrier Function in Psoriasis and Cornification Models of Artificial Skin Using Non‐Invasive Impedance Spectroscopy",
+  "venue": "Advanced Science"
+ },
+ {
+  "lab_id": "kaist-A5045941705",
+  "paper_id": "W4399072664",
+  "pi_name": "남윤성",
+  "cosine": 0.734,
+  "senior": true,
+  "title": "Molecular Dynamics Investigation into CerENP’s Effect on the Lipid Matrix of Stratum Corneum",
+  "venue": "The Journal of Physical Chemistry B"
+ },
+ {
+  "lab_id": "kaist-A5045941705",
+  "paper_id": "W4313278772",
+  "pi_name": "남윤성",
+  "cosine": 0.77,
+  "senior": true,
+  "title": "Target‐Catalyzed Self‐Assembly of DNA‐Streptavidin Nanogel for Enzyme‐Free miRNA Assay",
+  "venue": "Advanced Healthcare Materials"
+ },
+ {
+  "lab_id": "kaist-A5062127128",
+  "paper_id": "W4285097788",
+  "pi_name": "손종우",
+  "cosine": 0.658,
+  "senior": false,
+  "title": "Lomitapide, a cholesterol-lowering drug, is an anticancer agent that induces autophagic cell death via inhibiting mTOR",
+  "venue": "Cell Death and Disease"
+ },
+ {
+  "lab_id": "kaist-A5062127128",
+  "paper_id": "W4400344783",
+  "pi_name": "손종우",
+  "cosine": 0.777,
+  "senior": false,
+  "title": "Phospholipase C beta 1 in the dentate gyrus gates fear memory formation through regulation of neuronal excitability",
+  "venue": "Science Advances"
+ },
+ {
+  "lab_id": "kaist-A5062127128",
+  "paper_id": "W4390598924",
+  "pi_name": "손종우",
+  "cosine": 0.689,
+  "senior": false,
+  "title": "Assessment Methods for Problematic Eating Behaviors in Children and Adolescents With Autism Spectrum Disorder",
+  "venue": "Journal of korean Academy of Child and Adolescent Psychiatry"
+ },
+ {
+  "lab_id": "kaist-A5062127128",
+  "paper_id": "W4379228916",
+  "pi_name": "손종우",
+  "cosine": 0.752,
+  "senior": true,
+  "title": "Protocol to prepare mouse spinal cord for patch-clamp and histology experiments",
+  "venue": "STAR Protocols"
+ },
+ {
+  "lab_id": "kaist-A5087466819",
+  "paper_id": "W4385431179",
+  "pi_name": "윤기준",
+  "cosine": 0.765,
+  "senior": false,
+  "title": "Stress induces behavioral abnormalities by increasing expression of phagocytic receptor MERTK in astrocytes to promote synapse phagocytosis",
+  "venue": "Immunity"
+ },
+ {
+  "lab_id": "kaist-A5087466819",
+  "paper_id": "W4416139895",
+  "pi_name": "윤기준",
+  "cosine": 0.759,
+  "senior": true,
+  "title": "TMOD-07. Patient-derived glioblastoma organoids enable prediction of drug response and identification of therapeutic candidates in glioblastoma",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "lab_id": "kaist-A5087466819",
+  "paper_id": "W4410966948",
+  "pi_name": "윤기준",
+  "cosine": 0.734,
+  "senior": false,
+  "title": "Programmable RNA acetylation with CRISPR–Cas13",
+  "venue": "Nature Chemical Biology"
+ },
+ {
+  "lab_id": "kaist-A5087466819",
+  "paper_id": "W4407481743",
+  "pi_name": "윤기준",
+  "cosine": 0.768,
+  "senior": false,
+  "title": "Pre-clinical safety and efficacy of human induced pluripotent stem cell-derived products for autologous cell therapy in Parkinson’s disease",
+  "venue": "Cell stem cell"
+ },
+ {
+  "lab_id": "kaist-A5087466819",
+  "paper_id": "W4400987055",
+  "pi_name": "윤기준",
+  "cosine": 0.647,
+  "senior": false,
+  "title": "Holotomography",
+  "venue": "Nature Reviews Methods Primers"
+ },
+ {
+  "lab_id": "kaist-A5087466819",
+  "paper_id": "W4382056661",
+  "pi_name": "윤기준",
+  "cosine": 0.623,
+  "senior": false,
+  "title": "A virtual memory CD8+ T cell-originated subset causes alopecia areata through innate-like cytotoxicity",
+  "venue": "Nature Immunology"
+ },
+ {
+  "lab_id": "kaist-A5087466819",
+  "paper_id": "W4226150208",
+  "pi_name": "윤기준",
+  "cosine": 0.744,
+  "senior": false,
+  "title": "Potential toxicity of inorganic ions in particulate matter: Ion permeation in lung and disruption of cell metabolism",
+  "venue": "The Science of The Total Environment"
+ },
+ {
+  "lab_id": "kaist-A5046978935",
+  "paper_id": "W4387233882",
+  "pi_name": "이대엽",
+  "cosine": 0.703,
+  "senior": false,
+  "title": "The transcription factor NFIL3/E4BP4 regulates the developmental stage–specific acquisition of basophil function",
+  "venue": "Journal of Allergy and Clinical Immunology"
+ },
+ {
+  "lab_id": "kaist-A5100434399",
+  "paper_id": "W4410036172",
+  "pi_name": "이승재",
+  "cosine": 0.689,
+  "senior": true,
+  "title": "Bioengineered Approaches for Esophageal Regeneration: Advancing Esophageal Cancer Therapy",
+  "venue": "Bioengineering"
+ },
+ {
+  "lab_id": "kaist-A5100434399",
+  "paper_id": "W4404516656",
+  "pi_name": "이승재",
+  "cosine": 0.748,
+  "senior": true,
+  "title": "Brief guide to immunostaining",
+  "venue": "Molecules and Cells"
+ },
+ {
+  "lab_id": "kaist-A5100434399",
+  "paper_id": "W4404620335",
+  "pi_name": "이승재",
+  "cosine": 0.73,
+  "senior": false,
+  "title": "Convergence Performance and Optimal Design Using Crow Search Algorithm Considering the Qubits",
+  "venue": "Journal of the Korean Association for Spatial Structures"
+ },
+ {
+  "lab_id": "kaist-A5100434399",
+  "paper_id": "W4390956375",
+  "pi_name": "이승재",
+  "cosine": 0.775,
+  "senior": true,
+  "title": "OASIS portable: User-friendly offline suite for secure survival analysis",
+  "venue": "Molecules and Cells"
+ },
+ {
+  "lab_id": "kaist-A5100434399",
+  "paper_id": "W4381737026",
+  "pi_name": "이승재",
+  "cosine": 0.74,
+  "senior": false,
+  "title": "Identification of Hub Genes and Upstream Regulatory Factors Based on Cell Adhesion in Triple-negative Breast Cancer by Integrated Bioinformatical Analysis",
+  "venue": "Anticancer Research"
+ },
+ {
+  "lab_id": "kaist-A5100434399",
+  "paper_id": "W4286265180",
+  "pi_name": "이승재",
+  "cosine": 0.712,
+  "senior": false,
+  "title": "Double-stranded RNA induction asa potential dynamic biomarkerfor DNA-demethylating agents",
+  "venue": "Molecular Therapy — Nucleic Acids"
+ },
+ {
+  "lab_id": "kaist-A5100434399",
+  "paper_id": "W4295222481",
+  "pi_name": "이승재",
+  "cosine": 0.743,
+  "senior": false,
+  "title": "Peroxiredoxin 5 protects HepG2 cells from ethyl β-carboline-3-carboxylate-induced cell death via ROS-dependent MAPK signalling pathways",
+  "venue": "Journal of Cancer"
+ },
+ {
+  "lab_id": "kaist-A5031437702",
+  "paper_id": "W4411263566",
+  "pi_name": "이흥규",
+  "cosine": 0.752,
+  "senior": true,
+  "title": "Placental inflammation-driven T cell memory formation promotes allergic responses in offspring via endogenous glucocorticoids",
+  "venue": "Mucosal Immunology"
+ },
+ {
+  "lab_id": "kaist-A5031437702",
+  "paper_id": "W4410598260",
+  "pi_name": "이흥규",
+  "cosine": 0.725,
+  "senior": true,
+  "title": "Gut dysbiosis from high-salt diet promotes glioma via propionate-mediated TGF-β activation",
+  "venue": "The Journal of Experimental Medicine"
+ },
+ {
+  "lab_id": "kaist-A5031437702",
+  "paper_id": "W4401542713",
+  "pi_name": "이흥규",
+  "cosine": 0.705,
+  "senior": true,
+  "title": "Assessment of immunopathological responses of a novel non-chemical biocide in C57BL/6 for safe disinfection usage",
+  "venue": "Laboratory Animal Research"
+ },
+ {
+  "lab_id": "kaist-A5031437702",
+  "paper_id": "W4380786171",
+  "pi_name": "이흥규",
+  "cosine": 0.749,
+  "senior": true,
+  "title": "Intranasal delivery of an adenovirus-vector vaccine co-expressing a modified spike protein and a genetic adjuvant confers lasting mucosal immunity against SARS-CoV-2",
+  "venue": "Antiviral Research"
+ },
+ {
+  "lab_id": "kaist-A5031437702",
+  "paper_id": "W4379745202",
+  "pi_name": "이흥규",
+  "cosine": 0.773,
+  "senior": true,
+  "title": "Protocol for analyzing γδ T cells from the vagina of diet-induced obese mice using single-cell RNA sequencing and flow cytometry",
+  "venue": "STAR Protocols"
+ },
+ {
+  "lab_id": "kaist-A5031437702",
+  "paper_id": "W4283657246",
+  "pi_name": "이흥규",
+  "cosine": 0.727,
+  "senior": true,
+  "title": "Host and Microbiome Interplay Shapes the Vaginal Microenvironment",
+  "venue": "Frontiers in Immunology"
+ },
+ {
+  "lab_id": "kaist-A5031437702",
+  "paper_id": "W4285743597",
+  "pi_name": "이흥규",
+  "cosine": 0.777,
+  "senior": true,
+  "title": "A Microbiota-Dependent Subset of Skin Macrophages Protects Against Cutaneous Bacterial Infection",
+  "venue": "Frontiers in Immunology"
+ },
+ {
+  "lab_id": "kaist-A5038114229",
+  "paper_id": "W4381739374",
+  "pi_name": "임대식",
+  "cosine": 0.742,
+  "senior": false,
+  "title": "Mitochondrial matrix protein LETMD1 maintains thermogenic capacity of brown adipose tissue in male mice",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "kaist-A5038114229",
+  "paper_id": "W4414283474",
+  "pi_name": "임대식",
+  "cosine": 0.714,
+  "senior": false,
+  "title": "Korean red ginseng extract suppresses food allergy by remodeling the gut microbiota and restoring immune homeostasis in IL4raF709 mice",
+  "venue": "Journal of Ginseng Research"
+ },
+ {
+  "lab_id": "kaist-A5038114229",
+  "paper_id": "W4407072874",
+  "pi_name": "임대식",
+  "cosine": 0.774,
+  "senior": false,
+  "title": "Dual inhibition of Mst1 and Mst2 exacerbates cardiac dysfunction during pressure overload stress in mice",
+  "venue": "Journal of Molecular and Cellular Cardiology"
+ },
+ {
+  "lab_id": "kaist-A5038114229",
+  "paper_id": "W4402973051",
+  "pi_name": "임대식",
+  "cosine": 0.744,
+  "senior": true,
+  "title": "Protocol to calculate the synergy of drug combinations in organoids and primary cells from murine tumors",
+  "venue": "STAR Protocols"
+ },
+ {
+  "lab_id": "kaist-A5038114229",
+  "paper_id": "W4392473174",
+  "pi_name": "임대식",
+  "cosine": 0.757,
+  "senior": false,
+  "title": "The Mst1/2-BNIP3 axis is required for mitophagy induction and neuronal viability under mitochondrial stress",
+  "venue": "Experimental & Molecular Medicine"
+ },
+ {
+  "lab_id": "kaist-A5038114229",
+  "paper_id": "W4312173718",
+  "pi_name": "임대식",
+  "cosine": 0.771,
+  "senior": false,
+  "title": "MST1 controls murine neutrophil homeostasis via the G-CSFR/STAT3 axis",
+  "venue": "Frontiers in Immunology"
+ },
+ {
+  "lab_id": "kaist-A5038871139",
+  "paper_id": "W4405539233",
+  "pi_name": "임정훈",
+  "cosine": 0.749,
+  "senior": true,
+  "title": "Drosulfakinin signaling encodes early-life memory for adaptive social plasticity",
+  "venue": "eLife"
+ },
+ {
+  "lab_id": "kaist-A5038871139",
+  "paper_id": "W4310589329",
+  "pi_name": "임정훈",
+  "cosine": 0.698,
+  "senior": true,
+  "title": "Circadian gating of light-induced arousal in Drosophila sleep",
+  "venue": "Journal of Neurogenetics"
+ },
+ {
+  "lab_id": "kaist-A5038871139",
+  "paper_id": "W4205543212",
+  "pi_name": "임정훈",
+  "cosine": 0.765,
+  "senior": true,
+  "title": "mtIF3 is locally translated in axons and regulates mitochondrial translation for axonal growth",
+  "venue": "BMC Biology"
+ },
+ {
+  "lab_id": "kaist-A5072366749",
+  "paper_id": "W4285097788",
+  "pi_name": "정원석",
+  "cosine": 0.706,
+  "senior": false,
+  "title": "Lomitapide, a cholesterol-lowering drug, is an anticancer agent that induces autophagic cell death via inhibiting mTOR",
+  "venue": "Cell Death and Disease"
+ },
+ {
+  "lab_id": "kaist-A5072366749",
+  "paper_id": "W7169840467",
+  "pi_name": "정원석",
+  "cosine": 0.774,
+  "senior": false,
+  "title": "CSF clearance through arachnoid fenestrations to olfactory meningeal lymphatics",
+  "venue": "Cell"
+ },
+ {
+  "lab_id": "kaist-A5072366749",
+  "paper_id": "W4319601928",
+  "pi_name": "정원석",
+  "cosine": 0.777,
+  "senior": false,
+  "title": "Fasudil alleviates the vascular endothelial dysfunction and several phenotypes of Fabry disease",
+  "venue": "Molecular Therapy"
+ },
+ {
+  "lab_id": "kaist-A5072366749",
+  "paper_id": "W4297042460",
+  "pi_name": "정원석",
+  "cosine": 0.769,
+  "senior": true,
+  "title": "Astrocytes regulate neuronal network activity by mediating synapse remodeling",
+  "venue": "Neuroscience Research"
+ },
+ {
+  "lab_id": "kaist-A5089223715",
+  "paper_id": "W4396731278",
+  "pi_name": "조원기",
+  "cosine": 0.74,
+  "senior": false,
+  "title": "Loss of Katnal2 leads to ependymal ciliary hyperfunction and autism-related phenotypes in mice",
+  "venue": "PLoS Biology"
+ },
+ {
+  "lab_id": "kaist-A5089223715",
+  "paper_id": "W7165847018",
+  "pi_name": "조원기",
+  "cosine": 0.671,
+  "senior": false,
+  "title": "Chimeric switch scaffold protein augments CAR synapse formation and signaling networks",
+  "venue": "Journal for ImmunoTherapy of Cancer"
+ },
+ {
+  "lab_id": "kaist-A5089750807",
+  "paper_id": "W7160891264",
+  "pi_name": "최길주",
+  "cosine": 0.662,
+  "senior": false,
+  "title": "Nanobody-Based Biotemplating Enables Nanoscale-Precision Metallization of Cellular, Tissue, and Plant Architectures",
+  "venue": "ACS Applied Materials & Interfaces"
+ },
+ {
+  "lab_id": "kaist-A5055397906",
+  "paper_id": "W4406023980",
+  "pi_name": "한진희",
+  "cosine": 0.752,
+  "senior": true,
+  "title": "Shared rare genetic variants in multiplex autism families suggest a social memory gene under selection",
+  "venue": "Scientific Reports"
+ },
+ {
+  "lab_id": "kaist-A5089863464",
+  "paper_id": "W4410966948",
+  "pi_name": "허원도",
+  "cosine": 0.769,
+  "senior": true,
+  "title": "Programmable RNA acetylation with CRISPR–Cas13",
+  "venue": "Nature Chemical Biology"
+ },
+ {
+  "lab_id": "kaist-A5089863464",
+  "paper_id": "W7117580436",
+  "pi_name": "허원도",
+  "cosine": 0.776,
+  "senior": true,
+  "title": "AI-driven decoding of naturalistic behaviors enables tailored detection of depressive-like behavior in mice",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "kaist-A5089863464",
+  "paper_id": "W4414715204",
+  "pi_name": "허원도",
+  "cosine": 0.757,
+  "senior": false,
+  "title": "High-speed holotomography of live cells and tissues using multi-pattern sparse axial scanning",
+  "venue": "Optics Express"
+ },
+ {
+  "lab_id": "kaist-A5089863464",
+  "paper_id": "W4410003949",
+  "pi_name": "허원도",
+  "cosine": 0.749,
+  "senior": false,
+  "title": "Molecular basis for assembly and activation of the Hook3 − KIF1C complex-dependent transport machinery",
+  "venue": "EMBO Reports"
+ },
+ {
+  "lab_id": "kaist-A5089863464",
+  "paper_id": "W4407132899",
+  "pi_name": "허원도",
+  "cosine": 0.724,
+  "senior": false,
+  "title": "Targeting pseudoknots with Cas13b inhibits porcine epidemic diarrhoea virus replication",
+  "venue": "Journal of General Virology"
+ },
+ {
+  "lab_id": "kaist-A5089863464",
+  "paper_id": "W4328102528",
+  "pi_name": "허원도",
+  "cosine": 0.728,
+  "senior": true,
+  "title": "Pseudoknot-targeting Cas13b combats SARS-CoV-2 infection by suppressing viral replication",
+  "venue": "Molecular Therapy"
+ },
+ {
+  "lab_id": "kaist-A5089863464",
+  "paper_id": "W4327569195",
+  "pi_name": "허원도",
+  "cosine": 0.748,
+  "senior": true,
+  "title": "Light-stimulated insulin secretion from pancreatic islet-like organoids derived from human pluripotent stem cells",
+  "venue": "Molecular Therapy"
+ },
+ {
+  "lab_id": "snu-A5079132836",
+  "paper_id": "W4309074407",
+  "pi_name": "강찬희",
+  "cosine": 0.752,
+  "senior": true,
+  "title": "A focused natural compound screen reveals senolytic and senostatic effects of Isatis tinctoria",
+  "venue": "Animal Cells and Systems"
+ },
+ {
+  "lab_id": "snu-A5079132836",
+  "paper_id": "W4229025076",
+  "pi_name": "강찬희",
+  "cosine": 0.755,
+  "senior": false,
+  "title": "Functional role of the Frizzled linker domain in the Wnt signaling pathway",
+  "venue": "Communications Biology"
+ },
+ {
+  "lab_id": "snu-A5091561167",
+  "paper_id": "W4391787104",
+  "pi_name": "고준석",
+  "cosine": 0.764,
+  "senior": true,
+  "title": "Activation of zinc uptake regulator by zinc binding to three regulatory sites",
+  "venue": "Nucleic Acids Research"
+ },
+ {
+  "lab_id": "snu-A5101786821",
+  "paper_id": "W4213129109",
+  "pi_name": "공영윤",
+  "cosine": 0.741,
+  "senior": false,
+  "title": "B Cell–Specific Deletion of CR6‐Interacting Factor 1 Drives Lupus‐like Autoimmunity by Activation of Interleukin‐17, Interleukin‐6, and Pathogenic Follicular Helper T Cells in a Mouse Model",
+  "venue": "Arthritis & Rheumatology"
+ },
+ {
+  "lab_id": "snu-A5043554497",
+  "paper_id": "W4412981038",
+  "pi_name": "김빛내리",
+  "cosine": 0.744,
+  "senior": false,
+  "title": "Gene expression dynamics before and after zygotic gene activation in Drosophila early embryogenesis",
+  "venue": "iScience"
+ },
+ {
+  "lab_id": "snu-A5043554497",
+  "paper_id": "W4401918548",
+  "pi_name": "김빛내리",
+  "cosine": 0.716,
+  "senior": false,
+  "title": "Innate immune responses against mRNA vaccine promote cellular immunity through IFN-β at the injection site",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "snu-A5043554497",
+  "paper_id": "W4392471353",
+  "pi_name": "김빛내리",
+  "cosine": 0.72,
+  "senior": true,
+  "title": "Structural atlas of human primary microRNAs generated by SHAPE-MaP",
+  "venue": "Molecular Cell"
+ },
+ {
+  "lab_id": "snu-A5080563770",
+  "paper_id": "W7212037671",
+  "pi_name": "김재범",
+  "cosine": 0.7,
+  "senior": true,
+  "title": "Two HIFs, two fates: VHL-HIF signaling controls iNKT cell identity",
+  "venue": "Developmental Cell"
+ },
+ {
+  "lab_id": "snu-A5080563770",
+  "paper_id": "W4412852211",
+  "pi_name": "김재범",
+  "cosine": 0.703,
+  "senior": false,
+  "title": "Longitudinal Multi-Omics Profiling Reveals Molecular Responses in a Living Human Receiving a Gene-Edited Pig Kidney Xenograft",
+  "venue": "American Journal of Transplantation"
+ },
+ {
+  "lab_id": "snu-A5080563770",
+  "paper_id": "W4394721001",
+  "pi_name": "김재범",
+  "cosine": 0.704,
+  "senior": false,
+  "title": "Short-Term Immuno-Molecular Landscape in 10-Gene Edited Pig-to-Human Heart Xenografts",
+  "venue": "The Journal of Heart and Lung Transplantation"
+ },
+ {
+  "lab_id": "snu-A5080563770",
+  "paper_id": "W4390827094",
+  "pi_name": "김재범",
+  "cosine": 0.743,
+  "senior": false,
+  "title": "p21-activated kinase 4 counteracts PKA-dependent lipolysis by phosphorylating FABP4 and HSL",
+  "venue": "Nature Metabolism"
+ },
+ {
+  "lab_id": "snu-A5080563770",
+  "paper_id": "W4386836891",
+  "pi_name": "김재범",
+  "cosine": 0.703,
+  "senior": false,
+  "title": "A Relationship Between Dietary Protein Sources and Their Adequacy, Body Composition and Risk of Sarcopenic Obesity in South Korean Populations",
+  "venue": "Journal of the Academy of Nutrition and Dietetics"
+ },
+ {
+  "lab_id": "snu-A5082258548",
+  "paper_id": "W4412981038",
+  "pi_name": "김종서",
+  "cosine": 0.719,
+  "senior": true,
+  "title": "Gene expression dynamics before and after zygotic gene activation in Drosophila early embryogenesis",
+  "venue": "iScience"
+ },
+ {
+  "lab_id": "snu-A5082258548",
+  "paper_id": "W4225918575",
+  "pi_name": "김종서",
+  "cosine": 0.778,
+  "senior": false,
+  "title": "Hepatic GSK3β-Dependent CRY1 Degradation Contributes to Diabetic Hyperglycemia",
+  "venue": "Diabetes"
+ },
+ {
+  "lab_id": "snu-A5082258548",
+  "paper_id": "W7152547967",
+  "pi_name": "김종서",
+  "cosine": 0.739,
+  "senior": true,
+  "title": "Serpina1e mediates the exercise-induced enhancement of hippocampal memory in male mice",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "snu-A5082258548",
+  "paper_id": "W4411208635",
+  "pi_name": "김종서",
+  "cosine": 0.764,
+  "senior": false,
+  "title": "Structural basis of the catalytic and allosteric mechanism of bacterial acetyltransferase PatZ",
+  "venue": "Proceedings of the National Academy of Sciences"
+ },
+ {
+  "lab_id": "snu-A5082258548",
+  "paper_id": "W4411205666",
+  "pi_name": "김종서",
+  "cosine": 0.772,
+  "senior": true,
+  "title": "Mitochondrial fumarate inhibits Parkin-mediated mitophagy",
+  "venue": "Molecular Cell"
+ },
+ {
+  "lab_id": "snu-A5082258548",
+  "paper_id": "W4409723238",
+  "pi_name": "김종서",
+  "cosine": 0.707,
+  "senior": true,
+  "title": "Mechanisms of chemotherapy failure in refractory/relapsed acute myeloid leukemia: the role of cytarabine resistance and mitochondrial metabolism",
+  "venue": "Cell Death and Disease"
+ },
+ {
+  "lab_id": "snu-A5082258548",
+  "paper_id": "W4407357886",
+  "pi_name": "김종서",
+  "cosine": 0.776,
+  "senior": false,
+  "title": "Aptamer-Guided, Hydrolysis-Resistant Deoxyoxanosine Enables Epitope- and Moiety-Selective Conjugation to Nonengineered Proteins Even in Complex Environments",
+  "venue": "Journal of the American Chemical Society"
+ },
+ {
+  "lab_id": "snu-A5082258548",
+  "paper_id": "W4403752575",
+  "pi_name": "김종서",
+  "cosine": 0.735,
+  "senior": false,
+  "title": "Complement factor H-related protein 5 alleviates joint inflammation and osteoclast differentiation by disrupting RANK-JNK signaling in collagen antibody-induced arthritis mouse model",
+  "venue": "Cytokine"
+ },
+ {
+  "lab_id": "snu-A5082258548",
+  "paper_id": "W4402661585",
+  "pi_name": "김종서",
+  "cosine": 0.711,
+  "senior": false,
+  "title": "C-TERMINAL DOMAIN PHOSPHATASE-LIKE 1 promotes flowering with TAF15b by repressing the floral repressor gene FLOWERING LOCUS C",
+  "venue": "Molecules and Cells"
+ },
+ {
+  "lab_id": "snu-A5082258548",
+  "paper_id": "W4392291845",
+  "pi_name": "김종서",
+  "cosine": 0.692,
+  "senior": false,
+  "title": "The complement factor H-related protein-5 (CFHR5) exacerbates pathological bone formation in ankylosing spondylitis",
+  "venue": "Journal of Molecular Medicine"
+ },
+ {
+  "lab_id": "snu-A5082258548",
+  "paper_id": "W4364351721",
+  "pi_name": "김종서",
+  "cosine": 0.77,
+  "senior": false,
+  "title": "Binding of USP4 to cortactin enhances cell migration in HCT116 human colon cancer cells",
+  "venue": "The FASEB Journal"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4415988384",
+  "pi_name": "김진홍",
+  "cosine": 0.776,
+  "senior": false,
+  "title": "RNA stability enhancers for durable base-modified mRNA therapeutics",
+  "venue": "Nature Biotechnology"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W7164822307",
+  "pi_name": "김진홍",
+  "cosine": 0.747,
+  "senior": true,
+  "title": "The Effect of a 24-Week Combined Exercise Program on Changes in Bone Mineral Density in Postmenopausal Middle-Aged Women",
+  "venue": ""
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W7162875919",
+  "pi_name": "김진홍",
+  "cosine": 0.692,
+  "senior": false,
+  "title": "Prediction of low birth weight using machine learning-based analysis of environmental and maternal risk factors: insights from the Korean CHildren's ENvironmental health study (Ko-CHENS)",
+  "venue": "Environmental Research"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4415214506",
+  "pi_name": "김진홍",
+  "cosine": 0.672,
+  "senior": false,
+  "title": "Explainable fault detection and diagnosis in HVAC systems using a Koopman operator with normal data",
+  "venue": "Energy and Buildings"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4414409917",
+  "pi_name": "김진홍",
+  "cosine": 0.693,
+  "senior": false,
+  "title": "Trends in intelligent sensor‐based customized management technologies for sewer infrastructures",
+  "venue": "ETRI Journal"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4412529685",
+  "pi_name": "김진홍",
+  "cosine": 0.696,
+  "senior": false,
+  "title": "Domain-invariant representation learning for generalizable chiller model: a real-world case study",
+  "venue": "Energy and Buildings"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4411937948",
+  "pi_name": "김진홍",
+  "cosine": 0.693,
+  "senior": false,
+  "title": "The Influence of Disability Acceptance on Quality of Life in Injured Workers with Permanent Disabilities: Focusing on the Mediating Effect of Self-Efficacy",
+  "venue": "The Korean Data Analysis Society"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4412143715",
+  "pi_name": "김진홍",
+  "cosine": 0.707,
+  "senior": false,
+  "title": "Analysis of Trends in Return-to-Work Program Participation (2018-2023) Following Changes in Industrial Accident Insurance Policy",
+  "venue": ""
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4409733453",
+  "pi_name": "김진홍",
+  "cosine": 0.703,
+  "senior": false,
+  "title": "Scalable Fe‐Rich Corroded Steel Wool Electrodes for Industrial Anion Exchange Membrane Water Electrolysis with a Two‐Order‐of‐Magnitude Cost Reduction",
+  "venue": "Advanced Functional Materials"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4409644609",
+  "pi_name": "김진홍",
+  "cosine": 0.689,
+  "senior": false,
+  "title": "Time-of-flight based one-dimensional position estimation of radioactive sources using artificial neural network model",
+  "venue": "Nuclear Engineering and Technology"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4409011810",
+  "pi_name": "김진홍",
+  "cosine": 0.725,
+  "senior": false,
+  "title": "Optimizing Initial Vancomycin Dosing in Hospitalized Patients Using Machine Learning Approach for Enhanced Therapeutic Outcomes: Algorithm Development and Validation Study",
+  "venue": "Journal of Medical Internet Research"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4407768312",
+  "pi_name": "김진홍",
+  "cosine": 0.753,
+  "senior": false,
+  "title": "Accuracy, generalizability, and extrapolation ability of physics-based, data-driven, and hybrid models for real-life cooling towers",
+  "venue": "Building and Environment"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4403443294",
+  "pi_name": "김진홍",
+  "cosine": 0.705,
+  "senior": false,
+  "title": "Occupant behavioural freedom in building energy use",
+  "venue": "Applied Energy"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4403133456",
+  "pi_name": "김진홍",
+  "cosine": 0.689,
+  "senior": false,
+  "title": "Perovskite Nanocrystal-Coated Inorganic Scintillator-Based Fiber-Optic Gamma-ray Sensor with Higher Light Yields",
+  "venue": "Photonics"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4403003020",
+  "pi_name": "김진홍",
+  "cosine": 0.741,
+  "senior": false,
+  "title": "Enhanced homeostatic sleep response and decreased neurodegenerative proteins in cereblon knock-out mice",
+  "venue": "Communications Biology"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4403002473",
+  "pi_name": "김진홍",
+  "cosine": 0.707,
+  "senior": false,
+  "title": "A Study on Drug Manufacturing System Case Appraisal",
+  "venue": "Journal of Software Assessment and Valuation"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4400618699",
+  "pi_name": "김진홍",
+  "cosine": 0.687,
+  "senior": false,
+  "title": "Feasibility of a position-sensitive Cherenkov radiation detector using a reflector-coated liquid light guide",
+  "venue": "Nuclear Engineering and Technology"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4399394266",
+  "pi_name": "김진홍",
+  "cosine": 0.757,
+  "senior": true,
+  "title": "Mitigating polyethylene-mediated periprosthetic tissue inflammation through MEDSAH-grafting",
+  "venue": "PLoS ONE"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4394723975",
+  "pi_name": "김진홍",
+  "cosine": 0.735,
+  "senior": false,
+  "title": "REAL-TIME PERFORMANCE PREDICTION OF A PHYSICS-BASED PUMP SYSTEM SIMULATION USING BAYESIAN OPTIMIZATION",
+  "venue": "Journal of computational fluids engineering"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4393986371",
+  "pi_name": "김진홍",
+  "cosine": 0.695,
+  "senior": false,
+  "title": "A Study Using Business TRIZ to Improve the Performance of Food Manufacturing Companies: Focusing on 6th Industry Certified Companies Located in the Gyeongbuk Region",
+  "venue": ""
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4391380186",
+  "pi_name": "김진홍",
+  "cosine": 0.696,
+  "senior": false,
+  "title": "Synergistic Combination of Dual Clays in Multilayered Nanocomposites for Enhanced Flame Retardant Properties",
+  "venue": "ACS Omega"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4387765155",
+  "pi_name": "김진홍",
+  "cosine": 0.726,
+  "senior": true,
+  "title": "Sarcoma Immunotherapy: Confronting Present Hurdles and Unveiling Upcoming Opportunities",
+  "venue": "Molecules and Cells"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4379194116",
+  "pi_name": "김진홍",
+  "cosine": 0.743,
+  "senior": false,
+  "title": "Increased expression of sodium-glucose cotransporter 2 and O-GlcNAcylation in hepatocytes drives non-alcoholic steatohepatitis",
+  "venue": "Metabolism"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4379057874",
+  "pi_name": "김진홍",
+  "cosine": 0.67,
+  "senior": false,
+  "title": "Feasibility study on fiber-optic inorganic scintillator array sensor system for multi-dimensional scanning of radioactive waste",
+  "venue": "Nuclear Engineering and Technology"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4378610745",
+  "pi_name": "김진홍",
+  "cosine": 0.731,
+  "senior": false,
+  "title": "0024 Decreased circadian period associated with enhanced autophagy in cereblon knockout mice",
+  "venue": "SLEEP"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4292974708",
+  "pi_name": "김진홍",
+  "cosine": 0.729,
+  "senior": false,
+  "title": "Involvement of Bid in the crosstalk between ferroptotic agent‐induced ER stress and TRAIL‐induced apoptosis",
+  "venue": "Journal of Cellular Physiology"
+ },
+ {
+  "lab_id": "snu-A5100752174",
+  "paper_id": "W4283208251",
+  "pi_name": "김진홍",
+  "cosine": 0.734,
+  "senior": false,
+  "title": "SPS1 deficiency-triggered PGRP-LC and Toll expression controls innate immunity in Drosophila S2 cells",
+  "venue": "Biology Open"
+ },
+ {
+  "lab_id": "snu-A5079762603",
+  "paper_id": "W7164132522",
+  "pi_name": "노성훈",
+  "cosine": 0.775,
+  "senior": true,
+  "title": "Structural basis for chaperone-guided assembly of RNA-induced silencing complex",
+  "venue": "Nature"
+ },
+ {
+  "lab_id": "snu-A5079762603",
+  "paper_id": "W4321480162",
+  "pi_name": "노성훈",
+  "cosine": 0.774,
+  "senior": true,
+  "title": "Structure of the human DICER–pre-miRNA complex in a dicing state",
+  "venue": "Nature"
+ },
+ {
+  "lab_id": "snu-A5079762603",
+  "paper_id": "W4408140407",
+  "pi_name": "노성훈",
+  "cosine": 0.643,
+  "senior": false,
+  "title": "Microbiome-emitted scents activate olfactory neuron-independent airway-gut-brain axis to promote host growth in Drosophila",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "snu-A5079762603",
+  "paper_id": "W4385477080",
+  "pi_name": "노성훈",
+  "cosine": 0.76,
+  "senior": true,
+  "title": "Copper Oxide Spike Grids for Enhanced Solution Transfer in Cryogenic Electron Microscopy",
+  "venue": "Molecules and Cells"
+ },
+ {
+  "lab_id": "snu-A5079762603",
+  "paper_id": "W4225113875",
+  "pi_name": "노성훈",
+  "cosine": 0.728,
+  "senior": false,
+  "title": "Evolutionary balance between foldability and functionality of a glucose transporter",
+  "venue": "Nature Chemical Biology"
+ },
+ {
+  "lab_id": "snu-A5079920356",
+  "paper_id": "W7124302782",
+  "pi_name": "라젠드라 카르키",
+  "cosine": 0.734,
+  "senior": false,
+  "title": "Cytokine storm",
+  "venue": "Nature Reviews Disease Primers"
+ },
+ {
+  "lab_id": "snu-A5079920356",
+  "paper_id": "W4402892897",
+  "pi_name": "라젠드라 카르키",
+  "cosine": 0.705,
+  "senior": true,
+  "title": "Chungtaejeon (CTJ) inhibits adhesion and migration of VSMC through cytoskeletal remodeling pathway",
+  "venue": "Heliyon"
+ },
+ {
+  "lab_id": "snu-A5019985343",
+  "paper_id": "W4411208635",
+  "pi_name": "마틴 슈타이네거",
+  "cosine": 0.728,
+  "senior": false,
+  "title": "Structural basis of the catalytic and allosteric mechanism of bacterial acetyltransferase PatZ",
+  "venue": "Proceedings of the National Academy of Sciences"
+ },
+ {
+  "lab_id": "snu-A5019985343",
+  "paper_id": "W7213450941",
+  "pi_name": "마틴 슈타이네거",
+  "cosine": 0.702,
+  "senior": false,
+  "title": "Changing minds: How AI is transforming the life sciences",
+  "venue": "Cell"
+ },
+ {
+  "lab_id": "snu-A5019985343",
+  "paper_id": "W4416122390",
+  "pi_name": "마틴 슈타이네거",
+  "cosine": 0.77,
+  "senior": false,
+  "title": "Evolutionary characterization of antiviral SAMD9/9L across kingdoms supports ancient convergence and lineage-specific adaptations",
+  "venue": "Nature Ecology & Evolution"
+ },
+ {
+  "lab_id": "snu-A5019985343",
+  "paper_id": "W4415506496",
+  "pi_name": "마틴 슈타이네거",
+  "cosine": 0.776,
+  "senior": false,
+  "title": "Democratizing protein language model training, sharing and collaboration",
+  "venue": "Nature Biotechnology"
+ },
+ {
+  "lab_id": "snu-A5019985343",
+  "paper_id": "W4400605519",
+  "pi_name": "마틴 슈타이네거",
+  "cosine": 0.738,
+  "senior": false,
+  "title": "Mutation-induced LZTR1 polymerization provokes cardiac pathology in recessive Noonan syndrome",
+  "venue": "Cell Reports"
+ },
+ {
+  "lab_id": "snu-A5019985343",
+  "paper_id": "W4382932151",
+  "pi_name": "마틴 슈타이네거",
+  "cosine": 0.73,
+  "senior": false,
+  "title": "Qualitative metabolomics-based characterization of a phenolic UDP-xylosyltransferase with a broad substrate spectrum from Lentinus brumalis",
+  "venue": "Proceedings of the National Academy of Sciences"
+ },
+ {
+  "lab_id": "snu-A5044961635",
+  "paper_id": "W7171856029",
+  "pi_name": "백민경",
+  "cosine": 0.714,
+  "senior": false,
+  "title": "CRP-dependent DNA anchoring and membrane sequestration define a dual mechanism for MtlR-mediated regulation",
+  "venue": "Nucleic Acids Research"
+ },
+ {
+  "lab_id": "snu-A5044961635",
+  "paper_id": "W7125165157",
+  "pi_name": "백민경",
+  "cosine": 0.768,
+  "senior": false,
+  "title": "LetA defines a structurally distinct transporter family",
+  "venue": "Nature"
+ },
+ {
+  "lab_id": "snu-A5044961635",
+  "paper_id": "W4412530603",
+  "pi_name": "백민경",
+  "cosine": 0.753,
+  "senior": false,
+  "title": "Inhibition of FAM19A5 reverses synaptic loss and cognitive decline in mouse models of Alzheimer’s disease",
+  "venue": "Alzheimer s Research & Therapy"
+ },
+ {
+  "lab_id": "snu-A5044961635",
+  "paper_id": "W7130715888",
+  "pi_name": "백민경",
+  "cosine": 0.758,
+  "senior": false,
+  "title": "Additional file 2 of Inhibition of FAM19A5 reverses synaptic loss and cognitive decline in mouse models of Alzheimer’s disease",
+  "venue": "Figshare"
+ },
+ {
+  "lab_id": "snu-A5044961635",
+  "paper_id": "W7130721856",
+  "pi_name": "백민경",
+  "cosine": 0.757,
+  "senior": false,
+  "title": "Additional file 1 of Inhibition of FAM19A5 reverses synaptic loss and cognitive decline in mouse models of Alzheimer’s disease",
+  "venue": "Figshare"
+ },
+ {
+  "lab_id": "snu-A5044961635",
+  "paper_id": "W4321328863",
+  "pi_name": "백민경",
+  "cosine": 0.76,
+  "senior": false,
+  "title": "The ϕPA3 phage nucleus is enclosed by a self-assembling 2D crystalline lattice",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "snu-A5044961635",
+  "paper_id": "W4319916027",
+  "pi_name": "백민경",
+  "cosine": 0.695,
+  "senior": false,
+  "title": "Elucidating bacterial lipid transport mechanisms by the envelope-spanning LetAB complex",
+  "venue": "Biophysical Journal"
+ },
+ {
+  "lab_id": "snu-A5044961635",
+  "paper_id": "W4211012988",
+  "pi_name": "백민경",
+  "cosine": 0.701,
+  "senior": false,
+  "title": "Elucidating bacterial lipid transport mechanisms by the envelope spanning LetAB complex",
+  "venue": "Biophysical Journal"
+ },
+ {
+  "lab_id": "snu-A5010084845",
+  "paper_id": "W4409763829",
+  "pi_name": "백성희",
+  "cosine": 0.765,
+  "senior": true,
+  "title": "Identification of KANK1 as a tumor suppressor gene in pancreatic ductal adenocarcinoma",
+  "venue": "Biochemical and Biophysical Research Communications"
+ },
+ {
+  "lab_id": "snu-A5010084845",
+  "paper_id": "W4406400395",
+  "pi_name": "백성희",
+  "cosine": 0.722,
+  "senior": false,
+  "title": "Cell-Interface-Deciphering Lipid Nanotablet for Nanoparticle Logic Gate-Based Real-Time Single-Cell Analysis",
+  "venue": "Nano Letters"
+ },
+ {
+  "lab_id": "snu-A5010084845",
+  "paper_id": "W4385813814",
+  "pi_name": "백성희",
+  "cosine": 0.725,
+  "senior": false,
+  "title": "Centromere-specifying nucleosomes persist in aging mouse oocytes in the absence of nascent assembly",
+  "venue": "Current Biology"
+ },
+ {
+  "lab_id": "snu-A5056148684",
+  "paper_id": "W7214033436",
+  "pi_name": "석영재",
+  "cosine": 0.771,
+  "senior": false,
+  "title": "Full-scale translation of methane-enhancement strategies in sewage sludge anaerobic digestion: evidence, constraints, and decision support",
+  "venue": "Bioresource Technology"
+ },
+ {
+  "lab_id": "snu-A5056148684",
+  "paper_id": "W4416390167",
+  "pi_name": "석영재",
+  "cosine": 0.723,
+  "senior": false,
+  "title": "Coevolutionary signals in multiple sequence alignments improve virulence factor prediction with an MSA Transformer",
+  "venue": "Scientific Reports"
+ },
+ {
+  "lab_id": "snu-A5056148684",
+  "paper_id": "W4403488745",
+  "pi_name": "석영재",
+  "cosine": 0.758,
+  "senior": true,
+  "title": "Ninjurin1 deficiency differentially mitigates colorectal cancer induced by azoxymethane and dextran sulfate sodium in male and female mice",
+  "venue": "International Journal of Cancer"
+ },
+ {
+  "lab_id": "snu-A5056148684",
+  "paper_id": "W4390276640",
+  "pi_name": "석영재",
+  "cosine": 0.749,
+  "senior": false,
+  "title": "Highly Efficient Nitrogen‐Fixing Microbial Hydrogel Device for Sustainable Solar Hydrogen Production (Adv. Mater. 52/2023)",
+  "venue": "Advanced Materials"
+ },
+ {
+  "lab_id": "snu-A5056148684",
+  "paper_id": "W4386946702",
+  "pi_name": "석영재",
+  "cosine": 0.764,
+  "senior": true,
+  "title": "Highly Efficient Nitrogen‐Fixing Microbial Hydrogel Device for Sustainable Solar Hydrogen Production",
+  "venue": "Advanced Materials"
+ },
+ {
+  "lab_id": "snu-A5100619952",
+  "paper_id": "W7162315119",
+  "pi_name": "신근유",
+  "cosine": 0.74,
+  "senior": false,
+  "title": "Human amygdala-like telencephalic organoids model stress circuitry in assembloid systems",
+  "venue": "Cell stem cell"
+ },
+ {
+  "lab_id": "snu-A5100619952",
+  "paper_id": "W4411151070",
+  "pi_name": "신근유",
+  "cosine": 0.777,
+  "senior": false,
+  "title": "Neuroendocrine cells orchestrate regeneration through Desert hedgehog signaling",
+  "venue": "Cell"
+ },
+ {
+  "lab_id": "snu-A5100619952",
+  "paper_id": "W4396931216",
+  "pi_name": "신근유",
+  "cosine": 0.749,
+  "senior": false,
+  "title": "Melatonin alleviates myocardial dysfunction through inhibition of endothelial‐to‐mesenchymal transition via the NF‐κB pathway",
+  "venue": "Journal of Pineal Research"
+ },
+ {
+  "lab_id": "snu-A5100619952",
+  "paper_id": "W4395454055",
+  "pi_name": "신근유",
+  "cosine": 0.686,
+  "senior": false,
+  "title": "A dietary commensal microbe enhances antitumor immunity by activating tumor macrophages to sequester iron",
+  "venue": "Nature Immunology"
+ },
+ {
+  "lab_id": "snu-A5100619952",
+  "paper_id": "W4283662269",
+  "pi_name": "신근유",
+  "cosine": 0.726,
+  "senior": false,
+  "title": "Network-based machine learning approach to predict immunotherapy response in cancer patients",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "snu-A5100619952",
+  "paper_id": "W4282038786",
+  "pi_name": "신근유",
+  "cosine": 0.713,
+  "senior": false,
+  "title": "Production of Recombinant Active Human TGFβ1 in Nicotiana benthamiana",
+  "venue": "Frontiers in Plant Science"
+ },
+ {
+  "lab_id": "snu-A5035020917",
+  "paper_id": "W4413912862",
+  "pi_name": "신승관",
+  "cosine": 0.706,
+  "senior": true,
+  "title": "Diverse breeds, diverse lifespans",
+  "venue": "Journal of Veterinary Science"
+ },
+ {
+  "lab_id": "snu-A5035020917",
+  "paper_id": "W4404634857",
+  "pi_name": "신승관",
+  "cosine": 0.738,
+  "senior": true,
+  "title": "Genome-wide statistical evidence elucidates candidate factors of life expectancy in dogs",
+  "venue": "Molecules and Cells"
+ },
+ {
+  "lab_id": "snu-A5035020917",
+  "paper_id": "W4401769617",
+  "pi_name": "신승관",
+  "cosine": 0.778,
+  "senior": true,
+  "title": "Comparative transcriptomics suggests a potential realizator gene for carapace expansion in longtail tadpole shrimp, Triops longicaudatus (Branchiopoda: Notostraca)",
+  "venue": "Journal of Experimental Zoology Part B Molecular and Developmental Evolution"
+ },
+ {
+  "lab_id": "snu-A5020003410",
+  "paper_id": "W4404516656",
+  "pi_name": "심지원",
+  "cosine": 0.65,
+  "senior": false,
+  "title": "Brief guide to immunostaining",
+  "venue": "Molecules and Cells"
+ },
+ {
+  "lab_id": "snu-A5020003410",
+  "paper_id": "W4400038670",
+  "pi_name": "심지원",
+  "cosine": 0.776,
+  "senior": true,
+  "title": "Drosophila immune cells transport oxygen through PPO2 protein phase transition",
+  "venue": "Nature"
+ },
+ {
+  "lab_id": "snu-A5020003410",
+  "paper_id": "W4393098339",
+  "pi_name": "심지원",
+  "cosine": 0.761,
+  "senior": true,
+  "title": "S-nitrosylation-triggered unfolded protein response maintains hematopoietic progenitors in Drosophila",
+  "venue": "Developmental Cell"
+ },
+ {
+  "lab_id": "snu-A5020003410",
+  "paper_id": "W4385622411",
+  "pi_name": "심지원",
+  "cosine": 0.603,
+  "senior": false,
+  "title": "A Novel Interaction between MFN2/Marf and MARK4/PAR-1 Is Implicated in Synaptic Defects and Mitochondrial Dysfunction",
+  "venue": "eNeuro"
+ },
+ {
+  "lab_id": "snu-A5020003410",
+  "paper_id": "W4308834508",
+  "pi_name": "심지원",
+  "cosine": 0.731,
+  "senior": true,
+  "title": "Inter-organ regulation by the brain in Drosophila development and physiology",
+  "venue": "Journal of Neurogenetics"
+ },
+ {
+  "lab_id": "snu-A5020003410",
+  "paper_id": "W4293679817",
+  "pi_name": "심지원",
+  "cosine": 0.704,
+  "senior": true,
+  "title": "A new role for Hif-1α",
+  "venue": "eLife"
+ },
+ {
+  "lab_id": "snu-A5020003410",
+  "paper_id": "W4220977157",
+  "pi_name": "심지원",
+  "cosine": 0.775,
+  "senior": true,
+  "title": "Intrinsic and Extrinsic Regulation of Hematopoiesis in Drosophila",
+  "venue": "Molecules and Cells"
+ },
+ {
+  "lab_id": "snu-A5055820463",
+  "paper_id": "W4225113875",
+  "pi_name": "윤태영",
+  "cosine": 0.752,
+  "senior": true,
+  "title": "Evolutionary balance between foldability and functionality of a glucose transporter",
+  "venue": "Nature Chemical Biology"
+ },
+ {
+  "lab_id": "snu-A5055820463",
+  "paper_id": "W7155193821",
+  "pi_name": "윤태영",
+  "cosine": 0.662,
+  "senior": true,
+  "title": "Articular Cartilage Regeneration in Osteoarthritis via Inducing Transcription Factor Condensation with the chemical compound",
+  "venue": "Osteoarthritis and Cartilage"
+ },
+ {
+  "lab_id": "snu-A5055820463",
+  "paper_id": "W4385707489",
+  "pi_name": "윤태영",
+  "cosine": 0.772,
+  "senior": true,
+  "title": "P849: DEVELOPMENT OF A QUANTITATIVE ASSAY FOR ASSESSING BCL2’S PPI COMPLEXES AND ITS APPLICATION AS A TARGET ENGAGEMENT ASSAY IN CLINICAL SPECIMENS WITH MULTIPLE MYELOMA",
+  "venue": "HemaSphere"
+ },
+ {
+  "lab_id": "snu-A5055820463",
+  "paper_id": "W4311486741",
+  "pi_name": "윤태영",
+  "cosine": 0.709,
+  "senior": false,
+  "title": "Enantioselective sensing by collective circular dichroism",
+  "venue": "Nature"
+ },
+ {
+  "lab_id": "snu-A5055820463",
+  "paper_id": "W4286255951",
+  "pi_name": "윤태영",
+  "cosine": 0.748,
+  "senior": false,
+  "title": "Tension exerted on cells by magnetic nanoparticles regulates differentiation of human mesenchymal stem cells",
+  "venue": "Biomaterials Advances"
+ },
+ {
+  "lab_id": "snu-A5055820463",
+  "paper_id": "W4212950351",
+  "pi_name": "윤태영",
+  "cosine": 0.754,
+  "senior": false,
+  "title": "Structural basis of neuropeptide Y signaling through Y1 receptor",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "snu-A5100638533",
+  "paper_id": "W4417126083",
+  "pi_name": "이원재",
+  "cosine": 0.711,
+  "senior": false,
+  "title": "Trapped by selective attention: The role of attentional processes in the emergence and prevention of learning traps.",
+  "venue": "Journal of Experimental Psychology Learning Memory and Cognition"
+ },
+ {
+  "lab_id": "snu-A5100638533",
+  "paper_id": "W4412185700",
+  "pi_name": "이원재",
+  "cosine": 0.704,
+  "senior": false,
+  "title": "The Mediating Role of Exercise Engagement Between Peer Feedback and Participation Intention in Swimming Clubs",
+  "venue": "Journal of Coaching Development"
+ },
+ {
+  "lab_id": "snu-A5100638533",
+  "paper_id": "W4403507939",
+  "pi_name": "이원재",
+  "cosine": 0.741,
+  "senior": false,
+  "title": "Learning traps and change blindness in dynamic environments.",
+  "venue": "Journal of Experimental Psychology Learning Memory and Cognition"
+ },
+ {
+  "lab_id": "snu-A5100638533",
+  "paper_id": "W2795314115",
+  "pi_name": "이원재",
+  "cosine": 0.756,
+  "senior": false,
+  "title": "A Large-Scale Multi-ancestry Genome-wide Study Accounting for Smoking Behavior Identifies Multiple Significant Loci for Blood Pressure",
+  "venue": "Carolina Digital Repository (University of North Carolina at Chapel Hill)"
+ },
+ {
+  "lab_id": "snu-A5100638533",
+  "paper_id": "W4390742300",
+  "pi_name": "이원재",
+  "cosine": 0.7,
+  "senior": false,
+  "title": "Effects of a 2-Week Kinect-Based Mixed-Reality Exercise Program on Prediabetes: A Pilot Trial during COVID-19",
+  "venue": "Journal of Obesity & Metabolic Syndrome"
+ },
+ {
+  "lab_id": "snu-A5100638533",
+  "paper_id": "W4390743777",
+  "pi_name": "이원재",
+  "cosine": 0.729,
+  "senior": false,
+  "title": "Skin microbe-dependent TSLP-ILC2 priming axis in early life is co-opted in allergic inflammation",
+  "venue": "Cell Host & Microbe"
+ },
+ {
+  "lab_id": "snu-A5100638533",
+  "paper_id": "W4385429328",
+  "pi_name": "이원재",
+  "cosine": 0.719,
+  "senior": false,
+  "title": "Radotinib Decreases Prion Propagation and Prolongs Survival Times in Models of Prion Disease",
+  "venue": "International Journal of Molecular Sciences"
+ },
+ {
+  "lab_id": "snu-A5100638533",
+  "paper_id": "W4387027370",
+  "pi_name": "이원재",
+  "cosine": 0.71,
+  "senior": false,
+  "title": "Perception of Olympic Host City Residents for Olympic Legacy: A Case of the 2018 Pyeongchang Olympic Winter Games",
+  "venue": "Korean Journal of Security Convergence Management"
+ },
+ {
+  "lab_id": "snu-A5100638533",
+  "paper_id": "W4385302414",
+  "pi_name": "이원재",
+  "cosine": 0.752,
+  "senior": false,
+  "title": "Statins suppress cell-to-cell propagation of α-synuclein by lowering cholesterol",
+  "venue": "Cell Death and Disease"
+ },
+ {
+  "lab_id": "snu-A5100638533",
+  "paper_id": "W4311379721",
+  "pi_name": "이원재",
+  "cosine": 0.717,
+  "senior": false,
+  "title": "Bacterial Laccases as Biocatalysts for the Remediation of Environmental Toxic Pollutants: A Green and Eco-Friendly Approach—A Review",
+  "venue": "Water"
+ },
+ {
+  "lab_id": "snu-A5100638533",
+  "paper_id": "W4313329591",
+  "pi_name": "이원재",
+  "cosine": 0.698,
+  "senior": true,
+  "title": "How to Improve a Basketball Team Performance: Delphi Method",
+  "venue": "Korean Journal of Security Convergence Management"
+ },
+ {
+  "lab_id": "snu-A5100638533",
+  "paper_id": "W4296523701",
+  "pi_name": "이원재",
+  "cosine": 0.719,
+  "senior": false,
+  "title": "Comparison of Gait Initiation Characteristics according to External Cue for Parkinson’s Patient",
+  "venue": "Journal of rehabilitation welfare engineering & assistive technology"
+ },
+ {
+  "lab_id": "snu-A5100638533",
+  "paper_id": "W4221021916",
+  "pi_name": "이원재",
+  "cosine": 0.765,
+  "senior": false,
+  "title": "Heat shock protein 60 couples an oxidative stress-responsive p38/MK2 signaling and NF-κB survival machinery in cancer cells",
+  "venue": "Redox Biology"
+ },
+ {
+  "lab_id": "snu-A5059278158",
+  "paper_id": "W7214358861",
+  "pi_name": "이유리",
+  "cosine": 0.769,
+  "senior": true,
+  "title": "VizR: An Interactive Web-Based Platform for End-to-End RNA-Seq Analysis and Visualization in Plant Biology",
+  "venue": "Journal of Plant Biology"
+ },
+ {
+  "lab_id": "snu-A5059278158",
+  "paper_id": "W4409052918",
+  "pi_name": "이유리",
+  "cosine": 0.739,
+  "senior": true,
+  "title": "Duckweeds for Plant Molecular Farming: Advances, Challenges, and Future Directions",
+  "venue": "Journal of Plant Biology"
+ },
+ {
+  "lab_id": "snu-A5073145639",
+  "paper_id": "W4414629346",
+  "pi_name": "이일하",
+  "cosine": 0.77,
+  "senior": true,
+  "title": "STALARD: Selective Target Amplification for Low-Abundance RNA Detection",
+  "venue": "Plant Methods"
+ },
+ {
+  "lab_id": "snu-A5100366248",
+  "paper_id": "W4407892029",
+  "pi_name": "이준호",
+  "cosine": 0.723,
+  "senior": false,
+  "title": "Explainable Graph Neural Network-based Time Series Anomaly Detection",
+  "venue": "Journal of the Institute of Electronics and Information Engineers"
+ },
+ {
+  "lab_id": "snu-A5100366248",
+  "paper_id": "W4404345042",
+  "pi_name": "이준호",
+  "cosine": 0.707,
+  "senior": false,
+  "title": "Pullulan nanoparticles inhibit the pathogenicity of Candida albicans by regulating hypha-related gene expression",
+  "venue": "Microbiology Spectrum"
+ },
+ {
+  "lab_id": "snu-A5100366248",
+  "paper_id": "W4285742497",
+  "pi_name": "이준호",
+  "cosine": 0.747,
+  "senior": true,
+  "title": "Partial 18S ribosomal DNA sequences of nematode species collected in South Korea",
+  "venue": "PubMed"
+ },
+ {
+  "lab_id": "snu-A5100366248",
+  "paper_id": "W4220762780",
+  "pi_name": "이준호",
+  "cosine": 0.729,
+  "senior": false,
+  "title": "A Preliminary Study for Identifying Quantitative Trait Loci Associated with Seed Production in Radish Using Genotyping-by-Sequencing",
+  "venue": "Horticulturae"
+ },
+ {
+  "lab_id": "snu-A5100447456",
+  "paper_id": "W4401932197",
+  "pi_name": "이지영",
+  "cosine": 0.684,
+  "senior": false,
+  "title": "Identification of novel anti-obesity saponins from the ovary of sea cucumber (Stichopus japonicus)",
+  "venue": "Heliyon"
+ },
+ {
+  "lab_id": "snu-A5100447456",
+  "paper_id": "W4318939584",
+  "pi_name": "이지영",
+  "cosine": 0.725,
+  "senior": true,
+  "title": "Monitoring on Bolboschoenus planiculmis Restoration in Nakdong River Estuary: Implications for Wetland Restoration Using Shoot Transplantation",
+  "venue": "Korean Journal of Ecology and Environment"
+ },
+ {
+  "lab_id": "snu-A5100447456",
+  "paper_id": "W4293104760",
+  "pi_name": "이지영",
+  "cosine": 0.678,
+  "senior": false,
+  "title": "Utility of epi-illumination light microscopy for wood identification",
+  "venue": "IAWA Journal - KU Leuven/IAWA Journal"
+ },
+ {
+  "lab_id": "snu-A5052639020",
+  "paper_id": "W4415021352",
+  "pi_name": "이현숙",
+  "cosine": 0.664,
+  "senior": false,
+  "title": "Relationships Between Multicultural Beliefs, Multicultural Acceptance, and Cultural Diversity Competence Among Pre-service Early Childhood Teachers",
+  "venue": ""
+ },
+ {
+  "lab_id": "snu-A5052639020",
+  "paper_id": "W4411923482",
+  "pi_name": "이현숙",
+  "cosine": 0.71,
+  "senior": false,
+  "title": "Structural mechanism of insulin receptor activation by a dimeric aptamer agonist",
+  "venue": "Experimental & Molecular Medicine"
+ },
+ {
+  "lab_id": "snu-A5052639020",
+  "paper_id": "W4406002638",
+  "pi_name": "이현숙",
+  "cosine": 0.648,
+  "senior": true,
+  "title": "Spatial Structure and Cultural Landscape of Woongjin-capital in Baekje",
+  "venue": "한국고대사연구"
+ },
+ {
+  "lab_id": "snu-A5052639020",
+  "paper_id": "W4387704446",
+  "pi_name": "이현숙",
+  "cosine": 0.701,
+  "senior": true,
+  "title": "Genetic assessment of pathogenic germline alterations in lysosomal genes among Asian patients with pancreatic ductal adenocarcinoma",
+  "venue": "Journal of Translational Medicine"
+ },
+ {
+  "lab_id": "snu-A5052639020",
+  "paper_id": "W4322488173",
+  "pi_name": "이현숙",
+  "cosine": 0.683,
+  "senior": true,
+  "title": "A Study on the Impact of Perception of Inequality on Perception of State Responsibility: Focusing on the Mediating Effect of Equality Orientation Perception and Equity Orientation Perception",
+  "venue": "Asia-pacific Journal of Convergent Research Interchange"
+ },
+ {
+  "lab_id": "snu-A5052639020",
+  "paper_id": "W4297347857",
+  "pi_name": "이현숙",
+  "cosine": 0.669,
+  "senior": true,
+  "title": "A Study on the Youth Citizenship Competency Scale",
+  "venue": "Research Institute for Life and Culture Sogang University"
+ },
+ {
+  "lab_id": "snu-A5052639020",
+  "paper_id": "W4312987905",
+  "pi_name": "이현숙",
+  "cosine": 0.72,
+  "senior": false,
+  "title": "A Study on Influences of the Income Inequality and Fairness Perception on Government Responsibility Perception of Income Disparities",
+  "venue": "The Journal of Humanities and Social sciences 21"
+ },
+ {
+  "lab_id": "snu-A5052639020",
+  "paper_id": "W4285012877",
+  "pi_name": "이현숙",
+  "cosine": 0.749,
+  "senior": true,
+  "title": "Effects of Pulsed Magnetic Field on Macrophage",
+  "venue": "Journal of the Korean Magnetics Society"
+ },
+ {
+  "lab_id": "snu-A5067045439",
+  "paper_id": "W7165046505",
+  "pi_name": "임영운",
+  "cosine": 0.612,
+  "senior": false,
+  "title": "Norlichexanthone, a shunt product of Griseofulvin, disrupts spindle assembly checkpoint and nucleocytoplasmic transport by targeting TPR in the nuclear pore complex",
+  "venue": "Bioorganic Chemistry"
+ },
+ {
+  "lab_id": "snu-A5067045439",
+  "paper_id": "W4416765851",
+  "pi_name": "임영운",
+  "cosine": 0.733,
+  "senior": true,
+  "title": "Integrated Assessment of Growth and Protein Content in Basidiomycetous Fungi for Mycoprotein Production",
+  "venue": "Journal of Microbiology and Biotechnology"
+ },
+ {
+  "lab_id": "snu-A5067045439",
+  "paper_id": "W4407869967",
+  "pi_name": "임영운",
+  "cosine": 0.658,
+  "senior": false,
+  "title": "Bioactivity profiling of Sanghuangporus lonicerinus : antioxidant, hypoglycaemic, and anticancer potential via in-vitro and in-silico approaches",
+  "venue": "Journal of Enzyme Inhibition and Medicinal Chemistry"
+ },
+ {
+  "lab_id": "snu-A5073947704",
+  "paper_id": "W4407870280",
+  "pi_name": "장혜식",
+  "cosine": 0.75,
+  "senior": false,
+  "title": "Another common genetic ataxia in South Korea: Spinocerebellar ataxia 36",
+  "venue": "European Journal of Human Genetics"
+ },
+ {
+  "lab_id": "snu-A5002329152",
+  "paper_id": "W7208775209",
+  "pi_name": "정충원",
+  "cosine": 0.757,
+  "senior": false,
+  "title": "Regional Variation in Parental Stroke History Among Korean Populations: Insights into Chronic Disease Risk",
+  "venue": "International Journal of Environmental Research and Public Health"
+ },
+ {
+  "lab_id": "snu-A5002329152",
+  "paper_id": "W4413111179",
+  "pi_name": "정충원",
+  "cosine": 0.766,
+  "senior": false,
+  "title": "Bronze Age Yersinia pestis genome from sheep sheds light on hosts and evolution of a prehistoric plague lineage",
+  "venue": "Cell"
+ },
+ {
+  "lab_id": "snu-A5002329152",
+  "paper_id": "W4317494301",
+  "pi_name": "정충원",
+  "cosine": 0.749,
+  "senior": false,
+  "title": "Contribution of RdDM to the ecotype-specific differential methylation on conserved as well as highly variable regions between Arabidopsis ecotypes",
+  "venue": "BMC Genomics"
+ },
+ {
+  "lab_id": "snu-A5048256742",
+  "paper_id": "W4401307991",
+  "pi_name": "조형택",
+  "cosine": 0.73,
+  "senior": true,
+  "title": "A dose-dependent bimodal switch by homologous Aux/IAA transcriptional repressors",
+  "venue": "Molecular Plant"
+ },
+ {
+  "lab_id": "snu-A5002951805",
+  "paper_id": "W4399481058",
+  "pi_name": "최명환",
+  "cosine": 0.751,
+  "senior": false,
+  "title": "Brain representations of affective valence and intensity in sustained pleasure and pain",
+  "venue": "Proceedings of the National Academy of Sciences"
+ },
+ {
+  "lab_id": "snu-A5002951805",
+  "paper_id": "W4313327148",
+  "pi_name": "최명환",
+  "cosine": 0.726,
+  "senior": false,
+  "title": "Honeycomb Artifact Removal Using Convolutional Neural Network for Fiber Bundle Imaging",
+  "venue": "Sensors"
+ },
+ {
+  "lab_id": "snu-A5057696830",
+  "paper_id": "W4412953436",
+  "pi_name": "최연희",
+  "cosine": 0.747,
+  "senior": false,
+  "title": "Development of gene-based markers for black fruit color traits based on GBS-GWAS analysis of tomato germplasms",
+  "venue": "Horticulture Environment and Biotechnology"
+ },
+ {
+  "lab_id": "snu-A5091015282",
+  "paper_id": "W4402125683",
+  "pi_name": "최희정",
+  "cosine": 0.775,
+  "senior": false,
+  "title": "Human cytomegalovirus harnesses host L1 retrotransposon for efficient replication",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "snu-A5091015282",
+  "paper_id": "W7160825901",
+  "pi_name": "최희정",
+  "cosine": 0.777,
+  "senior": false,
+  "title": "Natural products, traditional medicine, and aging mechanisms: future directions for healthy aging research",
+  "venue": "Traditional Medicine Research"
+ },
+ {
+  "lab_id": "snu-A5091015282",
+  "paper_id": "W4409776170",
+  "pi_name": "최희정",
+  "cosine": 0.709,
+  "senior": false,
+  "title": "Enhancement of CEP215 dynamics for spindle pole assembly during mitosis",
+  "venue": "Journal of Cell Science"
+ },
+ {
+  "lab_id": "snu-A5091015282",
+  "paper_id": "W4409213186",
+  "pi_name": "최희정",
+  "cosine": 0.767,
+  "senior": true,
+  "title": "Structural insights into small-molecule agonist recognition and activation of complement receptor C3aR",
+  "venue": "The EMBO Journal"
+ },
+ {
+  "lab_id": "snu-A5091015282",
+  "paper_id": "W4404496569",
+  "pi_name": "최희정",
+  "cosine": 0.715,
+  "senior": false,
+  "title": "Antiviral Effect of Amentoflavone Against Influenza Viruses",
+  "venue": "International Journal of Molecular Sciences"
+ },
+ {
+  "lab_id": "snu-A5091015282",
+  "paper_id": "W4311742649",
+  "pi_name": "최희정",
+  "cosine": 0.767,
+  "senior": true,
+  "title": "Structural basis for Y2 receptor-mediated neuropeptide Y and peptide YY signaling",
+  "venue": "Structure"
+ },
+ {
+  "lab_id": "snu-A5043286860",
+  "paper_id": "W4404345042",
+  "pi_name": "허원기",
+  "cosine": 0.767,
+  "senior": true,
+  "title": "Pullulan nanoparticles inhibit the pathogenicity of Candida albicans by regulating hypha-related gene expression",
+  "venue": "Microbiology Spectrum"
+ },
+ {
+  "lab_id": "snu-A5043286860",
+  "paper_id": "W4389429309",
+  "pi_name": "허원기",
+  "cosine": 0.777,
+  "senior": false,
+  "title": "Understanding the molecular mechanisms of odorant binding and activation of the human OR52 family",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "snu-A5043286860",
+  "paper_id": "W4416223912",
+  "pi_name": "허원기",
+  "cosine": 0.777,
+  "senior": false,
+  "title": "Design, Synthesis, and Biological Evaluation of C2-(N-Substituted Amino) Truncated 4′-Thioadenosine Derivatives as A 2A AR and A 3 AR Dual Ligands",
+  "venue": "ACS Medicinal Chemistry Letters"
+ },
+ {
+  "lab_id": "snu-A5043286860",
+  "paper_id": "W4409086309",
+  "pi_name": "허원기",
+  "cosine": 0.687,
+  "senior": true,
+  "title": "Sensitive detection of pertussis toxin in acellular pertussis vaccines using HRH1-mediated calcium signaling",
+  "venue": "Vaccine"
+ },
+ {
+  "lab_id": "snu-A5043286860",
+  "paper_id": "W4400791866",
+  "pi_name": "허원기",
+  "cosine": 0.703,
+  "senior": true,
+  "title": "The ubiquitin-proteasome system degrades fatty acid synthase under nitrogen starvation when autophagy is dysfunctional in Saccharomyces cerevisiae",
+  "venue": "Biochemical and Biophysical Research Communications"
+ },
+ {
+  "lab_id": "snu-A5043286860",
+  "paper_id": "W4394009163",
+  "pi_name": "허원기",
+  "cosine": 0.742,
+  "senior": true,
+  "title": "ARV1 deficiency induces lipid bilayer stress and enhances rDNA stability by activating the unfolded protein response in Saccharomyces cerevisiae",
+  "venue": "Journal of Biological Chemistry"
+ },
+ {
+  "lab_id": "snu-A5043286860",
+  "paper_id": "W4321371986",
+  "pi_name": "허원기",
+  "cosine": 0.777,
+  "senior": true,
+  "title": "Atg1-dependent phosphorylation of Vps34 is required for dynamic regulation of the phagophore assembly site and autophagy in Saccharomyces cerevisiae",
+  "venue": "Autophagy"
+ },
+ {
+  "lab_id": "snu-A5043286860",
+  "paper_id": "W4296180007",
+  "pi_name": "허원기",
+  "cosine": 0.753,
+  "senior": false,
+  "title": "Expression level of Sec62 modulates membrane insertion of marginally hydrophobic segments",
+  "venue": "Biochimica et Biophysica Acta (BBA) - Biomembranes"
+ },
+ {
+  "lab_id": "snu-A5055484396",
+  "paper_id": "W4412021113",
+  "pi_name": "현유봉",
+  "cosine": 0.733,
+  "senior": true,
+  "title": "Cyclotides as novel plant-derived scaffolds for orally active cyclic peptide therapeutics",
+  "venue": "Molecules and Cells"
+ },
+ {
+  "lab_id": "snu-A5027374744",
+  "paper_id": "W4382024028",
+  "pi_name": "황대희",
+  "cosine": 0.724,
+  "senior": false,
+  "title": "Adnp-mutant mice with cognitive inflexibility, CaMKIIα hyperactivity, and synaptic plasticity deficits",
+  "venue": "Molecular Psychiatry"
+ },
+ {
+  "lab_id": "snu-A5027374744",
+  "paper_id": "W4280490304",
+  "pi_name": "황대희",
+  "cosine": 0.766,
+  "senior": false,
+  "title": "Latrophilin-2 is a novel receptor of LRG1 that rescues vascular and neurological abnormalities and restores diabetic erectile function",
+  "venue": "Experimental & Molecular Medicine"
+ },
+ {
+  "lab_id": "snu-A5027374744",
+  "paper_id": "W4393901603",
+  "pi_name": "황대희",
+  "cosine": 0.726,
+  "senior": false,
+  "title": "Phytohormonal regulation determines the organization pattern of shoot aerenchyma in greater duckweed (Spirodela polyrhiza)",
+  "venue": "PLANT PHYSIOLOGY"
+ },
+ {
+  "lab_id": "snu-A5027374744",
+  "paper_id": "W7134126703",
+  "pi_name": "황대희",
+  "cosine": 0.705,
+  "senior": false,
+  "title": "Chaperonin‐mediated winter cold response via circadian clock components in Arabidopsis",
+  "venue": "New Phytologist"
+ },
+ {
+  "lab_id": "snu-A5027374744",
+  "paper_id": "W7165912982",
+  "pi_name": "황대희",
+  "cosine": 0.756,
+  "senior": false,
+  "title": "Antibodies against interleukin-10 receptor reduce IL-6 and TNF-α levels and increase TGF‐β levels in patients with severe fever with thrombocytopenia syndrome virus and SARS-CoV-2 infection",
+  "venue": "Frontiers in Immunology"
+ },
+ {
+  "lab_id": "snu-A5027374744",
+  "paper_id": "W4410053817",
+  "pi_name": "황대희",
+  "cosine": 0.728,
+  "senior": false,
+  "title": "Identification of STN7-associated leaf senescence networks in thylakoid membranes of Arabidopsis",
+  "venue": "iScience"
+ },
+ {
+  "lab_id": "snu-A5027374744",
+  "paper_id": "W4409268013",
+  "pi_name": "황대희",
+  "cosine": 0.736,
+  "senior": false,
+  "title": "HepatoToxicity Portal (HTP): an integrated database of drug-induced hepatotoxicity knowledgebase and graph neural network-based prediction model",
+  "venue": "Journal of Cheminformatics"
+ },
+ {
+  "lab_id": "snu-A5027374744",
+  "paper_id": "W4405165461",
+  "pi_name": "황대희",
+  "cosine": 0.725,
+  "senior": false,
+  "title": "772P Comparative analysis of myelodysplastic syndrome (MDS) and clonal cytopenia of undetermined significance (CCUS) using a genetic approach",
+  "venue": "Annals of Oncology"
+ },
+ {
+  "lab_id": "snu-A5027374744",
+  "paper_id": "W4392298240",
+  "pi_name": "황대희",
+  "cosine": 0.767,
+  "senior": true,
+  "title": "Targeted deletion of CD244 on monocytes promotes differentiation into anti-tumorigenic macrophages and potentiates PD-L1 blockade in melanoma",
+  "venue": "Molecular Cancer"
+ },
+ {
+  "lab_id": "snu-A5027374744",
+  "paper_id": "W4372334037",
+  "pi_name": "황대희",
+  "cosine": 0.722,
+  "senior": true,
+  "title": "DDM1-mediated gene body DNA methylation is associated with inducible activation of defense-related genes in Arabidopsis",
+  "venue": "Genome biology"
+ },
+ {
+  "lab_id": "snu-A5027374744",
+  "paper_id": "W4280554871",
+  "pi_name": "황대희",
+  "cosine": 0.753,
+  "senior": false,
+  "title": "BMP4 signaling plays critical roles in self-renewal of R2i mouse embryonic stem cells",
+  "venue": "Biochemical and Biophysical Research Communications"
+ },
+ {
+  "lab_id": "snu-A5027374744",
+  "paper_id": "W4224079413",
+  "pi_name": "황대희",
+  "cosine": 0.768,
+  "senior": false,
+  "title": "E3 ligase BRUTUS Is a Negative Regulator for the Cellular Energy Level and the Expression of Energy Metabolism-Related Genes Encoded by Two Organellar Genomes in Leaf Tissues",
+  "venue": "Molecules and Cells"
+ },
+ {
+  "lab_id": "snu-A5027374744",
+  "paper_id": "W4221041191",
+  "pi_name": "황대희",
+  "cosine": 0.699,
+  "senior": false,
+  "title": "Ethylene responsive factor34 mediates stress‐induced leaf senescence by regulating salt stress‐responsive genes",
+  "venue": "Plant Cell & Environment"
+ },
+ {
+  "lab_id": "snu-A5027374744",
+  "paper_id": "W4210806855",
+  "pi_name": "황대희",
+  "cosine": 0.708,
+  "senior": false,
+  "title": "ORESARA 15, a PLATZ transcription factor, controls root meristem size through auxin and cytokinin signalling-related pathways",
+  "venue": "Journal of Experimental Botany"
+ },
+ {
+  "lab_id": "postech-A5068518101",
+  "paper_id": "W7214952809",
+  "pi_name": "김태경",
+  "cosine": 0.75,
+  "senior": true,
+  "title": "Sensitizing tumor response to topoisomerase I antibody-drug conjugate by selective CDK7 inhibition",
+  "venue": "Science Advances"
+ },
+ {
+  "lab_id": "postech-A5068518101",
+  "paper_id": "W4403606099",
+  "pi_name": "김태경",
+  "cosine": 0.705,
+  "senior": false,
+  "title": "Distinct Cutibacterium acnes subspecies defendens strains classified by multi-omics dissection alleviate inflammatory skin lesions of a rosacea-like mouse model",
+  "venue": "Frontiers in Microbiomes"
+ },
+ {
+  "lab_id": "postech-A5068518101",
+  "paper_id": "W4382245057",
+  "pi_name": "김태경",
+  "cosine": 0.726,
+  "senior": false,
+  "title": "Npas4-mediated dopaminergic regulation of safety memory consolidation",
+  "venue": "Cell Reports"
+ },
+ {
+  "lab_id": "postech-A5068518101",
+  "paper_id": "W4311710727",
+  "pi_name": "김태경",
+  "cosine": 0.727,
+  "senior": false,
+  "title": "Inflammation promotes synucleinopathy propagation",
+  "venue": "Experimental & Molecular Medicine"
+ },
+ {
+  "lab_id": "postech-A5068518101",
+  "paper_id": "W4283816654",
+  "pi_name": "김태경",
+  "cosine": 0.726,
+  "senior": false,
+  "title": "TNF-α promotes α-synuclein propagation through stimulation of senescence-associated lysosomal exocytosis",
+  "venue": "Experimental & Molecular Medicine"
+ },
+ {
+  "lab_id": "postech-A5068518101",
+  "paper_id": "W4210923356",
+  "pi_name": "김태경",
+  "cosine": 0.77,
+  "senior": false,
+  "title": "Senescence and impaired DNA damage responses in alpha-synucleinopathy models",
+  "venue": "Experimental & Molecular Medicine"
+ },
+ {
+  "lab_id": "postech-A5048461457",
+  "paper_id": "W4415753789",
+  "pi_name": "유주연",
+  "cosine": 0.69,
+  "senior": false,
+  "title": "Inferring spatially varying bending stiffness of biopolymers with deep-learning approach",
+  "venue": "Machine Learning Science and Technology"
+ },
+ {
+  "lab_id": "postech-A5034657214",
+  "paper_id": "W4408050207",
+  "pi_name": "이윤태",
+  "cosine": 0.746,
+  "senior": true,
+  "title": "Principles and therapeutics of cancer",
+  "venue": "Molecules and Cells"
+ },
+ {
+  "lab_id": "postech-A5034657214",
+  "paper_id": "W4396615524",
+  "pi_name": "이윤태",
+  "cosine": 0.775,
+  "senior": false,
+  "title": "ETV4 is a mechanical transducer linking cell crowding dynamics to lineage specification",
+  "venue": "Nature Cell Biology"
+ },
+ {
+  "lab_id": "postech-A5034657214",
+  "paper_id": "W4312075904",
+  "pi_name": "이윤태",
+  "cosine": 0.774,
+  "senior": true,
+  "title": "ERK phosphorylation disrupts the intramolecular interaction of capicua to promote cytoplasmic translocation of capicua and tumor growth",
+  "venue": "Frontiers in Molecular Biosciences"
+ },
+ {
+  "lab_id": "postech-A5070884113",
+  "paper_id": "W4390753551",
+  "pi_name": "최세규",
+  "cosine": 0.712,
+  "senior": true,
+  "title": "Diabetic sensory neuropathy and insulin resistance are induced by loss of UCHL1 in Drosophila",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "postech-A5070884113",
+  "paper_id": "W4396886945",
+  "pi_name": "최세규",
+  "cosine": 0.717,
+  "senior": false,
+  "title": "Exploring novel immunotherapy biomarker candidates induced by cancer deformation",
+  "venue": "PLoS ONE"
+ },
+ {
+  "lab_id": "postech-A5087260130",
+  "paper_id": "W4362736873",
+  "pi_name": "고아라",
+  "cosine": 0.779,
+  "senior": false,
+  "title": "Characterization of a Perturbed Skin Microbiome in Prurigo Nodularis and Lichen Simplex Chronicus",
+  "venue": "Journal of Investigative Dermatology"
+ },
+ {
+  "lab_id": "postech-A5100650467",
+  "paper_id": "W4408929103",
+  "pi_name": "김민성",
+  "cosine": 0.778,
+  "senior": true,
+  "title": "Perturbed cell fate decision by schizophrenia-associated AS3MT d2d3 isoform during corticogenesis",
+  "venue": "Science Advances"
+ },
+ {
+  "lab_id": "postech-A5100650467",
+  "paper_id": "W4413055176",
+  "pi_name": "김민성",
+  "cosine": 0.74,
+  "senior": false,
+  "title": "Human MAIT cells undergo clonal selection and expansion during thymic maturation and aging",
+  "venue": "Experimental & Molecular Medicine"
+ },
+ {
+  "lab_id": "postech-A5100650467",
+  "paper_id": "W4401900392",
+  "pi_name": "김민성",
+  "cosine": 0.712,
+  "senior": true,
+  "title": "Developing a hybrid carbonic anhydrase with exceptional high temperature and alkaline environments resistance for efficient CO2 capture from air",
+  "venue": "Journal of CO2 Utilization"
+ },
+ {
+  "lab_id": "postech-A5100650467",
+  "paper_id": "W4381158155",
+  "pi_name": "김민성",
+  "cosine": 0.778,
+  "senior": false,
+  "title": "Ptr1 and ZAR1 immune receptors confer overlapping and distinct bacterial pathogen effector specificities",
+  "venue": "New Phytologist"
+ },
+ {
+  "lab_id": "postech-A5100650467",
+  "paper_id": "W4297148990",
+  "pi_name": "김민성",
+  "cosine": 0.647,
+  "senior": false,
+  "title": "Relationship between CEO Characteristics, Accounting Information Use, and Management Performance in the Professional Construction Industry",
+  "venue": "KOREAN JOURNAL OF MANAGEMENT ACCOUNTING RESEARCH"
+ },
+ {
+  "lab_id": "postech-A5047859685",
+  "paper_id": "W4390956375",
+  "pi_name": "김상욱",
+  "cosine": 0.772,
+  "senior": true,
+  "title": "OASIS portable: User-friendly offline suite for secure survival analysis",
+  "venue": "Molecules and Cells"
+ },
+ {
+  "lab_id": "postech-A5047859685",
+  "paper_id": "W4395454055",
+  "pi_name": "김상욱",
+  "cosine": 0.707,
+  "senior": false,
+  "title": "A dietary commensal microbe enhances antitumor immunity by activating tumor macrophages to sequester iron",
+  "venue": "Nature Immunology"
+ },
+ {
+  "lab_id": "postech-A5047859685",
+  "paper_id": "W7167611218",
+  "pi_name": "김상욱",
+  "cosine": 0.728,
+  "senior": false,
+  "title": "IL-6-induced C/EBPα drives follicular regulatory T cell differentiation to regulate humoral immunity in mice",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "postech-A5047859685",
+  "paper_id": "W7203829603",
+  "pi_name": "김상욱",
+  "cosine": 0.767,
+  "senior": true,
+  "title": "Age-adjusted machine learning identifies facial skin microbes associated with skin quality among Korean women",
+  "venue": "mSystems"
+ },
+ {
+  "lab_id": "postech-A5047859685",
+  "paper_id": "W4414163558",
+  "pi_name": "김상욱",
+  "cosine": 0.731,
+  "senior": false,
+  "title": "Semi-automated biofoundry workflows for sequence coevolution-guided isoprene synthase engineering",
+  "venue": "Trends in biotechnology"
+ },
+ {
+  "lab_id": "postech-A5047859685",
+  "paper_id": "W4403816995",
+  "pi_name": "김상욱",
+  "cosine": 0.719,
+  "senior": false,
+  "title": "Prognostic assessment based on the trajectory of artificial intelligence-enabled electrocardiograms for age estimation",
+  "venue": "European Heart Journal"
+ },
+ {
+  "lab_id": "postech-A5100635271",
+  "paper_id": "W4206008723",
+  "pi_name": "김종경",
+  "cosine": 0.774,
+  "senior": true,
+  "title": "Distinct properties of adipose stem cell subpopulations determine fat depot-specific characteristics",
+  "venue": "Cell Metabolism"
+ },
+ {
+  "lab_id": "postech-A5100635271",
+  "paper_id": "W4395454055",
+  "pi_name": "김종경",
+  "cosine": 0.727,
+  "senior": false,
+  "title": "A dietary commensal microbe enhances antitumor immunity by activating tumor macrophages to sequester iron",
+  "venue": "Nature Immunology"
+ },
+ {
+  "lab_id": "postech-A5100635271",
+  "paper_id": "W4390921275",
+  "pi_name": "김종경",
+  "cosine": 0.771,
+  "senior": false,
+  "title": "Fc-fused IL-7 provides broad antiviral effects against respiratory virus infections through IL-17A-producing pulmonary innate-like T cells",
+  "venue": "Cell Reports Medicine"
+ },
+ {
+  "lab_id": "postech-A5100635271",
+  "paper_id": "W4409153063",
+  "pi_name": "김종경",
+  "cosine": 0.713,
+  "senior": true,
+  "title": "MYB74 transcription factor guides de novo specification of epidermal cells in the abscission zone of Arabidopsis",
+  "venue": "Nature Plants"
+ },
+ {
+  "lab_id": "postech-A5100635271",
+  "paper_id": "W4404016656",
+  "pi_name": "김종경",
+  "cosine": 0.698,
+  "senior": false,
+  "title": "The genetically programmed rhythmic alteration of diurnal gene expression in the aged Arabidopsis leaves",
+  "venue": "Frontiers in Plant Science"
+ },
+ {
+  "lab_id": "postech-A5100635271",
+  "paper_id": "W4392044414",
+  "pi_name": "김종경",
+  "cosine": 0.727,
+  "senior": false,
+  "title": "Specification of neural circuit architecture shaped by context-dependent patterned LAR-RPTP microexons",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "postech-A5100635271",
+  "paper_id": "W4385212999",
+  "pi_name": "김종경",
+  "cosine": 0.722,
+  "senior": false,
+  "title": "Impaired BCAA catabolism in adipose tissues promotes age-associated metabolic derangement",
+  "venue": "Nature Aging"
+ },
+ {
+  "lab_id": "postech-A5100635271",
+  "paper_id": "W4376131461",
+  "pi_name": "김종경",
+  "cosine": 0.759,
+  "senior": false,
+  "title": "Improved predictability of pancreatic ductal adenocarcinoma diagnosis using a blood immune cell biomarker panel developed from bulk mRNA sequencing and single-cell RNA-sequencing",
+  "venue": "Cancer Immunology Immunotherapy"
+ },
+ {
+  "lab_id": "postech-A5100635271",
+  "paper_id": "W4307135470",
+  "pi_name": "김종경",
+  "cosine": 0.759,
+  "senior": false,
+  "title": "Gossypetin ameliorates 5xFAD spatial learning and memory through enhanced phagocytosis against Aβ",
+  "venue": "Alzheimer s Research & Therapy"
+ },
+ {
+  "lab_id": "postech-A5100635271",
+  "paper_id": "W4225131866",
+  "pi_name": "김종경",
+  "cosine": 0.771,
+  "senior": true,
+  "title": "Genome maintenance in retinoblastoma: Implications for therapeutic vulnerabilities (Review)",
+  "venue": "Oncology Letters"
+ },
+ {
+  "lab_id": "postech-A5100635271",
+  "paper_id": "W4211012445",
+  "pi_name": "김종경",
+  "cosine": 0.75,
+  "senior": false,
+  "title": "Validation of IL-7R as an Immunological Biomarker for Human Pancreatic Ductal Adenocarcinoma",
+  "venue": "Cancers"
+ },
+ {
+  "lab_id": "postech-A5100635271",
+  "paper_id": "W4205904887",
+  "pi_name": "김종경",
+  "cosine": 0.708,
+  "senior": false,
+  "title": "AUPHOS, A “FIRST-IN CLASS” ORAL AGENT FOR CORRECTING METABOLIC DYSFUNCTION IN IBD",
+  "venue": "Gastroenterology"
+ },
+ {
+  "lab_id": "postech-A5100334905",
+  "paper_id": "W7117232523",
+  "pi_name": "김종민",
+  "cosine": 0.676,
+  "senior": true,
+  "title": "Prostate cancer diagnosis using sensitive and sophisticated machine learning classifiers based on non-invasive urinary RNA biomarkers (PCASSO)",
+  "venue": "Scientific Reports"
+ },
+ {
+  "lab_id": "postech-A5100334905",
+  "paper_id": "W4406624692",
+  "pi_name": "김종민",
+  "cosine": 0.695,
+  "senior": true,
+  "title": "Hashing the message with cells",
+  "venue": "Nature Chemical Biology"
+ },
+ {
+  "lab_id": "postech-A5100334905",
+  "paper_id": "W4404349769",
+  "pi_name": "김종민",
+  "cosine": 0.703,
+  "senior": false,
+  "title": "Regeneration of the female reproductive tract using 3D bioprinting technology",
+  "venue": "Virtual and Physical Prototyping"
+ },
+ {
+  "lab_id": "postech-A5100334905",
+  "paper_id": "W4394582058",
+  "pi_name": "김종민",
+  "cosine": 0.76,
+  "senior": true,
+  "title": "RNA-Based Sensor Systems for Affordable Diagnostics in the Age of Pandemics",
+  "venue": "ACS Synthetic Biology"
+ },
+ {
+  "lab_id": "postech-A5100334905",
+  "paper_id": "W4312080758",
+  "pi_name": "김종민",
+  "cosine": 0.663,
+  "senior": false,
+  "title": "Effect of photobiomodulation in suppression of oxidative stress on retinal pigment epithelium",
+  "venue": "Acta Ophthalmologica"
+ },
+ {
+  "lab_id": "postech-A5100334905",
+  "paper_id": "W4220780566",
+  "pi_name": "김종민",
+  "cosine": 0.69,
+  "senior": false,
+  "title": "Three-Dimensional Microfilament Printing of a Decellularized Extracellular Matrix (dECM) Bioink Using a Microgel Printing Bath for Nerve Graft Fabrication and the Effectiveness of dECM Graft Combined with a Polycaprolactone Conduit",
+  "venue": "ACS Applied Bio Materials"
+ },
+ {
+  "lab_id": "postech-A5069176618",
+  "paper_id": "W4382245057",
+  "pi_name": "박상기",
+  "cosine": 0.734,
+  "senior": false,
+  "title": "Npas4-mediated dopaminergic regulation of safety memory consolidation",
+  "venue": "Cell Reports"
+ },
+ {
+  "lab_id": "postech-A5069176618",
+  "paper_id": "W4401685340",
+  "pi_name": "박상기",
+  "cosine": 0.766,
+  "senior": false,
+  "title": "Retinoic acid-induced protein 14 links mechanical forces to Hippo signaling",
+  "venue": "EMBO Reports"
+ },
+ {
+  "lab_id": "postech-A5069176618",
+  "paper_id": "W4385483099",
+  "pi_name": "박상기",
+  "cosine": 0.778,
+  "senior": false,
+  "title": "Unveiling potentially convergent key events related to adverse outcome pathways induced by silver nanoparticles via cross-species omics-scale analysis",
+  "venue": "Journal of Hazardous Materials"
+ },
+ {
+  "lab_id": "postech-A5080004279",
+  "paper_id": "W4388699701",
+  "pi_name": "백승태",
+  "cosine": 0.673,
+  "senior": false,
+  "title": "Targeting phosphorylation circuits on CREB and CRTCs as the strategy to prevent acquired skin hyperpigmentation",
+  "venue": "International Journal of Biological Sciences"
+ },
+ {
+  "lab_id": "postech-A5074578302",
+  "paper_id": "W4409109823",
+  "pi_name": "이지오",
+  "cosine": 0.755,
+  "senior": true,
+  "title": "Disulfide-stabilized diabodies enable near-atomic cryo-EM imaging of small proteins: A case study of the bacterial Na+/citrate symporter CitS",
+  "venue": "Structure"
+ },
+ {
+  "lab_id": "postech-A5074578302",
+  "paper_id": "W4402199197",
+  "pi_name": "이지오",
+  "cosine": 0.727,
+  "senior": false,
+  "title": "6′-Sialyllactose Alleviates Muscle Fatigue through Reduced Blood Lactate Level after Treadmill Exercise in Mice",
+  "venue": "Nutrients"
+ },
+ {
+  "lab_id": "postech-A5074578302",
+  "paper_id": "W4401425652",
+  "pi_name": "이지오",
+  "cosine": 0.774,
+  "senior": false,
+  "title": "6′-Sialyllactose Enhances Exercise Performance via Increased Muscle Mass and Strength",
+  "venue": "Nutrients"
+ },
+ {
+  "lab_id": "postech-A5074578302",
+  "paper_id": "W4221096170",
+  "pi_name": "이지오",
+  "cosine": 0.68,
+  "senior": false,
+  "title": "Structural features of a minimal intact methyltransferase of a type I restriction-modification system",
+  "venue": "International Journal of Biological Macromolecules"
+ },
+ {
+  "lab_id": "postech-A5018682015",
+  "paper_id": "W4414542798",
+  "pi_name": "임신혁",
+  "cosine": 0.776,
+  "senior": false,
+  "title": "A Co-essentiality Network of Cancer Driver Genes Better Prioritizes Anticancer Drugs",
+  "venue": "Genomics Proteomics & Bioinformatics"
+ },
+ {
+  "lab_id": "postech-A5018682015",
+  "paper_id": "W4384214813",
+  "pi_name": "임신혁",
+  "cosine": 0.726,
+  "senior": false,
+  "title": "Drug approval prediction based on the discrepancy in gene perturbation effects between cells and humans",
+  "venue": "EBioMedicine"
+ },
+ {
+  "lab_id": "postech-A5018682015",
+  "paper_id": "W4383498477",
+  "pi_name": "임신혁",
+  "cosine": 0.716,
+  "senior": false,
+  "title": "Marchf6 E3 ubiquitin ligase critically regulates endoplasmic reticulum stress, ferroptosis, and metabolic homeostasis in POMC neurons",
+  "venue": "Cell Reports"
+ },
+ {
+  "lab_id": "postech-A5018682015",
+  "paper_id": "W4304014527",
+  "pi_name": "임신혁",
+  "cosine": 0.779,
+  "senior": false,
+  "title": "Visualizing inflammation with an M1 macrophage selective probe via GLUT1 as the gating target",
+  "venue": "Nature Communications"
+ },
+ {
+  "lab_id": "postech-A5103183496",
+  "paper_id": "W7124313925",
+  "pi_name": "조윤제",
+  "cosine": 0.726,
+  "senior": false,
+  "title": "Multimodal antigenic escape to GPRC5D-targeted T cell engagers in multiple myeloma",
+  "venue": "Nature Medicine"
+ },
+ {
+  "lab_id": "postech-A5103183496",
+  "paper_id": "W4391653155",
+  "pi_name": "조윤제",
+  "cosine": 0.703,
+  "senior": true,
+  "title": "Constitutive activation mechanism of a class C GPCR",
+  "venue": "Nature Structural & Molecular Biology"
+ },
+ {
+  "lab_id": "postech-A5103183496",
+  "paper_id": "W4391130456",
+  "pi_name": "조윤제",
+  "cosine": 0.765,
+  "senior": false,
+  "title": "Application of Micro-Tubing Reeling System to Serial Femtosecond Crystallography",
+  "venue": "Photonics"
+ },
+ {
+  "lab_id": "postech-A5103183496",
+  "paper_id": "W4388742245",
+  "pi_name": "조윤제",
+  "cosine": 0.76,
+  "senior": true,
+  "title": "Structural mechanism of Escherichia coli cyanase",
+  "venue": "Acta Crystallographica Section D Structural Biology"
+ },
+ {
+  "lab_id": "postech-A5103183496",
+  "paper_id": "W4387341186",
+  "pi_name": "조윤제",
+  "cosine": 0.768,
+  "senior": false,
+  "title": "Pinostilbene inhibits full-length and splice variant of androgen receptor in prostate cancer",
+  "venue": "Scientific Reports"
+ },
+ {
+  "lab_id": "postech-A5052023515",
+  "paper_id": "W4378966360",
+  "pi_name": "최규하",
+  "cosine": 0.747,
+  "senior": false,
+  "title": "The LBD11-ROS feedback regulatory loop modulates vascular cambium proliferation and secondary growth in Arabidopsis",
+  "venue": "Molecular Plant"
+ },
+ {
+  "lab_id": "postech-A5010154886",
+  "paper_id": "W4391960246",
+  "pi_name": "황일두",
+  "cosine": 0.73,
+  "senior": false,
+  "title": "Control of meiotic crossover interference by a proteolytic chaperone network",
+  "venue": "Nature Plants"
+ },
+ {
+  "lab_id": "postech-A5010154886",
+  "paper_id": "W4281785758",
+  "pi_name": "황일두",
+  "cosine": 0.769,
+  "senior": false,
+  "title": "Arabidopsis HEAT SHOCK FACTOR BINDING PROTEIN is required to limit meiotic crossovers and HEI10 transcription",
+  "venue": "The EMBO Journal"
+ },
+ {
+  "lab_id": "unist-A5021577151",
+  "paper_id": "W7170094789",
+  "pi_name": "강병헌",
+  "cosine": 0.747,
+  "senior": false,
+  "title": "Ppif deficiency promotes DEN-induced hepatocarcinogenesis by altering hepatocyte responses to carcinogenic stress",
+  "venue": "Biochemical and Biophysical Research Communications"
+ },
+ {
+  "lab_id": "unist-A5021577151",
+  "paper_id": "W4280531411",
+  "pi_name": "강병헌",
+  "cosine": 0.732,
+  "senior": true,
+  "title": "Triphenylphosphonium conjugation to a TRAP1 inhibitor, 2-amino-6-chloro-7,9-dihydro-8H-purin-8-one increases antiproliferative activity",
+  "venue": "Bioorganic Chemistry"
+ },
+ {
+  "lab_id": "unist-A5041027236",
+  "paper_id": "W7124890041",
+  "pi_name": "강세병",
+  "cosine": 0.778,
+  "senior": true,
+  "title": "Self-crosslinkable protein hydrogel stamps for rapid and wash-free immunostaining in cells and tissues",
+  "venue": "Acta Biomaterialia"
+ },
+ {
+  "lab_id": "unist-A5041027236",
+  "paper_id": "W4405658610",
+  "pi_name": "강세병",
+  "cosine": 0.764,
+  "senior": true,
+  "title": "In situ forming and self-crosslinkable protein hydrogels for localized cancer therapy and topical wound healing",
+  "venue": "Journal of Controlled Release"
+ },
+ {
+  "lab_id": "unist-A5041027236",
+  "paper_id": "W4309166847",
+  "pi_name": "강세병",
+  "cosine": 0.756,
+  "senior": true,
+  "title": "Tunable Physicomechanical and Drug Release Properties of In Situ Forming Thermoresponsive Elastin-like Polypeptide Hydrogels",
+  "venue": "Biomacromolecules"
+ },
+ {
+  "lab_id": "unist-A5041027236",
+  "paper_id": "W4281743737",
+  "pi_name": "강세병",
+  "cosine": 0.696,
+  "senior": false,
+  "title": "Highly sensitive pregnancy test kit via oriented antibody conjugation on brush-type ligand-coated quantum beads",
+  "venue": "Biosensors and Bioelectronics"
+ },
+ {
+  "lab_id": "unist-A5041027236",
+  "paper_id": "W4206268572",
+  "pi_name": "강세병",
+  "cosine": 0.691,
+  "senior": false,
+  "title": "Construction of SARS-CoV-2 virus-like particles in plant",
+  "venue": "Scientific Reports"
+ },
+ {
+  "lab_id": "unist-A5008186315",
+  "paper_id": "W7166863192",
+  "pi_name": "고명곤",
+  "cosine": 0.747,
+  "senior": true,
+  "title": "A thermosensitive TET–Parkin epigenetic axis couples mitochondrial quality control to adaptive thermogenesis in adipose tissue",
+  "venue": "Metabolism"
+ },
+ {
+  "lab_id": "unist-A5008186315",
+  "paper_id": "W4414382222",
+  "pi_name": "고명곤",
+  "cosine": 0.78,
+  "senior": false,
+  "title": "Portable and wireless DNA nanosensor for early detection of lung cancer using ultrafast synthesis of 1T-MoS2/liposome-AuNP modified transducer",
+  "venue": "International Journal of Biological Macromolecules"
+ },
+ {
+  "lab_id": "unist-A5008186315",
+  "paper_id": "W4223483295",
+  "pi_name": "고명곤",
+  "cosine": 0.753,
+  "senior": true,
+  "title": "A fast and label-free detection of hydroxymethylated DNA using a nozzle-jet printed AuNPs@Ti3C2 MXene-based electrochemical sensor",
+  "venue": "Talanta"
+ },
+ {
+  "lab_id": "unist-A5057203654",
+  "paper_id": "W4410380508",
+  "pi_name": "김재익",
+  "cosine": 0.777,
+  "senior": false,
+  "title": "Unlocking Multimodal Nonlinear Microscopy for Deep‐Tissue Imaging under Continuous‐Wave Excitation with Tunable Upconverting Nanoparticles (Adv. Mater. 19/2025)",
+  "venue": "Advanced Materials"
+ },
+ {
+  "lab_id": "unist-A5057203654",
+  "paper_id": "W4408745378",
+  "pi_name": "김재익",
+  "cosine": 0.771,
+  "senior": false,
+  "title": "Unlocking Multimodal Nonlinear Microscopy for Deep‐Tissue Imaging under Continuous‐Wave Excitation with Tunable Upconverting Nanoparticles",
+  "venue": "Advanced Materials"
+ },
+ {
+  "lab_id": "unist-A5057203654",
+  "paper_id": "W4404634765",
+  "pi_name": "김재익",
+  "cosine": 0.731,
+  "senior": false,
+  "title": "The sperm hook as a functional adaptation for migration and self-organized behavior",
+  "venue": "eLife"
+ },
+ {
+  "lab_id": "unist-A5100749356",
+  "paper_id": "W4410057254",
+  "pi_name": "박성호",
+  "cosine": 0.771,
+  "senior": false,
+  "title": "CD7-Targeted Cytotoxic Potency of Diphtheria Toxin- and Ricin-Based Immunotoxins in Targeted Therapy for T-Cell Acute Lymphoblastic Leukemia",
+  "venue": "Molecular Pharmaceutics"
+ },
+ {
+  "lab_id": "unist-A5008036043",
+  "paper_id": "W7124890041",
+  "pi_name": "박태주",
+  "cosine": 0.763,
+  "senior": false,
+  "title": "Self-crosslinkable protein hydrogel stamps for rapid and wash-free immunostaining in cells and tissues",
+  "venue": "Acta Biomaterialia"
+ },
+ {
+  "lab_id": "unist-A5008036043",
+  "paper_id": "W4408243594",
+  "pi_name": "박태주",
+  "cosine": 0.77,
+  "senior": false,
+  "title": "Blockade of ZMIZ1‐GATA4 Axis Regulation Restores Youthfulness to Aged Cartilage",
+  "venue": "Advanced Science"
+ },
+ {
+  "lab_id": "unist-A5008036043",
+  "paper_id": "W4396989161",
+  "pi_name": "박태주",
+  "cosine": 0.719,
+  "senior": false,
+  "title": "Metabolomics Reveals Serum mTOR Signaling Activation in IgA Nephropathy Patients",
+  "venue": "Journal of the American Society of Nephrology"
+ },
+ {
+  "lab_id": "unist-A5008036043",
+  "paper_id": "W4214617915",
+  "pi_name": "박태주",
+  "cosine": 0.776,
+  "senior": false,
+  "title": "Precision targeting tumor cells using cancer-specific InDel mutations with CRISPR-Cas9",
+  "venue": "Proceedings of the National Academy of Sciences"
+ },
+ {
+  "lab_id": "unist-A5007769445",
+  "paper_id": "W7165745516",
+  "pi_name": "이상준",
+  "cosine": 0.753,
+  "senior": true,
+  "title": "Itaconate induces noncanonical AIM2-dependent PANoptosis in sepsis",
+  "venue": "Cellular and Molecular Immunology"
+ },
+ {
+  "lab_id": "unist-A5007769445",
+  "paper_id": "W7140230106",
+  "pi_name": "이상준",
+  "cosine": 0.75,
+  "senior": true,
+  "title": "Defining lytic IFNγ for deciphering the CTL mechanism",
+  "venue": "Cellular and Molecular Immunology"
+ },
+ {
+  "lab_id": "unist-A5041900986",
+  "paper_id": "W4284988801",
+  "pi_name": "채영찬",
+  "cosine": 0.777,
+  "senior": false,
+  "title": "TRAIL & EGFR affibody dual-display on a protein nanoparticle synergistically suppresses tumor growth",
+  "venue": "Journal of Controlled Release"
+ },
+ {
+  "lab_id": "unist-A5041900986",
+  "paper_id": "W4388071517",
+  "pi_name": "채영찬",
+  "cosine": 0.733,
+  "senior": false,
+  "title": "PLCγ1 in dopamine neurons critically regulates striatal dopamine release via VMAT2 and synapsin III",
+  "venue": "Experimental & Molecular Medicine"
+ },
+ {
+  "lab_id": "unist-A5017217837",
+  "paper_id": "W4382344985",
+  "pi_name": "최장현",
+  "cosine": 0.778,
+  "senior": true,
+  "title": "Alteration of replication protein A binding mode on single-stranded DNA by NSMF potentiates RPA phosphorylation by ATR kinase",
+  "venue": "Nucleic Acids Research"
+ },
+ {
+  "lab_id": "unist-A5017217837",
+  "paper_id": "W7211955237",
+  "pi_name": "최장현",
+  "cosine": 0.758,
+  "senior": true,
+  "title": "N-terminal thrombospondin-1 enhances muscle function and tissue-specific metabolic adaptation in response to exercise and cold exposure",
+  "venue": "Experimental & Molecular Medicine"
+ },
+ {
+  "lab_id": "unist-A5017217837",
+  "paper_id": "W4385616946",
+  "pi_name": "최장현",
+  "cosine": 0.765,
+  "senior": true,
+  "title": "Alkylation of nucleobases by 2-chloro-N,N-diethylethanamine hydrochloride (CDEAH) sensitizes PARP1-deficient tumors",
+  "venue": "NAR Cancer"
+ },
+ {
+  "lab_id": "unist-A5068286820",
+  "paper_id": "W7131626048",
+  "pi_name": "Robert James Mitchell",
+  "cosine": 0.78,
+  "senior": false,
+  "title": "Heteroresistance to amikacin in Klebsiella aerogenes isolates from patients in an intensive care unit in Brazil",
+  "venue": "Microbiology Spectrum"
+ },
+ {
+  "lab_id": "unist-A5068286820",
+  "paper_id": "W4402205974",
+  "pi_name": "Robert James Mitchell",
+  "cosine": 0.773,
+  "senior": false,
+  "title": "Motile bacteria crossing liquid–liquid interfaces of an aqueous isotropic–nematic coexistence phase",
+  "venue": "Soft Matter"
+ },
+ {
+  "lab_id": "unist-A5068286820",
+  "paper_id": "W4312156983",
+  "pi_name": "Robert James Mitchell",
+  "cosine": 0.675,
+  "senior": false,
+  "title": "Biosensors for healthcare: current and future perspectives",
+  "venue": "Trends in biotechnology"
+ },
+ {
+  "lab_id": "unist-A5068286820",
+  "paper_id": "W4281781565",
+  "pi_name": "Robert James Mitchell",
+  "cosine": 0.753,
+  "senior": true,
+  "title": "Alkali Extraction to Detoxify Rice Husk-Derived Silica and Increase Its Biocompatibility",
+  "venue": "ACS Sustainable Chemistry & Engineering"
+ },
+ {
+  "lab_id": "gist-A5100757887",
+  "paper_id": "W4390102609",
+  "pi_name": "김영준",
+  "cosine": 0.711,
+  "senior": false,
+  "title": "ER stress and unfolded protein response (UPR) signaling modulate GLP-1 receptor signaling in the pancreatic islets",
+  "venue": "Molecules and Cells"
+ },
+ {
+  "lab_id": "gist-A5100757887",
+  "paper_id": "W4386897487",
+  "pi_name": "김영준",
+  "cosine": 0.682,
+  "senior": false,
+  "title": "Endoplasmic reticulum stress in pancreatic β cells induces incretin desensitization and β-cell dysfunction via ATF4-mediated PDE4D expression",
+  "venue": "American Journal of Physiology-Endocrinology and Metabolism"
+ },
+ {
+  "lab_id": "gist-A5100757887",
+  "paper_id": "W4384662832",
+  "pi_name": "김영준",
+  "cosine": 0.754,
+  "senior": false,
+  "title": "Wg/Wnt1 and Erasp link ER stress to proapoptotic signaling in an autosomal dominant retinitis pigmentosa model",
+  "venue": "Experimental & Molecular Medicine"
+ },
+ {
+  "lab_id": "gist-A5100757887",
+  "paper_id": "W4362521167",
+  "pi_name": "김영준",
+  "cosine": 0.724,
+  "senior": false,
+  "title": "Tctp, a unique Ing5-binding partner, inhibits the chromatin binding of Enok in Drosophila",
+  "venue": "Proceedings of the National Academy of Sciences"
+ },
+ {
+  "lab_id": "gist-A5087995307",
+  "paper_id": "W7125510582",
+  "pi_name": "김용철",
+  "cosine": 0.772,
+  "senior": false,
+  "title": "Structural characterization of metal binding in human tyrosylprotein sulfotransferase 2, TPST2",
+  "venue": "Scientific Reports"
+ },
+ {
+  "lab_id": "gist-A5087995307",
+  "paper_id": "W4404929447",
+  "pi_name": "김용철",
+  "cosine": 0.762,
+  "senior": false,
+  "title": "Prevention of radiotherapy-induced pro-tumorigenic microenvironment by SFK inhibitors",
+  "venue": "Theranostics"
+ },
+ {
+  "lab_id": "gist-A5087995307",
+  "paper_id": "W4390727430",
+  "pi_name": "김용철",
+  "cosine": 0.771,
+  "senior": false,
+  "title": "Therapeutic strategy using novel RET/YES1 dual-target inhibitor in lung cancer",
+  "venue": "Biomedicine & Pharmacotherapy"
+ },
+ {
+  "lab_id": "gist-A5087995307",
+  "paper_id": "W4281725927",
+  "pi_name": "김용철",
+  "cosine": 0.741,
+  "senior": false,
+  "title": "Entry inhibition of hepatitis B virus using cyclosporin O derivatives with peptoid side chain incorporation",
+  "venue": "Bioorganic & Medicinal Chemistry"
+ },
+ {
+  "lab_id": "gist-A5087995307",
+  "paper_id": "W4214545605",
+  "pi_name": "김용철",
+  "cosine": 0.726,
+  "senior": false,
+  "title": "Involvement of endoplasmic reticulum stress and cell death by synthesized Pa-PDT in oral squamous cell carcinoma cells",
+  "venue": "Journal of Dental Sciences"
+ },
+ {
+  "lab_id": "gist-A5071676695",
+  "paper_id": "W4213024819",
+  "pi_name": "남정석",
+  "cosine": 0.719,
+  "senior": false,
+  "title": "A Genome-Wide Screen Reveals That Endocytic Genes Are Important for Pma1p Asymmetry during Cell Division in Saccharomyces cerevisiae",
+  "venue": "International Journal of Molecular Sciences"
+ },
+ {
+  "lab_id": "gist-A5023739451",
+  "paper_id": "W4391250350",
+  "pi_name": "다런 윌리암스",
+  "cosine": 0.744,
+  "senior": true,
+  "title": "Integrated drug response prediction models pinpoint repurposed drugs with effectiveness against rhabdomyosarcoma",
+  "venue": "PLoS ONE"
+ },
+ {
+  "lab_id": "gist-A5102904761",
+  "paper_id": "W7165612143",
+  "pi_name": "박지용",
+  "cosine": 0.708,
+  "senior": true,
+  "title": "Development of a LC-MS-based simultaneous protein quantification method for all regulated allergenic foods in Korea",
+  "venue": "Food Chemistry"
+ },
+ {
+  "lab_id": "gist-A5102904761",
+  "paper_id": "W4406214279",
+  "pi_name": "박지용",
+  "cosine": 0.684,
+  "senior": false,
+  "title": "Acetogenesis to ethanologenesis: facilitating NADH oxidation via reductive acetate uptake",
+  "venue": "Trends in biotechnology"
+ },
+ {
+  "lab_id": "gist-A5102904761",
+  "paper_id": "W4391836988",
+  "pi_name": "박지용",
+  "cosine": 0.754,
+  "senior": true,
+  "title": "Comparative analysis of LC-MS/MS and real-time PCR assays for efficient detection of potential allergenic silkworm",
+  "venue": "Food Chemistry"
+ },
+ {
+  "lab_id": "gist-A5102904761",
+  "paper_id": "W4206793319",
+  "pi_name": "박지용",
+  "cosine": 0.766,
+  "senior": false,
+  "title": "Diagnostic Blood Biomarkers in Alzheimer’s Disease",
+  "venue": "Biomedicines"
+ },
+ {
+  "lab_id": "gist-A5100740580",
+  "paper_id": "W4410312185",
+  "pi_name": "박지환",
+  "cosine": 0.748,
+  "senior": false,
+  "title": "Photobiomodulation Promotes Early Recovery of Olfactory Function and Modulates Neuroprotective Gene Expression in a Mouse Model of Ischemic Stroke",
+  "venue": "Translational Stroke Research"
+ },
+ {
+  "lab_id": "gist-A5100740580",
+  "paper_id": "W4416987223",
+  "pi_name": "박지환",
+  "cosine": 0.699,
+  "senior": false,
+  "title": "Longitudinal patterns and group heterogeneity of depressive symptoms during menopausal transition in middle-aged Korean women",
+  "venue": "Epidemiology and Psychiatric Sciences"
+ },
+ {
+  "lab_id": "gist-A5100740580",
+  "paper_id": "W4395080455",
+  "pi_name": "박지환",
+  "cosine": 0.726,
+  "senior": false,
+  "title": "Protocol Structure and Sequence Detection Method for Multi-Protocol Analysis",
+  "venue": "한국통신학회논문지"
+ },
+ {
+  "lab_id": "gist-A5100740580",
+  "paper_id": "W4391329764",
+  "pi_name": "박지환",
+  "cosine": 0.765,
+  "senior": true,
+  "title": "Dynamics of The Γδtcr Repertoires During The Dedifferentiation Process and Pilot Implications for Immunotherapy of Thyroid Cancer",
+  "venue": "Advanced Science"
+ },
+ {
+  "lab_id": "gist-A5100740580",
+  "paper_id": "W4390909200",
+  "pi_name": "박지환",
+  "cosine": 0.779,
+  "senior": false,
+  "title": "Hedgehog signalling is involved in acquired resistance to KRASG12C inhibitors in lung cancer cells",
+  "venue": "Cell Death and Disease"
+ },
+ {
+  "lab_id": "gist-A5100740580",
+  "paper_id": "W4388116328",
+  "pi_name": "박지환",
+  "cosine": 0.717,
+  "senior": true,
+  "title": "DRG2 in macrophages is crucial for initial inflammatory response and protection against Listeria monocytogenes infection",
+  "venue": "Clinical Immunology"
+ },
+ {
+  "lab_id": "gist-A5100740580",
+  "paper_id": "W4387865664",
+  "pi_name": "박지환",
+  "cosine": 0.733,
+  "senior": false,
+  "title": "Transcriptional control of motor pool formation and motor circuit connectivity by the LIM-HD protein Isl2",
+  "venue": "eLife"
+ },
+ {
+  "lab_id": "gist-A5100740580",
+  "paper_id": "W4307920665",
+  "pi_name": "박지환",
+  "cosine": 0.763,
+  "senior": false,
+  "title": "Deep learning model to predict Epstein–Barr virus associated gastric cancer in histology",
+  "venue": "Scientific Reports"
+ },
+ {
+  "lab_id": "gist-A5100740580",
+  "paper_id": "W4307743032",
+  "pi_name": "박지환",
+  "cosine": 0.78,
+  "senior": false,
+  "title": "Dawn-to-dusk dry fasting induces anti-atherosclerotic, anti-inflammatory, and anti-tumorigenic proteome in peripheral blood mononuclear cells in subjects with metabolic syndrome",
+  "venue": "Metabolism Open"
+ },
+ {
+  "lab_id": "gist-A5100740580",
+  "paper_id": "W4297261649",
+  "pi_name": "박지환",
+  "cosine": 0.768,
+  "senior": false,
+  "title": "BMPR1A promotes ID2–ZEB1 interaction to suppress excessive endothelial to mesenchymal transition",
+  "venue": "Cardiovascular Research"
+ },
+ {
+  "lab_id": "gist-A5100740580",
+  "paper_id": "W4220838791",
+  "pi_name": "박지환",
+  "cosine": 0.763,
+  "senior": false,
+  "title": "Temporal patterns of chronic disease incidence after breast cancer: a nationwide population-based cohort study",
+  "venue": "Scientific Reports"
+ },
+ {
+  "lab_id": "gist-A5100740580",
+  "paper_id": "W4221076019",
+  "pi_name": "박지환",
+  "cosine": 0.725,
+  "senior": false,
+  "title": "ACCURACY OF 22 EQUATIONS FOR ESTIMATING LOW-DENSITY LIPOPROTEIN CHOLESTEROL IN A DATABASE OF 5,051,467 PATIENTS",
+  "venue": "Journal of the American College of Cardiology"
+ },
+ {
+  "lab_id": "gist-A5100740580",
+  "paper_id": "W4211204077",
+  "pi_name": "박지환",
+  "cosine": 0.74,
+  "senior": false,
+  "title": "Quantifying the contribution of lipoprotein(a) to all apoB containing particles",
+  "venue": "Journal of clinical lipidology"
+ },
+ {
+  "lab_id": "gist-A5100740580",
+  "paper_id": "W4210349165",
+  "pi_name": "박지환",
+  "cosine": 0.746,
+  "senior": true,
+  "title": "CRESSP: a comprehensive pipeline for prediction of immunopathogenic SARS-CoV-2 epitopes using structural properties of proteins",
+  "venue": "Briefings in Bioinformatics"
+ },
+ {
+  "lab_id": "gist-A5100740580",
+  "paper_id": "W4225682703",
+  "pi_name": "박지환",
+  "cosine": 0.75,
+  "senior": false,
+  "title": "Quantifying the Contribution of Lipoprotein (a) to Atherogenic Lipoprotein Burden: A Novel Particle-Based Approach",
+  "venue": "Journal of clinical lipidology"
+ },
+ {
+  "lab_id": "gist-A5031635205",
+  "paper_id": "W4296604565",
+  "pi_name": "박철승",
+  "cosine": 0.73,
+  "senior": false,
+  "title": "Comparative analysis of dermal collagen and lipids in cereblon ablated mice using a multimodal nonlinear optical system",
+  "venue": "Journal of Biophotonics"
+ },
+ {
+  "lab_id": "gist-A5038581059",
+  "paper_id": "W4415685900",
+  "pi_name": "엄수현",
+  "cosine": 0.77,
+  "senior": false,
+  "title": "Discovery of (4-Phenyl-cyclohexyl)acetate-Derived Tyrosylprotein Sulfotransferase 2 (TPST2) Inhibitors with Potent Anti-Tumor Activity for Immuno-Oncology Applications",
+  "venue": "Journal of Medicinal Chemistry"
+ },
+ {
+  "lab_id": "gist-A5010846406",
+  "paper_id": "W4324346028",
+  "pi_name": "전영수",
+  "cosine": 0.596,
+  "senior": false,
+  "title": "SEC22B inhibition attenuates colorectal cancer aggressiveness and autophagic flux under unfavorable environment",
+  "venue": "Biochemical and Biophysical Research Communications"
+ },
+ {
+  "lab_id": "gist-A5010846406",
+  "paper_id": "W7170144478",
+  "pi_name": "전영수",
+  "cosine": 0.747,
+  "senior": false,
+  "title": "Virtual Overlay Staining With Plasmonic Oligomer Metasurface (Small 41/2026)",
+  "venue": "Small"
+ },
+ {
+  "lab_id": "gist-A5010846406",
+  "paper_id": "W7162239459",
+  "pi_name": "전영수",
+  "cosine": 0.737,
+  "senior": false,
+  "title": "Virtual Overlay Staining With Plasmonic Oligomer Metasurface",
+  "venue": "Small"
+ },
+ {
+  "lab_id": "gist-A5023173703",
+  "paper_id": "W4385988513",
+  "pi_name": "전창덕",
+  "cosine": 0.703,
+  "senior": true,
+  "title": "Discovery of antiviral SARS-CoV-2 main protease inhibitors by structure-guided hit-to-lead optimization of carmofur",
+  "venue": "European Journal of Medicinal Chemistry"
+ },
+ {
+  "lab_id": "gist-A5023173703",
+  "paper_id": "W4394803789",
+  "pi_name": "전창덕",
+  "cosine": 0.728,
+  "senior": false,
+  "title": "Cell Type– and Age-Specific Expression of lncRNAs across Kidney Cell Types",
+  "venue": "Journal of the American Society of Nephrology"
+ },
+ {
+  "lab_id": "gist-A5023173703",
+  "paper_id": "W4399126088",
+  "pi_name": "전창덕",
+  "cosine": 0.693,
+  "senior": false,
+  "title": "A milder form of NSRP1‐associated neurodevelopmental disorder, caused by a missense variant in the nuclear localization signal",
+  "venue": "American Journal of Medical Genetics Part A"
+ },
+ {
+  "lab_id": "gist-A5075061660",
+  "paper_id": "W4296604565",
+  "pi_name": "조경래",
+  "cosine": 0.773,
+  "senior": true,
+  "title": "Comparative analysis of dermal collagen and lipids in cereblon ablated mice using a multimodal nonlinear optical system",
+  "venue": "Journal of Biophotonics"
+ },
+ {
+  "lab_id": "gist-A5075061660",
+  "paper_id": "W7203766837",
+  "pi_name": "조경래",
+  "cosine": 0.746,
+  "senior": false,
+  "title": "Hypothalamus–Peripheral Organ Crosstalk in Energy Metabolism: A Bidirectional Regulatory Network",
+  "venue": "Endocrinology and Metabolism"
+ },
+ {
+  "lab_id": "gist-A5075061660",
+  "paper_id": "W7154570153",
+  "pi_name": "조경래",
+  "cosine": 0.779,
+  "senior": false,
+  "title": "A Monolithic 3D-Printed Platform for Functional Maturation and In Situ Contractility Assessment of 3D Skeletal Muscle",
+  "venue": "Biomaterials Research"
+ },
+ {
+  "lab_id": "gist-A5075061660",
+  "paper_id": "W4401643933",
+  "pi_name": "조경래",
+  "cosine": 0.72,
+  "senior": false,
+  "title": "Neuroblastoma, Version 2.2024, NCCN Clinical Practice Guidelines in Oncology",
+  "venue": "Journal of the National Comprehensive Cancer Network"
+ },
+ {
+  "lab_id": "gist-A5088628057",
+  "paper_id": "W4385988513",
+  "pi_name": "진미선",
+  "cosine": 0.771,
+  "senior": false,
+  "title": "Discovery of antiviral SARS-CoV-2 main protease inhibitors by structure-guided hit-to-lead optimization of carmofur",
+  "venue": "European Journal of Medicinal Chemistry"
+ },
+ {
+  "lab_id": "gist-A5088628057",
+  "paper_id": "W4224326372",
+  "pi_name": "진미선",
+  "cosine": 0.741,
+  "senior": true,
+  "title": "Eltrombopag as an Allosteric Inhibitor of the METTL3-14 Complex Affecting the m6A Methylation of RNA in Acute Myeloid Leukemia Cells",
+  "venue": "Pharmaceuticals"
+ },
+ {
+  "lab_id": "gist-A5088628057",
+  "paper_id": "W4214887741",
+  "pi_name": "진미선",
+  "cosine": 0.684,
+  "senior": false,
+  "title": "A novel in-frame GFAP p.E138_L148del mutation in Type II Alexander disease with atypical phenotypes",
+  "venue": "European Journal of Human Genetics"
+ },
+ {
+  "lab_id": "gist-A5088628057",
+  "paper_id": "W4205889297",
+  "pi_name": "진미선",
+  "cosine": 0.769,
+  "senior": false,
+  "title": "Discovery of substituted indole derivatives as allosteric inhibitors of m 6 A‐RNA methyltransferase, METTL3 ‐14 complex",
+  "venue": "Drug Development Research"
+ },
+ {
+  "lab_id": "dgist-A5100670572",
+  "paper_id": "W4413133673",
+  "pi_name": "김태완",
+  "cosine": 0.745,
+  "senior": false,
+  "title": "N-Degron-Based PROTAC Targeting PLK1: A Potential Therapeutic Strategy for Cervical Cancer",
+  "venue": "Pharmaceutics"
+ },
+ {
+  "lab_id": "dgist-A5100670572",
+  "paper_id": "W4410979360",
+  "pi_name": "김태완",
+  "cosine": 0.677,
+  "senior": false,
+  "title": "Study on the Wintering Home Range and Habitat use of Mallard (Anas platyrhynchos) using GPS Tracking Devices",
+  "venue": "Korean Journal of Environmental Agriculture"
+ },
+ {
+  "lab_id": "dgist-A5100670572",
+  "paper_id": "W4405687273",
+  "pi_name": "김태완",
+  "cosine": 0.687,
+  "senior": false,
+  "title": "Strategic Voter Reaction to Media Coverage of Political News: Evidence of ‘Secondary Priming’",
+  "venue": "Korea Observer - Institute of Korean Studies"
+ },
+ {
+  "lab_id": "dgist-A5100670572",
+  "paper_id": "W4404863429",
+  "pi_name": "김태완",
+  "cosine": 0.735,
+  "senior": false,
+  "title": "Cellular internalization, cytotoxicity and DNA binding property of 2,3-diaminophenazine, synthesized using Jeanbandyite, a heterogeneous catalyst",
+  "venue": "Scientific Reports"
+ },
+ {
+  "lab_id": "dgist-A5100670572",
+  "paper_id": "W4402999963",
+  "pi_name": "김태완",
+  "cosine": 0.756,
+  "senior": true,
+  "title": "Chlorophyll Fluorescence Analysis for the Assessment of High Temperature Stress in Citrus During the Coloration Period",
+  "venue": "Journal of Environmental Science International"
+ },
+ {
+  "lab_id": "dgist-A5100670572",
+  "paper_id": "W4404354638",
+  "pi_name": "김태완",
+  "cosine": 0.666,
+  "senior": true,
+  "title": "Effectiveness of bactericide for controlling fireblight of pear tree using chlorophyll fluorescence technology",
+  "venue": "Environmental Biology Research"
+ },
+ {
+  "lab_id": "dgist-A5100670572",
+  "paper_id": "W4311892821",
+  "pi_name": "김태완",
+  "cosine": 0.69,
+  "senior": true,
+  "title": "A Study on Historical Consumption of Local Governments - Focusing on Gojong-si Dried Persimmon Festival in Hamyang -",
+  "venue": "The Journal of History and Practical Thought Studies"
+ },
+ {
+  "lab_id": "dgist-A5021944943",
+  "paper_id": "W4404592653",
+  "pi_name": "남창훈",
+  "cosine": 0.736,
+  "senior": true,
+  "title": "Insights into an indolicidin‐derived low‐toxic anti‐microbial peptide's efficacy against bacterial cells while preserving eukaryotic cell viability",
+  "venue": "BioFactors"
+ },
+ {
+  "lab_id": "dgist-A5015429226",
+  "paper_id": "W7119466384",
+  "pi_name": "예경무",
+  "cosine": 0.764,
+  "senior": false,
+  "title": "Magnetic hyperthermia-induced hydrogen therapy for cancer treatment using PEG-coated Mg–Ni Degradable microrobots",
+  "venue": "Applied Materials Today"
+ },
+ {
+  "lab_id": "dgist-A5015429226",
+  "paper_id": "W4403633057",
+  "pi_name": "예경무",
+  "cosine": 0.741,
+  "senior": false,
+  "title": "Ank-mediated pyrophosphate regulates shear stress-induced small extracellular vesicle production in 3D-cultured osteocytes",
+  "venue": "Animal Cells and Systems"
+ },
+ {
+  "lab_id": "dgist-A5015429226",
+  "paper_id": "W4386836224",
+  "pi_name": "예경무",
+  "cosine": 0.722,
+  "senior": false,
+  "title": "Britanin inhibits titanium wear particle‑induced osteolysis and osteoclastogenesis",
+  "venue": "Molecular Medicine Reports"
+ },
+ {
+  "lab_id": "dgist-A5015429226",
+  "paper_id": "W4385618089",
+  "pi_name": "예경무",
+  "cosine": 0.742,
+  "senior": false,
+  "title": "Silver electroceutical technology to treat sarcopenia",
+  "venue": "Proceedings of the National Academy of Sciences"
+ },
+ {
+  "lab_id": "dgist-A5015429226",
+  "paper_id": "W4294770194",
+  "pi_name": "예경무",
+  "cosine": 0.626,
+  "senior": false,
+  "title": "Establishment of a chemical tongue injury-recovery mouse model",
+  "venue": "Biochemical and Biophysical Research Communications"
+ },
+ {
+  "lab_id": "dgist-A5000829476",
+  "paper_id": "W4318203753",
+  "pi_name": "이병훈",
+  "cosine": 0.726,
+  "senior": false,
+  "title": "Design and Prediction of Aptamers Assisted by In Silico Methods",
+  "venue": "Biomedicines"
+ },
+ {
+  "lab_id": "dgist-A5000829476",
+  "paper_id": "W4307038443",
+  "pi_name": "이병훈",
+  "cosine": 0.775,
+  "senior": false,
+  "title": "Orally bioavailable BTK PROTAC active against wild-type and C481 mutant BTKs in human lymphoma CDX mouse models",
+  "venue": "Blood Advances"
+ },
+ {
+  "lab_id": "dgist-A5078210130",
+  "paper_id": "W4396919208",
+  "pi_name": "이상임",
+  "cosine": 0.729,
+  "senior": true,
+  "title": "The effect of avian eggshell membrane structure on microbial penetration: A simulation study",
+  "venue": "Biosystems"
+ },
+ {
+  "lab_id": "dgist-A5078210130",
+  "paper_id": "W4353014961",
+  "pi_name": "이상임",
+  "cosine": 0.776,
+  "senior": true,
+  "title": "Effect of nanostructural irregularities on structural color in the tail feathers of the Oriental magpie Pica serica",
+  "venue": "PLoS ONE"
+ },
+ {
+  "lab_id": "dgist-A5037567383",
+  "paper_id": "W7155507145",
+  "pi_name": "이창훈",
+  "cosine": 0.768,
+  "senior": true,
+  "title": "A novel role of erythropoietin in skin pigmentation through melanin production",
+  "venue": "Scientific Reports"
+ },
+ {
+  "lab_id": "dgist-A5037567383",
+  "paper_id": "W7141496046",
+  "pi_name": "이창훈",
+  "cosine": 0.693,
+  "senior": true,
+  "title": "Expression and purification of the ectodomain of erythropoietin receptor fused to mCitrine or mTFP1 fluorescent protein in Escherichia coli",
+  "venue": "Protein Expression and Purification"
+ },
+ {
+  "lab_id": "dgist-A5037567383",
+  "paper_id": "W4392162726",
+  "pi_name": "이창훈",
+  "cosine": 0.723,
+  "senior": false,
+  "title": "Probing Temperature-Induced Plasmonic Nonlinearity: Unveiling Opto-Thermal Effects on Light Absorption and Near-Field Enhancement",
+  "venue": "Nano Letters"
+ },
+ {
+  "lab_id": "dgist-A5037567383",
+  "paper_id": "W4307134458",
+  "pi_name": "이창훈",
+  "cosine": 0.686,
+  "senior": false,
+  "title": "Super‐resolved three‐dimensional near‐field mapping by defocused imaging and tracking of fluorescent emitters",
+  "venue": "Nanophotonics"
+ },
+ {
+  "lab_id": "dgist-A5080133701",
+  "paper_id": "W4214716672",
+  "pi_name": "정찬",
+  "cosine": 0.765,
+  "senior": true,
+  "title": "Odorant receptors in cancer",
+  "venue": "BMB Reports"
+ }
+]
