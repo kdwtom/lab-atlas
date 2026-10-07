@@ -9,6 +9,7 @@ interface Props {
   edge: Edge | null;
   mode: Mode;
   sheet: boolean;          // rendered as a mobile bottom sheet
+  pinned?: boolean;        // desktop: the lab was pinned by a click
   onClose?: () => void;
 }
 
@@ -46,7 +47,7 @@ function EdgeInfo({ edge }: { edge: Edge }) {
   );
 }
 
-export default function LabPanel({ lab, edge, mode, sheet, onClose }: Props) {
+export default function LabPanel({ lab, edge, mode, sheet, pinned, onClose }: Props) {
   const atlas = useAtlas();
   if (!lab && edge) {
     return <aside className={sheet ? 'panel sheet' : 'panel'} aria-live="polite"><EdgeInfo edge={edge} /></aside>;
@@ -64,9 +65,10 @@ export default function LabPanel({ lab, edge, mode, sheet, onClose }: Props) {
             가까이 있거나 선으로 이어진 연구실일수록 연구 주제가 비슷합니다.
           </p>
           <ul className="hint">
-            <li>노드에 마우스를 올리면 연구실 정보가 여기에 표시됩니다.</li>
-            <li>노드를 클릭하면 상세 페이지로 이동합니다.</li>
-            <li>확대하면 PI 이름이 나타납니다. 선에 마우스를 올리면 연결 이유를 볼 수 있습니다.</li>
+            <li>노드에 마우스를 올리면 연구실 정보가 여기에 표시되고, 마우스를 옮겨도 남아 있어 스크롤할 수 있습니다.</li>
+            <li>노드를 클릭하면 이 창에 고정되고, 한 번 더 클릭하면 상세 페이지로 이동합니다. 빈 곳 클릭이나 Esc로 고정을 풉니다.</li>
+            <li>세부분야마다 연결선이 가장 많은 연구실은 이름이 항상 표시되고, 확대하면 모든 PI 이름이 나타납니다.</li>
+            <li>선에 마우스를 올리면 연결 이유를 볼 수 있습니다.</li>
           </ul>
           <p className="muted small">
             {m.window_years[0]}–{m.window_years[1]}년 마지막·교신저자 논문 {m.min_senior_papers}편 이상 기준 ·{' '}
@@ -79,9 +81,16 @@ export default function LabPanel({ lab, edge, mode, sheet, onClose }: Props) {
 
   const rep = lab.representative_paper_ids.map((id) => atlas.paperById.get(id)).find((p) => p !== undefined);
   return (
-    <aside className={sheet ? 'panel sheet' : 'panel'} aria-live="polite" aria-label={`${piName(lab)} 연구실 미리보기`}>
+    // keyed by lab so switching labs starts the panel scrolled to the top
+    <aside key={lab.id} className={sheet ? 'panel sheet' : 'panel'} aria-live="polite" aria-label={`${piName(lab)} 연구실 미리보기`}>
       {sheet && onClose && <button className="sheet-close" onClick={onClose} aria-label="닫기">×</button>}
       <div className="panel-body">
+        {pinned && onClose && (
+          <p className="pin-bar">
+            <span>고정됨 · 노드를 다시 클릭하면 상세 페이지</span>
+            <button type="button" onClick={onClose}>고정 해제</button>
+          </p>
+        )}
         <p className="eyebrow">{affiliation(lab)}</p>
         <h2 className="panel-title">
           {piName(lab)}

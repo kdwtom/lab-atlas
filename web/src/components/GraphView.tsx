@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import ForceGraph2D, { type ForceGraphMethods, type LinkObject, type NodeObject } from 'react-force-graph-2d';
 import type { Edge, Lab } from '../types/data';
 import { CHROME, clusterColor, type Mode } from '../lib/palette';
-import { piName } from '../lib/format';
+import { labTitle, piName } from '../lib/format';
 
 interface NodeData {
   id: string;
@@ -19,20 +19,25 @@ const LABEL_ZOOM = 1.6;     // PI names appear above this zoom
 const CLUSTER_LABEL_ZOOM = 2.2;
 
 export function nodeRadius(paperCount: number): number {
-  return 2.4 + 1.7 * Math.log(1 + paperCount); // log scale: 5 papers ≈ 5.4, 60 ≈ 9.4
+  return 3.2 + 2.1 * Math.log(1 + paperCount); // log scale: 5 papers ≈ 7.0, 60 ≈ 11.8
 }
+
+interface Box { x0: number; y0: number; x1: number; y1: number }
+const overlaps = (a: Box, b: Box) => a.x0 < b.x1 && b.x0 < a.x1 && a.y0 < b.y1 && b.y0 < a.y1;
 
 interface Props {
   labs: Lab[];                       // labs passing the filters
   edges: Edge[];                     // edges of the current mode
   mode: Mode;
   matched: Set<string> | null;       // search matches (null = no query)
-  focusId: string | null;            // selected lab (search result / tap)
+  focusId: string | null;            // selected (pinned) lab: highlighted with its neighbours
+  center: { id: string } | null;     // centre the view on this lab (new object = new request)
   sheet: boolean;                    // mobile layout: a bottom sheet covers the lower half
   clusterName: (id: number | null) => string;
   onHover: (lab: Lab | null) => void;
   onEdgeHover: (edge: Edge | null) => void;
   onSelect: (lab: Lab) => void;
+  onBackgroundClick: () => void;
 }
 
 function endpointId(v: GLink['source']): string {
@@ -43,7 +48,7 @@ function escapeHtml(s: string): string {
   return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!));
 }
 
-export default function GraphView({ labs, edges, mode, matched, focusId, sheet, clusterName, onHover, onEdgeHover, onSelect }: Props) {
+export default function GraphView({ labs, edges, mode, matched, focusId, center, sheet, clusterName, onHover, onEdgeHover, onSelect, onBackgroundClick }: Props) {
   const fg = useRef<ForceGraphMethods<GNode, GLink> | undefined>(undefined);
   const box = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState({ w: 800, h: 600 });
@@ -93,6 +98,23 @@ export default function GraphView({ labs, edges, mode, matched, focusId, sheet, 
     return m;
   }, [data]);
 
+  // per cluster, the lab with the most edges in the current mode gets an always-on name label
+  const hubIds = useMemo(() => {
+    const best = new Map<number, { id: string; deg: number; papers: number }>();
+    const size = new Map<number, number>();
+    for (const n of data.nodes) {
+      const k = n.lab.cluster_id;
+      if (k === null) continue;
+      size.set(k, (size.get(k) ?? 0) + 1);
+      const deg = neighborIds.get(n.id)?.size ?? 0;
+      const b = best.get(k);
+      if (deg > 0 && (!b || deg > b.deg || (deg === b.deg && n.lab.paper_count_5y > b.papers))) {
+        best.set(k, { id: n.id, deg, papers: n.lab.paper_count_5y });
+      }
+    }
+    return new Set([...best].filter(([k]) => (size.get(k) ?? 0) >= 2).map(([, b]) => b.id));
+  }, [data, neighborIds]);
+
   // forces: weak anchor to UMAP coordinates + weak pull towards the cluster centroid
   useEffect(() => {
     const g = fg.current;
@@ -121,8 +143,30 @@ export default function GraphView({ labs, edges, mode, matched, focusId, sheet, 
         n.vy = (n.vy ?? 0) + (s.y / s.n - (n.y ?? 0)) * 0.05 * alpha;
       }
     }, { initialize: (ns: GNode[]) => { cnodes = ns; } });
+    // keep the (larger) marks from overlapping so each stays clickable
+    let knodes: GNode[] = [];
+    const collide = Object.assign(() => {
+      for (let i = 0; i < knodes.length; i++) {
+        const a = knodes[i];
+        for (let j = i + 1; j < knodes.length; j++) {
+          const b = knodes[j];
+          const dx = (b.x ?? 0) - (a.x ?? 0);
+          const dy = (b.y ?? 0) - (a.y ?? 0);
+          const min = a.r + b.r + 2;
+          const d2 = dx * dx + dy * dy;
+          if (d2 >= min * min) continue;
+          const d = Math.sqrt(d2) || 0.01;
+          const push = ((min - d) / d) * 0.25;
+          a.vx = (a.vx ?? 0) - dx * push;
+          a.vy = (a.vy ?? 0) - dy * push;
+          b.vx = (b.vx ?? 0) + dx * push;
+          b.vy = (b.vy ?? 0) + dy * push;
+        }
+      }
+    }, { initialize: (ns: GNode[]) => { knodes = ns; } });
     g.d3Force('anchor', anchor);
     g.d3Force('cluster', cluster);
+    g.d3Force('collide', collide);
     g.d3Force('center', null);
     const charge = g.d3Force('charge');
     charge?.strength?.(-45);
@@ -158,18 +202,18 @@ export default function GraphView({ labs, edges, mode, matched, focusId, sheet, 
     g.zoom(Math.min(size.w / (x1 - x0 + 120), size.h / (y1 - y0 + 120)), 0);
   }, [data, size]);
 
-  // centre on the selected lab (search result / tap); with the mobile bottom sheet open, place the node
-  // in the middle of the visible upper half instead of behind the sheet
+  // centre on a requested lab (search result / mobile tap); with the mobile bottom sheet open, place the
+  // node in the middle of the visible upper half instead of behind the sheet
   useEffect(() => {
-    if (!focusId) return;
-    const n = nodeCache.current.get(focusId);
+    if (!center) return;
+    const n = nodeCache.current.get(center.id);
     if (n && n.x !== undefined && n.y !== undefined) {
       const zoom = sheet ? 1.8 : 2.4;
       const dy = sheet ? (size.h * 0.25) / zoom : 0;
       fg.current?.centerAt(n.x, n.y + dy, 600);
       fg.current?.zoom(zoom, 600);
     }
-  }, [focusId]); // eslint-disable-line react-hooks/exhaustive-deps -- re-centre only when the focus changes
+  }, [center]); // eslint-disable-line react-hooks/exhaustive-deps -- re-centre only on a new request
 
   const chrome = CHROME[mode];
   const activeId = hoverId ?? focusId;
@@ -196,8 +240,9 @@ export default function GraphView({ labs, edges, mode, matched, focusId, sheet, 
     ctx.lineWidth = (node.id === activeId ? 2.4 : 1.2) / scale;
     ctx.strokeStyle = node.id === activeId ? chrome.ink : chrome.surface;
     ctx.stroke();
+    // hub labels are drawn after the frame (paintOverlay) so they can avoid the cluster labels
     const showLabel = scale >= LABEL_ZOOM || node.id === activeId || (activeSet?.has(node.id) ?? false);
-    if (showLabel && lit) {
+    if (showLabel && lit && !hubIds.has(node.id)) {
       const fontSize = Math.max(11 / scale, 2.2);
       ctx.font = `${fontSize}px system-ui, -apple-system, "Segoe UI", sans-serif`;
       ctx.textAlign = 'center';
@@ -213,41 +258,69 @@ export default function GraphView({ labs, edges, mode, matched, focusId, sheet, 
     ctx.globalAlpha = 1;
   };
 
-  const paintPointer = (node: GNode, color: string, ctx: CanvasRenderingContext2D) => {
+  const paintPointer = (node: GNode, color: string, ctx: CanvasRenderingContext2D, scale: number) => {
     ctx.fillStyle = color;
     ctx.beginPath();
-    ctx.arc(node.x ?? 0, node.y ?? 0, node.r + 3, 0, 2 * Math.PI); // hit target larger than the mark
+    // hit target at least ~5 screen px larger than the mark at any zoom
+    ctx.arc(node.x ?? 0, node.y ?? 0, node.r + Math.max(3, 5 / scale), 0, 2 * Math.PI);
     ctx.fill();
   };
 
-  // direct cluster labels at centroids (identity never by colour alone)
-  const paintClusterLabels = (ctx: CanvasRenderingContext2D, scale: number) => {
-    if (scale >= CLUSTER_LABEL_ZOOM || activeId) return;
-    const c = new Map<number, { x: number; y: number; n: number }>();
-    for (const n of data.nodes) {
-      if (n.lab.cluster_id === null) continue;
-      const s = c.get(n.lab.cluster_id) ?? { x: 0, y: 0, n: 0 };
-      s.x += n.x ?? 0;
-      s.y += n.y ?? 0;
-      s.n += 1;
-      c.set(n.lab.cluster_id, s);
-    }
-    const fontSize = 13 / scale;
-    ctx.font = `600 ${fontSize}px system-ui, -apple-system, "Segoe UI", sans-serif`;
+  // direct cluster labels at centroids (identity never by colour alone), then hub lab names placed
+  // below (or above) their node wherever they do not collide with a label already drawn
+  const paintOverlay = (ctx: CanvasRenderingContext2D, scale: number) => {
+    const taken: Box[] = [];
+    const font = (weight: number, px: number) => `${weight} ${px / scale}px system-ui, -apple-system, "Segoe UI", sans-serif`;
+    const drawText = (text: string, x: number, y: number, fill: string, halo: number) => {
+      ctx.lineWidth = halo / scale;
+      ctx.strokeStyle = chrome.surface;
+      ctx.strokeText(text, x, y);
+      ctx.fillStyle = fill;
+      ctx.fillText(text, x, y);
+    };
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
-    for (const [id, s] of c) {
-      if (s.n < 2) continue;
-      const text = clusterName(id);
-      const x = s.x / s.n;
-      const y = s.y / s.n;
-      ctx.lineWidth = 4 / scale;
-      ctx.strokeStyle = chrome.surface;
+
+    if (scale < CLUSTER_LABEL_ZOOM && !activeId) {
+      const c = new Map<number, { x: number; y: number; n: number }>();
+      for (const n of data.nodes) {
+        if (n.lab.cluster_id === null) continue;
+        const s = c.get(n.lab.cluster_id) ?? { x: 0, y: 0, n: 0 };
+        s.x += n.x ?? 0;
+        s.y += n.y ?? 0;
+        s.n += 1;
+        c.set(n.lab.cluster_id, s);
+      }
+      ctx.font = font(600, 13);
       ctx.globalAlpha = 0.92;
-      ctx.strokeText(text, x, y);
-      ctx.fillStyle = chrome.inkSecondary;
-      ctx.fillText(text, x, y);
+      for (const [id, s] of c) {
+        if (s.n < 2) continue;
+        const text = clusterName(id);
+        const x = s.x / s.n;
+        const y = s.y / s.n;
+        const w = ctx.measureText(text).width / 2;
+        const h = 9 / scale;
+        taken.push({ x0: x - w, y0: y - h, x1: x + w, y1: y + h });
+        drawText(text, x, y, chrome.inkSecondary, 4);
+      }
       ctx.globalAlpha = 1;
+    }
+
+    ctx.font = font(700, 12);
+    const h = 15 / scale;
+    const gap = 3 / scale;
+    for (const id of hubIds) {
+      const n = nodeCache.current.get(id);
+      if (!n || n.x === undefined || n.y === undefined || !isLit(id)) continue;
+      const text = labTitle(n.lab);
+      const w = ctx.measureText(text).width / 2 + 2 / scale;
+      for (const cy of [n.y + n.r + gap + h / 2, n.y - n.r - gap - h / 2]) {
+        const b = { x0: n.x - w, y0: cy - h / 2, x1: n.x + w, y1: cy + h / 2 };
+        if (taken.some((t) => overlaps(t, b))) continue;
+        taken.push(b);
+        drawText(text, n.x, cy, chrome.ink, 3.5);
+        break;
+      }
     }
   };
 
@@ -292,8 +365,8 @@ export default function GraphView({ labs, edges, mode, matched, focusId, sheet, 
         linkColor={linkColor}
         linkWidth={linkWidth}
         linkLabel={linkLabel}
-        linkHoverPrecision={6}
-        onRenderFramePost={paintClusterLabels}
+        linkHoverPrecision={2}
+        onRenderFramePost={paintOverlay}
         onNodeHover={(n) => {
           setHoverId(n ? String(n.id) : null);
           onHover(n ? n.lab : null);
@@ -304,6 +377,7 @@ export default function GraphView({ labs, edges, mode, matched, focusId, sheet, 
           onEdgeHover(l ? l.edge : null);
         }}
         onNodeClick={(n) => onSelect(n.lab)}
+        onBackgroundClick={onBackgroundClick}
         cooldownTicks={180}
         d3AlphaDecay={0.035}
         d3VelocityDecay={0.35}
