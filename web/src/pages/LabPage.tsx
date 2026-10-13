@@ -4,7 +4,7 @@ import type { Paper, PaperSummary, SourceKind } from '../types/data';
 import { useAtlas } from '../data/DataContext';
 import { NA, affiliation, doiHref, fmtDate, labTitle, piName } from '../lib/format';
 import type { Mode } from '../lib/palette';
-import { ClusterChip } from '../components/LabPanel';
+import { ClusterChip, FieldChips } from '../components/LabPanel';
 
 const SUMMARY_FIELDS: [keyof PaperSummary, string][] = [
   ['background', '연구 배경'],
@@ -91,9 +91,12 @@ export default function LabPage({ mode }: { mode: Mode }) {
         </h1>
         <p className="lab-name">{labTitle(lab)}</p>
         <div className="head-meta">
-          <ClusterChip id={lab.cluster_id} mode={mode} />
+          <FieldChips lab={lab} mode={mode} />
+          <ClusterChip id={lab.cluster_id} />
           <span>최근 5년 논문 <strong>{lab.paper_count_5y}</strong>편</span>
-          <span>마지막·교신저자 <strong>{lab.senior_paper_count_5y}</strong>편</span>
+          <span title={atlas.meta.rules[lab.disciplines[0]] ?? ''}>
+            기준 충족 논문 <strong>{lab.senior_paper_count_5y}</strong>편
+          </span>
           <span title="OpenAlex 저자 매칭 근거의 강도">
             매칭 신뢰도 {lab.match_confidence === 'high' ? '높음(대표 논문 확인)' : '보통(이름·소속·주제)'}
           </span>

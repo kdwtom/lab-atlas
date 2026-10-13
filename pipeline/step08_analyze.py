@@ -1,5 +1,9 @@
 """Step 8 — similarity edges, co-authorship edges, Louvain clusters, UMAP layout, keywords.
 
+Similarity edges = each lab's top-k neighbours above a data-driven threshold, plus a "bridge" to its most
+similar lab in a different field (same threshold) so cross-disciplinary neighbours are never crowded out
+(PLAN_PHASE1.md 3-4). Edges between labs of different fields carry cross=True.
+
 Inputs : lab_vectors.npz (step 7), papers_raw.jsonl, lab_status.json,
          curation/cluster_labels.json (hand-written Korean labels, optional)
 Output : output/analysis.json
@@ -73,6 +77,25 @@ def knn_pairs(sim: np.ndarray, k: int) -> dict[tuple[int, int], float]:
     return pairs
 
 
+def bridge_pairs(sim: np.ndarray, fields: list[frozenset[str]], threshold: float) -> dict[tuple[int, int], float]:
+    """Each lab's most similar lab sharing no field with it, when the similarity reaches the threshold."""
+    out = {}
+    for i in range(len(sim)):
+        others = [j for j in range(len(sim)) if not (fields[i] & fields[j])]
+        if not others:
+            continue
+        j = max(others, key=lambda j: sim[i, j])
+        if sim[i, j] >= threshold:
+            out[(min(i, j), max(i, j))] = float(sim[i, j])
+    return out
+
+
+def cluster_target(n: int) -> tuple[int, int]:
+    """Cluster count range: 6-12 for the original 106 labs, growing with the number of labs."""
+    lo, hi = config.LOUVAIN_TARGET_CLUSTERS
+    return max(lo, round(n / 45)), max(hi, round(n / 22))
+
+
 def louvain(n: int, pairs: dict[tuple[int, int], float]) -> tuple[list[set[int]], float, list[dict]]:
     import networkx as nx
 
@@ -80,7 +103,7 @@ def louvain(n: int, pairs: dict[tuple[int, int], float]) -> tuple[list[set[int]]
     g.add_nodes_from(range(n))
     for (i, j), w in pairs.items():
         g.add_edge(i, j, weight=w)
-    lo, hi = config.LOUVAIN_TARGET_CLUSTERS
+    lo, hi = cluster_target(n)
     target = (lo + hi) / 2
     sweep, best = [], None
     for r in config.LOUVAIN_RESOLUTIONS:
@@ -115,6 +138,9 @@ def run(client=None) -> None:
     vec = z["vectors"]
     papers = read_jsonl(config.OUTPUT_DIR / "papers_raw.jsonl")
     idx = {lid: i for i, lid in enumerate(lab_ids)}
+    status = {s["lab_id"]: s for s in read_json(config.OUTPUT_DIR / "lab_status.json")}
+    fields = [frozenset(config.DEPT_BY_CODE[d].discipline for d in status[lid]["depts"]) for lid in lab_ids]
+    field_of = dict(zip(lab_ids, fields))
 
     # similarity edges: top-k neighbours above a data-driven threshold
     sim = vec @ vec.T
@@ -124,11 +150,12 @@ def run(client=None) -> None:
     threshold = round(float(np.quantile(topk, config.SIMILARITY_THRESHOLD_QUANTILE)), 4)
     prof = topic_profiles(papers, lab_ids)
     edges: list[Edge] = []
-    for (i, j), w in sorted(pairs.items()):
-        if w >= threshold:
-            a, b = sorted((lab_ids[i], lab_ids[j]))
-            edges.append(Edge(source=a, target=b, type="similarity", weight=round(w, 4),
-                              reasons=shared_keywords(prof[a], prof[b])))
+    shown = {k: w for k, w in pairs.items() if w >= threshold}
+    bridges = {k: w for k, w in bridge_pairs(sim, fields, threshold).items() if k not in shown}
+    for (i, j), w in sorted({**shown, **bridges}.items()):
+        a, b = sorted((lab_ids[i], lab_ids[j]))
+        edges.append(Edge(source=a, target=b, type="similarity", weight=round(w, 4),
+                          reasons=shared_keywords(prof[a], prof[b]), cross=not (fields[i] & fields[j])))
 
     # co-authorship edges: papers on which two dataset PIs are both authors (both at home institution)
     co: dict[tuple[str, str], list[str]] = defaultdict(list)
@@ -137,7 +164,8 @@ def run(client=None) -> None:
         for a, b in combinations(labs, 2):
             co[(a, b)].append(p["id"])
     for (a, b), pids in sorted(co.items()):
-        edges.append(Edge(source=a, target=b, type="coauthor", weight=len(pids), paper_ids=sorted(pids)))
+        edges.append(Edge(source=a, target=b, type="coauthor", weight=len(pids), paper_ids=sorted(pids),
+                          cross=not (field_of[a] & field_of[b])))
 
     # clusters on the full kNN graph (no threshold, so no lab is isolated)
     comms, resolution, sweep = louvain(len(lab_ids), pairs)
@@ -165,8 +193,10 @@ def run(client=None) -> None:
         "params": {"model": config.EMBED_MODEL, "k": config.SIMILARITY_K,
                    "threshold_quantile": config.SIMILARITY_THRESHOLD_QUANTILE, "threshold": threshold,
                    "louvain_seed": config.LOUVAIN_SEED, "louvain_resolution": resolution,
-                   "umap_seed": config.UMAP_SEED, "resolution_sweep": sweep},
+                   "umap_seed": config.UMAP_SEED, "resolution_sweep": sweep,
+                   "cluster_target": cluster_target(len(lab_ids)), "bridges_added": len(bridges)},
         "labs": labs_out, "edges": edges, "clusters": clusters,
     })
-    log.info("labs %d | similarity edges %d (threshold %.4f) | coauthor edges %d | clusters %d (resolution %.2f)",
-             len(lab_ids), n_sim, threshold, len(edges) - n_sim, len(clusters), resolution)
+    log.info("labs %d | similarity edges %d (threshold %.4f; %d bridges, %d cross-field) | coauthor edges %d | "
+             "clusters %d (resolution %.2f)", len(lab_ids), n_sim, threshold, len(bridges),
+             sum(e.cross for e in edges if e.type == "similarity"), len(edges) - n_sim, len(clusters), resolution)

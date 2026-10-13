@@ -2,8 +2,14 @@ import type { Lab } from '../types/data';
 import { useAtlas } from '../data/DataContext';
 import { useExplore } from '../data/explore';
 import { UNIV_LABEL, UNIV_ORDER } from '../lib/format';
-import { clusterColor, type Mode } from '../lib/palette';
+import { FIELD_LABEL, FIELD_ORDER, fieldColor, type Mode } from '../lib/palette';
 import SearchBox from './SearchBox';
+
+const EDGE_NOTE = {
+  similarity: '주제 유사도(상위 5개 이웃 + 다른 분야 최근접 1곳)',
+  coauthor: '공동 논문(굵을수록 많음)',
+  cross: '다른 분야 연구실 사이의 유사도·공동 논문',
+} as const;
 
 interface Props {
   mode: Mode;
@@ -14,7 +20,8 @@ interface Props {
 export default function Toolbar({ mode, shown, onPick }: Props) {
   const atlas = useAtlas();
   const ex = useExplore();
-  const filtered = ex.univs.size > 0 || ex.clusters.size > 0 || ex.query.trim() !== '';
+  const filtered = ex.univs.size > 0 || ex.fields.size > 0 || ex.clusters.size > 0 || ex.query.trim() !== '';
+  const fieldCount = (f: string) => atlas.labs.filter((l) => (l.disciplines as string[]).includes(f)).length;
 
   return (
     <div className="toolbar">
@@ -32,6 +39,10 @@ export default function Toolbar({ mode, shown, onPick }: Props) {
             <button aria-pressed={ex.edgeMode === 'coauthor'} onClick={() => ex.set({ edgeMode: 'coauthor' })}>
               공동연구
             </button>
+            <button aria-pressed={ex.edgeMode === 'cross'} onClick={() => ex.set({ edgeMode: 'cross' })}
+                    title="서로 다른 분야 연구실 사이의 유사도·공동연구 연결만 표시">
+              학제간 연결
+            </button>
           </div>
         )}
         <span className="count" aria-live="polite">{atlas.labs.length}개 중 {shown}개</span>
@@ -47,18 +58,27 @@ export default function Toolbar({ mode, shown, onPick }: Props) {
         ))}
       </div>
 
-      <div className="toolbar-row chips legend" role="group" aria-label="클러스터 범례 및 필터">
+      <div className="toolbar-row chips" role="group" aria-label="분야 범례 및 필터">
+        <span className="chips-label">분야</span>
+        {FIELD_ORDER.filter((f) => fieldCount(f) > 0).map((f) => (
+          <button key={f} className="chip" aria-pressed={ex.fields.has(f)} onClick={() => ex.toggleField(f)}>
+            <span className="dot" style={{ background: fieldColor(f, mode) }} aria-hidden="true" />
+            {FIELD_LABEL[f]} <span className="muted">{fieldCount(f)}</span>
+          </button>
+        ))}
+      </div>
+
+      <div className="toolbar-row chips legend" role="group" aria-label="클러스터 필터">
         <span className="chips-label">클러스터</span>
         {atlas.clusters.map((c) => (
           <button key={c.id} className="chip" aria-pressed={ex.clusters.has(c.id)} onClick={() => ex.toggleCluster(c.id)}
                   title={c.keywords.slice(0, 3).join(', ')}>
-            <span className="dot" style={{ background: clusterColor(c.id, mode) }} aria-hidden="true" />
             {c.label_ko} <span className="muted">{c.size}</span>
           </button>
         ))}
         {ex.view === 'graph' && (
           <span className="legend-note">
-            노드 크기 = 최근 5년 논문 수(로그) · 선 = {ex.edgeMode === 'similarity' ? '주제 유사도(상위 5개 이웃)' : '공동 논문(굵을수록 많음)'}
+            노드 색 = 분야 · 크기 = 최근 5년 논문 수(로그) · 선 = {EDGE_NOTE[ex.edgeMode]}
           </span>
         )}
       </div>

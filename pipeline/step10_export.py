@@ -17,8 +17,9 @@ from . import config
 from .lib.curation import excluded_papers
 from .lib.io import read_json, read_jsonl, write_json
 from .lib.selection import in_analysis_set
-from .schemas import (Cluster, Counts, Edge, Lab, Meta, Paper, PaperSummary, PiRole, Source, SummaryCoverage,
-                      Topic, YearKeywords)
+from .schemas import (Cluster, Counts, DepartmentInfo, Edge, Lab, Meta, Paper, PaperSummary, PiRole, Source,
+                      SummaryCoverage, Topic, YearKeywords)
+from .step06_stats import rule_ko
 
 log = logging.getLogger(__name__)
 SUMMARY_DIR = config.PIPELINE_DIR / "curation" / "summaries"
@@ -45,8 +46,10 @@ def run(client=None) -> None:
     status = {s["lab_id"]: s for s in read_json(out / "lab_status.json")}
     faculty = {faculty_key(f["univ"], f["faculty_page_url"], f["name_ko"], f["name_en"]): f
                for f in read_json(out / "faculty.json")}
-    matches = {f"{m['univ']}-{m['openalex_id']}": m for m in read_json(out / "matches.json")
-               if m["status"] == "matched"}
+    matches: dict[tuple[str, str], dict] = {}  # (lab id, department) -> match
+    for m in read_json(out / "matches.json"):
+        if m["status"] == "matched":
+            matches[(f"{m['univ']}-{m['openalex_id']}", m["dept"])] = m
     reps = read_json(out / "representatives.json")
     summaries, intros = load_summaries()
     lab_ids = sorted(analysis["labs"])
@@ -75,14 +78,18 @@ def run(client=None) -> None:
     # ------------------------------------------------------------------ labs
     labs: list[Lab] = []
     for lid in lab_ids:
-        st, m, a = status[lid], matches[lid], analysis["labs"][lid]
-        f = faculty[faculty_key(m["univ"], m["faculty_page_url"], m["name_ko"], m["name_en"])]
+        st, a = status[lid], analysis["labs"][lid]
+        ms = [matches[(lid, d)] for d in st["depts"]]  # first department = primary
+        fs = [faculty[faculty_key(x["univ"], x["faculty_page_url"], x["name_ko"], x["name_en"])] for x in ms]
+        m, f = ms[0], fs[0]
         cand = next(c for c in m["candidates"] if c["openalex_id"] == m["openalex_id"])
-        dept = config.DEPT_BY_UNIV[m["univ"]]
+        depts = [config.DEPT_BY_CODE[d] for d in st["depts"]]
         rep_ids = [r for r in reps.get(lid, []) if r in paper_ids][: config.REPRESENTATIVE_PAPERS]
-        sources = [Source(url=f["faculty_list_url"], kind="faculty_page", retrieved_at=f["retrieved_at"])]
-        if f["faculty_page_url"] != f["faculty_list_url"]:
-            sources.append(Source(url=f["faculty_page_url"], kind="faculty_detail", retrieved_at=f["retrieved_at"]))
+        sources = []
+        for ff in fs:
+            sources.append(Source(url=ff["faculty_list_url"], kind="faculty_page", retrieved_at=ff["retrieved_at"]))
+            if ff["faculty_page_url"] != ff["faculty_list_url"]:
+                sources.append(Source(url=ff["faculty_page_url"], kind="faculty_detail", retrieved_at=ff["retrieved_at"]))
         sources += [
             Source(url=f"https://openalex.org/{m['openalex_id']}", kind="openalex_author", retrieved_at=m["retrieved_at"]),
             Source(url=f"https://openalex.org/works?filter=author.id:{m['openalex_id']}", kind="openalex_works",
@@ -92,11 +99,17 @@ def run(client=None) -> None:
             sources.append(Source(url="https://www.semanticscholar.org/", kind="semantic_scholar",
                                   retrieved_at=m["retrieved_at"]))
         labs.append(Lab(
-            id=lid, univ=m["univ"], univ_name_ko=dept.univ_name_ko, dept_name_ko=dept.dept_name_ko,
-            pi_name_ko=f.get("name_ko"), pi_name_en=f.get("name_en") or cand["display_name"],
-            position=f.get("position"), lab_name=f.get("lab_name"), homepage_url=f.get("homepage_url"),
+            id=lid, univ=m["univ"], univ_name_ko=depts[0].univ_name_ko,
+            dept_name_ko=" · ".join(d.dept_name_ko for d in depts), dept_codes=[d.code for d in depts],
+            disciplines=list(dict.fromkeys(d.discipline for d in depts)),
+            pi_name_ko=f.get("name_ko") or next((x["name_ko"] for x in fs if x.get("name_ko")), None),
+            pi_name_en=f.get("name_en") or next((x["name_en"] for x in fs if x.get("name_en")), None)
+            or cand["display_name"],
+            position=f.get("position"), lab_name=f.get("lab_name") or next((x["lab_name"] for x in fs if x.get("lab_name")), None),
+            homepage_url=f.get("homepage_url") or next((x["homepage_url"] for x in fs if x.get("homepage_url")), None),
             faculty_page_url=f["faculty_page_url"], openalex_id=m["openalex_id"], orcid=cand.get("orcid"),
-            match_confidence=m["confidence"], paper_count_5y=st["paper_count_5y"],
+            match_confidence="high" if any(x["confidence"] == "high" for x in ms) else "medium",
+            paper_count_5y=st["paper_count_5y"],
             senior_paper_count_5y=st["senior_paper_count_5y"], keywords=a["keywords"],
             cluster_id=a["cluster_id"], x=a["x"], y=a["y"], intro_ko=intros.get(lid),
             representative_paper_ids=rep_ids,
@@ -125,6 +138,11 @@ def run(client=None) -> None:
             papers_with_summary=sum(1 for r in all_reps if r in summaries),
             labs=len(labs), labs_with_intro=sum(1 for l in labs if l.intro_ko)),
         excluded_namesake_papers=len(excluded_papers()),
+        departments=[DepartmentInfo(code=d.code, univ=d.univ, univ_name_ko=d.univ_name_ko, name_ko=d.dept_name_ko,
+                                    discipline=d.discipline, faculty_list_url=d.faculty_list_url,
+                                    labs=sum(d.code in l.dept_codes for l in labs))
+                     for d in config.DEPARTMENTS],
+        rules={k: rule_ko(v) for k, v in config.DISCIPLINES.items()},
     )
 
     d = config.WEB_DATA_DIR

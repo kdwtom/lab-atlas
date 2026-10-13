@@ -10,6 +10,8 @@ export type SourceKind =
   | 'semantic_scholar'
   | 'homepage';
 export type AuthorPosition = 'first' | 'middle' | 'last';
+/** Field of a department: selection rules differ per field (pipeline config.DISCIPLINES) */
+export type Discipline = 'life' | 'chem' | 'phys' | 'math' | 'cs';
 export type ISODate = string; // YYYY-MM-DD
 
 export interface Source {
@@ -27,7 +29,10 @@ export interface Lab {
   id: string;
   univ: Univ;
   univ_name_ko: string;
+  /** all departments listing the PI, joined with " · " (first = primary) */
   dept_name_ko: string;
+  dept_codes: string[];
+  disciplines: Discipline[];
   pi_name_ko: string | null;
   pi_name_en: string | null;
   position: string | null;
@@ -54,6 +59,8 @@ export interface PiRole {
   is_corresponding: boolean;
   /** PI authorship lists the lab's institution (or none); other papers are excluded from analysis */
   at_home_institution: boolean;
+  /** counted toward the criterion under an alphabetical-author-order rule (mathematics, theory CS) */
+  order_agnostic: boolean;
 }
 
 export interface Topic {
@@ -98,6 +105,8 @@ export interface Edge {
   weight: number;
   reasons: string[];
   paper_ids: string[];
+  /** the two labs belong to different fields */
+  cross: boolean;
 }
 
 export interface Cluster {
@@ -131,4 +140,17 @@ export interface Meta {
   } | null;
   /** Papers removed after namesake review (pipeline/curation/excluded_papers.csv) */
   excluded_namesake_papers: number;
+  departments: DepartmentInfo[];
+  /** field -> selection rule, in Korean */
+  rules: Partial<Record<Discipline, string>>;
+}
+
+export interface DepartmentInfo {
+  code: string;
+  univ: Univ;
+  univ_name_ko: string;
+  name_ko: string;
+  discipline: Discipline;
+  faculty_list_url: string;
+  labs: number;
 }

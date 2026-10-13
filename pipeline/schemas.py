@@ -19,6 +19,7 @@ SourceKind = Literal[
     "semantic_scholar", "homepage",
 ]
 AuthorPosition = Literal["first", "middle", "last"]
+Discipline = Literal["life", "chem", "phys", "math", "cs"]
 
 
 class Strict(BaseModel):
@@ -35,6 +36,7 @@ class Source(Strict):
 class FacultyRecord(Strict):
     """One professor as listed on the official faculty page."""
     univ: Univ
+    dept: str                                 # department code (departments.yaml)
     name_ko: Optional[str] = None
     name_en: Optional[str] = None
     position_raw: Optional[str] = None
@@ -60,11 +62,12 @@ class CandidateEvidence(Strict):
     affiliation_years: list[int] = Field(default_factory=list)
     name_ok: bool = False
     name_note: Optional[str] = None
-    life_sci_share: float = 0.0
+    field_share: float = 0.0                  # share of top topics in the department field's domains
     topic_ok: bool = False
     anchor_hits: int = 0
     orcid_match: Optional[bool] = None
     strong: bool = False
+    pi_papers: Optional[int] = None           # roster tie-break: papers counting toward the field's rule
 
 
 MatchStatus = Literal["matched", "excluded"]
@@ -77,6 +80,7 @@ ExcludeReason = Literal[
 
 class MatchResult(Strict):
     univ: Univ
+    dept: str
     name_ko: Optional[str] = None
     name_en: Optional[str] = None
     faculty_page_url: str
@@ -98,6 +102,9 @@ class PiRole(Strict):
     # analysis (similarity, keywords, representative papers) because merged OpenAlex profiles can
     # contain namesakes' papers.
     at_home_institution: bool = True
+    # counted toward the selection criterion although not last/corresponding author: fields where author
+    # order is alphabetical (mathematics: every paper; computing: papers with >= 3 authors in that order)
+    order_agnostic: bool = False
 
 
 class Topic(Strict):
@@ -132,6 +139,8 @@ class RawPaper(Strict):
 class LabStatus(Strict):
     lab_id: str
     univ: Univ
+    depts: list[str]                       # department codes (a professor listed by two departments is one lab)
+    discipline: Discipline                 # field whose selection rule applied (first department)
     name_ko: Optional[str] = None
     name_en: Optional[str] = None
     openalex_id: str
@@ -162,7 +171,9 @@ class Lab(Strict):
     id: str
     univ: Univ
     univ_name_ko: str
-    dept_name_ko: str
+    dept_name_ko: str                      # all departments, joined with " · "
+    dept_codes: list[str]
+    disciplines: list[Discipline]
     pi_name_ko: Optional[str] = None
     pi_name_en: Optional[str] = None
     position: Optional[str] = None
@@ -207,6 +218,7 @@ class Edge(Strict):
     target: str
     type: Literal["similarity", "coauthor"]
     weight: float
+    cross: bool = False                    # the two labs belong to different fields (disciplines)
     reasons: list[str] = Field(default_factory=list, max_length=3)
     paper_ids: list[str] = Field(default_factory=list)
 
@@ -233,6 +245,16 @@ class SummaryCoverage(Strict):
     labs_with_intro: int
 
 
+class DepartmentInfo(Strict):
+    code: str
+    univ: Univ
+    univ_name_ko: str
+    name_ko: str
+    discipline: Discipline
+    faculty_list_url: str
+    labs: int                              # labs listing this department (joint appointments count in each)
+
+
 class Meta(Strict):
     generated_at: date
     data_retrieved_at: date
@@ -245,3 +267,5 @@ class Meta(Strict):
     counts: Counts
     summary_coverage: Optional[SummaryCoverage] = None
     excluded_namesake_papers: int = 0
+    departments: list[DepartmentInfo] = Field(default_factory=list)
+    rules: dict[str, str] = Field(default_factory=dict)  # field code -> selection rule (Korean)

@@ -3,15 +3,16 @@ import { Link } from 'react-router-dom';
 import type { Lab } from '../types/data';
 import { useAtlas } from '../data/DataContext';
 import { UNIV_LABEL, labTitle, piName } from '../lib/format';
-import { clusterColor, type Mode } from '../lib/palette';
+import { FIELD_LABEL, fieldColor, type Mode } from '../lib/palette';
 
-type Key = 'name' | 'univ' | 'cluster' | 'papers' | 'senior';
+type Key = 'name' | 'univ' | 'field' | 'cluster' | 'papers' | 'senior';
 const COLS: { key: Key; label: string; numeric?: boolean }[] = [
   { key: 'name', label: 'PI · 연구실' },
   { key: 'univ', label: '대학' },
+  { key: 'field', label: '분야 · 학과' },
   { key: 'cluster', label: '클러스터' },
   { key: 'papers', label: '최근 5년 논문', numeric: true },
-  { key: 'senior', label: '마지막·교신저자', numeric: true },
+  { key: 'senior', label: '기준 충족 논문', numeric: true },
 ];
 
 export default function ListView({ labs, mode }: { labs: Lab[]; mode: Mode }) {
@@ -24,6 +25,7 @@ export default function ListView({ labs, mode }: { labs: Lab[]; mode: Mode }) {
       switch (sort.key) {
         case 'name': return piName(l);
         case 'univ': return UNIV_LABEL[l.univ];
+        case 'field': return FIELD_LABEL[l.disciplines[0]] + l.dept_name_ko;
         case 'cluster': return clusterName(l);
         case 'papers': return l.paper_count_5y;
         case 'senior': return l.senior_paper_count_5y;
@@ -65,9 +67,11 @@ export default function ListView({ labs, mode }: { labs: Lab[]; mode: Mode }) {
               </td>
               <td>{UNIV_LABEL[l.univ]}</td>
               <td>
-                <span className="dot" style={{ background: clusterColor(l.cluster_id, mode) }} aria-hidden="true" />
-                {clusterName(l)}
+                <span className="dot" style={{ background: fieldColor(l.disciplines[0], mode) }} aria-hidden="true" />
+                {l.disciplines.map((d) => FIELD_LABEL[d]).join(' · ')}
+                <div className="muted small">{l.dept_name_ko}</div>
               </td>
+              <td>{clusterName(l)}</td>
               <td className="num">{l.paper_count_5y}</td>
               <td className="num">{l.senior_paper_count_5y}</td>
               <td className="small">{l.keywords.slice(0, 3).join(' · ')}</td>

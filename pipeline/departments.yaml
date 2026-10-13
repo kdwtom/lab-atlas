@@ -1,0 +1,99 @@
+# Department registry (PLAN_PHASE1.md 0-1).
+#   code        unique id, "<univ>-<field>"
+#   discipline  life | chem | phys | math | cs   (selection rules: config.DISCIPLINES)
+#   url         the official page cited as the faculty roster
+#   parser      key of pipeline/lib/faculty PARSERS; options are passed to it
+#   matching    search (name search per professor; the original life-science departments keep it so their
+#               results stay unchanged) | roster (institution author roster, PLAN_PHASE1.md 0-4)
+
+universities:
+  kaist:   {name_ko: KAIST, name_en: Korea Advanced Institute of Science and Technology,
+            openalex_query: Korea Advanced Institute of Science and Technology}
+  snu:     {name_ko: 서울대학교, name_en: Seoul National University, openalex_query: Seoul National University}
+  postech: {name_ko: POSTECH, name_en: Pohang University of Science and Technology,
+            openalex_query: Pohang University of Science and Technology}
+  unist:   {name_ko: UNIST, name_en: Ulsan National Institute of Science and Technology,
+            openalex_query: Ulsan National Institute of Science and Technology}
+  gist:    {name_ko: GIST, name_en: Gwangju Institute of Science and Technology,
+            openalex_query: Gwangju Institute of Science and Technology}
+  dgist:   {name_ko: DGIST, name_en: Daegu Gyeongbuk Institute of Science and Technology,
+            openalex_query: Daegu Gyeongbuk Institute of Science and Technology}
+
+departments:
+  # ------------------------------------------------------------------ life sciences (original six)
+  - {code: kaist-life, univ: kaist, name_ko: 생명과학과, discipline: life, parser: kaist_bio,
+     url: "https://bio.kaist.ac.kr/doc/ko/selectDocList.do?menuSeq=3344&bbsSeq=120"}
+  - {code: snu-life, univ: snu, name_ko: 생명과학부, discipline: life, parser: snu_bio,
+     url: "https://biosci.snu.ac.kr/people/faculty"}
+  # life.postech.ac.kr was unreachable during development; the university researcher directory is used.
+  - {code: postech-life, univ: postech, name_ko: 생명과학과, discipline: life, parser: postech_dir,
+     options: {dept: 생명과학과},
+     url: "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?srSearchKey=dept&srSearchVal=%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99%EA%B3%BC"}
+  # bio.unist.ac.kr was unreachable during development; the university researcher directory is used.
+  - {code: unist-life, univ: unist, name_ko: 생명과학과, discipline: life, parser: unist_dir,
+     options: {dept: 생명과학과},
+     url: "https://www.unist.ac.kr/unist/research/search.do?mode=list&srSearchKey=dept&srSearchVal=%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99%EA%B3%BC"}
+  - {code: gist-life, univ: gist, name_ko: 생명과학과, discipline: life, parser: gist_cms,
+     options: {site: life, eng_site: lifeeng, menu: sub05_01_01},
+     url: "https://life.gist.ac.kr/prog/gsMember/life/P/Faculty/sub05_01_01/list.do"}
+  - {code: dgist-life, univ: dgist, name_ko: 뉴바이올로지학과, discipline: life, parser: dgist_cards,
+     url: "https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do"}
+
+  # ------------------------------------------------------------------ phase 1: chemistry, physics, mathematics, computing
+  - {code: postech-chem, univ: postech, name_ko: 화학과, discipline: chem, parser: postech_dir, matching: roster,
+     max_anchor_papers: 4, options: {dept: 화학과},
+     url: "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?srSearchKey=dept&srSearchVal=%ED%99%94%ED%95%99%EA%B3%BC"}
+  - {code: postech-phys, univ: postech, name_ko: 물리학과, discipline: phys, parser: postech_dir, matching: roster,
+     max_anchor_papers: 4, options: {dept: 물리학과},
+     url: "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?srSearchKey=dept&srSearchVal=%EB%AC%BC%EB%A6%AC%ED%95%99%EA%B3%BC"}
+  - {code: postech-math, univ: postech, name_ko: 수학과, discipline: math, parser: postech_dir, matching: roster,
+     max_anchor_papers: 4, options: {dept: 수학과},
+     url: "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?srSearchKey=dept&srSearchVal=%EC%88%98%ED%95%99%EA%B3%BC"}
+  - {code: postech-cs, univ: postech, name_ko: 컴퓨터공학과, discipline: cs, parser: postech_dir, matching: roster,
+     max_anchor_papers: 4, options: {dept: 컴퓨터공학과},
+     url: "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?srSearchKey=dept&srSearchVal=%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC"}
+  - {code: unist-chem, univ: unist, name_ko: 화학과, discipline: chem, parser: unist_dir, matching: roster,
+     max_anchor_papers: 4, options: {dept: 화학과},
+     url: "https://www.unist.ac.kr/unist/research/search.do?mode=list&srSearchKey=dept&srSearchVal=%ED%99%94%ED%95%99%EA%B3%BC"}
+  - {code: unist-phys, univ: unist, name_ko: 물리학과, discipline: phys, parser: unist_dir, matching: roster,
+     max_anchor_papers: 4, options: {dept: 물리학과},
+     url: "https://www.unist.ac.kr/unist/research/search.do?mode=list&srSearchKey=dept&srSearchVal=%EB%AC%BC%EB%A6%AC%ED%95%99%EA%B3%BC"}
+  - {code: unist-math, univ: unist, name_ko: 수리과학과, discipline: math, parser: unist_dir, matching: roster,
+     max_anchor_papers: 4, options: {dept: 수리과학과},
+     url: "https://www.unist.ac.kr/unist/research/search.do?mode=list&srSearchKey=dept&srSearchVal=%EC%88%98%EB%A6%AC%EA%B3%BC%ED%95%99%EA%B3%BC"}
+  - {code: unist-cs, univ: unist, name_ko: 컴퓨터공학과, discipline: cs, parser: unist_dir, matching: roster,
+     max_anchor_papers: 4, options: {dept: 컴퓨터공학과},
+     url: "https://www.unist.ac.kr/unist/research/search.do?mode=list&srSearchKey=dept&srSearchVal=%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC"}
+  - {code: kaist-chem, univ: kaist, name_ko: 화학과, discipline: chem, parser: kaist_chem, matching: roster,
+     options: {eng_url: "https://chem.kaist.ac.kr/eng/faculty"}, url: "https://chem.kaist.ac.kr/faculty"}
+  - {code: kaist-phys, univ: kaist, name_ko: 물리학과, discipline: phys, parser: kaist_phys, matching: roster,
+     url: "https://physics.kaist.ac.kr/index.php?mid=p_people1&category=193"}
+  - {code: kaist-math, univ: kaist, name_ko: 수리과학과, discipline: math, parser: kaist_math, matching: roster,
+     url: "https://mathsci.kaist.ac.kr/home/people/professor/"}
+  - {code: kaist-cs, univ: kaist, name_ko: 전산학부, discipline: cs, parser: kaist_cs, matching: roster,
+     url: "https://cs.kaist.ac.kr/people/faculty"}
+  - {code: gist-chem, univ: gist, name_ko: 화학과, discipline: chem, parser: gist_cms, matching: roster,
+     max_anchor_papers: 4, options: {site: chem, menu: sub05_01_01},
+     url: "https://chem.gist.ac.kr/prog/gsMember/chem/P/Faculty/sub05_01_01/list.do"}
+  - {code: gist-math, univ: gist, name_ko: 수리과학과, discipline: math, parser: gist_cms, matching: roster,
+     max_anchor_papers: 4, options: {site: math, menu: sub03_01_01},
+     url: "https://math.gist.ac.kr/prog/gsMember/math/P/Faculty/sub03_01_01/list.do"}
+  - {code: snu-chem, univ: snu, name_ko: 화학부, discipline: chem, parser: snu_cms, matching: roster,
+     options: {eng_url: "https://chem.snu.ac.kr/en/research-faculty/faculty/fulltime"},
+     url: "https://chem.snu.ac.kr/research-faculty/faculty/fulltime"}
+  - {code: snu-phys, univ: snu, name_ko: 물리천문학부, discipline: phys, parser: snu_cms, matching: roster,
+     options: {eng_url: "https://physics.snu.ac.kr/en/research-faculty/faculty/fulltime"},
+     url: "https://physics.snu.ac.kr/research-faculty/faculty/fulltime"}
+  - {code: snu-math, univ: snu, name_ko: 수리과학부, discipline: math, parser: snu_math, matching: roster,
+     url: "https://www.math.snu.ac.kr/bbs/page.php?hid=professor"}
+  - {code: snu-cs, univ: snu, name_ko: 컴퓨터공학부, discipline: cs, parser: snu_cse, matching: roster,
+     options: {eng_url: "https://cse.snu.ac.kr/en/people/faculty"}, url: "https://cse.snu.ac.kr/ko/people/faculty"}
+  - {code: gist-phys, univ: gist, name_ko: 물리·광과학과, discipline: phys, parser: gist_phys, matching: roster,
+     url: "https://physics.gist.ac.kr/people/faculty-staff/"}
+  # DGIST has no graduate chemistry/physics department; the undergraduate tracks list their faculty.
+  - {code: dgist-chem, univ: dgist, name_ko: 화학 트랙, discipline: chem, parser: dgist_cms_track, matching: roster,
+     url: "https://www.dgist.ac.kr/prog/trackProfsr/chem/sub02_01/list.do"}
+  - {code: dgist-phys, univ: dgist, name_ko: 물리 트랙, discipline: phys, parser: dgist_site_track, matching: roster,
+     url: "https://sites.google.com/view/physics-at-dgist/member"}
+  # Not included in phase 1 (PLAN_PHASE1.md 5): GIST 전기전자컴퓨터공학부 and DGIST 전기전자컴퓨터공학과 are
+  # combined EE + CS departments (deferred with engineering); DGIST has no mathematics roster.

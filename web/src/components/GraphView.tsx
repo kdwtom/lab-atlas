@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import ForceGraph2D, { type ForceGraphMethods, type LinkObject, type NodeObject } from 'react-force-graph-2d';
 import type { Edge, Lab } from '../types/data';
-import { CHROME, clusterColor, type Mode } from '../lib/palette';
+import { CHROME, fieldColor, type Mode } from '../lib/palette';
 import { labTitle, piName } from '../lib/format';
 
 interface NodeData {
@@ -234,15 +234,17 @@ export default function GraphView({ labs, edges, mode, matched, focusId, center,
     ctx.globalAlpha = lit ? 1 : 0.14;
     ctx.beginPath();
     ctx.arc(x, y, node.r, 0, 2 * Math.PI);
-    ctx.fillStyle = clusterColor(node.lab.cluster_id, mode);
+    ctx.fillStyle = fieldColor(node.lab.disciplines[0], mode);
     ctx.fill();
     // 2px surface ring separates overlapping marks; focused node gets an ink ring
     ctx.lineWidth = (node.id === activeId ? 2.4 : 1.2) / scale;
     ctx.strokeStyle = node.id === activeId ? chrome.ink : chrome.surface;
     ctx.stroke();
-    // hub labels are drawn after the frame (paintOverlay) so they can avoid the cluster labels
+    // hub labels are drawn after the frame (paintOverlay) so they can avoid the cluster labels; while another
+    // node is active a hub is just a neighbour and gets the plain PI label
     const showLabel = scale >= LABEL_ZOOM || node.id === activeId || (activeSet?.has(node.id) ?? false);
-    if (showLabel && lit && !hubIds.has(node.id)) {
+    const asHub = hubIds.has(node.id) && (!activeId || node.id === activeId);
+    if (showLabel && lit && !asHub) {
       const fontSize = Math.max(11 / scale, 2.2);
       ctx.font = `${fontSize}px system-ui, -apple-system, "Segoe UI", sans-serif`;
       ctx.textAlign = 'center';
@@ -311,7 +313,7 @@ export default function GraphView({ labs, edges, mode, matched, focusId, center,
     const gap = 3 / scale;
     for (const id of hubIds) {
       const n = nodeCache.current.get(id);
-      if (!n || n.x === undefined || n.y === undefined || !isLit(id)) continue;
+      if (!n || n.x === undefined || n.y === undefined || !isLit(id) || (activeId && id !== activeId)) continue;
       const text = labTitle(n.lab);
       const w = ctx.measureText(text).width / 2 + 2 / scale;
       for (const cy of [n.y + n.r + gap + h / 2, n.y - n.r - gap - h / 2]) {

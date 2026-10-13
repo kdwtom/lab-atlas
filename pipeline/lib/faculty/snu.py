@@ -9,7 +9,6 @@ from ...schemas import FacultyRecord
 from ..names import normalize_position
 from .base import abs_url, clean_email, find_orcid, soup, text
 
-DEPT = config.DEPT_BY_UNIV["snu"]
 
 
 def parse_list(html: str, base_url: str) -> list[dict]:
@@ -62,8 +61,8 @@ def parse_detail(html: str, base_url: str) -> dict:
             "orcid": find_orcid(html)}
 
 
-def collect(client) -> list[FacultyRecord]:
-    html, url, _ = client.get_html(DEPT.faculty_list_url)
+def collect(client, dept: config.Department) -> list[FacultyRecord]:
+    html, url, _ = client.get_html(dept.faculty_list_url)
     records = []
     for r in parse_list(html, url):
         dhtml, durl, day = client.get_html(r["detail_url"])
@@ -74,7 +73,7 @@ def collect(client) -> list[FacultyRecord]:
             name_en = f"{first} {last}".strip()
         pos_raw = d["position_raw"] or r["position_raw"]
         records.append(FacultyRecord(
-            univ="snu", name_ko=r["name_ko"], name_en=name_en or None,
+            univ=dept.univ, dept=dept.code, name_ko=r["name_ko"], name_en=name_en or None,
             position_raw=pos_raw, position=normalize_position(pos_raw), is_full_time=True,
             lab_name=d["lab_name"], homepage_url=d["homepage_url"], email=d["email"],
             orcid=d["orcid"], research_fields=d["research_fields"],

@@ -3,10 +3,15 @@
 Evidence per candidate (all from API responses):
   affiliation  : institution appears in author.affiliations within recent years
   name         : English-name token match (order/hyphen-insensitive) or Korean surname romanisation
-  topic        : share of author's top topics in the Life Sciences domain
+  topic        : share of author's top topics in the department field's OpenAlex domains
   anchors      : # of publications listed on the faculty page that this author wrote
   orcid        : ORCID on the faculty page equals the author's ORCID
 Anything uncertain is excluded and written to excluded.csv.
+
+Candidates come from an OpenAlex name search per professor (departments with matching: search) or from
+the institution's author roster (matching: roster, PLAN_PHASE1.md 0-4); the decision rules are the same.
+Roster departments add two tie-breaks for several strong candidates (roster_tiebreak): profiles sharing one
+ORCID are the same person, and a PI is the candidate who actually leads papers (the field's selection count).
 """
 from __future__ import annotations
 
@@ -20,6 +25,7 @@ from .lib.http import CachedClient, QuotaExceeded
 from .lib.io import read_json, write_json
 from .lib.names import given_name_compatible, names_compatible, search_variants, surname_compatible
 from .lib.openalex import OpenAlex, short_id
+from .lib.roster import Roster, load as load_roster
 from .lib.textutil import norm_title, title_from_citation
 from .schemas import CandidateEvidence, FacultyRecord, MatchResult
 
@@ -45,21 +51,23 @@ def affiliation_ok(author: dict, inst_id: str) -> bool:
     return False
 
 
-def life_sci_share(author: dict, top_n: int = 10) -> float:
+def field_share(author: dict, domains: tuple[str, ...] = ("Life Sciences",), top_n: int = 10,
+                fields: tuple[str, ...] | None = None) -> float:
+    """Share of the author's top topics inside the given OpenAlex fields (if any) or domains."""
     topics = (author.get("topics") or [])[:top_n]
     total = sum(t.get("count") or 1 for t in topics)
     if not total:
         return 0.0
-    life = sum((t.get("count") or 1) for t in topics
-               if ((t.get("domain") or {}).get("display_name") == "Life Sciences"))
-    return round(life / total, 3)
+    level, names = ("field", fields) if fields else ("domain", domains)
+    inside = sum((t.get("count") or 1) for t in topics if ((t.get(level) or {}).get("display_name") in names))
+    return round(inside / total, 3)
 
 
 def all_names(author: dict) -> list[str]:
     return [author.get("display_name") or ""] + list(author.get("display_name_alternatives") or [])
 
 
-def name_check(fac: FacultyRecord, author: dict, anchor_hits: int) -> tuple[bool, str]:
+def name_check(fac: FacultyRecord, author: dict, anchor_hits: int, roster_mode: bool = False) -> tuple[bool, str]:
     # Merged OpenAlex profiles carry noisy display_name_alternatives (other people's names), so an
     # alternative-only match counts only when faculty-page publications confirm the profile.
     names = all_names(author) if anchor_hits >= 1 else [author.get("display_name") or ""]
@@ -71,7 +79,10 @@ def name_check(fac: FacultyRecord, author: dict, anchor_hits: int) -> tuple[bool
     if sur_ok:
         gv = [given_name_compatible(fac.name_ko, n) for n in sur_ok]
         if any(v is True for v in gv):
-            return (anchor_hits >= 1, f"surname+given-name romanisation match, anchors={anchor_hits}")
+            # roster mode: the institution roster is the candidate pool, so a full romanisation match of
+            # the display name is accepted without anchors; decide() still requires a single strong candidate
+            return (anchor_hits >= 1 or roster_mode,
+                    f"surname+given-name romanisation match, anchors={anchor_hits}" + (", roster" if roster_mode else ""))
         if any(v is None for v in gv):
             # given name not judgeable (initials only); surname alone is weak
             return (anchor_hits >= 2, f"surname match, anchors={anchor_hits}")
@@ -83,11 +94,12 @@ def name_check(fac: FacultyRecord, author: dict, anchor_hits: int) -> tuple[bool
 
 
 # ------------------------------------------------------------------ anchors
-def anchor_authors(oa: OpenAlex, fac: FacultyRecord, inst_id: str) -> tuple[dict[str, int], int]:
+def anchor_authors(oa: OpenAlex, fac: FacultyRecord, inst_id: str,
+                   max_papers: int = config.MAX_ANCHOR_PAPERS) -> tuple[dict[str, int], int]:
     """Return {author_id: hits} for authors of faculty-page publications, and #anchors resolved."""
     hits: dict[str, int] = {}
     resolved = 0
-    for cit in fac.anchor_citations[: config.MAX_ANCHOR_PAPERS]:
+    for cit in fac.anchor_citations[:max_papers]:
         title = title_from_citation(cit)
         if len(norm_title(title)) < 15:
             continue
@@ -115,19 +127,26 @@ def anchor_authors(oa: OpenAlex, fac: FacultyRecord, inst_id: str) -> tuple[dict
 
 
 # ------------------------------------------------------------------ main logic
+def discipline_of(fac: FacultyRecord) -> config.Discipline:
+    d = config.DEPT_BY_CODE.get(fac.dept)
+    return d.disc if d else config.DISCIPLINES["life"]
+
+
 def evaluate(fac: FacultyRecord, author: dict, inst_id: str, hits: dict[str, int]) -> CandidateEvidence:
     aid = short_id(author["id"])
     n_anchor = hits.get(aid, 0)
-    ok_name, note = name_check(fac, author, n_anchor)
-    share = life_sci_share(author)
+    dept = config.DEPT_BY_CODE.get(fac.dept)
+    ok_name, note = name_check(fac, author, n_anchor, roster_mode=bool(dept and dept.matching == "roster"))
+    disc = discipline_of(fac)
+    share = field_share(author, disc.topic_domains, fields=disc.topic_fields)
     orcid = (author.get("orcid") or "").rsplit("/", 1)[-1] or None
     ev = CandidateEvidence(
         openalex_id=aid, display_name=author.get("display_name") or "", orcid=orcid,
         works_count=author.get("works_count") or 0,
         affiliation_ok=affiliation_ok(author, inst_id),
         affiliation_years=affiliation_years(author, inst_id)[-6:],
-        name_ok=ok_name, name_note=note, life_sci_share=share,
-        topic_ok=share >= config.LIFE_SCI_TOPIC_SHARE, anchor_hits=n_anchor,
+        name_ok=ok_name, name_note=note, field_share=share,
+        topic_ok=share >= config.TOPIC_SHARE, anchor_hits=n_anchor,
         orcid_match=(orcid == fac.orcid) if (fac.orcid and orcid) else None,
     )
     ev.strong = ev.affiliation_ok and ev.name_ok and (ev.topic_ok or ev.anchor_hits >= 1)
@@ -168,12 +187,57 @@ def decide(fac: FacultyRecord, cands: list[CandidateEvidence]) -> tuple[Optional
         return None, "affiliation_mismatch", "no candidate with recent affiliation to the institution"
     if not any(c.affiliation_ok and c.name_ok for c in cands):
         return None, "name_mismatch", "affiliated candidates do not match the name"
-    return None, "topic_mismatch", "affiliated, name-matching candidates are outside life sciences"
+    disc = discipline_of(fac)
+    field = "life sciences" if disc.code == "life" else f"the {disc.code} field"
+    return None, "topic_mismatch", f"affiliated, name-matching candidates are outside {field}"
 
 
-def match_one(oa: OpenAlex, fac: FacultyRecord, inst_id: str) -> MatchResult:
+def pi_paper_count(oa: OpenAlex, author_id: str, disc: config.Discipline) -> int:
+    """Papers in the window that count toward the field's selection rule (same rule as step 4)."""
+    from .step04_papers import alphabetical
+
+    n = 0
+    for w, _ in oa.works_for_author(author_id, config.YEAR_FROM):
+        year = w.get("publication_year")
+        if w.get("type") not in disc.work_types or not year or not config.YEAR_FROM <= year <= config.YEAR_TO:
+            continue
+        au = w.get("authorships") or []
+        if disc.max_authors and len(au) >= disc.max_authors:
+            continue
+        mine = next((a for a in au if short_id((a.get("author") or {}).get("id")) == author_id), None)
+        if not mine:
+            continue
+        senior = mine.get("author_position") == "last" or bool(mine.get("is_corresponding"))
+        n += senior or disc.position_agnostic or (disc.alphabetical_counts and alphabetical(au))
+    return n
+
+
+def roster_tiebreak(oa: OpenAlex, fac: FacultyRecord, cands: list[CandidateEvidence]
+                    ) -> tuple[Optional[CandidateEvidence], str]:
+    strong = [c for c in cands if c.strong]
+    orcids = {c.orcid for c in strong}
+    if len(orcids) == 1 and None not in orcids:
+        big = max(strong, key=lambda c: c.works_count)
+        return big, f"split OpenAlex profiles with one ORCID; largest chosen ({big.works_count} works)"
+    disc = discipline_of(fac)
+    counts = {c.openalex_id: pi_paper_count(oa, c.openalex_id, disc) for c in strong}
+    for c in strong:
+        c.pi_papers = counts[c.openalex_id]
+    top, *rest = sorted(strong, key=lambda c: counts[c.openalex_id], reverse=True)
+    best = counts[top.openalex_id]
+    if best >= disc.min_papers and all(best >= 3 * counts[c.openalex_id] for c in rest):
+        return top, ("only candidate leading papers in the window "
+                     f"({best} vs {', '.join(str(counts[c.openalex_id]) for c in rest)})")
+    return None, f"{len(strong)} strong candidates; papers led {sorted(counts.values(), reverse=True)}"
+
+
+def match_one(oa: OpenAlex, fac: FacultyRecord, inst_id: str, roster: Optional[Roster] = None) -> MatchResult:
+    dept = config.DEPT_BY_CODE[fac.dept]
     authors: dict[str, dict] = {}
-    if fac.name_en:
+    if roster is not None:
+        for a in roster.candidates(fac.name_en, fac.name_ko):
+            authors.setdefault(short_id(a["id"]), a)
+    if fac.name_en and not authors:  # search mode, or nobody in the roster: OpenAlex name search
         queries = search_variants(fac.name_en)
         toks = fac.name_en.replace(",", " ").split()
         if not fac.name_ko and len(toks) >= 3:  # foreign faculty: "Robert James Mitchell" -> "Robert Mitchell"
@@ -181,7 +245,9 @@ def match_one(oa: OpenAlex, fac: FacultyRecord, inst_id: str) -> MatchResult:
         for q in queries:
             for a in oa.search_authors(q, inst_id):
                 authors.setdefault(short_id(a["id"]), a)
-    hits, _resolved = anchor_authors(oa, fac, inst_id) if fac.anchor_citations else ({}, 0)
+    # roster mode reads faculty-page publications only when the page gives no English name
+    use_anchors = bool(fac.anchor_citations) and (roster is None or not fac.name_en)
+    hits, _resolved = anchor_authors(oa, fac, inst_id, dept.max_anchor_papers) if use_anchors else ({}, 0)
     for aid in hits:
         if aid not in authors:
             full, _ = oa.author(aid)
@@ -192,7 +258,13 @@ def match_one(oa: OpenAlex, fac: FacultyRecord, inst_id: str) -> MatchResult:
     cands = [c for c in cands if c.name_ok or c.anchor_hits or c.affiliation_ok]
     cands.sort(key=lambda c: (c.strong, c.anchor_hits, c.affiliation_ok, c.works_count), reverse=True)
     chosen, reason, detail = decide(fac, cands)
-    base = dict(univ=fac.univ, name_ko=fac.name_ko, name_en=fac.name_en,
+    if roster is not None and reason == "ambiguous_multiple_candidates":
+        picked, why = roster_tiebreak(oa, fac, cands)
+        if picked:
+            chosen, reason, detail = picked, None, why
+        else:
+            detail = why
+    base = dict(univ=fac.univ, dept=fac.dept, name_ko=fac.name_ko, name_en=fac.name_en,
                 faculty_page_url=fac.faculty_page_url, candidates=cands[:8],
                 institution_id=inst_id, retrieved_at=config.TODAY)
     if chosen:
@@ -206,22 +278,33 @@ def run(client: CachedClient) -> None:
     oa = OpenAlex(client)
     inst = read_json(config.OUTPUT_DIR / "institutions.json")
     faculty = [FacultyRecord(**r) for r in read_json(config.OUTPUT_DIR / "faculty.json")]
+    rosters: dict[str, Roster] = {}
+
+    def roster_for(fac: FacultyRecord) -> Optional[Roster]:
+        if config.DEPT_BY_CODE[fac.dept].matching != "roster":
+            return None
+        iid = inst[fac.univ]["id"]
+        if iid not in rosters:
+            rosters[iid] = Roster(load_roster(oa, iid)[0])
+        return rosters[iid]
+
     results: list[MatchResult] = []
     for i, fac in enumerate(faculty, 1):
-        label = f"{fac.univ} {fac.name_ko or ''} {fac.name_en or ''}".strip()
+        label = f"{fac.dept} {fac.name_ko or ''} {fac.name_en or ''}".strip()
         if not fac.is_full_time:
             results.append(MatchResult(
-                univ=fac.univ, name_ko=fac.name_ko, name_en=fac.name_en,
+                univ=fac.univ, dept=fac.dept, name_ko=fac.name_ko, name_en=fac.name_en,
                 faculty_page_url=fac.faculty_page_url, status="excluded", reason="not_full_time",
                 detail=f"position: {fac.position_raw}", retrieved_at=config.TODAY))
             continue
+        roster = roster_for(fac)  # a failed roster download aborts the step instead of excluding professors
         try:
-            r = match_one(oa, fac, inst[fac.univ]["id"])
+            r = match_one(oa, fac, inst[fac.univ]["id"], roster)
         except QuotaExceeded:
             raise  # never record a quota stop as an exclusion
         except Exception as e:
             log.exception("match failed for %s", label)
-            r = MatchResult(univ=fac.univ, name_ko=fac.name_ko, name_en=fac.name_en,
+            r = MatchResult(univ=fac.univ, dept=fac.dept, name_ko=fac.name_ko, name_en=fac.name_en,
                             faculty_page_url=fac.faculty_page_url, status="excluded",
                             reason="no_candidate", detail=f"error: {e}", retrieved_at=config.TODAY)
         results.append(r)

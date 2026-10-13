@@ -8,7 +8,6 @@ from ...schemas import FacultyRecord
 from ..names import normalize_position
 from .base import abs_url, clean_email, soup, text
 
-DEPT = config.DEPT_BY_UNIV["dgist"]
 
 
 def parse_list(html: str, base_url: str) -> list[dict]:
@@ -47,13 +46,13 @@ def parse_list(html: str, base_url: str) -> list[dict]:
     return out
 
 
-def collect(client) -> list[FacultyRecord]:
-    html, url, day = client.get_html(DEPT.faculty_list_url)
+def collect(client, dept: config.Department) -> list[FacultyRecord]:
+    html, url, day = client.get_html(dept.faculty_list_url)
     records = []
     for r in parse_list(html, url):
         pos_raw = r["position_raw"]
         records.append(FacultyRecord(
-            univ="dgist", name_ko=r["name_ko"], name_en=r["name_en"],
+            univ=dept.univ, dept=dept.code, name_ko=r["name_ko"], name_en=r["name_en"],
             position_raw=f"{r['status'] or ''} {pos_raw or ''}".strip() or None,
             position=normalize_position(pos_raw),
             is_full_time=(r["status"] == "전임교원"),

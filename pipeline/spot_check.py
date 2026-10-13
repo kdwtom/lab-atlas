@@ -1,7 +1,8 @@
 """Spot check: compare N random labs with their live sources (stage 6).
 
     python -m pipeline.run --steps spotcheck            # 10 labs, seed 2026
-    (env SPOTCHECK_N / SPOTCHECK_SEED override)
+    (env SPOTCHECK_N / SPOTCHECK_SEED override; SPOTCHECK_SCOPE=phase1 samples only the labs of the fields added
+    in phase 1 and writes docs/verification-phase1.md)
 
 Per lab, everything is fetched live (no cache):
 - 소속: the cited faculty page (detail page if we have one) still lists the PI's Korean or English name
@@ -9,7 +10,8 @@ Per lab, everything is fetched live (no cache):
 - 논문: each representative paper's OpenAlex record still lists the PI as an author, with the same DOI,
   year and title, and the PI role (last / corresponding) the site claims
 - 논문 수: live OpenAlex count of article+review in the window, minus the namesake papers excluded after
-  manual review (curation/excluded_papers.csv), vs the site
+  manual review (curation/excluded_papers.csv), vs the site; fields that drop large collaborations
+  (config.DISCIPLINES max_authors) count the live works below that author count
 - 링크: homepage and faculty page respond
 Writes docs/verification.md.
 """
@@ -107,7 +109,7 @@ def _check_papers(live: LiveClient, lab: dict, papers: dict[str, dict]) -> tuple
             role = p["pi_roles"].get(lab["id"], {})
             last = mine[0]["author_position"] == "last"
             corr = bool(mine[0].get("is_corresponding"))
-            if not (last or corr):
+            if not (last or corr or role.get("order_agnostic")):
                 issues.append("마지막/교신 아님")
             elif role and (role.get("position") == "last") != last:
                 issues.append("저자 순서 변경")
@@ -133,14 +135,29 @@ def _excluded_counts() -> Counter:
         return Counter(r["lab_id"] for r in csv.DictReader(f))
 
 
+def _live_count(live: LiveClient, lab: dict, max_authors: int | None) -> int | None:
+    types = "|".join(sorted(config.DISCIPLINES[lab["disciplines"][0]].work_types))
+    flt = f"author.id:{lab['openalex_id']},publication_year:{config.YEAR_FROM}-{config.YEAR_TO},type:{types}"
+    if not max_authors:
+        data = _oa(live, "works", filter=flt, **{"per-page": 1})
+        return data["meta"]["count"] if data else None
+    n, cursor = 0, "*"
+    while cursor:
+        data = _oa(live, "works", filter=flt, select="id,authorships", cursor=cursor, **{"per-page": 200})
+        if not data:
+            return None
+        n += sum(len(w.get("authorships") or []) < max_authors for w in data["results"])
+        cursor = data["meta"].get("next_cursor") if data["results"] else None
+    return n
+
+
 def _check_count(live: LiveClient, lab: dict, excluded: int) -> tuple[str, str]:
-    data = _oa(live, "works", filter=f"author.id:{lab['openalex_id']},"
-               f"publication_year:{config.YEAR_FROM}-{config.YEAR_TO},type:article|review", **{"per-page": 1})
-    if not data:
+    max_authors = config.DISCIPLINES[lab["disciplines"][0]].max_authors
+    n = _live_count(live, lab, max_authors)
+    if n is None:
         return FAIL, "조회 실패"
-    n = data["meta"]["count"]
     site = lab["paper_count_5y"]
-    text = f"사이트 {site} / OpenAlex 현재 {n}"
+    text = f"사이트 {site} / OpenAlex 현재 {n}" + (f"(저자 {max_authors}명 미만)" if max_authors else "")
     if excluded:
         text += f" − 제외 {excluded} = {n - excluded}"
     mark = OK if n - excluded == site else (WARN if n - excluded > site else FAIL)
@@ -167,6 +184,9 @@ def run(client=None) -> None:
     seed = int(os.environ.get("SPOTCHECK_SEED", 2026))
     d = config.WEB_DATA_DIR
     labs = read_json(d / "labs.json")
+    phase1 = os.environ.get("SPOTCHECK_SCOPE") == "phase1"
+    if phase1:
+        labs = [l for l in labs if l["disciplines"][0] != "life"]
     papers = {p["id"]: p for p in read_json(d / "papers.json")}
     inst = read_json(config.OUTPUT_DIR / "institutions.json")
     sample = random.Random(seed).sample(sorted(labs, key=lambda l: l["id"]), min(n, len(labs)))
@@ -184,20 +204,22 @@ def run(client=None) -> None:
         rows.append((lab, res))
         log.info("%s %s: %s", lab["id"], lab["pi_name_ko"], " | ".join(f"{m} {t}" for m, t in res))
 
-    md = ["# 무작위 연구실 10개 출처 대조", "",
+    title = "# 1단계(화학·물리·수학·컴퓨터) 무작위 연구실 출처 대조" if phase1 else "# 무작위 연구실 10개 출처 대조"
+    md = [title, "",
           f"검사일 {date.today().isoformat()} · 표본 {len(sample)}개 (random seed {seed}) · "
-          f"`python -m pipeline.run --steps spotcheck`로 재현. 모든 항목을 캐시 없이 실시간으로 조회했습니다.", "",
+          f"`{'SPOTCHECK_SCOPE=phase1 ' if phase1 else ''}python -m pipeline.run --steps spotcheck`로 재현. "
+          "모든 항목을 캐시 없이 실시간으로 조회했습니다.", "",
           "| 연구실 | " + " | ".join(c for c, _ in checks) + " |",
           "|---|" + "---|" * len(checks)]
     for lab, res in rows:
-        who = f"{lab['pi_name_ko'] or lab['pi_name_en']} ({lab['univ_name_ko']})<br>`{lab['id']}`"
+        who = f"{lab['pi_name_ko'] or lab['pi_name_en']} ({lab['univ_name_ko']} {lab['dept_name_ko']})<br>`{lab['id']}`"
         md.append(f"| {who} | " + " | ".join(f"{m} {t}".replace("|", "/") for m, t in res) + " |")
     tally = {c: sum(r[i][0] == OK for _, r in rows) for i, (c, _) in enumerate(checks)}
     md += ["", "통과(✅) 수: " + ", ".join(f"{c} {k}/{len(rows)}" for c, k in tally.items()), "",
            "범례: ✅ 일치 · ⚠️ 부분 일치/수동 확인 필요(봇 차단 등) · ❌ 불일치.",
            "논문 수: OpenAlex 현재 값에서 사람이 검토해 제외한 동명이인 논문(`pipeline/curation/excluded_papers.csv`)을 뺀 값이 "
            "사이트 값과 같으면 ✅. 수집 이후 OpenAlex에 새 논문이 추가되면 ⚠️가 될 수 있습니다.", ""]
-    out = config.ROOT / "docs" / "verification.md"
+    out = config.ROOT / "docs" / ("verification-phase1.md" if phase1 else "verification.md")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text("\n".join(md), encoding="utf-8")
     log.info("wrote %s", out.relative_to(config.ROOT))

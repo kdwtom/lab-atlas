@@ -37,7 +37,10 @@ export default function ExplorePage({ mode }: { mode: Mode }) {
     () => (ex.query.trim() ? new Set(filtered.filter((l) => matchesQuery(l, ex.query)).map((l) => l.id)) : null),
     [filtered, ex.query],
   );
-  const edges = useMemo(() => atlas.edges.filter((e) => e.type === ex.edgeMode), [atlas.edges, ex.edgeMode]);
+  const edges = useMemo(
+    () => atlas.edges.filter((e) => (ex.edgeMode === 'cross' ? e.cross : e.type === ex.edgeMode)),
+    [atlas.edges, ex.edgeMode],
+  );
   const listRows = matched ? filtered.filter((l) => matched.has(l.id)) : filtered;
 
   // desktop: click pins the lab in the panel, a second click opens its page; mobile: tap previews in the sheet

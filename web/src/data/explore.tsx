@@ -1,25 +1,31 @@
 import { createContext, useContext, useMemo, useState, type ReactNode } from 'react';
-import type { Edge, Lab, Univ } from '../types/data';
+import type { Discipline, Lab, Univ } from '../types/data';
 import { labTitle } from '../lib/format';
 
 export type View = 'graph' | 'list';
+/** similarity / coauthor edges, or only the edges between labs of different fields */
+export type EdgeMode = 'similarity' | 'coauthor' | 'cross';
 
 export interface ExploreState {
   view: View;
-  edgeMode: Edge['type'];
+  edgeMode: EdgeMode;
   query: string;
   univs: Set<Univ>;          // empty = all
+  fields: Set<Discipline>;   // empty = all
   clusters: Set<number>;     // empty = all
 }
 
 interface Ctx extends ExploreState {
   set: (patch: Partial<ExploreState>) => void;
   toggleUniv: (u: Univ) => void;
+  toggleField: (f: Discipline) => void;
   toggleCluster: (c: number) => void;
   reset: () => void;
 }
 
-const initial: ExploreState = { view: 'graph', edgeMode: 'similarity', query: '', univs: new Set(), clusters: new Set() };
+const initial: ExploreState = {
+  view: 'graph', edgeMode: 'similarity', query: '', univs: new Set(), fields: new Set(), clusters: new Set(),
+};
 const ExploreCtx = createContext<Ctx | null>(null);
 
 function toggled<T>(s: Set<T>, v: T): Set<T> {
@@ -36,6 +42,7 @@ export function ExploreProvider({ children }: { children: ReactNode }) {
     ...state,
     set: (patch) => setState((s) => ({ ...s, ...patch })),
     toggleUniv: (u) => setState((s) => ({ ...s, univs: toggled(s.univs, u) })),
+    toggleField: (f) => setState((s) => ({ ...s, fields: toggled(s.fields, f) })),
     toggleCluster: (c) => setState((s) => ({ ...s, clusters: toggled(s.clusters, c) })),
     reset: () => setState((s) => ({ ...initial, view: s.view, edgeMode: s.edgeMode })),
   }), [state]);
@@ -54,11 +61,12 @@ const norm = (s: string) => s.toLowerCase().replace(/[\s\-‐·]/g, '');
 export function matchesQuery(lab: Lab, query: string): boolean {
   const q = norm(query.trim());
   if (!q) return true;
-  const hay = [labTitle(lab), lab.pi_name_ko ?? '', lab.pi_name_en ?? '', ...lab.keywords].map(norm);
+  const hay = [labTitle(lab), lab.pi_name_ko ?? '', lab.pi_name_en ?? '', lab.dept_name_ko, ...lab.keywords].map(norm);
   return hay.some((h) => h.includes(q));
 }
 
-export function passesFilters(lab: Lab, s: Pick<ExploreState, 'univs' | 'clusters'>): boolean {
+export function passesFilters(lab: Lab, s: Pick<ExploreState, 'univs' | 'fields' | 'clusters'>): boolean {
   return (s.univs.size === 0 || s.univs.has(lab.univ)) &&
+    (s.fields.size === 0 || lab.disciplines.some((d) => s.fields.has(d))) &&
     (s.clusters.size === 0 || (lab.cluster_id !== null && s.clusters.has(lab.cluster_id)));
 }

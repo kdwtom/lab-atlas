@@ -21,7 +21,7 @@ def pick(results: list[dict], query: str) -> dict | None:
 def run(client: CachedClient) -> None:
     oa = OpenAlex(client)
     out = {}
-    for dept in config.DEPARTMENTS:
+    for dept in config.UNIVERSITIES.values():
         results = oa.search_institutions(dept.institution_query)
         best = pick(results, dept.institution_query)
         if not best:

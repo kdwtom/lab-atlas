@@ -9,7 +9,7 @@ INST = "I111"
 
 
 def fac(**kw):
-    base = dict(univ="kaist", is_full_time=True, faculty_list_url="u", faculty_page_url="u",
+    base = dict(univ="kaist", dept="kaist-life", is_full_time=True, faculty_list_url="u", faculty_page_url="u",
                 retrieved_at=date(2026, 10, 4))
     base.update(kw)
     return FacultyRecord(**base)

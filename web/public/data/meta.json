@@ -1,26 +1,278 @@
 {
-  "generated_at": "2026-10-05",
-  "data_retrieved_at": "2026-10-04",
+  "generated_at": "2026-10-12",
+  "data_retrieved_at": "2026-10-12",
   "window_years": [
     2022,
     2026
   ],
   "min_senior_papers": 5,
-  "louvain_resolution": 1.65,
+  "louvain_resolution": 1.7,
   "louvain_seed": 42,
   "similarity_k": 5,
-  "similarity_threshold": 0.8997,
+  "similarity_threshold": 0.9165,
   "counts": {
-    "labs": 106,
-    "papers": 1630,
-    "edges_similarity": 280,
-    "edges_coauthor": 164
+    "labs": 478,
+    "papers": 9374,
+    "edges_similarity": 1248,
+    "edges_coauthor": 642
   },
   "summary_coverage": {
-    "representative_papers": 311,
-    "papers_with_summary": 263,
-    "labs": 106,
+    "representative_papers": 1375,
+    "papers_with_summary": 266,
+    "labs": 478,
     "labs_with_intro": 90
   },
-  "excluded_namesake_papers": 317
+  "excluded_namesake_papers": 317,
+  "departments": [
+    {
+      "code": "kaist-life",
+      "univ": "kaist",
+      "univ_name_ko": "KAIST",
+      "name_ko": "생명과학과",
+      "discipline": "life",
+      "faculty_list_url": "https://bio.kaist.ac.kr/doc/ko/selectDocList.do?menuSeq=3344&bbsSeq=120",
+      "labs": 21
+    },
+    {
+      "code": "snu-life",
+      "univ": "snu",
+      "univ_name_ko": "서울대학교",
+      "name_ko": "생명과학부",
+      "discipline": "life",
+      "faculty_list_url": "https://biosci.snu.ac.kr/people/faculty",
+      "labs": 37
+    },
+    {
+      "code": "postech-life",
+      "univ": "postech",
+      "univ_name_ko": "POSTECH",
+      "name_ko": "생명과학과",
+      "discipline": "life",
+      "faculty_list_url": "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?srSearchKey=dept&srSearchVal=%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99%EA%B3%BC",
+      "labs": 16
+    },
+    {
+      "code": "unist-life",
+      "univ": "unist",
+      "univ_name_ko": "UNIST",
+      "name_ko": "생명과학과",
+      "discipline": "life",
+      "faculty_list_url": "https://www.unist.ac.kr/unist/research/search.do?mode=list&srSearchKey=dept&srSearchVal=%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99%EA%B3%BC",
+      "labs": 11
+    },
+    {
+      "code": "gist-life",
+      "univ": "gist",
+      "univ_name_ko": "GIST",
+      "name_ko": "생명과학과",
+      "discipline": "life",
+      "faculty_list_url": "https://life.gist.ac.kr/prog/gsMember/life/P/Faculty/sub05_01_01/list.do",
+      "labs": 12
+    },
+    {
+      "code": "dgist-life",
+      "univ": "dgist",
+      "univ_name_ko": "DGIST",
+      "name_ko": "뉴바이올로지학과",
+      "discipline": "life",
+      "faculty_list_url": "https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do",
+      "labs": 9
+    },
+    {
+      "code": "postech-chem",
+      "univ": "postech",
+      "univ_name_ko": "POSTECH",
+      "name_ko": "화학과",
+      "discipline": "chem",
+      "faculty_list_url": "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?srSearchKey=dept&srSearchVal=%ED%99%94%ED%95%99%EA%B3%BC",
+      "labs": 15
+    },
+    {
+      "code": "postech-phys",
+      "univ": "postech",
+      "univ_name_ko": "POSTECH",
+      "name_ko": "물리학과",
+      "discipline": "phys",
+      "faculty_list_url": "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?srSearchKey=dept&srSearchVal=%EB%AC%BC%EB%A6%AC%ED%95%99%EA%B3%BC",
+      "labs": 14
+    },
+    {
+      "code": "postech-math",
+      "univ": "postech",
+      "univ_name_ko": "POSTECH",
+      "name_ko": "수학과",
+      "discipline": "math",
+      "faculty_list_url": "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?srSearchKey=dept&srSearchVal=%EC%88%98%ED%95%99%EA%B3%BC",
+      "labs": 11
+    },
+    {
+      "code": "postech-cs",
+      "univ": "postech",
+      "univ_name_ko": "POSTECH",
+      "name_ko": "컴퓨터공학과",
+      "discipline": "cs",
+      "faculty_list_url": "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?srSearchKey=dept&srSearchVal=%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC",
+      "labs": 13
+    },
+    {
+      "code": "unist-chem",
+      "univ": "unist",
+      "univ_name_ko": "UNIST",
+      "name_ko": "화학과",
+      "discipline": "chem",
+      "faculty_list_url": "https://www.unist.ac.kr/unist/research/search.do?mode=list&srSearchKey=dept&srSearchVal=%ED%99%94%ED%95%99%EA%B3%BC",
+      "labs": 19
+    },
+    {
+      "code": "unist-phys",
+      "univ": "unist",
+      "univ_name_ko": "UNIST",
+      "name_ko": "물리학과",
+      "discipline": "phys",
+      "faculty_list_url": "https://www.unist.ac.kr/unist/research/search.do?mode=list&srSearchKey=dept&srSearchVal=%EB%AC%BC%EB%A6%AC%ED%95%99%EA%B3%BC",
+      "labs": 9
+    },
+    {
+      "code": "unist-math",
+      "univ": "unist",
+      "univ_name_ko": "UNIST",
+      "name_ko": "수리과학과",
+      "discipline": "math",
+      "faculty_list_url": "https://www.unist.ac.kr/unist/research/search.do?mode=list&srSearchKey=dept&srSearchVal=%EC%88%98%EB%A6%AC%EA%B3%BC%ED%95%99%EA%B3%BC",
+      "labs": 11
+    },
+    {
+      "code": "unist-cs",
+      "univ": "unist",
+      "univ_name_ko": "UNIST",
+      "name_ko": "컴퓨터공학과",
+      "discipline": "cs",
+      "faculty_list_url": "https://www.unist.ac.kr/unist/research/search.do?mode=list&srSearchKey=dept&srSearchVal=%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC",
+      "labs": 6
+    },
+    {
+      "code": "kaist-chem",
+      "univ": "kaist",
+      "univ_name_ko": "KAIST",
+      "name_ko": "화학과",
+      "discipline": "chem",
+      "faculty_list_url": "https://chem.kaist.ac.kr/faculty",
+      "labs": 30
+    },
+    {
+      "code": "kaist-phys",
+      "univ": "kaist",
+      "univ_name_ko": "KAIST",
+      "name_ko": "물리학과",
+      "discipline": "phys",
+      "faculty_list_url": "https://physics.kaist.ac.kr/index.php?mid=p_people1&category=193",
+      "labs": 31
+    },
+    {
+      "code": "kaist-math",
+      "univ": "kaist",
+      "univ_name_ko": "KAIST",
+      "name_ko": "수리과학과",
+      "discipline": "math",
+      "faculty_list_url": "https://mathsci.kaist.ac.kr/home/people/professor/",
+      "labs": 23
+    },
+    {
+      "code": "kaist-cs",
+      "univ": "kaist",
+      "univ_name_ko": "KAIST",
+      "name_ko": "전산학부",
+      "discipline": "cs",
+      "faculty_list_url": "https://cs.kaist.ac.kr/people/faculty",
+      "labs": 32
+    },
+    {
+      "code": "gist-chem",
+      "univ": "gist",
+      "univ_name_ko": "GIST",
+      "name_ko": "화학과",
+      "discipline": "chem",
+      "faculty_list_url": "https://chem.gist.ac.kr/prog/gsMember/chem/P/Faculty/sub05_01_01/list.do",
+      "labs": 23
+    },
+    {
+      "code": "gist-math",
+      "univ": "gist",
+      "univ_name_ko": "GIST",
+      "name_ko": "수리과학과",
+      "discipline": "math",
+      "faculty_list_url": "https://math.gist.ac.kr/prog/gsMember/math/P/Faculty/sub03_01_01/list.do",
+      "labs": 4
+    },
+    {
+      "code": "snu-chem",
+      "univ": "snu",
+      "univ_name_ko": "서울대학교",
+      "name_ko": "화학부",
+      "discipline": "chem",
+      "faculty_list_url": "https://chem.snu.ac.kr/research-faculty/faculty/fulltime",
+      "labs": 30
+    },
+    {
+      "code": "snu-phys",
+      "univ": "snu",
+      "univ_name_ko": "서울대학교",
+      "name_ko": "물리천문학부",
+      "discipline": "phys",
+      "faculty_list_url": "https://physics.snu.ac.kr/research-faculty/faculty/fulltime",
+      "labs": 21
+    },
+    {
+      "code": "snu-math",
+      "univ": "snu",
+      "univ_name_ko": "서울대학교",
+      "name_ko": "수리과학부",
+      "discipline": "math",
+      "faculty_list_url": "https://www.math.snu.ac.kr/bbs/page.php?hid=professor",
+      "labs": 22
+    },
+    {
+      "code": "snu-cs",
+      "univ": "snu",
+      "univ_name_ko": "서울대학교",
+      "name_ko": "컴퓨터공학부",
+      "discipline": "cs",
+      "faculty_list_url": "https://cse.snu.ac.kr/ko/people/faculty",
+      "labs": 26
+    },
+    {
+      "code": "gist-phys",
+      "univ": "gist",
+      "univ_name_ko": "GIST",
+      "name_ko": "물리·광과학과",
+      "discipline": "phys",
+      "faculty_list_url": "https://physics.gist.ac.kr/people/faculty-staff/",
+      "labs": 12
+    },
+    {
+      "code": "dgist-chem",
+      "univ": "dgist",
+      "univ_name_ko": "DGIST",
+      "name_ko": "화학 트랙",
+      "discipline": "chem",
+      "faculty_list_url": "https://www.dgist.ac.kr/prog/trackProfsr/chem/sub02_01/list.do",
+      "labs": 12
+    },
+    {
+      "code": "dgist-phys",
+      "univ": "dgist",
+      "univ_name_ko": "DGIST",
+      "name_ko": "물리 트랙",
+      "discipline": "phys",
+      "faculty_list_url": "https://sites.google.com/view/physics-at-dgist/member",
+      "labs": 10
+    }
+  ],
+  "rules": {
+    "life": "마지막/교신저자 논문 5편 이상",
+    "chem": "마지막/교신저자 논문 5편 이상",
+    "phys": "마지막/교신저자 논문 5편 이상, 저자 100명 이상 논문 제외",
+    "math": "저자 순서 무관 논문 4편 이상",
+    "cs": "마지막/교신저자 또는 알파벳 순 저자(3인 이상) 논문 5편 이상, 학회 논문 포함, 저자 100명 이상 논문 제외"
+  }
 }

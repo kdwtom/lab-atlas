@@ -15,8 +15,9 @@ def role(p: dict, lab_id: str) -> dict:
 
 
 def is_senior(p: dict, lab_id: str) -> bool:
+    """Last/corresponding author, or credited under the field's alphabetical-order rule."""
     r = role(p, lab_id)
-    return r["position"] == "last" or r["is_corresponding"]
+    return r["position"] == "last" or r["is_corresponding"] or r.get("order_agnostic", False)
 
 
 def in_analysis_set(p: dict, lab_id: str) -> bool:

@@ -8,7 +8,6 @@ from ...schemas import FacultyRecord
 from ..names import normalize_position
 from .base import abs_url, clean_email, find_orcid, soup, text
 
-DEPT = config.DEPT_BY_UNIV["kaist"]
 DETAIL = "https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq={seq}&menuSeq=3344&bbsSeq=120"
 
 
@@ -62,8 +61,8 @@ def parse_detail(html: str, base_url: str) -> dict:
             "position_raw": pos, "orcid": find_orcid(html)}
 
 
-def collect(client) -> list[FacultyRecord]:
-    html, url, day = client.get_html(DEPT.faculty_list_url)
+def collect(client, dept: config.Department) -> list[FacultyRecord]:
+    html, url, day = client.get_html(dept.faculty_list_url)
     rows = parse_list(html)
     records = []
     for r in rows:
@@ -74,7 +73,7 @@ def collect(client) -> list[FacultyRecord]:
             d = parse_detail(dhtml, detail_url)
         pos_raw = r["position_raw"] or d.get("position_raw")
         records.append(FacultyRecord(
-            univ="kaist", name_ko=r["name_ko"], name_en=r["name_en"],
+            univ=dept.univ, dept=dept.code, name_ko=r["name_ko"], name_en=r["name_en"],
             position_raw=pos_raw, position=normalize_position(pos_raw),
             is_full_time=True,  # page = 전임교수 roster
             lab_name=d.get("lab_name"), homepage_url=d.get("homepage_url"), email=r["email"],

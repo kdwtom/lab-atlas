@@ -41,3 +41,14 @@ def clean_email(s: Optional[str]) -> Optional[str]:
         return None
     s = s.replace("mailto:", "").strip().lower()
     return s if "@" in s else None
+
+
+def flip_comma_name(name: Optional[str]) -> Optional[str]:
+    """'Kang, Chanhee' -> 'Chanhee Kang'; names without a comma are returned unchanged."""
+    if not name:
+        return None
+    name = re.sub(r"\s+", " ", name).strip(" ,")
+    if "," in name:
+        last, first = [p.strip() for p in name.split(",", 1)]
+        name = f"{first} {last}".strip()
+    return name or None

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import type { Edge, Lab } from '../types/data';
 import { useAtlas } from '../data/DataContext';
 import { NA, affiliation, piName } from '../lib/format';
-import { clusterColor, type Mode } from '../lib/palette';
+import { FIELD_LABEL, fieldColor, type Mode } from '../lib/palette';
 
 interface Props {
   lab: Lab | null;
@@ -13,14 +13,22 @@ interface Props {
   onClose?: () => void;
 }
 
-export function ClusterChip({ id, mode }: { id: number | null; mode: Mode }) {
+export function ClusterChip({ id }: { id: number | null }) {
   const atlas = useAtlas();
   const c = id === null ? undefined : atlas.clusterById.get(id);
+  return <span className="cluster-chip" title="연구 주제 클러스터">{c ? c.label_ko : NA}</span>;
+}
+
+export function FieldChips({ lab, mode }: { lab: Lab; mode: Mode }) {
   return (
-    <span className="cluster-chip">
-      <span className="dot" style={{ background: clusterColor(id, mode) }} aria-hidden="true" />
-      {c ? c.label_ko : NA}
-    </span>
+    <>
+      {lab.disciplines.map((d) => (
+        <span key={d} className="cluster-chip" title="학과 분야">
+          <span className="dot" style={{ background: fieldColor(d, mode) }} aria-hidden="true" />
+          {FIELD_LABEL[d]}
+        </span>
+      ))}
+    </>
   );
 }
 
@@ -61,8 +69,8 @@ export default function LabPanel({ lab, edge, mode, sheet, pinned, onClose }: Pr
           <p className="eyebrow">연구실 지형도</p>
           <h2 className="panel-title">비슷한 연구를 하는 연구실을 한눈에</h2>
           <p>
-            국내 6개 생명과학 학과의 연구실 {m.counts.labs}곳을 최근 논문의 내용으로 배치했습니다.
-            가까이 있거나 선으로 이어진 연구실일수록 연구 주제가 비슷합니다.
+            국내 6개 대학 생명과학·화학·물리·수학·컴퓨터 학과의 연구실 {m.counts.labs}곳을 최근 논문의 내용으로
+            배치했습니다. 가까이 있거나 선으로 이어진 연구실일수록 연구 주제가 비슷하고, 색은 분야를 나타냅니다.
           </p>
           <ul className="hint">
             <li>노드에 마우스를 올리면 연구실 정보가 여기에 표시되고, 마우스를 옮겨도 남아 있어 스크롤할 수 있습니다.</li>
@@ -71,7 +79,7 @@ export default function LabPanel({ lab, edge, mode, sheet, pinned, onClose }: Pr
             <li>선에 마우스를 올리면 연결 이유를 볼 수 있습니다.</li>
           </ul>
           <p className="muted small">
-            {m.window_years[0]}–{m.window_years[1]}년 마지막·교신저자 논문 {m.min_senior_papers}편 이상 기준 ·{' '}
+            {m.window_years[0]}–{m.window_years[1]}년 논문 기준(분야별로 다름) ·{' '}
             <Link to="/about">방법론 보기</Link>
           </p>
         </div>
@@ -96,7 +104,7 @@ export default function LabPanel({ lab, edge, mode, sheet, pinned, onClose }: Pr
           {piName(lab)}
           {lab.pi_name_en && lab.pi_name_ko && <span className="en"> {lab.pi_name_en}</span>}
         </h2>
-        <ClusterChip id={lab.cluster_id} mode={mode} />
+        <div className="chip-row"><FieldChips lab={lab} mode={mode} /><ClusterChip id={lab.cluster_id} /></div>
         {sheet && <Link className="btn btn-top" to={`/lab/${encodeURIComponent(lab.id)}`}>상세 페이지 보기</Link>}
         <h3>핵심 키워드</h3>
         {lab.keywords.length ? <ul className="tags">{lab.keywords.slice(0, 5).map((k) => <li key={k}>{k}</li>)}</ul>

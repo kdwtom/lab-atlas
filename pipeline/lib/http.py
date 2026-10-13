@@ -83,8 +83,11 @@ class CachedClient:
         cache_key_exclude: tuple[str, ...] = ("mailto",),
         retries: int = 4,
         allow_404: bool = False,
+        store: bool = True,
     ) -> dict[str, Any]:
-        """Return cached entry: {url, status, body(text), fetched_at}."""
+        """Return cached entry: {url, status, body(text), fetched_at}.
+
+        store=False skips writing the response to the cache (callers that keep their own compact copy)."""
         full_url = self.build_url(url, params)
         key_params = {k: v for k, v in (params or {}).items() if k not in cache_key_exclude}
         key = method + " " + self.build_url(url, key_params)
@@ -136,8 +139,9 @@ class CachedClient:
                 "fetched_at": datetime.now().isoformat(timespec="seconds"),
                 "body": resp.text,
             }
-            path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_text(json.dumps(entry, ensure_ascii=False), encoding="utf-8")
+            if store:
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps(entry, ensure_ascii=False), encoding="utf-8")
             return entry
         self.stats["errors"] += 1
         raise FetchError(f"giving up on {full_url}: {last_err}")

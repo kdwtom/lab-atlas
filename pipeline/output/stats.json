@@ -7,6 +7,8 @@
   "funnel": [
     {
       "univ": "kaist",
+      "code": "kaist-life",
+      "discipline": "life",
       "dept": "KAIST 생명과학과",
       "listed": 39,
       "full_time": 39,
@@ -17,6 +19,8 @@
     },
     {
       "univ": "snu",
+      "code": "snu-life",
+      "discipline": "life",
       "dept": "서울대학교 생명과학부",
       "listed": 50,
       "full_time": 50,
@@ -27,6 +31,8 @@
     },
     {
       "univ": "postech",
+      "code": "postech-life",
+      "discipline": "life",
       "dept": "POSTECH 생명과학과",
       "listed": 29,
       "full_time": 29,
@@ -37,6 +43,8 @@
     },
     {
       "univ": "unist",
+      "code": "unist-life",
+      "discipline": "life",
       "dept": "UNIST 생명과학과",
       "listed": 18,
       "full_time": 18,
@@ -47,6 +55,8 @@
     },
     {
       "univ": "gist",
+      "code": "gist-life",
+      "discipline": "life",
       "dept": "GIST 생명과학과",
       "listed": 21,
       "full_time": 21,
@@ -57,6 +67,8 @@
     },
     {
       "univ": "dgist",
+      "code": "dgist-life",
+      "discipline": "life",
       "dept": "DGIST 뉴바이올로지학과",
       "listed": 23,
       "full_time": 21,
@@ -64,27 +76,280 @@
       "matched_high": 0,
       "meets_criterion": 9,
       "blocked": false
+    },
+    {
+      "univ": "postech",
+      "code": "postech-chem",
+      "discipline": "chem",
+      "dept": "POSTECH 화학과",
+      "listed": 21,
+      "full_time": 21,
+      "matched": 17,
+      "matched_high": 15,
+      "meets_criterion": 15,
+      "blocked": false
+    },
+    {
+      "univ": "postech",
+      "code": "postech-phys",
+      "discipline": "phys",
+      "dept": "POSTECH 물리학과",
+      "listed": 25,
+      "full_time": 25,
+      "matched": 19,
+      "matched_high": 14,
+      "meets_criterion": 14,
+      "blocked": false
+    },
+    {
+      "univ": "postech",
+      "code": "postech-math",
+      "discipline": "math",
+      "dept": "POSTECH 수학과",
+      "listed": 21,
+      "full_time": 21,
+      "matched": 14,
+      "matched_high": 12,
+      "meets_criterion": 11,
+      "blocked": false
+    },
+    {
+      "univ": "postech",
+      "code": "postech-cs",
+      "discipline": "cs",
+      "dept": "POSTECH 컴퓨터공학과",
+      "listed": 17,
+      "full_time": 17,
+      "matched": 15,
+      "matched_high": 9,
+      "meets_criterion": 13,
+      "blocked": false
+    },
+    {
+      "univ": "unist",
+      "code": "unist-chem",
+      "discipline": "chem",
+      "dept": "UNIST 화학과",
+      "listed": 25,
+      "full_time": 25,
+      "matched": 23,
+      "matched_high": 0,
+      "meets_criterion": 19,
+      "blocked": false
+    },
+    {
+      "univ": "unist",
+      "code": "unist-phys",
+      "discipline": "phys",
+      "dept": "UNIST 물리학과",
+      "listed": 17,
+      "full_time": 17,
+      "matched": 15,
+      "matched_high": 0,
+      "meets_criterion": 9,
+      "blocked": false
+    },
+    {
+      "univ": "unist",
+      "code": "unist-math",
+      "discipline": "math",
+      "dept": "UNIST 수리과학과",
+      "listed": 16,
+      "full_time": 16,
+      "matched": 13,
+      "matched_high": 0,
+      "meets_criterion": 11,
+      "blocked": false
+    },
+    {
+      "univ": "unist",
+      "code": "unist-cs",
+      "discipline": "cs",
+      "dept": "UNIST 컴퓨터공학과",
+      "listed": 14,
+      "full_time": 14,
+      "matched": 10,
+      "matched_high": 0,
+      "meets_criterion": 6,
+      "blocked": false
+    },
+    {
+      "univ": "kaist",
+      "code": "kaist-chem",
+      "discipline": "chem",
+      "dept": "KAIST 화학과",
+      "listed": 34,
+      "full_time": 34,
+      "matched": 31,
+      "matched_high": 0,
+      "meets_criterion": 30,
+      "blocked": false
+    },
+    {
+      "univ": "kaist",
+      "code": "kaist-phys",
+      "discipline": "phys",
+      "dept": "KAIST 물리학과",
+      "listed": 39,
+      "full_time": 39,
+      "matched": 33,
+      "matched_high": 0,
+      "meets_criterion": 31,
+      "blocked": false
+    },
+    {
+      "univ": "kaist",
+      "code": "kaist-math",
+      "discipline": "math",
+      "dept": "KAIST 수리과학과",
+      "listed": 34,
+      "full_time": 34,
+      "matched": 28,
+      "matched_high": 0,
+      "meets_criterion": 24,
+      "blocked": false
+    },
+    {
+      "univ": "kaist",
+      "code": "kaist-cs",
+      "discipline": "cs",
+      "dept": "KAIST 전산학부",
+      "listed": 50,
+      "full_time": 50,
+      "matched": 34,
+      "matched_high": 0,
+      "meets_criterion": 32,
+      "blocked": false
+    },
+    {
+      "univ": "gist",
+      "code": "gist-chem",
+      "discipline": "chem",
+      "dept": "GIST 화학과",
+      "listed": 27,
+      "full_time": 27,
+      "matched": 24,
+      "matched_high": 0,
+      "meets_criterion": 23,
+      "blocked": false
+    },
+    {
+      "univ": "gist",
+      "code": "gist-math",
+      "discipline": "math",
+      "dept": "GIST 수리과학과",
+      "listed": 8,
+      "full_time": 8,
+      "matched": 6,
+      "matched_high": 0,
+      "meets_criterion": 4,
+      "blocked": false
+    },
+    {
+      "univ": "snu",
+      "code": "snu-chem",
+      "discipline": "chem",
+      "dept": "서울대학교 화학부",
+      "listed": 37,
+      "full_time": 37,
+      "matched": 32,
+      "matched_high": 0,
+      "meets_criterion": 30,
+      "blocked": false
+    },
+    {
+      "univ": "snu",
+      "code": "snu-phys",
+      "discipline": "phys",
+      "dept": "서울대학교 물리천문학부",
+      "listed": 40,
+      "full_time": 40,
+      "matched": 30,
+      "matched_high": 0,
+      "meets_criterion": 21,
+      "blocked": false
+    },
+    {
+      "univ": "snu",
+      "code": "snu-math",
+      "discipline": "math",
+      "dept": "서울대학교 수리과학부",
+      "listed": 37,
+      "full_time": 37,
+      "matched": 30,
+      "matched_high": 0,
+      "meets_criterion": 22,
+      "blocked": false
+    },
+    {
+      "univ": "snu",
+      "code": "snu-cs",
+      "discipline": "cs",
+      "dept": "서울대학교 컴퓨터공학부",
+      "listed": 49,
+      "full_time": 38,
+      "matched": 29,
+      "matched_high": 0,
+      "meets_criterion": 26,
+      "blocked": false
+    },
+    {
+      "univ": "gist",
+      "code": "gist-phys",
+      "discipline": "phys",
+      "dept": "GIST 물리·광과학과",
+      "listed": 25,
+      "full_time": 14,
+      "matched": 14,
+      "matched_high": 0,
+      "meets_criterion": 12,
+      "blocked": false
+    },
+    {
+      "univ": "dgist",
+      "code": "dgist-chem",
+      "discipline": "chem",
+      "dept": "DGIST 화학 트랙",
+      "listed": 15,
+      "full_time": 14,
+      "matched": 14,
+      "matched_high": 0,
+      "meets_criterion": 12,
+      "blocked": false
+    },
+    {
+      "univ": "dgist",
+      "code": "dgist-phys",
+      "discipline": "phys",
+      "dept": "DGIST 물리 트랙",
+      "listed": 15,
+      "full_time": 13,
+      "matched": 12,
+      "matched_high": 0,
+      "meets_criterion": 10,
+      "blocked": false
     }
   ],
   "total": {
-    "listed": 180,
-    "full_time": 178,
-    "matched": 151,
-    "matched_high": 67,
-    "meets_criterion": 106
+    "listed": 746,
+    "full_time": 719,
+    "matched": 594,
+    "matched_high": 117,
+    "meets_criterion": 481
   },
+  "labs_total": 479,
   "excluded_by_reason": {
-    "ambiguous_multiple_candidates": 9,
-    "below_paper_threshold": 45,
-    "affiliation_mismatch": 1,
-    "topic_mismatch": 8,
-    "no_candidate": 5,
-    "name_mismatch": 3,
-    "no_english_name_no_anchor": 1,
-    "not_full_time": 2
+    "ambiguous_multiple_candidates": 37,
+    "below_paper_threshold": 113,
+    "affiliation_mismatch": 3,
+    "topic_mismatch": 27,
+    "no_candidate": 18,
+    "name_mismatch": 33,
+    "no_english_name_no_anchor": 7,
+    "not_full_time": 27
   },
-  "excluded_by_univ_reason": {
-    "kaist": {
+  "excluded_by_dept_reason": {
+    "kaist-life": {
       "ambiguous_multiple_candidates": 4,
       "below_paper_threshold": 9,
       "affiliation_mismatch": 1,
@@ -92,45 +357,170 @@
       "no_candidate": 1,
       "name_mismatch": 1
     },
-    "snu": {
+    "snu-life": {
       "name_mismatch": 1,
       "below_paper_threshold": 10,
       "topic_mismatch": 2
     },
-    "postech": {
+    "postech-life": {
       "below_paper_threshold": 8,
       "no_candidate": 3,
       "no_english_name_no_anchor": 1,
       "ambiguous_multiple_candidates": 1
     },
-    "unist": {
+    "unist-life": {
       "ambiguous_multiple_candidates": 2,
       "name_mismatch": 1,
       "below_paper_threshold": 3,
       "topic_mismatch": 1
     },
-    "gist": {
+    "gist-life": {
       "below_paper_threshold": 6,
       "ambiguous_multiple_candidates": 1,
       "no_candidate": 1,
       "topic_mismatch": 1
     },
-    "dgist": {
+    "dgist-life": {
       "below_paper_threshold": 9,
       "ambiguous_multiple_candidates": 1,
       "topic_mismatch": 2,
       "not_full_time": 2
+    },
+    "postech-chem": {
+      "name_mismatch": 4,
+      "below_paper_threshold": 2
+    },
+    "postech-phys": {
+      "below_paper_threshold": 5,
+      "ambiguous_multiple_candidates": 2,
+      "name_mismatch": 3,
+      "topic_mismatch": 1
+    },
+    "postech-math": {
+      "name_mismatch": 3,
+      "topic_mismatch": 2,
+      "below_paper_threshold": 3,
+      "no_candidate": 2
+    },
+    "postech-cs": {
+      "below_paper_threshold": 2,
+      "name_mismatch": 2
+    },
+    "unist-chem": {
+      "no_candidate": 1,
+      "below_paper_threshold": 4,
+      "ambiguous_multiple_candidates": 1
+    },
+    "unist-phys": {
+      "below_paper_threshold": 6,
+      "topic_mismatch": 2
+    },
+    "unist-math": {
+      "no_candidate": 1,
+      "below_paper_threshold": 2,
+      "topic_mismatch": 1,
+      "name_mismatch": 1
+    },
+    "unist-cs": {
+      "below_paper_threshold": 4,
+      "topic_mismatch": 1,
+      "no_candidate": 2,
+      "ambiguous_multiple_candidates": 1
+    },
+    "kaist-chem": {
+      "ambiguous_multiple_candidates": 2,
+      "below_paper_threshold": 1,
+      "topic_mismatch": 1
+    },
+    "kaist-phys": {
+      "ambiguous_multiple_candidates": 2,
+      "below_paper_threshold": 2,
+      "name_mismatch": 3,
+      "no_candidate": 1
+    },
+    "kaist-math": {
+      "below_paper_threshold": 4,
+      "ambiguous_multiple_candidates": 2,
+      "no_candidate": 1,
+      "affiliation_mismatch": 1,
+      "topic_mismatch": 2
+    },
+    "kaist-cs": {
+      "below_paper_threshold": 2,
+      "ambiguous_multiple_candidates": 3,
+      "name_mismatch": 9,
+      "no_english_name_no_anchor": 3,
+      "topic_mismatch": 1
+    },
+    "gist-chem": {
+      "below_paper_threshold": 1,
+      "no_candidate": 1,
+      "ambiguous_multiple_candidates": 1,
+      "no_english_name_no_anchor": 1
+    },
+    "gist-math": {
+      "below_paper_threshold": 2,
+      "ambiguous_multiple_candidates": 1,
+      "no_candidate": 1
+    },
+    "snu-chem": {
+      "ambiguous_multiple_candidates": 3,
+      "topic_mismatch": 2,
+      "below_paper_threshold": 2
+    },
+    "snu-phys": {
+      "below_paper_threshold": 9,
+      "ambiguous_multiple_candidates": 5,
+      "topic_mismatch": 3,
+      "name_mismatch": 1,
+      "no_candidate": 1
+    },
+    "snu-math": {
+      "name_mismatch": 1,
+      "below_paper_threshold": 8,
+      "ambiguous_multiple_candidates": 2,
+      "affiliation_mismatch": 1,
+      "no_candidate": 1,
+      "no_english_name_no_anchor": 2
+    },
+    "snu-cs": {
+      "not_full_time": 11,
+      "below_paper_threshold": 3,
+      "ambiguous_multiple_candidates": 3,
+      "name_mismatch": 3,
+      "topic_mismatch": 2,
+      "no_candidate": 1
+    },
+    "gist-phys": {
+      "below_paper_threshold": 2,
+      "not_full_time": 11
+    },
+    "dgist-chem": {
+      "below_paper_threshold": 2,
+      "not_full_time": 1
+    },
+    "dgist-phys": {
+      "below_paper_threshold": 2,
+      "topic_mismatch": 1,
+      "not_full_time": 2
     }
   },
   "abstracts": {
-    "papers": 1699,
-    "with_abstract": 1412,
-    "senior_papers": 1109,
-    "senior_with_abstract": 914,
-    "with_tldr": 1446,
-    "analysis_papers": 1630,
-    "analysis_with_abstract": 1356
+    "papers": 10763,
+    "with_abstract": 8826,
+    "senior_papers": 7676,
+    "senior_with_abstract": 6227,
+    "with_tldr": 3969,
+    "analysis_papers": 9374,
+    "analysis_with_abstract": 7735
   },
-  "labs_with_lt3_senior_abstracts": 5,
-  "faculty_errors": []
+  "labs_with_lt3_senior_abstracts": 38,
+  "faculty_errors": [],
+  "rules": {
+    "life": "마지막/교신저자 논문 5편 이상",
+    "chem": "마지막/교신저자 논문 5편 이상",
+    "phys": "마지막/교신저자 논문 5편 이상, 저자 100명 이상 논문 제외",
+    "math": "저자 순서 무관 논문 4편 이상",
+    "cs": "마지막/교신저자 또는 알파벳 순 저자(3인 이상) 논문 5편 이상, 학회 논문 포함, 저자 100명 이상 논문 제외"
+  }
 }

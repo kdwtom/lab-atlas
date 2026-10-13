@@ -1,4 +1,4 @@
-"""POSTECH 생명과학과 — university researcher directory filtered by department.
+"""POSTECH — university researcher directory filtered by department (departments.yaml options.dept).
 
 The department site (life.postech.ac.kr) was unreachable during development, so the official
 university directory (www.postech.ac.kr 연구자 검색, 학과명=생명과학과) is used. It lists Korean names
@@ -15,12 +15,11 @@ from ...schemas import FacultyRecord
 from ..names import normalize_position
 from .base import abs_url, clean_email, find_orcid, soup, text
 
-DEPT = config.DEPT_BY_UNIV["postech"]
 DEPT_NAME = "생명과학과"
 PAGE = 12
 
 
-def parse_list(html: str, base_url: str) -> tuple[list[dict], int]:
+def parse_list(html: str, base_url: str, dept_name: str = DEPT_NAME) -> tuple[list[dict], int]:
     s = soup(html)
     total = 0
     m = re.search(r"총\s*(\d+)\s*건", s.get_text(" "))
@@ -30,7 +29,7 @@ def parse_list(html: str, base_url: str) -> tuple[list[dict], int]:
     for li in s.select(".thumb_board_list > ul > li"):
         a = li.select_one(".cont .top a[href]")
         dept = text(li.select_one("li.type1"))
-        if not a or dept != DEPT_NAME:
+        if not a or dept != dept_name:
             continue
         name = text(a.select_one(".tit")) or text(a)
         href = urljoin(base_url, a["href"])
@@ -64,13 +63,14 @@ def parse_detail(html: str, base_url: str) -> dict:
             "email": email, "anchor_citations": citations, "orcid": find_orcid(html)}
 
 
-def collect(client) -> list[FacultyRecord]:
+def collect(client, dept: config.Department) -> list[FacultyRecord]:
+    dept_name = dept.options.get("dept", DEPT_NAME)
     rows: list[dict] = []
     offset = 0
-    list_url = DEPT.faculty_list_url
+    list_url = dept.faculty_list_url
     while True:
         html, url, _ = client.get_html(list_url, params={"pager.offset": offset, "pagerLimit": PAGE})
-        page_rows, total = parse_list(html, url)
+        page_rows, total = parse_list(html, url, dept_name)
         rows.extend(page_rows)
         offset += PAGE
         if not page_rows or offset >= total:
@@ -84,11 +84,11 @@ def collect(client) -> list[FacultyRecord]:
                 f"?mode=view&id={r['id']}")
         dhtml, durl, day = client.get_html(durl)
         d = parse_detail(dhtml, durl)
-        if d["dept"] and d["dept"] != DEPT_NAME:
+        if d["dept"] and d["dept"] != dept_name:
             continue
         pos = normalize_position(d["position_raw"])
         records.append(FacultyRecord(
-            univ="postech", name_ko=d["name_ko"] or r["name_ko"], name_en=None,
+            univ=dept.univ, dept=dept.code, name_ko=d["name_ko"] or r["name_ko"], name_en=None,
             position_raw=d["position_raw"], position=pos,
             # directory lists all researchers; full-time only if the title is 교수/부교수/조교수
             is_full_time=pos is not None,

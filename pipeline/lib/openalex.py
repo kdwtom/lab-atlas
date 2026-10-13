@@ -34,11 +34,11 @@ class OpenAlex:
             p["api_key"] = config.OPENALEX_API_KEY
         return p
 
-    def get(self, path: str, **params: Any) -> tuple[Any, date]:
+    def get(self, path: str, store: bool = True, **params: Any) -> tuple[Any, date]:
         return self.c.get_json(
             f"{config.OPENALEX_BASE}/{path.lstrip('/')}", namespace="openalex",
             params=self._params(**params), min_interval=config.OPENALEX_MIN_INTERVAL,
-            cache_key_exclude=("mailto", "api_key"), allow_404=True,
+            cache_key_exclude=("mailto", "api_key"), allow_404=True, store=store,
         )
 
     # ------------------------------------------------------------------ entities

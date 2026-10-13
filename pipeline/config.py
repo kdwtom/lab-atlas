@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import os
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import date
 from pathlib import Path
 
@@ -33,7 +33,6 @@ FULL_TIME_POSITIONS = {"교수", "부교수", "조교수"}  # normalised positio
 
 # ---------------------------------------------------------------- matching
 CURRENT_AFFILIATION_YEARS = 3       # affiliation with institution must appear within this many recent years
-LIFE_SCI_TOPIC_SHARE = 0.40         # share of author's top topics in "Life Sciences" domain
 SPLIT_PROFILE_RATIO = 0.10          # smaller duplicate profile has <= 10% of works of the larger
 MAX_ANCHOR_PAPERS = 8               # faculty-page publications used as anchors per PI
 ANCHOR_TITLE_SIMILARITY = 90        # rapidfuzz partial_ratio threshold (0-100)
@@ -65,53 +64,91 @@ USER_AGENT = "LabAtlas/0.1 (portfolio research project; +https://github.com/)"
 
 
 @dataclass(frozen=True)
+class Discipline:
+    code: str
+    name_ko: str
+    topic_domains: tuple[str, ...]   # OpenAlex domains accepted as "in field" when checking a candidate
+    min_papers: int                  # selection threshold over the window
+    position_agnostic: bool = False  # count every authorship (fields with alphabetical author order)
+    alphabetical_counts: bool = False  # also count papers whose >= 3 authors are in alphabetical order
+    max_authors: int | None = None   # papers with more authors are ignored for this field (large collaborations)
+    # OpenAlex fields accepted as "in field" (finer than domains: Physical Sciences holds chemistry, physics and
+    # computing alike, so a domain check cannot tell a chemist from a computer scientist). None = use domains.
+    topic_fields: tuple[str, ...] | None = None
+    extra_work_types: tuple[str, ...] = ()  # counted besides COUNTED_WORK_TYPES (computing: conference papers)
+
+    @property
+    def work_types(self) -> set[str]:
+        return COUNTED_WORK_TYPES | set(self.extra_work_types)
+
+
+DISCIPLINES: dict[str, Discipline] = {d.code: d for d in [
+    Discipline("life", "생명과학", ("Life Sciences",), MIN_SENIOR_PAPERS),
+    Discipline("chem", "화학", ("Physical Sciences", "Life Sciences"), MIN_SENIOR_PAPERS, topic_fields=(
+        "Chemistry", "Materials Science", "Chemical Engineering", "Biochemistry, Genetics and Molecular Biology",
+        "Physics and Astronomy", "Energy", "Environmental Science", "Pharmacology, Toxicology and Pharmaceutics",
+        "Engineering")),
+    Discipline("phys", "물리", ("Physical Sciences",), MIN_SENIOR_PAPERS, max_authors=100, topic_fields=(
+        "Physics and Astronomy", "Materials Science", "Engineering", "Earth and Planetary Sciences", "Energy",
+        "Mathematics", "Computer Science", "Chemistry")),
+    Discipline("math", "수학", ("Physical Sciences", "Social Sciences"), 4, position_agnostic=True, topic_fields=(
+        "Mathematics", "Computer Science", "Decision Sciences", "Physics and Astronomy",
+        "Economics, Econometrics and Finance", "Engineering")),
+    Discipline("cs", "컴퓨터", ("Physical Sciences", "Social Sciences"), MIN_SENIOR_PAPERS,
+               alphabetical_counts=True, max_authors=100, extra_work_types=("conference-paper",), topic_fields=(
+        "Computer Science", "Mathematics", "Engineering", "Decision Sciences", "Social Sciences", "Psychology",
+        "Neuroscience")),
+]}
+TOPIC_SHARE = 0.40                  # share of an author's top topics that must fall in the field's domains
+
+
+@dataclass(frozen=True)
 class Department:
-    univ: str              # short code used in ids
+    code: str              # unique, e.g. "kaist-chem"
+    univ: str              # short university code used in lab ids
     univ_name_ko: str
     univ_name_en: str
     dept_name_ko: str
+    discipline: str        # key of DISCIPLINES
     faculty_list_url: str  # the page we cite as the faculty roster
     institution_query: str  # OpenAlex institution search string
+    parser: str            # key of lib.faculty.PARSERS
+    options: dict = field(default_factory=dict, hash=False, compare=False)  # parser options
+    matching: str = "search"  # "search": name search per professor; "roster": institution author roster
+    max_anchor_papers: int = MAX_ANCHOR_PAPERS
+
+    @property
+    def disc(self) -> Discipline:
+        return DISCIPLINES[self.discipline]
 
 
-DEPARTMENTS: list[Department] = [
-    Department(
-        "kaist", "KAIST", "Korea Advanced Institute of Science and Technology", "생명과학과",
-        "https://bio.kaist.ac.kr/doc/ko/selectDocList.do?menuSeq=3344&bbsSeq=120",
-        "Korea Advanced Institute of Science and Technology",
-    ),
-    Department(
-        "snu", "서울대학교", "Seoul National University", "생명과학부",
-        "https://biosci.snu.ac.kr/people/faculty",
-        "Seoul National University",
-    ),
-    Department(
-        # life.postech.ac.kr was unreachable during development (TLS/connection failure);
-        # the university's official researcher directory filtered by department is used instead.
-        "postech", "POSTECH", "Pohang University of Science and Technology", "생명과학과",
-        "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?srSearchKey=dept&srSearchVal=%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99%EA%B3%BC",
-        "Pohang University of Science and Technology",
-    ),
-    Department(
-        # bio.unist.ac.kr was unreachable during development; the university researcher
-        # directory filtered by department is used instead.
-        "unist", "UNIST", "Ulsan National Institute of Science and Technology", "생명과학과",
-        "https://www.unist.ac.kr/unist/research/search.do?mode=list&srSearchKey=dept&srSearchVal=%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99%EA%B3%BC",
-        "Ulsan National Institute of Science and Technology",
-    ),
-    Department(
-        "gist", "GIST", "Gwangju Institute of Science and Technology", "생명과학과",
-        "https://life.gist.ac.kr/prog/gsMember/life/P/Faculty/sub05_01_01/list.do",
-        "Gwangju Institute of Science and Technology",
-    ),
-    Department(
-        "dgist", "DGIST", "Daegu Gyeongbuk Institute of Science and Technology", "뉴바이올로지학과",
-        "https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do",
-        "Daegu Gyeongbuk Institute of Science and Technology",
-    ),
-]
+def load_departments(path: Path = PIPELINE_DIR / "departments.yaml") -> list[Department]:
+    import yaml
 
-DEPT_BY_UNIV = {d.univ: d for d in DEPARTMENTS}
+    raw = yaml.safe_load(path.read_text(encoding="utf-8"))
+    univs = raw["universities"]
+    out = []
+    for d in raw["departments"]:
+        u = univs[d["univ"]]
+        out.append(Department(
+            code=d["code"], univ=d["univ"], univ_name_ko=u["name_ko"], univ_name_en=u["name_en"],
+            dept_name_ko=d["name_ko"], discipline=d["discipline"], faculty_list_url=d["url"],
+            institution_query=u["openalex_query"], parser=d["parser"], options=d.get("options") or {},
+            matching=d.get("matching", "search"),
+            max_anchor_papers=d.get("max_anchor_papers", MAX_ANCHOR_PAPERS),
+        ))
+    codes = [d.code for d in out]
+    dup = {c for c in codes if codes.count(c) > 1}
+    if dup or any(d.discipline not in DISCIPLINES for d in out):
+        raise SystemExit(f"departments.yaml: duplicate codes {dup} or unknown discipline")
+    return out
+
+
+DEPARTMENTS: list[Department] = load_departments()
+DEPT_BY_CODE = {d.code: d for d in DEPARTMENTS}
+UNIVERSITIES: dict[str, Department] = {}  # first department per university (names, OpenAlex query)
+for _d in DEPARTMENTS:
+    UNIVERSITIES.setdefault(_d.univ, _d)
 
 
 def require_mailto() -> str:

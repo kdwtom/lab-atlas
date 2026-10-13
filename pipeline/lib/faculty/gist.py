@@ -1,16 +1,17 @@
-"""GIST 생명과학과 — 전임교수 list (Korean + English rosters joined by e-mail) + detail pages."""
+"""GIST department sites on the gsMember CMS (생명과학과, 화학과, 수리과학과) — 전임교수 list + detail pages."""
 from __future__ import annotations
 
 import re
+from urllib.parse import urlparse
 
 from ... import config
 from ...schemas import FacultyRecord
 from ..names import clean_display_name, normalize_position
-from .base import abs_url, clean_email, find_orcid, soup, text
+from .base import abs_url, clean_email, find_orcid, flip_comma_name, soup, text
 
-DEPT = config.DEPT_BY_UNIV["gist"]
-ENG_LIST = "https://life.gist.ac.kr/prog/gsMember/lifeeng/P/Faculty/sub05_01_01/list.do"
-DETAIL = "https://life.gist.ac.kr/prog/gsPerson/life/P/view.do?personId={pid}"
+# gsMember CMS shared by GIST department sites; options: site (Korean roster), eng_site, menu
+ENG_LIST = "https://{host}/prog/gsMember/{eng_site}/P/Faculty/{menu}/list.do"
+DETAIL = "https://{host}/prog/gsPerson/{site}/P/view.do?personId={pid}"
 
 
 def parse_list(html: str, base_url: str) -> list[dict]:
@@ -49,6 +50,12 @@ def english_name(raw: str) -> str:
     return raw
 
 
+def split_bilingual(name: str) -> tuple[str, str | None]:
+    """'김민곤 Kim, Min-Gon' (chemistry/mathematics rosters) -> ('김민곤', 'Min-Gon Kim')."""
+    m = re.match(r"^([가-힣]{2,5})\s+([A-Za-z].*)$", name or "")
+    return (m.group(1), flip_comma_name(m.group(2))) if m else (name, None)
+
+
 def parse_detail(html: str) -> dict:
     s = soup(html)
     lines = [re.sub(r"\s+", " ", l).strip() for l in s.get_text("\n").split("\n")]
@@ -75,22 +82,28 @@ def parse_detail(html: str) -> dict:
             "anchor_citations": pubs, "orcid": find_orcid(html)}
 
 
-def collect(client) -> list[FacultyRecord]:
-    html, url, _ = client.get_html(DEPT.faculty_list_url)
+def collect(client, dept: config.Department) -> list[FacultyRecord]:
+    o = dept.options
+    host = urlparse(dept.faculty_list_url).netloc
+    html, url, _ = client.get_html(dept.faculty_list_url)
     ko = parse_list(html, url)
-    ehtml, eurl, _ = client.get_html(ENG_LIST)
-    en_by_email = {r["email"]: r["name"] for r in parse_list(ehtml, eurl) if r["email"]}
+    en_by_email = {}
+    if o.get("eng_site"):
+        ehtml, eurl, _ = client.get_html(ENG_LIST.format(host=host, eng_site=o["eng_site"], menu=o["menu"]))
+        en_by_email = {r["email"]: r["name"] for r in parse_list(ehtml, eurl) if r["email"]}
     records = []
     for r in ko:
-        durl = DETAIL.format(pid=r["pid"]) if r["pid"] else url
+        durl = DETAIL.format(host=host, site=o["site"], pid=r["pid"]) if r["pid"] else url
         d = {}
         day = None
         if r["pid"]:
             dhtml, durl, day = client.get_html(durl)
             d = parse_detail(dhtml)
         en_raw = en_by_email.get(r["email"])
+        name_ko, inline_en = split_bilingual(r["name"])
         records.append(FacultyRecord(
-            univ="gist", name_ko=r["name"], name_en=english_name(en_raw) if en_raw else None,
+            univ=dept.univ, dept=dept.code, name_ko=name_ko,
+            name_en=english_name(en_raw) if en_raw else inline_en,
             position_raw=d.get("position_raw"), position=normalize_position(d.get("position_raw")),
             is_full_time=True,  # page = 전임교수 roster
             lab_name=r["lab_name"], homepage_url=r["homepage_url"], email=r["email"],
