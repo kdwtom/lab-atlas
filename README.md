@@ -1,6 +1,6 @@
 # Lab Atlas · 연구실 지형도
 
-**🔗 라이브 사이트: https://kdwtom.github.io/lab-atlas/**
+**저장소가 비공개여서 지금은 공개 사이트가 없습니다.** 내 컴퓨터에서 보는 방법은 아래 "웹사이트 로컬 실행" 항목을 참고하세요.
 
 국내 6개 대학(KAIST·서울대·POSTECH·UNIST·GIST·DGIST)의 **생명과학·화학·물리·수학·컴퓨터** 학과 연구실 **479곳**을
 최근 5년 논문 내용으로 배치한 인터랙티브 지도입니다. 대학원 진학을 고민하는 학생이 "내가 관심 있는 연구와 비슷한 연구실은
@@ -96,12 +96,14 @@ python -m pipeline.run --stage export      # 대표 논문 선정 → web/public
 - 모든 HTTP 응답은 `pipeline/cache/`에 캐시되어 재실행 시 네트워크를 다시 쓰지 않습니다. `--offline`으로 캐시만 사용할 수 있습니다
 - 클러스터 라벨은 [pipeline/curation/cluster_labels.json](pipeline/curation/cluster_labels.json)에서 관리하며, 클러스터 키워드가 바뀌면 경고가 나옵니다
 - 한국어 요약과 연구실 소개는 `export`가 만든 `pipeline/output/summary_tasks/batch_NN.md`(초록·TLDR)를 근거로 작성해 `pipeline/curation/summaries/batch_NN.json`에 저장합니다. 요약이 없으면 사이트에 "정보 없음"으로 나옵니다
-- 갱신한 `web/public/data`를 커밋하고 push하면 GitHub Actions가 배포합니다
+- 갱신한 `web/public/data`를 커밋하고 push하면 GitHub Actions가 검증합니다
 
-### 배포 (GitHub Pages)
+### 자동 점검 (GitHub Actions)
 
-[.github/workflows/deploy.yml](.github/workflows/deploy.yml)이 `main` push마다 데이터 스키마 검증 → 타입 검사 → 빌드 → Pages 배포를 실행합니다.
-처음 한 번 저장소의 **Settings → Pages → Source**를 "GitHub Actions"로 바꿔 주세요. 방법론 페이지의 "정보 수정 요청" 링크는 빌드 시 저장소 주소(`VITE_REPO_URL`)로 자동 설정됩니다.
+[.github/workflows/ci.yml](.github/workflows/ci.yml)이 `main` push마다 데이터 스키마 검증 → 타입 검사 → 빌드를 실행합니다. 사이트를 게시하지는 않습니다.
+방법론 페이지의 "정보 수정 요청" 링크는 빌드 시 저장소 주소(`VITE_REPO_URL`)로 자동 설정됩니다.
+
+저장소를 공개로 돌려 GitHub Pages를 다시 쓰려면 커밋 `9112a43`의 `.github/workflows/deploy.yml`을 복원하고, **Settings → Pages → Source**를 "GitHub Actions"로 바꾸면 됩니다.
 
 ---
 
@@ -147,7 +149,7 @@ lab-atlas/
 │  ├─ src/                   # 그래프, 패널, 목록, 상세·방법론 페이지
 │  └─ scripts/check.mjs      # 스크린샷 + 성능 측정 (로컬 Edge, playwright-core)
 ├─ docs/                     # 스크린샷, 출처 대조 결과
-└─ .github/workflows/        # GitHub Pages 배포
+└─ .github/workflows/        # 데이터 검증, 타입 검사, 빌드
 ```
 
 ## 한계
