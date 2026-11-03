@@ -2828,24 +2828,6 @@
     "home_senior_abstract_count": 20
   },
   {
-    "lab_id": "postech-A5102867415",
-    "univ": "postech",
-    "depts": [
-      "postech-chem"
-    ],
-    "discipline": "chem",
-    "name_ko": "권도훈",
-    "name_en": null,
-    "openalex_id": "A5102867415",
-    "paper_count_5y": 6,
-    "senior_paper_count_5y": 0,
-    "meets_criterion": false,
-    "abstract_count": 4,
-    "senior_abstract_count": 0,
-    "home_paper_count_5y": 0,
-    "home_senior_abstract_count": 0
-  },
-  {
     "lab_id": "postech-A5069444992",
     "univ": "postech",
     "depts": [
@@ -2972,7 +2954,7 @@
     "home_senior_abstract_count": 7
   },
   {
-    "lab_id": "postech-A5125484736",
+    "lab_id": "postech-A5046753852",
     "univ": "postech",
     "depts": [
       "postech-chem"
@@ -2980,14 +2962,14 @@
     "discipline": "chem",
     "name_ko": "이인수",
     "name_en": null,
-    "openalex_id": "A5125484736",
-    "paper_count_5y": 1,
-    "senior_paper_count_5y": 1,
-    "meets_criterion": false,
-    "abstract_count": 1,
-    "senior_abstract_count": 1,
-    "home_paper_count_5y": 1,
-    "home_senior_abstract_count": 1
+    "openalex_id": "A5046753852",
+    "paper_count_5y": 38,
+    "senior_paper_count_5y": 32,
+    "meets_criterion": true,
+    "abstract_count": 38,
+    "senior_abstract_count": 32,
+    "home_paper_count_5y": 35,
+    "home_senior_abstract_count": 32
   },
   {
     "lab_id": "postech-A5018699270",
@@ -3098,7 +3080,7 @@
     "home_senior_abstract_count": 8
   },
   {
-    "lab_id": "postech-A5135890652",
+    "lab_id": "postech-A5100359395",
     "univ": "postech",
     "depts": [
       "postech-phys"
@@ -3106,14 +3088,14 @@
     "discipline": "phys",
     "name_ko": "김태환",
     "name_en": null,
-    "openalex_id": "A5135890652",
-    "paper_count_5y": 1,
-    "senior_paper_count_5y": 1,
-    "meets_criterion": false,
-    "abstract_count": 1,
-    "senior_abstract_count": 1,
-    "home_paper_count_5y": 1,
-    "home_senior_abstract_count": 1
+    "openalex_id": "A5100359395",
+    "paper_count_5y": 28,
+    "senior_paper_count_5y": 13,
+    "meets_criterion": true,
+    "abstract_count": 19,
+    "senior_abstract_count": 8,
+    "home_paper_count_5y": 20,
+    "home_senior_abstract_count": 8
   },
   {
     "lab_id": "postech-A5028276361",
@@ -3350,24 +3332,6 @@
     "home_senior_abstract_count": 14
   },
   {
-    "lab_id": "postech-A5042731953",
-    "univ": "postech",
-    "depts": [
-      "postech-phys"
-    ],
-    "discipline": "phys",
-    "name_ko": "최영준",
-    "name_en": null,
-    "openalex_id": "A5042731953",
-    "paper_count_5y": 8,
-    "senior_paper_count_5y": 2,
-    "meets_criterion": false,
-    "abstract_count": 6,
-    "senior_abstract_count": 2,
-    "home_paper_count_5y": 5,
-    "home_senior_abstract_count": 2
-  },
-  {
     "lab_id": "postech-A5100746301",
     "univ": "postech",
     "depts": [
@@ -3420,24 +3384,6 @@
     "senior_abstract_count": 12,
     "home_paper_count_5y": 12,
     "home_senior_abstract_count": 11
-  },
-  {
-    "lab_id": "postech-A5100666204",
-    "univ": "postech",
-    "depts": [
-      "postech-math"
-    ],
-    "discipline": "math",
-    "name_ko": "김민성",
-    "name_en": null,
-    "openalex_id": "A5100666204",
-    "paper_count_5y": 36,
-    "senior_paper_count_5y": 36,
-    "meets_criterion": true,
-    "abstract_count": 29,
-    "senior_abstract_count": 29,
-    "home_paper_count_5y": 10,
-    "home_senior_abstract_count": 9
   },
   {
     "lab_id": "postech-A5100785224",
@@ -3602,7 +3548,7 @@
     "home_senior_abstract_count": 0
   },
   {
-    "lab_id": "postech-A5000003740",
+    "lab_id": "postech-A5101396625",
     "univ": "postech",
     "depts": [
       "postech-math"
@@ -3610,14 +3556,14 @@
     "discipline": "math",
     "name_ko": "최민석",
     "name_en": null,
-    "openalex_id": "A5000003740",
-    "paper_count_5y": 30,
-    "senior_paper_count_5y": 30,
+    "openalex_id": "A5101396625",
+    "paper_count_5y": 9,
+    "senior_paper_count_5y": 9,
     "meets_criterion": true,
-    "abstract_count": 25,
-    "senior_abstract_count": 25,
-    "home_paper_count_5y": 7,
-    "home_senior_abstract_count": 7
+    "abstract_count": 3,
+    "senior_abstract_count": 3,
+    "home_paper_count_5y": 9,
+    "home_senior_abstract_count": 3
   },
   {
     "lab_id": "postech-A5100334897",
@@ -5708,7 +5654,7 @@
     "home_senior_abstract_count": 1
   },
   {
-    "lab_id": "kaist-A5034072443",
+    "lab_id": "kaist-A5031913417",
     "univ": "kaist",
     "depts": [
       "kaist-phys"
@@ -5716,14 +5662,14 @@
     "discipline": "phys",
     "name_ko": "김은성",
     "name_en": "Eunseong Kim",
-    "openalex_id": "A5034072443",
-    "paper_count_5y": 56,
-    "senior_paper_count_5y": 24,
+    "openalex_id": "A5031913417",
+    "paper_count_5y": 10,
+    "senior_paper_count_5y": 6,
     "meets_criterion": true,
-    "abstract_count": 44,
-    "senior_abstract_count": 15,
-    "home_paper_count_5y": 3,
-    "home_senior_abstract_count": 1
+    "abstract_count": 9,
+    "senior_abstract_count": 5,
+    "home_paper_count_5y": 6,
+    "home_senior_abstract_count": 4
   },
   {
     "lab_id": "kaist-A5027517013",
@@ -6212,24 +6158,6 @@
     "home_senior_abstract_count": 4
   },
   {
-    "lab_id": "kaist-A5103078687",
-    "univ": "kaist",
-    "depts": [
-      "kaist-math"
-    ],
-    "discipline": "math",
-    "name_ko": "김동환",
-    "name_en": "Donghwan Kim",
-    "openalex_id": "A5103078687",
-    "paper_count_5y": 7,
-    "senior_paper_count_5y": 7,
-    "meets_criterion": true,
-    "abstract_count": 6,
-    "senior_abstract_count": 6,
-    "home_paper_count_5y": 0,
-    "home_senior_abstract_count": 0
-  },
-  {
     "lab_id": "kaist-A5089769284",
     "univ": "kaist",
     "depts": [
@@ -6248,7 +6176,7 @@
     "home_senior_abstract_count": 0
   },
   {
-    "lab_id": "kaist-A5100452358",
+    "lab_id": "kaist-A5100386550",
     "univ": "kaist",
     "depts": [
       "kaist-math"
@@ -6256,14 +6184,14 @@
     "discipline": "math",
     "name_ko": "김우진",
     "name_en": "Woojin Kim",
-    "openalex_id": "A5100452358",
-    "paper_count_5y": 31,
-    "senior_paper_count_5y": 31,
+    "openalex_id": "A5100386550",
+    "paper_count_5y": 9,
+    "senior_paper_count_5y": 9,
     "meets_criterion": true,
-    "abstract_count": 28,
-    "senior_abstract_count": 28,
-    "home_paper_count_5y": 2,
-    "home_senior_abstract_count": 2
+    "abstract_count": 6,
+    "senior_abstract_count": 6,
+    "home_paper_count_5y": 6,
+    "home_senior_abstract_count": 4
   },
   {
     "lab_id": "kaist-A5017433036",
@@ -6284,7 +6212,7 @@
     "home_senior_abstract_count": 2
   },
   {
-    "lab_id": "kaist-A5122676427",
+    "lab_id": "kaist-A5067034493",
     "univ": "kaist",
     "depts": [
       "kaist-math"
@@ -6292,14 +6220,14 @@
     "discipline": "math",
     "name_ko": "김재경",
     "name_en": "Jae Kyoung Kim",
-    "openalex_id": "A5122676427",
-    "paper_count_5y": 4,
-    "senior_paper_count_5y": 4,
+    "openalex_id": "A5067034493",
+    "paper_count_5y": 64,
+    "senior_paper_count_5y": 64,
     "meets_criterion": true,
-    "abstract_count": 4,
-    "senior_abstract_count": 4,
-    "home_paper_count_5y": 2,
-    "home_senior_abstract_count": 2
+    "abstract_count": 55,
+    "senior_abstract_count": 55,
+    "home_paper_count_5y": 62,
+    "home_senior_abstract_count": 53
   },
   {
     "lab_id": "kaist-A5100347881",
@@ -6644,7 +6572,7 @@
     "home_senior_abstract_count": 3
   },
   {
-    "lab_id": "kaist-A5102862385",
+    "lab_id": "kaist-A5082521029",
     "univ": "kaist",
     "depts": [
       "kaist-cs"
@@ -6652,17 +6580,17 @@
     "discipline": "cs",
     "name_ko": "강민석",
     "name_en": null,
-    "openalex_id": "A5102862385",
-    "paper_count_5y": 6,
-    "senior_paper_count_5y": 0,
-    "meets_criterion": false,
-    "abstract_count": 4,
-    "senior_abstract_count": 0,
-    "home_paper_count_5y": 1,
-    "home_senior_abstract_count": 0
+    "openalex_id": "A5082521029",
+    "paper_count_5y": 22,
+    "senior_paper_count_5y": 12,
+    "meets_criterion": true,
+    "abstract_count": 18,
+    "senior_abstract_count": 9,
+    "home_paper_count_5y": 17,
+    "home_senior_abstract_count": 9
   },
   {
-    "lab_id": "kaist-A5088957871",
+    "lab_id": "kaist-A5046066368",
     "univ": "kaist",
     "depts": [
       "kaist-cs"
@@ -6670,14 +6598,14 @@
     "discipline": "cs",
     "name_ko": "강병훈",
     "name_en": null,
-    "openalex_id": "A5088957871",
-    "paper_count_5y": 5,
-    "senior_paper_count_5y": 0,
-    "meets_criterion": false,
-    "abstract_count": 5,
-    "senior_abstract_count": 0,
-    "home_paper_count_5y": 5,
-    "home_senior_abstract_count": 0
+    "openalex_id": "A5046066368",
+    "paper_count_5y": 15,
+    "senior_paper_count_5y": 11,
+    "meets_criterion": true,
+    "abstract_count": 12,
+    "senior_abstract_count": 8,
+    "home_paper_count_5y": 15,
+    "home_senior_abstract_count": 8
   },
   {
     "lab_id": "kaist-A5079055843",
@@ -6714,24 +6642,6 @@
     "senior_abstract_count": 11,
     "home_paper_count_5y": 17,
     "home_senior_abstract_count": 11
-  },
-  {
-    "lab_id": "kaist-A5100332056",
-    "univ": "kaist",
-    "depts": [
-      "kaist-cs"
-    ],
-    "discipline": "cs",
-    "name_ko": "김경민",
-    "name_en": null,
-    "openalex_id": "A5100332056",
-    "paper_count_5y": 47,
-    "senior_paper_count_5y": 39,
-    "meets_criterion": true,
-    "abstract_count": 42,
-    "senior_abstract_count": 36,
-    "home_paper_count_5y": 45,
-    "home_senior_abstract_count": 35
   },
   {
     "lab_id": "kaist-A5081305477",
@@ -8354,7 +8264,7 @@
     "home_senior_abstract_count": 2
   },
   {
-    "lab_id": "snu-A5006712350",
+    "lab_id": "snu-A5046233402",
     "univ": "snu",
     "depts": [
       "snu-phys"
@@ -8362,14 +8272,14 @@
     "discipline": "phys",
     "name_ko": "강민구",
     "name_en": "Min Gu Kang",
-    "openalex_id": "A5006712350",
-    "paper_count_5y": 36,
-    "senior_paper_count_5y": 11,
-    "meets_criterion": true,
-    "abstract_count": 34,
-    "senior_abstract_count": 11,
-    "home_paper_count_5y": 15,
-    "home_senior_abstract_count": 2
+    "openalex_id": "A5046233402",
+    "paper_count_5y": 14,
+    "senior_paper_count_5y": 3,
+    "meets_criterion": false,
+    "abstract_count": 9,
+    "senior_abstract_count": 1,
+    "home_paper_count_5y": 0,
+    "home_senior_abstract_count": 0
   },
   {
     "lab_id": "snu-A5100723191",
@@ -9344,7 +9254,7 @@
     "home_senior_abstract_count": 62
   },
   {
-    "lab_id": "snu-A5100999168",
+    "lab_id": "snu-A5085177012",
     "univ": "snu",
     "depts": [
       "snu-math"
@@ -9352,14 +9262,14 @@
     "discipline": "math",
     "name_ko": "홍영준",
     "name_en": "Youngjoon Hong",
-    "openalex_id": "A5100999168",
-    "paper_count_5y": 2,
-    "senior_paper_count_5y": 2,
-    "meets_criterion": false,
-    "abstract_count": 2,
-    "senior_abstract_count": 2,
-    "home_paper_count_5y": 1,
-    "home_senior_abstract_count": 1
+    "openalex_id": "A5085177012",
+    "paper_count_5y": 31,
+    "senior_paper_count_5y": 31,
+    "meets_criterion": true,
+    "abstract_count": 17,
+    "senior_abstract_count": 17,
+    "home_paper_count_5y": 13,
+    "home_senior_abstract_count": 6
   },
   {
     "lab_id": "snu-A5017412198",
@@ -9918,24 +9828,6 @@
     "senior_abstract_count": 25,
     "home_paper_count_5y": 40,
     "home_senior_abstract_count": 25
-  },
-  {
-    "lab_id": "snu-A5031381675",
-    "univ": "snu",
-    "depts": [
-      "snu-cs"
-    ],
-    "discipline": "cs",
-    "name_ko": "김태수",
-    "name_en": "Taesoo Kim",
-    "openalex_id": "A5031381675",
-    "paper_count_5y": 6,
-    "senior_paper_count_5y": 6,
-    "meets_criterion": true,
-    "abstract_count": 5,
-    "senior_abstract_count": 5,
-    "home_paper_count_5y": 1,
-    "home_senior_abstract_count": 1
   },
   {
     "lab_id": "gist-A5011037736",

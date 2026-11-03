@@ -2,7 +2,8 @@
 
 Inputs : faculty.json, matches.json, lab_status.json, papers_raw.jsonl, analysis.json,
          representatives.json, curation/summaries/*.json, curation/excluded_papers.csv
-Outputs: labs.json, papers.json, edges.json, clusters.json, meta.json
+Outputs: labs.json, papers.json, edges.json, clusters.json, meta.json,
+         lab_vectors.bin + lab_vectors.json (8-bit lab vectors for in-browser recommendations)
 
 Abstracts never leave the pipeline: papers.json carries only has_abstract / has_tldr flags,
 the hand-written Korean summary (when one exists) and links. Missing values stay null so the
@@ -12,6 +13,8 @@ from __future__ import annotations
 
 import logging
 from datetime import date
+
+import numpy as np
 
 from . import config
 from .lib.curation import excluded_papers
@@ -36,6 +39,25 @@ def load_summaries() -> tuple[dict[str, dict], dict[str, str]]:
     return papers, labs
 
 
+def load_intro_unavailable() -> dict[str, str]:
+    """Lab id -> reason for labs whose intro could not be written (curation/intro_unavailable.json)."""
+    path = config.PIPELINE_DIR / "curation" / "intro_unavailable.json"
+    if not path.exists():
+        return {}
+    return {lid: v["reason"] for lid, v in read_json(path)["unavailable"].items()}
+
+
+def export_vectors(lab_ids: list[str]) -> None:
+    """Lab vectors for the browser: int8 (about 370 KB for 478 labs), loaded only by the shortlist page.
+    Quantising keeps 98% of each lab's top-10 neighbours (PLAN_PHASE2.md)."""
+    z = np.load(config.OUTPUT_DIR / "lab_vectors.npz")
+    row = {lid: i for i, lid in enumerate(z["lab_ids"].tolist())}
+    vec = z["vectors"][[row[lid] for lid in lab_ids]]
+    q = np.round(vec / np.abs(vec).max() * 127).astype(np.int8)
+    (config.WEB_DATA_DIR / "lab_vectors.bin").write_bytes(q.tobytes())
+    write_json(config.WEB_DATA_DIR / "lab_vectors.json", {"ids": lab_ids, "dim": int(q.shape[1])})
+
+
 def faculty_key(univ: str, page_url: str, name_ko, name_en) -> tuple:
     return univ, page_url, name_ko or name_en
 
@@ -52,6 +74,7 @@ def run(client=None) -> None:
             matches[(f"{m['univ']}-{m['openalex_id']}", m["dept"])] = m
     reps = read_json(out / "representatives.json")
     summaries, intros = load_summaries()
+    unavailable = load_intro_unavailable()
     lab_ids = sorted(analysis["labs"])
     keep = set(lab_ids)
 
@@ -112,6 +135,7 @@ def run(client=None) -> None:
             paper_count_5y=st["paper_count_5y"],
             senior_paper_count_5y=st["senior_paper_count_5y"], keywords=a["keywords"],
             cluster_id=a["cluster_id"], x=a["x"], y=a["y"], intro_ko=intros.get(lid),
+            intro_unavailable=None if lid in intros else unavailable.get(lid),
             representative_paper_ids=rep_ids,
             keyword_timeline=[YearKeywords(**t) for t in a["keyword_timeline"]],
             sources=sources,
@@ -136,7 +160,8 @@ def run(client=None) -> None:
         summary_coverage=SummaryCoverage(
             representative_papers=len(all_reps),
             papers_with_summary=sum(1 for r in all_reps if r in summaries),
-            labs=len(labs), labs_with_intro=sum(1 for l in labs if l.intro_ko)),
+            labs=len(labs), labs_with_intro=sum(1 for l in labs if l.intro_ko),
+            labs_intro_unavailable=sum(1 for l in labs if l.intro_unavailable)),
         excluded_namesake_papers=len(excluded_papers()),
         departments=[DepartmentInfo(code=d.code, univ=d.univ, univ_name_ko=d.univ_name_ko, name_ko=d.dept_name_ko,
                                     discipline=d.discipline, faculty_list_url=d.faculty_list_url,
@@ -151,6 +176,7 @@ def run(client=None) -> None:
     write_json(d / "edges.json", edges)
     write_json(d / "clusters.json", clusters)
     write_json(d / "meta.json", meta.model_dump(mode="json"))
+    export_vectors([l.id for l in labs])
     sc = meta.summary_coverage
     log.info("exported %d labs, %d papers, %d edges, %d clusters -> %s", len(labs), len(papers), len(edges),
              len(clusters), d)

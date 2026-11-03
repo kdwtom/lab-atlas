@@ -1,0 +1,110 @@
+{
+  "_comment": "Labs whose intro could not be written from their paper list (PLAN_PHASE2.md). unavailable: shown on the site with the reason. review: an intro was written from the coherent papers, but other titles look like a namesake's; re-check these profiles when papers are reviewed. Reasons: insufficient_papers (too few papers to state a topic), mixed_topics (titles unrelated to each other, about half or more off-field), wrong_field (titles do not match the department or lab; the OpenAlex match itself is suspect).",
+  "unavailable": {
+    "dgist-A5073541718": {
+      "reason": "mixed_topics",
+      "note": "X-ray scattering papers mixed with criminal-law papers"
+    },
+    "gist-A5017075809": {
+      "reason": "insufficient_papers",
+      "note": "2 analysis papers (medical machine learning), mathematics department"
+    },
+    "gist-A5053907797": {
+      "reason": "insufficient_papers",
+      "note": "2 analysis papers"
+    },
+    "gist-A5100615032": {
+      "reason": "mixed_topics",
+      "note": "graph theory mixed with metal-forming engineering"
+    },
+    "gist-A5100691150": {
+      "reason": "mixed_topics",
+      "note": "silicon-vacancy spin qubits mixed with plasmonics, geology, food microbiology, roof inspection"
+    },
+    "kaist-A5017433036": {
+      "reason": "insufficient_papers",
+      "note": "1 distinct analysis paper"
+    },
+    "kaist-A5031913417": {
+      "reason": "mixed_topics",
+      "note": "right person after review (quantum and low-temperature physics), but half of the 6 analysis papers belong to namesakes (history, education)"
+    },
+    "kaist-A5038403149": {
+      "reason": "insufficient_papers",
+      "note": "3 analysis papers, 1 senior; none on the lab's ultrafast imaging"
+    },
+    "kaist-A5084168318": {
+      "reason": "insufficient_papers",
+      "note": "1 analysis paper"
+    },
+    "kaist-A5100616121": {
+      "reason": "mixed_topics",
+      "note": "rough-path analysis mixed with tourism and trade studies"
+    },
+    "postech-A5100429205": {
+      "reason": "mixed_topics",
+      "note": "Boltzmann equation mixed with medical photoacoustic imaging"
+    },
+    "postech-A5100440925": {
+      "reason": "mixed_topics",
+      "note": "medical imaging AI mixed with humanities and education studies"
+    },
+    "postech-A5100785224": {
+      "reason": "mixed_topics",
+      "note": "Sasakian geometry mixed with driving and trajectory analysis"
+    },
+    "postech-A5101770891": {
+      "reason": "mixed_topics",
+      "note": "stochastic PDEs mixed with applied machine learning for equipment"
+    },
+    "snu-A5025355311": {
+      "reason": "mixed_topics",
+      "note": "combinatorics mixed with heart-failure clinical trials"
+    },
+    "snu-A5046653471": {
+      "reason": "mixed_topics",
+      "note": "peptide simulation mixed with Rydberg qubit gates and sports studies"
+    },
+    "snu-A5087858459": {
+      "reason": "insufficient_papers",
+      "note": "2 analysis papers"
+    },
+    "snu-A5100604981": {
+      "reason": "mixed_topics",
+      "note": "harmonic analysis mixed with vehicle dynamics and traffic studies"
+    },
+    "unist-A5029245952": {
+      "reason": "insufficient_papers",
+      "note": "1 analysis paper"
+    },
+    "unist-A5100765704": {
+      "reason": "mixed_topics",
+      "note": "reservoir computing mixed with displays, sign language, Indonesian social data"
+    }
+  },
+  "review": {
+    "dgist-A5100681214": "one yoga-philosophy paper",
+    "gist-A5004905567": "ceramics and cultural-heritage papers",
+    "gist-A5049499414": "depression biomarker papers",
+    "gist-A5076624264": "food-microbiology papers",
+    "gist-A5117233229": "physics papers mixed with medicine and neuroscience",
+    "kaist-A5027517013": "cancer platelets, corn breeding, network intrusion papers",
+    "kaist-A5031132473": "civil-service and literature papers",
+    "kaist-A5048407979": "aircraft fatigue and design-thinking papers",
+    "kaist-A5073867321": "management and surveillance papers",
+    "kaist-A5082521029": "one nutrition paper",
+    "kaist-A5100386550": "one corporate-finance paper",
+    "kaist-A5100627007": "brain MRI, career and labor-relations papers",
+    "kaist-A5100653784": "film and rural-migration papers",
+    "postech-A5046753852": "one breast-imaging paper",
+    "postech-A5048224465": "merged with flexible-electronics papers",
+    "postech-A5090689321": "export-trade and intent-classification papers",
+    "postech-A5100359395": "a few engineering papers (ionizers, soft systems, stainless steel)",
+    "postech-A5102012499": "education and infant-gaze papers",
+    "snu-A5100390278": "contract-law and building papers",
+    "snu-A5100418710": "satellite, steel and drone papers",
+    "snu-A5100755766": "cellular-automata and landscape papers",
+    "unist-A5006437153": "math papers mixed with energy and chemistry; a smaller math-only profile A5047363697 also exists",
+    "unist-A5012508781": "fair-division and photoacoustic papers"
+  }
+}

@@ -12,6 +12,7 @@ Candidates come from an OpenAlex name search per professor (departments with mat
 the institution's author roster (matching: roster, PLAN_PHASE1.md 0-4); the decision rules are the same.
 Roster departments add two tie-breaks for several strong candidates (roster_tiebreak): profiles sharing one
 ORCID are the same person, and a PI is the candidate who actually leads papers (the field's selection count).
+Manual corrections from reviewing paper titles live in curation/match_overrides.json and are applied last.
 """
 from __future__ import annotations
 
@@ -274,8 +275,45 @@ def match_one(oa: OpenAlex, fac: FacultyRecord, inst_id: str, roster: Optional[R
     return MatchResult(status="excluded", reason=reason, detail=detail, **base)
 
 
+def load_overrides() -> dict:
+    return read_json(config.PIPELINE_DIR / "curation" / "match_overrides.json")
+
+
+def override_key(r: MatchResult) -> str:
+    return f"{r.dept}|{r.name_ko or r.name_en}"
+
+
+def apply_override(oa: OpenAlex, r: MatchResult, overrides: dict, used: set[str]) -> MatchResult:
+    """Replace an automatic decision with the reviewed one; the automatic candidates stay as evidence."""
+    key = override_key(r)
+    if key in overrides["exclude"]:
+        used.add(key)
+        note = overrides["exclude"][key]["note"]
+        return r.model_copy(update=dict(status="excluded", openalex_id=None, confidence=None,
+                                        reason="manual_review", detail=f"manual review: {note}"))
+    if key in overrides["force"]:
+        used.add(key)
+        entry = overrides["force"][key]
+        aid = entry["openalex_id"]
+        cands = list(r.candidates)
+        if not any(c.openalex_id == aid for c in cands):
+            author, _ = oa.author(aid)
+            if not author:
+                raise ValueError(f"override {key}: OpenAlex has no author {aid}")
+            cands.insert(0, CandidateEvidence(
+                openalex_id=aid, display_name=author.get("display_name") or "",
+                orcid=(author.get("orcid") or "").rsplit("/", 1)[-1] or None,
+                works_count=author.get("works_count") or 0, affiliation_ok=True, name_ok=True,
+                name_note="manual review", field_share=0.0, topic_ok=False, anchor_hits=0))
+        return r.model_copy(update=dict(status="matched", openalex_id=aid, confidence="medium", reason=None,
+                                        detail=f"manual review: {entry['note']}", candidates=cands))
+    return r
+
+
 def run(client: CachedClient) -> None:
     oa = OpenAlex(client)
+    overrides = load_overrides()
+    used: set[str] = set()
     inst = read_json(config.OUTPUT_DIR / "institutions.json")
     faculty = [FacultyRecord(**r) for r in read_json(config.OUTPUT_DIR / "faculty.json")]
     rosters: dict[str, Roster] = {}
@@ -307,6 +345,10 @@ def run(client: CachedClient) -> None:
             r = MatchResult(univ=fac.univ, dept=fac.dept, name_ko=fac.name_ko, name_en=fac.name_en,
                             faculty_page_url=fac.faculty_page_url, status="excluded",
                             reason="no_candidate", detail=f"error: {e}", retrieved_at=config.TODAY)
+        r = apply_override(oa, r, overrides, used)
         results.append(r)
         log.info("[%d/%d] %s -> %s %s", i, len(faculty), label, r.status, r.openalex_id or r.reason)
+    stale = (set(overrides["force"]) | set(overrides["exclude"])) - used
+    if stale:  # a renamed or departed professor must not silently drop a correction
+        raise ValueError(f"match_overrides.json entries match no faculty member: {sorted(stale)}")
     write_json(config.OUTPUT_DIR / "matches.json", results)

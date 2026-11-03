@@ -1,26 +1,27 @@
 {
-  "generated_at": "2026-10-12",
-  "data_retrieved_at": "2026-10-12",
+  "generated_at": "2026-11-03",
+  "data_retrieved_at": "2026-11-03",
   "window_years": [
     2022,
     2026
   ],
   "min_senior_papers": 5,
-  "louvain_resolution": 1.7,
+  "louvain_resolution": 1.45,
   "louvain_seed": 42,
   "similarity_k": 5,
-  "similarity_threshold": 0.9165,
+  "similarity_threshold": 0.9174,
   "counts": {
-    "labs": 478,
-    "papers": 9374,
-    "edges_similarity": 1248,
-    "edges_coauthor": 642
+    "labs": 479,
+    "papers": 9451,
+    "edges_similarity": 1249,
+    "edges_coauthor": 659
   },
   "summary_coverage": {
-    "representative_papers": 1375,
+    "representative_papers": 1385,
     "papers_with_summary": 266,
-    "labs": 478,
-    "labs_with_intro": 90
+    "labs": 479,
+    "labs_with_intro": 459,
+    "labs_intro_unavailable": 20
   },
   "excluded_namesake_papers": 317,
   "departments": [
@@ -85,7 +86,7 @@
       "name_ko": "화학과",
       "discipline": "chem",
       "faculty_list_url": "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?srSearchKey=dept&srSearchVal=%ED%99%94%ED%95%99%EA%B3%BC",
-      "labs": 15
+      "labs": 16
     },
     {
       "code": "postech-phys",
@@ -94,7 +95,7 @@
       "name_ko": "물리학과",
       "discipline": "phys",
       "faculty_list_url": "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?srSearchKey=dept&srSearchVal=%EB%AC%BC%EB%A6%AC%ED%95%99%EA%B3%BC",
-      "labs": 14
+      "labs": 15
     },
     {
       "code": "postech-math",
@@ -103,7 +104,7 @@
       "name_ko": "수학과",
       "discipline": "math",
       "faculty_list_url": "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?srSearchKey=dept&srSearchVal=%EC%88%98%ED%95%99%EA%B3%BC",
-      "labs": 11
+      "labs": 10
     },
     {
       "code": "postech-cs",
@@ -184,7 +185,7 @@
       "name_ko": "전산학부",
       "discipline": "cs",
       "faculty_list_url": "https://cs.kaist.ac.kr/people/faculty",
-      "labs": 32
+      "labs": 33
     },
     {
       "code": "gist-chem",
@@ -220,7 +221,7 @@
       "name_ko": "물리천문학부",
       "discipline": "phys",
       "faculty_list_url": "https://physics.snu.ac.kr/research-faculty/faculty/fulltime",
-      "labs": 21
+      "labs": 20
     },
     {
       "code": "snu-math",
@@ -229,7 +230,7 @@
       "name_ko": "수리과학부",
       "discipline": "math",
       "faculty_list_url": "https://www.math.snu.ac.kr/bbs/page.php?hid=professor",
-      "labs": 22
+      "labs": 23
     },
     {
       "code": "snu-cs",
@@ -238,7 +239,7 @@
       "name_ko": "컴퓨터공학부",
       "discipline": "cs",
       "faculty_list_url": "https://cse.snu.ac.kr/ko/people/faculty",
-      "labs": 26
+      "labs": 25
     },
     {
       "code": "gist-phys",

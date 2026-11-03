@@ -52,19 +52,6 @@
     "paper_ids": []
   },
   {
-    "source": "kaist-A5103056397",
-    "target": "unist-A5007769445",
-    "type": "similarity",
-    "weight": 0.9167,
-    "cross": false,
-    "reasons": [
-      "interferon and immune responses",
-      "Immune Response and Inflammation",
-      "Immune Cell Function and Interaction"
-    ],
-    "paper_ids": []
-  },
-  {
     "source": "gist-A5023173703",
     "target": "kaist-A5103056397",
     "type": "similarity",
@@ -472,8 +459,8 @@
     "cross": true,
     "reasons": [
       "Immune Response and Inflammation",
-      "RNA Research and Splicing",
-      "Protein Degradation and Inhibitors"
+      "Protein Degradation and Inhibitors",
+      "RNA Research and Splicing"
     ],
     "paper_ids": []
   },
@@ -552,17 +539,6 @@
       "TiO2 Photocatalysis and Solar Cells",
       "Advanced Nanomaterials in Catalysis",
       "Pickering emulsions and particle stabilization"
-    ],
-    "paper_ids": []
-  },
-  {
-    "source": "gist-A5100398175",
-    "target": "kaist-A5045941705",
-    "type": "similarity",
-    "weight": 0.9169,
-    "cross": true,
-    "reasons": [
-      "RNA Interference and Gene Delivery"
     ],
     "paper_ids": []
   },
@@ -1471,7 +1447,7 @@
     "reasons": [
       "RNA modifications and cancer",
       "RNA Research and Splicing",
-      "Ubiquitin and proteasome pathways"
+      "Histone Deacetylase Inhibitors Research"
     ],
     "paper_ids": []
   },
@@ -1484,19 +1460,6 @@
     "reasons": [
       "Mitochondrial Function and Pathology",
       "Endoplasmic Reticulum Stress and Disease",
-      "RNA modifications and cancer"
-    ],
-    "paper_ids": []
-  },
-  {
-    "source": "postech-A5048461457",
-    "target": "snu-A5082258548",
-    "type": "similarity",
-    "weight": 0.9171,
-    "cross": false,
-    "reasons": [
-      "RNA Research and Splicing",
-      "RNA regulation and disease",
       "RNA modifications and cancer"
     ],
     "paper_ids": []
@@ -1536,7 +1499,7 @@
     "reasons": [
       "Mitochondrial Function and Pathology",
       "RNA regulation and disease",
-      "Ubiquitin and proteasome pathways"
+      "Autophagy in Disease and Therapy"
     ],
     "paper_ids": []
   },
@@ -1887,19 +1850,6 @@
       "Autophagy in Disease and Therapy",
       "Extracellular vesicles in disease",
       "Ubiquitin and proteasome pathways"
-    ],
-    "paper_ids": []
-  },
-  {
-    "source": "kaist-A5039003464",
-    "target": "snu-A5010084845",
-    "type": "similarity",
-    "weight": 0.9171,
-    "cross": true,
-    "reasons": [
-      "Protein Degradation and Inhibitors",
-      "Genomics and Chromatin Dynamics",
-      "Chromatin Remodeling and Cancer"
     ],
     "paper_ids": []
   },
@@ -2262,19 +2212,6 @@
     "reasons": [
       "Neuroinflammation and Neurodegeneration Mechanisms",
       "Protein Degradation and Inhibitors"
-    ],
-    "paper_ids": []
-  },
-  {
-    "source": "snu-A5035400785",
-    "target": "snu-A5049147819",
-    "type": "similarity",
-    "weight": 0.9173,
-    "cross": true,
-    "reasons": [
-      "Mitochondrial Function and Pathology",
-      "Endoplasmic Reticulum Stress and Disease",
-      "Redox biology and oxidative stress"
     ],
     "paper_ids": []
   },
@@ -2921,8 +2858,8 @@
     "weight": 0.9355,
     "cross": false,
     "reasons": [
-      "Extracellular vesicles in disease",
       "Immunotherapy and Immune Responses",
+      "Extracellular vesicles in disease",
       "RNA Interference and Gene Delivery"
     ],
     "paper_ids": []
@@ -3079,19 +3016,6 @@
     "reasons": [
       "Retinal Diseases and Treatments",
       "Immune cells in cancer"
-    ],
-    "paper_ids": []
-  },
-  {
-    "source": "kaist-A5060666792",
-    "target": "unist-A5021577151",
-    "type": "similarity",
-    "weight": 0.9173,
-    "cross": true,
-    "reasons": [
-      "Molecular Sensors and Ion Detection",
-      "RNA and protein synthesis mechanisms",
-      "Mitochondrial Function and Pathology"
     ],
     "paper_ids": []
   },
@@ -3520,8 +3444,8 @@
     "weight": 0.9393,
     "cross": true,
     "reasons": [
-      "Lipid Membrane Structure and Behavior",
       "Microtubule and mitosis dynamics",
+      "Lipid Membrane Structure and Behavior",
       "Ion Channels and Receptors"
     ],
     "paper_ids": []
@@ -3730,7 +3654,7 @@
     "reasons": [
       "Thin-Film Transistor Technologies",
       "Phase-change materials and chalcogenides",
-      "Transition Metal Oxide Nanomaterials"
+      "Gold and Silver Nanoparticles Synthesis and Applications"
     ],
     "paper_ids": []
   },
@@ -3796,19 +3720,6 @@
       "Catalytic Cross-Coupling Reactions",
       "Advanced battery technologies research",
       "Advanced Polymer Synthesis and Characterization"
-    ],
-    "paper_ids": []
-  },
-  {
-    "source": "postech-A5060796492",
-    "target": "unist-A5087895403",
-    "type": "similarity",
-    "weight": 0.9168,
-    "cross": false,
-    "reasons": [
-      "Chemical Synthesis and Analysis",
-      "Nanocluster Synthesis and Applications",
-      "Microbial Metabolic Engineering and Bioproduction"
     ],
     "paper_ids": []
   },
@@ -4443,8 +4354,8 @@
     "cross": false,
     "reasons": [
       "Metal-Organic Frameworks: Synthesis and Applications",
-      "Covalent Organic Framework Applications",
-      "Supramolecular Chemistry and Complexes"
+      "Supramolecular Chemistry and Complexes",
+      "Covalent Organic Framework Applications"
     ],
     "paper_ids": []
   },
@@ -4505,7 +4416,7 @@
     "reasons": [
       "Metal-Organic Frameworks: Synthesis and Applications",
       "Advanced Fluorescence Microscopy Techniques",
-      "Covalent Organic Framework Applications"
+      "Supramolecular Chemistry and Complexes"
     ],
     "paper_ids": []
   },
@@ -4532,6 +4443,19 @@
       "Topological Materials and Phenomena",
       "Advanced Condensed Matter Physics",
       "2D Materials and Applications"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5005060379",
+    "target": "postech-A5100359395",
+    "type": "similarity",
+    "weight": 0.9414,
+    "cross": true,
+    "reasons": [
+      "Topological Materials and Phenomena",
+      "2D Materials and Applications",
+      "Physics of Superconductivity and Magnetism"
     ],
     "paper_ids": []
   },
@@ -4924,6 +4848,71 @@
     "paper_ids": []
   },
   {
+    "source": "postech-A5046753852",
+    "target": "unist-A5044210377",
+    "type": "similarity",
+    "weight": 0.9448,
+    "cross": false,
+    "reasons": [
+      "CO2 Reduction Techniques and Catalysts",
+      "Catalytic Cross-Coupling Reactions",
+      "Zeolite Catalysis and Synthesis"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5025415011",
+    "target": "postech-A5046753852",
+    "type": "similarity",
+    "weight": 0.9573,
+    "cross": false,
+    "reasons": [
+      "CO2 Reduction Techniques and Catalysts",
+      "Gold and Silver Nanoparticles Synthesis and Applications",
+      "Advanced Photocatalysis Techniques"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5031132473",
+    "target": "postech-A5046753852",
+    "type": "similarity",
+    "weight": 0.9679,
+    "cross": false,
+    "reasons": [
+      "Electrocatalysts for Energy Conversion",
+      "Nanomaterials for catalytic reactions",
+      "Gold and Silver Nanoparticles Synthesis and Applications"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5074809975",
+    "target": "postech-A5046753852",
+    "type": "similarity",
+    "weight": 0.9497,
+    "cross": false,
+    "reasons": [
+      "Electrocatalysts for Energy Conversion",
+      "CO2 Reduction Techniques and Catalysts",
+      "Gold and Silver Nanoparticles Synthesis and Applications"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "dgist-A5019564898",
+    "target": "postech-A5046753852",
+    "type": "similarity",
+    "weight": 0.9463,
+    "cross": true,
+    "reasons": [
+      "Metal-Organic Frameworks: Synthesis and Applications",
+      "Catalytic Cross-Coupling Reactions",
+      "Quantum Dots Synthesis And Properties"
+    ],
+    "paper_ids": []
+  },
+  {
     "source": "gist-A5040133980",
     "target": "postech-A5018699270",
     "type": "similarity",
@@ -5236,6 +5225,18 @@
     "paper_ids": []
   },
   {
+    "source": "kaist-A5031913417",
+    "target": "postech-A5100621082",
+    "type": "similarity",
+    "weight": 0.9205,
+    "cross": false,
+    "reasons": [
+      "Quantum Information and Cryptography",
+      "Quantum Mechanics and Applications"
+    ],
+    "paper_ids": []
+  },
+  {
     "source": "kaist-A5059888759",
     "target": "postech-A5100621082",
     "type": "similarity",
@@ -5284,6 +5285,19 @@
       "Quantum Information and Cryptography",
       "Quantum Mechanics and Applications",
       "Photorefractive and Nonlinear Optics"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5100359395",
+    "target": "postech-A5100721055",
+    "type": "similarity",
+    "weight": 0.9529,
+    "cross": false,
+    "reasons": [
+      "2D Materials and Applications",
+      "Topological Materials and Phenomena",
+      "Surface and Thin Film Phenomena"
     ],
     "paper_ids": []
   },
@@ -5457,6 +5471,84 @@
     "paper_ids": []
   },
   {
+    "source": "postech-A5100359395",
+    "target": "unist-A5044742844",
+    "type": "similarity",
+    "weight": 0.9544,
+    "cross": false,
+    "reasons": [
+      "Topological Materials and Phenomena",
+      "2D Materials and Applications",
+      "Physics of Superconductivity and Magnetism"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5100780519",
+    "target": "postech-A5100359395",
+    "type": "similarity",
+    "weight": 0.9646,
+    "cross": false,
+    "reasons": [
+      "Topological Materials and Phenomena",
+      "Advanced Sensor and Energy Harvesting Materials",
+      "Graphene research and applications"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5000208797",
+    "target": "postech-A5100359395",
+    "type": "similarity",
+    "weight": 0.9556,
+    "cross": false,
+    "reasons": [
+      "2D Materials and Applications",
+      "Topological Materials and Phenomena",
+      "Graphene research and applications"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5071261215",
+    "target": "postech-A5100359395",
+    "type": "similarity",
+    "weight": 0.9408,
+    "cross": true,
+    "reasons": [
+      "Surface and Thin Film Phenomena",
+      "Surface Chemistry and Catalysis",
+      "Plasmonic and Surface Plasmon Research"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5100359395",
+    "target": "snu-A5100755766",
+    "type": "similarity",
+    "weight": 0.9553,
+    "cross": false,
+    "reasons": [
+      "2D Materials and Applications",
+      "Topological Materials and Phenomena",
+      "Surface and Thin Film Phenomena"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "gist-A5047787579",
+    "target": "postech-A5100359395",
+    "type": "similarity",
+    "weight": 0.932,
+    "cross": false,
+    "reasons": [
+      "Topological Materials and Phenomena",
+      "Electronic and Structural Properties of Oxides",
+      "Physics of Superconductivity and Magnetism"
+    ],
+    "paper_ids": []
+  },
+  {
     "source": "postech-A5071083135",
     "target": "unist-A5025370124",
     "type": "similarity",
@@ -5477,8 +5569,8 @@
     "cross": false,
     "reasons": [
       "Plasmonic and Surface Plasmon Research",
-      "Orbital Angular Momentum in Optics",
-      "Magnetic and transport properties of perovskites and related materials"
+      "Magnetic and transport properties of perovskites and related materials",
+      "Orbital Angular Momentum in Optics"
     ],
     "paper_ids": []
   },
@@ -6234,6 +6326,19 @@
     "paper_ids": []
   },
   {
+    "source": "postech-A5003733262",
+    "target": "snu-A5085177012",
+    "type": "similarity",
+    "weight": 0.9458,
+    "cross": false,
+    "reasons": [
+      "Model Reduction and Neural Networks",
+      "Machine Learning in Materials Science",
+      "Neural Networks and Applications"
+    ],
+    "paper_ids": []
+  },
+  {
     "source": "postech-A5086339183",
     "target": "postech-A5101770891",
     "type": "similarity",
@@ -6614,6 +6719,31 @@
     "paper_ids": []
   },
   {
+    "source": "postech-A5101396625",
+    "target": "unist-A5023336468",
+    "type": "similarity",
+    "weight": 0.9376,
+    "cross": false,
+    "reasons": [
+      "Model Reduction and Neural Networks",
+      "Neural Networks and Applications",
+      "Numerical methods for differential equations"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "postech-A5101396625",
+    "target": "snu-A5085177012",
+    "type": "similarity",
+    "weight": 0.9325,
+    "cross": false,
+    "reasons": [
+      "Model Reduction and Neural Networks",
+      "Neural Networks and Applications"
+    ],
+    "paper_ids": []
+  },
+  {
     "source": "postech-A5100334897",
     "target": "unist-A5071289684",
     "type": "similarity",
@@ -6896,19 +7026,6 @@
       "Advanced Image and Video Retrieval Techniques",
       "Advanced Neural Network Applications",
       "3D Shape Modeling and Analysis"
-    ],
-    "paper_ids": []
-  },
-  {
-    "source": "kaist-A5029363735",
-    "target": "postech-A5101998656",
-    "type": "similarity",
-    "weight": 0.9171,
-    "cross": false,
-    "reasons": [
-      "Advanced Image and Video Retrieval Techniques",
-      "Advanced Vision and Imaging",
-      "Human Pose and Action Recognition"
     ],
     "paper_ids": []
   },
@@ -7778,7 +7895,7 @@
     "reasons": [
       "Chemical Synthesis and Characterization",
       "Metal-Organic Frameworks: Synthesis and Applications",
-      "Hydrogen Storage and Materials"
+      "Mesoporous Materials and Catalysis"
     ],
     "paper_ids": []
   },
@@ -8549,19 +8666,6 @@
     "paper_ids": []
   },
   {
-    "source": "gist-A5071261215",
-    "target": "unist-A5044742844",
-    "type": "similarity",
-    "weight": 0.9329,
-    "cross": true,
-    "reasons": [
-      "Laser-Matter Interactions and Applications",
-      "Molecular Junctions and Nanostructures",
-      "Plasmonic and Surface Plasmon Research"
-    ],
-    "paper_ids": []
-  },
-  {
     "source": "snu-A5100755766",
     "target": "unist-A5044742844",
     "type": "similarity",
@@ -8903,12 +9007,16 @@
     "paper_ids": []
   },
   {
-    "source": "kaist-A5006942801",
-    "target": "unist-A5023336468",
+    "source": "snu-A5085177012",
+    "target": "unist-A5061494461",
     "type": "similarity",
-    "weight": 0.9218,
+    "weight": 0.9232,
     "cross": false,
-    "reasons": [],
+    "reasons": [
+      "Advanced Battery Technologies Research",
+      "Nonlinear Waves and Solitons",
+      "Advanced Numerical Methods in Computational Mathematics"
+    ],
     "paper_ids": []
   },
   {
@@ -8918,6 +9026,19 @@
     "weight": 0.9333,
     "cross": false,
     "reasons": [],
+    "paper_ids": []
+  },
+  {
+    "source": "snu-A5085177012",
+    "target": "unist-A5023336468",
+    "type": "similarity",
+    "weight": 0.9448,
+    "cross": false,
+    "reasons": [
+      "Model Reduction and Neural Networks",
+      "Differential Equations and Numerical Methods",
+      "Advanced Numerical Methods in Computational Mathematics"
+    ],
     "paper_ids": []
   },
   {
@@ -8968,6 +9089,19 @@
       "Security and Verification in Computing",
       "Cloud Computing and Resource Management",
       "Cryptographic Implementations and Security"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5046066368",
+    "target": "unist-A5042587361",
+    "type": "similarity",
+    "weight": 0.9634,
+    "cross": false,
+    "reasons": [
+      "Security and Verification in Computing",
+      "Adversarial Robustness in Machine Learning",
+      "Cryptography and Data Security"
     ],
     "paper_ids": []
   },
@@ -9071,7 +9205,7 @@
     "reasons": [
       "Software Testing and Debugging Techniques",
       "Software Engineering Research",
-      "Software System Performance and Reliability"
+      "Logic, programming, and type systems"
     ],
     "paper_ids": []
   },
@@ -9137,19 +9271,6 @@
       "RNA and protein synthesis mechanisms",
       "Genomics and Chromatin Dynamics",
       "CRISPR and Genetic Engineering"
-    ],
-    "paper_ids": []
-  },
-  {
-    "source": "gist-A5075452063",
-    "target": "kaist-A5101626337",
-    "type": "similarity",
-    "weight": 0.917,
-    "cross": false,
-    "reasons": [
-      "RNA and protein synthesis mechanisms",
-      "Bacterial Genetics and Biotechnology",
-      "RNA modifications and cancer"
     ],
     "paper_ids": []
   },
@@ -11060,19 +11181,6 @@
     "paper_ids": []
   },
   {
-    "source": "kaist-A5000208797",
-    "target": "kaist-A5046376217",
-    "type": "similarity",
-    "weight": 0.9525,
-    "cross": false,
-    "reasons": [
-      "2D Materials and Applications",
-      "Topological Materials and Phenomena",
-      "Magnetic properties of thin films"
-    ],
-    "paper_ids": []
-  },
-  {
     "source": "kaist-A5046376217",
     "target": "snu-A5100723191",
     "type": "similarity",
@@ -11160,6 +11268,32 @@
       "Advanced Thermodynamics and Statistical Mechanics",
       "Fractional Differential Equations Solutions",
       "Statistical Mechanics and Entropy"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5031913417",
+    "target": "snu-A5100755766",
+    "type": "similarity",
+    "weight": 0.9389,
+    "cross": false,
+    "reasons": [
+      "Physics of Superconductivity and Magnetism",
+      "Surface and Thin Film Phenomena",
+      "Topological Materials and Phenomena"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5031913417",
+    "target": "snu-A5100439010",
+    "type": "similarity",
+    "weight": 0.937,
+    "cross": true,
+    "reasons": [
+      "Quantum Information and Cryptography",
+      "Quantum Mechanics and Applications",
+      "Mechanical and Optical Resonators"
     ],
     "paper_ids": []
   },
@@ -11947,19 +12081,6 @@
   },
   {
     "source": "kaist-A5000208797",
-    "target": "kaist-A5100332056",
-    "type": "similarity",
-    "weight": 0.9189,
-    "cross": true,
-    "reasons": [
-      "Advanced Memory and Neural Computing",
-      "Ferroelectric and Negative Capacitance Devices",
-      "Semiconductor materials and devices"
-    ],
-    "paper_ids": []
-  },
-  {
-    "source": "kaist-A5000208797",
     "target": "snu-A5002034810",
     "type": "similarity",
     "weight": 0.9519,
@@ -12028,7 +12149,7 @@
     "cross": false,
     "reasons": [
       "Advanced Mathematical Physics Problems",
-      "Stability and Controllability of Differential Equations",
+      "Nonlinear Partial Differential Equations",
       "Nonlinear Waves and Solitons"
     ],
     "paper_ids": []
@@ -12101,19 +12222,6 @@
       "Limits and Structures in Graph Theory",
       "Advanced Combinatorial Mathematics",
       "Advanced Graph Theory Research"
-    ],
-    "paper_ids": []
-  },
-  {
-    "source": "kaist-A5100347881",
-    "target": "snu-A5080242645",
-    "type": "similarity",
-    "weight": 0.9174,
-    "cross": true,
-    "reasons": [
-      "Computational Geometry and Mesh Generation",
-      "Advanced Graph Theory Research",
-      "Point processes and geometric inequalities"
     ],
     "paper_ids": []
   },
@@ -12452,6 +12560,45 @@
     "paper_ids": []
   },
   {
+    "source": "kaist-A5019825813",
+    "target": "kaist-A5046066368",
+    "type": "similarity",
+    "weight": 0.9384,
+    "cross": false,
+    "reasons": [
+      "Security and Verification in Computing",
+      "Parallel Computing and Optimization Techniques",
+      "Distributed systems and fault tolerance"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5046066368",
+    "target": "kaist-A5047149607",
+    "type": "similarity",
+    "weight": 0.9289,
+    "cross": false,
+    "reasons": [
+      "Security and Verification in Computing",
+      "Parallel Computing and Optimization Techniques",
+      "Cloud Computing and Resource Management"
+    ],
+    "paper_ids": []
+  },
+  {
+    "source": "kaist-A5046066368",
+    "target": "snu-A5078173247",
+    "type": "similarity",
+    "weight": 0.9178,
+    "cross": false,
+    "reasons": [
+      "Real-Time Systems Scheduling",
+      "Parallel Computing and Optimization Techniques",
+      "Distributed systems and fault tolerance"
+    ],
+    "paper_ids": []
+  },
+  {
     "source": "kaist-A5079055843",
     "target": "kaist-A5100362666",
     "type": "similarity",
@@ -12525,7 +12672,7 @@
     "reasons": [
       "Software Testing and Debugging Techniques",
       "Software Engineering Research",
-      "Software System Performance and Reliability"
+      "Logic, programming, and type systems"
     ],
     "paper_ids": []
   },
@@ -12538,7 +12685,7 @@
     "reasons": [
       "Software Testing and Debugging Techniques",
       "Software Engineering Research",
-      "Software System Performance and Reliability"
+      "Logic, programming, and type systems"
     ],
     "paper_ids": []
   },
@@ -13010,19 +13157,6 @@
     "paper_ids": []
   },
   {
-    "source": "kaist-A5074295573",
-    "target": "snu-A5090223842",
-    "type": "similarity",
-    "weight": 0.9166,
-    "cross": false,
-    "reasons": [
-      "Reinforcement Learning in Robotics",
-      "Human Motion and Animation",
-      "3D Shape Modeling and Analysis"
-    ],
-    "paper_ids": []
-  },
-  {
     "source": "kaist-A5037553165",
     "target": "kaist-A5047149607",
     "type": "similarity",
@@ -13179,19 +13313,6 @@
     "paper_ids": []
   },
   {
-    "source": "kaist-A5070401254",
-    "target": "kaist-A5082893706",
-    "type": "similarity",
-    "weight": 0.9173,
-    "cross": false,
-    "reasons": [
-      "Software Engineering Research",
-      "Software Testing and Debugging Techniques",
-      "Adversarial Robustness in Machine Learning"
-    ],
-    "paper_ids": []
-  },
-  {
     "source": "kaist-A5071661688",
     "target": "kaist-A5082893706",
     "type": "similarity",
@@ -13214,19 +13335,6 @@
       "Parallel Computing and Optimization Techniques",
       "Real-Time Systems Scheduling",
       "Formal Methods in Verification"
-    ],
-    "paper_ids": []
-  },
-  {
-    "source": "kaist-A5077052539",
-    "target": "snu-A5083084972",
-    "type": "similarity",
-    "weight": 0.9174,
-    "cross": false,
-    "reasons": [
-      "Parallel Computing and Optimization Techniques",
-      "Interactive and Immersive Displays",
-      "Advanced Database Systems and Queries"
     ],
     "paper_ids": []
   },
@@ -13304,7 +13412,7 @@
     "reasons": [
       "Software Testing and Debugging Techniques",
       "Software Engineering Research",
-      "Software System Performance and Reliability"
+      "Logic, programming, and type systems"
     ],
     "paper_ids": []
   },
@@ -13448,19 +13556,6 @@
       "Cryptography and Data Security",
       "Cryptography and Residue Arithmetic",
       "Cryptographic Implementations and Security"
-    ],
-    "paper_ids": []
-  },
-  {
-    "source": "kaist-A5029363735",
-    "target": "snu-A5050928023",
-    "type": "similarity",
-    "weight": 0.9173,
-    "cross": false,
-    "reasons": [
-      "Robot Manipulation and Learning",
-      "3D Shape Modeling and Analysis",
-      "Advanced Image and Video Retrieval Techniques"
     ],
     "paper_ids": []
   },
@@ -13621,19 +13716,6 @@
     "paper_ids": []
   },
   {
-    "source": "gist-A5004486606",
-    "target": "snu-A5101968404",
-    "type": "similarity",
-    "weight": 0.9167,
-    "cross": false,
-    "reasons": [
-      "Protein Structure and Dynamics",
-      "FOXO transcription factor regulation",
-      "Cancer-related Molecular Pathways"
-    ],
-    "paper_ids": []
-  },
-  {
     "source": "gist-A5033770218",
     "target": "gist-A5100609778",
     "type": "similarity",
@@ -13669,17 +13751,6 @@
       "Electrocatalysts for Energy Conversion",
       "Advanced battery technologies research",
       "Fuel Cells and Related Materials"
-    ],
-    "paper_ids": []
-  },
-  {
-    "source": "gist-A5038852259",
-    "target": "gist-A5100398175",
-    "type": "similarity",
-    "weight": 0.9172,
-    "cross": false,
-    "reasons": [
-      "Luminescence Properties of Advanced Materials"
     ],
     "paper_ids": []
   },
@@ -14330,19 +14401,6 @@
     "paper_ids": []
   },
   {
-    "source": "snu-A5087000163",
-    "target": "snu-A5087322859",
-    "type": "similarity",
-    "weight": 0.9173,
-    "cross": true,
-    "reasons": [
-      "Advanced biosensing and bioanalysis techniques",
-      "Plasmonic and Surface Plasmon Research",
-      "Molecular Junctions and Nanostructures"
-    ],
-    "paper_ids": []
-  },
-  {
     "source": "snu-A5030453441",
     "target": "snu-A5100608258",
     "type": "similarity",
@@ -14414,8 +14472,8 @@
     "weight": 0.9522,
     "cross": true,
     "reasons": [
-      "Organic and Molecular Conductors Research",
       "Advanced Chemical Physics Studies",
+      "Organic and Molecular Conductors Research",
       "2D Materials and Applications"
     ],
     "paper_ids": []
@@ -14889,18 +14947,6 @@
     "paper_ids": []
   },
   {
-    "source": "snu-A5100755766",
-    "target": "snu-A5101720064",
-    "type": "similarity",
-    "weight": 0.9452,
-    "cross": false,
-    "reasons": [
-      "Magnetic properties of thin films",
-      "Quantum and electron transport phenomena"
-    ],
-    "paper_ids": []
-  },
-  {
     "source": "snu-A5100439010",
     "target": "snu-A5100755766",
     "type": "similarity",
@@ -15289,19 +15335,6 @@
     "paper_ids": []
   },
   {
-    "source": "gist-A5047787579",
-    "target": "snu-A5063669156",
-    "type": "similarity",
-    "weight": 0.9304,
-    "cross": false,
-    "reasons": [
-      "Topological Materials and Phenomena",
-      "Magnetic and transport properties of perovskites and related materials",
-      "Mechanical and Optical Resonators"
-    ],
-    "paper_ids": []
-  },
-  {
     "source": "gist-A5044362251",
     "target": "snu-A5063669156",
     "type": "similarity",
@@ -15564,17 +15597,6 @@
     "paper_ids": []
   },
   {
-    "source": "snu-A5016495222",
-    "target": "snu-A5100604981",
-    "type": "similarity",
-    "weight": 0.9169,
-    "cross": false,
-    "reasons": [
-      "Mathematical Dynamics and Fractals"
-    ],
-    "paper_ids": []
-  },
-  {
     "source": "snu-A5036960562",
     "target": "snu-A5044011121",
     "type": "similarity",
@@ -15635,7 +15657,7 @@
     "reasons": [
       "Advanced Data Storage Technologies",
       "Advanced Database Systems and Queries",
-      "Semiconductor materials and devices"
+      "Parallel Computing and Optimization Techniques"
     ],
     "paper_ids": []
   },
@@ -17321,6 +17343,17 @@
     ]
   },
   {
+    "source": "gist-A5038852259",
+    "target": "postech-A5046753852",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4388938997"
+    ]
+  },
+  {
     "source": "gist-A5040133980",
     "target": "gist-A5075061660",
     "type": "coauthor",
@@ -17539,6 +17572,17 @@
     "reasons": [],
     "paper_ids": [
       "W4409109823"
+    ]
+  },
+  {
+    "source": "gist-A5100330194",
+    "target": "postech-A5046753852",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4406964138"
     ]
   },
   {
@@ -18726,6 +18770,17 @@
   },
   {
     "source": "kaist-A5032053414",
+    "target": "postech-A5100359395",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W7220843666"
+    ]
+  },
+  {
+    "source": "kaist-A5032053414",
     "target": "snu-A5100723191",
     "type": "coauthor",
     "weight": 1.0,
@@ -18918,6 +18973,17 @@
     "reasons": [],
     "paper_ids": [
       "W4413894358"
+    ]
+  },
+  {
+    "source": "kaist-A5041517072",
+    "target": "postech-A5100359395",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W7220843666"
     ]
   },
   {
@@ -19616,6 +19682,39 @@
     "reasons": [],
     "paper_ids": [
       "W4385186792"
+    ]
+  },
+  {
+    "source": "kaist-A5067034493",
+    "target": "postech-A5003733262",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4390227195"
+    ]
+  },
+  {
+    "source": "kaist-A5067034493",
+    "target": "postech-A5100635271",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": true,
+    "reasons": [],
+    "paper_ids": [
+      "W4411924410"
+    ]
+  },
+  {
+    "source": "kaist-A5067034493",
+    "target": "postech-A5100746301",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4379106460"
     ]
   },
   {
@@ -20351,6 +20450,17 @@
     ]
   },
   {
+    "source": "postech-A5003733262",
+    "target": "snu-A5085177012",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W7169505481"
+    ]
+  },
+  {
     "source": "postech-A5005060379",
     "target": "postech-A5018699270",
     "type": "coauthor",
@@ -20370,6 +20480,19 @@
     "reasons": [],
     "paper_ids": [
       "W4403296777"
+    ]
+  },
+  {
+    "source": "postech-A5005060379",
+    "target": "postech-A5046753852",
+    "type": "coauthor",
+    "weight": 3.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4210577369",
+      "W4407147304",
+      "W4407151556"
     ]
   },
   {
@@ -20527,6 +20650,17 @@
     "reasons": [],
     "paper_ids": [
       "W4416735655"
+    ]
+  },
+  {
+    "source": "postech-A5010542458",
+    "target": "postech-A5100359395",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4313532318"
     ]
   },
   {
@@ -20761,6 +20895,19 @@
   },
   {
     "source": "postech-A5025254146",
+    "target": "postech-A5046753852",
+    "type": "coauthor",
+    "weight": 3.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4381164018",
+      "W4381192351",
+      "W4404929988"
+    ]
+  },
+  {
+    "source": "postech-A5025254146",
     "target": "postech-A5060796492",
     "type": "coauthor",
     "weight": 1.0,
@@ -20848,6 +20995,39 @@
     "reasons": [],
     "paper_ids": [
       "W4402726402"
+    ]
+  },
+  {
+    "source": "postech-A5046753852",
+    "target": "postech-A5060796492",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4404929988"
+    ]
+  },
+  {
+    "source": "postech-A5046753852",
+    "target": "postech-A5068442965",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4366985322"
+    ]
+  },
+  {
+    "source": "postech-A5046753852",
+    "target": "postech-A5100447428",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4310361332"
     ]
   },
   {
@@ -21180,6 +21360,18 @@
   },
   {
     "source": "postech-A5071617291",
+    "target": "postech-A5100359395",
+    "type": "coauthor",
+    "weight": 2.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4383982449",
+      "W4404713496"
+    ]
+  },
+  {
+    "source": "postech-A5071617291",
     "target": "postech-A5100721055",
     "type": "coauthor",
     "weight": 4.0,
@@ -21278,6 +21470,19 @@
     "reasons": [],
     "paper_ids": [
       "W7165549275"
+    ]
+  },
+  {
+    "source": "postech-A5100359395",
+    "target": "postech-A5100721055",
+    "type": "coauthor",
+    "weight": 3.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4313532318",
+      "W4313989399",
+      "W4411916910"
     ]
   },
   {
@@ -22857,6 +23062,17 @@
     "reasons": [],
     "paper_ids": [
       "W4386448366"
+    ]
+  },
+  {
+    "source": "snu-A5085177012",
+    "target": "unist-A5023336468",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4412658192"
     ]
   },
   {

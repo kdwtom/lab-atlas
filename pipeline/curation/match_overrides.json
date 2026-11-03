@@ -1,0 +1,23 @@
+{
+  "_comment": "Manual corrections from reviewing paper titles against faculty pages (PLAN_PHASE2.md 5-2). Key: '<dept>|<name_ko or name_en>'. force = use this OpenAlex author; exclude = no reliable profile, leave the professor off the map.",
+  "force": {
+    "postech-chem|이인수": {"openalex_id": "A5046753852", "note": "automatic pick was a 1-work fragment of the same person"},
+    "postech-phys|김태환": {"openalex_id": "A5100359395", "note": "automatic pick was a 1-work fragment of the same person"},
+    "postech-math|최민석": {"openalex_id": "A5101396625", "note": "automatic pick is a communications namesake; this profile has the physics-informed neural network papers"},
+    "kaist-phys|김은성": {"openalex_id": "A5031913417", "note": "automatic pick is an electronic-skin namesake; this profile has the quantum and helium physics topics"},
+    "kaist-math|김우진": {"openalex_id": "A5100386550", "note": "automatic pick is a materials namesake; this profile has the persistence and topology papers"},
+    "kaist-math|김재경": {"openalex_id": "A5067034493", "note": "automatic pick was an 8-work fragment with the same ORCID"},
+    "kaist-cs|강민석": {"openalex_id": "A5082521029", "note": "automatic pick is a materials namesake; this profile has the network security topics"},
+    "kaist-cs|강병훈": {"openalex_id": "A5046066368", "note": "automatic pick is a plasmonic PCR namesake; this profile is Brent Byunghoon Kang (security)"},
+    "snu-phys|강민구": {"openalex_id": "A5046233402", "note": "automatic pick is a chip-accelerator namesake; this profile has the kagome metal physics papers"},
+    "snu-math|홍영준": {"openalex_id": "A5085177012", "note": "automatic pick was a 27-work fragment with the same ORCID"}
+  },
+  "exclude": {
+    "postech-math|김민성": {"note": "candidates are photoacoustic/power or plant namesakes; the faculty page's dynamics paper has only a 1-work profile"},
+    "postech-phys|최영준": {"note": "the only candidate is a different person (Yeon-Jun Choi)"},
+    "postech-chem|권도훈": {"note": "the candidate is a merged 959-work profile, mostly other people's biomedical papers"},
+    "kaist-cs|김경민": {"note": "database researcher; candidates are memristor or mixed namesakes and none has database papers"},
+    "snu-cs|김태수": {"note": "the candidate writes on Daoist and Buddhist philosophy, a different person"},
+    "kaist-math|김동환": {"note": "optimization researcher; the bioprinting pick is a namesake and the optimization-topic profile lists only unrelated recent papers (airline service, concrete, ship fuel)"}
+  }
+}

@@ -6,7 +6,7 @@ from pipeline.lib.faculty import dgist_tracks, gist, gist_depts, kaist_depts, sn
 from pipeline.lib.faculty.base import flip_comma_name
 from pipeline.lib.roster import Roster, compact
 from pipeline.schemas import FacultyRecord, MatchResult
-from pipeline.step03_match import evaluate, field_share
+from pipeline.step03_match import apply_override, evaluate, field_share
 from pipeline.step04_papers import alphabetical, group_labs
 
 INST = "I111"
@@ -218,3 +218,34 @@ def test_roster_tiebreak_same_orcid():
     b = evaluate(f, {**author("A2", "Eun-Gook Moon"), "orcid": "https://orcid.org/0000-0003-1863-4901", "works_count": 15}, INST, {})
     chosen, _ = roster_tiebreak(FakeOA({}), f, [a, b])
     assert chosen.openalex_id == "A1"
+
+
+# ------------------------------------------------------------------ manual match review (PLAN_PHASE2.md 5-2)
+def _matched(name_ko="김철수"):
+    return MatchResult(univ="kaist", dept="kaist-math", name_ko=name_ko, faculty_page_url="u", status="matched",
+                       openalex_id="A1", confidence="medium", detail="single strong candidate",
+                       retrieved_at=date(2026, 11, 3))
+
+
+class _FakeOA:
+    def author(self, aid):
+        return {"display_name": "Real Person", "works_count": 40, "orcid": "https://orcid.org/0000-1"}, date(2026, 11, 3)
+
+
+def test_override_force_records_new_candidate():
+    used = set()
+    ov = {"force": {"kaist-math|김철수": {"openalex_id": "A2", "note": "namesake"}}, "exclude": {}}
+    r = apply_override(_FakeOA(), _matched(), ov, used)
+    assert (r.status, r.openalex_id, r.detail) == ("matched", "A2", "manual review: namesake")
+    assert r.candidates[0].openalex_id == "A2" and used == {"kaist-math|김철수"}
+
+
+def test_override_exclude_clears_the_match():
+    ov = {"force": {}, "exclude": {"kaist-math|김철수": {"note": "no profile"}}}
+    r = apply_override(_FakeOA(), _matched(), ov, set())
+    assert (r.status, r.openalex_id, r.confidence, r.reason) == ("excluded", None, None, "manual_review")
+
+
+def test_override_leaves_others_alone():
+    r = _matched("이영희")
+    assert apply_override(_FakeOA(), r, {"force": {}, "exclude": {}}, set()) is r

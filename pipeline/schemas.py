@@ -74,7 +74,7 @@ MatchStatus = Literal["matched", "excluded"]
 ExcludeReason = Literal[
     "not_full_time", "no_candidate", "affiliation_mismatch", "name_mismatch",
     "topic_mismatch", "ambiguous_multiple_candidates", "no_english_name_no_anchor",
-    "below_paper_threshold",
+    "below_paper_threshold", "manual_review",
 ]
 
 
@@ -190,6 +190,8 @@ class Lab(Strict):
     x: Optional[float] = None
     y: Optional[float] = None
     intro_ko: Optional[str] = None
+    # set when no intro could be written from the paper list (curation/intro_unavailable.json)
+    intro_unavailable: Optional[Literal["insufficient_papers", "mixed_topics", "wrong_field"]] = None
     representative_paper_ids: list[str] = Field(default_factory=list, max_length=3)
     keyword_timeline: list[YearKeywords] = Field(default_factory=list)
     sources: list[Source]
@@ -243,6 +245,7 @@ class SummaryCoverage(Strict):
     papers_with_summary: int
     labs: int
     labs_with_intro: int
+    labs_intro_unavailable: int = 0
 
 
 class DepartmentInfo(Strict):

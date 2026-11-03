@@ -49,6 +49,8 @@ export interface Lab {
   x: number | null;
   y: number | null;
   intro_ko: string | null;
+  /** why no intro could be written from the paper list */
+  intro_unavailable: 'insufficient_papers' | 'mixed_topics' | 'wrong_field' | null;
   representative_paper_ids: string[];
   keyword_timeline: YearKeywords[];
   sources: Source[];
@@ -137,6 +139,7 @@ export interface Meta {
     papers_with_summary: number;
     labs: number;
     labs_with_intro: number;
+    labs_intro_unavailable: number;
   } | null;
   /** Papers removed after namesake review (pipeline/curation/excluded_papers.csv) */
   excluded_namesake_papers: number;

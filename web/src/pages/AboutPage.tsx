@@ -5,20 +5,17 @@ import { ISSUE_URL, UNIV_LABEL, UNIV_ORDER, fmtDate } from '../lib/format';
 import { FIELD_LABEL, FIELD_ORDER } from '../lib/palette';
 
 export default function AboutPage() {
-  const { meta, clusters, labs } = useAtlas();
+  const { meta, clusters, labs, paperById } = useAtlas();
   const { hash } = useLocation();
   const sc = meta.summary_coverage;
   const [y0, y1] = meta.window_years;
 
-  // Unwritten summaries are not spread evenly (whole universities / the fields added in phase 1).
-  // Computed from the data so this disclosure disappears on its own once the remaining batches land.
-  const gapsBy = <K,>(keys: K[], label: (k: K) => string, has: (k: K, l: (typeof labs)[number]) => boolean) =>
-    keys.map((k) => {
-      const own = labs.filter((l) => has(k, l));
-      return { label: label(k), total: own.length, missing: own.filter((l) => !l.intro_ko).length };
-    }).filter((g) => g.missing > 0);
-  const gaps = gapsBy(FIELD_ORDER, (f) => FIELD_LABEL[f], (f, l) => l.disciplines[0] === f);
-  const univGaps = gapsBy(UNIV_ORDER, (u) => UNIV_LABEL[u], (u, l) => l.univ === u && l.disciplines[0] === 'life');
+  // Paper summaries are not spread evenly across fields. Computed from the data so this disclosure
+  // disappears on its own once the remaining summaries land.
+  const gaps = FIELD_ORDER.map((f) => {
+    const reps = labs.filter((l) => l.disciplines[0] === f).flatMap((l) => l.representative_paper_ids);
+    return { label: FIELD_LABEL[f], total: reps.length, missing: reps.filter((id) => !paperById.get(id)?.summary_ko).length };
+  }).filter((g) => g.missing > 0);
   const deptsByUniv = UNIV_ORDER.map((u) => ({ u, depts: meta.departments.filter((d) => d.univ === u) }))
     .filter((g) => g.depts.length > 0);
 
@@ -80,6 +77,10 @@ export default function AboutPage() {
 
       <section>
         <h2>OpenAlex 매칭과 제외 방식</h2>
+        <p>
+          자동 매칭 뒤에 의심 사례의 논문 제목을 AI(Claude)가 읽고 16명을 수동으로 고쳤습니다(프로필 교체 10명, 믿을 만한 프로필이 없어 제외 6명).
+          내역은 저장소의 <code>pipeline/curation/match_overrides.json</code>에 있습니다.
+        </p>
         <p>동명이인을 피하기 위해 교수진 페이지의 교수를 OpenAlex 저자와 다음 근거로 교차 확인했습니다.</p>
         <ul>
           <li><strong>소속</strong>: 해당 대학이 최근 3년 이내 소속 이력에 있어야 합니다.</li>
@@ -138,6 +139,15 @@ export default function AboutPage() {
       </section>
 
       <section>
+        <h2>내 후보: 추천과 비교</h2>
+        <ul>
+          <li><strong>추천</strong>: 담은 연구실 벡터의 평균과 코사인 유사도가 큰 순서입니다. 논문이 섞였거나 매칭이 의심되어 소개를 쓰지 않은 연구실은 벡터를 믿기 어려워 추천하지 않습니다. 벡터는 8비트로 줄여 브라우저에서 계산하며, 담은 목록은 이 브라우저에만 저장되고 서버로 보내지 않습니다. 공유 링크에는 연구실 ID가 들어갑니다.</li>
+          <li><strong>찾기</strong>: 뜻을 해석하지 않는 글자 일치 검색입니다. 많은 소개와 키워드, 논문 제목이 각각 한국어와 영어라 언어에 따라 결과가 다를 수 있습니다.</li>
+          <li><strong>비교표</strong>: 점수나 순위를 매기지 않습니다. 논문 수는 분야별 관행이 달라 분야가 다르면 직접 비교하기 어렵습니다.</li>
+        </ul>
+      </section>
+
+      <section>
         <h2>대표 논문 선정 규칙</h2>
         <p>
           PI가 마지막 저자 또는 교신저자이고(수학·컴퓨터는 위의 알파벳 순 규칙으로 인정된 논문 포함) 초록이 있는 논문만 후보로 하며, 연간 인용 수(인용 수 ÷ 출판 후 경과 연수, 최소 1년)로
@@ -151,17 +161,17 @@ export default function AboutPage() {
           대표 논문의 한국어 요약(한 줄 요약, 연구 배경, 방법, 핵심 발견, 의의)과 연구실 소개는 AI 언어 모델(Anthropic Claude)이
           초록·TLDR·논문 목록만을 근거로 작성했고, 무작위 표본을 원래 초록과 대조해 근거 없는 주장이 없는지 점검했습니다. 초록에서 근거를 찾을 수 없는 항목은 “초록에서 확인 불가”로 두었고, 전문 용어는 처음 나올 때 영문을
           병기했습니다. 저작권을 고려해 <strong>초록 원문은 게재하지 않으며</strong>, 원문은 DOI 링크로 확인할 수 있습니다.
+          화학·물리·수학·컴퓨터 연구실과 생명과학 일부의 소개는 <strong>최근 논문 제목과 OpenAlex 키워드만</strong> 근거로 주제 수준에서 썼으며, 표본만 사람이 점검했습니다. 동떨어진 제목은 소개에서 뺐습니다.
         </p>
         {sc && (
           <p className="notice">
-            현재 작성 현황: 대표 논문 {sc.representative_papers}편 중 <strong>{sc.papers_with_summary}편</strong>,
-            연구실 {sc.labs}곳 중 <strong>{sc.labs_with_intro}곳</strong>의 소개가 작성되었습니다. 나머지는 “정보 없음”으로 표시됩니다.
+            현재 작성 현황: 연구실 {sc.labs}곳 중 <strong>{sc.labs_with_intro}곳</strong>의 소개가 작성되었고,{' '}
+            {sc.labs_intro_unavailable > 0 && <><strong>{sc.labs_intro_unavailable}곳</strong>은 논문이 너무 적거나 주제가 동떨어져 쓰지 않고 그 이유를 표시했습니다(동명이인 논문이나 잘못된 매칭이 의심되는 경우 포함). </>}
+            대표 논문 요약은 {sc.representative_papers}편 중 <strong>{sc.papers_with_summary}편</strong>이 작성되었고 나머지는 “정보 없음”으로 표시됩니다.
             {gaps.length > 0 && (
               <>
-                {' '}<strong>아직 쓰지 못한 부분이 특정 분야와 대학에 몰려 있습니다</strong>
-                {' '}(분야별 미작성: {gaps.map((g) => `${g.label} ${g.missing}/${g.total}곳`).join(', ')}
-                {univGaps.length > 0 && <>; 생명과학 중 {univGaps.map((g) => `${g.label} ${g.missing}/${g.total}곳`).join(', ')}</>}).
-                새로 추가한 화학·물리·수학·컴퓨터 연구실의 요약은 다음 작업으로 남겨 두었습니다.
+                {' '}<strong>논문 요약의 공백은 특정 분야에 몰려 있습니다</strong>
+                {' '}(분야별 미작성: {gaps.map((g) => `${g.label} ${g.missing}/${g.total}편`).join(', ')}).
                 요약이 없다고 해서 그 연구실의 연구 성과가 적다는 뜻은 전혀 아니며, 작성 순서 때문입니다.
                 비교할 때는 이 점을 감안해 주세요.
               </>

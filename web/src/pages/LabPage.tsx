@@ -2,9 +2,10 @@ import { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import type { Paper, PaperSummary, SourceKind } from '../types/data';
 import { useAtlas } from '../data/DataContext';
-import { NA, affiliation, doiHref, fmtDate, labTitle, piName } from '../lib/format';
+import { NA, affiliation, doiHref, fmtDate, introText, labTitle, piName } from '../lib/format';
 import type { Mode } from '../lib/palette';
 import { ClusterChip, FieldChips } from '../components/LabPanel';
+import StarButton from '../components/StarButton';
 
 const SUMMARY_FIELDS: [keyof PaperSummary, string][] = [
   ['background', '연구 배경'],
@@ -91,6 +92,7 @@ export default function LabPage({ mode }: { mode: Mode }) {
         </h1>
         <p className="lab-name">{labTitle(lab)}</p>
         <div className="head-meta">
+          <StarButton id={lab.id} name={piName(lab)} />
           <FieldChips lab={lab} mode={mode} />
           <ClusterChip id={lab.cluster_id} />
           <span>최근 5년 논문 <strong>{lab.paper_count_5y}</strong>편</span>
@@ -107,9 +109,8 @@ export default function LabPage({ mode }: { mode: Mode }) {
         <h2>연구실 소개</h2>
         {lab.intro_ko ? <p className="lead">{lab.intro_ko}</p> : (
           <p className="muted">
-            {NA} — 소개와 논문 요약을 아직 쓰지 못한 연구실입니다. 작성 순서 때문이며 이 연구실의
-            연구 성과와는 무관합니다. 아래 대표 논문 목록과 키워드, 링크는 정상적으로 제공되며,
-            작성 현황은 <Link to="/about">방법론 페이지</Link>에 있습니다.
+            {introText(lab)} 이 연구실의 연구 성과와는 무관합니다. 잘못된 정보라면{' '}
+            <Link to="/about#correction">정정을 요청</Link>해 주세요.
           </p>
         )}
         {lab.keywords.length > 0 && <ul className="tags">{lab.keywords.map((k) => <li key={k}>{k}</li>)}</ul>}

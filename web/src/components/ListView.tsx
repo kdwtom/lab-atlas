@@ -4,6 +4,7 @@ import type { Lab } from '../types/data';
 import { useAtlas } from '../data/DataContext';
 import { UNIV_LABEL, labTitle, piName } from '../lib/format';
 import { FIELD_LABEL, fieldColor, type Mode } from '../lib/palette';
+import StarButton from './StarButton';
 
 type Key = 'name' | 'univ' | 'field' | 'cluster' | 'papers' | 'senior';
 const COLS: { key: Key; label: string; numeric?: boolean }[] = [
@@ -61,6 +62,7 @@ export default function ListView({ labs, mode }: { labs: Lab[]; mode: Mode }) {
           {rows.map((l) => (
             <tr key={l.id}>
               <td>
+                <StarButton id={l.id} name={piName(l)} compact />{' '}
                 <Link to={`/lab/${encodeURIComponent(l.id)}`} className="row-link">{piName(l)}</Link>
                 {l.pi_name_en && l.pi_name_ko && <span className="en"> {l.pi_name_en}</span>}
                 <div className="muted small">{labTitle(l)}</div>

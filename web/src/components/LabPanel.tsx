@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import type { Edge, Lab } from '../types/data';
 import { useAtlas } from '../data/DataContext';
-import { NA, affiliation, piName } from '../lib/format';
+import { NA, affiliation, introText, piName } from '../lib/format';
+import StarButton from './StarButton';
 import { FIELD_LABEL, fieldColor, type Mode } from '../lib/palette';
 
 interface Props {
@@ -77,6 +78,7 @@ export default function LabPanel({ lab, edge, mode, sheet, pinned, onClose }: Pr
             <li>노드를 클릭하면 이 창에 고정되고, 한 번 더 클릭하면 상세 페이지로 이동합니다. 빈 곳 클릭이나 Esc로 고정을 풉니다.</li>
             <li>세부분야마다 연결선이 가장 많은 연구실은 이름이 항상 표시되고, 확대하면 모든 PI 이름이 나타납니다.</li>
             <li>선에 마우스를 올리면 연결 이유를 볼 수 있습니다.</li>
+            <li>☆ 담기를 누르면 <Link to="/shortlist">내 후보</Link>에서 비슷한 연구실 추천과 비교표를 볼 수 있습니다.</li>
           </ul>
           <p className="muted small">
             {m.window_years[0]}–{m.window_years[1]}년 논문 기준(분야별로 다름) ·{' '}
@@ -105,12 +107,13 @@ export default function LabPanel({ lab, edge, mode, sheet, pinned, onClose }: Pr
           {lab.pi_name_en && lab.pi_name_ko && <span className="en"> {lab.pi_name_en}</span>}
         </h2>
         <div className="chip-row"><FieldChips lab={lab} mode={mode} /><ClusterChip id={lab.cluster_id} /></div>
+        <StarButton id={lab.id} name={piName(lab)} />
         {sheet && <Link className="btn btn-top" to={`/lab/${encodeURIComponent(lab.id)}`}>상세 페이지 보기</Link>}
         <h3>핵심 키워드</h3>
         {lab.keywords.length ? <ul className="tags">{lab.keywords.slice(0, 5).map((k) => <li key={k}>{k}</li>)}</ul>
           : <p className="muted">{NA}</p>}
         <h3>연구실 소개</h3>
-        <p className={lab.intro_ko ? '' : 'muted'}>{lab.intro_ko ?? NA}</p>
+        <p className={lab.intro_ko ? '' : 'muted'}>{introText(lab)}</p>
         <h3>대표 논문</h3>
         {rep ? (
           <div className="rep">

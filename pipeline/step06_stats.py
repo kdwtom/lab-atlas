@@ -19,6 +19,7 @@ REASON_KO = {
     "topic_mismatch": "후보 연구주제가 학과 분야 밖",
     "ambiguous_multiple_candidates": "후보 여러 명(동명이인 가능성)",
     "below_paper_threshold": "최근 5년 논문 수가 분야별 기준 미만",
+    "manual_review": "수동 검토에서 믿을 만한 프로필을 찾지 못함",
 }
 
 

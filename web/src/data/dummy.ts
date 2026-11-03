@@ -17,7 +17,7 @@ export function makeDummy(n: number, clusters: Cluster[], meta: Meta): { labs: L
       faculty_page_url: '#', openalex_id: `D${i}`, orcid: null, match_confidence: 'medium',
       paper_count_5y: 5 + Math.floor(rand() * 60), senior_paper_count_5y: 5, keywords: clusters[c]?.keywords.slice(0, 3) ?? [],
       cluster_id: clusters[c]?.id ?? null, x: centers[c][0] + (rand() - 0.5) * 0.5, y: centers[c][1] + (rand() - 0.5) * 0.5,
-      intro_ko: null, representative_paper_ids: [], keyword_timeline: [], sources: [],
+      intro_ko: null, intro_unavailable: null, representative_paper_ids: [], keyword_timeline: [], sources: [],
     };
   });
   const edges: Edge[] = [];

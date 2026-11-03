@@ -1,22 +1,22 @@
 {
   "0": {
-    "label_ko": "면역·미생물·대사",
-    "keywords": [
-      "Immune Cell Function and Interaction",
-      "Immune cells in cancer",
-      "T-cell and B-cell Immunology",
-      "Gut microbiota and health",
-      "Extracellular vesicles in disease"
-    ]
-  },
-  "1": {
-    "label_ko": "해석학·편미분방정식·확률",
+    "label_ko": "해석학·편미분방정식·응용수학",
     "keywords": [
       "Nonlinear Partial Differential Equations",
       "Distributed Control Multi-Agent Systems",
       "Navier-Stokes equation solutions",
-      "Nonlinear Dynamics and Pattern Formation",
-      "Random Matrices and Applications"
+      "Model Reduction and Neural Networks",
+      "Nonlinear Dynamics and Pattern Formation"
+    ]
+  },
+  "1": {
+    "label_ko": "면역·미생물·대사",
+    "keywords": [
+      "Immune Cell Function and Interaction",
+      "T-cell and B-cell Immunology",
+      "Immune cells in cancer",
+      "Gut microbiota and health",
+      "Autophagy in Disease and Therapy"
     ]
   },
   "2": {
@@ -30,6 +30,26 @@
     ]
   },
   "3": {
+    "label_ko": "응집물질·자성·위상물질",
+    "keywords": [
+      "Magnetic properties of thin films",
+      "Advanced Condensed Matter Physics",
+      "Topological Materials and Phenomena",
+      "2D Materials and Applications",
+      "Physics of Superconductivity and Magnetism"
+    ]
+  },
+  "4": {
+    "label_ko": "컴퓨터 비전·기계학습·HCI",
+    "keywords": [
+      "3D Shape Modeling and Analysis",
+      "Advanced Neural Network Applications",
+      "Generative Adversarial Networks and Image Synthesis",
+      "Recommender Systems and Techniques",
+      "Tactile and Sensory Interactions"
+    ]
+  },
+  "5": {
     "label_ko": "RNA·단백질 구조와 기능",
     "keywords": [
       "RNA and protein synthesis mechanisms",
@@ -39,54 +59,34 @@
       "Enzyme Structure and Function"
     ]
   },
-  "4": {
-    "label_ko": "응집물질·자성·위상물질",
+  "6": {
+    "label_ko": "양자정보·광학·레이저",
     "keywords": [
-      "Magnetic properties of thin films",
-      "Advanced Condensed Matter Physics",
-      "Topological Materials and Phenomena",
-      "Physics of Superconductivity and Magnetism",
-      "2D Materials and Applications"
+      "Quantum Information and Cryptography",
+      "Quantum Computing Algorithms and Architecture",
+      "Laser-Plasma Interactions and Diagnostics",
+      "Laser-Matter Interactions and Applications",
+      "Photorefractive and Nonlinear Optics"
     ]
   },
-  "5": {
+  "7": {
+    "label_ko": "고분자·MOF·물리화학",
+    "keywords": [
+      "Block Copolymer Self-Assembly",
+      "Advanced Polymer Synthesis and Characterization",
+      "Photochemistry and Electron Transfer Studies",
+      "Liquid Crystal Research Advancements",
+      "Machine Learning in Materials Science"
+    ]
+  },
+  "8": {
     "label_ko": "바이오센서·나노바이오·의료영상",
     "keywords": [
       "Molecular Sensors and Ion Detection",
       "Digital Holography and Microscopy",
       "Nanoplatforms for cancer theranostics",
-      "Advanced Memory and Neural Computing",
-      "Biosensors and Analytical Detection"
-    ]
-  },
-  "6": {
-    "label_ko": "고분자·MOF·물리화학",
-    "keywords": [
-      "Metal-Organic Frameworks: Synthesis and Applications",
-      "Block Copolymer Self-Assembly",
-      "Advanced Polymer Synthesis and Characterization",
-      "Advanced Battery Materials and Technologies",
-      "Machine Learning in Materials Science"
-    ]
-  },
-  "7": {
-    "label_ko": "양자정보·광학·레이저",
-    "keywords": [
-      "Quantum Information and Cryptography",
-      "Laser-Plasma Interactions and Diagnostics",
-      "Quantum Computing Algorithms and Architecture",
-      "Laser-Matter Interactions and Applications",
-      "Photorefractive and Nonlinear Optics"
-    ]
-  },
-  "8": {
-    "label_ko": "데이터·기계학습·응용수학",
-    "keywords": [
-      "Recommender Systems and Techniques",
-      "Data Visualization and Analytics",
-      "Topic Modeling",
-      "Advanced Graph Neural Networks",
-      "Information Retrieval and Search Behavior"
+      "Biosensors and Analytical Detection",
+      "Gold and Silver Nanoparticles Synthesis and Applications"
     ]
   },
   "9": {
@@ -96,7 +96,7 @@
       "Parallel Computing and Optimization Techniques",
       "Cryptography and Data Security",
       "Security and Verification in Computing",
-      "Cloud Computing and Resource Management"
+      "Blockchain Technology Applications and Security"
     ]
   },
   "10": {
@@ -130,26 +130,16 @@
     ]
   },
   "13": {
-    "label_ko": "컴퓨터 비전·그래픽스·로보틱스",
-    "keywords": [
-      "3D Shape Modeling and Analysis",
-      "Generative Adversarial Networks and Image Synthesis",
-      "Tactile and Sensory Interactions",
-      "Advanced Neural Network Applications",
-      "Human Motion and Animation"
-    ]
-  },
-  "14": {
     "label_ko": "신경과학",
     "keywords": [
       "Neuroscience and Neuropharmacology Research",
-      "Genetics and Neurodevelopmental Disorders",
       "Neural dynamics and brain function",
-      "Neuroinflammation and Neurodegeneration Mechanisms",
-      "Memory and Neural Mechanisms"
+      "Genetics and Neurodevelopmental Disorders",
+      "Memory and Neural Mechanisms",
+      "Neuroinflammation and Neurodegeneration Mechanisms"
     ]
   },
-  "15": {
+  "14": {
     "label_ko": "소프트웨어공학·프로그래밍 언어",
     "keywords": [
       "Software Testing and Debugging Techniques",
@@ -157,6 +147,16 @@
       "Logic, programming, and type systems",
       "Formal Methods in Verification",
       "Software Reliability and Analysis Research"
+    ]
+  },
+  "15": {
+    "label_ko": "그래프 이론·조합·알고리즘",
+    "keywords": [
+      "Limits and Structures in Graph Theory",
+      "Advanced Graph Theory Research",
+      "Computational Geometry and Mesh Generation",
+      "Complexity and Algorithms in Graphs",
+      "Advanced Combinatorial Mathematics"
     ]
   }
 }

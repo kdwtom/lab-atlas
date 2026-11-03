@@ -48,6 +48,15 @@ def web_integrity() -> list[str]:
     for banned in ('"abstract"', '"tldr"', '"email"', "@kaist.ac.kr", "@snu.ac.kr"):
         if banned in raw:
             errors.append(f"web: forbidden content {banned} in published data")
+    if (d / "lab_vectors.json").exists():
+        vec = read_json(d / "lab_vectors.json")
+        size = (d / "lab_vectors.bin").stat().st_size if (d / "lab_vectors.bin").exists() else -1
+        if set(vec["ids"]) != {l["id"] for l in labs} or size != len(vec["ids"]) * vec["dim"]:
+            errors.append("web: lab_vectors.bin/json do not match labs.json")
+    no_intro = [l["id"] for l in labs if not l.get("intro_ko") and not l.get("intro_unavailable")]
+    both = [l["id"] for l in labs if l.get("intro_ko") and l.get("intro_unavailable")]
+    if no_intro or both:
+        errors.append(f"web: labs need exactly one of intro_ko / intro_unavailable: {(no_intro + both)[:5]}")
     if not errors:
         log.info("OK  web cross-references and publication rules")
     return errors
