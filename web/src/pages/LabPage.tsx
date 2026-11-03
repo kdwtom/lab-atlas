@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import type { Paper, PaperSummary, SourceKind } from '../types/data';
 import { useAtlas } from '../data/DataContext';
-import { NA, affiliation, doiHref, fmtDate, introText, labTitle, piName } from '../lib/format';
+import { NA, affiliation, doiHref, fmtDate, introText, labTitle, neighbourCaution, piName, similarityBand } from '../lib/format';
 import type { Mode } from '../lib/palette';
 import { ClusterChip, FieldChips } from '../components/LabPanel';
 import StarButton from '../components/StarButton';
@@ -144,12 +144,13 @@ export default function LabPage({ mode }: { mode: Mode }) {
       <div className="two-col">
         <section>
           <h2>비슷한 연구실 Top 5</h2>
+          {similar.length > 0 && neighbourCaution(lab) && <p className="caution">{neighbourCaution(lab)}</p>}
           {similar.length ? (
             <ol className="neighbors">
               {similar.map(({ lab: o, edge }) => (
                 <li key={o.id}>
                   <Link to={`/lab/${encodeURIComponent(o.id)}`}>{piName(o)}</Link>
-                  <span className="muted small"> {o.univ_name_ko} · 유사도 {edge.weight.toFixed(3)}</span>
+                  <span className="muted small"> {o.univ_name_ko} · {similarityBand(atlas.meta, edge.weight, lab, o)}</span>
                   <div className="small">공통 키워드: {edge.reasons.length ? edge.reasons.join(' · ') : NA}</div>
                 </li>
               ))}

@@ -44,6 +44,8 @@ export interface Lab {
   match_confidence: 'high' | 'medium';
   paper_count_5y: number;
   senior_paper_count_5y: number;
+  /** papers behind the lab's vector; few papers make its neighbours unstable */
+  vector_paper_count: number;
   keywords: string[];
   cluster_id: number | null;
   x: number | null;
@@ -107,6 +109,8 @@ export interface Edge {
   weight: number;
   reasons: string[];
   paper_ids: string[];
+  /** similarity edges: [paper of source, paper of target] with the closest vectors, closest first */
+  paper_pairs?: [string, string][];
   /** the two labs belong to different fields */
   cross: boolean;
 }
@@ -127,6 +131,8 @@ export interface Meta {
   louvain_seed: number | null;
   similarity_k: number | null;
   similarity_threshold: number | null;
+  /** field (or "cross", "all") -> similarity cut-offs: [close, very close] */
+  similarity_bands?: Record<string, [number, number]>;
   counts: {
     labs: number;
     papers: number;

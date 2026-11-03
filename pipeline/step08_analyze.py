@@ -1,5 +1,8 @@
 """Step 8 — similarity edges, co-authorship edges, Louvain clusters, UMAP layout, keywords.
 
+Each similarity edge also records the lab papers whose vectors are closest, so readers can judge the link from
+titles (the shared topics come from OpenAlex and are not what the similarity is computed from).
+
 Similarity edges = each lab's top-k neighbours above a data-driven threshold, plus a "bridge" to its most
 similar lab in a different field (same threshold) so cross-disciplinary neighbours are never crowded out
 (PLAN_PHASE1.md 3-4). Edges between labs of different fields carry cross=True.
@@ -20,7 +23,9 @@ import numpy as np
 from . import config
 from .lib.io import read_json, read_jsonl, write_json
 from .lib.selection import in_analysis_set
+from .lib.textutil import norm_title
 from .schemas import Cluster, Edge
+from .step07_embed import cached_paper_vectors
 
 log = logging.getLogger(__name__)
 LABELS_PATH = config.PIPELINE_DIR / "curation" / "cluster_labels.json"
@@ -90,6 +95,43 @@ def bridge_pairs(sim: np.ndarray, fields: list[frozenset[str]], threshold: float
     return out
 
 
+def closest_paper_pairs(ids_a: list[str], vec_a: np.ndarray, ids_b: list[str], vec_b: np.ndarray,
+                        title_of: dict[str, str], n: int = 3) -> list[tuple[str, str]]:
+    """Closest pairs across two labs, each title used once. Papers both labs have are no evidence of similar work
+    (they are one paper, sometimes under two ids such as a preprint), so any title on both sides is skipped."""
+    titles_a = {norm_title(title_of[p]) for p in ids_a}
+    shared = titles_a & {norm_title(title_of[p]) for p in ids_b}
+    sims = vec_a @ vec_b.T
+    out: list[tuple[str, str]] = []
+    seen: set[str] = set(shared)
+    for k in np.argsort(-sims, axis=None):
+        i, j = np.unravel_index(k, sims.shape)
+        pa, pb = ids_a[i], ids_b[j]
+        ta, tb = norm_title(title_of[pa]), norm_title(title_of[pb])
+        if ta in seen or tb in seen:
+            continue
+        out.append((pa, pb))
+        seen.update((ta, tb))
+        if len(out) == n:
+            break
+    return out
+
+
+def band_cuts(weights: list[float]) -> tuple[float, float]:
+    """Cut-offs splitting a group's lines into three equal parts."""
+    lo, hi = np.quantile(weights, [1 / 3, 2 / 3])
+    return round(float(lo), 4), round(float(hi), 4)
+
+
+def similarity_band(weight: float, cuts: tuple[float, float], threshold: float) -> str:
+    """Band shown on the site (web/src/lib/format.ts has the same rule)."""
+    if weight < threshold:
+        return "주제 거리가 있음"
+    if weight >= cuts[1]:
+        return "매우 가까움"
+    return "가까움" if weight >= cuts[0] else "비교적 가까움"
+
+
 def cluster_target(n: int) -> tuple[int, int]:
     """Cluster count range: 6-12 for the original 106 labs, growing with the number of labs."""
     lo, hi = config.LOUVAIN_TARGET_CLUSTERS
@@ -152,10 +194,28 @@ def run(client=None) -> None:
     edges: list[Edge] = []
     shown = {k: w for k, w in pairs.items() if w >= threshold}
     bridges = {k: w for k, w in bridge_pairs(sim, fields, threshold).items() if k not in shown}
+    used = read_json(config.OUTPUT_DIR / "embedding_papers.json")
+    by_id = {p["id"]: p for p in papers}
+    title_of = {pid: p["title"] for pid, p in by_id.items()}
+    vec_of = cached_paper_vectors([by_id[p] for lid in lab_ids for p in used[lid]])
+    paper_vecs = {lid: np.stack([vec_of[p] for p in used[lid]]) for lid in lab_ids}
+    primary = {lid: config.DEPT_BY_CODE[status[lid]["depts"][0]].discipline for lid in lab_ids}
+    band_weights: dict[str, list[float]] = defaultdict(list)
+
+    def evidence(a: str, b: str) -> list[tuple[str, str]]:
+        # a paper of both labs may sit outside one lab's 30 embedded papers, so check its full lab list
+        rows_a = [i for i, p in enumerate(used[a]) if b not in by_id[p]["lab_ids"]]
+        rows_b = [i for i, p in enumerate(used[b]) if a not in by_id[p]["lab_ids"]]
+        return closest_paper_pairs([used[a][i] for i in rows_a], paper_vecs[a][rows_a],
+                                   [used[b][i] for i in rows_b], paper_vecs[b][rows_b], title_of)
+
     for (i, j), w in sorted({**shown, **bridges}.items()):
         a, b = sorted((lab_ids[i], lab_ids[j]))
         edges.append(Edge(source=a, target=b, type="similarity", weight=round(w, 4),
-                          reasons=shared_keywords(prof[a], prof[b]), cross=not (fields[i] & fields[j])))
+                          reasons=shared_keywords(prof[a], prof[b]), cross=not (fields[i] & fields[j]),
+                          paper_pairs=evidence(a, b)))
+        band_weights[primary[a] if primary[a] == primary[b] else "cross"].append(w)
+        band_weights["all"].append(w)
 
     # co-authorship edges: papers on which two dataset PIs are both authors (both at home institution)
     co: dict[tuple[str, str], list[str]] = defaultdict(list)
@@ -184,7 +244,7 @@ def run(client=None) -> None:
     xy = umap_xy(vec)
     labs_out = {
         lid: {"cluster_id": cluster_of[lid], "x": round(float(xy[i, 0]), 5), "y": round(float(xy[i, 1]), 5),
-              "keywords": [t for t, _ in prof[lid].most_common(5)],
+              "keywords": [t for t, _ in prof[lid].most_common(5)], "vector_paper_count": len(used[lid]),
               "keyword_timeline": keyword_timeline(papers, lid)}
         for i, lid in enumerate(lab_ids)
     }
@@ -194,7 +254,8 @@ def run(client=None) -> None:
                    "threshold_quantile": config.SIMILARITY_THRESHOLD_QUANTILE, "threshold": threshold,
                    "louvain_seed": config.LOUVAIN_SEED, "louvain_resolution": resolution,
                    "umap_seed": config.UMAP_SEED, "resolution_sweep": sweep,
-                   "cluster_target": cluster_target(len(lab_ids)), "bridges_added": len(bridges)},
+                   "cluster_target": cluster_target(len(lab_ids)), "bridges_added": len(bridges),
+                   "similarity_bands": {k: band_cuts(v) for k, v in sorted(band_weights.items())}},
         "labs": labs_out, "edges": edges, "clusters": clusters,
     })
     log.info("labs %d | similarity edges %d (threshold %.4f; %d bridges, %d cross-field) | coauthor edges %d | "

@@ -10,6 +10,36 @@
   "louvain_seed": 42,
   "similarity_k": 5,
   "similarity_threshold": 0.9174,
+  "similarity_bands": {
+    "all": [
+      0.9344,
+      0.9521
+    ],
+    "chem": [
+      0.9423,
+      0.9587
+    ],
+    "cross": [
+      0.9295,
+      0.945
+    ],
+    "cs": [
+      0.9318,
+      0.9463
+    ],
+    "life": [
+      0.9308,
+      0.9427
+    ],
+    "math": [
+      0.9243,
+      0.9384
+    ],
+    "phys": [
+      0.9472,
+      0.9625
+    ]
+  },
   "counts": {
     "labs": 479,
     "papers": 9451,

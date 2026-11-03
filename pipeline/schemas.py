@@ -185,6 +185,7 @@ class Lab(Strict):
     match_confidence: Literal["high", "medium"]
     paper_count_5y: int
     senior_paper_count_5y: int
+    vector_paper_count: int = 0            # papers behind the lab's vector; few papers make its neighbours unstable
     keywords: list[str] = Field(default_factory=list)
     cluster_id: Optional[int] = None
     x: Optional[float] = None
@@ -223,6 +224,8 @@ class Edge(Strict):
     cross: bool = False                    # the two labs belong to different fields (disciplines)
     reasons: list[str] = Field(default_factory=list, max_length=3)
     paper_ids: list[str] = Field(default_factory=list)
+    # similarity edges: (paper of source lab, paper of target lab) whose vectors are closest, closest first
+    paper_pairs: list[tuple[str, str]] = Field(default_factory=list, max_length=3)
 
 
 class Cluster(Strict):
@@ -267,6 +270,8 @@ class Meta(Strict):
     louvain_seed: Optional[int] = None
     similarity_k: Optional[int] = None
     similarity_threshold: Optional[float] = None
+    # field (or "cross", "all") -> similarity cut-offs (close, very close), a third of that group's lines each
+    similarity_bands: dict[str, tuple[float, float]] = Field(default_factory=dict)
     counts: Counts
     summary_coverage: Optional[SummaryCoverage] = None
     excluded_namesake_papers: int = 0

@@ -5,7 +5,7 @@ import { useAtlas } from '../data/DataContext';
 import { useShortlist } from '../data/shortlist';
 import StarButton from '../components/StarButton';
 import { FieldChips } from '../components/LabPanel';
-import { NA, affiliation, doiHref, introText, labTitle, piName } from '../lib/format';
+import { NA, affiliation, doiHref, introText, labTitle, neighbourCaution, piName, similarityBand } from '../lib/format';
 import { FIELD_LABEL, FIELD_ORDER, type Mode } from '../lib/palette';
 import { loadLabVectors, recommend, sharedTopics, topicProfiles, type LabVectors } from '../lib/recommend';
 
@@ -15,6 +15,11 @@ const REC_LIMIT = 12;
 type RecField = 'all' | 'other' | (typeof FIELD_ORDER)[number];
 
 const labLink = (id: string) => `/lab/${encodeURIComponent(id)}`;
+function KeywordList({ items }: { items: string[] }) {
+  if (items.length === 0) return <>{NA}</>;
+  return <ul className="keyword-list">{items.map((k) => <li key={k}>{k}</li>)}</ul>;
+}
+
 const norm = (s: string) => s.toLowerCase().replace(/[\s\-‐·]/g, '');
 
 /** Latin words match from a word start ("RNA" must not hit "internal"); Korean matches anywhere. */
@@ -140,21 +145,24 @@ function Recommendations({ seeds, mode }: { seeds: Lab[]; mode: Mode }) {
       {!failed && !vectors && <p className="muted" role="status">추천을 계산하는 중…</p>}
       {vectors && rows.length === 0 && <p className="empty">이 조건에 맞는 연구실이 없습니다.</p>}
       <ol className="lab-rows">
-        {rows.map(({ lab, score, nearestSeed, nearestSimilarity }) => {
+        {rows.map(({ lab, nearestSeed, nearestSimilarity }) => {
           const seed = atlas.labById.get(nearestSeed);
           const topics = sharedTopics(profiles.get(lab.id), profiles.get(nearestSeed));
+          const caution = seed ? neighbourCaution(lab, seed) : neighbourCaution(lab);
           return (
             <li key={lab.id}>
               <StarButton id={lab.id} name={piName(lab)} compact />
               <div>
                 <Link to={labLink(lab.id)} className="row-link">{piName(lab)}</Link>
-                <span className="muted small"> {affiliation(lab)} · 가까움 {score.toFixed(3)}</span>
+                <span className="muted small"> {affiliation(lab)}</span>
                 <div className="chip-row"><FieldChips lab={lab} mode={mode} /></div>
                 <p className="small row-intro">{introText(lab)}</p>
                 <p className="muted small">
-                  이유: 담은 연구실 중 {seed ? piName(seed) : NA}에 가장 가까움({nearestSimilarity.toFixed(3)})
+                  이유: 담은 연구실 중 {seed ? piName(seed) : NA}에 가장 가까움
+                  {seed && `(${similarityBand(atlas.meta, nearestSimilarity, lab, seed)})`}
                   {topics.length > 0 && ` · 공통 주제: ${topics.join(', ')}`}
                 </p>
+                {caution && <p className="muted small">{caution}</p>}
               </div>
             </li>
           );
@@ -181,12 +189,13 @@ function Compare({ labs, mode }: { labs: Lab[]; mode: Mode }) {
     { label: '연구 클러스터', cell: (l) => (l.cluster_id === null ? NA : atlas.clusterById.get(l.cluster_id)?.label_ko ?? NA) },
     { label: '직위', cell: (l) => l.position ?? NA },
     { label: '소개', cell: introText },
-    { label: '핵심 키워드', cell: (l) => l.keywords.slice(0, 5).join(' · ') || NA },
+    { label: '핵심 키워드', cell: (l) => <KeywordList items={l.keywords.slice(0, 5)} /> },
     {
       label: '최근 주제 (가장 최근 연도)',
       cell: (l) => {
         const last = l.keyword_timeline.at(-1);
-        return last ? `${last.year}: ${last.keywords.join(' · ')}` : NA;
+        if (!last) return NA;
+        return <><div className="muted small">{last.year}년</div><KeywordList items={last.keywords} /></>;
       },
     },
     { label: '최근 5년 논문', cell: (l) => `${l.paper_count_5y}편` },

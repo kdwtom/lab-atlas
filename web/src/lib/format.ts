@@ -1,4 +1,4 @@
-import type { Lab, Univ } from '../types/data';
+import type { Lab, Meta, Univ } from '../types/data';
 
 export const NA = '정보 없음';
 
@@ -38,6 +38,34 @@ const INTRO_UNAVAILABLE: Record<NonNullable<Lab['intro_unavailable']>, string> =
 export function introText(lab: Lab): string {
   if (lab.intro_ko) return lab.intro_ko;
   return lab.intro_unavailable ? INTRO_UNAVAILABLE[lab.intro_unavailable] : NA;
+}
+
+/**
+ * Words instead of a cosine value: the value has no absolute meaning and its range differs per field, so the
+ * cut-offs are per field (pipeline step08_analyze.similarity_band has the same rule).
+ */
+export function similarityBand(meta: Meta, weight: number, a: Lab, b: Lab): string {
+  const threshold = meta.similarity_threshold;
+  if (threshold !== null && weight < threshold) return '주제 거리가 있음';
+  const group = a.disciplines[0] === b.disciplines[0] ? a.disciplines[0] : 'cross';
+  const cuts = meta.similarity_bands?.[group] ?? meta.similarity_bands?.all;
+  if (!cuts) return '가까움';
+  if (weight >= cuts[1]) return '매우 가까움';
+  return weight >= cuts[0] ? '가까움' : '비교적 가까움';
+}
+
+/**
+ * Warning for labs whose vector rests on few papers. The audit (pipeline/output/similarity_audit.md) shows half of such
+ * a lab's papers often fail to find the other half.
+ */
+export function neighbourCaution(...labs: Lab[]): string | null {
+  const least = labs.reduce((a, b) => (b.vector_paper_count < a.vector_paper_count ? b : a));
+  const n = least.vector_paper_count;
+  if (n > 10) return null;
+  const who = labs.length > 1 ? `${piName(least)} 연구실은 ` : '';
+  return n <= 5
+    ? `${who}논문 ${n}편으로 계산해 가까운 연구실 목록이 크게 달라질 수 있습니다.`
+    : `${who}논문 ${n}편으로 계산해 가까운 연구실 목록이 달라질 수 있습니다.`;
 }
 
 export function or<T>(v: T | null | undefined, fallback: string = NA): T | string {

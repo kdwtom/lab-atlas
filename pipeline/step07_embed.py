@@ -49,6 +49,12 @@ def qualifying_papers() -> dict[str, list[dict]]:
     return by_lab
 
 
+def cached_paper_vectors(papers: list[dict]) -> dict[str, np.ndarray]:
+    """paper id -> unit vector from the on-disk cache; papers must have been embedded already (no model needed)."""
+    cache = load_cache()
+    return {p["id"]: cache[hashlib.sha1(paper_text(p, "[SEP]").encode("utf-8")).hexdigest()] for p in papers}
+
+
 def embed(papers: list[dict]) -> dict[str, np.ndarray]:
     """paper id -> unit vector, using and extending the on-disk cache."""
     from sentence_transformers import SentenceTransformer  # heavy import, stage 3 only

@@ -32,7 +32,7 @@ export function clusterColor(id: number | null | undefined, mode: Mode): string 
 }
 
 /** Canvas chrome per mode (mirrors the CSS tokens in styles.css). */
-export const CHROME: Record<Mode, { surface: string; ink: string; inkSecondary: string; muted: string; link: string }> = {
-  light: { surface: '#fcfcfb', ink: '#0b0b0b', inkSecondary: '#52514e', muted: '#898781', link: '11,11,11' },
-  dark: { surface: '#1a1a19', ink: '#ffffff', inkSecondary: '#c3c2b7', muted: '#898781', link: '255,255,255' },
+export const CHROME: Record<Mode, { surface: string; region: string; ink: string; inkSecondary: string; muted: string; link: string }> = {
+  light: { surface: '#fcfcfb', region: '#e4e2db', ink: '#0b0b0b', inkSecondary: '#52514e', muted: '#898781', link: '11,11,11' },
+  dark: { surface: '#1a1a19', region: '#32322f', ink: '#ffffff', inkSecondary: '#c3c2b7', muted: '#898781', link: '255,255,255' },
 };

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import type { Edge, Lab } from '../types/data';
+import type { Edge, Lab, Paper } from '../types/data';
 import { useAtlas } from '../data/DataContext';
-import { NA, affiliation, introText, piName } from '../lib/format';
+import { NA, affiliation, doiHref, introText, neighbourCaution, piName, similarityBand } from '../lib/format';
 import StarButton from './StarButton';
 import { FIELD_LABEL, fieldColor, type Mode } from '../lib/palette';
 
@@ -33,24 +33,68 @@ export function FieldChips({ lab, mode }: { lab: Lab; mode: Mode }) {
   );
 }
 
-function EdgeInfo({ edge }: { edge: Edge }) {
+function PaperLink({ paper }: { paper: Paper }) {
+  return (
+    <>
+      <a href={doiHref(paper.doi) ?? paper.openalex_url} target="_blank" rel="noreferrer">{paper.title}</a>
+      {' '}<span className="muted">({paper.year})</span>
+    </>
+  );
+}
+
+function EdgeInfo({ edge, onClose }: { edge: Edge; onClose?: () => void }) {
   const atlas = useAtlas();
   const a = atlas.labById.get(edge.source);
   const b = atlas.labById.get(edge.target);
+  const nameA = a ? piName(a) : edge.source;
+  const nameB = b ? piName(b) : edge.target;
+  const caution = a && b && edge.type === 'similarity' ? neighbourCaution(a, b) : null;
+  const pairs = (edge.paper_pairs ?? []).flatMap(([x, y]) => {
+    const pa = atlas.paperById.get(x);
+    const pb = atlas.paperById.get(y);
+    return pa && pb ? [{ pa, pb }] : [];
+  });
+  const shared = edge.paper_ids.flatMap((id) => atlas.paperById.get(id) ?? []);
   return (
     <div className="panel-body">
+      {onClose && (
+        <p className="pin-bar">
+          <span>선택한 연결</span>
+          <button type="button" onClick={onClose}>선택 해제</button>
+        </p>
+      )}
       <p className="eyebrow">{edge.type === 'similarity' ? '연구 주제 유사도' : '공동연구'}</p>
-      <h2 className="panel-title">{a ? piName(a) : edge.source} ↔ {b ? piName(b) : edge.target}</h2>
+      <h2 className="panel-title">{nameA} ↔ {nameB}</h2>
       {edge.type === 'similarity' ? (
         <>
-          <p>코사인 유사도 <strong>{edge.weight.toFixed(3)}</strong></p>
-          <h3>연결 이유 (공통 키워드)</h3>
+          {a && b && <p><strong>{similarityBand(atlas.meta, edge.weight, a, b)}</strong></p>}
+          {caution && <p className="caution">{caution}</p>}
+          <h3>공통 주제</h3>
           {edge.reasons.length ? (
             <ul className="tags">{edge.reasons.map((r) => <li key={r}>{r}</li>)}</ul>
           ) : <p className="muted">{NA}</p>}
+          <h3>내용이 가까운 논문</h3>
+          {pairs.length ? (
+            <>
+              <ol className="paper-pairs">
+                {pairs.map(({ pa, pb }) => (
+                  <li key={`${pa.id}-${pb.id}`}>
+                    <div><span className="pair-name">{nameA}</span><PaperLink paper={pa} /></div>
+                    <div><span className="pair-name">{nameB}</span><PaperLink paper={pb} /></div>
+                  </li>
+                ))}
+              </ol>
+              <p className="muted small">유사도 계산에 쓴 논문 중 벡터가 가장 가까운 쌍입니다. 제목을 보고 정말 비슷한지 직접 판단해 보세요.</p>
+            </>
+          ) : <p className="muted">{NA}</p>}
         </>
       ) : (
-        <p>두 PI가 함께 저자로 참여한 논문 <strong>{edge.weight}편</strong></p>
+        <>
+          <p>두 PI가 함께 저자로 참여한 논문 <strong>{edge.weight}편</strong></p>
+          {shared.length > 0 && (
+            <ul className="paper-list">{shared.map((p) => <li key={p.id}><PaperLink paper={p} /></li>)}</ul>
+          )}
+        </>
       )}
     </div>
   );
@@ -59,7 +103,11 @@ function EdgeInfo({ edge }: { edge: Edge }) {
 export default function LabPanel({ lab, edge, mode, sheet, pinned, onClose }: Props) {
   const atlas = useAtlas();
   if (!lab && edge) {
-    return <aside className={sheet ? 'panel sheet' : 'panel'} aria-live="polite"><EdgeInfo edge={edge} /></aside>;
+    return (
+      <aside key={`${edge.source}-${edge.target}-${edge.type}`} className={sheet ? 'panel sheet' : 'panel'} aria-live="polite">
+        <EdgeInfo edge={edge} onClose={onClose} />
+      </aside>
+    );
   }
   if (!lab) {
     if (sheet) return null;
@@ -76,8 +124,8 @@ export default function LabPanel({ lab, edge, mode, sheet, pinned, onClose }: Pr
           <ul className="hint">
             <li>노드에 마우스를 올리면 연구실 정보가 여기에 표시되고, 마우스를 옮겨도 남아 있어 스크롤할 수 있습니다.</li>
             <li>노드를 클릭하면 이 창에 고정되고, 한 번 더 클릭하면 상세 페이지로 이동합니다. 빈 곳 클릭이나 Esc로 고정을 풉니다.</li>
-            <li>세부분야마다 연결선이 가장 많은 연구실은 이름이 항상 표시되고, 확대하면 모든 PI 이름이 나타납니다.</li>
-            <li>선에 마우스를 올리면 연결 이유를 볼 수 있습니다.</li>
+            <li>축소하면 일부 연구실만 크게 보이고 나머지는 작은 점으로 남습니다. 확대할수록 연구실과 이름이 늘어나고, 클러스터 이름을 누르면 그 묶음으로 들어갑니다. 표시 순서는 평가가 아닙니다.</li>
+            <li>선을 클릭하면 두 연구실의 공통 주제와 내용이 가까운 논문을 볼 수 있습니다.</li>
             <li>☆ 담기를 누르면 <Link to="/shortlist">내 후보</Link>에서 비슷한 연구실 추천과 비교표를 볼 수 있습니다.</li>
           </ul>
           <p className="muted small">

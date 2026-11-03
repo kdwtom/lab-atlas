@@ -41,6 +41,8 @@ def web_integrity() -> list[str]:
         errors.append("web: lab refers to unknown cluster")
     if any(e["source"] not in lab_ids or e["target"] not in lab_ids or e["source"] >= e["target"] for e in edges):
         errors.append("web: edge endpoints unknown or not ordered (source < target)")
+    if any(q not in paper_ids for e in edges for pair in e.get("paper_pairs", []) for q in pair):
+        errors.append("web: similarity edge refers to a paper missing from papers.json")
     if any(not set(p["lab_ids"]) <= lab_ids for p in papers):
         errors.append("web: paper refers to unknown lab")
     # principle 4 (no abstract text) and no personal contact data on the site

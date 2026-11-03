@@ -21,6 +21,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 8,
     "keywords": [
       "Ubiquitin and proteasome pathways",
       "Endoplasmic Reticulum Stress and Disease",
@@ -109,6 +110,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 20,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 20,
     "keywords": [
       "Organic Electronics and Photovoltaics",
       "Conducting polymers and applications",
@@ -213,6 +215,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 7,
     "keywords": [
       "DNA Repair Mechanisms",
       "Genomics and Chromatin Dynamics",
@@ -317,6 +320,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 21,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 21,
     "keywords": [
       "Extracellular vesicles in disease",
       "RNA Interference and Gene Delivery",
@@ -421,6 +425,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 18,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 15,
     "keywords": [
       "Metal-Organic Frameworks: Synthesis and Applications",
       "Quantum Dots Synthesis And Properties",
@@ -512,6 +517,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 8,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 8,
     "keywords": [
       "Paraoxonase enzyme and polymorphisms",
       "Genetics, Aging, and Longevity in Model Organisms",
@@ -616,6 +622,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 35,
     "senior_paper_count_5y": 20,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced Battery Materials and Technologies",
       "Advancements in Battery Materials",
@@ -715,6 +722,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 27,
     "senior_paper_count_5y": 20,
+    "vector_paper_count": 27,
     "keywords": [
       "Magnetic Field Sensors Techniques",
       "Micro and Nano Robotics",
@@ -814,6 +822,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 11,
     "keywords": [
       "Bacterial biofilms and quorum sensing",
       "Skin and Cellular Biology Research",
@@ -910,6 +919,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 9,
     "keywords": [
       "Lipid Membrane Structure and Behavior",
       "Advanced Battery Materials and Technologies",
@@ -1006,6 +1016,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 18,
     "keywords": [
       "Organic Electronics and Photovoltaics",
       "Nanomaterials and Printing Technologies",
@@ -1105,6 +1116,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 30,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 28,
     "keywords": [
       "Advanced Photocatalysis Techniques",
       "2D Materials and Applications",
@@ -1204,6 +1216,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 16,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 16,
     "keywords": [
       "Advanced Condensed Matter Physics",
       "Physics of Superconductivity and Magnetism",
@@ -1303,6 +1316,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 44,
     "senior_paper_count_5y": 39,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced Photocatalysis Techniques",
       "Advanced Energy Technologies and Civil Engineering Innovations",
@@ -1402,6 +1416,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 44,
     "senior_paper_count_5y": 33,
+    "vector_paper_count": 30,
     "keywords": [
       "Electrocatalysts for Energy Conversion",
       "Advanced battery technologies research",
@@ -1501,6 +1516,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 14,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 14,
     "keywords": [
       "Organoboron and organosilicon chemistry",
       "Catalytic Cross-Coupling Reactions",
@@ -1592,6 +1608,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 14,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 14,
     "keywords": [
       "Metal-Organic Frameworks: Synthesis and Applications",
       "Covalent Organic Framework Applications",
@@ -1683,6 +1700,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 20,
     "senior_paper_count_5y": 16,
+    "vector_paper_count": 20,
     "keywords": [
       "Radical Photochemical Reactions",
       "Asymmetric Synthesis and Catalysis",
@@ -1782,6 +1800,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 19,
     "keywords": [
       "Laser-Matter Interactions and Applications",
       "2D Materials and Applications",
@@ -1881,6 +1900,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 5,
     "keywords": [
       "Criminal Law and Policy",
       "Spectroscopy and Quantum Chemical Studies",
@@ -1964,6 +1984,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 21,
     "senior_paper_count_5y": 16,
+    "vector_paper_count": 21,
     "keywords": [
       "Animal Behavior and Reproduction",
       "Animal Vocal Communication and Behavior",
@@ -2068,6 +2089,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 10,
     "keywords": [
       "Glioma Diagnosis and Treatment",
       "Chromatin Remodeling and Cancer",
@@ -2172,6 +2194,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 12,
     "keywords": [
       "Topological Materials and Phenomena",
       "Advanced Condensed Matter Physics",
@@ -2271,6 +2294,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 29,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 29,
     "keywords": [
       "Magnetic properties of thin films",
       "Advanced Condensed Matter Physics",
@@ -2370,6 +2394,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 13,
     "keywords": [
       "Organoboron and organosilicon chemistry",
       "Generative Adversarial Networks and Image Synthesis",
@@ -2461,6 +2486,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 8,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 8,
     "keywords": [
       "Plant Gene Expression Analysis",
       "Plant Molecular Biology Research",
@@ -2565,6 +2591,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 7,
     "keywords": [
       "Plant Molecular Biology Research",
       "Plant Gene Expression Analysis",
@@ -2653,6 +2680,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 23,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 23,
     "keywords": [
       "Magnetic properties of thin films",
       "Nanomaterials and Printing Technologies",
@@ -2752,6 +2780,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 19,
     "keywords": [
       "Graphene research and applications",
       "2D Materials and Applications",
@@ -2851,6 +2880,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 22,
     "senior_paper_count_5y": 20,
+    "vector_paper_count": 20,
     "keywords": [
       "Metal-Organic Frameworks: Synthesis and Applications",
       "Indian and Buddhist Studies",
@@ -2950,6 +2980,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 23,
     "senior_paper_count_5y": 17,
+    "vector_paper_count": 23,
     "keywords": [
       "Polymer Surface Interaction Studies",
       "Advanced Sensor and Energy Harvesting Materials",
@@ -3054,6 +3085,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 23,
     "senior_paper_count_5y": 16,
+    "vector_paper_count": 23,
     "keywords": [
       "Laser-Plasma Interactions and Diagnostics",
       "Plasma Diagnostics and Applications",
@@ -3153,6 +3185,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 12,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 12,
     "keywords": [
       "FOXO transcription factor regulation",
       "Protein Structure and Dynamics",
@@ -3262,6 +3295,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 35,
     "senior_paper_count_5y": 30,
+    "vector_paper_count": 29,
     "keywords": [
       "Molecular Sensors and Ion Detection",
       "Cultural Heritage Materials Analysis",
@@ -3371,6 +3405,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 12,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 12,
     "keywords": [
       "Photochemistry and Electron Transfer Studies",
       "Luminescence Properties of Advanced Materials",
@@ -3467,6 +3502,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 26,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 26,
     "keywords": [
       "Electron and X-Ray Spectroscopy Techniques",
       "Ga2O3 and related materials",
@@ -3566,6 +3602,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 6,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 6,
     "keywords": [
       "Electromagnetic Scattering and Analysis",
       "Black Holes and Theoretical Physics",
@@ -3654,6 +3691,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 11,
     "keywords": [
       "Cellular transport and secretion",
       "Endoplasmic Reticulum Stress and Disease",
@@ -3755,6 +3793,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 6,
     "keywords": [
       "X-ray Spectroscopy and Fluorescence Analysis",
       "Laser-Plasma Interactions and Diagnostics",
@@ -3845,6 +3884,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 25,
     "senior_paper_count_5y": 19,
+    "vector_paper_count": 22,
     "keywords": [
       "Electrocatalysts for Energy Conversion",
       "CO2 Reduction Techniques and Catalysts",
@@ -3949,6 +3989,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 19,
     "keywords": [
       "Synthesis and biological activity",
       "Urinary Bladder and Prostate Research",
@@ -4058,6 +4099,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 16,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 16,
     "keywords": [
       "Theoretical and Computational Physics",
       "Complex Network Analysis Techniques",
@@ -4154,6 +4196,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 2,
     "keywords": [
       "Facial Nerve Paralysis Treatment and Research",
       "Glaucoma and retinal disorders",
@@ -4230,6 +4273,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 12,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 12,
     "keywords": [
       "T-cell and B-cell Immunology",
       "Immune Cell Function and Interaction",
@@ -4339,6 +4383,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 7,
     "keywords": [
       "Muscle Physiology and Disorders",
       "Nutrition and Health in Aging",
@@ -4440,6 +4485,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 19,
     "keywords": [
       "Orbital Angular Momentum in Optics",
       "Terahertz technology and applications",
@@ -4539,6 +4585,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 19,
     "keywords": [
       "Advancements in Photolithography Techniques",
       "Organic Electronics and Photovoltaics",
@@ -4643,6 +4690,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 17,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 17,
     "keywords": [
       "Advanced Battery Materials and Technologies",
       "Hydrogen Storage and Materials",
@@ -4739,6 +4787,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 104,
     "senior_paper_count_5y": 36,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced Battery Materials and Technologies",
       "Organic Electronics and Photovoltaics",
@@ -4848,6 +4897,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 15,
     "keywords": [
       "Protein Degradation and Inhibitors",
       "Ion channel regulation and function",
@@ -4957,6 +5007,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 30,
     "senior_paper_count_5y": 27,
+    "vector_paper_count": 30,
     "keywords": [
       "Fuel Cells and Related Materials",
       "Electrocatalysts for Energy Conversion",
@@ -5063,6 +5114,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 8,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 8,
     "keywords": [
       "Cellular transport and secretion",
       "Microbial metabolism and enzyme function",
@@ -5174,6 +5226,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 17,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 17,
     "keywords": [
       "Photochemistry and Electron Transfer Studies",
       "Gold and Silver Nanoparticles Synthesis and Applications",
@@ -5278,6 +5331,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 32,
     "senior_paper_count_5y": 23,
+    "vector_paper_count": 27,
     "keywords": [
       "Antimicrobial Peptides and Activities",
       "Advanced Polymer Synthesis and Characterization",
@@ -5387,6 +5441,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 23,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 20,
     "keywords": [
       "Topological Materials and Phenomena",
       "2D Materials and Applications",
@@ -5486,6 +5541,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 9,
     "keywords": [
       "Topological Materials and Phenomena",
       "Quantum Information and Cryptography",
@@ -5576,6 +5632,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 31,
     "senior_paper_count_5y": 21,
+    "vector_paper_count": 28,
     "keywords": [
       "Biosensors and Analytical Detection",
       "Treatment of Major Depression",
@@ -5685,6 +5742,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 6,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 2,
     "keywords": [
       "Matrix Theory and Algorithms",
       "Neural Networks and Applications",
@@ -5763,6 +5821,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 22,
     "senior_paper_count_5y": 20,
+    "vector_paper_count": 22,
     "keywords": [
       "Fluorine in Organic Chemistry",
       "Asymmetric Synthesis and Catalysis",
@@ -5867,6 +5926,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 22,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 20,
     "keywords": [
       "Fluorine in Organic Chemistry",
       "Phase Equilibria and Thermodynamics",
@@ -5971,6 +6031,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 41,
     "senior_paper_count_5y": 28,
+    "vector_paper_count": 12,
     "keywords": [
       "Surface Chemistry and Catalysis",
       "Plasmonic and Surface Plasmon Research",
@@ -6051,6 +6112,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 15,
     "keywords": [
       "Hippo pathway signaling and YAP/TAZ",
       "Autophagy in Disease and Therapy",
@@ -6160,6 +6222,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 28,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 28,
     "keywords": [
       "2D Materials and Applications",
       "Electrocatalysts for Energy Conversion",
@@ -6264,6 +6327,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 9,
     "keywords": [
       "Protein Degradation and Inhibitors",
       "Spaceflight effects on biology",
@@ -6364,6 +6428,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 14,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 14,
     "keywords": [
       "Lipid metabolism and biosynthesis",
       "RNA and protein synthesis mechanisms",
@@ -6473,6 +6538,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 17,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 12,
     "keywords": [
       "Laser-Plasma Interactions and Diagnostics",
       "Listeria monocytogenes in Food Safety",
@@ -6564,6 +6630,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 23,
     "senior_paper_count_5y": 19,
+    "vector_paper_count": 21,
     "keywords": [
       "Laser-Matter Interactions and Applications",
       "Laser-Plasma Interactions and Diagnostics",
@@ -6663,6 +6730,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 20,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 19,
     "keywords": [
       "Advanced X-ray Imaging Techniques",
       "Transition Metal Oxide Nanomaterials",
@@ -6762,6 +6830,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 22,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 21,
     "keywords": [
       "Pharmacological Receptor Mechanisms and Effects",
       "Adenosine and Purinergic Signaling",
@@ -6881,6 +6950,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 19,
     "keywords": [
       "Drug Transport and Resistance Mechanisms",
       "RNA Research and Splicing",
@@ -6990,6 +7060,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 36,
     "senior_paper_count_5y": 20,
+    "vector_paper_count": 24,
     "keywords": [
       "Machine Learning in Materials Science",
       "Computational Drug Discovery Methods",
@@ -7094,6 +7165,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 8,
     "keywords": [
       "Luminescence Properties of Advanced Materials",
       "Nanoparticle-Based Drug Delivery",
@@ -7195,6 +7267,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 11,
     "keywords": [
       "Advancements in Battery Materials",
       "Advanced battery technologies research",
@@ -7291,6 +7364,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 57,
     "senior_paper_count_5y": 57,
+    "vector_paper_count": 17,
     "keywords": [
       "Metal Forming Simulation Techniques",
       "Advanced Combinatorial Mathematics",
@@ -7395,6 +7469,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 14,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 11,
     "keywords": [
       "Diamond and Carbon-based Materials Research",
       "Plasmonic and Surface Plasmon Research",
@@ -7478,6 +7553,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 35,
     "senior_paper_count_5y": 20,
+    "vector_paper_count": 30,
     "keywords": [
       "Single-cell and spatial transcriptomics",
       "Immune cells in cancer",
@@ -7587,6 +7663,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 18,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 18,
     "keywords": [
       "Neurobiology and Insect Physiology Research",
       "Insect and Arachnid Ecology and Behavior",
@@ -7696,6 +7773,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 13,
     "keywords": [
       "Perovskite Materials and Applications",
       "Organic Electronics and Photovoltaics",
@@ -7784,6 +7862,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 13,
     "keywords": [
       "Immune cells in cancer",
       "Food Allergy and Anaphylaxis Research",
@@ -7891,6 +7970,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 85,
     "senior_paper_count_5y": 31,
+    "vector_paper_count": 30,
     "keywords": [
       "Black Holes and Theoretical Physics",
       "Quantum chaos and dynamical systems",
@@ -7995,6 +8075,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 56,
     "senior_paper_count_5y": 31,
+    "vector_paper_count": 30,
     "keywords": [
       "2D Materials and Applications",
       "Advanced Memory and Neural Computing",
@@ -8099,6 +8180,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 37,
     "senior_paper_count_5y": 24,
+    "vector_paper_count": 30,
     "keywords": [
       "Hydrogels: synthesis, properties, applications",
       "Polymer Surface Interaction Studies",
@@ -8208,6 +8290,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 15,
     "keywords": [
       "Metamaterials and Metasurfaces Applications",
       "Quantum Mechanics and Non-Hermitian Physics",
@@ -8304,6 +8387,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 36,
     "senior_paper_count_5y": 30,
+    "vector_paper_count": 30,
     "keywords": [
       "Atomic and Molecular Physics",
       "Spectroscopy and Quantum Chemical Studies",
@@ -8408,6 +8492,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 30,
     "senior_paper_count_5y": 24,
+    "vector_paper_count": 30,
     "keywords": [
       "Organic Light-Emitting Diodes Research",
       "Spectroscopy and Quantum Chemical Studies",
@@ -8512,6 +8597,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 75,
     "senior_paper_count_5y": 62,
+    "vector_paper_count": 30,
     "keywords": [
       "Liquid Crystal Research Advancements",
       "Physical Unclonable Functions (PUFs) and Hardware Security",
@@ -8621,6 +8707,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 38,
     "senior_paper_count_5y": 27,
+    "vector_paper_count": 30,
     "keywords": [
       "3D Shape Modeling and Analysis",
       "Generative Adversarial Networks and Image Synthesis",
@@ -8730,6 +8817,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 32,
     "senior_paper_count_5y": 24,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced Polymer Synthesis and Characterization",
       "Block Copolymer Self-Assembly",
@@ -8839,6 +8927,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 15,
     "keywords": [
       "Complex Systems and Time Series Analysis",
       "Advanced Thermodynamics and Statistical Mechanics",
@@ -8948,6 +9037,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 6,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 6,
     "keywords": [
       "Nonlinear Partial Differential Equations",
       "Geometric Analysis and Curvature Flows",
@@ -9052,6 +9142,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 31,
     "senior_paper_count_5y": 28,
+    "vector_paper_count": 30,
     "keywords": [
       "Interactive and Immersive Displays",
       "Tactile and Sensory Interactions",
@@ -9161,6 +9252,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 15,
     "keywords": [
       "Numerical methods in inverse problems",
       "Spectral Theory in Mathematical Physics",
@@ -9265,6 +9357,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 50,
     "senior_paper_count_5y": 31,
+    "vector_paper_count": 30,
     "keywords": [
       "Genetics and Neurodevelopmental Disorders",
       "Autism Spectrum Disorder Research",
@@ -9374,6 +9467,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 9,
     "keywords": [
       "2D Materials and Applications",
       "Advanced Memory and Neural Computing",
@@ -9470,6 +9564,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 29,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 29,
     "keywords": [
       "Advanced Fiber Laser Technologies",
       "Photorefractive and Nonlinear Optics",
@@ -9574,6 +9669,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 14,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 14,
     "keywords": [
       "Strong Light-Matter Interactions",
       "Dark Matter and Cosmic Phenomena",
@@ -9678,6 +9774,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 2,
     "keywords": [
       "Privacy-Preserving Technologies in Data",
       "Statistical Methods and Inference",
@@ -9743,6 +9840,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 15,
     "keywords": [
       "Algebraic Geometry and Number Theory",
       "Advanced Mathematical Identities",
@@ -9842,6 +9940,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 17,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 17,
     "keywords": [
       "Parallel Computing and Optimization Techniques",
       "Security and Verification in Computing",
@@ -9951,6 +10050,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 32,
     "senior_paper_count_5y": 31,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced Synthetic Organic Chemistry",
       "Organic Chemistry Synthesis Methods",
@@ -10060,6 +10160,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 14,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 7,
     "keywords": [
       "biodegradable polymer synthesis and properties",
       "Asymmetric Synthesis and Catalysis",
@@ -10153,6 +10254,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 13,
     "keywords": [
       "Geometric and Algebraic Topology",
       "Mathematical Dynamics and Fractals",
@@ -10257,6 +10359,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 27,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 17,
     "keywords": [
       "Quantum Computing Algorithms and Architecture",
       "Quantum Information and Cryptography",
@@ -10350,6 +10453,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 26,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 24,
     "keywords": [
       "Immune Response and Inflammation",
       "GDF15 and Related Biomarkers",
@@ -10459,6 +10563,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 43,
     "senior_paper_count_5y": 34,
+    "vector_paper_count": 30,
     "keywords": [
       "Molecular Sensors and Ion Detection",
       "Porphyrin and Phthalocyanine Chemistry",
@@ -10568,6 +10673,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 24,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 23,
     "keywords": [
       "Cold Atom Physics and Bose-Einstein Condensates",
       "Quantum Computing Algorithms and Architecture",
@@ -10677,6 +10783,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 17,
     "senior_paper_count_5y": 16,
+    "vector_paper_count": 17,
     "keywords": [
       "Advanced Photocatalysis Techniques",
       "CO2 Reduction Techniques and Catalysts",
@@ -10781,6 +10888,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 21,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 10,
     "keywords": [
       "Black Holes and Theoretical Physics",
       "Algebraic structures and combinatorial models",
@@ -10877,6 +10985,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 26,
     "senior_paper_count_5y": 17,
+    "vector_paper_count": 22,
     "keywords": [
       "RNA Research and Splicing",
       "RNA modifications and cancer",
@@ -10986,6 +11095,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 35,
     "senior_paper_count_5y": 32,
+    "vector_paper_count": 30,
     "keywords": [
       "EEG and Brain-Computer Interfaces",
       "Advanced Image and Video Retrieval Techniques",
@@ -11095,6 +11205,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 75,
     "senior_paper_count_5y": 55,
+    "vector_paper_count": 30,
     "keywords": [
       "Organometallic Complex Synthesis and Catalysis",
       "Organoboron and organosilicon chemistry",
@@ -11199,6 +11310,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 43,
     "senior_paper_count_5y": 38,
+    "vector_paper_count": 30,
     "keywords": [
       "Polymer Surface Interaction Studies",
       "Cannabis and Cannabinoid Research",
@@ -11308,6 +11420,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 37,
     "senior_paper_count_5y": 26,
+    "vector_paper_count": 28,
     "keywords": [
       "Electrocatalysts for Energy Conversion",
       "Advanced Electron Microscopy Techniques and Applications",
@@ -11412,6 +11525,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 40,
     "senior_paper_count_5y": 35,
+    "vector_paper_count": 30,
     "keywords": [
       "Immune Cell Function and Interaction",
       "Immune cells in cancer",
@@ -11521,6 +11635,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 5,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 5,
     "keywords": [
       "Navier-Stokes equation solutions",
       "Computational Fluid Dynamics and Aerodynamics",
@@ -11612,6 +11727,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 6,
     "keywords": [
       "Quantum Information and Cryptography",
       "Indigenous Cultures and History",
@@ -11708,6 +11824,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 38,
     "senior_paper_count_5y": 22,
+    "vector_paper_count": 30,
     "keywords": [
       "Multiferroics and related materials",
       "Ferroelectric and Piezoelectric Materials",
@@ -11812,6 +11929,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 4,
     "senior_paper_count_5y": 4,
+    "vector_paper_count": 4,
     "keywords": [
       "Advanced Algebra and Geometry",
       "Algebraic Geometry and Number Theory",
@@ -11885,6 +12003,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 14,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 13,
     "keywords": [
       "Particle physics theoretical and experimental studies",
       "Cosmology and Gravitation Theories",
@@ -11981,6 +12100,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 5,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 5,
     "keywords": [
       "Model Reduction and Neural Networks",
       "Industrial Vision Systems and Defect Detection",
@@ -12060,6 +12180,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 17,
     "senior_paper_count_5y": 17,
+    "vector_paper_count": 17,
     "keywords": [
       "Black Holes and Theoretical Physics",
       "Algebraic structures and combinatorial models",
@@ -12164,6 +12285,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 27,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 27,
     "keywords": [
       "Parallel Computing and Optimization Techniques",
       "Security and Verification in Computing",
@@ -12273,6 +12395,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 21,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 21,
     "keywords": [
       "Hippo pathway signaling and YAP/TAZ",
       "Wnt/β-catenin signaling in development and cancer",
@@ -12382,6 +12505,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 35,
     "senior_paper_count_5y": 24,
+    "vector_paper_count": 3,
     "keywords": [
       "Organic Electronics and Photovoltaics",
       "Metal-Organic Frameworks: Synthesis and Applications",
@@ -12452,6 +12576,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 5,
     "keywords": [
       "RNA Research and Splicing",
       "RNA modifications and cancer",
@@ -12544,6 +12669,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 6,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 6,
     "keywords": [
       "Chemical Synthesis and Analysis",
       "RNA and protein synthesis mechanisms",
@@ -12645,6 +12771,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 20,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 17,
     "keywords": [
       "Advanced biosensing and bioanalysis techniques",
       "SARS-CoV-2 detection and testing",
@@ -12754,6 +12881,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 20,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 20,
     "keywords": [
       "Topological Materials and Phenomena",
       "2D Materials and Applications",
@@ -12858,6 +12986,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 7,
     "keywords": [
       "Advanced Combinatorial Mathematics",
       "Limits and Structures in Graph Theory",
@@ -12954,6 +13083,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 6,
     "keywords": [
       "Metal-Catalyzed Oxygenation Mechanisms",
       "Synthesis and characterization of novel inorganic/organometallic compounds",
@@ -13024,6 +13154,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 35,
     "senior_paper_count_5y": 28,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced biosensing and bioanalysis techniques",
       "Advanced Nanomaterials in Catalysis",
@@ -13133,6 +13264,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 15,
     "keywords": [
       "Security and Verification in Computing",
       "Adversarial Robustness in Machine Learning",
@@ -13242,6 +13374,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 44,
     "senior_paper_count_5y": 28,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced Condensed Matter Physics",
       "2D Materials and Applications",
@@ -13346,6 +13479,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 12,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 12,
     "keywords": [
       "Genomics and Chromatin Dynamics",
       "RNA modifications and cancer",
@@ -13455,6 +13589,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 24,
     "senior_paper_count_5y": 23,
+    "vector_paper_count": 24,
     "keywords": [
       "Software Engineering Research",
       "Software Reliability and Analysis Research",
@@ -13564,6 +13699,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 19,
+    "vector_paper_count": 19,
     "keywords": [
       "Parallel Computing and Optimization Techniques",
       "Security and Verification in Computing",
@@ -13673,6 +13809,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 9,
     "keywords": [
       "Alzheimer's disease research and treatments",
       "Metal-Catalyzed Oxygenation Mechanisms",
@@ -13777,6 +13914,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 40,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 15,
     "keywords": [
       "Radical Photochemical Reactions",
       "Asymmetric Synthesis and Catalysis",
@@ -13878,6 +14016,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 47,
     "senior_paper_count_5y": 40,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced X-ray Imaging Techniques",
       "Photochemistry and Electron Transfer Studies",
@@ -13982,6 +14121,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 5,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 5,
     "keywords": [
       "Memory and Neural Mechanisms",
       "Neuroscience and Neuropharmacology Research",
@@ -14075,6 +14215,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 71,
     "senior_paper_count_5y": 55,
+    "vector_paper_count": 30,
     "keywords": [
       "Digital Holography and Microscopy",
       "Advanced X-ray Imaging Techniques",
@@ -14184,6 +14325,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 78,
     "senior_paper_count_5y": 52,
+    "vector_paper_count": 30,
     "keywords": [
       "Emotion and Mood Recognition",
       "Innovative Human-Technology Interaction",
@@ -14293,6 +14435,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 27,
     "senior_paper_count_5y": 24,
+    "vector_paper_count": 27,
     "keywords": [
       "Computational Drug Discovery Methods",
       "Machine Learning in Materials Science",
@@ -14402,6 +14545,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 10,
     "keywords": [
       "RNA Interference and Gene Delivery",
       "DNA Repair Mechanisms",
@@ -14495,6 +14639,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 9,
     "keywords": [
       "Quantum Information and Cryptography",
       "Quantum Mechanics and Applications",
@@ -14596,6 +14741,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 17,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 6,
     "keywords": [
       "Molecular Sensors and Ion Detection",
       "RNA and protein synthesis mechanisms",
@@ -14689,6 +14835,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 35,
     "senior_paper_count_5y": 20,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced Electron Microscopy Techniques and Applications",
       "Ferroelectric and Piezoelectric Materials",
@@ -14793,6 +14940,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 76,
     "senior_paper_count_5y": 59,
+    "vector_paper_count": 30,
     "keywords": [
       "Misinformation and Its Impacts",
       "Ethics and Social Impacts of AI",
@@ -14902,6 +15050,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 21,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 21,
     "keywords": [
       "Regulation of Appetite and Obesity",
       "Adipose Tissue and Metabolism",
@@ -15011,6 +15160,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 43,
     "senior_paper_count_5y": 29,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced Battery Materials and Technologies",
       "Advanced battery technologies research",
@@ -15115,6 +15265,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 18,
     "senior_paper_count_5y": 18,
+    "vector_paper_count": 14,
     "keywords": [
       "Functional Brain Connectivity Studies",
       "Statistical Methods and Inference",
@@ -15219,6 +15370,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 87,
     "senior_paper_count_5y": 67,
+    "vector_paper_count": 30,
     "keywords": [
       "Catalytic Processes in Materials Science",
       "Advanced Sensor and Energy Harvesting Materials",
@@ -15323,6 +15475,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 64,
     "senior_paper_count_5y": 64,
+    "vector_paper_count": 30,
     "keywords": [
       "Gene Regulatory Network Analysis",
       "Circadian rhythm and melatonin",
@@ -15427,6 +15580,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 7,
     "keywords": [
       "Advanced Mathematical Physics Problems",
       "Nonlinear Partial Differential Equations",
@@ -15522,6 +15676,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 45,
     "senior_paper_count_5y": 26,
+    "vector_paper_count": 17,
     "keywords": [
       "Recommender Systems and Techniques",
       "Advanced Graph Neural Networks",
@@ -15615,6 +15770,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 17,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 17,
     "keywords": [
       "Synthetic Organic Chemistry Methods",
       "Radical Photochemical Reactions",
@@ -15716,6 +15872,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 50,
     "senior_paper_count_5y": 45,
+    "vector_paper_count": 30,
     "keywords": [
       "Software Testing and Debugging Techniques",
       "Software Engineering Research",
@@ -15825,6 +15982,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 5,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 5,
     "keywords": [
       "Millimeter-Wave Propagation and Modeling",
       "Gaussian Processes and Bayesian Inference",
@@ -15913,6 +16071,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 11,
     "keywords": [
       "Software Testing and Debugging Techniques",
       "Security and Verification in Computing",
@@ -16014,6 +16173,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 27,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 26,
     "keywords": [
       "Neuroinflammation and Neurodegeneration Mechanisms",
       "Alzheimer's disease research and treatments",
@@ -16123,6 +16283,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 12,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 9,
     "keywords": [
       "Cold Atom Physics and Bose-Einstein Condensates",
       "Quantum many-body systems",
@@ -16226,6 +16387,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 16,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 15,
     "keywords": [
       "Robotic Path Planning Algorithms",
       "3D Shape Modeling and Analysis",
@@ -16335,6 +16497,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 24,
     "senior_paper_count_5y": 18,
+    "vector_paper_count": 20,
     "keywords": [
       "Quantum many-body systems",
       "Quasicrystal Structures and Properties",
@@ -16439,6 +16602,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 20,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 20,
     "keywords": [
       "Software Testing and Debugging Techniques",
       "Adversarial Robustness in Machine Learning",
@@ -16548,6 +16712,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 19,
     "keywords": [
       "Advanced Condensed Matter Physics",
       "Quantum many-body systems",
@@ -16652,6 +16817,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 17,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 16,
     "keywords": [
       "Domain Adaptation and Few-Shot Learning",
       "Generative Adversarial Networks and Image Synthesis",
@@ -16740,6 +16906,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 63,
     "senior_paper_count_5y": 47,
+    "vector_paper_count": 22,
     "keywords": [
       "Multimodal Machine Learning Applications",
       "Generative Adversarial Networks and Image Synthesis",
@@ -16849,6 +17016,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 49,
     "senior_paper_count_5y": 46,
+    "vector_paper_count": 30,
     "keywords": [
       "Reinforcement Learning in Robotics",
       "Adversarial Robustness in Machine Learning",
@@ -16958,6 +17126,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 4,
     "senior_paper_count_5y": 4,
+    "vector_paper_count": 4,
     "keywords": [
       "Geometric Analysis and Curvature Flows",
       "Geometry and complex manifolds",
@@ -17040,6 +17209,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 35,
     "senior_paper_count_5y": 34,
+    "vector_paper_count": 30,
     "keywords": [
       "IoT and Edge/Fog Computing",
       "Privacy-Preserving Technologies in Data",
@@ -17149,6 +17319,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 84,
     "senior_paper_count_5y": 54,
+    "vector_paper_count": 30,
     "keywords": [
       "Intelligent Tutoring Systems and Adaptive Learning",
       "Hate Speech and Cyberbullying Detection",
@@ -17258,6 +17429,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 29,
     "senior_paper_count_5y": 19,
+    "vector_paper_count": 4,
     "keywords": [
       "Metal-Organic Frameworks: Synthesis and Applications",
       "Advanced battery technologies research",
@@ -17337,6 +17509,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 6,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 6,
     "keywords": [
       "Software Testing and Debugging Techniques",
       "Software Engineering Research",
@@ -17430,6 +17603,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 22,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 17,
     "keywords": [
       "Blockchain Technology Applications and Security",
       "Internet Traffic Analysis and Secure E-voting",
@@ -17539,6 +17713,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 24,
     "senior_paper_count_5y": 18,
+    "vector_paper_count": 24,
     "keywords": [
       "Adversarial Robustness in Machine Learning",
       "Web Application Security Vulnerabilities",
@@ -17648,6 +17823,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 15,
     "keywords": [
       "Neural dynamics and brain function",
       "Memory and Neural Mechanisms",
@@ -17757,6 +17933,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 1,
     "keywords": [
       "Geometric Analysis and Curvature Flows",
       "Advanced Differential Geometry Research",
@@ -17818,6 +17995,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 10,
     "keywords": [
       "Quantum Chromodynamics and Particle Interactions",
       "Particle physics theoretical and experimental studies",
@@ -17922,6 +18100,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 44,
     "senior_paper_count_5y": 36,
+    "vector_paper_count": 13,
     "keywords": [
       "Multimodal Machine Learning Applications",
       "3D Shape Modeling and Analysis",
@@ -18023,6 +18202,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 46,
     "senior_paper_count_5y": 44,
+    "vector_paper_count": 30,
     "keywords": [
       "Radical Photochemical Reactions",
       "Synthesis and Catalytic Reactions",
@@ -18127,6 +18307,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 33,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 30,
     "keywords": [
       "RNA modifications and cancer",
       "Wnt/β-catenin signaling in development and cancer",
@@ -18236,6 +18417,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 24,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 24,
     "keywords": [
       "Logic, programming, and type systems",
       "Software Testing and Debugging Techniques",
@@ -18345,6 +18527,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 36,
     "senior_paper_count_5y": 19,
+    "vector_paper_count": 16,
     "keywords": [
       "Quantum many-body systems",
       "2D Materials and Applications",
@@ -18433,6 +18616,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 28,
     "senior_paper_count_5y": 16,
+    "vector_paper_count": 28,
     "keywords": [
       "Photorefractive and Nonlinear Optics",
       "Photonic and Optical Devices",
@@ -18537,6 +18721,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 14,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 13,
     "keywords": [
       "Genomics and Chromatin Dynamics",
       "RNA Research and Splicing",
@@ -18646,6 +18831,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 15,
     "keywords": [
       "Light effects on plants",
       "Plant Molecular Biology Research",
@@ -18755,6 +18941,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 31,
     "senior_paper_count_5y": 17,
+    "vector_paper_count": 30,
     "keywords": [
       "Photoreceptor and optogenetics research",
       "Neuroscience and Neuropharmacology Research",
@@ -18864,6 +19051,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 45,
     "senior_paper_count_5y": 26,
+    "vector_paper_count": 30,
     "keywords": [
       "Magnetic properties of thin films",
       "Physical Unclonable Functions (PUFs) and Hardware Security",
@@ -18968,6 +19156,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 32,
     "senior_paper_count_5y": 26,
+    "vector_paper_count": 27,
     "keywords": [
       "Asymmetric Synthesis and Catalysis",
       "Catalytic Cross-Coupling Reactions",
@@ -19077,6 +19266,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 29,
     "senior_paper_count_5y": 29,
+    "vector_paper_count": 28,
     "keywords": [
       "Limits and Structures in Graph Theory",
       "Graph theory and applications",
@@ -19176,6 +19366,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 34,
     "senior_paper_count_5y": 31,
+    "vector_paper_count": 18,
     "keywords": [
       "Advanced Graph Theory Research",
       "Complexity and Algorithms in Graphs",
@@ -19277,6 +19468,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 37,
     "senior_paper_count_5y": 24,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced Graph Neural Networks",
       "Advanced Neural Network Applications",
@@ -19381,6 +19573,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 6,
     "keywords": [
       "Topological and Geometric Data Analysis",
       "Corporate Finance and Governance",
@@ -19464,6 +19657,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 87,
     "senior_paper_count_5y": 51,
+    "vector_paper_count": 30,
     "keywords": [
       "Electrocatalysts for Energy Conversion",
       "CO2 Reduction Techniques and Catalysts",
@@ -19568,6 +19762,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 18,
     "senior_paper_count_5y": 18,
+    "vector_paper_count": 17,
     "keywords": [
       "Cryptographic Implementations and Security",
       "Cryptography and Data Security",
@@ -19677,6 +19872,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 40,
     "senior_paper_count_5y": 34,
+    "vector_paper_count": 30,
     "keywords": [
       "Genetics, Aging, and Longevity in Model Organisms",
       "RNA modifications and cancer",
@@ -19786,6 +19982,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 36,
     "senior_paper_count_5y": 20,
+    "vector_paper_count": 30,
     "keywords": [
       "GaN-based semiconductor devices and materials",
       "Strong Light-Matter Interactions",
@@ -19895,6 +20092,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 4,
     "keywords": [
       "Diverse Aspects of Tourism Research",
       "Language, Communication, and Linguistic Studies",
@@ -19970,6 +20168,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 32,
     "senior_paper_count_5y": 16,
+    "vector_paper_count": 19,
     "keywords": [
       "Microfluidic and Capillary Electrophoresis Applications",
       "Neuroscience and Neural Engineering",
@@ -20079,6 +20278,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 32,
     "senior_paper_count_5y": 26,
+    "vector_paper_count": 30,
     "keywords": [
       "Topic Modeling",
       "Hate Speech and Cyberbullying Detection",
@@ -20180,6 +20380,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 45,
     "senior_paper_count_5y": 23,
+    "vector_paper_count": 30,
     "keywords": [
       "3D Shape Modeling and Analysis",
       "Generative Adversarial Networks and Image Synthesis",
@@ -20289,6 +20490,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 37,
     "senior_paper_count_5y": 17,
+    "vector_paper_count": 30,
     "keywords": [
       "Magnetic properties of thin films",
       "Topological Materials and Phenomena",
@@ -20393,6 +20595,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 40,
     "senior_paper_count_5y": 23,
+    "vector_paper_count": 30,
     "keywords": [
       "Quantum Dots Synthesis And Properties",
       "Topological Materials and Phenomena",
@@ -20497,6 +20700,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 11,
     "keywords": [
       "Navier-Stokes equation solutions",
       "Geometric Analysis and Curvature Flows",
@@ -20596,6 +20800,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 18,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 18,
     "keywords": [
       "Adipose Tissue and Metabolism",
       "Autophagy in Disease and Therapy",
@@ -20705,6 +20910,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 9,
     "keywords": [
       "Algebraic Geometry and Number Theory",
       "Commutative Algebra and Its Applications",
@@ -20796,6 +21002,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 23,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 23,
     "keywords": [
       "Bacterial Genetics and Biotechnology",
       "RNA and protein synthesis mechanisms",
@@ -20905,6 +21112,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 49,
     "senior_paper_count_5y": 30,
+    "vector_paper_count": 30,
     "keywords": [
       "Magnetic properties of thin films",
       "Advanced Condensed Matter Physics",
@@ -21009,6 +21217,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 9,
     "keywords": [
       "Diffusion and Search Dynamics",
       "Advanced Thermodynamics and Statistical Mechanics",
@@ -21113,6 +21322,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 28,
     "senior_paper_count_5y": 24,
+    "vector_paper_count": 28,
     "keywords": [
       "Time Series Analysis and Forecasting",
       "Anomaly Detection Techniques and Applications",
@@ -21222,6 +21432,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 7,
     "keywords": [
       "Geometry and complex manifolds",
       "Holomorphic and Operator Theory",
@@ -21305,6 +21516,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 9,
     "keywords": [
       "Random Matrices and Applications",
       "Complex Network Analysis Techniques",
@@ -21401,6 +21613,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 12,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 12,
     "keywords": [
       "Advanced Data Storage Technologies",
       "Parallel Computing and Optimization Techniques",
@@ -21497,6 +21710,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 27,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 27,
     "keywords": [
       "Insect-Plant Interactions and Control",
       "Plant Parasitism and Resistance",
@@ -21606,6 +21820,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 10,
     "keywords": [
       "Immune Cell Function and Interaction",
       "interferon and immune responses",
@@ -21715,6 +21930,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 44,
     "senior_paper_count_5y": 19,
+    "vector_paper_count": 30,
     "keywords": [
       "Chemical Synthesis and Analysis",
       "Metal-Organic Frameworks: Synthesis and Applications",
@@ -21824,6 +22040,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 9,
     "keywords": [
       "Stochastic processes and statistical mechanics",
       "Random Matrices and Applications",
@@ -21920,6 +22137,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 7,
     "keywords": [
       "Adversarial Robustness in Machine Learning",
       "Advanced Steganography and Watermarking Techniques",
@@ -21997,6 +22215,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 82,
     "senior_paper_count_5y": 39,
+    "vector_paper_count": 30,
     "keywords": [
       "Molecular Sensors and Ion Detection",
       "Ion Channels and Receptors",
@@ -22106,6 +22325,7 @@
     "match_confidence": "high",
     "paper_count_5y": 57,
     "senior_paper_count_5y": 34,
+    "vector_paper_count": 30,
     "keywords": [
       "Nanoplatforms for cancer theranostics",
       "Photoacoustic and Ultrasonic Imaging",
@@ -22215,6 +22435,7 @@
     "match_confidence": "high",
     "paper_count_5y": 27,
     "senior_paper_count_5y": 27,
+    "vector_paper_count": 27,
     "keywords": [
       "Model Reduction and Neural Networks",
       "Explainable Artificial Intelligence (XAI)",
@@ -22324,6 +22545,7 @@
     "match_confidence": "high",
     "paper_count_5y": 48,
     "senior_paper_count_5y": 17,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced Thermoelectric Materials and Devices",
       "High-pressure geophysics and materials",
@@ -22428,6 +22650,7 @@
     "match_confidence": "high",
     "paper_count_5y": 26,
     "senior_paper_count_5y": 18,
+    "vector_paper_count": 6,
     "keywords": [
       "Metal-Organic Frameworks: Synthesis and Applications",
       "HER2/EGFR in Cancer Research",
@@ -22508,6 +22731,7 @@
     "match_confidence": "high",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 9,
     "keywords": [
       "Ferroelectric and Piezoelectric Materials",
       "Multiferroics and related materials",
@@ -22604,6 +22828,7 @@
     "match_confidence": "high",
     "paper_count_5y": 12,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 12,
     "keywords": [
       "Plant Molecular Biology Research",
       "Plant nutrient uptake and metabolism",
@@ -22713,6 +22938,7 @@
     "match_confidence": "high",
     "paper_count_5y": 22,
     "senior_paper_count_5y": 16,
+    "vector_paper_count": 22,
     "keywords": [
       "Graphene research and applications",
       "Topological Materials and Phenomena",
@@ -22817,6 +23043,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 37,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 27,
     "keywords": [
       "Advanced Data Storage Technologies",
       "Parallel Computing and Optimization Techniques",
@@ -22926,6 +23153,7 @@
     "match_confidence": "high",
     "paper_count_5y": 34,
     "senior_paper_count_5y": 18,
+    "vector_paper_count": 30,
     "keywords": [
       "Gut microbiota and health",
       "T-cell and B-cell Immunology",
@@ -23035,6 +23263,7 @@
     "match_confidence": "high",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 10,
     "keywords": [
       "Chemical Synthesis and Analysis",
       "Click Chemistry and Applications",
@@ -23136,6 +23365,7 @@
     "match_confidence": "high",
     "paper_count_5y": 36,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 30,
     "keywords": [
       "Computer Graphics and Visualization Techniques",
       "Optical Polarization and Ellipsometry",
@@ -23245,6 +23475,7 @@
     "match_confidence": "high",
     "paper_count_5y": 6,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 4,
     "keywords": [
       "Algebraic Geometry and Number Theory",
       "Geometric and Algebraic Topology",
@@ -23325,6 +23556,7 @@
     "match_confidence": "high",
     "paper_count_5y": 12,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 12,
     "keywords": [
       "Advanced Condensed Matter Physics",
       "Laser-Matter Interactions and Applications",
@@ -23429,6 +23661,7 @@
     "match_confidence": "high",
     "paper_count_5y": 23,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 23,
     "keywords": [
       "2D Materials and Applications",
       "Perovskite Materials and Applications",
@@ -23533,6 +23766,7 @@
     "match_confidence": "high",
     "paper_count_5y": 24,
     "senior_paper_count_5y": 21,
+    "vector_paper_count": 24,
     "keywords": [
       "Organoboron and organosilicon chemistry",
       "Asymmetric Synthesis and Catalysis",
@@ -23642,6 +23876,7 @@
     "match_confidence": "high",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 15,
     "keywords": [
       "T-cell and B-cell Immunology",
       "Prostate Cancer Treatment and Research",
@@ -23751,6 +23986,7 @@
     "match_confidence": "high",
     "paper_count_5y": 25,
     "senior_paper_count_5y": 21,
+    "vector_paper_count": 25,
     "keywords": [
       "Advanced Battery Materials and Technologies",
       "Block Copolymer Self-Assembly",
@@ -23855,6 +24091,7 @@
     "match_confidence": "high",
     "paper_count_5y": 35,
     "senior_paper_count_5y": 32,
+    "vector_paper_count": 30,
     "keywords": [
       "Recommender Systems and Techniques",
       "Topic Modeling",
@@ -23964,6 +24201,7 @@
     "match_confidence": "high",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 14,
     "keywords": [
       "Radical Photochemical Reactions",
       "Fluorine in Organic Chemistry",
@@ -24068,6 +24306,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 38,
     "senior_paper_count_5y": 32,
+    "vector_paper_count": 30,
     "keywords": [
       "Mesoporous Materials and Catalysis",
       "Electrocatalysts for Energy Conversion",
@@ -24172,6 +24411,7 @@
     "match_confidence": "high",
     "paper_count_5y": 22,
     "senior_paper_count_5y": 16,
+    "vector_paper_count": 22,
     "keywords": [
       "Cancer Immunotherapy and Biomarkers",
       "Bioinformatics and Genomic Networks",
@@ -24281,6 +24521,7 @@
     "match_confidence": "high",
     "paper_count_5y": 41,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 27,
     "keywords": [
       "Advanced Condensed Matter Physics",
       "2D Materials and Applications",
@@ -24377,6 +24618,7 @@
     "match_confidence": "high",
     "paper_count_5y": 6,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 6,
     "keywords": [
       "Cellular transport and secretion",
       "Endoplasmic Reticulum Stress and Disease",
@@ -24470,6 +24712,7 @@
     "match_confidence": "high",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 9,
     "keywords": [
       "DNA Repair Mechanisms",
       "Chromosomal and Genetic Variations",
@@ -24571,6 +24814,7 @@
     "match_confidence": "high",
     "paper_count_5y": 8,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 8,
     "keywords": [
       "Carbohydrate Chemistry and Synthesis",
       "Asymmetric Synthesis and Catalysis",
@@ -24675,6 +24919,7 @@
     "match_confidence": "high",
     "paper_count_5y": 30,
     "senior_paper_count_5y": 16,
+    "vector_paper_count": 30,
     "keywords": [
       "Mass Spectrometry Techniques and Applications",
       "Supramolecular Chemistry and Complexes",
@@ -24784,6 +25029,7 @@
     "match_confidence": "high",
     "paper_count_5y": 18,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 18,
     "keywords": [
       "Photochemistry and Electron Transfer Studies",
       "Spectroscopy and Quantum Chemical Studies",
@@ -24888,6 +25134,7 @@
     "match_confidence": "high",
     "paper_count_5y": 21,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 15,
     "keywords": [
       "RNA Research and Splicing",
       "T-cell and B-cell Immunology",
@@ -24997,6 +25244,7 @@
     "match_confidence": "high",
     "paper_count_5y": 17,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 17,
     "keywords": [
       "Mitochondrial Function and Pathology",
       "Genetics and Neurodevelopmental Disorders",
@@ -25106,6 +25354,7 @@
     "match_confidence": "high",
     "paper_count_5y": 32,
     "senior_paper_count_5y": 19,
+    "vector_paper_count": 30,
     "keywords": [
       "Quantum Dots Synthesis And Properties",
       "Advanced biosensing and bioanalysis techniques",
@@ -25215,6 +25464,7 @@
     "match_confidence": "high",
     "paper_count_5y": 25,
     "senior_paper_count_5y": 17,
+    "vector_paper_count": 25,
     "keywords": [
       "Context-Aware Activity Recognition Systems",
       "Interactive and Immersive Displays",
@@ -25324,6 +25574,7 @@
     "match_confidence": "high",
     "paper_count_5y": 6,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 6,
     "keywords": [
       "Hair Growth and Disorders",
       "Wound Healing and Treatments",
@@ -25425,6 +25676,7 @@
     "match_confidence": "high",
     "paper_count_5y": 30,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 24,
     "keywords": [
       "Advanced X-ray Imaging Techniques",
       "Advancements in Battery Materials",
@@ -25534,6 +25786,7 @@
     "match_confidence": "high",
     "paper_count_5y": 34,
     "senior_paper_count_5y": 29,
+    "vector_paper_count": 30,
     "keywords": [
       "2D Materials and Applications",
       "Topological Materials and Phenomena",
@@ -25638,6 +25891,7 @@
     "match_confidence": "high",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 13,
     "keywords": [
       "Extracellular vesicles in disease",
       "Immunotherapy and Immune Responses",
@@ -25739,6 +25993,7 @@
     "match_confidence": "high",
     "paper_count_5y": 22,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 22,
     "keywords": [
       "Black Holes and Theoretical Physics",
       "Topological Materials and Phenomena",
@@ -25835,6 +26090,7 @@
     "match_confidence": "high",
     "paper_count_5y": 16,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 16,
     "keywords": [
       "Photonic and Optical Devices",
       "Quantum Information and Cryptography",
@@ -25939,6 +26195,7 @@
     "match_confidence": "high",
     "paper_count_5y": 12,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 11,
     "keywords": [
       "Genomics and Rare Diseases",
       "Epigenetics and DNA Methylation",
@@ -26048,6 +26305,7 @@
     "match_confidence": "high",
     "paper_count_5y": 32,
     "senior_paper_count_5y": 25,
+    "vector_paper_count": 30,
     "keywords": [
       "Formal Methods in Verification",
       "Petri Nets in System Modeling",
@@ -26157,6 +26415,7 @@
     "match_confidence": "high",
     "paper_count_5y": 65,
     "senior_paper_count_5y": 52,
+    "vector_paper_count": 30,
     "keywords": [
       "Tactile and Sensory Interactions",
       "Teleoperation and Haptic Systems",
@@ -26266,6 +26525,7 @@
     "match_confidence": "high",
     "paper_count_5y": 8,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 8,
     "keywords": [
       "Gas Dynamics and Kinetic Theory",
       "Radiative Heat Transfer Studies",
@@ -26370,6 +26630,7 @@
     "match_confidence": "high",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 13,
     "keywords": [
       "Gut microbiota and health",
       "Diet and metabolism studies",
@@ -26479,6 +26740,7 @@
     "match_confidence": "high",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 19,
     "keywords": [
       "Fractional Differential Equations Solutions",
       "Micro and Nano Robotics",
@@ -26588,6 +26850,7 @@
     "match_confidence": "high",
     "paper_count_5y": 25,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 25,
     "keywords": [
       "Black Holes and Theoretical Physics",
       "Global Trade and Competitiveness",
@@ -26692,6 +26955,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 13,
     "keywords": [
       "Parallel Computing and Optimization Techniques",
       "Interconnection Networks and Systems",
@@ -26793,6 +27057,7 @@
     "match_confidence": "high",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 15,
     "keywords": [
       "Gene Regulatory Network Analysis",
       "Advanced biosensing and bioanalysis techniques",
@@ -26902,6 +27167,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 28,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 20,
     "keywords": [
       "2D Materials and Applications",
       "Topological Materials and Phenomena",
@@ -27006,6 +27272,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 16,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 5,
     "keywords": [
       "Quantum Information and Cryptography",
       "Quantum Computing Algorithms and Architecture",
@@ -27084,6 +27351,7 @@
     "match_confidence": "high",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 10,
     "keywords": [
       "Gas Dynamics and Kinetic Theory",
       "Photoacoustic and Ultrasonic Imaging",
@@ -27185,6 +27453,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 65,
     "senior_paper_count_5y": 41,
+    "vector_paper_count": 9,
     "keywords": [
       "Behavioral and Psychological Studies",
       "EEG and Brain-Computer Interfaces",
@@ -27288,6 +27557,7 @@
     "match_confidence": "high",
     "paper_count_5y": 78,
     "senior_paper_count_5y": 65,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced Battery Materials and Technologies",
       "Advancements in Battery Materials",
@@ -27392,6 +27662,7 @@
     "match_confidence": "high",
     "paper_count_5y": 75,
     "senior_paper_count_5y": 29,
+    "vector_paper_count": 30,
     "keywords": [
       "Magnetic properties of thin films",
       "Topological Materials and Phenomena",
@@ -27496,6 +27767,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 16,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 16,
     "keywords": [
       "Quantum Information and Cryptography",
       "Quantum optics and atomic interactions",
@@ -27600,6 +27872,7 @@
     "match_confidence": "high",
     "paper_count_5y": 23,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 17,
     "keywords": [
       "Material Dynamics and Properties",
       "nanoparticles nucleation surface interactions",
@@ -27704,6 +27977,7 @@
     "match_confidence": "high",
     "paper_count_5y": 40,
     "senior_paper_count_5y": 18,
+    "vector_paper_count": 30,
     "keywords": [
       "Single-cell and spatial transcriptomics",
       "Immune Cell Function and Interaction",
@@ -27813,6 +28087,7 @@
     "match_confidence": "high",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 7,
     "keywords": [
       "Plant Gene Expression Analysis",
       "DNA Repair Mechanisms",
@@ -27914,6 +28189,7 @@
     "match_confidence": "high",
     "paper_count_5y": 30,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 18,
     "keywords": [
       "Advanced Data Storage Technologies",
       "Parallel Computing and Optimization Techniques",
@@ -28013,6 +28289,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 30,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 30,
     "keywords": [
       "2D Materials and Applications",
       "Topological Materials and Phenomena",
@@ -28117,6 +28394,7 @@
     "match_confidence": "high",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 10,
     "keywords": [
       "Stochastic processes and statistical mechanics",
       "Gene Regulatory Network Analysis",
@@ -28226,6 +28504,7 @@
     "match_confidence": "high",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 10,
     "keywords": [
       "Blockchain Technology Applications and Security",
       "Image and Video Quality Assessment",
@@ -28322,6 +28601,7 @@
     "match_confidence": "high",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 7,
     "keywords": [
       "Geometry and complex manifolds",
       "Algebraic Geometry and Number Theory",
@@ -28410,6 +28690,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 9,
     "keywords": [
       "Model Reduction and Neural Networks",
       "Probabilistic and Robust Engineering Design",
@@ -28519,6 +28800,7 @@
     "match_confidence": "high",
     "paper_count_5y": 30,
     "senior_paper_count_5y": 18,
+    "vector_paper_count": 26,
     "keywords": [
       "3D Shape Modeling and Analysis",
       "Advanced Image Processing Techniques",
@@ -28628,6 +28910,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 15,
     "keywords": [
       "Computational Geometry and Mesh Generation",
       "Advanced Graph Theory Research",
@@ -28737,6 +29020,7 @@
     "match_confidence": "high",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 12,
     "keywords": [
       "Stochastic processes and statistical mechanics",
       "Non-Destructive Testing Techniques",
@@ -28833,6 +29117,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 76,
     "senior_paper_count_5y": 49,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced Neural Network Applications",
       "Human Pose and Action Recognition",
@@ -28942,6 +29227,7 @@
     "match_confidence": "high",
     "paper_count_5y": 28,
     "senior_paper_count_5y": 28,
+    "vector_paper_count": 24,
     "keywords": [
       "Topological and Geometric Data Analysis",
       "Anomaly Detection Techniques and Applications",
@@ -29043,6 +29329,7 @@
     "match_confidence": "high",
     "paper_count_5y": 18,
     "senior_paper_count_5y": 18,
+    "vector_paper_count": 16,
     "keywords": [
       "Geometric and Algebraic Topology",
       "Homotopy and Cohomology in Algebraic Topology",
@@ -29139,6 +29426,7 @@
     "match_confidence": "high",
     "paper_count_5y": 16,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 16,
     "keywords": [
       "Enzyme Structure and Function",
       "Monoclonal and Polyclonal Antibodies Research",
@@ -29248,6 +29536,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 23,
     "senior_paper_count_5y": 21,
+    "vector_paper_count": 23,
     "keywords": [
       "Advanced Polymer Synthesis and Characterization",
       "Block Copolymer Self-Assembly",
@@ -29357,6 +29646,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 16,
     "senior_paper_count_5y": 16,
+    "vector_paper_count": 15,
     "keywords": [
       "Stochastic processes and statistical mechanics",
       "Geometric Analysis and Curvature Flows",
@@ -29456,6 +29746,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 54,
     "senior_paper_count_5y": 25,
+    "vector_paper_count": 30,
     "keywords": [
       "Topological Materials and Phenomena",
       "Electronic and Structural Properties of Oxides",
@@ -29560,6 +29851,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 42,
     "senior_paper_count_5y": 22,
+    "vector_paper_count": 30,
     "keywords": [
       "Molecular Junctions and Nanostructures",
       "2D Materials and Applications",
@@ -29664,6 +29956,7 @@
     "match_confidence": "high",
     "paper_count_5y": 26,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 26,
     "keywords": [
       "Forensic and Genetic Research",
       "Genetic diversity and population structure",
@@ -29773,6 +30066,7 @@
     "match_confidence": "high",
     "paper_count_5y": 20,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 20,
     "keywords": [
       "Biochemical Analysis and Sensing Techniques",
       "Photoreceptor and optogenetics research",
@@ -29874,6 +30168,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 30,
     "senior_paper_count_5y": 17,
+    "vector_paper_count": 30,
     "keywords": [
       "Computational Drug Discovery Methods",
       "Protein Structure and Dynamics",
@@ -29983,6 +30278,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 5,
     "keywords": [
       "Geometric and Algebraic Topology",
       "Advanced Algebra and Geometry",
@@ -30073,6 +30369,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 14,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 13,
     "keywords": [
       "Ferroelectric and Negative Capacitance Devices",
       "Topological Materials and Phenomena",
@@ -30177,6 +30474,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 12,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 12,
     "keywords": [
       "Analytic Number Theory Research",
       "Advanced Algebra and Geometry",
@@ -30281,6 +30579,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 92,
     "senior_paper_count_5y": 92,
+    "vector_paper_count": 30,
     "keywords": [
       "Distributed Control Multi-Agent Systems",
       "Nonlinear Dynamics and Pattern Formation",
@@ -30380,6 +30679,7 @@
     "match_confidence": "high",
     "paper_count_5y": 18,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 18,
     "keywords": [
       "Autophagy in Disease and Therapy",
       "Epigenetics and DNA Methylation",
@@ -30481,6 +30781,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 9,
     "keywords": [
       "Block Copolymer Self-Assembly",
       "Advanced Polymer Synthesis and Characterization",
@@ -30585,6 +30886,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 67,
     "senior_paper_count_5y": 43,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced Condensed Matter Physics",
       "Magnetic properties of thin films",
@@ -30689,6 +30991,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 13,
     "keywords": [
       "Photonic Crystals and Applications",
       "Organic Light-Emitting Diodes Research",
@@ -30785,6 +31088,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 44,
     "senior_paper_count_5y": 33,
+    "vector_paper_count": 30,
     "keywords": [
       "Data Visualization and Analytics",
       "Face and Expression Recognition",
@@ -30894,6 +31198,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 41,
     "senior_paper_count_5y": 33,
+    "vector_paper_count": 30,
     "keywords": [
       "Electrocatalysts for Energy Conversion",
       "Electrochemical sensors and biosensors",
@@ -31003,6 +31308,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 14,
     "keywords": [
       "Microbial Natural Products and Biosynthesis",
       "CRISPR and Genetic Engineering",
@@ -31112,6 +31418,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 5,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 5,
     "keywords": [
       "Mathematical Dynamics and Fractals",
       "Analytic Number Theory Research",
@@ -31208,6 +31515,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 7,
     "keywords": [
       "Radical Photochemical Reactions",
       "Sulfur-Based Synthesis Techniques",
@@ -31304,6 +31612,7 @@
     "match_confidence": "high",
     "paper_count_5y": 50,
     "senior_paper_count_5y": 18,
+    "vector_paper_count": 30,
     "keywords": [
       "Protein Structure and Dynamics",
       "Genomics and Phylogenetic Studies",
@@ -31413,6 +31722,7 @@
     "match_confidence": "high",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 1,
     "keywords": [
       "Invertebrate Immune Response Mechanisms",
       "Developmental Biology and Gene Regulation",
@@ -31486,6 +31796,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 7,
     "keywords": [
       "Network Traffic and Congestion Control",
       "Parallel Computing and Optimization Techniques",
@@ -31579,6 +31890,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 40,
     "senior_paper_count_5y": 26,
+    "vector_paper_count": 30,
     "keywords": [
       "Topic Modeling",
       "Information Retrieval and Search Behavior",
@@ -31688,6 +32000,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 13,
     "keywords": [
       "Heart Failure Treatment and Management",
       "Complex Network Analysis Techniques",
@@ -31792,6 +32105,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 75,
     "senior_paper_count_5y": 50,
+    "vector_paper_count": 30,
     "keywords": [
       "CO2 Reduction Techniques and Catalysts",
       "Electrocatalysts for Energy Conversion",
@@ -31896,6 +32210,7 @@
     "match_confidence": "high",
     "paper_count_5y": 41,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 30,
     "keywords": [
       "Plant Molecular Biology Research",
       "Cancer Genomics and Diagnostics",
@@ -32005,6 +32320,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 29,
     "senior_paper_count_5y": 26,
+    "vector_paper_count": 29,
     "keywords": [
       "Parallel Computing and Optimization Techniques",
       "Advanced Neural Network Applications",
@@ -32114,6 +32430,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 27,
     "senior_paper_count_5y": 23,
+    "vector_paper_count": 27,
     "keywords": [
       "RNA Interference and Gene Delivery",
       "Nanoplatforms for cancer theranostics",
@@ -32223,6 +32540,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 10,
     "keywords": [
       "Algebraic structures and combinatorial models",
       "Advanced Topics in Algebra",
@@ -32322,6 +32640,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 25,
     "senior_paper_count_5y": 19,
+    "vector_paper_count": 25,
     "keywords": [
       "Supramolecular Chemistry and Complexes",
       "Luminescence and Fluorescent Materials",
@@ -32426,6 +32745,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 20,
     "senior_paper_count_5y": 17,
+    "vector_paper_count": 20,
     "keywords": [
       "Material Dynamics and Properties",
       "Advanced Chemical Physics Studies",
@@ -32530,6 +32850,7 @@
     "match_confidence": "high",
     "paper_count_5y": 38,
     "senior_paper_count_5y": 32,
+    "vector_paper_count": 30,
     "keywords": [
       "Diptera species taxonomy and behavior",
       "Forensic Entomology and Diptera Studies",
@@ -32639,6 +32960,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 11,
     "keywords": [
       "Logic, programming, and type systems",
       "Formal Methods in Verification",
@@ -32748,6 +33070,7 @@
     "match_confidence": "high",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 15,
     "keywords": [
       "Autophagy in Disease and Therapy",
       "Endoplasmic Reticulum Stress and Disease",
@@ -32857,6 +33180,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 21,
     "senior_paper_count_5y": 16,
+    "vector_paper_count": 19,
     "keywords": [
       "3D Shape Modeling and Analysis",
       "Human Motion and Animation",
@@ -32966,6 +33290,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 31,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 9,
     "keywords": [
       "Advanced Graph Neural Networks",
       "Entrepreneurship Studies and Influences",
@@ -33058,6 +33383,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 32,
     "senior_paper_count_5y": 24,
+    "vector_paper_count": 30,
     "keywords": [
       "Quantum Information and Cryptography",
       "Quantum Computing Algorithms and Architecture",
@@ -33167,6 +33493,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 16,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 15,
     "keywords": [
       "Food Quality and Safety Studies",
       "Topological Materials and Phenomena",
@@ -33263,6 +33590,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 22,
     "senior_paper_count_5y": 18,
+    "vector_paper_count": 22,
     "keywords": [
       "Cryptography and Data Security",
       "Privacy-Preserving Technologies in Data",
@@ -33372,6 +33700,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 22,
     "senior_paper_count_5y": 19,
+    "vector_paper_count": 22,
     "keywords": [
       "Click Chemistry and Applications",
       "Metal-Catalyzed Oxygenation Mechanisms",
@@ -33481,6 +33810,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 16,
     "senior_paper_count_5y": 16,
+    "vector_paper_count": 16,
     "keywords": [
       "Nonlinear Partial Differential Equations",
       "Advanced Mathematical Modeling in Engineering",
@@ -33585,6 +33915,7 @@
     "match_confidence": "high",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 15,
     "keywords": [
       "Chemokine receptors and signaling",
       "Receptor Mechanisms and Signaling",
@@ -33694,6 +34025,7 @@
     "match_confidence": "high",
     "paper_count_5y": 20,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 20,
     "keywords": [
       "RNA Research and Splicing",
       "RNA modifications and cancer",
@@ -33803,6 +34135,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 33,
     "senior_paper_count_5y": 16,
+    "vector_paper_count": 15,
     "keywords": [
       "Polymer composites and self-healing",
       "Nanomaterials and Printing Technologies",
@@ -33891,6 +34224,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 14,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 14,
     "keywords": [
       "Cryptography and Data Security",
       "Cryptographic Implementations and Security",
@@ -33995,6 +34329,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 15,
     "keywords": [
       "Parallel Computing and Optimization Techniques",
       "IoT and Edge/Fog Computing",
@@ -34104,6 +34439,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 6,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 6,
     "keywords": [
       "Algebraic Geometry and Number Theory",
       "Advanced Algebra and Geometry",
@@ -34187,6 +34523,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 29,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 20,
     "keywords": [
       "Protein Structure and Dynamics",
       "RNA and protein synthesis mechanisms",
@@ -34288,6 +34625,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 32,
     "senior_paper_count_5y": 19,
+    "vector_paper_count": 30,
     "keywords": [
       "2D Materials and Applications",
       "GaN-based semiconductor devices and materials",
@@ -34392,6 +34730,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 13,
     "keywords": [
       "Cold Atom Physics and Bose-Einstein Condensates",
       "Quantum Information and Cryptography",
@@ -34501,6 +34840,7 @@
     "match_confidence": "high",
     "paper_count_5y": 6,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 6,
     "keywords": [
       "Plant Molecular Biology Research",
       "Plant nutrient uptake and metabolism",
@@ -34602,6 +34942,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 37,
     "senior_paper_count_5y": 18,
+    "vector_paper_count": 30,
     "keywords": [
       "Biotin and Related Studies",
       "Mitochondrial Function and Pathology",
@@ -34711,6 +35052,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 39,
     "senior_paper_count_5y": 30,
+    "vector_paper_count": 28,
     "keywords": [
       "Electrocatalysts for Energy Conversion",
       "Advanced Battery Materials and Technologies",
@@ -34807,6 +35149,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 35,
     "senior_paper_count_5y": 31,
+    "vector_paper_count": 30,
     "keywords": [
       "Multimodal Machine Learning Applications",
       "Reinforcement Learning in Robotics",
@@ -34916,6 +35259,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 17,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 17,
     "keywords": [
       "Advanced Fluorescence Microscopy Techniques",
       "DNA and Nucleic Acid Chemistry",
@@ -35025,6 +35369,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 12,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 12,
     "keywords": [
       "Micro and Nano Robotics",
       "Advanced Thermodynamics and Statistical Mechanics",
@@ -35126,6 +35471,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 29,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 29,
     "keywords": [
       "Advanced Data Storage Technologies",
       "Blockchain Technology Applications and Security",
@@ -35235,6 +35581,7 @@
     "match_confidence": "high",
     "paper_count_5y": 12,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 11,
     "keywords": [
       "Plant Molecular Biology Research",
       "Biochemical and Structural Characterization",
@@ -35336,6 +35683,7 @@
     "match_confidence": "high",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 19,
     "keywords": [
       "Protein Structure and Dynamics",
       "Lipid Membrane Structure and Behavior",
@@ -35445,6 +35793,7 @@
     "match_confidence": "high",
     "paper_count_5y": 18,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 18,
     "keywords": [
       "Gut microbiota and health",
       "Enzyme Structure and Function",
@@ -35554,6 +35903,7 @@
     "match_confidence": "high",
     "paper_count_5y": 8,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 8,
     "keywords": [
       "Plant Molecular Biology Research",
       "Plant nutrient uptake and metabolism",
@@ -35655,6 +36005,7 @@
     "match_confidence": "high",
     "paper_count_5y": 21,
     "senior_paper_count_5y": 17,
+    "vector_paper_count": 21,
     "keywords": [
       "Photosynthetic Processes and Mechanisms",
       "Plant Molecular Biology Research",
@@ -35764,6 +36115,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 11,
     "keywords": [
       "Neural dynamics and brain function",
       "Neuroscience and Neuropharmacology Research",
@@ -35873,6 +36225,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 35,
     "senior_paper_count_5y": 24,
+    "vector_paper_count": 25,
     "keywords": [
       "Advanced Data Storage Technologies",
       "Parallel Computing and Optimization Techniques",
@@ -35982,6 +36335,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 17,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 17,
     "keywords": [
       "Advanced Neural Network Applications",
       "Parallel Computing and Optimization Techniques",
@@ -36083,6 +36437,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 18,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 18,
     "keywords": [
       "2D Materials and Applications",
       "Topological Materials and Phenomena",
@@ -36187,6 +36542,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 7,
     "keywords": [
       "Algebraic Geometry and Number Theory",
       "Analytic Number Theory Research",
@@ -36285,6 +36641,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 20,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 20,
     "keywords": [
       "Gold and Silver Nanoparticles Synthesis and Applications",
       "Plasmonic and Surface Plasmon Research",
@@ -36389,6 +36746,7 @@
     "match_confidence": "high",
     "paper_count_5y": 53,
     "senior_paper_count_5y": 32,
+    "vector_paper_count": 30,
     "keywords": [
       "Mycorrhizal Fungi and Plant Interactions",
       "Plant Pathogens and Fungal Diseases",
@@ -36498,6 +36856,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 7,
     "keywords": [
       "Geometric and Algebraic Topology",
       "Mathematical Dynamics and Fractals",
@@ -36597,6 +36956,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 4,
     "senior_paper_count_5y": 4,
+    "vector_paper_count": 4,
     "keywords": [
       "Algebraic Geometry and Number Theory",
       "Black Holes and Theoretical Physics",
@@ -36671,6 +37031,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 18,
+    "vector_paper_count": 19,
     "keywords": [
       "Cold Atom Physics and Bose-Einstein Condensates",
       "Topological Materials and Phenomena",
@@ -36775,6 +37136,7 @@
     "match_confidence": "high",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 7,
     "keywords": [
       "Plant Molecular Biology Research",
       "Plant Reproductive Biology",
@@ -36884,6 +37246,7 @@
     "match_confidence": "high",
     "paper_count_5y": 16,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 14,
     "keywords": [
       "Plant Parasitism and Resistance",
       "Insect-Plant Interactions and Control",
@@ -36985,6 +37348,7 @@
     "match_confidence": "high",
     "paper_count_5y": 8,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 8,
     "keywords": [
       "RNA and protein synthesis mechanisms",
       "RNA modifications and cancer",
@@ -37086,6 +37450,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 59,
     "senior_paper_count_5y": 56,
+    "vector_paper_count": 30,
     "keywords": [
       "Recommender Systems and Techniques",
       "Tensor decomposition and applications",
@@ -37195,6 +37560,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 27,
     "senior_paper_count_5y": 22,
+    "vector_paper_count": 27,
     "keywords": [
       "Topological Materials and Phenomena",
       "Advanced Condensed Matter Physics",
@@ -37299,6 +37665,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 8,
     "keywords": [
       "Security and Verification in Computing",
       "Advanced Authentication Protocols Security",
@@ -37400,6 +37767,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 33,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 16,
     "keywords": [
       "Real-Time Systems Scheduling",
       "Parallel Computing and Optimization Techniques",
@@ -37496,6 +37864,7 @@
     "match_confidence": "high",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 13,
     "keywords": [
       "Telomeres, Telomerase, and Senescence",
       "Antimicrobial Peptides and Activities",
@@ -37605,6 +37974,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 37,
     "senior_paper_count_5y": 37,
+    "vector_paper_count": 23,
     "keywords": [
       "Random Matrices and Applications",
       "Mathematical functions and polynomials",
@@ -37696,6 +38066,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 28,
     "senior_paper_count_5y": 21,
+    "vector_paper_count": 28,
     "keywords": [
       "Heat shock proteins research",
       "Protein Structure and Dynamics",
@@ -37805,6 +38176,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 81,
     "senior_paper_count_5y": 41,
+    "vector_paper_count": 30,
     "keywords": [
       "Advancements in Battery Materials",
       "Advanced Battery Materials and Technologies",
@@ -37909,6 +38281,7 @@
     "match_confidence": "high",
     "paper_count_5y": 26,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 16,
     "keywords": [
       "Inflammasome and immune disorders",
       "interferon and immune responses",
@@ -38010,6 +38383,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 6,
     "keywords": [
       "Complexity and Algorithms in Graphs",
       "Computational Geometry and Mesh Generation",
@@ -38105,6 +38479,7 @@
     "match_confidence": "high",
     "paper_count_5y": 22,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 22,
     "keywords": [
       "Adipokines, Inflammation, and Metabolic Diseases",
       "Adipose Tissue and Metabolism",
@@ -38214,6 +38589,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 16,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 16,
     "keywords": [
       "Cold Atom Physics and Bose-Einstein Condensates",
       "Quantum Electrodynamics and Casimir Effect",
@@ -38318,6 +38694,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 30,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 30,
     "keywords": [
       "Biotin and Related Studies",
       "RNA and protein synthesis mechanisms",
@@ -38427,6 +38804,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 5,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 5,
     "keywords": [
       "Advanced Operator Algebra Research",
       "Quantum Information and Cryptography",
@@ -38515,6 +38893,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 11,
     "keywords": [
       "Advanced Database Systems and Queries",
       "Topic Modeling",
@@ -38616,6 +38995,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 29,
     "senior_paper_count_5y": 18,
+    "vector_paper_count": 29,
     "keywords": [
       "Graphene research and applications",
       "2D Materials and Applications",
@@ -38725,6 +39105,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 31,
     "senior_paper_count_5y": 31,
+    "vector_paper_count": 13,
     "keywords": [
       "Model Reduction and Neural Networks",
       "Machine Learning in Materials Science",
@@ -38805,6 +39186,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 11,
     "keywords": [
       "Reinforcement Learning in Robotics",
       "Adversarial Robustness in Machine Learning",
@@ -38906,6 +39288,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 46,
     "senior_paper_count_5y": 32,
+    "vector_paper_count": 25,
     "keywords": [
       "Metal-Organic Frameworks: Synthesis and Applications",
       "N-Heterocyclic Carbenes in Organic and Inorganic Chemistry",
@@ -39002,6 +39385,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 36,
     "senior_paper_count_5y": 26,
+    "vector_paper_count": 30,
     "keywords": [
       "Gold and Silver Nanoparticles Synthesis and Applications",
       "Quantum Dots Synthesis And Properties",
@@ -39111,6 +39495,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 25,
     "senior_paper_count_5y": 23,
+    "vector_paper_count": 25,
     "keywords": [
       "Electrochemical sensors and biosensors",
       "Graphene research and applications",
@@ -39220,6 +39605,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 6,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 2,
     "keywords": [
       "Model Reduction and Neural Networks",
       "Stochastic processes and financial applications",
@@ -39291,6 +39677,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 11,
     "keywords": [
       "Catalytic Cross-Coupling Reactions",
       "Organoboron and organosilicon chemistry",
@@ -39395,6 +39782,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 10,
     "keywords": [
       "Graphene research and applications",
       "Advanced Condensed Matter Physics",
@@ -39499,6 +39887,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 30,
     "senior_paper_count_5y": 21,
+    "vector_paper_count": 16,
     "keywords": [
       "Organic Electronics and Photovoltaics",
       "Conducting polymers and applications",
@@ -39587,6 +39976,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 16,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 16,
     "keywords": [
       "Topological Materials and Phenomena",
       "Graphene research and applications",
@@ -39691,6 +40081,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 25,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 20,
     "keywords": [
       "Human Motion and Animation",
       "Human Pose and Action Recognition",
@@ -39792,6 +40183,7 @@
     "match_confidence": "high",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 19,
     "keywords": [
       "Receptor Mechanisms and Signaling",
       "Neuropeptides and Animal Physiology",
@@ -39901,6 +40293,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 48,
     "senior_paper_count_5y": 40,
+    "vector_paper_count": 30,
     "keywords": [
       "Chemical Synthesis and Analysis",
       "SARS-CoV-2 and COVID-19 Research",
@@ -40010,6 +40403,7 @@
     "match_confidence": "high",
     "paper_count_5y": 5,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 5,
     "keywords": [
       "RNA Research and Splicing",
       "Trace Elements in Health",
@@ -40102,6 +40496,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 4,
     "keywords": [
       "Advanced Mathematical Physics Problems",
       "Nonlinear Partial Differential Equations",
@@ -40184,6 +40579,7 @@
     "match_confidence": "high",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 7,
     "keywords": [
       "Coastal wetland ecosystem dynamics",
       "Ecology and Conservation Studies",
@@ -40277,6 +40673,7 @@
     "match_confidence": "high",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 16,
+    "vector_paper_count": 19,
     "keywords": [
       "Genetics, Aging, and Longevity in Model Organisms",
       "CRISPR and Genetic Engineering",
@@ -40378,6 +40775,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 14,
     "keywords": [
       "Advanced Data Storage Technologies",
       "Sustainable Building Design and Assessment",
@@ -40487,6 +40885,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 31,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 15,
     "keywords": [
       "Advanced Chemical Physics Studies",
       "Photochemistry and Electron Transfer Studies",
@@ -40583,6 +40982,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 66,
     "senior_paper_count_5y": 20,
+    "vector_paper_count": 15,
     "keywords": [
       "Molecular Sensors and Ion Detection",
       "Lipid Membrane Structure and Behavior",
@@ -40683,6 +41083,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 31,
     "senior_paper_count_5y": 18,
+    "vector_paper_count": 25,
     "keywords": [
       "Quantum Information and Cryptography",
       "Quantum Computing Algorithms and Architecture",
@@ -40787,6 +41188,7 @@
     "match_confidence": "high",
     "paper_count_5y": 7,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 7,
     "keywords": [
       "Plant Molecular Biology Research",
       "Plant nutrient uptake and metabolism",
@@ -40896,6 +41298,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 54,
     "senior_paper_count_5y": 54,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced Harmonic Analysis Research",
       "Auditing, Earnings Management, Governance",
@@ -40987,6 +41390,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 26,
     "senior_paper_count_5y": 16,
+    "vector_paper_count": 24,
     "keywords": [
       "RNA Interference and Gene Delivery",
       "biodegradable polymer synthesis and properties",
@@ -41096,6 +41500,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 44,
     "senior_paper_count_5y": 25,
+    "vector_paper_count": 30,
     "keywords": [
       "3D Shape Modeling and Analysis",
       "Generative Adversarial Networks and Image Synthesis",
@@ -41205,6 +41610,7 @@
     "match_confidence": "high",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 13,
     "keywords": [
       "3D Printing in Biomedical Research",
       "Pluripotent Stem Cells Research",
@@ -41314,6 +41720,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 39,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 30,
     "keywords": [
       "Multiferroics and related materials",
       "Advanced Condensed Matter Physics",
@@ -41418,6 +41825,7 @@
     "match_confidence": "high",
     "paper_count_5y": 23,
     "senior_paper_count_5y": 14,
+    "vector_paper_count": 20,
     "keywords": [
       "Antimicrobial Peptides and Activities",
       "Osteoarthritis Treatment and Mechanisms",
@@ -41527,6 +41935,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 54,
     "senior_paper_count_5y": 17,
+    "vector_paper_count": 26,
     "keywords": [
       "Quantum and electron transport phenomena",
       "Cellular Automata and Applications",
@@ -41636,6 +42045,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 11,
     "keywords": [
       "Stochastic processes and statistical mechanics",
       "Mathematical Dynamics and Fractals",
@@ -41735,6 +42145,7 @@
     "match_confidence": "high",
     "paper_count_5y": 6,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 6,
     "keywords": [
       "Cytomegalovirus and herpesvirus research",
       "RNA modifications and cancer",
@@ -41828,6 +42239,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 36,
     "senior_paper_count_5y": 22,
+    "vector_paper_count": 23,
     "keywords": [
       "2D Materials and Applications",
       "Neuroscience and Neural Engineering",
@@ -41929,6 +42341,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 30,
     "senior_paper_count_5y": 21,
+    "vector_paper_count": 25,
     "keywords": [
       "Organometallic Complex Synthesis and Catalysis",
       "Chemical Synthesis and Analysis",
@@ -42033,6 +42446,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 26,
     "senior_paper_count_5y": 19,
+    "vector_paper_count": 26,
     "keywords": [
       "Magnetic properties of thin films",
       "Physical Unclonable Functions (PUFs) and Hardware Security",
@@ -42137,6 +42551,7 @@
     "match_confidence": "high",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 10,
     "keywords": [
       "Neurogenetic and Muscular Disorders Research",
       "Muscle Physiology and Disorders",
@@ -42230,6 +42645,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 10,
     "keywords": [
       "Logic, programming, and type systems",
       "Software Testing and Debugging Techniques",
@@ -42331,6 +42747,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 29,
     "senior_paper_count_5y": 21,
+    "vector_paper_count": 29,
     "keywords": [
       "Metalloenzymes and iron-sulfur proteins",
       "Receptor Mechanisms and Signaling",
@@ -42440,6 +42857,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 9,
     "keywords": [
       "Radical Photochemical Reactions",
       "Sulfur-Based Synthesis Techniques",
@@ -42520,6 +42938,7 @@
     "match_confidence": "high",
     "paper_count_5y": 6,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 6,
     "keywords": [
       "Neural dynamics and brain function",
       "Memory and Neural Mechanisms",
@@ -42613,6 +43032,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 53,
     "senior_paper_count_5y": 53,
+    "vector_paper_count": 30,
     "keywords": [
       "Nonlinear Partial Differential Equations",
       "Advanced Harmonic Analysis Research",
@@ -42712,6 +43132,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 10,
     "keywords": [
       "Algebraic structures and combinatorial models",
       "Advanced Combinatorial Mathematics",
@@ -42810,6 +43231,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 12,
     "senior_paper_count_5y": 12,
+    "vector_paper_count": 6,
     "keywords": [
       "Advanced Harmonic Analysis Research",
       "Analytic Number Theory Research",
@@ -42893,6 +43315,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 31,
     "senior_paper_count_5y": 24,
+    "vector_paper_count": 30,
     "keywords": [
       "IoT and Edge/Fog Computing",
       "Advanced Neural Network Applications",
@@ -43002,6 +43425,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 17,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 17,
     "keywords": [
       "Protein Structure and Dynamics",
       "Force Microscopy Techniques and Applications",
@@ -43111,6 +43535,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 3,
     "keywords": [
       "Nonlinear Partial Differential Equations",
       "Advanced Mathematical Physics Problems",
@@ -43186,6 +43611,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 23,
     "senior_paper_count_5y": 16,
+    "vector_paper_count": 20,
     "keywords": [
       "Inflammasome and immune disorders",
       "interferon and immune responses",
@@ -43287,6 +43713,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 14,
     "keywords": [
       "Genetic and Kidney Cyst Diseases",
       "Osteoarthritis Treatment and Mechanisms",
@@ -43396,6 +43823,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 15,
     "keywords": [
       "Epigenetics and DNA Methylation",
       "Advanced biosensing and bioanalysis techniques",
@@ -43505,6 +43933,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 8,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 8,
     "keywords": [
       "Navier-Stokes equation solutions",
       "Nonlinear Dynamics and Pattern Formation",
@@ -43609,6 +44038,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 12,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 12,
     "keywords": [
       "Software Testing and Debugging Techniques",
       "Software Engineering Research",
@@ -43718,6 +44148,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 13,
     "keywords": [
       "Stochastic processes and financial applications",
       "Information and Cyber Security",
@@ -43822,6 +44253,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 14,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 14,
     "keywords": [
       "Enzyme Structure and Function",
       "Enzyme function and inhibition",
@@ -43923,6 +44355,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 10,
     "keywords": [
       "PARP inhibition in cancer therapy",
       "DNA Repair Mechanisms",
@@ -44024,6 +44457,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 8,
+    "vector_paper_count": 10,
     "keywords": [
       "Bacterial Genetics and Biotechnology",
       "Liquid Crystal Research Advancements",
@@ -44125,6 +44559,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 14,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 14,
     "keywords": [
       "Mitochondrial Function and Pathology",
       "Heat shock proteins research",
@@ -44234,6 +44669,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 22,
     "senior_paper_count_5y": 22,
+    "vector_paper_count": 22,
     "keywords": [
       "Black Holes and Theoretical Physics",
       "VLSI and FPGA Design Techniques",
@@ -44338,6 +44774,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 11,
     "keywords": [
       "Model Reduction and Neural Networks",
       "Nonlinear Dynamics and Pattern Formation",
@@ -44439,6 +44876,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 27,
     "senior_paper_count_5y": 21,
+    "vector_paper_count": 26,
     "keywords": [
       "Metal-Catalyzed Oxygenation Mechanisms",
       "CO2 Reduction Techniques and Catalysts",
@@ -44548,6 +44986,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 26,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 5,
     "keywords": [
       "Security and Verification in Computing",
       "Logic, programming, and type systems",
@@ -44639,6 +45078,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 25,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 25,
     "keywords": [
       "Radiation Detection and Scintillator Technologies",
       "Luminescence and Fluorescent Materials",
@@ -44743,6 +45183,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 11,
     "keywords": [
       "Block Copolymer Self-Assembly",
       "Micro and Nano Robotics",
@@ -44847,6 +45288,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 5,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 1,
     "keywords": [
       "Geometric Analysis and Curvature Flows",
       "Stochastic Gradient Optimization Techniques",
@@ -44913,6 +45355,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 6,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 6,
     "keywords": [
       "Parallel Computing and Optimization Techniques",
       "Advanced Database Systems and Queries",
@@ -45014,6 +45457,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 13,
     "keywords": [
       "2D Materials and Applications",
       "Gold and Silver Nanoparticles Synthesis and Applications",
@@ -45118,6 +45562,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 11,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 10,
     "keywords": [
       "Sirtuins and Resveratrol in Medicine",
       "Cancer, Hypoxia, and Metabolism",
@@ -45227,6 +45672,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 12,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 12,
     "keywords": [
       "Liquid Crystal Research Advancements",
       "Micro and Nano Robotics",
@@ -45328,6 +45774,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 6,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 6,
     "keywords": [
       "Quantum, superfluid, helium dynamics",
       "Cold Atom Physics and Bose-Einstein Condensates",
@@ -45408,6 +45855,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 25,
     "senior_paper_count_5y": 21,
+    "vector_paper_count": 25,
     "keywords": [
       "Monoclonal and Polyclonal Antibodies Research",
       "Biochemical and Structural Characterization",
@@ -45517,6 +45965,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 18,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 18,
     "keywords": [
       "Laser-Plasma Interactions and Diagnostics",
       "Gyrotron and Vacuum Electronics Research",
@@ -45621,6 +46070,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 15,
     "keywords": [
       "Extracellular vesicles in disease",
       "Mitochondrial Function and Pathology",
@@ -45730,6 +46180,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 20,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 20,
     "keywords": [
       "Security and Verification in Computing",
       "Cryptography and Data Security",
@@ -45839,6 +46290,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 15,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 13,
     "keywords": [
       "Complex Network Analysis Techniques",
       "Graph Theory and Algorithms",
@@ -45947,6 +46399,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 40,
     "senior_paper_count_5y": 25,
+    "vector_paper_count": 30,
     "keywords": [
       "Metal-Organic Frameworks: Synthesis and Applications",
       "CO2 Reduction Techniques and Catalysts",
@@ -46056,6 +46509,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 11,
+    "vector_paper_count": 19,
     "keywords": [
       "Topological Materials and Phenomena",
       "2D Materials and Applications",
@@ -46160,6 +46614,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 34,
     "senior_paper_count_5y": 22,
+    "vector_paper_count": 30,
     "keywords": [
       "TiO2 Photocatalysis and Solar Cells",
       "Nanoplatforms for cancer theranostics",
@@ -46269,6 +46724,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 25,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 25,
     "keywords": [
       "Metamaterials and Metasurfaces Applications",
       "Terahertz technology and applications",
@@ -46373,6 +46829,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 45,
     "senior_paper_count_5y": 34,
+    "vector_paper_count": 30,
     "keywords": [
       "Metal-Organic Frameworks: Synthesis and Applications",
       "Advanced Chemical Physics Studies",
@@ -46482,6 +46939,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 57,
     "senior_paper_count_5y": 35,
+    "vector_paper_count": 30,
     "keywords": [
       "Organic Electronics and Photovoltaics",
       "Perovskite Materials and Applications",
@@ -46586,6 +47044,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 17,
     "senior_paper_count_5y": 7,
+    "vector_paper_count": 17,
     "keywords": [
       "Neuroscience and Neuropharmacology Research",
       "Photoacoustic and Ultrasonic Imaging",
@@ -46695,6 +47154,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 65,
     "senior_paper_count_5y": 40,
+    "vector_paper_count": 30,
     "keywords": [
       "Electrocatalysts for Energy Conversion",
       "Perovskite Materials and Applications",
@@ -46799,6 +47259,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 13,
+    "vector_paper_count": 13,
     "keywords": [
       "Navier-Stokes equation solutions",
       "Advanced Mathematical Physics Problems",
@@ -46895,6 +47356,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 29,
     "senior_paper_count_5y": 29,
+    "vector_paper_count": 29,
     "keywords": [
       "Nanofluid Flow and Heat Transfer",
       "Fractional Differential Equations Solutions",
@@ -46999,6 +47461,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 13,
     "keywords": [
       "Organic Electronics and Photovoltaics",
       "Advanced Sensor and Energy Harvesting Materials",
@@ -47095,6 +47558,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 28,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 28,
     "keywords": [
       "Advancements in Battery Materials",
       "Advanced Battery Materials and Technologies",
@@ -47199,6 +47663,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 48,
     "senior_paper_count_5y": 35,
+    "vector_paper_count": 30,
     "keywords": [
       "Nanoparticle-Based Drug Delivery",
       "Nanoplatforms for cancer theranostics",
@@ -47308,6 +47773,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 50,
     "senior_paper_count_5y": 41,
+    "vector_paper_count": 30,
     "keywords": [
       "Graphene research and applications",
       "Diamond and Carbon-based Materials Research",
@@ -47412,6 +47878,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 22,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 22,
     "keywords": [
       "Vibrio bacteria research studies",
       "Genomics and Phylogenetic Studies",
@@ -47521,6 +47988,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 6,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 6,
     "keywords": [
       "Parallel Computing and Optimization Techniques",
       "Security and Verification in Computing",
@@ -47622,6 +48090,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 19,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 19,
     "keywords": [
       "Astrophysics and Cosmic Phenomena",
       "Laser-Plasma Interactions and Diagnostics",
@@ -47726,6 +48195,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 10,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 10,
     "keywords": [
       "Navier-Stokes equation solutions",
       "Advanced Mathematical Physics Problems",
@@ -47813,6 +48283,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 53,
     "senior_paper_count_5y": 40,
+    "vector_paper_count": 30,
     "keywords": [
       "Metal-Organic Frameworks: Synthesis and Applications",
       "Hydrogen Storage and Materials",
@@ -47917,6 +48388,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 48,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 30,
     "keywords": [
       "Advanced Battery Materials and Technologies",
       "Semiconductor materials and devices",
@@ -48021,6 +48493,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 9,
     "senior_paper_count_5y": 9,
+    "vector_paper_count": 9,
     "keywords": [
       "Neural Networks and Reservoir Computing",
       "Neural dynamics and brain function",
@@ -48114,6 +48587,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 5,
     "senior_paper_count_5y": 5,
+    "vector_paper_count": 5,
     "keywords": [
       "Molecular Spectroscopy and Structure",
       "Spectroscopy and Laser Applications",
@@ -48201,6 +48675,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 56,
     "senior_paper_count_5y": 49,
+    "vector_paper_count": 30,
     "keywords": [
       "Machine Learning in Materials Science",
       "Computational Drug Discovery Methods",
@@ -48310,6 +48785,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 36,
     "senior_paper_count_5y": 10,
+    "vector_paper_count": 8,
     "keywords": [
       "Astrophysical Phenomena and Observations",
       "Astrophysics and Cosmic Phenomena",
@@ -48406,6 +48882,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 13,
     "senior_paper_count_5y": 6,
+    "vector_paper_count": 13,
     "keywords": [
       "Immune Cell Function and Interaction",
       "CAR-T cell therapy research",
@@ -48507,6 +48984,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 21,
     "senior_paper_count_5y": 21,
+    "vector_paper_count": 17,
     "keywords": [
       "Air Quality Monitoring and Forecasting",
       "Neural Networks and Reservoir Computing",
@@ -48603,6 +49081,7 @@
     "match_confidence": "medium",
     "paper_count_5y": 20,
     "senior_paper_count_5y": 15,
+    "vector_paper_count": 6,
     "keywords": [
       "Radical Photochemical Reactions",
       "Sulfur-Based Synthesis Techniques",

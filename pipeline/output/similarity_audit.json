@@ -1,0 +1,135 @@
+{
+  "labs": 479,
+  "similarity_edges": 1249,
+  "model": "sentence-transformers/allenai-specter",
+  "scale": {
+    "all_pairs_median": 0.7307,
+    "threshold": 0.9174,
+    "threshold_percentile": 0.9766,
+    "edge_median": 0.9429
+  },
+  "input": {
+    "papers_per_lab_median": 17.0,
+    "papers_per_lab_p10": 6.0,
+    "share_with_abstract": 0.822
+  },
+  "split_half": {
+    "chance_top1": 0.0021,
+    "by_size": {
+      "전체": {
+        "n": 2350,
+        "top1": 0.634,
+        "top5": 0.849
+      },
+      "6–10편": {
+        "n": 440,
+        "top1": 0.407,
+        "top5": 0.664
+      },
+      "21편 이상": {
+        "n": 950,
+        "top1": 0.828,
+        "top5": 0.977
+      },
+      "11–20편": {
+        "n": 860,
+        "top1": 0.578,
+        "top5": 0.844
+      },
+      "5편 이하": {
+        "n": 100,
+        "top1": 0.28,
+        "top5": 0.49
+      }
+    },
+    "by_field": {
+      "life": {
+        "n": 525,
+        "top1": 0.657,
+        "top5": 0.84
+      },
+      "chem": {
+        "n": 635,
+        "top1": 0.685,
+        "top5": 0.863
+      },
+      "phys": {
+        "n": 485,
+        "top1": 0.577,
+        "top5": 0.831
+      },
+      "math": {
+        "n": 320,
+        "top1": 0.616,
+        "top5": 0.825
+      },
+      "cs": {
+        "n": 385,
+        "top1": 0.608,
+        "top5": 0.881
+      }
+    }
+  },
+  "bootstrap": {
+    "repeats": 20,
+    "top5_kept_mean": 0.663,
+    "top5_kept_p10": 0.49,
+    "by_size": {
+      "5편 이하": {
+        "labs": 29,
+        "kept": 0.613
+      },
+      "6–10편": {
+        "labs": 88,
+        "kept": 0.641
+      },
+      "11–20편": {
+        "labs": 172,
+        "kept": 0.651
+      },
+      "21편 이상": {
+        "labs": 190,
+        "kept": 0.69
+      }
+    },
+    "line_survival_by_band": {
+      "매우 가까움": {
+        "lines": 418,
+        "survival": 0.818
+      },
+      "가까움": {
+        "lines": 415,
+        "survival": 0.682
+      },
+      "비교적 가까움": {
+        "lines": 416,
+        "survival": 0.635
+      }
+    }
+  },
+  "coauthor": {
+    "pairs": 659,
+    "skipped_all_papers_shared": 0,
+    "median_percentile_without_shared_papers": 0.958,
+    "baseline_same_univ_same_field": 0.835
+  },
+  "topics": {
+    "jaccard_neighbours": 0.158,
+    "jaccard_random": 0.012,
+    "neighbours_sharing_no_top15_topic": 0.081
+  },
+  "same_field_share_top5": {
+    "chem": 0.816,
+    "cs": 0.932,
+    "life": 0.887,
+    "math": 0.82,
+    "phys": 0.814
+  },
+  "citation_weight_top5_kept": 0.832,
+  "hubness": {
+    "max": 26,
+    "never_a_neighbour": 35,
+    "corr_log_papers": 0.35
+  },
+  "lines_without_shared_topic": 9
+}

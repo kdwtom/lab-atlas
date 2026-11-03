@@ -15,7 +15,7 @@ export function makeDummy(n: number, clusters: Cluster[], meta: Meta): { labs: L
       dept_codes: ['dummy'], disciplines: [fields[c % fields.length]],
       pi_name_ko: `더미 ${i + 1}`, pi_name_en: `Dummy ${i + 1}`, position: null, lab_name: null, homepage_url: null,
       faculty_page_url: '#', openalex_id: `D${i}`, orcid: null, match_confidence: 'medium',
-      paper_count_5y: 5 + Math.floor(rand() * 60), senior_paper_count_5y: 5, keywords: clusters[c]?.keywords.slice(0, 3) ?? [],
+      paper_count_5y: 5 + Math.floor(rand() * 60), senior_paper_count_5y: 5, vector_paper_count: 20, keywords: clusters[c]?.keywords.slice(0, 3) ?? [],
       cluster_id: clusters[c]?.id ?? null, x: centers[c][0] + (rand() - 0.5) * 0.5, y: centers[c][1] + (rand() - 0.5) * 0.5,
       intro_ko: null, intro_unavailable: null, representative_paper_ids: [], keyword_timeline: [], sources: [],
     };

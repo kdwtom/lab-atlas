@@ -19,7 +19,8 @@ export default function ExplorePage({ mode }: { mode: Mode }) {
   const mobile = useMedia('(max-width: 768px)');
   // hover preview stays after the pointer leaves the node, so it can be moved onto the panel and scrolled
   const [hover, setHover] = useState<Lab | null>(null);
-  const [hoverEdge, setHoverEdge] = useState<Edge | null>(null);
+  // an edge is only opened by a click; hovering just emphasises the line inside the graph
+  const [pickedEdge, setPickedEdge] = useState<Edge | null>(null);
   // a node only takes over the panel after the pointer rests on it briefly, so passing over other
   // nodes on the way to the panel does not replace the preview
   const hoverTimer = useRef<number | undefined>(undefined);
@@ -45,6 +46,7 @@ export default function ExplorePage({ mode }: { mode: Mode }) {
 
   // desktop: click pins the lab in the panel, a second click opens its page; mobile: tap previews in the sheet
   const select = (lab: Lab) => {
+    setPickedEdge(null);
     if (mobile) {
       setSelected(lab);
       setCenter({ id: lab.id });
@@ -56,6 +58,7 @@ export default function ExplorePage({ mode }: { mode: Mode }) {
   };
   // search pick: focus the node in the graph (and preview it), or open the page from the list
   const pick = (lab: Lab) => {
+    setPickedEdge(null);
     if (ex.view === 'list') navigate(`/lab/${encodeURIComponent(lab.id)}`);
     else {
       setSelected(lab);
@@ -64,15 +67,26 @@ export default function ExplorePage({ mode }: { mode: Mode }) {
   };
 
   useEffect(() => {
-    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setSelected(null); };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== 'Escape') return;
+      setSelected(null);
+      setPickedEdge(null);
+    };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, []);
 
   const clusterName = (id: number | null) => (id === null ? '' : atlas.clusterById.get(id)?.label_ko ?? '');
   const hoverLab = hover && filtered.includes(hover) ? hover : null;
-  // a hovered edge shows briefly; once the pointer leaves it the last hovered lab comes back
-  const panelLab = mobile || selected ? selected : hoverEdge ? null : hoverLab;
+  // the picked edge disappears with its line when a filter or the line type hides it
+  const shownIds = useMemo(() => new Set(filtered.map((l) => l.id)), [filtered]);
+  const edge = pickedEdge && edges.includes(pickedEdge) && shownIds.has(pickedEdge.source) && shownIds.has(pickedEdge.target)
+    ? pickedEdge : null;
+  const panelLab = edge ? null : mobile || selected ? selected : hoverLab;
+  const clearPicks = () => {
+    setSelected(null);
+    setPickedEdge(null);
+  };
 
   return (
     <div className="explore">
@@ -87,17 +101,18 @@ export default function ExplorePage({ mode }: { mode: Mode }) {
             edges={edges}
             mode={mode}
             matched={matched}
-            focusId={selected?.id ?? null}
+            focusId={edge ? null : selected?.id ?? null}
+            selectedEdge={edge}
             center={center}
             sheet={mobile}
             clusterName={clusterName}
             onHover={onNodeHover}
-            onEdgeHover={setHoverEdge}
+            onEdgeClick={(e) => { setSelected(null); setPickedEdge(e); }}
             onSelect={select}
-            onBackgroundClick={() => setSelected(null)}
+            onBackgroundClick={clearPicks}
           />
-          <LabPanel lab={panelLab} edge={mobile || selected ? null : hoverEdge} mode={mode} sheet={mobile}
-                    pinned={!mobile && selected !== null} onClose={() => setSelected(null)} />
+          <LabPanel lab={panelLab} edge={edge} mode={mode} sheet={mobile}
+                    pinned={!mobile && selected !== null && !edge} onClose={clearPicks} />
         </div>
       ) : (
         <ListView labs={listRows} mode={mode} />

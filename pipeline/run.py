@@ -11,7 +11,7 @@ import logging
 import sys
 import time
 
-from . import (check_links, config, field_stats, flag_papers, spot_check, step01_faculty, step02_institutions,
+from . import (check_links, config, field_stats, flag_papers, similarity_audit, spot_check, step01_faculty, step02_institutions,
                step03_match, step04_papers, step05_tldr, step06_stats, step07_embed, step08_analyze, step09_select,
                step10_export, validate)
 from .lib.http import CachedClient
@@ -32,6 +32,7 @@ STEPS = {
     "fields": field_stats.run,
     "links": check_links.run,
     "spotcheck": spot_check.run,
+    "audit": similarity_audit.run,  # after export; not part of any stage because it takes minutes
 }
 STAGES = {
     "collect": ["faculty", "institutions", "match", "papers", "tldr", "stats", "validate"],

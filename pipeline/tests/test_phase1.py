@@ -1,13 +1,17 @@
 """Phase 1 (PLAN_PHASE1.md 0-8): department parsers, roster matching, field rules, joint appointments."""
 from datetime import date
 
+import numpy as np
+
 from pipeline import config
 from pipeline.lib.faculty import dgist_tracks, gist, gist_depts, kaist_depts, snu_depts
 from pipeline.lib.faculty.base import flip_comma_name
 from pipeline.lib.roster import Roster, compact
 from pipeline.schemas import FacultyRecord, MatchResult
 from pipeline.step03_match import apply_override, evaluate, field_share
+from pipeline.similarity_audit import self_retrieval_rank
 from pipeline.step04_papers import alphabetical, group_labs
+from pipeline.step08_analyze import band_cuts, closest_paper_pairs, similarity_band
 
 INST = "I111"
 
@@ -249,3 +253,33 @@ def test_override_exclude_clears_the_match():
 def test_override_leaves_others_alone():
     r = _matched("이영희")
     assert apply_override(_FakeOA(), r, {"force": {}, "exclude": {}}, set()) is r
+
+
+# ------------------------------------------------------------------ similarity display (PLAN_PHASE2.md 5-3)
+def test_closest_paper_pairs_uses_each_paper_once_and_skips_shared():
+    a = np.array([[1.0, 0.0], [0.8, 0.6], [0.0, 1.0]])
+    b = np.array([[1.0, 0.0], [0.0, 1.0]])
+    t = {p: f"distinct paper title {p}" for p in ["p1", "p2", "p3", "q1", "q2"]}
+    assert closest_paper_pairs(["p1", "p2", "p3"], a, ["q1", "q2"], b, t) == [("p1", "q1"), ("p3", "q2")]
+    # the same paper on both sides is dropped everywhere, not just where it would pair with itself
+    assert closest_paper_pairs(["p1", "p3"], a[[0, 2]], ["p1", "q2"], b, t) == [("p3", "q2")]
+    # also when it has two ids (a preprint and the journal version)
+    t["q1"] = t["p1"]
+    assert closest_paper_pairs(["p1", "p3"], a[[0, 2]], ["q1", "q2"], b, t) == [("p3", "q2")]
+
+
+def test_similarity_band_boundaries():
+    cuts = band_cuts([0.92, 0.93, 0.94, 0.95, 0.96, 0.97])
+    assert cuts[0] < cuts[1]
+    assert similarity_band(0.99, cuts, 0.9) == "매우 가까움"
+    assert similarity_band(cuts[1], cuts, 0.9) == "매우 가까움"
+    assert similarity_band(cuts[0], cuts, 0.9) == "가까움"
+    assert similarity_band(0.91, cuts, 0.9) == "비교적 가까움"
+    assert similarity_band(0.89, cuts, 0.9) == "주제 거리가 있음"
+
+
+def test_self_retrieval_rank_finds_the_matching_half():
+    others = np.array([[1.0, 0.0], [0.0, 1.0], [0.7071, 0.7071]])
+    half_a, half_b = np.array([0.0, 1.0]), np.array([0.0, 1.0])
+    assert self_retrieval_rank(half_a, half_b, others, 1) == 1
+    assert self_retrieval_rank(np.array([1.0, 0.0]), half_b, others, 1) == 3
