@@ -1,30 +1,18 @@
 [
   {
     "id": 0,
-    "label_ko": "해석학·편미분방정식·응용수학",
-    "keywords": [
-      "Nonlinear Partial Differential Equations",
-      "Distributed Control Multi-Agent Systems",
-      "Navier-Stokes equation solutions",
-      "Model Reduction and Neural Networks",
-      "Nonlinear Dynamics and Pattern Formation"
-    ],
-    "size": 45
-  },
-  {
-    "id": 1,
     "label_ko": "면역·미생물·대사",
     "keywords": [
       "Immune Cell Function and Interaction",
-      "T-cell and B-cell Immunology",
       "Immune cells in cancer",
-      "Gut microbiota and health",
-      "Autophagy in Disease and Therapy"
+      "Extracellular vesicles in disease",
+      "T-cell and B-cell Immunology",
+      "Gut microbiota and health"
     ],
-    "size": 44
+    "size": 47
   },
   {
-    "id": 2,
+    "id": 1,
     "label_ko": "에너지 전환·전지·촉매",
     "keywords": [
       "Electrocatalysts for Energy Conversion",
@@ -33,10 +21,10 @@
       "Advanced Photocatalysis Techniques",
       "Advanced Battery Materials and Technologies"
     ],
-    "size": 42
+    "size": 44
   },
   {
-    "id": 3,
+    "id": 2,
     "label_ko": "응집물질·자성·위상물질",
     "keywords": [
       "Magnetic properties of thin films",
@@ -48,76 +36,88 @@
     "size": 42
   },
   {
-    "id": 4,
-    "label_ko": "컴퓨터 비전·기계학습·HCI",
+    "id": 3,
+    "label_ko": "해석학·편미분방정식·응용수학",
     "keywords": [
-      "3D Shape Modeling and Analysis",
-      "Advanced Neural Network Applications",
-      "Generative Adversarial Networks and Image Synthesis",
-      "Recommender Systems and Techniques",
-      "Tactile and Sensory Interactions"
+      "Nonlinear Partial Differential Equations",
+      "Distributed Control Multi-Agent Systems",
+      "Navier-Stokes equation solutions",
+      "Nonlinear Dynamics and Pattern Formation",
+      "Random Matrices and Applications"
     ],
-    "size": 41
+    "size": 40
   },
   {
-    "id": 5,
+    "id": 4,
     "label_ko": "RNA·단백질 구조와 기능",
     "keywords": [
       "RNA and protein synthesis mechanisms",
       "Protein Structure and Dynamics",
       "RNA Research and Splicing",
       "RNA modifications and cancer",
-      "Enzyme Structure and Function"
+      "Genetics, Aging, and Longevity in Model Organisms"
     ],
-    "size": 36
+    "size": 38
+  },
+  {
+    "id": 5,
+    "label_ko": "바이오센서·나노바이오·의료영상",
+    "keywords": [
+      "Molecular Sensors and Ion Detection",
+      "Digital Holography and Microscopy",
+      "Nanoplatforms for cancer theranostics",
+      "Nanoparticle-Based Drug Delivery",
+      "Biosensors and Analytical Detection"
+    ],
+    "size": 33
   },
   {
     "id": 6,
     "label_ko": "양자정보·광학·레이저",
     "keywords": [
       "Quantum Information and Cryptography",
-      "Quantum Computing Algorithms and Architecture",
       "Laser-Plasma Interactions and Diagnostics",
+      "Quantum Computing Algorithms and Architecture",
       "Laser-Matter Interactions and Applications",
       "Photorefractive and Nonlinear Optics"
     ],
-    "size": 35
+    "size": 33
   },
   {
     "id": 7,
-    "label_ko": "고분자·MOF·물리화학",
+    "label_ko": "데이터·기계학습·자연어",
     "keywords": [
-      "Block Copolymer Self-Assembly",
-      "Advanced Polymer Synthesis and Characterization",
-      "Photochemistry and Electron Transfer Studies",
-      "Liquid Crystal Research Advancements",
-      "Machine Learning in Materials Science"
+      "Recommender Systems and Techniques",
+      "Topic Modeling",
+      "Data Visualization and Analytics",
+      "Advanced Graph Neural Networks",
+      "Information Retrieval and Search Behavior"
     ],
-    "size": 32
+    "size": 31
   },
   {
     "id": 8,
-    "label_ko": "바이오센서·나노바이오·의료영상",
+    "label_ko": "고분자·MOF·물리화학",
     "keywords": [
-      "Molecular Sensors and Ion Detection",
-      "Digital Holography and Microscopy",
-      "Nanoplatforms for cancer theranostics",
-      "Biosensors and Analytical Detection",
-      "Gold and Silver Nanoparticles Synthesis and Applications"
+      "Block Copolymer Self-Assembly",
+      "Photochemistry and Electron Transfer Studies",
+      "Liquid Crystal Research Advancements",
+      "Advanced Polymer Synthesis and Characterization",
+      "Spectroscopy and Quantum Chemical Studies"
     ],
-    "size": 29
+    "size": 30
   },
   {
     "id": 9,
     "label_ko": "시스템·보안·병렬컴퓨팅",
     "keywords": [
-      "Advanced Data Storage Technologies",
       "Parallel Computing and Optimization Techniques",
+      "Advanced Data Storage Technologies",
       "Cryptography and Data Security",
       "Security and Verification in Computing",
-      "Blockchain Technology Applications and Security"
+      "Cloud Computing and Resource Management"
     ],
-    "size": 28
+    "size": 30
   },
   {
     "id": 10,
@@ -126,18 +126,18 @@
       "Radical Photochemical Reactions",
       "Asymmetric Synthesis and Catalysis",
       "Organoboron and organosilicon chemistry",
-      "Organometallic Complex Synthesis and Catalysis",
+      "Catalytic Cross-Coupling Reactions",
       "Fluorine in Organic Chemistry"
     ],
-    "size": 27
+    "size": 28
   },
   {
     "id": 11,
     "label_ko": "대수·기하·이론물리",
     "keywords": [
       "Black Holes and Theoretical Physics",
-      "Geometric and Algebraic Topology",
       "Algebraic Geometry and Number Theory",
+      "Geometric and Algebraic Topology",
       "Algebraic structures and combinatorial models",
       "Analytic Number Theory Research"
     ],
@@ -145,6 +145,18 @@
   },
   {
     "id": 12,
+    "label_ko": "컴퓨터 비전·그래픽스·HCI",
+    "keywords": [
+      "3D Shape Modeling and Analysis",
+      "Generative Adversarial Networks and Image Synthesis",
+      "Tactile and Sensory Interactions",
+      "Advanced Neural Network Applications",
+      "Human Motion and Animation"
+    ],
+    "size": 23
+  },
+  {
+    "id": 13,
     "label_ko": "식물 분자생물학",
     "keywords": [
       "Plant Molecular Biology Research",
@@ -153,22 +165,22 @@
       "Photosynthetic Processes and Mechanisms",
       "Plant Reproductive Biology"
     ],
-    "size": 20
-  },
-  {
-    "id": 13,
-    "label_ko": "신경과학",
-    "keywords": [
-      "Neuroscience and Neuropharmacology Research",
-      "Neural dynamics and brain function",
-      "Genetics and Neurodevelopmental Disorders",
-      "Memory and Neural Mechanisms",
-      "Neuroinflammation and Neurodegeneration Mechanisms"
-    ],
-    "size": 15
+    "size": 19
   },
   {
     "id": 14,
+    "label_ko": "신경과학",
+    "keywords": [
+      "Neuroscience and Neuropharmacology Research",
+      "Genetics and Neurodevelopmental Disorders",
+      "Neural dynamics and brain function",
+      "Neuroinflammation and Neurodegeneration Mechanisms",
+      "Memory and Neural Mechanisms"
+    ],
+    "size": 16
+  },
+  {
+    "id": 15,
     "label_ko": "소프트웨어공학·프로그래밍 언어",
     "keywords": [
       "Software Testing and Debugging Techniques",
@@ -177,10 +189,10 @@
       "Formal Methods in Verification",
       "Software Reliability and Analysis Research"
     ],
-    "size": 10
+    "size": 11
   },
   {
-    "id": 15,
+    "id": 16,
     "label_ko": "그래프 이론·조합·알고리즘",
     "keywords": [
       "Limits and Structures in Graph Theory",

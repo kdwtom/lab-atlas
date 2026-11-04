@@ -54,7 +54,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -62,11 +62,11 @@
     "name_ko": "김미영",
     "name_en": "Mi Young Kim",
     "faculty_page_url": "https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9731&menuSeq=3344&bbsSeq=120",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "3 strong candidates",
+    "status": "matched",
+    "openalex_id": "A5100743274",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: epigenetics and metastasis papers at KAIST, matching the lab name; the others are clinical or plant namesakes",
     "candidates": [
       {
         "openalex_id": "A5100743278",
@@ -227,7 +227,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -361,7 +361,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -483,7 +483,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -606,7 +606,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -719,7 +719,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -727,11 +727,11 @@
     "name_ko": "김재경",
     "name_en": "Jaekyung Kim",
     "faculty_page_url": "https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9722&menuSeq=3344&bbsSeq=120",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates",
+    "status": "matched",
+    "openalex_id": "A5101701675",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: sleep and motor cortex neuroscience, matching the lab; the other candidate is a 3-work fragment",
     "candidates": [
       {
         "openalex_id": "A5101701675",
@@ -829,7 +829,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -1016,7 +1016,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -1209,7 +1209,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -1302,7 +1302,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -1481,7 +1481,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -1520,7 +1520,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -1576,7 +1576,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -1615,7 +1615,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -1649,7 +1649,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -1706,7 +1706,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -1823,7 +1823,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -1898,7 +1898,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -1955,7 +1955,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -2009,7 +2009,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -2044,7 +2044,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -2138,7 +2138,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -2172,7 +2172,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -2352,7 +2352,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -2360,11 +2360,11 @@
     "name_ko": "이승희",
     "name_en": "Seung-Hee Lee",
     "faculty_page_url": "https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9735&menuSeq=3344&bbsSeq=120",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates",
+    "status": "matched",
+    "openalex_id": "A5100424985",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: multisensory neuroscience at KAIST; the other candidate is a merged namesake at another institute",
     "candidates": [
       {
         "openalex_id": "A5100424985",
@@ -2546,7 +2546,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -2627,7 +2627,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -2684,7 +2684,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -2723,7 +2723,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -2738,7 +2738,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -2777,7 +2777,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -2862,7 +2862,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -2901,7 +2901,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -2909,11 +2909,11 @@
     "name_ko": "정인경",
     "name_en": "Inkyung Jung",
     "faculty_page_url": "https://bio.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=9752&menuSeq=3344&bbsSeq=120",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "5 strong candidates",
+    "status": "matched",
+    "openalex_id": "A5080272556",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: 3D epigenomics at KAIST; the smaller profiles are fragments, and the ORCID conflict comes from a Yonsei namesake",
     "candidates": [
       {
         "openalex_id": "A5080272556",
@@ -3052,7 +3052,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -3088,7 +3088,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -3163,7 +3163,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -3202,7 +3202,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -3379,7 +3379,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -3473,7 +3473,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -3507,7 +3507,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -3546,7 +3546,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -3585,7 +3585,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -3644,7 +3644,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -3821,7 +3821,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -4000,7 +4000,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -4184,7 +4184,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -4370,7 +4370,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -4427,7 +4427,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -4627,7 +4627,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -4666,7 +4666,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -4724,7 +4724,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -4761,7 +4761,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -4818,7 +4818,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -5010,7 +5010,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -5067,7 +5067,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -5106,7 +5106,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -5145,7 +5145,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -5184,7 +5184,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -5265,7 +5265,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -5324,7 +5324,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -5362,7 +5362,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -5512,7 +5512,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -5568,7 +5568,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -5643,7 +5643,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -5682,7 +5682,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -5842,7 +5842,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -6031,7 +6031,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -6088,7 +6088,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -6276,7 +6276,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -6333,7 +6333,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -6505,7 +6505,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -6694,7 +6694,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -6808,7 +6808,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -6843,7 +6843,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -6973,7 +6973,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -7008,7 +7008,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -7047,7 +7047,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -7086,7 +7086,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -7179,7 +7179,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -7218,7 +7218,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -7332,7 +7332,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -7430,7 +7430,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -7469,7 +7469,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -7526,7 +7526,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -7584,7 +7584,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -7771,7 +7771,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -7833,7 +7833,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -7872,7 +7872,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -7954,7 +7954,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -8049,7 +8049,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8088,7 +8088,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8103,7 +8103,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8118,7 +8118,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8152,7 +8152,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8191,7 +8191,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8230,7 +8230,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8305,7 +8305,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8363,7 +8363,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8418,7 +8418,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8457,7 +8457,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8472,7 +8472,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8530,7 +8530,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8587,7 +8587,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8642,7 +8642,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8718,7 +8718,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8776,7 +8776,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8813,7 +8813,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8852,7 +8852,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8891,7 +8891,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8906,7 +8906,7 @@
     "detail": "no English name and no publications on page",
     "candidates": [],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8942,7 +8942,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -8976,7 +8976,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -9015,7 +9015,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -9054,7 +9054,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -9093,7 +9093,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -9132,7 +9132,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -9189,7 +9189,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -9197,11 +9197,11 @@
     "name_ko": "허윤하",
     "name_en": null,
     "faculty_page_url": "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?mode=view&id=0338f11c96903a40633ed02cc9426f4f",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates",
+    "status": "matched",
+    "openalex_id": "A5091803046",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: the faculty page's dead cell clearance paper is on this profile",
     "candidates": [
       {
         "openalex_id": "A5091803046",
@@ -9241,7 +9241,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -9280,7 +9280,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -9319,7 +9319,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -9358,7 +9358,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -9397,7 +9397,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -9405,11 +9405,11 @@
     "name_ko": "김은희",
     "name_en": "Eunhee Kim",
     "faculty_page_url": "https://research.unist.ac.kr/research/faculty/faculty.do?mode=view&profileNo=36",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "3 strong candidates",
+    "status": "matched",
+    "openalex_id": "A5100339473",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: currently at UNIST with leukemia and splicing topics, matching the biography; lower confidence, listed for review",
     "candidates": [
       {
         "openalex_id": "A5100339473",
@@ -9513,7 +9513,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -9570,7 +9570,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -9643,7 +9643,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -9651,11 +9651,11 @@
     "name_ko": "김홍태",
     "name_en": "Hongtae Kim",
     "faculty_page_url": "https://research.unist.ac.kr/research/faculty/faculty.do?mode=view&profileNo=231",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates",
+    "status": "matched",
+    "openalex_id": "A5007382558",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: DNA repair at UNIST; the other candidate is a 5-work fragment",
     "candidates": [
       {
         "openalex_id": "A5007382558",
@@ -9722,7 +9722,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -9761,7 +9761,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -9919,7 +9919,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -10012,7 +10012,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -10051,7 +10051,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -10089,7 +10089,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -10144,7 +10144,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -10178,7 +10178,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -10217,7 +10217,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -10275,7 +10275,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -10327,7 +10327,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -10366,7 +10366,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -10401,7 +10401,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -10572,7 +10572,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -10747,7 +10747,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -10786,7 +10786,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -10825,7 +10825,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -10882,7 +10882,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -10939,7 +10939,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -11105,7 +11105,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -11273,7 +11273,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -11281,11 +11281,11 @@
     "name_ko": "송미령",
     "name_en": "Mi-Ryoung Song",
     "faculty_page_url": "https://life.gist.ac.kr/prog/gsPerson/life/P/view.do?personId=P00001727",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates",
+    "status": "matched",
+    "openalex_id": "A5013222112",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: motor circuit development at GIST; the other candidate is a fragment",
     "candidates": [
       {
         "openalex_id": "A5013222112",
@@ -11335,7 +11335,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -11374,7 +11374,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -11436,7 +11436,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -11475,7 +11475,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -11572,7 +11572,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -11587,7 +11587,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -11621,7 +11621,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -11660,7 +11660,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -11699,7 +11699,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -11738,7 +11738,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -11832,7 +11832,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -11942,7 +11942,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -11981,7 +11981,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -12020,7 +12020,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -12059,7 +12059,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -12067,11 +12067,11 @@
     "name_ko": "김민석",
     "name_en": "Minseok S. Kim",
     "faculty_page_url": "https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "4 strong candidates",
+    "status": "matched",
+    "openalex_id": "A5004876274",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: name with middle initial and circulating tumor cell microfluidics, matching Nanobiomedicine",
     "candidates": [
       {
         "openalex_id": "A5100332525",
@@ -12226,7 +12226,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -12319,7 +12319,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -12373,7 +12373,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -12412,7 +12412,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -12503,7 +12503,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -12560,7 +12560,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -12599,7 +12599,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -12638,7 +12638,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -12677,7 +12677,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -12770,7 +12770,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -12823,7 +12823,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -12953,7 +12953,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -13010,7 +13010,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -13085,7 +13085,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -13144,7 +13144,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -13183,7 +13183,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -13242,7 +13242,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -13277,7 +13277,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -13292,7 +13292,7 @@
     "detail": "position: 명예교수 Emerita Professor",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -13307,7 +13307,7 @@
     "detail": "position: 석좌교수 Adjunct Professor",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -13497,7 +13497,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -13689,7 +13689,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -13879,7 +13879,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -14075,7 +14075,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -14273,7 +14273,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -14464,7 +14464,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -14650,7 +14650,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -14836,7 +14836,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -15022,7 +15022,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -15214,7 +15214,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -15404,7 +15404,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -15591,7 +15591,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -15785,7 +15785,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -15977,7 +15977,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -16169,7 +16169,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -16361,7 +16361,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -16551,7 +16551,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -16742,7 +16742,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -16932,7 +16932,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -17121,7 +17121,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -17240,7 +17240,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -17432,7 +17432,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -17624,7 +17624,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -17816,7 +17816,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -18005,7 +18005,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -18195,7 +18195,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -18203,11 +18203,11 @@
     "name_ko": "김희재",
     "name_en": null,
     "faculty_page_url": "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?mode=view&id=e361c364c0a48eb856377542256ad718",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates; papers led [2, 0]",
+    "status": "matched",
+    "openalex_id": "A5020822934",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: the faculty page's electron-phonon papers are on this profile",
     "candidates": [
       {
         "openalex_id": "A5020822934",
@@ -18379,7 +18379,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -18571,7 +18571,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -18762,7 +18762,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -18770,11 +18770,11 @@
     "name_ko": "서준호",
     "name_en": null,
     "faculty_page_url": "https://www.postech.ac.kr/kor/research-industry-academia/researcher-search.do?mode=view&id=eb842e7485c31dfa96029d1f659bf3b0",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "3 strong candidates; papers led [4, 0, 0]",
+    "status": "matched",
+    "openalex_id": "A5090823584",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: the faculty page's Josephson diode and magnetoelastic papers are on this profile",
     "candidates": [
       {
         "openalex_id": "A5090823584",
@@ -18950,7 +18950,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -19047,7 +19047,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -19234,7 +19234,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -19421,7 +19421,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -19558,7 +19558,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -19753,7 +19753,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -19948,7 +19948,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -20143,7 +20143,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -20334,7 +20334,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -20369,7 +20369,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -20561,7 +20561,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -20755,7 +20755,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -20947,7 +20947,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -21136,7 +21136,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -21327,7 +21327,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -21508,7 +21508,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -21690,7 +21690,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -21882,7 +21882,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -22073,7 +22073,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -22270,7 +22270,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -22457,7 +22457,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -22642,7 +22642,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -22836,7 +22836,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -23020,7 +23020,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -23117,7 +23117,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -23304,7 +23304,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -23485,7 +23485,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -23676,7 +23676,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -23866,7 +23866,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -24064,7 +24064,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -24247,7 +24247,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -24429,7 +24429,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -24620,7 +24620,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -24677,7 +24677,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -24864,7 +24864,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -25050,7 +25050,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -25065,7 +25065,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -25080,7 +25080,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -25271,7 +25271,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -25459,7 +25459,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -25648,7 +25648,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -25841,7 +25841,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -25941,7 +25941,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -26130,7 +26130,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -26324,7 +26324,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -26517,7 +26517,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -26696,7 +26696,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -26882,7 +26882,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -27079,7 +27079,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -27258,7 +27258,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -27452,7 +27452,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -27639,7 +27639,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -27825,7 +27825,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -28016,7 +28016,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "postech",
@@ -28206,7 +28206,7 @@
       }
     ],
     "institution_id": "I123900574",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28221,7 +28221,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28260,7 +28260,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28299,7 +28299,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28338,7 +28338,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28377,7 +28377,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28416,7 +28416,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28455,7 +28455,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28463,11 +28463,11 @@
     "name_ko": "박영석",
     "name_en": "Young S. Park",
     "faculty_page_url": "https://research.unist.ac.kr/research/faculty/faculty.do?mode=view&profileNo=164",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates; papers led [12, 5]",
+    "status": "matched",
+    "openalex_id": "A5101439656",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: organic electronics and pentacene synthesis, matching the organic chemistry biography; the other profile is a namesake",
     "candidates": [
       {
         "openalex_id": "A5006265862",
@@ -28517,7 +28517,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28593,7 +28593,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28631,7 +28631,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28670,7 +28670,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28726,7 +28726,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28783,7 +28783,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28818,7 +28818,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28877,7 +28877,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28916,7 +28916,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28955,7 +28955,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -28990,7 +28990,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29029,7 +29029,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29068,7 +29068,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29127,7 +29127,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29166,7 +29166,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29205,7 +29205,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29244,7 +29244,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29283,7 +29283,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29340,7 +29340,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29377,7 +29377,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29416,7 +29416,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29473,7 +29473,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29512,7 +29512,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29551,7 +29551,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29590,7 +29590,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29626,7 +29626,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29665,7 +29665,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29704,7 +29704,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29743,7 +29743,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29782,7 +29782,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29818,7 +29818,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29857,7 +29857,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29896,7 +29896,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29935,7 +29935,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -29974,7 +29974,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30008,7 +30008,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30047,7 +30047,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30062,7 +30062,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30101,7 +30101,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30140,7 +30140,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30176,7 +30176,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30215,7 +30215,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30253,7 +30253,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30291,7 +30291,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30346,7 +30346,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30385,7 +30385,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30424,7 +30424,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30463,7 +30463,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30497,7 +30497,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30536,7 +30536,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30575,7 +30575,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30611,7 +30611,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30668,7 +30668,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30724,7 +30724,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30763,7 +30763,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30778,7 +30778,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30817,7 +30817,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30851,7 +30851,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30887,7 +30887,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30926,7 +30926,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -30934,11 +30934,11 @@
     "name_ko": "임영빈",
     "name_en": "Youngbin Im",
     "faculty_page_url": "https://research.unist.ac.kr/research/faculty/faculty.do?mode=view&profileNo=82",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates; papers led [1, 0]",
+    "status": "matched",
+    "openalex_id": "A5102836772",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: network papers at UNIST; the other candidate has no papers in the window",
     "candidates": [
       {
         "openalex_id": "A5102836772",
@@ -30983,7 +30983,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -31022,7 +31022,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -31037,7 +31037,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -31071,7 +31071,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "unist",
@@ -31106,7 +31106,7 @@
       }
     ],
     "institution_id": "I48566637",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -31145,7 +31145,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -31181,7 +31181,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -31238,7 +31238,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -31313,7 +31313,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -31321,11 +31321,11 @@
     "name_ko": "김태규",
     "name_en": "Tae Kyu Kim",
     "faculty_page_url": "https://chem.kaist.ac.kr/faculty/view/id/39",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "5 strong candidates; papers led [31, 28, 5, 3, 2]",
+    "status": "matched",
+    "openalex_id": "A5013893562",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: photocatalysis at KAIST; the others are the combustion researcher Kyu Tae Kim",
     "candidates": [
       {
         "openalex_id": "A5013893562",
@@ -31454,7 +31454,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -31640,7 +31640,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -31757,7 +31757,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -31796,7 +31796,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -31835,7 +31835,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -31887,7 +31887,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -31926,7 +31926,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -31965,7 +31965,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32004,7 +32004,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32043,7 +32043,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32080,7 +32080,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32119,7 +32119,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32158,7 +32158,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32197,7 +32197,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32254,7 +32254,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32293,7 +32293,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32332,7 +32332,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32390,7 +32390,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32429,7 +32429,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32468,7 +32468,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32507,7 +32507,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32566,7 +32566,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32602,7 +32602,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32660,7 +32660,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32721,7 +32721,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32778,7 +32778,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32836,7 +32836,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32898,7 +32898,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32906,11 +32906,11 @@
     "name_ko": "홍승우",
     "name_en": "Sungwoo Hong",
     "faculty_page_url": "https://chem.kaist.ac.kr/faculty/view/id/36",
-    "status": "excluded",
+    "status": "matched",
     "openalex_id": "A5044287208",
     "confidence": "medium",
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "OpenAlex author matched to more than one professor",
+    "reason": null,
+    "detail": "manual review: organic synthesis; the other profile is the physicist of the same English name",
     "candidates": [
       {
         "openalex_id": "A5044287208",
@@ -32957,7 +32957,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -32994,7 +32994,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33033,7 +33033,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33090,7 +33090,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33148,7 +33148,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33210,7 +33210,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33249,7 +33249,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33288,7 +33288,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33327,7 +33327,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33335,11 +33335,11 @@
     "name_ko": "홍성우",
     "name_en": "Sungwoo Hong",
     "faculty_page_url": "https://physics.kaist.ac.kr/index.php?document_srl=13879",
-    "status": "excluded",
-    "openalex_id": "A5044287208",
+    "status": "matched",
+    "openalex_id": "A5079042734",
     "confidence": "medium",
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "OpenAlex author matched to more than one professor",
+    "reason": null,
+    "detail": "manual review: particle theory; the other profile is the chemist of the same English name",
     "candidates": [
       {
         "openalex_id": "A5044287208",
@@ -33386,7 +33386,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33425,7 +33425,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33464,7 +33464,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33472,11 +33472,11 @@
     "name_ko": "김동규",
     "name_en": "Donggyu Kim",
     "faculty_page_url": "https://physics.kaist.ac.kr/index.php?document_srl=12003",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates; papers led [1, 0]",
+    "status": "matched",
+    "openalex_id": "A5100736025",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: quantum control in diamond; the other profile works on batteries",
     "candidates": [
       {
         "openalex_id": "A5100736025",
@@ -33522,7 +33522,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33598,7 +33598,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33635,7 +33635,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33690,7 +33690,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33774,7 +33774,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33874,7 +33874,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33913,7 +33913,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -33952,7 +33952,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34014,7 +34014,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34053,7 +34053,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34092,7 +34092,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34150,7 +34150,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34189,7 +34189,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34286,7 +34286,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34343,7 +34343,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34402,7 +34402,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34441,7 +34441,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34496,7 +34496,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34575,7 +34575,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34614,7 +34614,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34671,7 +34671,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34710,7 +34710,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34749,7 +34749,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34788,7 +34788,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34827,7 +34827,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34842,7 +34842,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34881,7 +34881,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34920,7 +34920,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -34978,7 +34978,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -35035,7 +35035,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -35074,7 +35074,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -35113,7 +35113,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -35168,7 +35168,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -35332,7 +35332,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -35371,7 +35371,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -35379,11 +35379,11 @@
     "name_ko": "김용정",
     "name_en": "Yong Jung Kim",
     "faculty_page_url": "https://mathsci.kaist.ac.kr/home/people/professor/",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates; papers led [12, 6]",
+    "status": "matched",
+    "openalex_id": "A5058009844",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: diffusion and mathematical biology; the other candidate is mostly electrical engineering",
     "candidates": [
       {
         "openalex_id": "A5058009844",
@@ -35431,7 +35431,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -35552,7 +35552,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -35604,7 +35604,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -35679,7 +35679,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -35846,7 +35846,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -35884,7 +35884,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -35899,7 +35899,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -35935,7 +35935,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -35943,11 +35943,11 @@
     "name_ko": "박진현",
     "name_en": "Jinhyun Park",
     "faculty_page_url": "https://mathsci.kaist.ac.kr/home/people/professor/",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates; papers led [0, 0]",
+    "status": "matched",
+    "openalex_id": "A5062186042",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: motivic cohomology and Chow groups, matching algebra; the profile also holds unrelated clinical papers",
     "candidates": [
       {
         "openalex_id": "A5091582083",
@@ -36011,7 +36011,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36050,7 +36050,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36106,7 +36106,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36144,7 +36144,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36183,7 +36183,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36222,7 +36222,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36261,7 +36261,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36300,7 +36300,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36335,7 +36335,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36374,7 +36374,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36436,7 +36436,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36475,7 +36475,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36514,7 +36514,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36552,7 +36552,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36591,7 +36591,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36626,7 +36626,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36665,7 +36665,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36699,7 +36699,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36738,7 +36738,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -36798,7 +36798,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -37006,7 +37006,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -37219,7 +37219,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -37411,7 +37411,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -37606,7 +37606,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -37795,7 +37795,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -37803,11 +37803,11 @@
     "name_ko": "김대영",
     "name_en": null,
     "faculty_page_url": "https://cs.kaist.ac.kr/people/view?idx=373&kind=faculty&menu=160",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "6 strong candidates; papers led [21, 13, 3, 2, 0, 0]",
+    "status": "matched",
+    "openalex_id": "A5100412739",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: IoT and deep learning, matching the faculty page",
     "candidates": [
       {
         "openalex_id": "A5100412739",
@@ -37982,7 +37982,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -38171,7 +38171,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -38356,7 +38356,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -38545,7 +38545,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -38734,7 +38734,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -38923,7 +38923,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -39107,7 +39107,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -39290,7 +39290,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -39479,7 +39479,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -39656,7 +39656,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -39848,7 +39848,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -40036,7 +40036,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -40220,7 +40220,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -40414,7 +40414,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -40608,7 +40608,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -40802,7 +40802,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -40996,7 +40996,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -41188,7 +41188,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -41385,7 +41385,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -41579,7 +41579,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -41771,7 +41771,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -41786,7 +41786,7 @@
     "detail": "no English name and no publications on page",
     "candidates": [],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -41986,7 +41986,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -41994,12 +41994,28 @@
     "name_ko": "안성진",
     "name_en": null,
     "faculty_page_url": "https://cs.kaist.ac.kr/people/view?idx=622&kind=faculty&menu=160",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "3 strong candidates; papers led [4, 1, 0]",
+    "status": "matched",
+    "openalex_id": "A5057980326",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: reinforcement learning at KAIST, matching the lab; found by name search, not among the automatic candidates",
     "candidates": [
+      {
+        "openalex_id": "A5057980326",
+        "display_name": "Sungjin Ahn",
+        "orcid": "0000-0002-3419-8639",
+        "works_count": 88,
+        "affiliation_ok": true,
+        "affiliation_years": [],
+        "name_ok": true,
+        "name_note": "manual review",
+        "field_share": 0.0,
+        "topic_ok": false,
+        "anchor_hits": 0,
+        "orcid_match": null,
+        "strong": false,
+        "pi_papers": null
+      },
       {
         "openalex_id": "A5110664968",
         "display_name": "Seong Jin Ahn",
@@ -42174,7 +42190,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -42364,7 +42380,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -42564,7 +42580,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -42579,7 +42595,7 @@
     "detail": "no English name and no publications on page",
     "candidates": [],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -42775,7 +42791,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -42970,7 +42986,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -43165,7 +43181,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -43365,7 +43381,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -43560,7 +43576,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -43753,7 +43769,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -43953,7 +43969,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -43968,7 +43984,7 @@
     "detail": "no English name and no publications on page",
     "candidates": [],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -44069,7 +44085,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -44193,7 +44209,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -44379,7 +44395,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -44387,11 +44403,11 @@
     "name_ko": "한동수",
     "name_en": null,
     "faculty_page_url": "https://cs.kaist.ac.kr/people/view?idx=369&kind=faculty&menu=160",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates; papers led [26, 18]",
+    "status": "matched",
+    "openalex_id": "A5075516902",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: indoor positioning, matching the faculty page; the other profile is Dongsu Han (networking)",
     "candidates": [
       {
         "openalex_id": "A5075516902",
@@ -44574,7 +44590,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -44769,7 +44785,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -44959,7 +44975,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -45150,7 +45166,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -45342,7 +45358,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -45537,7 +45553,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "kaist",
@@ -45732,7 +45748,7 @@
       }
     ],
     "institution_id": "I157485424",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -45789,7 +45805,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -45827,7 +45843,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -45863,7 +45879,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -45902,7 +45918,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -45980,7 +45996,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46017,7 +46033,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46056,7 +46072,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46095,7 +46111,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46134,7 +46150,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46149,7 +46165,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46188,7 +46204,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46227,7 +46243,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46266,7 +46282,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46305,7 +46321,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46344,7 +46360,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46383,7 +46399,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46422,7 +46438,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46461,7 +46477,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46500,7 +46516,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46616,7 +46632,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46624,11 +46640,11 @@
     "name_ko": "김태영",
     "name_en": "Tae-Young Kim",
     "faculty_page_url": "https://chem.gist.ac.kr/prog/gsPerson/chem/P/view.do?personId=P0000488",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "3 strong candidates; papers led [25, 13, 0]",
+    "status": "matched",
+    "openalex_id": "A5100412371",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: environmental mass spectrometry, matching the lab; the other candidates work on batteries",
     "candidates": [
       {
         "openalex_id": "A5100376324",
@@ -46755,7 +46771,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46817,7 +46833,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46876,7 +46892,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46891,7 +46907,7 @@
     "detail": "no English name and no publications on page",
     "candidates": [],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46930,7 +46946,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -46969,7 +46985,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -47027,7 +47043,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -47064,7 +47080,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -47103,7 +47119,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -47138,7 +47154,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -47146,11 +47162,11 @@
     "name_ko": "최정옥",
     "name_en": "Jeong Ok Choi",
     "faculty_page_url": "https://math.gist.ac.kr/prog/gsPerson/math/P/view.do?personId=B000000090180Is9yR6t",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates; papers led [1, 0]",
+    "status": "matched",
+    "openalex_id": "A5112333154",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: graph theory at GIST; the other candidate is a fragment with no papers in the window",
     "candidates": [
       {
         "openalex_id": "A5112333154",
@@ -47195,7 +47211,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -47234,7 +47250,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -47269,7 +47285,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -47303,7 +47319,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -47318,7 +47334,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -47376,7 +47392,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -47415,7 +47431,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -47426,8 +47442,8 @@
     "status": "excluded",
     "openalex_id": null,
     "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "3 strong candidates; papers led [2, 1, 0]",
+    "reason": "manual_review",
+    "detail": "manual review: researches novel chemical bonds; no candidate has such papers",
     "candidates": [
       {
         "openalex_id": "A5100704251",
@@ -47535,7 +47551,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -47574,7 +47590,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -47613,7 +47629,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -47624,8 +47640,8 @@
     "status": "excluded",
     "openalex_id": null,
     "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates; papers led [3, 0]",
+    "reason": "manual_review",
+    "detail": "manual review: researches ultrafast electron dynamics; no candidate has such papers",
     "candidates": [
       {
         "openalex_id": "A5101881868",
@@ -47771,7 +47787,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -47810,7 +47826,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -47868,7 +47884,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -47907,7 +47923,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -47946,7 +47962,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -47985,7 +48001,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48024,7 +48040,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48063,7 +48079,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48102,7 +48118,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48140,7 +48156,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48179,7 +48195,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48236,7 +48252,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48275,7 +48291,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48314,7 +48330,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48476,7 +48492,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48515,7 +48531,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48572,7 +48588,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48610,7 +48626,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48618,11 +48634,11 @@
     "name_ko": "이정호",
     "name_en": "Jung Ho Lee",
     "faculty_page_url": "https://chem.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=66&sc=y",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates; papers led [4, 0]",
+    "status": "matched",
+    "openalex_id": "A5100666518",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: protein NMR in chemistry; the other candidates are namesakes in medicine",
     "candidates": [
       {
         "openalex_id": "A5100666518",
@@ -48735,7 +48751,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48852,7 +48868,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48891,7 +48907,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48948,7 +48964,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -48987,7 +49003,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -49026,7 +49042,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -49184,7 +49200,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -49223,7 +49239,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -49262,7 +49278,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -49299,7 +49315,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -49417,7 +49433,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -49518,7 +49534,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -49553,7 +49569,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -49610,7 +49626,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -49649,7 +49665,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -49776,7 +49792,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -49861,7 +49877,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -49918,7 +49934,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -49926,11 +49942,11 @@
     "name_ko": "김석",
     "name_en": "Seok Kim",
     "faculty_page_url": "https://physics.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=1",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "4 strong candidates; papers led [20, 10, 3, 0]",
+    "status": "matched",
+    "openalex_id": "A5022804453",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: AdS black holes and string theory; the other candidates work on batteries and fabrication",
     "candidates": [
       {
         "openalex_id": "A5100618774",
@@ -50083,7 +50099,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -50119,7 +50135,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -50127,11 +50143,11 @@
     "name_ko": "김지훈",
     "name_en": "Ji-hoon Kim",
     "faculty_page_url": "https://physics.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=2",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "7 strong candidates; papers led [28, 10, 7, 2, 1, 0, 0]",
+    "status": "matched",
+    "openalex_id": "A5023279463",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: galaxy simulations under the same name spelling; lower confidence because another SNU astronomer has a similar name",
     "candidates": [
       {
         "openalex_id": "A5100410790",
@@ -50310,7 +50326,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -50372,7 +50388,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -50430,7 +50446,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -50467,7 +50483,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -50525,7 +50541,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -50712,7 +50728,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -50789,7 +50805,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -50868,7 +50884,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -50905,7 +50921,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -50942,7 +50958,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -50981,7 +50997,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51062,7 +51078,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51070,11 +51086,11 @@
     "name_ko": "양운기",
     "name_en": "Un-ki Yang",
     "faculty_page_url": "https://physics.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=8",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "3 strong candidates; papers led [1, 0, 0]",
+    "status": "matched",
+    "openalex_id": "A5151725227",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: CMS particle physics; the other candidates are fragments of the same person",
     "candidates": [
       {
         "openalex_id": "A5151725227",
@@ -51208,7 +51224,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51247,7 +51263,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51286,7 +51302,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51325,7 +51341,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51362,7 +51378,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51401,7 +51417,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51584,7 +51600,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51642,7 +51658,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51657,7 +51673,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51691,7 +51707,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51730,7 +51746,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51769,7 +51785,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51844,7 +51860,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51901,7 +51917,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51940,7 +51956,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -51948,11 +51964,11 @@
     "name_ko": "최선호",
     "name_en": "Seonho Choi",
     "faculty_page_url": "https://physics.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=10",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates; papers led [0, 0]",
+    "status": "matched",
+    "openalex_id": "A5101685408",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: nuclear physics and dark matter experiments at SNU; the other candidate has no papers in the window",
     "candidates": [
       {
         "openalex_id": "A5101685408",
@@ -52002,7 +52018,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -52010,11 +52026,11 @@
     "name_ko": "최재원",
     "name_en": "Jaewon Choi",
     "faculty_page_url": "https://physics.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=54",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "3 strong candidates; papers led [2, 1, 0]",
+    "status": "matched",
+    "openalex_id": "A5064642492",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: cuprate and nickelate superconductors; the others work on medical imaging or polymers",
     "candidates": [
       {
         "openalex_id": "A5080980885",
@@ -52185,7 +52201,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -52224,7 +52240,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -52263,7 +52279,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -52348,7 +52364,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -52400,7 +52416,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -52439,7 +52455,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -52478,7 +52494,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -52517,7 +52533,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -52556,7 +52572,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -52595,7 +52611,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -52759,7 +52775,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -52798,7 +52814,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -52806,11 +52822,11 @@
     "name_ko": "김도형",
     "name_en": "Dohyeong Kim",
     "faculty_page_url": "https://www.math.snu.ac.kr/bbs/page.php?hid=professor",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "3 strong candidates; papers led [8, 4, 1]",
+    "status": "matched",
+    "openalex_id": "A5054549219",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: number theory; the other candidates work on batteries and robot learning",
     "candidates": [
       {
         "openalex_id": "A5044874311",
@@ -52874,7 +52890,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -52913,7 +52929,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53013,7 +53029,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53049,7 +53065,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53126,7 +53142,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53165,7 +53181,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53204,7 +53220,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53243,7 +53259,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53282,7 +53298,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53339,7 +53355,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53378,7 +53394,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53386,11 +53402,11 @@
     "name_ko": "오정석",
     "name_en": "Jeongseok Oh",
     "faculty_page_url": "https://www.math.snu.ac.kr/bbs/page.php?hid=professor",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates; papers led [11, 8]",
+    "status": "matched",
+    "openalex_id": "A5019814714",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: algebraic geometry; the other profile is mostly engineering",
     "candidates": [
       {
         "openalex_id": "A5030860188",
@@ -53432,7 +53448,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53468,7 +53484,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53503,7 +53519,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53542,7 +53558,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53624,7 +53640,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53676,7 +53692,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53839,7 +53855,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -53921,7 +53937,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54055,7 +54071,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54112,7 +54128,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54151,7 +54167,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54228,7 +54244,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54267,7 +54283,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54282,7 +54298,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54352,7 +54368,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54414,7 +54430,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54449,7 +54465,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54464,7 +54480,7 @@
     "detail": "no English name and no publications on page",
     "candidates": [],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54479,7 +54495,7 @@
     "detail": "no English name and no publications on page",
     "candidates": [],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54679,7 +54695,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54740,7 +54756,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54755,7 +54771,7 @@
     "detail": "position: 교수, 지능정보융합학과 겸무",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54770,7 +54786,7 @@
     "detail": "position: 교수, 지능정보융합학과 겸무",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54832,7 +54848,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -54847,7 +54863,7 @@
     "detail": "position: 교수, 첨단융합학부 겸무 시각 및 학습 연구실",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55038,7 +55054,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55095,7 +55111,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55291,7 +55307,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55306,7 +55322,7 @@
     "detail": "position: 교수, 지능정보융합학과 겸무 02-880-9363 / 031-888-9132 changsoon@snu.ac.kr",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55488,7 +55504,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55523,7 +55539,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55585,7 +55601,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55641,7 +55657,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55656,7 +55672,7 @@
     "detail": "position: 교수, 지능정보융합학과 겸무 02-880-9595/ 031-888-9140 park73@snu.ac.kr",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55671,7 +55687,7 @@
     "detail": "position: 교수, 지능정보융합학과 겸무",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55728,7 +55744,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55767,7 +55783,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55806,7 +55822,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55821,7 +55837,7 @@
     "detail": "position: 교수, 지능정보융합학과 겸무",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55860,7 +55876,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55899,7 +55915,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55938,7 +55954,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55977,7 +55993,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -55992,7 +56008,7 @@
     "detail": "position: 조교수, 첨단융합학부 겸무 언어 인지 및 피지컬 지능 연구실",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -56049,7 +56065,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -56088,7 +56104,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -56103,7 +56119,7 @@
     "detail": "position: 교수, 지능정보융합학과 겸무",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -56111,11 +56127,11 @@
     "name_ko": "이상구",
     "name_en": "Sang-goo Lee",
     "faculty_page_url": "https://cse.snu.ac.kr/ko/people/faculty/42",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates; papers led [8, 3]",
+    "status": "matched",
+    "openalex_id": "A5102802605",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: recommender systems and language models; the other candidate is a smaller, partly mixed profile",
     "candidates": [
       {
         "openalex_id": "A5102802605",
@@ -56165,7 +56181,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -56227,7 +56243,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -56261,7 +56277,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -56276,7 +56292,7 @@
     "detail": "position: 교수, 지능정보융합학과 겸무",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -56284,11 +56300,11 @@
     "name_ko": "이재욱",
     "name_en": "Jae W. Lee",
     "faculty_page_url": "https://cse.snu.ac.kr/ko/people/faculty/44",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "2 strong candidates; papers led [38, 17]",
+    "status": "matched",
+    "openalex_id": "A5100415731",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: computer systems at SNU; the other profile is a merged namesake in biomass research",
     "candidates": [
       {
         "openalex_id": "A5100330932",
@@ -56472,7 +56488,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -56480,11 +56496,11 @@
     "name_ko": "이재진",
     "name_en": "Jaejin Lee",
     "faculty_page_url": "https://cse.snu.ac.kr/ko/people/faculty/45",
-    "status": "excluded",
-    "openalex_id": null,
-    "confidence": null,
-    "reason": "ambiguous_multiple_candidates",
-    "detail": "3 strong candidates; papers led [12, 10, 1]",
+    "status": "matched",
+    "openalex_id": "A5100767182",
+    "confidence": "medium",
+    "reason": null,
+    "detail": "manual review: parallel computing and GPU systems at SNU, under the same name spelling",
     "candidates": [
       {
         "openalex_id": "A5100767181",
@@ -56574,7 +56590,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -56610,7 +56626,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -56625,7 +56641,7 @@
     "detail": "position: 교수, 지능정보융합학과 겸무",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -56725,7 +56741,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -56893,7 +56909,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -56932,7 +56948,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -56989,7 +57005,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -57027,7 +57043,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -57084,7 +57100,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -57138,7 +57154,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -57177,7 +57193,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -57216,7 +57232,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -57329,7 +57345,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -57445,7 +57461,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -57546,7 +57562,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -57600,7 +57616,7 @@
       }
     ],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "snu",
@@ -57615,7 +57631,7 @@
     "detail": "no OpenAlex author found at this institution",
     "candidates": [],
     "institution_id": "I139264467",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -57654,7 +57670,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -57713,7 +57729,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -57752,7 +57768,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -57791,7 +57807,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -57850,7 +57866,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -57865,7 +57881,7 @@
     "detail": "position: Emeritus Professor",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -57904,7 +57920,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -57943,7 +57959,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -57982,7 +57998,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -57997,7 +58013,7 @@
     "detail": "position: Professor(Lecture Professor)",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -58036,7 +58052,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -58075,7 +58091,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -58113,7 +58129,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -58128,7 +58144,7 @@
     "detail": "position: Professor(Lecture Professor)",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -58167,7 +58183,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -58205,7 +58221,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -58239,7 +58255,7 @@
       }
     ],
     "institution_id": "I39534123",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -58254,7 +58270,7 @@
     "detail": "position: Adjunct Professor",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -58269,7 +58285,7 @@
     "detail": "position: Adjunct Professor",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -58284,7 +58300,7 @@
     "detail": "position: Adjunct Professor",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -58299,7 +58315,7 @@
     "detail": "position: Full-time Lecturer",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -58314,7 +58330,7 @@
     "detail": "position: Full-time Lecturer",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -58329,7 +58345,7 @@
     "detail": "position: R&D Affair",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -58344,7 +58360,7 @@
     "detail": "position: R&D Affair",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "gist",
@@ -58359,7 +58375,7 @@
     "detail": "position: Student Affair",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -58398,7 +58414,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -58457,7 +58473,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -58496,7 +58512,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -58535,7 +58551,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -58574,7 +58590,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -58608,7 +58624,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -58647,7 +58663,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -58686,7 +58702,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -58725,7 +58741,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -58764,7 +58780,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -58779,7 +58795,7 @@
     "detail": "position: Invited Professor",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -58831,7 +58847,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -58888,7 +58904,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -58927,7 +58943,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -58982,7 +58998,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -59021,7 +59037,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -59060,7 +59076,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -59099,7 +59115,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -59138,7 +59154,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -59174,7 +59190,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -59213,7 +59229,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -59272,7 +59288,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -59311,7 +59327,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -59373,7 +59389,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -59412,7 +59428,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -59451,7 +59467,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -59490,7 +59506,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -59529,7 +59545,7 @@
       }
     ],
     "institution_id": "I193352282",
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -59544,7 +59560,7 @@
     "detail": "position: Adjunct Professor",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   },
   {
     "univ": "dgist",
@@ -59559,6 +59575,6 @@
     "detail": "position: Concurrent Professor",
     "candidates": [],
     "institution_id": null,
-    "retrieved_at": "2026-11-03"
+    "retrieved_at": "2026-11-04"
   }
 ]

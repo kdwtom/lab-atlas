@@ -1,134 +1,134 @@
 {
-  "labs": 479,
-  "similarity_edges": 1249,
+  "labs": 498,
+  "similarity_edges": 1302,
   "model": "sentence-transformers/allenai-specter",
   "scale": {
-    "all_pairs_median": 0.7307,
-    "threshold": 0.9174,
-    "threshold_percentile": 0.9766,
-    "edge_median": 0.9429
+    "all_pairs_median": 0.731,
+    "threshold": 0.9179,
+    "threshold_percentile": 0.9774,
+    "edge_median": 0.9433
   },
   "input": {
     "papers_per_lab_median": 17.0,
     "papers_per_lab_p10": 6.0,
-    "share_with_abstract": 0.822
+    "share_with_abstract": 0.825
   },
   "split_half": {
-    "chance_top1": 0.0021,
+    "chance_top1": 0.002,
     "by_size": {
       "전체": {
-        "n": 2350,
-        "top1": 0.634,
-        "top5": 0.849
+        "n": 2435,
+        "top1": 0.616,
+        "top5": 0.85
       },
       "6–10편": {
         "n": 440,
-        "top1": 0.407,
-        "top5": 0.664
+        "top1": 0.4,
+        "top5": 0.677
       },
       "21편 이상": {
-        "n": 950,
-        "top1": 0.828,
-        "top5": 0.977
+        "n": 985,
+        "top1": 0.813,
+        "top5": 0.973
       },
       "11–20편": {
-        "n": 860,
-        "top1": 0.578,
-        "top5": 0.844
+        "n": 910,
+        "top1": 0.552,
+        "top5": 0.847
       },
       "5편 이하": {
         "n": 100,
-        "top1": 0.28,
-        "top5": 0.49
+        "top1": 0.21,
+        "top5": 0.43
       }
     },
     "by_field": {
       "life": {
-        "n": 525,
-        "top1": 0.657,
-        "top5": 0.84
+        "n": 555,
+        "top1": 0.595,
+        "top5": 0.841
       },
       "chem": {
-        "n": 635,
-        "top1": 0.685,
-        "top5": 0.863
+        "n": 655,
+        "top1": 0.676,
+        "top5": 0.867
       },
       "phys": {
         "n": 485,
-        "top1": 0.577,
-        "top5": 0.831
+        "top1": 0.573,
+        "top5": 0.854
       },
       "math": {
-        "n": 320,
-        "top1": 0.616,
-        "top5": 0.825
+        "n": 325,
+        "top1": 0.612,
+        "top5": 0.803
       },
       "cs": {
-        "n": 385,
-        "top1": 0.608,
-        "top5": 0.881
+        "n": 415,
+        "top1": 0.602,
+        "top5": 0.867
       }
     }
   },
   "bootstrap": {
     "repeats": 20,
-    "top5_kept_mean": 0.663,
-    "top5_kept_p10": 0.49,
+    "top5_kept_mean": 0.659,
+    "top5_kept_p10": 0.497,
     "by_size": {
       "5편 이하": {
-        "labs": 29,
-        "kept": 0.613
+        "labs": 31,
+        "kept": 0.607
       },
       "6–10편": {
         "labs": 88,
-        "kept": 0.641
+        "kept": 0.653
       },
       "11–20편": {
-        "labs": 172,
-        "kept": 0.651
+        "labs": 182,
+        "kept": 0.649
       },
       "21편 이상": {
-        "labs": 190,
-        "kept": 0.69
+        "labs": 197,
+        "kept": 0.679
       }
     },
     "line_survival_by_band": {
       "매우 가까움": {
-        "lines": 418,
+        "lines": 436,
         "survival": 0.818
       },
       "가까움": {
-        "lines": 415,
-        "survival": 0.682
+        "lines": 432,
+        "survival": 0.677
       },
       "비교적 가까움": {
-        "lines": 416,
-        "survival": 0.635
+        "lines": 434,
+        "survival": 0.634
       }
     }
   },
   "coauthor": {
-    "pairs": 659,
+    "pairs": 696,
     "skipped_all_papers_shared": 0,
-    "median_percentile_without_shared_papers": 0.958,
-    "baseline_same_univ_same_field": 0.835
+    "median_percentile_without_shared_papers": 0.957,
+    "baseline_same_univ_same_field": 0.838
   },
   "topics": {
-    "jaccard_neighbours": 0.158,
+    "jaccard_neighbours": 0.156,
     "jaccard_random": 0.012,
-    "neighbours_sharing_no_top15_topic": 0.081
+    "neighbours_sharing_no_top15_topic": 0.088
   },
   "same_field_share_top5": {
-    "chem": 0.816,
-    "cs": 0.932,
-    "life": 0.887,
-    "math": 0.82,
+    "chem": 0.812,
+    "cs": 0.94,
+    "life": 0.896,
+    "math": 0.816,
     "phys": 0.814
   },
-  "citation_weight_top5_kept": 0.832,
+  "citation_weight_top5_kept": 0.828,
   "hubness": {
     "max": 26,
-    "never_a_neighbour": 35,
+    "never_a_neighbour": 38,
     "corr_log_papers": 0.35
   },
   "lines_without_shared_topic": 9

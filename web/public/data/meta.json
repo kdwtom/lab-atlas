@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-11-03",
-  "data_retrieved_at": "2026-11-03",
+  "generated_at": "2026-11-04",
+  "data_retrieved_at": "2026-11-04",
   "window_years": [
     2022,
     2026
   ],
   "min_senior_papers": 5,
-  "louvain_resolution": 1.45,
+  "louvain_resolution": 1.6,
   "louvain_seed": 42,
   "similarity_k": 5,
-  "similarity_threshold": 0.9174,
+  "similarity_threshold": 0.9179,
   "similarity_bands": {
     "all": [
-      0.9344,
+      0.9351,
       0.9521
     ],
     "chem": [
-      0.9423,
-      0.9587
+      0.9431,
+      0.9594
     ],
     "cross": [
-      0.9295,
-      0.945
+      0.9311,
+      0.9456
     ],
     "cs": [
-      0.9318,
-      0.9463
+      0.9331,
+      0.9471
     ],
     "life": [
-      0.9308,
-      0.9427
+      0.9322,
+      0.9428
     ],
     "math": [
-      0.9243,
-      0.9384
+      0.9248,
+      0.9404
     ],
     "phys": [
       0.9472,
@@ -41,17 +41,17 @@
     ]
   },
   "counts": {
-    "labs": 479,
-    "papers": 9451,
-    "edges_similarity": 1249,
-    "edges_coauthor": 659
+    "labs": 498,
+    "papers": 9797,
+    "edges_similarity": 1302,
+    "edges_coauthor": 696
   },
   "summary_coverage": {
-    "representative_papers": 1385,
-    "papers_with_summary": 266,
-    "labs": 479,
-    "labs_with_intro": 459,
-    "labs_intro_unavailable": 20
+    "representative_papers": 1441,
+    "papers_with_summary": 268,
+    "labs": 498,
+    "labs_with_intro": 474,
+    "labs_intro_unavailable": 24
   },
   "excluded_namesake_papers": 317,
   "departments": [
@@ -62,7 +62,7 @@
       "name_ko": "생명과학과",
       "discipline": "life",
       "faculty_list_url": "https://bio.kaist.ac.kr/doc/ko/selectDocList.do?menuSeq=3344&bbsSeq=120",
-      "labs": 21
+      "labs": 23
     },
     {
       "code": "snu-life",
@@ -89,7 +89,7 @@
       "name_ko": "생명과학과",
       "discipline": "life",
       "faculty_list_url": "https://www.unist.ac.kr/unist/research/search.do?mode=list&srSearchKey=dept&srSearchVal=%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99%EA%B3%BC",
-      "labs": 11
+      "labs": 13
     },
     {
       "code": "gist-life",
@@ -98,7 +98,7 @@
       "name_ko": "생명과학과",
       "discipline": "life",
       "faculty_list_url": "https://life.gist.ac.kr/prog/gsMember/life/P/Faculty/sub05_01_01/list.do",
-      "labs": 12
+      "labs": 13
     },
     {
       "code": "dgist-life",
@@ -107,7 +107,7 @@
       "name_ko": "뉴바이올로지학과",
       "discipline": "life",
       "faculty_list_url": "https://www.dgist.ac.kr/prog/peopleProfsr/newbiology/sub02_01/list.do",
-      "labs": 9
+      "labs": 10
     },
     {
       "code": "postech-chem",
@@ -152,7 +152,7 @@
       "name_ko": "화학과",
       "discipline": "chem",
       "faculty_list_url": "https://www.unist.ac.kr/unist/research/search.do?mode=list&srSearchKey=dept&srSearchVal=%ED%99%94%ED%95%99%EA%B3%BC",
-      "labs": 19
+      "labs": 20
     },
     {
       "code": "unist-phys",
@@ -188,7 +188,7 @@
       "name_ko": "화학과",
       "discipline": "chem",
       "faculty_list_url": "https://chem.kaist.ac.kr/faculty",
-      "labs": 30
+      "labs": 32
     },
     {
       "code": "kaist-phys",
@@ -206,7 +206,7 @@
       "name_ko": "수리과학과",
       "discipline": "math",
       "faculty_list_url": "https://mathsci.kaist.ac.kr/home/people/professor/",
-      "labs": 23
+      "labs": 25
     },
     {
       "code": "kaist-cs",
@@ -215,7 +215,7 @@
       "name_ko": "전산학부",
       "discipline": "cs",
       "faculty_list_url": "https://cs.kaist.ac.kr/people/faculty",
-      "labs": 33
+      "labs": 36
     },
     {
       "code": "gist-chem",
@@ -224,7 +224,7 @@
       "name_ko": "화학과",
       "discipline": "chem",
       "faculty_list_url": "https://chem.gist.ac.kr/prog/gsMember/chem/P/Faculty/sub05_01_01/list.do",
-      "labs": 23
+      "labs": 24
     },
     {
       "code": "gist-math",
@@ -260,7 +260,7 @@
       "name_ko": "수리과학부",
       "discipline": "math",
       "faculty_list_url": "https://www.math.snu.ac.kr/bbs/page.php?hid=professor",
-      "labs": 23
+      "labs": 24
     },
     {
       "code": "snu-cs",
@@ -269,7 +269,7 @@
       "name_ko": "컴퓨터공학부",
       "discipline": "cs",
       "faculty_list_url": "https://cse.snu.ac.kr/ko/people/faculty",
-      "labs": 25
+      "labs": 28
     },
     {
       "code": "gist-phys",

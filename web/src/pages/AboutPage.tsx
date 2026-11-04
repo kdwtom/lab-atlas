@@ -78,7 +78,7 @@ export default function AboutPage() {
       <section>
         <h2>OpenAlex 매칭과 제외 방식</h2>
         <p>
-          자동 매칭 뒤에 의심 사례의 논문 제목을 AI(Claude)가 읽고 16명을 수동으로 고쳤습니다(프로필 교체 10명, 믿을 만한 프로필이 없어 제외 6명).
+          자동 매칭 뒤에 의심 사례와 후보가 여럿이라 자동으로 고르지 못한 경우의 논문 제목을 AI(Claude)가 읽고 53명을 수동으로 고쳤습니다(프로필 지정 45명, 믿을 만한 프로필이 없어 제외 8명).
           내역은 저장소의 <code>pipeline/curation/match_overrides.json</code>에 있습니다.
         </p>
         <p>동명이인을 피하기 위해 교수진 페이지의 교수를 OpenAlex 저자와 다음 근거로 교차 확인했습니다.</p>

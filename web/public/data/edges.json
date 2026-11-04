@@ -1,28 +1,28 @@
 [
   {
-    "source": "kaist-A5103056397",
-    "target": "snu-A5027374744",
+    "source": "kaist-A5080272556",
+    "target": "kaist-A5103056397",
     "type": "similarity",
-    "weight": 0.932,
+    "weight": 0.934,
     "cross": false,
     "reasons": [
-      "Cancer, Hypoxia, and Metabolism",
-      "Mitochondrial Function and Pathology",
-      "Extracellular vesicles in disease"
+      "Immune Cell Function and Interaction",
+      "Acute Myeloid Leukemia Research",
+      "Immunotherapy and Immune Responses"
     ],
     "paper_ids": [],
     "paper_pairs": [
       [
-        "W4404887613",
-        "W4407909936"
+        "W4382056661",
+        "W4404887613"
       ],
       [
-        "W4304957129",
-        "W4322753855"
+        "W4401305237",
+        "W7147151595"
       ],
       [
-        "W4408175777",
-        "W7161179323"
+        "W4406149683",
+        "W7171489340"
       ]
     ]
   },
@@ -298,33 +298,6 @@
   },
   {
     "source": "kaist-A5101520308",
-    "target": "snu-A5080563770",
-    "type": "similarity",
-    "weight": 0.9176,
-    "cross": false,
-    "reasons": [
-      "Adipose Tissue and Metabolism",
-      "Immune Cell Function and Interaction",
-      "Pancreatic function and diabetes"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4402675438",
-        "W4408313287"
-      ],
-      [
-        "W4280511624",
-        "W4283803435"
-      ],
-      [
-        "W4385971674",
-        "W4399140804"
-      ]
-    ]
-  },
-  {
-    "source": "kaist-A5101520308",
     "target": "snu-A5043286860",
     "type": "similarity",
     "weight": 0.9268,
@@ -438,9 +411,9 @@
     "weight": 0.9408,
     "cross": false,
     "reasons": [
-      "Autophagy in Disease and Therapy",
       "Adipose Tissue and Metabolism",
-      "T-cell and B-cell Immunology"
+      "T-cell and B-cell Immunology",
+      "Immune Cell Function and Interaction"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -467,7 +440,7 @@
     "reasons": [
       "Autophagy in Disease and Therapy",
       "Metabolomics and Mass Spectrometry Studies",
-      "Pancreatic function and diabetes"
+      "RNA Interference and Gene Delivery"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -1402,33 +1375,6 @@
   },
   {
     "source": "kaist-A5087466819",
-    "target": "unist-A5057203654",
-    "type": "similarity",
-    "weight": 0.9216,
-    "cross": false,
-    "reasons": [
-      "Neurogenesis and neuroplasticity mechanisms",
-      "Neuroinflammation and Neurodegeneration Mechanisms",
-      "Alzheimer's disease research and treatments"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4387229783",
-        "W4401489376"
-      ],
-      [
-        "W4407693094",
-        "W4307890718"
-      ],
-      [
-        "W7171815941",
-        "W4205543212"
-      ]
-    ]
-  },
-  {
-    "source": "kaist-A5087466819",
     "target": "unist-A5008036043",
     "type": "similarity",
     "weight": 0.9346,
@@ -1451,6 +1397,33 @@
       [
         "W4417347122",
         "W4362706205"
+      ]
+    ]
+  },
+  {
+    "source": "gist-A5013222112",
+    "target": "kaist-A5087466819",
+    "type": "similarity",
+    "weight": 0.9273,
+    "cross": false,
+    "reasons": [
+      "Pluripotent Stem Cells Research",
+      "Genomics and Chromatin Dynamics",
+      "Congenital heart defects research"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4414851446",
+        "W7171815941"
+      ],
+      [
+        "W4220747652",
+        "W4214659291"
+      ],
+      [
+        "W4303684320",
+        "W4408059497"
       ]
     ]
   },
@@ -1537,6 +1510,33 @@
   },
   {
     "source": "kaist-A5059786116",
+    "target": "unist-A5007382558",
+    "type": "similarity",
+    "weight": 0.9245,
+    "cross": false,
+    "reasons": [
+      "DNA Repair Mechanisms",
+      "DNA and Nucleic Acid Chemistry",
+      "RNA modifications and cancer"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4405658613",
+        "W4313433044"
+      ],
+      [
+        "W7161157859",
+        "W4382344985"
+      ],
+      [
+        "W7161195872",
+        "W4281651136"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5059786116",
     "target": "kaist-A5101626337",
     "type": "similarity",
     "weight": 0.9487,
@@ -1618,6 +1618,33 @@
   },
   {
     "source": "kaist-A5046978935",
+    "target": "kaist-A5080272556",
+    "type": "similarity",
+    "weight": 0.9382,
+    "cross": false,
+    "reasons": [
+      "Genomics and Chromatin Dynamics",
+      "Epigenetics and DNA Methylation",
+      "Chromatin Remodeling and Cancer"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4382699097",
+        "W4384156809"
+      ],
+      [
+        "W4229004920",
+        "W7215987241"
+      ],
+      [
+        "W4280511624",
+        "W4406149683"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5046978935",
     "target": "kaist-A5089223715",
     "type": "similarity",
     "weight": 0.9403,
@@ -1672,33 +1699,6 @@
   },
   {
     "source": "kaist-A5046978935",
-    "target": "snu-A5027374744",
-    "type": "similarity",
-    "weight": 0.9371,
-    "cross": false,
-    "reasons": [
-      "Cancer Genomics and Diagnostics",
-      "RNA modifications and cancer",
-      "Epigenetics and DNA Methylation"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4409156225",
-        "W7161179323"
-      ],
-      [
-        "W4412663905",
-        "W4281770316"
-      ],
-      [
-        "W4280511624",
-        "W4405296729"
-      ]
-    ]
-  },
-  {
-    "source": "kaist-A5046978935",
     "target": "postech-A5068518101",
     "type": "similarity",
     "weight": 0.949,
@@ -1732,7 +1732,8 @@
     "cross": false,
     "reasons": [
       "Epigenetics and DNA Methylation",
-      "RNA modifications and cancer"
+      "RNA modifications and cancer",
+      "Genomics and Chromatin Dynamics"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -1835,7 +1836,7 @@
     "source": "kaist-A5100434399",
     "target": "snu-A5082258548",
     "type": "similarity",
-    "weight": 0.9309,
+    "weight": 0.931,
     "cross": false,
     "reasons": [
       "RNA Research and Splicing",
@@ -1909,6 +1910,114 @@
       [
         "W4384469835",
         "W4415951090"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5083929538",
+    "target": "kaist-A5100424985",
+    "type": "similarity",
+    "weight": 0.941,
+    "cross": false,
+    "reasons": [
+      "Neuroscience and Neuropharmacology Research",
+      "Neuroendocrine regulation and behavior",
+      "Memory and Neural Mechanisms"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4405365863",
+        "W7203604254"
+      ],
+      [
+        "W4307838103",
+        "W4318499548"
+      ],
+      [
+        "W4362643481",
+        "W4321202337"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5089863464",
+    "target": "kaist-A5100424985",
+    "type": "similarity",
+    "weight": 0.9448,
+    "cross": false,
+    "reasons": [
+      "Neuroscience and Neuropharmacology Research",
+      "Neurogenesis and neuroplasticity mechanisms",
+      "Memory and Neural Mechanisms"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4294930662",
+        "W4304695086"
+      ],
+      [
+        "W7150811722",
+        "W7203604254"
+      ],
+      [
+        "W4388199783",
+        "W4293279737"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5100424985",
+    "target": "snu-A5002951805",
+    "type": "similarity",
+    "weight": 0.9218,
+    "cross": false,
+    "reasons": [
+      "Regulation of Appetite and Obesity",
+      "Neuroscience and Neuropharmacology Research",
+      "Biochemical Analysis and Sensing Techniques"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7203604254",
+        "W4361269685"
+      ],
+      [
+        "W4411470692",
+        "W4404466456"
+      ],
+      [
+        "W4385620246",
+        "W4399481058"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5100424985",
+    "target": "unist-A5057203654",
+    "type": "similarity",
+    "weight": 0.924,
+    "cross": false,
+    "reasons": [
+      "Neuroscience and Neuropharmacology Research",
+      "Alzheimer's disease research and treatments",
+      "Neuroinflammation and Neurodegeneration Mechanisms"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4403757140",
+        "W4294308892"
+      ],
+      [
+        "W4385431179",
+        "W4409289442"
+      ],
+      [
+        "W4304701290",
+        "W7148963028"
       ]
     ]
   },
@@ -2137,7 +2246,7 @@
     "reasons": [
       "Extracellular vesicles in disease",
       "Autophagy in Disease and Therapy",
-      "Genetics and Neurodevelopmental Disorders"
+      "Mitochondrial Function and Pathology"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -2152,33 +2261,6 @@
       [
         "W4402971595",
         "W7124308952"
-      ]
-    ]
-  },
-  {
-    "source": "kaist-A5038114229",
-    "target": "unist-A5017217837",
-    "type": "similarity",
-    "weight": 0.926,
-    "cross": false,
-    "reasons": [
-      "Adipose Tissue and Metabolism",
-      "Autophagy in Disease and Therapy",
-      "Genetics and Neurodevelopmental Disorders"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4399140804",
-        "W7215998177"
-      ],
-      [
-        "W4225418405",
-        "W4385408033"
-      ],
-      [
-        "W4392584611",
-        "W4214617915"
       ]
     ]
   },
@@ -2341,6 +2423,141 @@
       [
         "W4296793802",
         "W4280586059"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5080272556",
+    "target": "snu-A5027374744",
+    "type": "similarity",
+    "weight": 0.9574,
+    "cross": false,
+    "reasons": [
+      "Immune cells in cancer",
+      "Epigenetics and DNA Methylation",
+      "Single-cell and spatial transcriptomics"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4313318449",
+        "W4322753855"
+      ],
+      [
+        "W4416186766",
+        "W4392298240"
+      ],
+      [
+        "W4393984308",
+        "W4407909936"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5080272556",
+    "target": "postech-A5068518101",
+    "type": "similarity",
+    "weight": 0.9494,
+    "cross": false,
+    "reasons": [
+      "Genomics and Chromatin Dynamics",
+      "Epigenetics and DNA Methylation",
+      "T-cell and B-cell Immunology"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4365504554",
+        "W4408929103"
+      ],
+      [
+        "W4393984308",
+        "W4399394233"
+      ],
+      [
+        "W4401305237",
+        "W4417477027"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5080272556",
+    "target": "postech-A5047859685",
+    "type": "similarity",
+    "weight": 0.9342,
+    "cross": false,
+    "reasons": [
+      "Single-cell and spatial transcriptomics",
+      "Immune cells in cancer",
+      "T-cell and B-cell Immunology"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7215987241",
+        "W4366519516"
+      ],
+      [
+        "W4384156809",
+        "W4313236579"
+      ],
+      [
+        "W4393984308",
+        "W4391756987"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5080272556",
+    "target": "postech-A5100635271",
+    "type": "similarity",
+    "weight": 0.9343,
+    "cross": false,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "Single-cell and spatial transcriptomics",
+      "Immune cells in cancer"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4416186766",
+        "W4394987455"
+      ],
+      [
+        "W7215987241",
+        "W4417347122"
+      ],
+      [
+        "W4384156809",
+        "W4411924410"
+      ]
+    ]
+  },
+  {
+    "source": "gist-A5100740580",
+    "target": "kaist-A5080272556",
+    "type": "similarity",
+    "weight": 0.9667,
+    "cross": false,
+    "reasons": [
+      "Single-cell and spatial transcriptomics",
+      "Immune cells in cancer",
+      "Immune Cell Function and Interaction"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4389958257",
+        "W7163904890"
+      ],
+      [
+        "W4410349091",
+        "W7215987241"
+      ],
+      [
+        "W4410587422",
+        "W4416186766"
       ]
     ]
   },
@@ -2616,33 +2833,6 @@
   },
   {
     "source": "kaist-A5089863464",
-    "target": "snu-A5091015282",
-    "type": "similarity",
-    "weight": 0.9222,
-    "cross": false,
-    "reasons": [
-      "CRISPR and Genetic Engineering",
-      "Receptor Mechanisms and Signaling",
-      "RNA Research and Splicing"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4328102528",
-        "W4402125683"
-      ],
-      [
-        "W4391096127",
-        "W4416595790"
-      ],
-      [
-        "W4410003949",
-        "W4409776170"
-      ]
-    ]
-  },
-  {
-    "source": "kaist-A5089863464",
     "target": "postech-A5069176618",
     "type": "similarity",
     "weight": 0.941,
@@ -2780,7 +2970,7 @@
     "source": "snu-A5079132836",
     "target": "unist-A5041900986",
     "type": "similarity",
-    "weight": 0.9353,
+    "weight": 0.9352,
     "cross": false,
     "reasons": [
       "Cancer, Hypoxia, and Metabolism",
@@ -2854,33 +3044,6 @@
       [
         "W4386176677",
         "W7204256689"
-      ]
-    ]
-  },
-  {
-    "source": "kaist-A5101626337",
-    "target": "snu-A5091561167",
-    "type": "similarity",
-    "weight": 0.9177,
-    "cross": true,
-    "reasons": [
-      "RNA and protein synthesis mechanisms",
-      "Genomics and Chromatin Dynamics",
-      "Drug Transport and Resistance Mechanisms"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4321003819",
-        "W4283587616"
-      ],
-      [
-        "W4291014903",
-        "W4391787104"
-      ],
-      [
-        "W7164328664",
-        "W4220774237"
       ]
     ]
   },
@@ -3000,8 +3163,8 @@
     "cross": false,
     "reasons": [
       "RNA modifications and cancer",
-      "RNA Research and Splicing",
-      "Histone Deacetylase Inhibitors Research"
+      "Ubiquitin and proteasome pathways",
+      "Autophagy in Disease and Therapy"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -3050,7 +3213,7 @@
     "source": "postech-A5069176618",
     "target": "snu-A5082258548",
     "type": "similarity",
-    "weight": 0.9415,
+    "weight": 0.9416,
     "cross": false,
     "reasons": [
       "Mitochondrial Function and Pathology",
@@ -3081,8 +3244,8 @@
     "cross": false,
     "reasons": [
       "Mitochondrial Function and Pathology",
-      "RNA regulation and disease",
-      "RNA and protein synthesis mechanisms"
+      "Endoplasmic Reticulum Stress and Disease",
+      "RNA regulation and disease"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -3104,12 +3267,12 @@
     "source": "snu-A5082258548",
     "target": "unist-A5041900986",
     "type": "similarity",
-    "weight": 0.9434,
+    "weight": 0.9432,
     "cross": false,
     "reasons": [
       "Mitochondrial Function and Pathology",
       "RNA regulation and disease",
-      "Autophagy in Disease and Therapy"
+      "Ubiquitin and proteasome pathways"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -3293,7 +3456,7 @@
     "source": "snu-A5100752174",
     "target": "unist-A5041900986",
     "type": "similarity",
-    "weight": 0.9354,
+    "weight": 0.9353,
     "cross": false,
     "reasons": [
       "RNA regulation and disease",
@@ -3722,33 +3885,6 @@
     ]
   },
   {
-    "source": "snu-A5003116915",
-    "target": "snu-A5019985343",
-    "type": "similarity",
-    "weight": 0.9176,
-    "cross": true,
-    "reasons": [
-      "Protein Structure and Dynamics",
-      "Gut microbiota and health",
-      "Tryptophan and brain disorders"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4213052842",
-        "W4281790889"
-      ],
-      [
-        "W4306353170",
-        "W4416535916"
-      ],
-      [
-        "W7213312229",
-        "W4414335961"
-      ]
-    ]
-  },
-  {
     "source": "kaist-A5059653088",
     "target": "snu-A5044961635",
     "type": "similarity",
@@ -3832,7 +3968,7 @@
     "source": "snu-A5010084845",
     "target": "unist-A5041900986",
     "type": "similarity",
-    "weight": 0.9414,
+    "weight": 0.9412,
     "cross": false,
     "reasons": [
       "Autophagy in Disease and Therapy",
@@ -3864,7 +4000,7 @@
     "reasons": [
       "Ubiquitin and proteasome pathways",
       "Advanced Fluorescence Microscopy Techniques",
-      "Chromatin Remodeling and Cancer"
+      "Genomics and Chromatin Dynamics"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -3937,33 +4073,6 @@
     ]
   },
   {
-    "source": "snu-A5027374744",
-    "target": "snu-A5100619952",
-    "type": "similarity",
-    "weight": 0.9257,
-    "cross": false,
-    "reasons": [
-      "Cancer Genomics and Diagnostics",
-      "Immune cells in cancer",
-      "Cancer Cells and Metastasis"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4390655667",
-        "W4414542798"
-      ],
-      [
-        "W7161179323",
-        "W4387235387"
-      ],
-      [
-        "W4390571016",
-        "W4318170661"
-      ]
-    ]
-  },
-  {
     "source": "postech-A5100635271",
     "target": "snu-A5100619952",
     "type": "similarity",
@@ -3991,29 +4100,27 @@
     ]
   },
   {
-    "source": "gist-A5102904761",
-    "target": "snu-A5100619952",
+    "source": "snu-A5100619952",
+    "target": "unist-A5100339473",
     "type": "similarity",
-    "weight": 0.9212,
+    "weight": 0.9288,
     "cross": false,
     "reasons": [
-      "Immune cells in cancer",
-      "Cancer Cells and Metastasis",
-      "Neurogenesis and neuroplasticity mechanisms"
+      "Cancer Cells and Metastasis"
     ],
     "paper_ids": [],
     "paper_pairs": [
       [
-        "W7170186415",
-        "W4416624410"
+        "W4318170661",
+        "W4321497403"
       ],
       [
-        "W4291711029",
-        "W7162315119"
+        "W4414542798",
+        "W7170189294"
       ],
       [
-        "W4406473395",
-        "W4414542798"
+        "W4387235387",
+        "W4391493695"
       ]
     ]
   },
@@ -4040,6 +4147,33 @@
       ],
       [
         "W4403082643",
+        "W4416624410"
+      ]
+    ]
+  },
+  {
+    "source": "dgist-A5004876274",
+    "target": "snu-A5100619952",
+    "type": "similarity",
+    "weight": 0.9332,
+    "cross": false,
+    "reasons": [
+      "Cancer Genomics and Diagnostics",
+      "Prostate Cancer Treatment and Research",
+      "Tissue Engineering and Regenerative Medicine"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7161168952",
+        "W4409011662"
+      ],
+      [
+        "W7212390895",
+        "W4318170661"
+      ],
+      [
+        "W4287148639",
         "W4416624410"
       ]
     ]
@@ -4506,7 +4640,7 @@
     "source": "postech-A5069176618",
     "target": "snu-A5035400785",
     "type": "similarity",
-    "weight": 0.9449,
+    "weight": 0.9447,
     "cross": false,
     "reasons": [
       "Genetics and Neurodevelopmental Disorders",
@@ -4533,7 +4667,7 @@
     "source": "snu-A5035400785",
     "target": "unist-A5021577151",
     "type": "similarity",
-    "weight": 0.926,
+    "weight": 0.9261,
     "cross": false,
     "reasons": [
       "Endoplasmic Reticulum Stress and Disease",
@@ -4560,7 +4694,7 @@
     "source": "snu-A5035400785",
     "target": "unist-A5035895380",
     "type": "similarity",
-    "weight": 0.9279,
+    "weight": 0.9278,
     "cross": false,
     "reasons": [
       "Autophagy in Disease and Therapy",
@@ -4587,10 +4721,9 @@
     "source": "gist-A5031635205",
     "target": "snu-A5035400785",
     "type": "similarity",
-    "weight": 0.928,
+    "weight": 0.9281,
     "cross": false,
     "reasons": [
-      "Neuroinflammation and Neurodegeneration Mechanisms",
       "Protein Degradation and Inhibitors"
     ],
     "paper_ids": [],
@@ -4799,33 +4932,6 @@
     ]
   },
   {
-    "source": "postech-A5103183496",
-    "target": "snu-A5091015282",
-    "type": "similarity",
-    "weight": 0.9179,
-    "cross": false,
-    "reasons": [
-      "Receptor Mechanisms and Signaling",
-      "Lipid Membrane Structure and Behavior",
-      "RNA Research and Splicing"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4290839367",
-        "W4412156847"
-      ],
-      [
-        "W4401826926",
-        "W4409213186"
-      ],
-      [
-        "W7128406101",
-        "W4212950351"
-      ]
-    ]
-  },
-  {
     "source": "snu-A5003116915",
     "target": "snu-A5091015282",
     "type": "similarity",
@@ -4910,11 +5016,12 @@
     "source": "snu-A5043286860",
     "target": "unist-A5041900986",
     "type": "similarity",
-    "weight": 0.9346,
+    "weight": 0.9345,
     "cross": false,
     "reasons": [
       "Autophagy in Disease and Therapy",
-      "Receptor Mechanisms and Signaling"
+      "Receptor Mechanisms and Signaling",
+      "Liver physiology and pathology"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -5103,7 +5210,7 @@
     "reasons": [
       "Epigenetics and DNA Methylation",
       "Immune cells in cancer",
-      "RNA modifications and cancer"
+      "Adipose Tissue and Metabolism"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -5118,6 +5225,33 @@
       [
         "W4405296729",
         "W4316371216"
+      ]
+    ]
+  },
+  {
+    "source": "snu-A5027374744",
+    "target": "unist-A5100339473",
+    "type": "similarity",
+    "weight": 0.942,
+    "cross": false,
+    "reasons": [
+      "Extracellular vesicles in disease",
+      "Ubiquitin and proteasome pathways",
+      "Autophagy in Disease and Therapy"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4285386820",
+        "W4390841477"
+      ],
+      [
+        "W4387207752",
+        "W4409147829"
+      ],
+      [
+        "W4408459171",
+        "W7170189294"
       ]
     ]
   },
@@ -5152,7 +5286,7 @@
     "source": "snu-A5027374744",
     "target": "unist-A5041900986",
     "type": "similarity",
-    "weight": 0.9542,
+    "weight": 0.9541,
     "cross": false,
     "reasons": [
       "Cancer, Hypoxia, and Metabolism",
@@ -5179,12 +5313,12 @@
     "source": "snu-A5027374744",
     "target": "unist-A5017217837",
     "type": "similarity",
-    "weight": 0.9321,
+    "weight": 0.9322,
     "cross": false,
     "reasons": [
       "Adipose Tissue and Metabolism",
       "Pluripotent Stem Cells Research",
-      "Genetics and Neurodevelopmental Disorders"
+      "PARP inhibition in cancer therapy"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -5284,6 +5418,33 @@
     ]
   },
   {
+    "source": "dgist-A5004876274",
+    "target": "snu-A5027374744",
+    "type": "similarity",
+    "weight": 0.929,
+    "cross": false,
+    "reasons": [
+      "Cancer Genomics and Diagnostics",
+      "Immune Cell Function and Interaction",
+      "Hereditary Neurological Disorders"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4416386748",
+        "W4408459171"
+      ],
+      [
+        "W4324009725",
+        "W4392298240"
+      ],
+      [
+        "W4292080583",
+        "W4390903572"
+      ]
+    ]
+  },
+  {
     "source": "dgist-A5021944943",
     "target": "snu-A5027374744",
     "type": "similarity",
@@ -5307,33 +5468,6 @@
       [
         "W4390909506",
         "W4377115718"
-      ]
-    ]
-  },
-  {
-    "source": "postech-A5034657214",
-    "target": "postech-A5068518101",
-    "type": "similarity",
-    "weight": 0.9386,
-    "cross": false,
-    "reasons": [
-      "T-cell and B-cell Immunology",
-      "Epigenetics and DNA Methylation",
-      "RNA modifications and cancer"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4396615524",
-        "W7204438967"
-      ],
-      [
-        "W4407319847",
-        "W7214952809"
-      ],
-      [
-        "W4312075904",
-        "W4417477027"
       ]
     ]
   },
@@ -5994,7 +6128,7 @@
     "reasons": [
       "Immune Cell Function and Interaction",
       "CAR-T cell therapy research",
-      "Epigenetics and DNA Methylation"
+      "RNA modifications and cancer"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -6036,60 +6170,6 @@
       [
         "W4377862087",
         "W4360827997"
-      ]
-    ]
-  },
-  {
-    "source": "gist-A5088628057",
-    "target": "postech-A5103183496",
-    "type": "similarity",
-    "weight": 0.9176,
-    "cross": false,
-    "reasons": [
-      "RNA and protein synthesis mechanisms",
-      "RNA Research and Splicing",
-      "RNA modifications and cancer"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4401327186",
-        "W4290839367"
-      ],
-      [
-        "W7134805416",
-        "W4308775203"
-      ],
-      [
-        "W7164194710",
-        "W4307953431"
-      ]
-    ]
-  },
-  {
-    "source": "postech-A5103183496",
-    "target": "snu-A5091055050",
-    "type": "similarity",
-    "weight": 0.9177,
-    "cross": true,
-    "reasons": [
-      "RNA Research and Splicing",
-      "Glycosylation and Glycoproteins Research",
-      "RNA and protein synthesis mechanisms"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4290839367",
-        "W7202129268"
-      ],
-      [
-        "W4401826926",
-        "W4409057897"
-      ],
-      [
-        "W4307953431",
-        "W4399492109"
       ]
     ]
   },
@@ -6232,7 +6312,7 @@
     "source": "unist-A5021577151",
     "target": "unist-A5041900986",
     "type": "similarity",
-    "weight": 0.9558,
+    "weight": 0.9557,
     "cross": false,
     "reasons": [
       "Mitochondrial Function and Pathology",
@@ -6443,6 +6523,195 @@
     ]
   },
   {
+    "source": "unist-A5041900986",
+    "target": "unist-A5100339473",
+    "type": "similarity",
+    "weight": 0.9408,
+    "cross": false,
+    "reasons": [
+      "Extracellular vesicles in disease",
+      "Receptor Mechanisms and Signaling",
+      "Ubiquitin and proteasome pathways"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4212972628",
+        "W4390841477"
+      ],
+      [
+        "W7161956225",
+        "W4367318168"
+      ],
+      [
+        "W7124308952",
+        "W4409147829"
+      ]
+    ]
+  },
+  {
+    "source": "gist-A5102904761",
+    "target": "unist-A5100339473",
+    "type": "similarity",
+    "weight": 0.9337,
+    "cross": false,
+    "reasons": [
+      "Chemokine receptors and signaling",
+      "Autophagy in Disease and Therapy",
+      "Mesenchymal stem cell research"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4406473395",
+        "W4390841477"
+      ],
+      [
+        "W4285808027",
+        "W4409147829"
+      ],
+      [
+        "W4392391577",
+        "W7170189294"
+      ]
+    ]
+  },
+  {
+    "source": "gist-A5100740580",
+    "target": "unist-A5100339473",
+    "type": "similarity",
+    "weight": 0.9363,
+    "cross": false,
+    "reasons": [
+      "Extracellular vesicles in disease",
+      "Cancer-related Molecular Pathways",
+      "Wnt/β-catenin signaling in development and cancer"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4220675588",
+        "W4321497403"
+      ],
+      [
+        "W4390909200",
+        "W4409147829"
+      ],
+      [
+        "W4410349091",
+        "W7170189294"
+      ]
+    ]
+  },
+  {
+    "source": "dgist-A5004876274",
+    "target": "unist-A5100339473",
+    "type": "similarity",
+    "weight": 0.9461,
+    "cross": false,
+    "reasons": [
+      "Cancer Cells and Metastasis",
+      "Extracellular vesicles in disease",
+      "Nanoparticle-Based Drug Delivery"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4379509041",
+        "W4391493695"
+      ],
+      [
+        "W4324009725",
+        "W4387935224"
+      ],
+      [
+        "W7166714572",
+        "W4367318168"
+      ]
+    ]
+  },
+  {
+    "source": "dgist-A5015429226",
+    "target": "unist-A5100339473",
+    "type": "similarity",
+    "weight": 0.9336,
+    "cross": false,
+    "reasons": [
+      "Extracellular vesicles in disease",
+      "MicroRNA in disease regulation",
+      "Mesenchymal stem cell research"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4378806238",
+        "W4387935224"
+      ],
+      [
+        "W4413428331",
+        "W4391493695"
+      ],
+      [
+        "W4362601129",
+        "W4408554365"
+      ]
+    ]
+  },
+  {
+    "source": "unist-A5007382558",
+    "target": "unist-A5017217837",
+    "type": "similarity",
+    "weight": 0.9317,
+    "cross": false,
+    "reasons": [
+      "DNA Repair Mechanisms",
+      "Autophagy in Disease and Therapy",
+      "Liver Disease Diagnosis and Treatment"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7161841089",
+        "W7149283400"
+      ],
+      [
+        "W4388419454",
+        "W4214617915"
+      ],
+      [
+        "W7196969016",
+        "W4385616946"
+      ]
+    ]
+  },
+  {
+    "source": "dgist-A5010447099",
+    "target": "unist-A5007382558",
+    "type": "similarity",
+    "weight": 0.9398,
+    "cross": false,
+    "reasons": [
+      "DNA Repair Mechanisms",
+      "RNA modifications and cancer",
+      "Epigenetics and DNA Methylation"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4297255296",
+        "W4368361823"
+      ],
+      [
+        "W4410856104",
+        "W4313433044"
+      ],
+      [
+        "W4386758595",
+        "W4382344985"
+      ]
+    ]
+  },
+  {
     "source": "unist-A5007769445",
     "target": "unist-A5100749356",
     "type": "similarity",
@@ -6450,8 +6719,8 @@
     "cross": false,
     "reasons": [
       "Toxin Mechanisms and Immunotoxins",
-      "Immune Cell Function and Interaction",
-      "Transgenic Plants and Applications"
+      "Transgenic Plants and Applications",
+      "Immune Cell Function and Interaction"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -6477,8 +6746,8 @@
     "cross": false,
     "reasons": [
       "Toxin Mechanisms and Immunotoxins",
-      "Autophagy in Disease and Therapy",
-      "RNA Interference and Gene Delivery"
+      "RNA Interference and Gene Delivery",
+      "MicroRNA in disease regulation"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -6554,11 +6823,11 @@
     "source": "unist-A5017217837",
     "target": "unist-A5035895380",
     "type": "similarity",
-    "weight": 0.9457,
+    "weight": 0.9458,
     "cross": false,
     "reasons": [
-      "Autophagy in Disease and Therapy",
       "Sirtuins and Resveratrol in Medicine",
+      "Autophagy in Disease and Therapy",
       "Liver Disease Diagnosis and Treatment"
     ],
     "paper_ids": [],
@@ -6633,12 +6902,12 @@
     "source": "unist-A5017217837",
     "target": "unist-A5041900986",
     "type": "similarity",
-    "weight": 0.9474,
+    "weight": 0.9471,
     "cross": false,
     "reasons": [
       "Autophagy in Disease and Therapy",
       "DNA Repair Mechanisms",
-      "PARP inhibition in cancer therapy"
+      "Liver Disease Diagnosis and Treatment"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -6687,12 +6956,12 @@
     "source": "gist-A5102904761",
     "target": "unist-A5041900986",
     "type": "similarity",
-    "weight": 0.9473,
+    "weight": 0.9472,
     "cross": false,
     "reasons": [
       "Autophagy in Disease and Therapy",
       "Mitochondrial Function and Pathology",
-      "Pancreatic function and diabetes"
+      "Immune cells in cancer"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -6738,37 +7007,10 @@
     ]
   },
   {
-    "source": "dgist-A5015429226",
-    "target": "unist-A5041900986",
-    "type": "similarity",
-    "weight": 0.9202,
-    "cross": false,
-    "reasons": [
-      "Extracellular vesicles in disease",
-      "RNA Interference and Gene Delivery",
-      "MicroRNA in disease regulation"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4390563606",
-        "W4383961973"
-      ],
-      [
-        "W4408738008",
-        "W4393988739"
-      ],
-      [
-        "W4400473449",
-        "W7161956225"
-      ]
-    ]
-  },
-  {
     "source": "snu-A5049147819",
     "target": "unist-A5041900986",
     "type": "similarity",
-    "weight": 0.9218,
+    "weight": 0.9217,
     "cross": true,
     "reasons": [
       "Mitochondrial Function and Pathology",
@@ -6896,6 +7138,32 @@
     ]
   },
   {
+    "source": "gist-A5100412371",
+    "target": "gist-A5102904761",
+    "type": "similarity",
+    "weight": 0.9356,
+    "cross": true,
+    "reasons": [
+      "Neurogenesis and neuroplasticity mechanisms",
+      "Endoplasmic Reticulum Stress and Disease"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4313588537",
+        "W7170186415"
+      ],
+      [
+        "W7214209992",
+        "W4384469835"
+      ],
+      [
+        "W4394009955",
+        "W4411404852"
+      ]
+    ]
+  },
+  {
     "source": "gist-A5102904761",
     "target": "snu-A5049147819",
     "type": "similarity",
@@ -6919,6 +7187,33 @@
       [
         "W4392391577",
         "W7128620341"
+      ]
+    ]
+  },
+  {
+    "source": "dgist-A5004876274",
+    "target": "gist-A5100740580",
+    "type": "similarity",
+    "weight": 0.9381,
+    "cross": false,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "Cancer Genomics and Diagnostics",
+      "Tissue Engineering and Regenerative Medicine"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7161168952",
+        "W4308451002"
+      ],
+      [
+        "W4416386748",
+        "W4297145253"
+      ],
+      [
+        "W7162995780",
+        "W4410587422"
       ]
     ]
   },
@@ -7025,32 +7320,6 @@
       [
         "W4415685900",
         "W4205889297"
-      ]
-    ]
-  },
-  {
-    "source": "gist-A5038581059",
-    "target": "unist-A5005548374",
-    "type": "similarity",
-    "weight": 0.9179,
-    "cross": false,
-    "reasons": [
-      "RNA and protein synthesis mechanisms",
-      "ATP Synthase and ATPases Research"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4376133755",
-        "W4410773635"
-      ],
-      [
-        "W4322758866",
-        "W4402131079"
-      ],
-      [
-        "W4388152823",
-        "W7161979186"
       ]
     ]
   },
@@ -7212,6 +7481,33 @@
       [
         "W4407334522",
         "W4415282898"
+      ]
+    ]
+  },
+  {
+    "source": "dgist-A5004876274",
+    "target": "dgist-A5015429226",
+    "type": "similarity",
+    "weight": 0.9262,
+    "cross": false,
+    "reasons": [
+      "Immune Cell Function and Interaction",
+      "Muscle Physiology and Disorders",
+      "Cancer Immunotherapy and Biomarkers"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4324009725",
+        "W4413358971"
+      ],
+      [
+        "W4285136821",
+        "W4400473449"
+      ],
+      [
+        "W4416386748",
+        "W4362601129"
       ]
     ]
   },
@@ -7541,33 +7837,6 @@
   },
   {
     "source": "postech-A5025254146",
-    "target": "snu-A5089695370",
-    "type": "similarity",
-    "weight": 0.9178,
-    "cross": true,
-    "reasons": [
-      "Graphene research and applications",
-      "2D Materials and Applications",
-      "Topological Materials and Phenomena"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4379621698",
-        "W7163060262"
-      ],
-      [
-        "W4415338291",
-        "W7119506953"
-      ],
-      [
-        "W4376277704",
-        "W4401063071"
-      ]
-    ]
-  },
-  {
-    "source": "postech-A5025254146",
     "target": "snu-A5063669156",
     "type": "similarity",
     "weight": 0.9387,
@@ -7783,6 +8052,33 @@
     ]
   },
   {
+    "source": "kaist-A5013893562",
+    "target": "postech-A5060796492",
+    "type": "similarity",
+    "weight": 0.938,
+    "cross": false,
+    "reasons": [
+      "Advanced Chemical Physics Studies",
+      "Spectroscopy and Quantum Chemical Studies",
+      "Carbon dioxide utilization in catalysis"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4414453265",
+        "W4411006446"
+      ],
+      [
+        "W4416454469",
+        "W7162873964"
+      ],
+      [
+        "W4415943374",
+        "W7208789719"
+      ]
+    ]
+  },
+  {
     "source": "kaist-A5024869511",
     "target": "postech-A5060796492",
     "type": "similarity",
@@ -7813,7 +8109,7 @@
     "source": "kaist-A5048407979",
     "target": "postech-A5060796492",
     "type": "similarity",
-    "weight": 0.9276,
+    "weight": 0.9275,
     "cross": false,
     "reasons": [
       "N-Heterocyclic Carbenes in Organic and Inorganic Chemistry",
@@ -8080,60 +8376,6 @@
     ]
   },
   {
-    "source": "kaist-A5060666792",
-    "target": "postech-A5001055290",
-    "type": "similarity",
-    "weight": 0.9174,
-    "cross": false,
-    "reasons": [
-      "Molecular Sensors and Ion Detection",
-      "RNA Interference and Gene Delivery",
-      "Mitochondrial Function and Pathology"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4413637909",
-        "W4389252294"
-      ],
-      [
-        "W7165204846",
-        "W4410874406"
-      ],
-      [
-        "W4403316479",
-        "W4413378227"
-      ]
-    ]
-  },
-  {
-    "source": "kaist-A5100330179",
-    "target": "postech-A5030673319",
-    "type": "similarity",
-    "weight": 0.9635,
-    "cross": false,
-    "reasons": [
-      "Asymmetric Synthesis and Catalysis",
-      "Catalytic Cross-Coupling Reactions",
-      "Organoboron and organosilicon chemistry"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4383893275",
-        "W4407952660"
-      ],
-      [
-        "W7202270768",
-        "W4405106290"
-      ],
-      [
-        "W4415806857",
-        "W4409488979"
-      ]
-    ]
-  },
-  {
     "source": "kaist-A5020559815",
     "target": "postech-A5030673319",
     "type": "similarity",
@@ -8184,6 +8426,33 @@
       [
         "W4388414548",
         "W4408420687"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5044287208",
+    "target": "postech-A5030673319",
+    "type": "similarity",
+    "weight": 0.977,
+    "cross": false,
+    "reasons": [
+      "Asymmetric Synthesis and Catalysis",
+      "Catalytic Cross-Coupling Reactions",
+      "Fluorine in Organic Chemistry"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4414779945",
+        "W4292748626"
+      ],
+      [
+        "W4415992217",
+        "W4407952660"
+      ],
+      [
+        "W7134229753",
+        "W7117447393"
       ]
     ]
   },
@@ -8616,6 +8885,33 @@
       [
         "W7139132403",
         "W4403315774"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5044287208",
+    "target": "postech-A5046320204",
+    "type": "similarity",
+    "weight": 0.9578,
+    "cross": false,
+    "reasons": [
+      "Radical Photochemical Reactions",
+      "Fluorine in Organic Chemistry",
+      "Synthesis and Catalytic Reactions"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4416793302",
+        "W7220696602"
+      ],
+      [
+        "W7134229753",
+        "W4393985277"
+      ],
+      [
+        "W4411825333",
+        "W4291002123"
       ]
     ]
   },
@@ -9992,32 +10288,6 @@
     ]
   },
   {
-    "source": "kaist-A5020559815",
-    "target": "postech-A5054668018",
-    "type": "similarity",
-    "weight": 0.918,
-    "cross": false,
-    "reasons": [
-      "Asymmetric Synthesis and Catalysis",
-      "Catalytic Cross-Coupling Reactions"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4214840351",
-        "W4309491913"
-      ],
-      [
-        "W4411038238",
-        "W7122618391"
-      ],
-      [
-        "W7172352152",
-        "W4396239589"
-      ]
-    ]
-  },
-  {
     "source": "kaist-A5019876038",
     "target": "postech-A5054668018",
     "type": "similarity",
@@ -10041,6 +10311,33 @@
       [
         "W4409806265",
         "W4309491913"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5044287208",
+    "target": "postech-A5054668018",
+    "type": "similarity",
+    "weight": 0.9292,
+    "cross": false,
+    "reasons": [
+      "Asymmetric Synthesis and Catalysis",
+      "Catalytic Cross-Coupling Reactions",
+      "Catalytic Alkyne Reactions"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4405106290",
+        "W7122618391"
+      ],
+      [
+        "W4411825333",
+        "W4309491913"
+      ],
+      [
+        "W4411099584",
+        "W4402859122"
       ]
     ]
   },
@@ -11589,8 +11886,8 @@
     "cross": false,
     "reasons": [
       "Plasmonic and Surface Plasmon Research",
-      "Magnetic and transport properties of perovskites and related materials",
-      "Orbital Angular Momentum in Optics"
+      "Orbital Angular Momentum in Optics",
+      "Magnetic and transport properties of perovskites and related materials"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -12957,6 +13254,33 @@
     ]
   },
   {
+    "source": "kaist-A5058009844",
+    "target": "postech-A5087989423",
+    "type": "similarity",
+    "weight": 0.9207,
+    "cross": true,
+    "reasons": [
+      "Fractional Differential Equations Solutions",
+      "Nonlinear Dynamics and Pattern Formation",
+      "Field-Flow Fractionation Techniques"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W3142586377",
+        "W4415316219"
+      ],
+      [
+        "W4400201476",
+        "W7154226100"
+      ],
+      [
+        "W4411147992",
+        "W4404342153"
+      ]
+    ]
+  },
+  {
     "source": "postech-A5087989423",
     "target": "snu-A5054853062",
     "type": "similarity",
@@ -13091,6 +13415,33 @@
     ]
   },
   {
+    "source": "kaist-A5100412739",
+    "target": "postech-A5003733262",
+    "type": "similarity",
+    "weight": 0.9351,
+    "cross": true,
+    "reasons": [
+      "Recommender Systems and Techniques",
+      "Machine Learning in Healthcare",
+      "Reinforcement Learning in Robotics"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4402742346",
+        "W4409985222"
+      ],
+      [
+        "W4406355868",
+        "W4412030306"
+      ],
+      [
+        "W4403998757",
+        "W4405719383"
+      ]
+    ]
+  },
+  {
     "source": "kaist-A5100362666",
     "target": "postech-A5003733262",
     "type": "similarity",
@@ -13220,32 +13571,6 @@
       [
         "W4360980086",
         "W4405292879"
-      ]
-    ]
-  },
-  {
-    "source": "postech-A5101770891",
-    "target": "postech-A5102012499",
-    "type": "similarity",
-    "weight": 0.9274,
-    "cross": false,
-    "reasons": [
-      "Anomaly Detection Techniques and Applications",
-      "Nonlinear Dynamics and Pattern Formation"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W3114703897",
-        "W3136939303"
-      ],
-      [
-        "W4399353627",
-        "W4387056526"
-      ],
-      [
-        "W4362586685",
-        "W7164339987"
       ]
     ]
   },
@@ -13692,6 +14017,33 @@
     ]
   },
   {
+    "source": "postech-A5102862770",
+    "target": "snu-A5019814714",
+    "type": "similarity",
+    "weight": 0.9506,
+    "cross": false,
+    "reasons": [
+      "Homotopy and Cohomology in Algebraic Topology",
+      "Geometric and Algebraic Topology",
+      "Algebraic Geometry and Number Theory"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W3211524113",
+        "W4400678882"
+      ],
+      [
+        "W4392214411",
+        "W4407759980"
+      ],
+      [
+        "W2909337450",
+        "W2888347871"
+      ]
+    ]
+  },
+  {
     "source": "kaist-A5101588507",
     "target": "postech-A5023373586",
     "type": "similarity",
@@ -13793,6 +14145,33 @@
       [
         "W7125483796",
         "W7119535523"
+      ]
+    ]
+  },
+  {
+    "source": "postech-A5023373586",
+    "target": "snu-A5019814714",
+    "type": "similarity",
+    "weight": 0.952,
+    "cross": false,
+    "reasons": [
+      "Algebraic Geometry and Number Theory",
+      "Geometric and Algebraic Topology",
+      "Algebraic structures and combinatorial models"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4409317639",
+        "W4400678882"
+      ],
+      [
+        "W4407903166",
+        "W4407759980"
+      ],
+      [
+        "W4404261120",
+        "W2888347871"
       ]
     ]
   },
@@ -13959,6 +14338,33 @@
     ]
   },
   {
+    "source": "kaist-A5100412739",
+    "target": "postech-A5102012499",
+    "type": "similarity",
+    "weight": 0.9317,
+    "cross": true,
+    "reasons": [
+      "Domain Adaptation and Few-Shot Learning",
+      "Generative Adversarial Networks and Image Synthesis",
+      "Cardiac electrophysiology and arrhythmias"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4409243338",
+        "W4399678005"
+      ],
+      [
+        "W4402742346",
+        "W7137871865"
+      ],
+      [
+        "W4403998757",
+        "W3136939303"
+      ]
+    ]
+  },
+  {
     "source": "kaist-A5100362666",
     "target": "postech-A5102012499",
     "type": "similarity",
@@ -14093,33 +14499,6 @@
     ]
   },
   {
-    "source": "kaist-A5102907692",
-    "target": "postech-A5100334897",
-    "type": "similarity",
-    "weight": 0.9233,
-    "cross": false,
-    "reasons": [
-      "Parallel Computing and Optimization Techniques",
-      "Advanced Data Storage Technologies",
-      "Advanced Neural Network Applications"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4386025698",
-        "W4392873786"
-      ],
-      [
-        "W4285137412",
-        "W4290716987"
-      ],
-      [
-        "W4389500318",
-        "W7164353734"
-      ]
-    ]
-  },
-  {
     "source": "kaist-A5037553165",
     "target": "postech-A5100334897",
     "type": "similarity",
@@ -14197,6 +14576,60 @@
       [
         "W4392427708",
         "W4403337153"
+      ]
+    ]
+  },
+  {
+    "source": "postech-A5100334897",
+    "target": "snu-A5100415731",
+    "type": "similarity",
+    "weight": 0.9702,
+    "cross": false,
+    "reasons": [
+      "Parallel Computing and Optimization Techniques",
+      "Advanced Memory and Neural Computing",
+      "Low-power high-performance VLSI design"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4290716987",
+        "W4380881079"
+      ],
+      [
+        "W4392873786",
+        "W4206315322"
+      ],
+      [
+        "W4392427708",
+        "W4413213050"
+      ]
+    ]
+  },
+  {
+    "source": "postech-A5100334897",
+    "target": "snu-A5100767182",
+    "type": "similarity",
+    "weight": 0.9488,
+    "cross": false,
+    "reasons": [
+      "Parallel Computing and Optimization Techniques",
+      "Advanced Neural Network Applications",
+      "Advanced Data Storage Technologies"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4401408496",
+        "W4406033018"
+      ],
+      [
+        "W7165549275",
+        "W4417403573"
+      ],
+      [
+        "W4392873786",
+        "W4283019099"
       ]
     ]
   },
@@ -14390,6 +14823,33 @@
     ]
   },
   {
+    "source": "postech-A5010929521",
+    "target": "snu-A5100415731",
+    "type": "similarity",
+    "weight": 0.9638,
+    "cross": false,
+    "reasons": [
+      "Advanced Data Storage Technologies",
+      "Parallel Computing and Optimization Techniques",
+      "Security and Verification in Computing"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7140665210",
+        "W4380881079"
+      ],
+      [
+        "W4306799995",
+        "W4220665001"
+      ],
+      [
+        "W4411471852",
+        "W4416017149"
+      ]
+    ]
+  },
+  {
     "source": "postech-A5021864220",
     "target": "postech-A5101408509",
     "type": "similarity",
@@ -14548,6 +15008,33 @@
       [
         "W4313563592",
         "W7197033118"
+      ]
+    ]
+  },
+  {
+    "source": "postech-A5045521125",
+    "target": "snu-A5102802605",
+    "type": "similarity",
+    "weight": 0.9438,
+    "cross": false,
+    "reasons": [
+      "Recommender Systems and Techniques",
+      "Topic Modeling",
+      "Speech and dialogue systems"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7129018361",
+        "W4407900311"
+      ],
+      [
+        "W7168389677",
+        "W7207528179"
+      ],
+      [
+        "W7203985984",
+        "W4389718660"
       ]
     ]
   },
@@ -14790,6 +15277,33 @@
       ],
       [
         "W7214969602",
+        "W7214999150"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5075516902",
+    "target": "postech-A5070700637",
+    "type": "similarity",
+    "weight": 0.9181,
+    "cross": false,
+    "reasons": [
+      "Robotics and Sensor-Based Localization",
+      "Indoor and Outdoor Localization Technologies",
+      "Context-Aware Activity Recognition Systems"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7125938669",
+        "W4402524422"
+      ],
+      [
+        "W4312818524",
+        "W4367046493"
+      ],
+      [
+        "W7125914524",
         "W7214999150"
       ]
     ]
@@ -15065,6 +15579,33 @@
     ]
   },
   {
+    "source": "postech-A5100720092",
+    "target": "snu-A5100415731",
+    "type": "similarity",
+    "weight": 0.9293,
+    "cross": false,
+    "reasons": [
+      "Advanced Data Storage Technologies",
+      "Parallel Computing and Optimization Techniques",
+      "Advanced Memory and Neural Computing"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4411552983",
+        "W4380881079"
+      ],
+      [
+        "W7140665210",
+        "W3193730902"
+      ],
+      [
+        "W4408891495",
+        "W4410356777"
+      ]
+    ]
+  },
+  {
     "source": "kaist-A5100653784",
     "target": "postech-A5101408509",
     "type": "similarity",
@@ -15281,33 +15822,6 @@
     ]
   },
   {
-    "source": "gist-A5101783816",
-    "target": "unist-A5046785997",
-    "type": "similarity",
-    "weight": 0.9226,
-    "cross": false,
-    "reasons": [
-      "Organic Electronics and Photovoltaics",
-      "Perovskite Materials and Applications",
-      "Advanced Photocatalysis Techniques"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4321380067",
-        "W4401184157"
-      ],
-      [
-        "W4386736454",
-        "W4376105176"
-      ],
-      [
-        "W4293569900",
-        "W4385968985"
-      ]
-    ]
-  },
-  {
     "source": "snu-A5084894869",
     "target": "unist-A5046785997",
     "type": "similarity",
@@ -15466,6 +15980,33 @@
       [
         "W4307299648",
         "W4409160080"
+      ]
+    ]
+  },
+  {
+    "source": "unist-A5056250877",
+    "target": "unist-A5101439656",
+    "type": "similarity",
+    "weight": 0.9772,
+    "cross": false,
+    "reasons": [
+      "Perovskite Materials and Applications",
+      "Organic Electronics and Photovoltaics",
+      "Conducting polymers and applications"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4409278537",
+        "W7155536401"
+      ],
+      [
+        "W4405265255",
+        "W7163006374"
+      ],
+      [
+        "W4294953396",
+        "W4415272221"
       ]
     ]
   },
@@ -15983,29 +16524,136 @@
     ]
   },
   {
-    "source": "kaist-A5100330179",
-    "target": "unist-A5101806583",
+    "source": "unist-A5057681381",
+    "target": "unist-A5101439656",
     "type": "similarity",
-    "weight": 0.9544,
+    "weight": 0.9647,
     "cross": false,
     "reasons": [
-      "Radical Photochemical Reactions",
-      "Cyclopropane Reaction Mechanisms",
-      "Catalytic Alkyne Reactions"
+      "Perovskite Materials and Applications",
+      "Graphene research and applications",
+      "Boron and Carbon Nanomaterials Research"
     ],
     "paper_ids": [],
     "paper_pairs": [
       [
-        "W7202270768",
-        "W4282923480"
+        "W4283219417",
+        "W4405706630"
       ],
       [
-        "W4404730323",
-        "W4312065893"
+        "W4400571793",
+        "W7163006374"
       ],
       [
-        "W4376140965",
-        "W4306662168"
+        "W4362606434",
+        "W7155536401"
+      ]
+    ]
+  },
+  {
+    "source": "unist-A5084310453",
+    "target": "unist-A5101439656",
+    "type": "similarity",
+    "weight": 0.9463,
+    "cross": false,
+    "reasons": [
+      "Conducting polymers and applications",
+      "Synthesis and Properties of Aromatic Compounds",
+      "Organic Electronics and Photovoltaics"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7204477126",
+        "W4404166413"
+      ],
+      [
+        "W7125585118",
+        "W4392166733"
+      ],
+      [
+        "W4402488249",
+        "W4415272221"
+      ]
+    ]
+  },
+  {
+    "source": "gist-A5101783816",
+    "target": "unist-A5101439656",
+    "type": "similarity",
+    "weight": 0.9443,
+    "cross": false,
+    "reasons": [
+      "Perovskite Materials and Applications",
+      "Organic Electronics and Photovoltaics",
+      "TiO2 Photocatalysis and Solar Cells"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4293569900",
+        "W4415272221"
+      ],
+      [
+        "W4385552517",
+        "W7155536401"
+      ],
+      [
+        "W4367042072",
+        "W7163006374"
+      ]
+    ]
+  },
+  {
+    "source": "dgist-A5046067694",
+    "target": "unist-A5101439656",
+    "type": "similarity",
+    "weight": 0.9622,
+    "cross": false,
+    "reasons": [
+      "Organic Electronics and Photovoltaics",
+      "Organic Light-Emitting Diodes Research"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4212822587",
+        "W4296193024"
+      ],
+      [
+        "W4387857075",
+        "W4415272221"
+      ],
+      [
+        "W4412493061",
+        "W7163006374"
+      ]
+    ]
+  },
+  {
+    "source": "dgist-A5047491735",
+    "target": "unist-A5101439656",
+    "type": "similarity",
+    "weight": 0.9477,
+    "cross": true,
+    "reasons": [
+      "Perovskite Materials and Applications",
+      "Graphene research and applications",
+      "Covalent Organic Framework Applications"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7146998077",
+        "W7155536401"
+      ],
+      [
+        "W4392895387",
+        "W4415272221"
+      ],
+      [
+        "W4221040261",
+        "W4392166733"
       ]
     ]
   },
@@ -16037,29 +16685,29 @@
     ]
   },
   {
-    "source": "kaist-A5019876038",
+    "source": "kaist-A5044287208",
     "target": "unist-A5101806583",
     "type": "similarity",
-    "weight": 0.9312,
+    "weight": 0.9608,
     "cross": false,
     "reasons": [
       "Radical Photochemical Reactions",
-      "Catalytic Alkyne Reactions",
-      "Cyclopropane Reaction Mechanisms"
+      "Sulfur-Based Synthesis Techniques",
+      "Catalytic Alkyne Reactions"
     ],
     "paper_ids": [],
     "paper_pairs": [
       [
-        "W4282925416",
-        "W4312065893"
-      ],
-      [
-        "W4398243652",
+        "W4415992217",
         "W4282923480"
       ],
       [
-        "W4400029583",
+        "W4404627800",
         "W4306662168"
+      ],
+      [
+        "W4411825333",
+        "W4312065893"
       ]
     ]
   },
@@ -16818,33 +17466,6 @@
     ]
   },
   {
-    "source": "dgist-A5046067694",
-    "target": "unist-A5057681381",
-    "type": "similarity",
-    "weight": 0.9482,
-    "cross": false,
-    "reasons": [
-      "CO2 Reduction Techniques and Catalysts",
-      "Carbon Nanotubes in Composites",
-      "Quantum Dots Synthesis And Properties"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4390496360",
-        "W4416666118"
-      ],
-      [
-        "W4412632668",
-        "W4286770836"
-      ],
-      [
-        "W4406604899",
-        "W4362606434"
-      ]
-    ]
-  },
-  {
     "source": "dgist-A5047491735",
     "target": "unist-A5057681381",
     "type": "similarity",
@@ -16902,7 +17523,7 @@
     "source": "kaist-A5048407979",
     "target": "unist-A5023832222",
     "type": "similarity",
-    "weight": 0.9518,
+    "weight": 0.9517,
     "cross": false,
     "reasons": [
       "Metal-Catalyzed Oxygenation Mechanisms",
@@ -18517,6 +19138,32 @@
     ]
   },
   {
+    "source": "kaist-A5100412739",
+    "target": "unist-A5100765704",
+    "type": "similarity",
+    "weight": 0.9315,
+    "cross": true,
+    "reasons": [
+      "Medical Image Segmentation Techniques",
+      "Advanced Neural Network Applications"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7212019632",
+        "W7169993469"
+      ],
+      [
+        "W4403998757",
+        "W4281777625"
+      ],
+      [
+        "W4372260474",
+        "W4404565583"
+      ]
+    ]
+  },
+  {
     "source": "kaist-A5006225383",
     "target": "unist-A5086948948",
     "type": "similarity",
@@ -19125,33 +19772,6 @@
     ]
   },
   {
-    "source": "snu-A5062560097",
-    "target": "unist-A5071289684",
-    "type": "similarity",
-    "weight": 0.92,
-    "cross": false,
-    "reasons": [
-      "Parallel Computing and Optimization Techniques",
-      "Advanced Data Storage Technologies",
-      "Security and Verification in Computing"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W7155489683",
-        "W4388966614"
-      ],
-      [
-        "W4389033398",
-        "W7203491417"
-      ],
-      [
-        "W4410492207",
-        "W4280574251"
-      ]
-    ]
-  },
-  {
     "source": "snu-A5055059863",
     "target": "unist-A5071289684",
     "type": "similarity",
@@ -19179,6 +19799,33 @@
     ]
   },
   {
+    "source": "snu-A5100415731",
+    "target": "unist-A5071289684",
+    "type": "similarity",
+    "weight": 0.9475,
+    "cross": false,
+    "reasons": [
+      "Parallel Computing and Optimization Techniques",
+      "Advanced Data Storage Technologies",
+      "Cloud Computing and Resource Management"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4380881079",
+        "W4388966614"
+      ],
+      [
+        "W4413213050",
+        "W4403337152"
+      ],
+      [
+        "W4386117835",
+        "W4280574251"
+      ]
+    ]
+  },
+  {
     "source": "kaist-A5081305477",
     "target": "unist-A5009308931",
     "type": "similarity",
@@ -19187,7 +19834,7 @@
     "reasons": [
       "Software Testing and Debugging Techniques",
       "Software Engineering Research",
-      "Security and Verification in Computing"
+      "Logic, programming, and type systems"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -19611,6 +20258,113 @@
     ]
   },
   {
+    "source": "kaist-A5013893562",
+    "target": "kaist-A5100388376",
+    "type": "similarity",
+    "weight": 0.9451,
+    "cross": false,
+    "reasons": [
+      "Electrocatalysts for Energy Conversion",
+      "Advanced Chemical Physics Studies",
+      "Advanced Photocatalysis Techniques"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4414453265",
+        "W4408681985"
+      ],
+      [
+        "W4415943374",
+        "W4403135518"
+      ],
+      [
+        "W4416454469",
+        "W4406769264"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5013893562",
+    "target": "snu-A5066311276",
+    "type": "similarity",
+    "weight": 0.9375,
+    "cross": false,
+    "reasons": [
+      "Electrocatalysts for Energy Conversion",
+      "Photochemistry and Electron Transfer Studies",
+      "Advanced Photocatalysis Techniques"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4412694155",
+        "W7163579308"
+      ],
+      [
+        "W7213413076",
+        "W4401885306"
+      ],
+      [
+        "W4414453265",
+        "W7126448665"
+      ]
+    ]
+  },
+  {
+    "source": "dgist-A5051640018",
+    "target": "kaist-A5013893562",
+    "type": "similarity",
+    "weight": 0.9465,
+    "cross": false,
+    "reasons": [
+      "Advanced Photocatalysis Techniques",
+      "Electrocatalysts for Energy Conversion",
+      "TiO2 Photocatalysis and Solar Cells"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4376873956",
+        "W4415943374"
+      ],
+      [
+        "W7125496634",
+        "W4414453265"
+      ],
+      [
+        "W4389610363",
+        "W4413734185"
+      ]
+    ]
+  },
+  {
+    "source": "dgist-A5019564898",
+    "target": "kaist-A5013893562",
+    "type": "similarity",
+    "weight": 0.9382,
+    "cross": true,
+    "reasons": [
+      "2D Materials and Applications",
+      "Advanced Chemical Physics Studies"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4412884712",
+        "W4414453265"
+      ],
+      [
+        "W4283029145",
+        "W7213413076"
+      ],
+      [
+        "W4306650536",
+        "W4402646809"
+      ]
+    ]
+  },
+  {
     "source": "kaist-A5049414933",
     "target": "kaist-A5100330179",
     "type": "similarity",
@@ -19692,6 +20446,33 @@
     ]
   },
   {
+    "source": "kaist-A5044287208",
+    "target": "kaist-A5100330179",
+    "type": "similarity",
+    "weight": 0.9746,
+    "cross": false,
+    "reasons": [
+      "Asymmetric Synthesis and Catalysis",
+      "Catalytic Cross-Coupling Reactions",
+      "Radical Photochemical Reactions"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4411825087",
+        "W4404730323"
+      ],
+      [
+        "W4405106290",
+        "W7202270768"
+      ],
+      [
+        "W4414779945",
+        "W4383893275"
+      ]
+    ]
+  },
+  {
     "source": "gist-A5065178055",
     "target": "kaist-A5100330179",
     "type": "similarity",
@@ -19769,33 +20550,6 @@
       [
         "W4400506402",
         "W4406655715"
-      ]
-    ]
-  },
-  {
-    "source": "dgist-A5063361478",
-    "target": "kaist-A5100330179",
-    "type": "similarity",
-    "weight": 0.9649,
-    "cross": false,
-    "reasons": [
-      "Catalytic Cross-Coupling Reactions",
-      "Radical Photochemical Reactions",
-      "Asymmetric Synthesis and Catalysis"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4399103846",
-        "W4415806857"
-      ],
-      [
-        "W4409633469",
-        "W7202270768"
-      ],
-      [
-        "W4406823030",
-        "W4401714878"
       ]
     ]
   },
@@ -20208,7 +20962,7 @@
     "source": "kaist-A5030203661",
     "target": "kaist-A5048407979",
     "type": "similarity",
-    "weight": 0.9427,
+    "weight": 0.9424,
     "cross": false,
     "reasons": [
       "Metal-Catalyzed Oxygenation Mechanisms",
@@ -20235,7 +20989,7 @@
     "source": "gist-A5070496831",
     "target": "kaist-A5048407979",
     "type": "similarity",
-    "weight": 0.9272,
+    "weight": 0.9271,
     "cross": false,
     "reasons": [
       "Protein Structure and Dynamics",
@@ -20261,7 +21015,7 @@
     "source": "kaist-A5048407979",
     "target": "snu-A5101679626",
     "type": "similarity",
-    "weight": 0.9314,
+    "weight": 0.9311,
     "cross": false,
     "reasons": [
       "Carbon dioxide utilization in catalysis",
@@ -20365,33 +21119,6 @@
     ]
   },
   {
-    "source": "kaist-A5030203661",
-    "target": "kaist-A5049414933",
-    "type": "similarity",
-    "weight": 0.9651,
-    "cross": false,
-    "reasons": [
-      "Asymmetric Synthesis and Catalysis",
-      "Radical Photochemical Reactions",
-      "Catalytic Cross-Coupling Reactions"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4390548095",
-        "W4318712423"
-      ],
-      [
-        "W4416395807",
-        "W4411932955"
-      ],
-      [
-        "W4389340768",
-        "W4403092114"
-      ]
-    ]
-  },
-  {
     "source": "kaist-A5020559815",
     "target": "kaist-A5049414933",
     "type": "similarity",
@@ -20469,6 +21196,33 @@
       [
         "W4318712423",
         "W4353031512"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5044287208",
+    "target": "kaist-A5049414933",
+    "type": "similarity",
+    "weight": 0.9719,
+    "cross": false,
+    "reasons": [
+      "Radical Photochemical Reactions",
+      "Asymmetric Synthesis and Catalysis",
+      "Catalytic Cross-Coupling Reactions"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4405106290",
+        "W4318671583"
+      ],
+      [
+        "W4416793302",
+        "W4403092114"
+      ],
+      [
+        "W4414810843",
+        "W7201885003"
       ]
     ]
   },
@@ -20765,6 +21519,33 @@
       [
         "W4404143686",
         "W4402686709"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5030203661",
+    "target": "kaist-A5044287208",
+    "type": "similarity",
+    "weight": 0.9727,
+    "cross": false,
+    "reasons": [
+      "Asymmetric Synthesis and Catalysis",
+      "Catalytic Cross-Coupling Reactions",
+      "Radical Photochemical Reactions"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4407952660",
+        "W4415992217"
+      ],
+      [
+        "W4390548095",
+        "W4414779699"
+      ],
+      [
+        "W4413964743",
+        "W4411825333"
       ]
     ]
   },
@@ -21607,33 +22388,6 @@
   },
   {
     "source": "kaist-A5020559815",
-    "target": "kaist-A5086637390",
-    "type": "similarity",
-    "weight": 0.9496,
-    "cross": false,
-    "reasons": [
-      "Radical Photochemical Reactions",
-      "Asymmetric Synthesis and Catalysis",
-      "Cyclopropane Reaction Mechanisms"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4214840351",
-        "W4415031408"
-      ],
-      [
-        "W4411038238",
-        "W4394617114"
-      ],
-      [
-        "W7172352152",
-        "W4403887237"
-      ]
-    ]
-  },
-  {
-    "source": "kaist-A5020559815",
     "target": "kaist-A5067358423",
     "type": "similarity",
     "weight": 0.9517,
@@ -21656,6 +22410,33 @@
       [
         "W4411038238",
         "W4353031512"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5020559815",
+    "target": "kaist-A5044287208",
+    "type": "similarity",
+    "weight": 0.9624,
+    "cross": false,
+    "reasons": [
+      "Radical Photochemical Reactions",
+      "Asymmetric Synthesis and Catalysis",
+      "Cyclopropane Reaction Mechanisms"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4411038238",
+        "W4414779945"
+      ],
+      [
+        "W4214840351",
+        "W4411825333"
+      ],
+      [
+        "W7172352152",
+        "W4401528334"
       ]
     ]
   },
@@ -22038,6 +22819,33 @@
     ]
   },
   {
+    "source": "kaist-A5044287208",
+    "target": "kaist-A5086637390",
+    "type": "similarity",
+    "weight": 0.9791,
+    "cross": false,
+    "reasons": [
+      "Radical Photochemical Reactions",
+      "Asymmetric Synthesis and Catalysis",
+      "N-Heterocyclic Carbenes in Organic and Inorganic Chemistry"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4411825087",
+        "W4407918273"
+      ],
+      [
+        "W7202203629",
+        "W4415031408"
+      ],
+      [
+        "W4416793302",
+        "W4411236259"
+      ]
+    ]
+  },
+  {
     "source": "gist-A5065178055",
     "target": "kaist-A5086637390",
     "type": "similarity",
@@ -22416,6 +23224,33 @@
     ]
   },
   {
+    "source": "kaist-A5019876038",
+    "target": "kaist-A5044287208",
+    "type": "similarity",
+    "weight": 0.9444,
+    "cross": false,
+    "reasons": [
+      "Radical Photochemical Reactions",
+      "Catalytic Alkyne Reactions",
+      "Cyclopropane Reaction Mechanisms"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4409806265",
+        "W4414779699"
+      ],
+      [
+        "W4294225394",
+        "W4411099584"
+      ],
+      [
+        "W4398243652",
+        "W4410496334"
+      ]
+    ]
+  },
+  {
     "source": "gist-A5065178055",
     "target": "kaist-A5019876038",
     "type": "similarity",
@@ -22574,6 +23409,114 @@
       [
         "W4392985422",
         "W4385334446"
+      ]
+    ]
+  },
+  {
+    "source": "gist-A5065178055",
+    "target": "kaist-A5044287208",
+    "type": "similarity",
+    "weight": 0.9775,
+    "cross": false,
+    "reasons": [
+      "Radical Photochemical Reactions",
+      "Asymmetric Synthesis and Catalysis",
+      "Computational Drug Discovery Methods"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4396579291",
+        "W4415992217"
+      ],
+      [
+        "W4399522707",
+        "W4414779945"
+      ],
+      [
+        "W4292061181",
+        "W7202203629"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5044287208",
+    "target": "snu-A5018225049",
+    "type": "similarity",
+    "weight": 0.9642,
+    "cross": false,
+    "reasons": [
+      "Radical Photochemical Reactions",
+      "Sulfur-Based Synthesis Techniques",
+      "Catalytic Alkyne Reactions"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4401484610",
+        "W4328052656"
+      ],
+      [
+        "W4415992217",
+        "W4327700360"
+      ],
+      [
+        "W7134229753",
+        "W4391389338"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5044287208",
+    "target": "snu-A5088251436",
+    "type": "similarity",
+    "weight": 0.9706,
+    "cross": false,
+    "reasons": [
+      "Radical Photochemical Reactions",
+      "Catalytic Cross-Coupling Reactions",
+      "Fluorine in Organic Chemistry"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4404627800",
+        "W4280494459"
+      ],
+      [
+        "W4405106290",
+        "W4395064203"
+      ],
+      [
+        "W4414779945",
+        "W4214763290"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5044287208",
+    "target": "snu-A5103127983",
+    "type": "similarity",
+    "weight": 0.9812,
+    "cross": false,
+    "reasons": [
+      "Radical Photochemical Reactions",
+      "Sulfur-Based Synthesis Techniques",
+      "Cyclopropane Reaction Mechanisms"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7204262565",
+        "W7127190241"
+      ],
+      [
+        "W7170149701",
+        "W7213979206"
+      ],
+      [
+        "W4416793302",
+        "W4410948941"
       ]
     ]
   },
@@ -25292,39 +26235,14 @@
   },
   {
     "source": "kaist-A5067102283",
-    "target": "kaist-A5101860214",
-    "type": "similarity",
-    "weight": 0.9179,
-    "cross": false,
-    "reasons": [
-      "Nonlinear Partial Differential Equations"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4401655802",
-        "W4307368004"
-      ],
-      [
-        "W2971619253",
-        "W4399846520"
-      ],
-      [
-        "W4416618653",
-        "W3046869190"
-      ]
-    ]
-  },
-  {
-    "source": "kaist-A5067102283",
     "target": "snu-A5100353405",
     "type": "similarity",
     "weight": 0.9736,
     "cross": false,
     "reasons": [
       "Advanced Mathematical Physics Problems",
-      "Nonlinear Waves and Solitons",
-      "Stability and Controllability of Differential Equations"
+      "Stability and Controllability of Differential Equations",
+      "Nonlinear Waves and Solitons"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -25383,6 +26301,33 @@
       [
         "W4393099104",
         "W4411915085"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5058009844",
+    "target": "snu-A5009809362",
+    "type": "similarity",
+    "weight": 0.9194,
+    "cross": false,
+    "reasons": [
+      "Nonlinear Dynamics and Pattern Formation",
+      "Mathematical and Theoretical Epidemiology and Ecology Models",
+      "Stochastic processes and statistical mechanics"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W3142586377",
+        "W7122806830"
+      ],
+      [
+        "W4291596163",
+        "W4412112408"
+      ],
+      [
+        "W4414480737",
+        "W7160714801"
       ]
     ]
   },
@@ -25656,33 +26601,6 @@
     ]
   },
   {
-    "source": "gist-A5016311061",
-    "target": "kaist-A5108812373",
-    "type": "similarity",
-    "weight": 0.9175,
-    "cross": true,
-    "reasons": [
-      "Complex Network Analysis Techniques",
-      "Theoretical and Computational Physics",
-      "Stochastic processes and statistical mechanics"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4403471811",
-        "W4416105490"
-      ],
-      [
-        "W4410302978",
-        "W4307716622"
-      ],
-      [
-        "W4390829113",
-        "W2976318483"
-      ]
-    ]
-  },
-  {
     "source": "kaist-A5079031932",
     "target": "snu-A5069226047",
     "type": "similarity",
@@ -25783,6 +26701,57 @@
     ]
   },
   {
+    "source": "kaist-A5101588507",
+    "target": "snu-A5019814714",
+    "type": "similarity",
+    "weight": 0.9325,
+    "cross": false,
+    "reasons": [
+      "Algebraic Geometry and Number Theory"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4407634960",
+        "W4400678882"
+      ],
+      [
+        "W3209748770",
+        "W4407759980"
+      ],
+      [
+        "W3209015738",
+        "W2888347871"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5064907804",
+    "target": "kaist-A5100412739",
+    "type": "similarity",
+    "weight": 0.9269,
+    "cross": true,
+    "reasons": [
+      "Machine Learning and Data Classification",
+      "Artificial Intelligence in Healthcare and Education"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4399565344",
+        "W4409180282"
+      ],
+      [
+        "W4414484839",
+        "W4409243338"
+      ],
+      [
+        "W4372342550",
+        "W4403998757"
+      ]
+    ]
+  },
+  {
     "source": "kaist-A5061810530",
     "target": "kaist-A5064907804",
     "type": "similarity",
@@ -25859,6 +26828,31 @@
       [
         "W4400301497",
         "W7119535523"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5022148779",
+    "target": "snu-A5019814714",
+    "type": "similarity",
+    "weight": 0.9269,
+    "cross": false,
+    "reasons": [
+      "Geometric and Algebraic Topology"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4400301497",
+        "W4400678882"
+      ],
+      [
+        "W4405701553",
+        "W4407759980"
+      ],
+      [
+        "W4308494610",
+        "W2888347871"
       ]
     ]
   },
@@ -26260,33 +27254,6 @@
     ]
   },
   {
-    "source": "kaist-A5046066368",
-    "target": "snu-A5078173247",
-    "type": "similarity",
-    "weight": 0.9178,
-    "cross": false,
-    "reasons": [
-      "Real-Time Systems Scheduling",
-      "Parallel Computing and Optimization Techniques",
-      "Distributed systems and fault tolerance"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W7117760048",
-        "W4388483675"
-      ],
-      [
-        "W7131318419",
-        "W4308274134"
-      ],
-      [
-        "W4387298259",
-        "W4388821439"
-      ]
-    ]
-  },
-  {
     "source": "kaist-A5079055843",
     "target": "kaist-A5100362666",
     "type": "similarity",
@@ -26422,6 +27389,168 @@
     ]
   },
   {
+    "source": "kaist-A5100362666",
+    "target": "kaist-A5100412739",
+    "type": "similarity",
+    "weight": 0.9408,
+    "cross": false,
+    "reasons": [
+      "Blockchain Technology Applications and Security",
+      "Advanced Neural Network Applications",
+      "Domain Adaptation and Few-Shot Learning"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4392465467",
+        "W7212019632"
+      ],
+      [
+        "W4386570618",
+        "W4403998757"
+      ],
+      [
+        "W4402347064",
+        "W4409180282"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5067253588",
+    "target": "kaist-A5100412739",
+    "type": "similarity",
+    "weight": 0.9345,
+    "cross": false,
+    "reasons": [
+      "Recommender Systems and Techniques",
+      "Advanced Neural Network Applications",
+      "Domain Adaptation and Few-Shot Learning"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4407953198",
+        "W4309969871"
+      ],
+      [
+        "W4414359653",
+        "W4406355868"
+      ],
+      [
+        "W4415797664",
+        "W4372260474"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5100412739",
+    "target": "kaist-A5101805827",
+    "type": "similarity",
+    "weight": 0.9458,
+    "cross": false,
+    "reasons": [
+      "Recommender Systems and Techniques",
+      "Advanced Neural Network Applications",
+      "Domain Adaptation and Few-Shot Learning"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4382317875",
+        "W4393161100"
+      ],
+      [
+        "W4387729962",
+        "W4390722679"
+      ],
+      [
+        "W4402742346",
+        "W4382400014"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5029363735",
+    "target": "kaist-A5100412739",
+    "type": "similarity",
+    "weight": 0.9377,
+    "cross": false,
+    "reasons": [
+      "Emotion and Mood Recognition",
+      "Ethics and Social Impacts of AI",
+      "Recommender Systems and Techniques"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4385912614",
+        "W4408391954"
+      ],
+      [
+        "W4389542591",
+        "W4416513099"
+      ],
+      [
+        "W4309764412",
+        "W4416381431"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5061810530",
+    "target": "kaist-A5100412739",
+    "type": "similarity",
+    "weight": 0.9375,
+    "cross": false,
+    "reasons": [
+      "Ethics and Social Impacts of AI",
+      "Domain Adaptation and Few-Shot Learning",
+      "Advanced Image Processing Techniques"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4400526351",
+        "W4382317875"
+      ],
+      [
+        "W4409348347",
+        "W4402742346"
+      ],
+      [
+        "W4387029649",
+        "W4408391954"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5077461583",
+    "target": "kaist-A5100412739",
+    "type": "similarity",
+    "weight": 0.9383,
+    "cross": false,
+    "reasons": [
+      "Generative Adversarial Networks and Image Synthesis",
+      "Advanced Neural Network Applications",
+      "Advanced Image Processing Techniques"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4403908246",
+        "W4416381431"
+      ],
+      [
+        "W4313013512",
+        "W4382317875"
+      ],
+      [
+        "W4409262419",
+        "W4408391954"
+      ]
+    ]
+  },
+  {
     "source": "kaist-A5070401254",
     "target": "kaist-A5081305477",
     "type": "similarity",
@@ -26457,7 +27586,7 @@
     "reasons": [
       "Software Testing and Debugging Techniques",
       "Software Engineering Research",
-      "Security and Verification in Computing"
+      "Logic, programming, and type systems"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -26499,33 +27628,6 @@
       [
         "W4414359653",
         "W4415419333"
-      ]
-    ]
-  },
-  {
-    "source": "kaist-A5061810530",
-    "target": "kaist-A5100362666",
-    "type": "similarity",
-    "weight": 0.9209,
-    "cross": false,
-    "reasons": [
-      "Privacy-Preserving Technologies in Data",
-      "Topic Modeling",
-      "Advanced Graph Neural Networks"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4385567819",
-        "W4367043509"
-      ],
-      [
-        "W7166872685",
-        "W4401043267"
-      ],
-      [
-        "W4380356160",
-        "W4390610607"
       ]
     ]
   },
@@ -26580,33 +27682,6 @@
       [
         "W4401043267",
         "W7168424394"
-      ]
-    ]
-  },
-  {
-    "source": "kaist-A5100362666",
-    "target": "snu-A5083084972",
-    "type": "similarity",
-    "weight": 0.9301,
-    "cross": false,
-    "reasons": [
-      "Topic Modeling",
-      "Domain Adaptation and Few-Shot Learning",
-      "Advanced Database Systems and Queries"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4285065828",
-        "W4372258380"
-      ],
-      [
-        "W4401043267",
-        "W4389520021"
-      ],
-      [
-        "W4412825817",
-        "W4285201332"
       ]
     ]
   },
@@ -26693,55 +27768,28 @@
   },
   {
     "source": "kaist-A5102907692",
-    "target": "snu-A5100390278",
+    "target": "snu-A5100415731",
     "type": "similarity",
-    "weight": 0.9225,
+    "weight": 0.9563,
     "cross": false,
     "reasons": [
       "Advanced Data Storage Technologies",
-      "Cloud Computing and Resource Management",
-      "Algorithms and Data Compression"
+      "Parallel Computing and Optimization Techniques",
+      "Advanced Neural Network Applications"
     ],
     "paper_ids": [],
     "paper_pairs": [
       [
         "W4386025698",
-        "W4386928504"
+        "W4417403592"
+      ],
+      [
+        "W4389500318",
+        "W4293024097"
       ],
       [
         "W4285137412",
-        "W4386952819"
-      ],
-      [
-        "W4280598998",
-        "W4383816132"
-      ]
-    ]
-  },
-  {
-    "source": "gist-A5100615032",
-    "target": "kaist-A5100354947",
-    "type": "similarity",
-    "weight": 0.9177,
-    "cross": true,
-    "reasons": [
-      "Advanced Graph Theory Research",
-      "Complexity and Algorithms in Graphs",
-      "Advanced Combinatorial Mathematics"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W2976910567",
-        "W3129594461"
-      ],
-      [
-        "W4399213374",
-        "W4404883652"
-      ],
-      [
-        "W4312734416",
-        "W4404715722"
+        "W4380881079"
       ]
     ]
   },
@@ -27069,6 +28117,33 @@
     ]
   },
   {
+    "source": "kaist-A5057980326",
+    "target": "kaist-A5084814930",
+    "type": "similarity",
+    "weight": 0.9504,
+    "cross": false,
+    "reasons": [
+      "Multimodal Machine Learning Applications",
+      "Advanced Neural Network Applications",
+      "Generative Adversarial Networks and Image Synthesis"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7131073923",
+        "W4416548821"
+      ],
+      [
+        "W4415798860",
+        "W4413146088"
+      ],
+      [
+        "W7133241564",
+        "W4417324087"
+      ]
+    ]
+  },
+  {
     "source": "kaist-A5077461583",
     "target": "kaist-A5084814930",
     "type": "similarity",
@@ -27119,33 +28194,6 @@
       [
         "W7212296501",
         "W7160029296"
-      ]
-    ]
-  },
-  {
-    "source": "kaist-A5084814930",
-    "target": "snu-A5085451600",
-    "type": "similarity",
-    "weight": 0.9333,
-    "cross": false,
-    "reasons": [
-      "Advanced Neural Network Applications",
-      "Topic Modeling",
-      "Artificial Intelligence in Healthcare and Education"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W7134035784",
-        "W7133217330"
-      ],
-      [
-        "W4408441875",
-        "W7133194690"
-      ],
-      [
-        "W4417324087",
-        "W7197033118"
       ]
     ]
   },
@@ -27502,6 +28550,60 @@
   },
   {
     "source": "kaist-A5037553165",
+    "target": "snu-A5100415731",
+    "type": "similarity",
+    "weight": 0.9481,
+    "cross": false,
+    "reasons": [
+      "Parallel Computing and Optimization Techniques",
+      "Advanced Neural Network Applications",
+      "Security and Verification in Computing"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4313591056",
+        "W4308089490"
+      ],
+      [
+        "W4221149185",
+        "W4385438807"
+      ],
+      [
+        "W4392427708",
+        "W4413213050"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5037553165",
+    "target": "snu-A5100767182",
+    "type": "similarity",
+    "weight": 0.954,
+    "cross": false,
+    "reasons": [
+      "Parallel Computing and Optimization Techniques",
+      "Algorithms and Data Compression",
+      "Advanced Neural Network Applications"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4415821280",
+        "W4282959339"
+      ],
+      [
+        "W4392427708",
+        "W4417403573"
+      ],
+      [
+        "W4395020696",
+        "W4313326033"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5037553165",
     "target": "snu-A5083084972",
     "type": "similarity",
     "weight": 0.9303,
@@ -27583,6 +28685,33 @@
   },
   {
     "source": "kaist-A5100641120",
+    "target": "snu-A5102802605",
+    "type": "similarity",
+    "weight": 0.9461,
+    "cross": false,
+    "reasons": [
+      "Topic Modeling",
+      "Natural Language Processing Techniques",
+      "Adversarial Robustness in Machine Learning"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4407192846",
+        "W4404783547"
+      ],
+      [
+        "W4385571725",
+        "W4385573481"
+      ],
+      [
+        "W4410474205",
+        "W4312854033"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5100641120",
     "target": "snu-A5024873601",
     "type": "similarity",
     "weight": 0.969,
@@ -27632,6 +28761,33 @@
       [
         "W7154891356",
         "W4402218392"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5004099860",
+    "target": "kaist-A5057980326",
+    "type": "similarity",
+    "weight": 0.9433,
+    "cross": false,
+    "reasons": [
+      "Generative Adversarial Networks and Image Synthesis",
+      "Multimodal Machine Learning Applications",
+      "Domain Adaptation and Few-Shot Learning"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4402753812",
+        "W7133241564"
+      ],
+      [
+        "W4415306945",
+        "W7133212027"
+      ],
+      [
+        "W4409050055",
+        "W4415343186"
       ]
     ]
   },
@@ -27825,6 +28981,87 @@
     ]
   },
   {
+    "source": "kaist-A5057980326",
+    "target": "kaist-A5077461583",
+    "type": "similarity",
+    "weight": 0.9392,
+    "cross": false,
+    "reasons": [
+      "Generative Adversarial Networks and Image Synthesis",
+      "Advanced Neural Network Applications",
+      "Domain Adaptation and Few-Shot Learning"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7133241564",
+        "W4416066535"
+      ],
+      [
+        "W7133212027",
+        "W4417326904"
+      ],
+      [
+        "W4415798860",
+        "W4415879037"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5057980326",
+    "target": "snu-A5100611457",
+    "type": "similarity",
+    "weight": 0.9428,
+    "cross": false,
+    "reasons": [
+      "Generative Adversarial Networks and Image Synthesis",
+      "Advanced Neural Network Applications",
+      "Multimodal Machine Learning Applications"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7137819989",
+        "W4415994365"
+      ],
+      [
+        "W7133212027",
+        "W4293167273"
+      ],
+      [
+        "W7133241564",
+        "W4413145287"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5057980326",
+    "target": "snu-A5050928023",
+    "type": "similarity",
+    "weight": 0.9602,
+    "cross": false,
+    "reasons": [
+      "Multimodal Machine Learning Applications",
+      "Generative Adversarial Networks and Image Synthesis",
+      "Reinforcement Learning in Robotics"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7133212027",
+        "W4280647980"
+      ],
+      [
+        "W7137819989",
+        "W4409020455"
+      ],
+      [
+        "W4415798860",
+        "W7167896215"
+      ]
+    ]
+  },
+  {
     "source": "kaist-A5077461583",
     "target": "kaist-A5078114111",
     "type": "similarity",
@@ -27968,7 +29205,7 @@
     "reasons": [
       "Software Testing and Debugging Techniques",
       "Software Engineering Research",
-      "Formal Methods in Verification"
+      "Logic, programming, and type systems"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -28366,6 +29603,60 @@
   },
   {
     "source": "kaist-A5047149607",
+    "target": "snu-A5100415731",
+    "type": "similarity",
+    "weight": 0.9427,
+    "cross": false,
+    "reasons": [
+      "Parallel Computing and Optimization Techniques",
+      "Security and Verification in Computing",
+      "Advanced Memory and Neural Computing"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4406093145",
+        "W4413213050"
+      ],
+      [
+        "W4312264564",
+        "W4380881079"
+      ],
+      [
+        "W7154589769",
+        "W4385831294"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5047149607",
+    "target": "snu-A5100767182",
+    "type": "similarity",
+    "weight": 0.933,
+    "cross": false,
+    "reasons": [
+      "Parallel Computing and Optimization Techniques",
+      "Advanced Neural Network Applications",
+      "Matrix Theory and Algorithms"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4406093145",
+        "W4417403573"
+      ],
+      [
+        "W4401212179",
+        "W4413411810"
+      ],
+      [
+        "W4388206714",
+        "W4318541551"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5047149607",
     "target": "snu-A5029793438",
     "type": "similarity",
     "weight": 0.9211,
@@ -28415,6 +29706,33 @@
       [
         "W4313013512",
         "W7133194690"
+      ]
+    ]
+  },
+  {
+    "source": "kaist-A5077461583",
+    "target": "snu-A5102802605",
+    "type": "similarity",
+    "weight": 0.9417,
+    "cross": false,
+    "reasons": [
+      "Generative Adversarial Networks and Image Synthesis",
+      "Domain Adaptation and Few-Shot Learning",
+      "Adversarial Robustness in Machine Learning"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4417326904",
+        "W4367164186"
+      ],
+      [
+        "W4403908246",
+        "W4389912615"
+      ],
+      [
+        "W4409262419",
+        "W4389520153"
       ]
     ]
   },
@@ -30176,8 +31494,8 @@
     "weight": 0.9522,
     "cross": true,
     "reasons": [
-      "Advanced Chemical Physics Studies",
       "Organic and Molecular Conductors Research",
+      "Advanced Chemical Physics Studies",
       "2D Materials and Applications"
     ],
     "paper_ids": [],
@@ -30517,33 +31835,6 @@
       [
         "W4312109264",
         "W4417026143"
-      ]
-    ]
-  },
-  {
-    "source": "snu-A5018225049",
-    "target": "snu-A5103127983",
-    "type": "similarity",
-    "weight": 0.9565,
-    "cross": false,
-    "reasons": [
-      "Radical Photochemical Reactions",
-      "Sulfur-Based Synthesis Techniques",
-      "Cyclopropane Reaction Mechanisms"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4327700360",
-        "W7161945438"
-      ],
-      [
-        "W4389762008",
-        "W7123340746"
-      ],
-      [
-        "W4391389338",
-        "W7127190241"
       ]
     ]
   },
@@ -30976,33 +32267,6 @@
       [
         "W7213339953",
         "W4390547184"
-      ]
-    ]
-  },
-  {
-    "source": "dgist-A5070455001",
-    "target": "snu-A5103127983",
-    "type": "similarity",
-    "weight": 0.9661,
-    "cross": false,
-    "reasons": [
-      "Radical Photochemical Reactions",
-      "Cyclopropane Reaction Mechanisms",
-      "Sulfur-Based Synthesis Techniques"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4416998231",
-        "W7127190241"
-      ],
-      [
-        "W4399522707",
-        "W7161945438"
-      ],
-      [
-        "W4368356844",
-        "W4410948941"
       ]
     ]
   },
@@ -32112,6 +33376,33 @@
     ]
   },
   {
+    "source": "snu-A5019814714",
+    "target": "snu-A5069226047",
+    "type": "similarity",
+    "weight": 0.9355,
+    "cross": false,
+    "reasons": [
+      "Geometric and Algebraic Topology",
+      "Homotopy and Cohomology in Algebraic Topology",
+      "Algebraic Geometry and Number Theory"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4407759980",
+        "W4396759846"
+      ],
+      [
+        "W4400678882",
+        "W7119535523"
+      ],
+      [
+        "W2888347871",
+        "W4210723193"
+      ]
+    ]
+  },
+  {
     "source": "snu-A5031106905",
     "target": "snu-A5112180094",
     "type": "similarity",
@@ -32160,33 +33451,6 @@
       [
         "W4386527366",
         "W4385454248"
-      ]
-    ]
-  },
-  {
-    "source": "snu-A5001365052",
-    "target": "snu-A5101094747",
-    "type": "similarity",
-    "weight": 0.9177,
-    "cross": false,
-    "reasons": [
-      "Stochastic processes and statistical mechanics",
-      "Nonlinear Partial Differential Equations",
-      "Geometric Analysis and Curvature Flows"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4310063608",
-        "W4296022975"
-      ],
-      [
-        "W4405102204",
-        "W7118891616"
-      ],
-      [
-        "W4287332602",
-        "W4389260912"
       ]
     ]
   },
@@ -32404,33 +33668,6 @@
     ]
   },
   {
-    "source": "snu-A5008790245",
-    "target": "snu-A5044577463",
-    "type": "similarity",
-    "weight": 0.9174,
-    "cross": false,
-    "reasons": [
-      "Advanced Algebra and Geometry",
-      "Algebraic Geometry and Number Theory",
-      "Analytic Number Theory Research"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W3216400106",
-        "W3168045167"
-      ],
-      [
-        "W4405627849",
-        "W4383343781"
-      ],
-      [
-        "W3038353003",
-        "W3023259722"
-      ]
-    ]
-  },
-  {
     "source": "snu-A5041150244",
     "target": "snu-A5112601677",
     "type": "similarity",
@@ -32560,33 +33797,6 @@
     ]
   },
   {
-    "source": "gist-A5016311061",
-    "target": "snu-A5009809362",
-    "type": "similarity",
-    "weight": 0.9177,
-    "cross": true,
-    "reasons": [
-      "Opinion Dynamics and Social Influence",
-      "Complex Systems and Time Series Analysis",
-      "Stochastic processes and statistical mechanics"
-    ],
-    "paper_ids": [],
-    "paper_pairs": [
-      [
-        "W4390829113",
-        "W4414462959"
-      ],
-      [
-        "W4283009074",
-        "W7122806830"
-      ],
-      [
-        "W4403471811",
-        "W7170184032"
-      ]
-    ]
-  },
-  {
     "source": "snu-A5074561505",
     "target": "snu-A5085451600",
     "type": "similarity",
@@ -32641,6 +33851,33 @@
     ]
   },
   {
+    "source": "snu-A5074561505",
+    "target": "snu-A5102802605",
+    "type": "similarity",
+    "weight": 0.9398,
+    "cross": false,
+    "reasons": [
+      "Recommender Systems and Techniques",
+      "Domain Adaptation and Few-Shot Learning",
+      "Graph Theory and Algorithms"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4406141920",
+        "W4407900311"
+      ],
+      [
+        "W4416016018",
+        "W7207528179"
+      ],
+      [
+        "W4406460295",
+        "W4389718660"
+      ]
+    ]
+  },
+  {
     "source": "snu-A5062560097",
     "target": "snu-A5100390278",
     "type": "similarity",
@@ -32649,7 +33886,7 @@
     "reasons": [
       "Advanced Data Storage Technologies",
       "Advanced Database Systems and Queries",
-      "Parallel Computing and Optimization Techniques"
+      "Semiconductor materials and devices"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -32695,6 +33932,33 @@
     ]
   },
   {
+    "source": "snu-A5062560097",
+    "target": "snu-A5100415731",
+    "type": "similarity",
+    "weight": 0.9618,
+    "cross": false,
+    "reasons": [
+      "Advanced Data Storage Technologies",
+      "Parallel Computing and Optimization Techniques",
+      "Security and Verification in Computing"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7155489683",
+        "W4380881079"
+      ],
+      [
+        "W7161743014",
+        "W4410356777"
+      ],
+      [
+        "W4411486373",
+        "W4312973582"
+      ]
+    ]
+  },
+  {
     "source": "snu-A5055059863",
     "target": "snu-A5100390278",
     "type": "similarity",
@@ -32718,6 +33982,33 @@
       [
         "W4312768999",
         "W4386952819"
+      ]
+    ]
+  },
+  {
+    "source": "snu-A5100390278",
+    "target": "snu-A5100415731",
+    "type": "similarity",
+    "weight": 0.9294,
+    "cross": false,
+    "reasons": [
+      "Advanced Data Storage Technologies",
+      "Advanced Database Systems and Queries",
+      "Cloud Computing and Resource Management"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4366492512",
+        "W4410356777"
+      ],
+      [
+        "W7213978905",
+        "W4386117835"
+      ],
+      [
+        "W4386928504",
+        "W4410356974"
       ]
     ]
   },
@@ -32803,6 +34094,33 @@
     ]
   },
   {
+    "source": "snu-A5085451600",
+    "target": "snu-A5102802605",
+    "type": "similarity",
+    "weight": 0.9479,
+    "cross": false,
+    "reasons": [
+      "Adversarial Robustness in Machine Learning",
+      "Advanced Neural Network Applications",
+      "Topic Modeling"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4385571804",
+        "W4385573261"
+      ],
+      [
+        "W7133194690",
+        "W4389520153"
+      ],
+      [
+        "W7133217330",
+        "W4385718153"
+      ]
+    ]
+  },
+  {
     "source": "snu-A5050928023",
     "target": "snu-A5085451600",
     "type": "similarity",
@@ -32880,6 +34198,33 @@
       [
         "W4389523656",
         "W7133217330"
+      ]
+    ]
+  },
+  {
+    "source": "snu-A5044493612",
+    "target": "snu-A5100767182",
+    "type": "similarity",
+    "weight": 0.9248,
+    "cross": false,
+    "reasons": [
+      "Parallel Computing and Optimization Techniques",
+      "Advanced Neural Network Applications",
+      "Distributed and Parallel Computing Systems"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W7162194745",
+        "W4417403573"
+      ],
+      [
+        "W4220738659",
+        "W4406033018"
+      ],
+      [
+        "W4361794501",
+        "W4395073435"
       ]
     ]
   },
@@ -32992,6 +34337,33 @@
     ]
   },
   {
+    "source": "snu-A5024873601",
+    "target": "snu-A5102802605",
+    "type": "similarity",
+    "weight": 0.9644,
+    "cross": false,
+    "reasons": [
+      "Topic Modeling",
+      "Natural Language Processing Techniques",
+      "Speech and dialogue systems"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4382202643",
+        "W4385718153"
+      ],
+      [
+        "W4327645605",
+        "W4404783547"
+      ],
+      [
+        "W4414809481",
+        "W4307865218"
+      ]
+    ]
+  },
+  {
     "source": "snu-A5083084972",
     "target": "snu-A5114626700",
     "type": "similarity",
@@ -33042,6 +34414,60 @@
       [
         "W4402727580",
         "W4383889910"
+      ]
+    ]
+  },
+  {
+    "source": "snu-A5100415731",
+    "target": "snu-A5100767182",
+    "type": "similarity",
+    "weight": 0.9336,
+    "cross": false,
+    "reasons": [
+      "Parallel Computing and Optimization Techniques",
+      "Algorithms and Data Compression",
+      "Advanced Neural Network Applications"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4413213050",
+        "W4417403573"
+      ],
+      [
+        "W4312973582",
+        "W4318541551"
+      ],
+      [
+        "W4416017149",
+        "W4406033018"
+      ]
+    ]
+  },
+  {
+    "source": "snu-A5029793438",
+    "target": "snu-A5100767182",
+    "type": "similarity",
+    "weight": 0.9188,
+    "cross": false,
+    "reasons": [
+      "Parallel Computing and Optimization Techniques",
+      "Advanced Neural Network Applications",
+      "Embedded Systems Design Techniques"
+    ],
+    "paper_ids": [],
+    "paper_pairs": [
+      [
+        "W4385280915",
+        "W4313326033"
+      ],
+      [
+        "W7163525291",
+        "W4282959339"
+      ],
+      [
+        "W4399886222",
+        "W4318541551"
       ]
     ]
   },
@@ -33592,6 +35018,18 @@
     "reasons": [],
     "paper_ids": [
       "W4308775203"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "dgist-A5004876274",
+    "target": "dgist-A5015429226",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4385618089"
     ],
     "paper_pairs": []
   },
@@ -34412,6 +35850,18 @@
     "paper_pairs": []
   },
   {
+    "source": "gist-A5008969887",
+    "target": "gist-A5100412371",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4402813711"
+    ],
+    "paper_pairs": []
+  },
+  {
     "source": "gist-A5009338048",
     "target": "gist-A5084182391",
     "type": "coauthor",
@@ -34498,6 +35948,30 @@
     "paper_ids": [
       "W4393188093",
       "W4413237786"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "gist-A5013222112",
+    "target": "gist-A5100740580",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4387865664"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "gist-A5013222112",
+    "target": "postech-A5080004279",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4303684320"
     ],
     "paper_pairs": []
   },
@@ -35049,6 +36523,18 @@
       "W4388189681",
       "W4411038277",
       "W7166673908"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "gist-A5065178055",
+    "target": "gist-A5100412371",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4402813711"
     ],
     "paper_pairs": []
   },
@@ -35778,6 +37264,19 @@
   },
   {
     "source": "kaist-A5013204190",
+    "target": "kaist-A5100424985",
+    "type": "coauthor",
+    "weight": 2.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4318499548",
+      "W4385431179"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "kaist-A5013204190",
     "target": "snu-A5027374744",
     "type": "coauthor",
     "weight": 1.0,
@@ -35958,6 +37457,18 @@
     "reasons": [],
     "paper_ids": [
       "W4408349413"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "kaist-A5019876038",
+    "target": "kaist-A5100424985",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": true,
+    "reasons": [],
+    "paper_ids": [
+      "W4400029583"
     ],
     "paper_pairs": []
   },
@@ -36275,6 +37786,18 @@
   },
   {
     "source": "kaist-A5030203661",
+    "target": "kaist-A5044287208",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4293737571"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "kaist-A5030203661",
     "target": "kaist-A5048407979",
     "type": "coauthor",
     "weight": 1.0,
@@ -36297,6 +37820,18 @@
       "W4391756845",
       "W4410973411",
       "W4411006446"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "kaist-A5030203661",
+    "target": "kaist-A5100424985",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": true,
+    "reasons": [],
+    "paper_ids": [
+      "W4293279737"
     ],
     "paper_pairs": []
   },
@@ -36791,6 +38326,32 @@
     "paper_pairs": []
   },
   {
+    "source": "kaist-A5044287208",
+    "target": "kaist-A5086637390",
+    "type": "coauthor",
+    "weight": 3.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4382056975",
+      "W4384626754",
+      "W4415439218"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "kaist-A5044287208",
+    "target": "postech-A5030673319",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4405106290"
+    ],
+    "paper_pairs": []
+  },
+  {
     "source": "kaist-A5045941705",
     "target": "unist-A5046785997",
     "type": "coauthor",
@@ -36965,6 +38526,18 @@
     "reasons": [],
     "paper_ids": [
       "W4292510220"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "kaist-A5048407979",
+    "target": "kaist-A5100424985",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": true,
+    "reasons": [],
+    "paper_ids": [
+      "W4285011371"
     ],
     "paper_pairs": []
   },
@@ -37182,6 +38755,18 @@
     "reasons": [],
     "paper_ids": [
       "W4389407755"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "kaist-A5059786116",
+    "target": "kaist-A5080272556",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4406149683"
     ],
     "paper_pairs": []
   },
@@ -37545,6 +39130,18 @@
   },
   {
     "source": "kaist-A5072366749",
+    "target": "kaist-A5080272556",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4414393081"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "kaist-A5072366749",
     "target": "kaist-A5087466819",
     "type": "coauthor",
     "weight": 2.0,
@@ -37553,6 +39150,18 @@
     "paper_ids": [
       "W4385431179",
       "W7204224264"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "kaist-A5072366749",
+    "target": "kaist-A5100424985",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4385431179"
     ],
     "paper_pairs": []
   },
@@ -37693,6 +39302,78 @@
     "paper_pairs": []
   },
   {
+    "source": "kaist-A5080272556",
+    "target": "kaist-A5087466819",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4382056661"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "kaist-A5080272556",
+    "target": "kaist-A5089223715",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4406149683"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "kaist-A5080272556",
+    "target": "kaist-A5101520308",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4406149683"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "kaist-A5080272556",
+    "target": "kaist-A5103056397",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4304957129"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "kaist-A5080272556",
+    "target": "snu-A5010084845",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4401305237"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "kaist-A5080272556",
+    "target": "snu-A5035400785",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4365504554"
+    ],
+    "paper_pairs": []
+  },
+  {
     "source": "kaist-A5087466819",
     "target": "kaist-A5089863464",
     "type": "coauthor",
@@ -37701,6 +39382,18 @@
     "reasons": [],
     "paper_ids": [
       "W4410966948"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "kaist-A5087466819",
+    "target": "kaist-A5100424985",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4385431179"
     ],
     "paper_pairs": []
   },
@@ -38030,6 +39723,18 @@
     "paper_ids": [
       "W4402976597",
       "W4403334608"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "kaist-A5100424985",
+    "target": "snu-A5082258548",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4403757140"
     ],
     "paper_pairs": []
   },
@@ -38841,6 +40546,18 @@
     "reasons": [],
     "paper_ids": [
       "W4281656703"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "postech-A5025254146",
+    "target": "unist-A5101439656",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4404166413"
     ],
     "paper_pairs": []
   },
@@ -40512,6 +42229,18 @@
     "paper_pairs": []
   },
   {
+    "source": "snu-A5043286860",
+    "target": "unist-A5100339473",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4387935224"
+    ],
+    "paper_pairs": []
+  },
+  {
     "source": "snu-A5043554497",
     "target": "snu-A5073947704",
     "type": "coauthor",
@@ -41120,6 +42849,18 @@
   },
   {
     "source": "snu-A5083084972",
+    "target": "snu-A5100415731",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4372258380"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "snu-A5083084972",
     "target": "snu-A5114626700",
     "type": "coauthor",
     "weight": 3.0,
@@ -41153,6 +42894,18 @@
     "reasons": [],
     "paper_ids": [
       "W4412658192"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "snu-A5085451600",
+    "target": "snu-A5100415731",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W7196955186"
     ],
     "paper_pairs": []
   },
@@ -41205,6 +42958,18 @@
     "paper_ids": [
       "W4410948941",
       "W7205010520"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "snu-A5100439010",
+    "target": "snu-A5100767182",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4283019099"
     ],
     "paper_pairs": []
   },
@@ -41271,6 +43036,44 @@
     "reasons": [],
     "paper_ids": [
       "W4405894753"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "unist-A5007382558",
+    "target": "unist-A5017217837",
+    "type": "coauthor",
+    "weight": 2.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4382344985",
+      "W4385408033"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "unist-A5007382558",
+    "target": "unist-A5041900986",
+    "type": "coauthor",
+    "weight": 2.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4382344985",
+      "W4385408033"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "unist-A5007382558",
+    "target": "unist-A5100749356",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4385408033"
     ],
     "paper_pairs": []
   },
@@ -41636,6 +43439,18 @@
   },
   {
     "source": "unist-A5041027236",
+    "target": "unist-A5100339473",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4408554365"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "unist-A5041027236",
     "target": "unist-A5100749356",
     "type": "coauthor",
     "weight": 3.0,
@@ -41788,6 +43603,23 @@
     "paper_pairs": []
   },
   {
+    "source": "unist-A5044210377",
+    "target": "unist-A5101439656",
+    "type": "coauthor",
+    "weight": 6.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4387900087",
+      "W4387900415",
+      "W4392166733",
+      "W4405706630",
+      "W7154708234",
+      "W7154719515"
+    ],
+    "paper_pairs": []
+  },
+  {
     "source": "unist-A5044742844",
     "target": "unist-A5047602571",
     "type": "coauthor",
@@ -41840,6 +43672,18 @@
     "paper_pairs": []
   },
   {
+    "source": "unist-A5046785997",
+    "target": "unist-A5101439656",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4392166733"
+    ],
+    "paper_pairs": []
+  },
+  {
     "source": "unist-A5050686436",
     "target": "unist-A5057681381",
     "type": "coauthor",
@@ -41876,6 +43720,22 @@
     "paper_pairs": []
   },
   {
+    "source": "unist-A5050686436",
+    "target": "unist-A5101439656",
+    "type": "coauthor",
+    "weight": 5.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4392166733",
+      "W4404166413",
+      "W4405706630",
+      "W7154708234",
+      "W7154719515"
+    ],
+    "paper_pairs": []
+  },
+  {
     "source": "unist-A5056250877",
     "target": "unist-A5057681381",
     "type": "coauthor",
@@ -41897,6 +43757,18 @@
     "reasons": [],
     "paper_ids": [
       "W4403132098"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "unist-A5056250877",
+    "target": "unist-A5101439656",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4296193024"
     ],
     "paper_pairs": []
   },
@@ -41926,6 +43798,18 @@
     "reasons": [],
     "paper_ids": [
       "W4388672775"
+    ],
+    "paper_pairs": []
+  },
+  {
+    "source": "unist-A5084310453",
+    "target": "unist-A5101439656",
+    "type": "coauthor",
+    "weight": 1.0,
+    "cross": false,
+    "reasons": [],
+    "paper_ids": [
+      "W4405706630"
     ],
     "paper_pairs": []
   }

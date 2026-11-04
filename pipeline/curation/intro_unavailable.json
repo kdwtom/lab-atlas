@@ -5,6 +5,10 @@
       "reason": "mixed_topics",
       "note": "X-ray scattering papers mixed with criminal-law papers"
     },
+    "gist-A5013222112": {
+      "reason": "mixed_topics",
+      "note": "motor neuron development papers mixed with child-welfare and social-work papers of a namesake, which also lead the keywords"
+    },
     "gist-A5017075809": {
       "reason": "insufficient_papers",
       "note": "2 analysis papers (medical machine learning), mathematics department"
@@ -32,6 +36,14 @@
     "kaist-A5038403149": {
       "reason": "insufficient_papers",
       "note": "3 analysis papers, 1 senior; none on the lab's ultrafast imaging"
+    },
+    "kaist-A5062186042": {
+      "reason": "insufficient_papers",
+      "note": "3 analysis papers, one of them a namesake's; 2 motivic cohomology papers"
+    },
+    "kaist-A5075516902": {
+      "reason": "mixed_topics",
+      "note": "indoor positioning papers mixed with theology and feng-shui papers of a namesake"
     },
     "kaist-A5084168318": {
       "reason": "insufficient_papers",
@@ -77,6 +89,10 @@
       "reason": "insufficient_papers",
       "note": "1 analysis paper"
     },
+    "unist-A5100339473": {
+      "reason": "mixed_topics",
+      "note": "cancer cell death papers mixed with nursing, education and environmental papers; profile choice is also lower confidence"
+    },
     "unist-A5100765704": {
       "reason": "mixed_topics",
       "note": "reservoir computing mixed with displays, sign language, Indonesian social data"
@@ -88,12 +104,15 @@
     "gist-A5049499414": "depression biomarker papers",
     "gist-A5076624264": "food-microbiology papers",
     "gist-A5117233229": "physics papers mixed with medicine and neuroscience",
+    "kaist-A5013893562": "one exercise-physiology paper, which also reaches the keywords",
     "kaist-A5027517013": "cancer platelets, corn breeding, network intrusion papers",
     "kaist-A5031132473": "civil-service and literature papers",
     "kaist-A5048407979": "aircraft fatigue and design-thinking papers",
     "kaist-A5073867321": "management and surveillance papers",
     "kaist-A5082521029": "one nutrition paper",
     "kaist-A5100386550": "one corporate-finance paper",
+    "kaist-A5100412739": "one tea-culture paper",
+    "kaist-A5100424985": "neuroscience papers mixed with some social-work and management papers of a namesake",
     "kaist-A5100627007": "brain MRI, career and labor-relations papers",
     "kaist-A5100653784": "film and rural-migration papers",
     "postech-A5046753852": "one breast-imaging paper",
@@ -101,6 +120,7 @@
     "postech-A5090689321": "export-trade and intent-classification papers",
     "postech-A5100359395": "a few engineering papers (ionizers, soft systems, stainless steel)",
     "postech-A5102012499": "education and infant-gaze papers",
+    "snu-A5019814714": "3 analysis papers only, all on one topic",
     "snu-A5100390278": "contract-law and building papers",
     "snu-A5100418710": "satellite, steel and drone papers",
     "snu-A5100755766": "cellular-automata and landscape papers",
