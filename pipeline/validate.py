@@ -33,16 +33,22 @@ def web_integrity() -> list[str]:
     labs = read_json(d / "labs.json")
     papers = read_json(d / "papers.json")
     edges = read_json(d / "edges.json")
-    clusters = {c["id"] for c in read_json(d / "clusters.json")}
+    cluster_list = read_json(d / "clusters.json")
+    clusters = {c["id"] for c in cluster_list}
+    parent_of_sub = {s["id"]: c["id"] for c in cluster_list for s in c.get("subclusters", [])}
     lab_ids, paper_ids = {l["id"] for l in labs}, {p["id"] for p in papers}
     if any(r not in paper_ids for l in labs for r in l["representative_paper_ids"]):
         errors.append("web: representative paper missing from papers.json")
     if any(l["cluster_id"] is not None and l["cluster_id"] not in clusters for l in labs):
         errors.append("web: lab refers to unknown cluster")
+    if parent_of_sub and any(parent_of_sub.get(l.get("subcluster_id")) != l["cluster_id"] for l in labs):
+        errors.append("web: lab sub-cluster missing or not inside its cluster")
     if any(e["source"] not in lab_ids or e["target"] not in lab_ids or e["source"] >= e["target"] for e in edges):
         errors.append("web: edge endpoints unknown or not ordered (source < target)")
     if any(q not in paper_ids for e in edges for pair in e.get("paper_pairs", []) for q in pair):
         errors.append("web: similarity edge refers to a paper missing from papers.json")
+    if any(t not in lab_ids for l in labs for t in ((l.get("trend") or {}).get("toward_lab_ids") or [])):
+        errors.append("web: lab trend points at an unknown lab")
     if any(not set(p["lab_ids"]) <= lab_ids for p in papers):
         errors.append("web: paper refers to unknown lab")
     # principle 4 (no abstract text) and no personal contact data on the site

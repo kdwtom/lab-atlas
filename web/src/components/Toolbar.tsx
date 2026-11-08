@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import type { Lab } from '../types/data';
 import { useAtlas } from '../data/DataContext';
-import { useExplore } from '../data/explore';
+import { passesFilters, useExplore } from '../data/explore';
 import { UNIV_LABEL, UNIV_ORDER } from '../lib/format';
 import { FIELD_LABEL, FIELD_ORDER, fieldColor, type Mode } from '../lib/palette';
 import SearchBox from './SearchBox';
@@ -44,6 +44,15 @@ export default function Toolbar({ mode, shown, onPick }: Props) {
     try { localStorage.setItem(SECTION_KEY, JSON.stringify([...next])); } catch { /* the choice just is not remembered */ }
   };
   const active: Record<Section, number> = { univ: ex.univs.size, field: ex.fields.size, cluster: ex.clusters.size };
+  // clusters offered under the chosen universities and fields, with the number of labs left in each; a chosen cluster
+  // stays visible (with 0) so it can be turned off
+  const narrowed = ex.univs.size > 0 || ex.fields.size > 0;
+  const clusterCount = new Map<number, number>();
+  for (const l of atlas.labs) {
+    if (l.cluster_id === null || !passesFilters(l, { univs: ex.univs, fields: ex.fields, clusters: new Set() })) continue;
+    clusterCount.set(l.cluster_id, (clusterCount.get(l.cluster_id) ?? 0) + 1);
+  }
+  const offered = atlas.clusters.filter((c) => (clusterCount.get(c.id) ?? 0) > 0 || ex.clusters.has(c.id));
 
   return (
     <div className="toolbar">
@@ -101,12 +110,15 @@ export default function Toolbar({ mode, shown, onPick }: Props) {
 
       <div id="filter-cluster" hidden={!open.has('cluster')} className="toolbar-row chips" role="group" aria-label="클러스터 필터">
         <span className="chips-label">클러스터</span>
-        {atlas.clusters.map((c) => (
+        {offered.map((c) => (
           <button key={c.id} className="chip" aria-pressed={ex.clusters.has(c.id)} onClick={() => ex.toggleCluster(c.id)}
                   title={c.keywords.slice(0, 3).join(', ')}>
-            {c.label_ko} <span className="muted">{c.size}</span>
+            {c.label_ko} <span className="muted">{clusterCount.get(c.id) ?? 0}</span>
           </button>
         ))}
+        {narrowed && offered.length < atlas.clusters.length && (
+          <span className="muted small">선택한 대학·분야에 연구실이 있는 {offered.length}개만 표시</span>
+        )}
       </div>
       {ex.view === 'graph' && (
         <p className="legend-note">

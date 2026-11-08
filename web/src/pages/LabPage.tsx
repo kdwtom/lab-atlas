@@ -6,6 +6,7 @@ import { NA, affiliation, doiHref, fmtDate, introText, labTitle, neighbourCautio
 import type { Mode } from '../lib/palette';
 import { ClusterChip, FieldChips } from '../components/LabPanel';
 import StarButton from '../components/StarButton';
+import TrendSection from '../components/TrendSection';
 
 const SUMMARY_FIELDS: [keyof PaperSummary, string][] = [
   ['background', '연구 배경'],
@@ -94,7 +95,7 @@ export default function LabPage({ mode }: { mode: Mode }) {
         <div className="head-meta">
           <StarButton id={lab.id} name={piName(lab)} />
           <FieldChips lab={lab} mode={mode} />
-          <ClusterChip id={lab.cluster_id} />
+          <ClusterChip lab={lab} />
           <span>최근 5년 논문 <strong>{lab.paper_count_5y}</strong>편</span>
           <span title={atlas.meta.rules[lab.disciplines[0]] ?? ''}>
             기준 충족 논문 <strong>{lab.senior_paper_count_5y}</strong>편
@@ -126,6 +127,13 @@ export default function LabPage({ mode }: { mode: Mode }) {
           <div className="cards">{reps.map((p) => <PaperCard key={p.id} paper={p} labId={lab.id} />)}</div>
         ) : <p className="muted">{NA}</p>}
       </section>
+
+      {lab.trend && (
+        <section>
+          <h2>연구 방향 변화</h2>
+          <TrendSection lab={lab} />
+        </section>
+      )}
 
       <section>
         <h2>연도별 주요 키워드</h2>

@@ -303,6 +303,7 @@
   "labs": {
     "kaist-A5103056397": {
       "cluster_id": 0,
+      "subcluster_id": 2,
       "x": 0.09457,
       "y": -0.33074,
       "keywords": [
@@ -358,6 +359,7 @@
     },
     "kaist-A5102961870": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.38935,
       "y": -0.65645,
       "keywords": [
@@ -413,6 +415,7 @@
     },
     "kaist-A5101520308": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": 0.02466,
       "y": -0.3636,
       "keywords": [
@@ -468,6 +471,7 @@
     },
     "kaist-A5028509727": {
       "cluster_id": 4,
+      "subcluster_id": 15,
       "x": -0.05463,
       "y": -0.52323,
       "keywords": [
@@ -523,6 +527,7 @@
     },
     "kaist-A5013204190": {
       "cluster_id": 14,
+      "subcluster_id": 40,
       "x": 0.22665,
       "y": -0.40851,
       "keywords": [
@@ -578,6 +583,7 @@
     },
     "kaist-A5023660115": {
       "cluster_id": 4,
+      "subcluster_id": 16,
       "x": -0.08487,
       "y": -0.32575,
       "keywords": [
@@ -633,6 +639,7 @@
     },
     "kaist-A5045941705": {
       "cluster_id": 5,
+      "subcluster_id": 18,
       "x": -0.20834,
       "y": -0.10133,
       "keywords": [
@@ -688,6 +695,7 @@
     },
     "kaist-A5062127128": {
       "cluster_id": 14,
+      "subcluster_id": 40,
       "x": 0.24187,
       "y": -0.43546,
       "keywords": [
@@ -743,6 +751,7 @@
     },
     "kaist-A5087466819": {
       "cluster_id": 14,
+      "subcluster_id": 40,
       "x": 0.18465,
       "y": -0.42273,
       "keywords": [
@@ -798,6 +807,7 @@
     },
     "kaist-A5059786116": {
       "cluster_id": 4,
+      "subcluster_id": 15,
       "x": -0.09654,
       "y": -0.50092,
       "keywords": [
@@ -837,6 +847,7 @@
     },
     "kaist-A5046978935": {
       "cluster_id": 0,
+      "subcluster_id": 1,
       "x": 0.05903,
       "y": -0.48613,
       "keywords": [
@@ -892,6 +903,7 @@
     },
     "kaist-A5100434399": {
       "cluster_id": 4,
+      "subcluster_id": 15,
       "x": 0.00877,
       "y": -0.49451,
       "keywords": [
@@ -947,6 +959,7 @@
     },
     "kaist-A5100424985": {
       "cluster_id": 14,
+      "subcluster_id": 40,
       "x": 0.25203,
       "y": -0.42074,
       "keywords": [
@@ -1002,6 +1015,7 @@
     },
     "kaist-A5031437702": {
       "cluster_id": 0,
+      "subcluster_id": 2,
       "x": 0.06852,
       "y": -0.29822,
       "keywords": [
@@ -1057,6 +1071,7 @@
     },
     "kaist-A5038114229": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": 0.09535,
       "y": -0.40791,
       "keywords": [
@@ -1112,6 +1127,7 @@
     },
     "kaist-A5038871139": {
       "cluster_id": 4,
+      "subcluster_id": 15,
       "x": -0.03372,
       "y": -0.51492,
       "keywords": [
@@ -1151,6 +1167,7 @@
     },
     "kaist-A5083929538": {
       "cluster_id": 14,
+      "subcluster_id": 40,
       "x": 0.29795,
       "y": -0.41405,
       "keywords": [
@@ -1206,6 +1223,7 @@
     },
     "kaist-A5072366749": {
       "cluster_id": 14,
+      "subcluster_id": 40,
       "x": 0.17772,
       "y": -0.37869,
       "keywords": [
@@ -1261,6 +1279,7 @@
     },
     "kaist-A5080272556": {
       "cluster_id": 0,
+      "subcluster_id": 1,
       "x": 0.08886,
       "y": -0.41743,
       "keywords": [
@@ -1316,6 +1335,7 @@
     },
     "kaist-A5089223715": {
       "cluster_id": 4,
+      "subcluster_id": 15,
       "x": -0.04482,
       "y": -0.50734,
       "keywords": [
@@ -1371,6 +1391,7 @@
     },
     "kaist-A5089750807": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.41406,
       "y": -0.6816,
       "keywords": [
@@ -1426,6 +1447,7 @@
     },
     "kaist-A5055397906": {
       "cluster_id": 14,
+      "subcluster_id": 40,
       "x": 0.2743,
       "y": -0.40928,
       "keywords": [
@@ -1465,6 +1487,7 @@
     },
     "kaist-A5089863464": {
       "cluster_id": 14,
+      "subcluster_id": 40,
       "x": 0.22965,
       "y": -0.41338,
       "keywords": [
@@ -1520,6 +1543,7 @@
     },
     "snu-A5079132836": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": 0.02284,
       "y": -0.43947,
       "keywords": [
@@ -1575,6 +1599,7 @@
     },
     "snu-A5091561167": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.1239,
       "y": -0.47932,
       "keywords": [
@@ -1614,6 +1639,7 @@
     },
     "snu-A5101786821": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": 0.10999,
       "y": -0.42428,
       "keywords": [
@@ -1653,6 +1679,7 @@
     },
     "snu-A5043554497": {
       "cluster_id": 4,
+      "subcluster_id": 15,
       "x": -0.04317,
       "y": -0.5402,
       "keywords": [
@@ -1708,6 +1735,7 @@
     },
     "snu-A5080563770": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": 0.05542,
       "y": -0.39354,
       "keywords": [
@@ -1763,6 +1791,7 @@
     },
     "snu-A5082258548": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.04094,
       "y": -0.43591,
       "keywords": [
@@ -1818,6 +1847,7 @@
     },
     "snu-A5100752174": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": 0.04784,
       "y": -0.37755,
       "keywords": [
@@ -1873,6 +1903,7 @@
     },
     "snu-A5059809445": {
       "cluster_id": 14,
+      "subcluster_id": 40,
       "x": 0.29466,
       "y": -0.39568,
       "keywords": [
@@ -1928,6 +1959,7 @@
     },
     "snu-A5079762603": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.14862,
       "y": -0.45602,
       "keywords": [
@@ -1983,6 +2015,7 @@
     },
     "snu-A5079920356": {
       "cluster_id": 0,
+      "subcluster_id": 2,
       "x": 0.07023,
       "y": -0.31347,
       "keywords": [
@@ -2030,6 +2063,7 @@
     },
     "snu-A5019985343": {
       "cluster_id": 4,
+      "subcluster_id": 16,
       "x": -0.19339,
       "y": -0.3479,
       "keywords": [
@@ -2085,6 +2119,7 @@
     },
     "snu-A5044961635": {
       "cluster_id": 4,
+      "subcluster_id": 16,
       "x": -0.21593,
       "y": -0.32686,
       "keywords": [
@@ -2132,6 +2167,7 @@
     },
     "snu-A5010084845": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": -0.00095,
       "y": -0.47317,
       "keywords": [
@@ -2179,6 +2215,7 @@
     },
     "snu-A5056148684": {
       "cluster_id": 0,
+      "subcluster_id": 3,
       "x": -0.02042,
       "y": -0.27736,
       "keywords": [
@@ -2234,6 +2271,7 @@
     },
     "snu-A5100619952": {
       "cluster_id": 0,
+      "subcluster_id": 1,
       "x": 0.13494,
       "y": -0.38701,
       "keywords": [
@@ -2289,6 +2327,7 @@
     },
     "snu-A5035020917": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.272,
       "y": -0.56214,
       "keywords": [
@@ -2344,6 +2383,7 @@
     },
     "snu-A5020003410": {
       "cluster_id": 4,
+      "subcluster_id": 15,
       "x": 0.07645,
       "y": -0.52387,
       "keywords": [
@@ -2365,6 +2405,7 @@
     },
     "snu-A5101407061": {
       "cluster_id": 4,
+      "subcluster_id": 15,
       "x": -0.01364,
       "y": -0.52266,
       "keywords": [
@@ -2404,6 +2445,7 @@
     },
     "snu-A5055820463": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.17565,
       "y": -0.34519,
       "keywords": [
@@ -2459,6 +2501,7 @@
     },
     "snu-A5059278158": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.42823,
       "y": -0.67226,
       "keywords": [
@@ -2514,6 +2557,7 @@
     },
     "snu-A5100364611": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.32468,
       "y": -0.60437,
       "keywords": [
@@ -2553,6 +2597,7 @@
     },
     "snu-A5073145639": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.41551,
       "y": -0.70733,
       "keywords": [
@@ -2608,6 +2653,7 @@
     },
     "snu-A5100366248": {
       "cluster_id": 4,
+      "subcluster_id": 15,
       "x": 0.14467,
       "y": -0.52073,
       "keywords": [
@@ -2655,6 +2701,7 @@
     },
     "snu-A5100447456": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.41598,
       "y": -0.68047,
       "keywords": [
@@ -2710,6 +2757,7 @@
     },
     "snu-A5067045439": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.29103,
       "y": -0.58549,
       "keywords": [
@@ -2765,6 +2813,7 @@
     },
     "snu-A5073947704": {
       "cluster_id": 4,
+      "subcluster_id": 15,
       "x": -0.01138,
       "y": -0.54031,
       "keywords": [
@@ -2812,6 +2861,7 @@
     },
     "snu-A5035400785": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": 0.03491,
       "y": -0.42565,
       "keywords": [
@@ -2867,6 +2917,7 @@
     },
     "snu-A5002329152": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.22609,
       "y": -0.55436,
       "keywords": [
@@ -2922,6 +2973,7 @@
     },
     "snu-A5048256742": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.40331,
       "y": -0.70866,
       "keywords": [
@@ -2969,6 +3021,7 @@
     },
     "snu-A5073424725": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.3767,
       "y": -0.63788,
       "keywords": [
@@ -3016,6 +3069,7 @@
     },
     "snu-A5002951805": {
       "cluster_id": 14,
+      "subcluster_id": 40,
       "x": 0.27086,
       "y": -0.38272,
       "keywords": [
@@ -3063,6 +3117,7 @@
     },
     "snu-A5103145861": {
       "cluster_id": 14,
+      "subcluster_id": 40,
       "x": 0.30015,
       "y": -0.40957,
       "keywords": [
@@ -3102,6 +3157,7 @@
     },
     "snu-A5057696830": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.38654,
       "y": -0.69677,
       "keywords": [
@@ -3149,6 +3205,7 @@
     },
     "snu-A5091015282": {
       "cluster_id": 4,
+      "subcluster_id": 16,
       "x": -0.11812,
       "y": -0.3828,
       "keywords": [
@@ -3204,6 +3261,7 @@
     },
     "snu-A5043286860": {
       "cluster_id": 4,
+      "subcluster_id": 16,
       "x": -0.06557,
       "y": -0.35542,
       "keywords": [
@@ -3259,6 +3317,7 @@
     },
     "snu-A5055484396": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.38045,
       "y": -0.68341,
       "keywords": [
@@ -3306,6 +3365,7 @@
     },
     "snu-A5027374744": {
       "cluster_id": 0,
+      "subcluster_id": 1,
       "x": 0.07274,
       "y": -0.40155,
       "keywords": [
@@ -3361,6 +3421,7 @@
     },
     "postech-A5068518101": {
       "cluster_id": 0,
+      "subcluster_id": 1,
       "x": 0.11531,
       "y": -0.47106,
       "keywords": [
@@ -3416,6 +3477,7 @@
     },
     "postech-A5048461457": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.10944,
       "y": -0.44403,
       "keywords": [
@@ -3455,6 +3517,7 @@
     },
     "postech-A5034657214": {
       "cluster_id": 0,
+      "subcluster_id": 2,
       "x": 0.11099,
       "y": -0.37,
       "keywords": [
@@ -3510,6 +3573,7 @@
     },
     "postech-A5070884113": {
       "cluster_id": 0,
+      "subcluster_id": 1,
       "x": 0.12731,
       "y": -0.42263,
       "keywords": [
@@ -3557,6 +3621,7 @@
     },
     "postech-A5087260130": {
       "cluster_id": 0,
+      "subcluster_id": 3,
       "x": 0.0256,
       "y": -0.28277,
       "keywords": [
@@ -3612,6 +3677,7 @@
     },
     "postech-A5100650467": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.36531,
       "y": -0.69634,
       "keywords": [
@@ -3659,6 +3725,7 @@
     },
     "postech-A5047859685": {
       "cluster_id": 0,
+      "subcluster_id": 1,
       "x": 0.10272,
       "y": -0.39372,
       "keywords": [
@@ -3714,6 +3781,7 @@
     },
     "postech-A5100635271": {
       "cluster_id": 0,
+      "subcluster_id": 1,
       "x": 0.1278,
       "y": -0.40602,
       "keywords": [
@@ -3769,6 +3837,7 @@
     },
     "postech-A5100334905": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.18806,
       "y": -0.40111,
       "keywords": [
@@ -3824,6 +3893,7 @@
     },
     "postech-A5069176618": {
       "cluster_id": 14,
+      "subcluster_id": 40,
       "x": 0.19081,
       "y": -0.39036,
       "keywords": [
@@ -3879,6 +3949,7 @@
     },
     "postech-A5080004279": {
       "cluster_id": 14,
+      "subcluster_id": 40,
       "x": 0.18476,
       "y": -0.44292,
       "keywords": [
@@ -3934,6 +4005,7 @@
     },
     "postech-A5074578302": {
       "cluster_id": 0,
+      "subcluster_id": 2,
       "x": -0.00532,
       "y": -0.28401,
       "keywords": [
@@ -3981,6 +4053,7 @@
     },
     "postech-A5018682015": {
       "cluster_id": 0,
+      "subcluster_id": 2,
       "x": 0.04291,
       "y": -0.2823,
       "keywords": [
@@ -4036,6 +4109,7 @@
     },
     "postech-A5103183496": {
       "cluster_id": 4,
+      "subcluster_id": 16,
       "x": -0.12304,
       "y": -0.3498,
       "keywords": [
@@ -4091,6 +4165,7 @@
     },
     "postech-A5052023515": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.36637,
       "y": -0.6979,
       "keywords": [
@@ -4138,6 +4213,7 @@
     },
     "postech-A5010154886": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.40905,
       "y": -0.69664,
       "keywords": [
@@ -4193,6 +4269,7 @@
     },
     "unist-A5021577151": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": -0.00387,
       "y": -0.40273,
       "keywords": [
@@ -4248,6 +4325,7 @@
     },
     "unist-A5041027236": {
       "cluster_id": 5,
+      "subcluster_id": 19,
       "x": -0.09544,
       "y": -0.21379,
       "keywords": [
@@ -4303,6 +4381,7 @@
     },
     "unist-A5008186315": {
       "cluster_id": 0,
+      "subcluster_id": 1,
       "x": 0.06953,
       "y": -0.44678,
       "keywords": [
@@ -4358,6 +4437,7 @@
     },
     "unist-A5100339473": {
       "cluster_id": 0,
+      "subcluster_id": 1,
       "x": 0.06064,
       "y": -0.36565,
       "keywords": [
@@ -4405,6 +4485,7 @@
     },
     "unist-A5057203654": {
       "cluster_id": 14,
+      "subcluster_id": 40,
       "x": 0.22111,
       "y": -0.38944,
       "keywords": [
@@ -4460,6 +4541,7 @@
     },
     "unist-A5007382558": {
       "cluster_id": 4,
+      "subcluster_id": 15,
       "x": 0.01072,
       "y": -0.48654,
       "keywords": [
@@ -4507,6 +4589,7 @@
     },
     "unist-A5100749356": {
       "cluster_id": 0,
+      "subcluster_id": 2,
       "x": 0.0823,
       "y": -0.35703,
       "keywords": [
@@ -4554,6 +4637,7 @@
     },
     "unist-A5008036043": {
       "cluster_id": 0,
+      "subcluster_id": 1,
       "x": 0.14681,
       "y": -0.45023,
       "keywords": [
@@ -4609,6 +4693,7 @@
     },
     "unist-A5035895380": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": 0.01275,
       "y": -0.4463,
       "keywords": [
@@ -4664,6 +4749,7 @@
     },
     "unist-A5007769445": {
       "cluster_id": 0,
+      "subcluster_id": 2,
       "x": 0.05705,
       "y": -0.29829,
       "keywords": [
@@ -4711,6 +4797,7 @@
     },
     "unist-A5041900986": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": 0.01682,
       "y": -0.39867,
       "keywords": [
@@ -4766,6 +4853,7 @@
     },
     "unist-A5017217837": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": 0.01978,
       "y": -0.43988,
       "keywords": [
@@ -4813,6 +4901,7 @@
     },
     "unist-A5068286820": {
       "cluster_id": 5,
+      "subcluster_id": 17,
       "x": -0.0799,
       "y": -0.217,
       "keywords": [
@@ -4868,6 +4957,7 @@
     },
     "gist-A5100757887": {
       "cluster_id": 14,
+      "subcluster_id": 40,
       "x": 0.20488,
       "y": -0.48038,
       "keywords": [
@@ -4923,6 +5013,7 @@
     },
     "gist-A5087995307": {
       "cluster_id": 5,
+      "subcluster_id": 19,
       "x": -0.1191,
       "y": -0.30632,
       "keywords": [
@@ -4978,6 +5069,7 @@
     },
     "gist-A5071676695": {
       "cluster_id": 0,
+      "subcluster_id": 1,
       "x": 0.07596,
       "y": -0.42939,
       "keywords": [
@@ -5033,6 +5125,7 @@
     },
     "gist-A5023739451": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": 0.05726,
       "y": -0.39487,
       "keywords": [
@@ -5080,6 +5173,7 @@
     },
     "gist-A5102904761": {
       "cluster_id": 0,
+      "subcluster_id": 3,
       "x": -0.00562,
       "y": -0.3705,
       "keywords": [
@@ -5135,6 +5229,7 @@
     },
     "gist-A5100740580": {
       "cluster_id": 0,
+      "subcluster_id": 1,
       "x": 0.12367,
       "y": -0.44804,
       "keywords": [
@@ -5190,6 +5285,7 @@
     },
     "gist-A5031635205": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": -0.0236,
       "y": -0.3858,
       "keywords": [
@@ -5245,6 +5341,7 @@
     },
     "gist-A5013222112": {
       "cluster_id": 14,
+      "subcluster_id": 40,
       "x": 0.21414,
       "y": -0.40903,
       "keywords": [
@@ -5300,6 +5397,7 @@
     },
     "gist-A5038581059": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.1572,
       "y": -0.46978,
       "keywords": [
@@ -5347,6 +5445,7 @@
     },
     "gist-A5010846406": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.09994,
       "y": -0.45584,
       "keywords": [
@@ -5394,6 +5493,7 @@
     },
     "gist-A5023173703": {
       "cluster_id": 0,
+      "subcluster_id": 2,
       "x": 0.06172,
       "y": -0.31909,
       "keywords": [
@@ -5449,6 +5549,7 @@
     },
     "gist-A5075061660": {
       "cluster_id": 0,
+      "subcluster_id": 1,
       "x": 0.01917,
       "y": -0.3558,
       "keywords": [
@@ -5496,6 +5597,7 @@
     },
     "gist-A5088628057": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.17796,
       "y": -0.43136,
       "keywords": [
@@ -5551,6 +5653,7 @@
     },
     "dgist-A5083518122": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.41058,
       "y": -0.66787,
       "keywords": [
@@ -5590,6 +5693,7 @@
     },
     "dgist-A5010447099": {
       "cluster_id": 4,
+      "subcluster_id": 15,
       "x": -0.04242,
       "y": -0.50426,
       "keywords": [
@@ -5645,6 +5749,7 @@
     },
     "dgist-A5004876274": {
       "cluster_id": 0,
+      "subcluster_id": 1,
       "x": 0.1006,
       "y": -0.35162,
       "keywords": [
@@ -5700,6 +5805,7 @@
     },
     "dgist-A5021944943": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": -0.00087,
       "y": -0.38317,
       "keywords": [
@@ -5755,6 +5861,7 @@
     },
     "dgist-A5015429226": {
       "cluster_id": 0,
+      "subcluster_id": 2,
       "x": 0.0176,
       "y": -0.27308,
       "keywords": [
@@ -5810,6 +5917,7 @@
     },
     "dgist-A5083365266": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.42112,
       "y": -0.69113,
       "keywords": [
@@ -5865,6 +5973,7 @@
     },
     "dgist-A5000829476": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.05238,
       "y": -0.43293,
       "keywords": [
@@ -5904,6 +6013,7 @@
     },
     "dgist-A5078210130": {
       "cluster_id": 13,
+      "subcluster_id": 39,
       "x": 0.28861,
       "y": -0.50551,
       "keywords": [
@@ -5959,6 +6069,7 @@
     },
     "dgist-A5037567383": {
       "cluster_id": 5,
+      "subcluster_id": 18,
       "x": -0.1579,
       "y": -0.15084,
       "keywords": [
@@ -6006,6 +6117,7 @@
     },
     "dgist-A5080133701": {
       "cluster_id": 0,
+      "subcluster_id": 1,
       "x": 0.14374,
       "y": -0.43393,
       "keywords": [
@@ -6061,6 +6173,7 @@
     },
     "postech-A5100635016": {
       "cluster_id": 8,
+      "subcluster_id": 27,
       "x": -0.33,
       "y": -0.10751,
       "keywords": [
@@ -6116,6 +6229,7 @@
     },
     "postech-A5003478304": {
       "cluster_id": 5,
+      "subcluster_id": 19,
       "x": -0.10808,
       "y": -0.19878,
       "keywords": [
@@ -6171,6 +6285,7 @@
     },
     "postech-A5025254146": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.47247,
       "y": 0.11682,
       "keywords": [
@@ -6226,6 +6341,7 @@
     },
     "postech-A5060796492": {
       "cluster_id": 8,
+      "subcluster_id": 28,
       "x": -0.31053,
       "y": -0.18691,
       "keywords": [
@@ -6281,6 +6397,7 @@
     },
     "postech-A5001055290": {
       "cluster_id": 5,
+      "subcluster_id": 17,
       "x": -0.15774,
       "y": -0.1658,
       "keywords": [
@@ -6336,6 +6453,7 @@
     },
     "postech-A5030673319": {
       "cluster_id": 10,
+      "subcluster_id": 32,
       "x": -0.99738,
       "y": -0.30673,
       "keywords": [
@@ -6391,6 +6509,7 @@
     },
     "postech-A5069444992": {
       "cluster_id": 5,
+      "subcluster_id": 17,
       "x": -0.22437,
       "y": -0.11256,
       "keywords": [
@@ -6446,6 +6565,7 @@
     },
     "postech-A5046320204": {
       "cluster_id": 10,
+      "subcluster_id": 32,
       "x": -0.91933,
       "y": -0.30042,
       "keywords": [
@@ -6501,6 +6621,7 @@
     },
     "postech-A5042482017": {
       "cluster_id": 8,
+      "subcluster_id": 26,
       "x": -0.43952,
       "y": -0.05121,
       "keywords": [
@@ -6556,6 +6677,7 @@
     },
     "postech-A5100447428": {
       "cluster_id": 1,
+      "subcluster_id": 5,
       "x": -0.61642,
       "y": -0.01126,
       "keywords": [
@@ -6611,6 +6733,7 @@
     },
     "postech-A5006993149": {
       "cluster_id": 8,
+      "subcluster_id": 28,
       "x": -0.30014,
       "y": -0.16499,
       "keywords": [
@@ -6642,6 +6765,7 @@
     },
     "postech-A5005060379": {
       "cluster_id": 2,
+      "subcluster_id": 7,
       "x": -0.4868,
       "y": 0.24224,
       "keywords": [
@@ -6697,6 +6821,7 @@
     },
     "postech-A5054668018": {
       "cluster_id": 10,
+      "subcluster_id": 32,
       "x": -1.0,
       "y": -0.28267,
       "keywords": [
@@ -6752,6 +6877,7 @@
     },
     "postech-A5046753852": {
       "cluster_id": 1,
+      "subcluster_id": 6,
       "x": -0.51314,
       "y": -0.02403,
       "keywords": [
@@ -6807,6 +6933,7 @@
     },
     "postech-A5018699270": {
       "cluster_id": 5,
+      "subcluster_id": 19,
       "x": -0.17025,
       "y": -0.26672,
       "keywords": [
@@ -6854,6 +6981,7 @@
     },
     "postech-A5068442965": {
       "cluster_id": 8,
+      "subcluster_id": 27,
       "x": -0.35751,
       "y": -0.17327,
       "keywords": [
@@ -6909,6 +7037,7 @@
     },
     "postech-A5075833583": {
       "cluster_id": 2,
+      "subcluster_id": 8,
       "x": -0.26735,
       "y": 0.38376,
       "keywords": [
@@ -6956,6 +7085,7 @@
     },
     "postech-A5024040277": {
       "cluster_id": 2,
+      "subcluster_id": 8,
       "x": -0.30778,
       "y": 0.27868,
       "keywords": [
@@ -7011,6 +7141,7 @@
     },
     "postech-A5100621082": {
       "cluster_id": 6,
+      "subcluster_id": 21,
       "x": -0.18966,
       "y": 0.2016,
       "keywords": [
@@ -7066,6 +7197,7 @@
     },
     "postech-A5100721055": {
       "cluster_id": 2,
+      "subcluster_id": 7,
       "x": -0.4308,
       "y": 0.28315,
       "keywords": [
@@ -7121,6 +7253,7 @@
     },
     "postech-A5100359395": {
       "cluster_id": 2,
+      "subcluster_id": 9,
       "x": -0.36953,
       "y": 0.175,
       "keywords": [
@@ -7176,6 +7309,7 @@
     },
     "postech-A5071083135": {
       "cluster_id": 6,
+      "subcluster_id": 22,
       "x": -0.22007,
       "y": 0.15493,
       "keywords": [
@@ -7231,6 +7365,7 @@
     },
     "postech-A5076815900": {
       "cluster_id": 6,
+      "subcluster_id": 20,
       "x": -0.21956,
       "y": 0.16898,
       "keywords": [
@@ -7286,6 +7421,7 @@
     },
     "postech-A5071617291": {
       "cluster_id": 2,
+      "subcluster_id": 7,
       "x": -0.4048,
       "y": 0.2666,
       "keywords": [
@@ -7341,6 +7477,7 @@
     },
     "postech-A5010542458": {
       "cluster_id": 2,
+      "subcluster_id": 9,
       "x": -0.35892,
       "y": 0.22404,
       "keywords": [
@@ -7396,6 +7533,7 @@
     },
     "postech-A5009259950": {
       "cluster_id": 2,
+      "subcluster_id": 10,
       "x": -0.44952,
       "y": 0.35193,
       "keywords": [
@@ -7443,6 +7581,7 @@
     },
     "postech-A5100607085": {
       "cluster_id": 2,
+      "subcluster_id": 10,
       "x": -0.38144,
       "y": 0.34847,
       "keywords": [
@@ -7498,6 +7637,7 @@
     },
     "postech-A5090689321": {
       "cluster_id": 11,
+      "subcluster_id": 36,
       "x": 0.11394,
       "y": 0.54243,
       "keywords": [
@@ -7553,6 +7693,7 @@
     },
     "postech-A5048224465": {
       "cluster_id": 2,
+      "subcluster_id": 7,
       "x": -0.46224,
       "y": 0.29818,
       "keywords": [
@@ -7600,6 +7741,7 @@
     },
     "postech-A5100403765": {
       "cluster_id": 6,
+      "subcluster_id": 21,
       "x": -0.13447,
       "y": 0.18886,
       "keywords": [
@@ -7630,6 +7772,7 @@
     },
     "postech-A5087989423": {
       "cluster_id": 3,
+      "subcluster_id": 12,
       "x": 0.31472,
       "y": 0.27376,
       "keywords": [
@@ -7685,6 +7828,7 @@
     },
     "postech-A5100746301": {
       "cluster_id": 3,
+      "subcluster_id": 12,
       "x": 0.30911,
       "y": 0.28345,
       "keywords": [
@@ -7740,6 +7884,7 @@
     },
     "postech-A5003733262": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.42118,
       "y": 0.20138,
       "keywords": [
@@ -7795,6 +7940,7 @@
     },
     "postech-A5101770891": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.24975,
       "y": 0.36521,
       "keywords": [
@@ -7842,6 +7988,7 @@
     },
     "postech-A5100785224": {
       "cluster_id": 11,
+      "subcluster_id": 34,
       "x": 0.26045,
       "y": 0.57833,
       "keywords": [
@@ -7881,6 +8028,7 @@
     },
     "postech-A5102862770": {
       "cluster_id": 11,
+      "subcluster_id": 34,
       "x": 0.24052,
       "y": 0.55945,
       "keywords": [
@@ -7928,6 +8076,7 @@
     },
     "postech-A5023373586": {
       "cluster_id": 11,
+      "subcluster_id": 34,
       "x": 0.22679,
       "y": 0.61131,
       "keywords": [
@@ -7959,6 +8108,7 @@
     },
     "postech-A5100429205": {
       "cluster_id": 5,
+      "subcluster_id": 17,
       "x": -0.09988,
       "y": -0.00781,
       "keywords": [
@@ -8006,6 +8156,7 @@
     },
     "postech-A5086339183": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.17512,
       "y": 0.34615,
       "keywords": [
@@ -8061,6 +8212,7 @@
     },
     "postech-A5102012499": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.40689,
       "y": 0.23446,
       "keywords": [
@@ -8108,6 +8260,7 @@
     },
     "postech-A5101396625": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.22731,
       "y": 0.31157,
       "keywords": [
@@ -8163,6 +8316,7 @@
     },
     "postech-A5100334897": {
       "cluster_id": 9,
+      "subcluster_id": 30,
       "x": 0.86395,
       "y": 0.30901,
       "keywords": [
@@ -8210,6 +8364,7 @@
     },
     "postech-A5100440925": {
       "cluster_id": 7,
+      "subcluster_id": 25,
       "x": 0.55212,
       "y": 0.18209,
       "keywords": [
@@ -8265,6 +8420,7 @@
     },
     "postech-A5010929521": {
       "cluster_id": 9,
+      "subcluster_id": 29,
       "x": 0.83748,
       "y": 0.36736,
       "keywords": [
@@ -8320,6 +8476,7 @@
     },
     "postech-A5085748879": {
       "cluster_id": 15,
+      "subcluster_id": 41,
       "x": 0.76515,
       "y": 0.18735,
       "keywords": [
@@ -8375,6 +8532,7 @@
     },
     "postech-A5021864220": {
       "cluster_id": 12,
+      "subcluster_id": 37,
       "x": 0.59109,
       "y": 0.00995,
       "keywords": [
@@ -8430,6 +8588,7 @@
     },
     "postech-A5045521125": {
       "cluster_id": 7,
+      "subcluster_id": 24,
       "x": 0.51264,
       "y": 0.17174,
       "keywords": [
@@ -8485,6 +8644,7 @@
     },
     "postech-A5101998656": {
       "cluster_id": 12,
+      "subcluster_id": 37,
       "x": 0.56042,
       "y": 0.04083,
       "keywords": [
@@ -8540,6 +8700,7 @@
     },
     "postech-A5086283693": {
       "cluster_id": 12,
+      "subcluster_id": 38,
       "x": 0.60276,
       "y": 0.0591,
       "keywords": [
@@ -8595,6 +8756,7 @@
     },
     "postech-A5070700637": {
       "cluster_id": 12,
+      "subcluster_id": 38,
       "x": 0.62506,
       "y": 0.11606,
       "keywords": [
@@ -8650,6 +8812,7 @@
     },
     "postech-A5100775389": {
       "cluster_id": 9,
+      "subcluster_id": 29,
       "x": 0.74912,
       "y": 0.30648,
       "keywords": [
@@ -8697,6 +8860,7 @@
     },
     "postech-A5101749008": {
       "cluster_id": 16,
+      "subcluster_id": 42,
       "x": 0.41451,
       "y": 0.45021,
       "keywords": [
@@ -8752,6 +8916,7 @@
     },
     "postech-A5100720092": {
       "cluster_id": 9,
+      "subcluster_id": 29,
       "x": 0.83185,
       "y": 0.36275,
       "keywords": [
@@ -8799,6 +8964,7 @@
     },
     "postech-A5101408509": {
       "cluster_id": 12,
+      "subcluster_id": 37,
       "x": 0.57734,
       "y": -0.00223,
       "keywords": [
@@ -8854,6 +9020,7 @@
     },
     "unist-A5046785997": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.40547,
       "y": -0.02686,
       "keywords": [
@@ -8909,6 +9076,7 @@
     },
     "unist-A5020695626": {
       "cluster_id": 8,
+      "subcluster_id": 28,
       "x": -0.23302,
       "y": -0.3002,
       "keywords": [
@@ -8956,6 +9124,7 @@
     },
     "unist-A5056250877": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.45364,
       "y": 0.00464,
       "keywords": [
@@ -9011,6 +9180,7 @@
     },
     "unist-A5005548374": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.21837,
       "y": -0.40053,
       "keywords": [
@@ -9066,6 +9236,7 @@
     },
     "unist-A5050686436": {
       "cluster_id": 8,
+      "subcluster_id": 27,
       "x": -0.37308,
       "y": -0.18426,
       "keywords": [
@@ -9121,6 +9292,7 @@
     },
     "unist-A5101439656": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.47744,
       "y": -0.00693,
       "keywords": [
@@ -9176,6 +9348,7 @@
     },
     "unist-A5101806583": {
       "cluster_id": 10,
+      "subcluster_id": 32,
       "x": -0.96623,
       "y": -0.29669,
       "keywords": [
@@ -9207,6 +9380,7 @@
     },
     "unist-A5025370124": {
       "cluster_id": 5,
+      "subcluster_id": 18,
       "x": -0.23808,
       "y": 0.02132,
       "keywords": [
@@ -9262,6 +9436,7 @@
     },
     "unist-A5062645264": {
       "cluster_id": 2,
+      "subcluster_id": 9,
       "x": -0.28138,
       "y": 0.02991,
       "keywords": [
@@ -9309,6 +9484,7 @@
     },
     "unist-A5081274227": {
       "cluster_id": 1,
+      "subcluster_id": 5,
       "x": -0.5871,
       "y": -0.08082,
       "keywords": [
@@ -9364,6 +9540,7 @@
     },
     "unist-A5068197252": {
       "cluster_id": 5,
+      "subcluster_id": 19,
       "x": -0.13045,
       "y": -0.20517,
       "keywords": [
@@ -9419,6 +9596,7 @@
     },
     "unist-A5057681381": {
       "cluster_id": 1,
+      "subcluster_id": 6,
       "x": -0.51789,
       "y": -0.02692,
       "keywords": [
@@ -9474,6 +9652,7 @@
     },
     "unist-A5039238470": {
       "cluster_id": 6,
+      "subcluster_id": 22,
       "x": -0.16056,
       "y": 0.22395,
       "keywords": [
@@ -9505,6 +9684,7 @@
     },
     "unist-A5023832222": {
       "cluster_id": 10,
+      "subcluster_id": 33,
       "x": -0.83166,
       "y": -0.27328,
       "keywords": [
@@ -9560,6 +9740,7 @@
     },
     "unist-A5044210377": {
       "cluster_id": 1,
+      "subcluster_id": 6,
       "x": -0.47232,
       "y": -0.1404,
       "keywords": [
@@ -9615,6 +9796,7 @@
     },
     "unist-A5066992242": {
       "cluster_id": 10,
+      "subcluster_id": 33,
       "x": -0.89582,
       "y": -0.23699,
       "keywords": [
@@ -9670,6 +9852,7 @@
     },
     "unist-A5084310453": {
       "cluster_id": 10,
+      "subcluster_id": 33,
       "x": -0.52942,
       "y": -0.01782,
       "keywords": [
@@ -9725,6 +9908,7 @@
     },
     "unist-A5087895403": {
       "cluster_id": 8,
+      "subcluster_id": 28,
       "x": -0.30503,
       "y": -0.25395,
       "keywords": [
@@ -9780,6 +9964,7 @@
     },
     "unist-A5068268441": {
       "cluster_id": 1,
+      "subcluster_id": 5,
       "x": -0.5479,
       "y": 0.01908,
       "keywords": [
@@ -9835,6 +10020,7 @@
     },
     "unist-A5087673717": {
       "cluster_id": 8,
+      "subcluster_id": 27,
       "x": -0.34909,
       "y": -0.19614,
       "keywords": [
@@ -9873,6 +10059,7 @@
     },
     "unist-A5026457514": {
       "cluster_id": 8,
+      "subcluster_id": 26,
       "x": -0.3233,
       "y": -0.0259,
       "keywords": [
@@ -9928,6 +10115,7 @@
     },
     "unist-A5100344647": {
       "cluster_id": 6,
+      "subcluster_id": 22,
       "x": -0.05142,
       "y": 0.314,
       "keywords": [
@@ -9975,6 +10163,7 @@
     },
     "unist-A5012508781": {
       "cluster_id": 8,
+      "subcluster_id": 28,
       "x": -0.31589,
       "y": -0.21192,
       "keywords": [
@@ -10022,6 +10211,7 @@
     },
     "unist-A5030449534": {
       "cluster_id": 6,
+      "subcluster_id": 20,
       "x": -0.29442,
       "y": 0.14895,
       "keywords": [
@@ -10077,6 +10267,7 @@
     },
     "unist-A5077272465": {
       "cluster_id": 6,
+      "subcluster_id": 22,
       "x": -0.06911,
       "y": 0.29469,
       "keywords": [
@@ -10132,6 +10323,7 @@
     },
     "unist-A5044742844": {
       "cluster_id": 2,
+      "subcluster_id": 8,
       "x": -0.31525,
       "y": 0.22276,
       "keywords": [
@@ -10187,6 +10379,7 @@
     },
     "unist-A5047602571": {
       "cluster_id": 6,
+      "subcluster_id": 20,
       "x": -0.28676,
       "y": 0.17112,
       "keywords": [
@@ -10242,6 +10435,7 @@
     },
     "unist-A5037324970": {
       "cluster_id": 2,
+      "subcluster_id": 8,
       "x": -0.29377,
       "y": 0.06151,
       "keywords": [
@@ -10289,6 +10483,7 @@
     },
     "unist-A5041041582": {
       "cluster_id": 6,
+      "subcluster_id": 22,
       "x": -0.11161,
       "y": 0.2763,
       "keywords": [
@@ -10344,6 +10539,7 @@
     },
     "unist-A5029245952": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.29925,
       "y": 0.47556,
       "keywords": [
@@ -10365,6 +10561,7 @@
     },
     "unist-A5009247816": {
       "cluster_id": 3,
+      "subcluster_id": 13,
       "x": 0.15615,
       "y": 0.37171,
       "keywords": [
@@ -10420,6 +10617,7 @@
     },
     "unist-A5100765704": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.47124,
       "y": 0.19424,
       "keywords": [
@@ -10467,6 +10665,7 @@
     },
     "unist-A5086948948": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.38142,
       "y": 0.21064,
       "keywords": [
@@ -10506,6 +10705,7 @@
     },
     "unist-A5057828593": {
       "cluster_id": 3,
+      "subcluster_id": 13,
       "x": 0.20126,
       "y": 0.38677,
       "keywords": [
@@ -10553,6 +10753,7 @@
     },
     "unist-A5022623808": {
       "cluster_id": 11,
+      "subcluster_id": 36,
       "x": 0.12619,
       "y": 0.54443,
       "keywords": [
@@ -10608,6 +10809,7 @@
     },
     "unist-A5006437153": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.23512,
       "y": 0.37431,
       "keywords": [
@@ -10638,6 +10840,7 @@
     },
     "unist-A5061494461": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.21875,
       "y": 0.3062,
       "keywords": [
@@ -10693,6 +10896,7 @@
     },
     "unist-A5023336468": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.20039,
       "y": 0.32858,
       "keywords": [
@@ -10740,6 +10944,7 @@
     },
     "unist-A5080959139": {
       "cluster_id": 3,
+      "subcluster_id": 13,
       "x": 0.16965,
       "y": 0.38669,
       "keywords": [
@@ -10778,6 +10983,7 @@
     },
     "unist-A5010818512": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.42735,
       "y": 0.30949,
       "keywords": [
@@ -10833,6 +11039,7 @@
     },
     "unist-A5043541925": {
       "cluster_id": 16,
+      "subcluster_id": 42,
       "x": 0.43665,
       "y": 0.37642,
       "keywords": [
@@ -10888,6 +11095,7 @@
     },
     "unist-A5042587361": {
       "cluster_id": 9,
+      "subcluster_id": 31,
       "x": 0.77801,
       "y": 0.30234,
       "keywords": [
@@ -10943,6 +11151,7 @@
     },
     "unist-A5071289684": {
       "cluster_id": 9,
+      "subcluster_id": 29,
       "x": 0.86224,
       "y": 0.33318,
       "keywords": [
@@ -10990,6 +11199,7 @@
     },
     "unist-A5009308931": {
       "cluster_id": 15,
+      "subcluster_id": 41,
       "x": 0.78792,
       "y": 0.16416,
       "keywords": [
@@ -11045,6 +11255,7 @@
     },
     "unist-A5029717042": {
       "cluster_id": 9,
+      "subcluster_id": 29,
       "x": 0.84835,
       "y": 0.36533,
       "keywords": [
@@ -11092,6 +11303,7 @@
     },
     "unist-A5024932910": {
       "cluster_id": 15,
+      "subcluster_id": 41,
       "x": 0.6062,
       "y": 0.20822,
       "keywords": [
@@ -11131,6 +11343,7 @@
     },
     "kaist-A5101626337": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.13606,
       "y": -0.4832,
       "keywords": [
@@ -11186,6 +11399,7 @@
     },
     "kaist-A5038403149": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.44078,
       "y": 0.01275,
       "keywords": [
@@ -11209,6 +11423,7 @@
     },
     "kaist-A5002446879": {
       "cluster_id": 8,
+      "subcluster_id": 27,
       "x": -0.36635,
       "y": -0.16602,
       "keywords": [
@@ -11264,6 +11479,7 @@
     },
     "kaist-A5059653088": {
       "cluster_id": 4,
+      "subcluster_id": 16,
       "x": -0.28137,
       "y": -0.29179,
       "keywords": [
@@ -11319,6 +11535,7 @@
     },
     "kaist-A5013893562": {
       "cluster_id": 1,
+      "subcluster_id": 6,
       "x": -0.48,
       "y": -0.05868,
       "keywords": [
@@ -11374,6 +11591,7 @@
     },
     "kaist-A5100330179": {
       "cluster_id": 10,
+      "subcluster_id": 32,
       "x": -0.95185,
       "y": -0.28125,
       "keywords": [
@@ -11429,6 +11647,7 @@
     },
     "kaist-A5100388376": {
       "cluster_id": 1,
+      "subcluster_id": 5,
       "x": -0.53956,
       "y": -0.05347,
       "keywords": [
@@ -11484,6 +11703,7 @@
     },
     "kaist-A5024869511": {
       "cluster_id": 5,
+      "subcluster_id": 17,
       "x": -0.21576,
       "y": -0.166,
       "keywords": [
@@ -11539,6 +11759,7 @@
     },
     "kaist-A5048407979": {
       "cluster_id": 10,
+      "subcluster_id": 33,
       "x": -0.85113,
       "y": -0.29194,
       "keywords": [
@@ -11594,6 +11815,7 @@
     },
     "kaist-A5080164411": {
       "cluster_id": 1,
+      "subcluster_id": 6,
       "x": -0.54617,
       "y": -0.05585,
       "keywords": [
@@ -11625,6 +11847,7 @@
     },
     "kaist-A5049414933": {
       "cluster_id": 10,
+      "subcluster_id": 32,
       "x": -0.95434,
       "y": -0.25843,
       "keywords": [
@@ -11672,6 +11895,7 @@
     },
     "kaist-A5066625153": {
       "cluster_id": 1,
+      "subcluster_id": 6,
       "x": -0.50538,
       "y": 0.03381,
       "keywords": [
@@ -11727,6 +11951,7 @@
     },
     "kaist-A5039003464": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.15854,
       "y": -0.41468,
       "keywords": [
@@ -11774,6 +11999,7 @@
     },
     "kaist-A5030203661": {
       "cluster_id": 10,
+      "subcluster_id": 33,
       "x": -0.88694,
       "y": -0.26883,
       "keywords": [
@@ -11829,6 +12055,7 @@
     },
     "kaist-A5063790278": {
       "cluster_id": 1,
+      "subcluster_id": 5,
       "x": -0.60031,
       "y": -0.04938,
       "keywords": [
@@ -11884,6 +12111,7 @@
     },
     "kaist-A5004297961": {
       "cluster_id": 8,
+      "subcluster_id": 26,
       "x": -0.34242,
       "y": -0.04394,
       "keywords": [
@@ -11939,6 +12167,7 @@
     },
     "kaist-A5025415011": {
       "cluster_id": 1,
+      "subcluster_id": 6,
       "x": -0.54209,
       "y": -0.06624,
       "keywords": [
@@ -11994,6 +12223,7 @@
     },
     "kaist-A5004086841": {
       "cluster_id": 8,
+      "subcluster_id": 26,
       "x": -0.31239,
       "y": -0.00526,
       "keywords": [
@@ -12049,6 +12279,7 @@
     },
     "kaist-A5002710135": {
       "cluster_id": 8,
+      "subcluster_id": 27,
       "x": -0.37954,
       "y": -0.18433,
       "keywords": [
@@ -12104,6 +12335,7 @@
     },
     "kaist-A5020559815": {
       "cluster_id": 10,
+      "subcluster_id": 32,
       "x": -0.97709,
       "y": -0.25757,
       "keywords": [
@@ -12143,6 +12375,7 @@
     },
     "kaist-A5000604839": {
       "cluster_id": 5,
+      "subcluster_id": 18,
       "x": -0.19212,
       "y": -0.10928,
       "keywords": [
@@ -12198,6 +12431,7 @@
     },
     "kaist-A5050472874": {
       "cluster_id": 8,
+      "subcluster_id": 27,
       "x": -0.3396,
       "y": -0.17149,
       "keywords": [
@@ -12253,6 +12487,7 @@
     },
     "kaist-A5103259274": {
       "cluster_id": 5,
+      "subcluster_id": 19,
       "x": -0.26191,
       "y": -0.20854,
       "keywords": [
@@ -12308,6 +12543,7 @@
     },
     "kaist-A5086637390": {
       "cluster_id": 10,
+      "subcluster_id": 32,
       "x": -0.94793,
       "y": -0.32931,
       "keywords": [
@@ -12363,6 +12599,7 @@
     },
     "kaist-A5060666792": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": -0.00513,
       "y": -0.36138,
       "keywords": [
@@ -12402,6 +12639,7 @@
     },
     "kaist-A5039226532": {
       "cluster_id": 5,
+      "subcluster_id": 17,
       "x": -0.17481,
       "y": -0.18911,
       "keywords": [
@@ -12457,6 +12695,7 @@
     },
     "kaist-A5030760350": {
       "cluster_id": 5,
+      "subcluster_id": 18,
       "x": -0.17497,
       "y": -0.11152,
       "keywords": [
@@ -12512,6 +12751,7 @@
     },
     "kaist-A5031132473": {
       "cluster_id": 1,
+      "subcluster_id": 6,
       "x": -0.51364,
       "y": 0.01896,
       "keywords": [
@@ -12567,6 +12807,7 @@
     },
     "kaist-A5019876038": {
       "cluster_id": 10,
+      "subcluster_id": 32,
       "x": -0.98038,
       "y": -0.27124,
       "keywords": [
@@ -12622,6 +12863,7 @@
     },
     "kaist-A5067358423": {
       "cluster_id": 10,
+      "subcluster_id": 33,
       "x": -0.92646,
       "y": -0.25537,
       "keywords": [
@@ -12669,6 +12911,7 @@
     },
     "kaist-A5044287208": {
       "cluster_id": 10,
+      "subcluster_id": 32,
       "x": -0.96919,
       "y": -0.28095,
       "keywords": [
@@ -12724,6 +12967,7 @@
     },
     "kaist-A5043448697": {
       "cluster_id": 10,
+      "subcluster_id": 33,
       "x": -0.80141,
       "y": -0.25422,
       "keywords": [
@@ -12747,6 +12991,7 @@
     },
     "kaist-A5025384881": {
       "cluster_id": 6,
+      "subcluster_id": 21,
       "x": -0.14155,
       "y": 0.17309,
       "keywords": [
@@ -12802,6 +13047,7 @@
     },
     "kaist-A5088372629": {
       "cluster_id": 2,
+      "subcluster_id": 8,
       "x": -0.31888,
       "y": 0.31228,
       "keywords": [
@@ -12841,6 +13087,7 @@
     },
     "kaist-A5014009200": {
       "cluster_id": 2,
+      "subcluster_id": 9,
       "x": -0.40869,
       "y": 0.19706,
       "keywords": [
@@ -12888,6 +13135,7 @@
     },
     "kaist-A5100608115": {
       "cluster_id": 6,
+      "subcluster_id": 20,
       "x": -0.25728,
       "y": 0.11793,
       "keywords": [
@@ -12943,6 +13191,7 @@
     },
     "kaist-A5014809890": {
       "cluster_id": 6,
+      "subcluster_id": 22,
       "x": -0.1846,
       "y": 0.26465,
       "keywords": [
@@ -12998,6 +13247,7 @@
     },
     "kaist-A5073867321": {
       "cluster_id": 2,
+      "subcluster_id": 8,
       "x": -0.23556,
       "y": 0.36552,
       "keywords": [
@@ -13053,6 +13303,7 @@
     },
     "kaist-A5046376217": {
       "cluster_id": 2,
+      "subcluster_id": 7,
       "x": -0.4613,
       "y": 0.29201,
       "keywords": [
@@ -13108,6 +13359,7 @@
     },
     "kaist-A5006225383": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.35483,
       "y": 0.24171,
       "keywords": [
@@ -13163,6 +13415,7 @@
     },
     "kaist-A5031913417": {
       "cluster_id": 6,
+      "subcluster_id": 21,
       "x": -0.15602,
       "y": 0.19424,
       "keywords": [
@@ -13210,6 +13463,7 @@
     },
     "kaist-A5027517013": {
       "cluster_id": 11,
+      "subcluster_id": 36,
       "x": 0.12372,
       "y": 0.55638,
       "keywords": [
@@ -13257,6 +13511,7 @@
     },
     "kaist-A5091019660": {
       "cluster_id": 2,
+      "subcluster_id": 10,
       "x": -0.4271,
       "y": 0.36359,
       "keywords": [
@@ -13312,6 +13567,7 @@
     },
     "kaist-A5101652337": {
       "cluster_id": 2,
+      "subcluster_id": 10,
       "x": -0.3699,
       "y": 0.36085,
       "keywords": [
@@ -13367,6 +13623,7 @@
     },
     "kaist-A5041517072": {
       "cluster_id": 2,
+      "subcluster_id": 7,
       "x": -0.39364,
       "y": 0.28424,
       "keywords": [
@@ -13422,6 +13679,7 @@
     },
     "kaist-A5101743347": {
       "cluster_id": 3,
+      "subcluster_id": 12,
       "x": 0.30381,
       "y": 0.3073,
       "keywords": [
@@ -13477,6 +13735,7 @@
     },
     "kaist-A5100780519": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.45781,
       "y": 0.14164,
       "keywords": [
@@ -13532,6 +13791,7 @@
     },
     "kaist-A5014307938": {
       "cluster_id": 6,
+      "subcluster_id": 20,
       "x": -0.24266,
       "y": 0.1757,
       "keywords": [
@@ -13587,6 +13847,7 @@
     },
     "kaist-A5035627624": {
       "cluster_id": 11,
+      "subcluster_id": 36,
       "x": 0.06528,
       "y": 0.50359,
       "keywords": [
@@ -13634,6 +13895,7 @@
     },
     "kaist-A5100771388": {
       "cluster_id": 2,
+      "subcluster_id": 10,
       "x": -0.41081,
       "y": 0.35999,
       "keywords": [
@@ -13689,6 +13951,7 @@
     },
     "kaist-A5075006631": {
       "cluster_id": 2,
+      "subcluster_id": 8,
       "x": -0.28003,
       "y": 0.37143,
       "keywords": [
@@ -13744,6 +14007,7 @@
     },
     "kaist-A5100627007": {
       "cluster_id": 5,
+      "subcluster_id": 17,
       "x": -0.1452,
       "y": -0.06468,
       "keywords": [
@@ -13799,6 +14063,7 @@
     },
     "kaist-A5001270427": {
       "cluster_id": 6,
+      "subcluster_id": 20,
       "x": -0.28017,
       "y": 0.20246,
       "keywords": [
@@ -13846,6 +14111,7 @@
     },
     "kaist-A5077450712": {
       "cluster_id": 2,
+      "subcluster_id": 8,
       "x": -0.29701,
       "y": 0.36215,
       "keywords": [
@@ -13901,6 +14167,7 @@
     },
     "kaist-A5022686032": {
       "cluster_id": 6,
+      "subcluster_id": 21,
       "x": -0.10921,
       "y": 0.19796,
       "keywords": [
@@ -13940,6 +14207,7 @@
     },
     "kaist-A5057256024": {
       "cluster_id": 5,
+      "subcluster_id": 17,
       "x": -0.12927,
       "y": -0.02843,
       "keywords": [
@@ -13995,6 +14263,7 @@
     },
     "kaist-A5059888759": {
       "cluster_id": 6,
+      "subcluster_id": 21,
       "x": -0.13139,
       "y": 0.18041,
       "keywords": [
@@ -14042,6 +14311,7 @@
     },
     "kaist-A5089039925": {
       "cluster_id": 6,
+      "subcluster_id": 20,
       "x": -0.25776,
       "y": 0.17354,
       "keywords": [
@@ -14097,6 +14367,7 @@
     },
     "kaist-A5084429789": {
       "cluster_id": 11,
+      "subcluster_id": 36,
       "x": 0.07672,
       "y": 0.50921,
       "keywords": [
@@ -14152,6 +14423,7 @@
     },
     "kaist-A5037266407": {
       "cluster_id": 11,
+      "subcluster_id": 36,
       "x": 0.10716,
       "y": 0.53841,
       "keywords": [
@@ -14207,6 +14479,7 @@
     },
     "kaist-A5032053414": {
       "cluster_id": 2,
+      "subcluster_id": 7,
       "x": -0.46439,
       "y": 0.25268,
       "keywords": [
@@ -14262,6 +14535,7 @@
     },
     "kaist-A5000208797": {
       "cluster_id": 2,
+      "subcluster_id": 9,
       "x": -0.44165,
       "y": 0.21205,
       "keywords": [
@@ -14317,6 +14591,7 @@
     },
     "kaist-A5060842309": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.46979,
       "y": 0.17693,
       "keywords": [
@@ -14372,6 +14647,7 @@
     },
     "kaist-A5100908017": {
       "cluster_id": 3,
+      "subcluster_id": 13,
       "x": 0.16175,
       "y": 0.39053,
       "keywords": [
@@ -14427,6 +14703,7 @@
     },
     "kaist-A5067102283": {
       "cluster_id": 3,
+      "subcluster_id": 13,
       "x": 0.13374,
       "y": 0.45605,
       "keywords": [
@@ -14473,6 +14750,7 @@
     },
     "kaist-A5100616121": {
       "cluster_id": 3,
+      "subcluster_id": 12,
       "x": 0.29401,
       "y": 0.38923,
       "keywords": [
@@ -14504,6 +14782,7 @@
     },
     "kaist-A5058009844": {
       "cluster_id": 3,
+      "subcluster_id": 12,
       "x": 0.29106,
       "y": 0.3096,
       "keywords": [
@@ -14551,6 +14830,7 @@
     },
     "kaist-A5100386550": {
       "cluster_id": 3,
+      "subcluster_id": 12,
       "x": 0.34329,
       "y": 0.45924,
       "keywords": [
@@ -14590,6 +14870,7 @@
     },
     "kaist-A5017433036": {
       "cluster_id": 9,
+      "subcluster_id": 31,
       "x": 0.56817,
       "y": 0.27817,
       "keywords": [
@@ -14612,6 +14893,7 @@
     },
     "kaist-A5067034493": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.40795,
       "y": 0.18095,
       "keywords": [
@@ -14667,6 +14949,7 @@
     },
     "kaist-A5100347881": {
       "cluster_id": 16,
+      "subcluster_id": 42,
       "x": 0.39509,
       "y": 0.43094,
       "keywords": [
@@ -14722,6 +15005,7 @@
     },
     "kaist-A5108812373": {
       "cluster_id": 3,
+      "subcluster_id": 12,
       "x": 0.32625,
       "y": 0.38961,
       "keywords": [
@@ -14769,6 +15053,7 @@
     },
     "kaist-A5079031932": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.26649,
       "y": 0.5073,
       "keywords": [
@@ -14808,6 +15093,7 @@
     },
     "kaist-A5062186042": {
       "cluster_id": 11,
+      "subcluster_id": 34,
       "x": 0.25326,
       "y": 0.59837,
       "keywords": [
@@ -14847,6 +15133,7 @@
     },
     "kaist-A5101588507": {
       "cluster_id": 11,
+      "subcluster_id": 34,
       "x": 0.24946,
       "y": 0.60806,
       "keywords": [
@@ -14894,6 +15181,7 @@
     },
     "kaist-A5064907804": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.47469,
       "y": 0.23517,
       "keywords": [
@@ -14949,6 +15237,7 @@
     },
     "kaist-A5031542830": {
       "cluster_id": 3,
+      "subcluster_id": 13,
       "x": 0.14386,
       "y": 0.38077,
       "keywords": [
@@ -14996,6 +15285,7 @@
     },
     "kaist-A5035452853": {
       "cluster_id": 11,
+      "subcluster_id": 35,
       "x": 0.23955,
       "y": 0.63046,
       "keywords": [
@@ -15026,6 +15316,7 @@
     },
     "kaist-A5022148779": {
       "cluster_id": 11,
+      "subcluster_id": 34,
       "x": 0.28584,
       "y": 0.52922,
       "keywords": [
@@ -15081,6 +15372,7 @@
     },
     "kaist-A5006942801": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.22012,
       "y": 0.42065,
       "keywords": [
@@ -15136,6 +15428,7 @@
     },
     "kaist-A5101860214": {
       "cluster_id": 3,
+      "subcluster_id": 13,
       "x": 0.18301,
       "y": 0.44194,
       "keywords": [
@@ -15175,6 +15468,7 @@
     },
     "kaist-A5102778540": {
       "cluster_id": 3,
+      "subcluster_id": 12,
       "x": 0.33445,
       "y": 0.39437,
       "keywords": [
@@ -15222,6 +15516,7 @@
     },
     "kaist-A5036974227": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.43792,
       "y": 0.17998,
       "keywords": [
@@ -15261,6 +15556,7 @@
     },
     "kaist-A5009719640": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.24004,
       "y": 0.41412,
       "keywords": [
@@ -15316,6 +15612,7 @@
     },
     "kaist-A5018636483": {
       "cluster_id": 11,
+      "subcluster_id": 35,
       "x": 0.23966,
       "y": 0.58088,
       "keywords": [
@@ -15371,6 +15668,7 @@
     },
     "kaist-A5084168318": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.28356,
       "y": 0.47438,
       "keywords": [
@@ -15392,6 +15690,7 @@
     },
     "kaist-A5041947746": {
       "cluster_id": 16,
+      "subcluster_id": 42,
       "x": 0.37678,
       "y": 0.47928,
       "keywords": [
@@ -15439,6 +15738,7 @@
     },
     "kaist-A5070746145": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.46739,
       "y": 0.19152,
       "keywords": [
@@ -15478,6 +15778,7 @@
     },
     "kaist-A5082521029": {
       "cluster_id": 9,
+      "subcluster_id": 31,
       "x": 0.71359,
       "y": 0.27771,
       "keywords": [
@@ -15533,6 +15834,7 @@
     },
     "kaist-A5046066368": {
       "cluster_id": 9,
+      "subcluster_id": 31,
       "x": 0.78427,
       "y": 0.28983,
       "keywords": [
@@ -15588,6 +15890,7 @@
     },
     "kaist-A5079055843": {
       "cluster_id": 9,
+      "subcluster_id": 30,
       "x": 0.66777,
       "y": 0.20939,
       "keywords": [
@@ -15643,6 +15946,7 @@
     },
     "kaist-A5019825813": {
       "cluster_id": 9,
+      "subcluster_id": 29,
       "x": 0.81512,
       "y": 0.30995,
       "keywords": [
@@ -15698,6 +16002,7 @@
     },
     "kaist-A5100412739": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.49617,
       "y": 0.18033,
       "keywords": [
@@ -15753,6 +16058,7 @@
     },
     "kaist-A5081305477": {
       "cluster_id": 15,
+      "subcluster_id": 41,
       "x": 0.78809,
       "y": 0.18095,
       "keywords": [
@@ -15792,6 +16098,7 @@
     },
     "kaist-A5100362666": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.51287,
       "y": 0.23545,
       "keywords": [
@@ -15847,6 +16154,7 @@
     },
     "kaist-A5102907692": {
       "cluster_id": 9,
+      "subcluster_id": 29,
       "x": 0.83494,
       "y": 0.34029,
       "keywords": [
@@ -15894,6 +16202,7 @@
     },
     "kaist-A5100354947": {
       "cluster_id": 16,
+      "subcluster_id": 42,
       "x": 0.42015,
       "y": 0.43066,
       "keywords": [
@@ -15941,6 +16250,7 @@
     },
     "kaist-A5079709359": {
       "cluster_id": 7,
+      "subcluster_id": 25,
       "x": 0.5639,
       "y": 0.15646,
       "keywords": [
@@ -15996,6 +16306,7 @@
     },
     "kaist-A5100653784": {
       "cluster_id": 12,
+      "subcluster_id": 37,
       "x": 0.57791,
       "y": 0.03623,
       "keywords": [
@@ -16051,6 +16362,7 @@
     },
     "kaist-A5084814930": {
       "cluster_id": 12,
+      "subcluster_id": 37,
       "x": 0.5346,
       "y": 0.05288,
       "keywords": [
@@ -16098,6 +16410,7 @@
     },
     "kaist-A5087492388": {
       "cluster_id": 15,
+      "subcluster_id": 41,
       "x": 0.77055,
       "y": 0.1798,
       "keywords": [
@@ -16153,6 +16466,7 @@
     },
     "kaist-A5067253588": {
       "cluster_id": 7,
+      "subcluster_id": 24,
       "x": 0.49764,
       "y": 0.20986,
       "keywords": [
@@ -16192,6 +16506,7 @@
     },
     "kaist-A5074295573": {
       "cluster_id": 12,
+      "subcluster_id": 37,
       "x": 0.58192,
       "y": 0.04688,
       "keywords": [
@@ -16247,6 +16562,7 @@
     },
     "kaist-A5037553165": {
       "cluster_id": 9,
+      "subcluster_id": 30,
       "x": 0.8562,
       "y": 0.29307,
       "keywords": [
@@ -16302,6 +16618,7 @@
     },
     "kaist-A5100641120": {
       "cluster_id": 7,
+      "subcluster_id": 24,
       "x": 0.53802,
       "y": 0.15716,
       "keywords": [
@@ -16349,6 +16666,7 @@
     },
     "kaist-A5046980238": {
       "cluster_id": 15,
+      "subcluster_id": 41,
       "x": 0.7691,
       "y": 0.17886,
       "keywords": [
@@ -16404,6 +16722,7 @@
     },
     "kaist-A5004099860": {
       "cluster_id": 12,
+      "subcluster_id": 37,
       "x": 0.57546,
       "y": -0.0085,
       "keywords": [
@@ -16459,6 +16778,7 @@
     },
     "kaist-A5082893706": {
       "cluster_id": 15,
+      "subcluster_id": 41,
       "x": 0.72134,
       "y": 0.22516,
       "keywords": [
@@ -16514,6 +16834,7 @@
     },
     "kaist-A5077052539": {
       "cluster_id": 9,
+      "subcluster_id": 30,
       "x": 0.68955,
       "y": 0.18179,
       "keywords": [
@@ -16569,6 +16890,7 @@
     },
     "kaist-A5057980326": {
       "cluster_id": 12,
+      "subcluster_id": 37,
       "x": 0.53663,
       "y": 0.03881,
       "keywords": [
@@ -16624,6 +16946,7 @@
     },
     "kaist-A5078114111": {
       "cluster_id": 12,
+      "subcluster_id": 37,
       "x": 0.56187,
       "y": 0.05809,
       "keywords": [
@@ -16679,6 +17002,7 @@
     },
     "kaist-A5070401254": {
       "cluster_id": 15,
+      "subcluster_id": 41,
       "x": 0.77579,
       "y": 0.17246,
       "keywords": [
@@ -16734,6 +17058,7 @@
     },
     "kaist-A5078173428": {
       "cluster_id": 12,
+      "subcluster_id": 37,
       "x": 0.54498,
       "y": 0.05184,
       "keywords": [
@@ -16789,6 +17114,7 @@
     },
     "kaist-A5009537165": {
       "cluster_id": 12,
+      "subcluster_id": 38,
       "x": 0.60137,
       "y": 0.05495,
       "keywords": [
@@ -16844,6 +17170,7 @@
     },
     "kaist-A5058987035": {
       "cluster_id": 7,
+      "subcluster_id": 25,
       "x": 0.59845,
       "y": 0.16863,
       "keywords": [
@@ -16899,6 +17226,7 @@
     },
     "kaist-A5101805827": {
       "cluster_id": 7,
+      "subcluster_id": 24,
       "x": 0.51097,
       "y": 0.20011,
       "keywords": [
@@ -16954,6 +17282,7 @@
     },
     "kaist-A5100401535": {
       "cluster_id": 9,
+      "subcluster_id": 31,
       "x": 0.69457,
       "y": 0.28807,
       "keywords": [
@@ -17009,6 +17338,7 @@
     },
     "kaist-A5029363735": {
       "cluster_id": 12,
+      "subcluster_id": 38,
       "x": 0.50877,
       "y": 0.06196,
       "keywords": [
@@ -17064,6 +17394,7 @@
     },
     "kaist-A5061810530": {
       "cluster_id": 7,
+      "subcluster_id": 25,
       "x": 0.56378,
       "y": 0.2102,
       "keywords": [
@@ -17119,6 +17450,7 @@
     },
     "kaist-A5075516902": {
       "cluster_id": 12,
+      "subcluster_id": 38,
       "x": 0.5972,
       "y": 0.10234,
       "keywords": [
@@ -17174,6 +17506,7 @@
     },
     "kaist-A5137335070": {
       "cluster_id": 12,
+      "subcluster_id": 38,
       "x": 0.61457,
       "y": 0.14556,
       "keywords": [
@@ -17197,6 +17530,7 @@
     },
     "kaist-A5071661688": {
       "cluster_id": 15,
+      "subcluster_id": 41,
       "x": 0.76061,
       "y": 0.17929,
       "keywords": [
@@ -17244,6 +17578,7 @@
     },
     "kaist-A5047149607": {
       "cluster_id": 9,
+      "subcluster_id": 30,
       "x": 0.85205,
       "y": 0.31087,
       "keywords": [
@@ -17299,6 +17634,7 @@
     },
     "kaist-A5077461583": {
       "cluster_id": 12,
+      "subcluster_id": 37,
       "x": 0.53653,
       "y": 0.10659,
       "keywords": [
@@ -17338,6 +17674,7 @@
     },
     "gist-A5049499414": {
       "cluster_id": 5,
+      "subcluster_id": 17,
       "x": -0.15358,
       "y": -0.13333,
       "keywords": [
@@ -17393,6 +17730,7 @@
     },
     "gist-A5028889140": {
       "cluster_id": 1,
+      "subcluster_id": 5,
       "x": -0.63321,
       "y": -0.01846,
       "keywords": [
@@ -17440,6 +17778,7 @@
     },
     "gist-A5071261215": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.41542,
       "y": 0.11034,
       "keywords": [
@@ -17471,6 +17810,7 @@
     },
     "gist-A5075452063": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.17874,
       "y": -0.45843,
       "keywords": [
@@ -17526,6 +17866,7 @@
     },
     "gist-A5100330194": {
       "cluster_id": 8,
+      "subcluster_id": 28,
       "x": -0.37518,
       "y": -0.22961,
       "keywords": [
@@ -17581,6 +17922,7 @@
     },
     "gist-A5004486606": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.17757,
       "y": -0.44822,
       "keywords": [
@@ -17636,6 +17978,7 @@
     },
     "gist-A5033770218": {
       "cluster_id": 1,
+      "subcluster_id": 5,
       "x": -0.61346,
       "y": -0.03925,
       "keywords": [
@@ -17691,6 +18034,7 @@
     },
     "gist-A5038852259": {
       "cluster_id": 8,
+      "subcluster_id": 27,
       "x": -0.3505,
       "y": -0.14505,
       "keywords": [
@@ -17746,6 +18090,7 @@
     },
     "gist-A5013971756": {
       "cluster_id": 1,
+      "subcluster_id": 5,
       "x": -0.61102,
       "y": -0.10897,
       "keywords": [
@@ -17801,6 +18146,7 @@
     },
     "gist-A5040133980": {
       "cluster_id": 5,
+      "subcluster_id": 19,
       "x": -0.18107,
       "y": -0.22723,
       "keywords": [
@@ -17856,6 +18202,7 @@
     },
     "gist-A5014699929": {
       "cluster_id": 0,
+      "subcluster_id": 0,
       "x": -0.05611,
       "y": -0.3513,
       "keywords": [
@@ -17911,6 +18258,7 @@
     },
     "gist-A5100398175": {
       "cluster_id": 5,
+      "subcluster_id": 18,
       "x": -0.25201,
       "y": -0.13054,
       "keywords": [
@@ -17958,6 +18306,7 @@
     },
     "gist-A5008969887": {
       "cluster_id": 8,
+      "subcluster_id": 26,
       "x": -0.347,
       "y": -0.10527,
       "keywords": [
@@ -18005,6 +18354,7 @@
     },
     "gist-A5074809975": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.49187,
       "y": 0.05302,
       "keywords": [
@@ -18060,6 +18410,7 @@
     },
     "gist-A5065178055": {
       "cluster_id": 10,
+      "subcluster_id": 32,
       "x": -0.96721,
       "y": -0.31991,
       "keywords": [
@@ -18115,6 +18466,7 @@
     },
     "gist-A5004905567": {
       "cluster_id": 5,
+      "subcluster_id": 17,
       "x": -0.23717,
       "y": -0.15122,
       "keywords": [
@@ -18170,6 +18522,7 @@
     },
     "gist-A5025652620": {
       "cluster_id": 10,
+      "subcluster_id": 33,
       "x": -0.85058,
       "y": -0.23006,
       "keywords": [
@@ -18225,6 +18578,7 @@
     },
     "gist-A5100412371": {
       "cluster_id": 0,
+      "subcluster_id": 3,
       "x": -0.02208,
       "y": -0.32075,
       "keywords": [
@@ -18280,6 +18634,7 @@
     },
     "gist-A5029281652": {
       "cluster_id": 8,
+      "subcluster_id": 26,
       "x": -0.34943,
       "y": -0.07624,
       "keywords": [
@@ -18335,6 +18690,7 @@
     },
     "gist-A5070496831": {
       "cluster_id": 10,
+      "subcluster_id": 33,
       "x": -0.91479,
       "y": -0.26831,
       "keywords": [
@@ -18390,6 +18746,7 @@
     },
     "gist-A5101783816": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.46745,
       "y": 0.01859,
       "keywords": [
@@ -18429,6 +18786,7 @@
     },
     "gist-A5100609778": {
       "cluster_id": 1,
+      "subcluster_id": 5,
       "x": -0.6183,
       "y": -0.02414,
       "keywords": [
@@ -18476,6 +18834,7 @@
     },
     "gist-A5100615032": {
       "cluster_id": 16,
+      "subcluster_id": 42,
       "x": 0.38286,
       "y": 0.41285,
       "keywords": [
@@ -18531,6 +18890,7 @@
     },
     "gist-A5009600208": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.2354,
       "y": 0.51495,
       "keywords": [
@@ -18570,6 +18930,7 @@
     },
     "gist-A5053907797": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.42653,
       "y": 0.23639,
       "keywords": [
@@ -18601,6 +18962,7 @@
     },
     "gist-A5017075809": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.43196,
       "y": 0.15176,
       "keywords": [
@@ -18624,6 +18986,7 @@
     },
     "snu-A5043853671": {
       "cluster_id": 5,
+      "subcluster_id": 18,
       "x": -0.26894,
       "y": -0.0281,
       "keywords": [
@@ -18663,6 +19026,7 @@
     },
     "snu-A5000121168": {
       "cluster_id": 8,
+      "subcluster_id": 26,
       "x": -0.34914,
       "y": -0.05081,
       "keywords": [
@@ -18718,6 +19082,7 @@
     },
     "snu-A5016493258": {
       "cluster_id": 8,
+      "subcluster_id": 28,
       "x": -0.21412,
       "y": -0.36096,
       "keywords": [
@@ -18773,6 +19138,7 @@
     },
     "snu-A5066311276": {
       "cluster_id": 1,
+      "subcluster_id": 6,
       "x": -0.41222,
       "y": 0.02128,
       "keywords": [
@@ -18828,6 +19194,7 @@
     },
     "snu-A5087000163": {
       "cluster_id": 5,
+      "subcluster_id": 18,
       "x": -0.25253,
       "y": -0.06352,
       "keywords": [
@@ -18883,6 +19250,7 @@
     },
     "snu-A5030453441": {
       "cluster_id": 5,
+      "subcluster_id": 19,
       "x": -0.13579,
       "y": -0.17716,
       "keywords": [
@@ -18938,6 +19306,7 @@
     },
     "snu-A5091055050": {
       "cluster_id": 5,
+      "subcluster_id": 19,
       "x": -0.15782,
       "y": -0.26686,
       "keywords": [
@@ -18993,6 +19362,7 @@
     },
     "snu-A5003116915": {
       "cluster_id": 4,
+      "subcluster_id": 16,
       "x": -0.20236,
       "y": -0.33273,
       "keywords": [
@@ -19048,6 +19418,7 @@
     },
     "snu-A5010804471": {
       "cluster_id": 8,
+      "subcluster_id": 26,
       "x": -0.3288,
       "y": -0.01671,
       "keywords": [
@@ -19103,6 +19474,7 @@
     },
     "snu-A5089907294": {
       "cluster_id": 8,
+      "subcluster_id": 26,
       "x": -0.40151,
       "y": -0.08108,
       "keywords": [
@@ -19142,6 +19514,7 @@
     },
     "snu-A5039312032": {
       "cluster_id": 8,
+      "subcluster_id": 28,
       "x": -0.25352,
       "y": -0.27608,
       "keywords": [
@@ -19197,6 +19570,7 @@
     },
     "snu-A5046653471": {
       "cluster_id": 6,
+      "subcluster_id": 21,
       "x": -0.11492,
       "y": 0.15261,
       "keywords": [
@@ -19252,6 +19626,7 @@
     },
     "snu-A5053461530": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.18186,
       "y": -0.39215,
       "keywords": [
@@ -19307,6 +19682,7 @@
     },
     "snu-A5032470300": {
       "cluster_id": 8,
+      "subcluster_id": 28,
       "x": -0.31868,
       "y": -0.14125,
       "keywords": [
@@ -19362,6 +19738,7 @@
     },
     "snu-A5100399239": {
       "cluster_id": 8,
+      "subcluster_id": 27,
       "x": -0.38585,
       "y": -0.20305,
       "keywords": [
@@ -19409,6 +19786,7 @@
     },
     "snu-A5100608258": {
       "cluster_id": 5,
+      "subcluster_id": 19,
       "x": -0.18015,
       "y": -0.18866,
       "keywords": [
@@ -19464,6 +19842,7 @@
     },
     "snu-A5101679626": {
       "cluster_id": 10,
+      "subcluster_id": 33,
       "x": -0.87352,
       "y": -0.26963,
       "keywords": [
@@ -19519,6 +19898,7 @@
     },
     "snu-A5085521599": {
       "cluster_id": 10,
+      "subcluster_id": 33,
       "x": -0.90045,
       "y": -0.24833,
       "keywords": [
@@ -19566,6 +19946,7 @@
     },
     "snu-A5100418710": {
       "cluster_id": 5,
+      "subcluster_id": 17,
       "x": -0.12059,
       "y": -0.11296,
       "keywords": [
@@ -19613,6 +19994,7 @@
     },
     "snu-A5018225049": {
       "cluster_id": 10,
+      "subcluster_id": 32,
       "x": -0.98588,
       "y": -0.28218,
       "keywords": [
@@ -19660,6 +20042,7 @@
     },
     "snu-A5049147819": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.09818,
       "y": -0.41233,
       "keywords": [
@@ -19715,6 +20098,7 @@
     },
     "snu-A5101968404": {
       "cluster_id": 4,
+      "subcluster_id": 14,
       "x": -0.18789,
       "y": -0.44949,
       "keywords": [
@@ -19770,6 +20154,7 @@
     },
     "snu-A5088251436": {
       "cluster_id": 10,
+      "subcluster_id": 32,
       "x": -0.95889,
       "y": -0.30791,
       "keywords": [
@@ -19825,6 +20210,7 @@
     },
     "snu-A5079871073": {
       "cluster_id": 1,
+      "subcluster_id": 5,
       "x": -0.59567,
       "y": -0.0093,
       "keywords": [
@@ -19880,6 +20266,7 @@
     },
     "snu-A5033296151": {
       "cluster_id": 8,
+      "subcluster_id": 27,
       "x": -0.41937,
       "y": -0.16898,
       "keywords": [
@@ -19935,6 +20322,7 @@
     },
     "snu-A5016428798": {
       "cluster_id": 5,
+      "subcluster_id": 17,
       "x": -0.42254,
       "y": -0.05711,
       "keywords": [
@@ -19990,6 +20378,7 @@
     },
     "snu-A5049712479": {
       "cluster_id": 1,
+      "subcluster_id": 5,
       "x": -0.57556,
       "y": -0.05608,
       "keywords": [
@@ -20037,6 +20426,7 @@
     },
     "snu-A5084894869": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.41544,
       "y": 0.05854,
       "keywords": [
@@ -20092,6 +20482,7 @@
     },
     "snu-A5103127983": {
       "cluster_id": 10,
+      "subcluster_id": 32,
       "x": -0.94325,
       "y": -0.31608,
       "keywords": [
@@ -20123,6 +20514,7 @@
     },
     "snu-A5027337024": {
       "cluster_id": 1,
+      "subcluster_id": 5,
       "x": -0.58209,
       "y": -0.09706,
       "keywords": [
@@ -20178,6 +20570,7 @@
     },
     "snu-A5100723191": {
       "cluster_id": 2,
+      "subcluster_id": 7,
       "x": -0.48827,
       "y": 0.30029,
       "keywords": [
@@ -20233,6 +20626,7 @@
     },
     "snu-A5100755766": {
       "cluster_id": 6,
+      "subcluster_id": 21,
       "x": -0.23236,
       "y": 0.21612,
       "keywords": [
@@ -20288,6 +20682,7 @@
     },
     "snu-A5001433868": {
       "cluster_id": 2,
+      "subcluster_id": 7,
       "x": -0.47263,
       "y": 0.29156,
       "keywords": [
@@ -20343,6 +20738,7 @@
     },
     "snu-A5090014181": {
       "cluster_id": 2,
+      "subcluster_id": 9,
       "x": -0.34103,
       "y": 0.29272,
       "keywords": [
@@ -20398,6 +20794,7 @@
     },
     "snu-A5011830400": {
       "cluster_id": 2,
+      "subcluster_id": 10,
       "x": -0.44558,
       "y": 0.32401,
       "keywords": [
@@ -20453,6 +20850,7 @@
     },
     "snu-A5036817463": {
       "cluster_id": 2,
+      "subcluster_id": 8,
       "x": -0.27949,
       "y": 0.2897,
       "keywords": [
@@ -20500,6 +20898,7 @@
     },
     "snu-A5101477947": {
       "cluster_id": 6,
+      "subcluster_id": 20,
       "x": -0.32225,
       "y": 0.16376,
       "keywords": [
@@ -20547,6 +20946,7 @@
     },
     "snu-A5054853062": {
       "cluster_id": 3,
+      "subcluster_id": 12,
       "x": 0.29188,
       "y": 0.27617,
       "keywords": [
@@ -20594,6 +20994,7 @@
     },
     "snu-A5071454323": {
       "cluster_id": 2,
+      "subcluster_id": 8,
       "x": -0.19725,
       "y": 0.36179,
       "keywords": [
@@ -20649,6 +21050,7 @@
     },
     "snu-A5076686983": {
       "cluster_id": 2,
+      "subcluster_id": 8,
       "x": -0.32342,
       "y": 0.34158,
       "keywords": [
@@ -20704,6 +21106,7 @@
     },
     "snu-A5008771440": {
       "cluster_id": 2,
+      "subcluster_id": 7,
       "x": -0.48358,
       "y": 0.27778,
       "keywords": [
@@ -20759,6 +21162,7 @@
     },
     "snu-A5045059843": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.40849,
       "y": 0.13544,
       "keywords": [
@@ -20814,6 +21218,7 @@
     },
     "snu-A5002034810": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.44866,
       "y": 0.11698,
       "keywords": [
@@ -20869,6 +21274,7 @@
     },
     "snu-A5089695370": {
       "cluster_id": 2,
+      "subcluster_id": 9,
       "x": -0.35895,
       "y": 0.27072,
       "keywords": [
@@ -20924,6 +21330,7 @@
     },
     "snu-A5012298830": {
       "cluster_id": 6,
+      "subcluster_id": 20,
       "x": -0.25378,
       "y": 0.11081,
       "keywords": [
@@ -20971,6 +21378,7 @@
     },
     "snu-A5036452401": {
       "cluster_id": 6,
+      "subcluster_id": 21,
       "x": -0.12256,
       "y": 0.16206,
       "keywords": [
@@ -21026,6 +21434,7 @@
     },
     "snu-A5101720064": {
       "cluster_id": 2,
+      "subcluster_id": 10,
       "x": -0.4068,
       "y": 0.37226,
       "keywords": [
@@ -21081,6 +21490,7 @@
     },
     "snu-A5063669156": {
       "cluster_id": 6,
+      "subcluster_id": 20,
       "x": -0.31986,
       "y": 0.23958,
       "keywords": [
@@ -21136,6 +21546,7 @@
     },
     "snu-A5087322859": {
       "cluster_id": 5,
+      "subcluster_id": 18,
       "x": -0.24337,
       "y": -0.03097,
       "keywords": [
@@ -21191,6 +21602,7 @@
     },
     "snu-A5081627876": {
       "cluster_id": 11,
+      "subcluster_id": 36,
       "x": 0.0046,
       "y": 0.41041,
       "keywords": [
@@ -21246,6 +21658,7 @@
     },
     "snu-A5069226047": {
       "cluster_id": 11,
+      "subcluster_id": 34,
       "x": 0.25519,
       "y": 0.55517,
       "keywords": [
@@ -21301,6 +21714,7 @@
     },
     "snu-A5025355311": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.40499,
       "y": 0.21509,
       "keywords": [
@@ -21356,6 +21770,7 @@
     },
     "snu-A5112180094": {
       "cluster_id": 11,
+      "subcluster_id": 35,
       "x": 0.20423,
       "y": 0.60144,
       "keywords": [
@@ -21411,6 +21826,7 @@
     },
     "snu-A5100353405": {
       "cluster_id": 3,
+      "subcluster_id": 13,
       "x": 0.12842,
       "y": 0.4516,
       "keywords": [
@@ -21449,6 +21865,7 @@
     },
     "snu-A5001365052": {
       "cluster_id": 3,
+      "subcluster_id": 12,
       "x": 0.29254,
       "y": 0.39507,
       "keywords": [
@@ -21504,6 +21921,7 @@
     },
     "snu-A5087858459": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.43304,
       "y": 0.28536,
       "keywords": [
@@ -21535,6 +21953,7 @@
     },
     "snu-A5064370512": {
       "cluster_id": 11,
+      "subcluster_id": 35,
       "x": 0.27162,
       "y": 0.60602,
       "keywords": [
@@ -21589,6 +22008,7 @@
     },
     "snu-A5079281559": {
       "cluster_id": 3,
+      "subcluster_id": 12,
       "x": 0.28905,
       "y": 0.4287,
       "keywords": [
@@ -21636,6 +22056,7 @@
     },
     "snu-A5105687460": {
       "cluster_id": 3,
+      "subcluster_id": 13,
       "x": 0.20814,
       "y": 0.4129,
       "keywords": [
@@ -21691,6 +22112,7 @@
     },
     "snu-A5031106905": {
       "cluster_id": 11,
+      "subcluster_id": 35,
       "x": 0.17215,
       "y": 0.5769,
       "keywords": [
@@ -21746,6 +22168,7 @@
     },
     "snu-A5101094747": {
       "cluster_id": 3,
+      "subcluster_id": 12,
       "x": 0.31069,
       "y": 0.33281,
       "keywords": [
@@ -21801,6 +22224,7 @@
     },
     "snu-A5008790245": {
       "cluster_id": 11,
+      "subcluster_id": 35,
       "x": 0.27174,
       "y": 0.52995,
       "keywords": [
@@ -21856,6 +22280,7 @@
     },
     "snu-A5019814714": {
       "cluster_id": 11,
+      "subcluster_id": 34,
       "x": 0.2521,
       "y": 0.60622,
       "keywords": [
@@ -21894,6 +22319,7 @@
     },
     "snu-A5112601677": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.28596,
       "y": 0.45946,
       "keywords": [
@@ -21933,6 +22359,7 @@
     },
     "snu-A5069995044": {
       "cluster_id": 11,
+      "subcluster_id": 35,
       "x": 0.17245,
       "y": 0.58102,
       "keywords": [
@@ -21964,6 +22391,7 @@
     },
     "snu-A5004276299": {
       "cluster_id": 11,
+      "subcluster_id": 34,
       "x": 0.27439,
       "y": 0.56897,
       "keywords": [
@@ -22010,6 +22438,7 @@
     },
     "snu-A5041150244": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.25473,
       "y": 0.39652,
       "keywords": [
@@ -22065,6 +22494,7 @@
     },
     "snu-A5100604981": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.28059,
       "y": 0.41744,
       "keywords": [
@@ -22112,6 +22542,7 @@
     },
     "snu-A5082561914": {
       "cluster_id": 11,
+      "subcluster_id": 35,
       "x": 0.19048,
       "y": 0.54432,
       "keywords": [
@@ -22151,6 +22582,7 @@
     },
     "snu-A5016495222": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.25193,
       "y": 0.42628,
       "keywords": [
@@ -22198,6 +22630,7 @@
     },
     "snu-A5044011121": {
       "cluster_id": 9,
+      "subcluster_id": 31,
       "x": 0.67713,
       "y": 0.27722,
       "keywords": [
@@ -22253,6 +22686,7 @@
     },
     "snu-A5009809362": {
       "cluster_id": 3,
+      "subcluster_id": 12,
       "x": 0.30727,
       "y": 0.3345,
       "keywords": [
@@ -22308,6 +22742,7 @@
     },
     "snu-A5085177012": {
       "cluster_id": 3,
+      "subcluster_id": 11,
       "x": 0.24306,
       "y": 0.27979,
       "keywords": [
@@ -22339,6 +22774,7 @@
     },
     "snu-A5044577463": {
       "cluster_id": 11,
+      "subcluster_id": 35,
       "x": 0.25616,
       "y": 0.60482,
       "keywords": [
@@ -22378,6 +22814,7 @@
     },
     "snu-A5074561505": {
       "cluster_id": 7,
+      "subcluster_id": 24,
       "x": 0.51266,
       "y": 0.209,
       "keywords": [
@@ -22433,6 +22870,7 @@
     },
     "snu-A5076713179": {
       "cluster_id": 9,
+      "subcluster_id": 31,
       "x": 0.64268,
       "y": 0.25563,
       "keywords": [
@@ -22480,6 +22918,7 @@
     },
     "snu-A5062560097": {
       "cluster_id": 9,
+      "subcluster_id": 29,
       "x": 0.82961,
       "y": 0.3546,
       "keywords": [
@@ -22535,6 +22974,7 @@
     },
     "snu-A5100390278": {
       "cluster_id": 9,
+      "subcluster_id": 29,
       "x": 0.80913,
       "y": 0.35775,
       "keywords": [
@@ -22590,6 +23030,7 @@
     },
     "snu-A5100439010": {
       "cluster_id": 6,
+      "subcluster_id": 21,
       "x": -0.1503,
       "y": 0.1911,
       "keywords": [
@@ -22645,6 +23086,7 @@
     },
     "snu-A5021349769": {
       "cluster_id": 9,
+      "subcluster_id": 29,
       "x": 0.76636,
       "y": 0.31486,
       "keywords": [
@@ -22684,6 +23126,7 @@
     },
     "snu-A5100611457": {
       "cluster_id": 12,
+      "subcluster_id": 37,
       "x": 0.57665,
       "y": 0.0183,
       "keywords": [
@@ -22739,6 +23182,7 @@
     },
     "snu-A5012388103": {
       "cluster_id": 7,
+      "subcluster_id": 25,
       "x": 0.54271,
       "y": 0.19007,
       "keywords": [
@@ -22794,6 +23238,7 @@
     },
     "snu-A5036960562": {
       "cluster_id": 9,
+      "subcluster_id": 31,
       "x": 0.67944,
       "y": 0.27423,
       "keywords": [
@@ -22849,6 +23294,7 @@
     },
     "snu-A5085451600": {
       "cluster_id": 7,
+      "subcluster_id": 24,
       "x": 0.54826,
       "y": 0.14517,
       "keywords": [
@@ -22896,6 +23342,7 @@
     },
     "snu-A5055059863": {
       "cluster_id": 9,
+      "subcluster_id": 29,
       "x": 0.81113,
       "y": 0.3532,
       "keywords": [
@@ -22951,6 +23398,7 @@
     },
     "snu-A5044493612": {
       "cluster_id": 9,
+      "subcluster_id": 30,
       "x": 0.82146,
       "y": 0.28748,
       "keywords": [
@@ -23006,6 +23454,7 @@
     },
     "snu-A5090223842": {
       "cluster_id": 12,
+      "subcluster_id": 37,
       "x": 0.57642,
       "y": 0.03383,
       "keywords": [
@@ -23053,6 +23502,7 @@
     },
     "snu-A5063521444": {
       "cluster_id": 12,
+      "subcluster_id": 37,
       "x": 0.59889,
       "y": 0.0133,
       "keywords": [
@@ -23100,6 +23550,7 @@
     },
     "snu-A5036321139": {
       "cluster_id": 7,
+      "subcluster_id": 24,
       "x": 0.49357,
       "y": 0.27453,
       "keywords": [
@@ -23147,6 +23598,7 @@
     },
     "snu-A5101789148": {
       "cluster_id": 15,
+      "subcluster_id": 41,
       "x": 0.75163,
       "y": 0.18168,
       "keywords": [
@@ -23194,6 +23646,7 @@
     },
     "snu-A5102802605": {
       "cluster_id": 7,
+      "subcluster_id": 24,
       "x": 0.53691,
       "y": 0.16221,
       "keywords": [
@@ -23249,6 +23702,7 @@
     },
     "snu-A5114626700": {
       "cluster_id": 12,
+      "subcluster_id": 38,
       "x": 0.6064,
       "y": 0.06274,
       "keywords": [
@@ -23304,6 +23758,7 @@
     },
     "snu-A5100415731": {
       "cluster_id": 9,
+      "subcluster_id": 29,
       "x": 0.85746,
       "y": 0.3413,
       "keywords": [
@@ -23359,6 +23814,7 @@
     },
     "snu-A5100767182": {
       "cluster_id": 9,
+      "subcluster_id": 30,
       "x": 0.88284,
       "y": 0.31436,
       "keywords": [
@@ -23414,6 +23870,7 @@
     },
     "snu-A5078173247": {
       "cluster_id": 9,
+      "subcluster_id": 30,
       "x": 0.76945,
       "y": 0.26034,
       "keywords": [
@@ -23461,6 +23918,7 @@
     },
     "snu-A5050928023": {
       "cluster_id": 12,
+      "subcluster_id": 37,
       "x": 0.53964,
       "y": 0.06671,
       "keywords": [
@@ -23516,6 +23974,7 @@
     },
     "snu-A5083084972": {
       "cluster_id": 9,
+      "subcluster_id": 30,
       "x": 0.67693,
       "y": 0.19872,
       "keywords": [
@@ -23563,6 +24022,7 @@
     },
     "snu-A5036077761": {
       "cluster_id": 12,
+      "subcluster_id": 38,
       "x": 0.57564,
       "y": 0.00434,
       "keywords": [
@@ -23618,6 +24078,7 @@
     },
     "snu-A5080242645": {
       "cluster_id": 16,
+      "subcluster_id": 42,
       "x": 0.42973,
       "y": 0.43074,
       "keywords": [
@@ -23665,6 +24126,7 @@
     },
     "snu-A5029793438": {
       "cluster_id": 9,
+      "subcluster_id": 30,
       "x": 0.83386,
       "y": 0.29166,
       "keywords": [
@@ -23720,6 +24182,7 @@
     },
     "snu-A5035382393": {
       "cluster_id": 15,
+      "subcluster_id": 41,
       "x": 0.78478,
       "y": 0.19085,
       "keywords": [
@@ -23775,6 +24238,7 @@
     },
     "snu-A5024873601": {
       "cluster_id": 7,
+      "subcluster_id": 24,
       "x": 0.52235,
       "y": 0.13539,
       "keywords": [
@@ -23830,6 +24294,7 @@
     },
     "gist-A5011037736": {
       "cluster_id": 6,
+      "subcluster_id": 22,
       "x": -0.12862,
       "y": 0.2498,
       "keywords": [
@@ -23877,6 +24342,7 @@
     },
     "gist-A5024274900": {
       "cluster_id": 6,
+      "subcluster_id": 20,
       "x": -0.21958,
       "y": 0.18547,
       "keywords": [
@@ -23932,6 +24398,7 @@
     },
     "gist-A5076815474": {
       "cluster_id": 6,
+      "subcluster_id": 22,
       "x": -0.13564,
       "y": 0.26523,
       "keywords": [
@@ -23987,6 +24454,7 @@
     },
     "gist-A5117233229": {
       "cluster_id": 11,
+      "subcluster_id": 36,
       "x": 0.09139,
       "y": 0.48802,
       "keywords": [
@@ -24042,6 +24510,7 @@
     },
     "gist-A5084182391": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.43089,
       "y": 0.19131,
       "keywords": [
@@ -24097,6 +24566,7 @@
     },
     "gist-A5047787579": {
       "cluster_id": 2,
+      "subcluster_id": 9,
       "x": -0.35718,
       "y": 0.20988,
       "keywords": [
@@ -24144,6 +24614,7 @@
     },
     "gist-A5009338048": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.50323,
       "y": 0.0977,
       "keywords": [
@@ -24199,6 +24670,7 @@
     },
     "gist-A5076624264": {
       "cluster_id": 6,
+      "subcluster_id": 22,
       "x": -0.09967,
       "y": 0.2774,
       "keywords": [
@@ -24246,6 +24718,7 @@
     },
     "gist-A5000729353": {
       "cluster_id": 6,
+      "subcluster_id": 22,
       "x": -0.12402,
       "y": 0.27963,
       "keywords": [
@@ -24301,6 +24774,7 @@
     },
     "gist-A5044362251": {
       "cluster_id": 2,
+      "subcluster_id": 8,
       "x": -0.27471,
       "y": 0.2792,
       "keywords": [
@@ -24356,6 +24830,7 @@
     },
     "gist-A5016311061": {
       "cluster_id": 3,
+      "subcluster_id": 12,
       "x": 0.34663,
       "y": 0.36966,
       "keywords": [
@@ -24403,6 +24878,7 @@
     },
     "gist-A5100691150": {
       "cluster_id": 6,
+      "subcluster_id": 20,
       "x": -0.26311,
       "y": 0.1309,
       "keywords": [
@@ -24442,6 +24918,7 @@
     },
     "dgist-A5100765869": {
       "cluster_id": 5,
+      "subcluster_id": 18,
       "x": -0.20585,
       "y": -0.08414,
       "keywords": [
@@ -24497,6 +24974,7 @@
     },
     "dgist-A5051640018": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.49636,
       "y": -0.02243,
       "keywords": [
@@ -24552,6 +25030,7 @@
     },
     "dgist-A5005977543": {
       "cluster_id": 8,
+      "subcluster_id": 26,
       "x": -0.39021,
       "y": -0.08996,
       "keywords": [
@@ -24607,6 +25086,7 @@
     },
     "dgist-A5068701918": {
       "cluster_id": 1,
+      "subcluster_id": 6,
       "x": -0.54011,
       "y": -0.1476,
       "keywords": [
@@ -24654,6 +25134,7 @@
     },
     "dgist-A5063361478": {
       "cluster_id": 10,
+      "subcluster_id": 32,
       "x": -0.98373,
       "y": -0.31006,
       "keywords": [
@@ -24701,6 +25182,7 @@
     },
     "dgist-A5073541718": {
       "cluster_id": 7,
+      "subcluster_id": 23,
       "x": 0.32475,
       "y": 0.2021,
       "keywords": [
@@ -24740,6 +25222,7 @@
     },
     "dgist-A5022583737": {
       "cluster_id": 1,
+      "subcluster_id": 5,
       "x": -0.62257,
       "y": -0.02243,
       "keywords": [
@@ -24795,6 +25278,7 @@
     },
     "dgist-A5070455001": {
       "cluster_id": 10,
+      "subcluster_id": 33,
       "x": -0.90309,
       "y": -0.28657,
       "keywords": [
@@ -24850,6 +25334,7 @@
     },
     "dgist-A5046067694": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.44467,
       "y": 0.02245,
       "keywords": [
@@ -24905,6 +25390,7 @@
     },
     "dgist-A5100681214": {
       "cluster_id": 1,
+      "subcluster_id": 6,
       "x": -0.50358,
       "y": -0.13628,
       "keywords": [
@@ -24960,6 +25446,7 @@
     },
     "dgist-A5054870663": {
       "cluster_id": 1,
+      "subcluster_id": 5,
       "x": -0.62526,
       "y": -0.06617,
       "keywords": [
@@ -25015,6 +25502,7 @@
     },
     "dgist-A5083141649": {
       "cluster_id": 10,
+      "subcluster_id": 33,
       "x": -0.93665,
       "y": -0.27659,
       "keywords": [
@@ -25062,6 +25550,7 @@
     },
     "dgist-A5047491735": {
       "cluster_id": 1,
+      "subcluster_id": 4,
       "x": -0.48411,
       "y": 0.01492,
       "keywords": [
@@ -25117,6 +25606,7 @@
     },
     "dgist-A5043295072": {
       "cluster_id": 8,
+      "subcluster_id": 26,
       "x": -0.40656,
       "y": -0.16392,
       "keywords": [
@@ -25164,6 +25654,7 @@
     },
     "dgist-A5091182455": {
       "cluster_id": 2,
+      "subcluster_id": 10,
       "x": -0.4416,
       "y": 0.37845,
       "keywords": [
@@ -25219,6 +25710,7 @@
     },
     "dgist-A5019564898": {
       "cluster_id": 1,
+      "subcluster_id": 6,
       "x": -0.45427,
       "y": -0.11635,
       "keywords": [
@@ -25266,6 +25758,7 @@
     },
     "dgist-A5031456555": {
       "cluster_id": 5,
+      "subcluster_id": 18,
       "x": -0.22682,
       "y": 0.00332,
       "keywords": [
@@ -25321,6 +25814,7 @@
     },
     "dgist-A5100638613": {
       "cluster_id": 2,
+      "subcluster_id": 9,
       "x": -0.3479,
       "y": 0.27028,
       "keywords": [
@@ -25376,6 +25870,7 @@
     },
     "dgist-A5071338997": {
       "cluster_id": 6,
+      "subcluster_id": 20,
       "x": -0.30724,
       "y": 0.20572,
       "keywords": [
@@ -25431,6 +25926,7 @@
     },
     "dgist-A5049868775": {
       "cluster_id": 2,
+      "subcluster_id": 7,
       "x": -0.50457,
       "y": 0.29999,
       "keywords": [
@@ -25486,6 +25982,7 @@
     },
     "dgist-A5080227245": {
       "cluster_id": 2,
+      "subcluster_id": 7,
       "x": -0.44058,
       "y": 0.28056,
       "keywords": [
@@ -25541,6 +26038,7 @@
     },
     "dgist-A5081623766": {
       "cluster_id": 2,
+      "subcluster_id": 10,
       "x": -0.44058,
       "y": 0.37793,
       "keywords": [
@@ -27329,8 +27827,8 @@
       "cross": false,
       "reasons": [
         "Epigenetics and DNA Methylation",
-        "RNA modifications and cancer",
-        "Genomics and Chromatin Dynamics"
+        "Genomics and Chromatin Dynamics",
+        "RNA modifications and cancer"
       ],
       "paper_ids": [],
       "paper_pairs": [
@@ -28760,8 +29258,8 @@
       "cross": false,
       "reasons": [
         "RNA modifications and cancer",
-        "Ubiquitin and proteasome pathways",
-        "Autophagy in Disease and Therapy"
+        "Autophagy in Disease and Therapy",
+        "Histone Deacetylase Inhibitors Research"
       ],
       "paper_ids": [],
       "paper_pairs": [
@@ -28869,7 +29367,7 @@
       "reasons": [
         "Mitochondrial Function and Pathology",
         "RNA regulation and disease",
-        "Ubiquitin and proteasome pathways"
+        "Autophagy in Disease and Therapy"
       ],
       "paper_ids": [],
       "paper_pairs": [
@@ -31590,7 +32088,7 @@
       "reasons": [
         "Advanced biosensing and bioanalysis techniques",
         "Immune Cell Function and Interaction",
-        "RNA Interference and Gene Delivery"
+        "Biosensors and Analytical Detection"
       ],
       "paper_ids": [],
       "paper_pairs": [
@@ -31725,7 +32223,7 @@
       "reasons": [
         "Immune Cell Function and Interaction",
         "CAR-T cell therapy research",
-        "RNA modifications and cancer"
+        "Epigenetics and DNA Methylation"
       ],
       "paper_ids": [],
       "paper_pairs": [
@@ -32688,8 +33186,8 @@
       "cross": false,
       "reasons": [
         "Pain Mechanisms and Treatments",
-        "Protein Degradation and Inhibitors",
-        "Chemical Synthesis and Analysis"
+        "Chemical Synthesis and Analysis",
+        "Protein Degradation and Inhibitors"
       ],
       "paper_ids": [],
       "paper_pairs": [
@@ -37483,8 +37981,8 @@
       "cross": false,
       "reasons": [
         "Plasmonic and Surface Plasmon Research",
-        "Orbital Angular Momentum in Optics",
-        "Magnetic and transport properties of perovskites and related materials"
+        "Magnetic and transport properties of perovskites and related materials",
+        "Orbital Angular Momentum in Optics"
       ],
       "paper_ids": [],
       "paper_pairs": [
@@ -45431,7 +45929,7 @@
       "reasons": [
         "Software Testing and Debugging Techniques",
         "Software Engineering Research",
-        "Logic, programming, and type systems"
+        "Software System Performance and Reliability"
       ],
       "paper_ids": [],
       "paper_pairs": [
@@ -53156,7 +53654,7 @@
       "reasons": [
         "Software Testing and Debugging Techniques",
         "Software Engineering Research",
-        "Logic, programming, and type systems"
+        "Software System Performance and Reliability"
       ],
       "paper_ids": [],
       "paper_pairs": [
@@ -53183,7 +53681,7 @@
       "reasons": [
         "Software Testing and Debugging Techniques",
         "Software Engineering Research",
-        "Logic, programming, and type systems"
+        "Software System Performance and Reliability"
       ],
       "paper_ids": [],
       "paper_pairs": [
@@ -54802,7 +55300,7 @@
       "reasons": [
         "Software Testing and Debugging Techniques",
         "Software Engineering Research",
-        "Logic, programming, and type systems"
+        "Software System Performance and Reliability"
       ],
       "paper_ids": [],
       "paper_pairs": [
@@ -57091,8 +57589,8 @@
       "weight": 0.9522,
       "cross": true,
       "reasons": [
-        "Organic and Molecular Conductors Research",
         "Advanced Chemical Physics Studies",
+        "Organic and Molecular Conductors Research",
         "2D Materials and Applications"
       ],
       "paper_ids": [],
@@ -69414,7 +69912,7 @@
   "clusters": [
     {
       "id": 0,
-      "label_ko": "면역·미생물·대사",
+      "label_ko": "세포생물학·면역·대사",
       "keywords": [
         "Immune Cell Function and Interaction",
         "Immune cells in cancer",
@@ -69422,7 +69920,57 @@
         "T-cell and B-cell Immunology",
         "Gut microbiota and health"
       ],
-      "size": 47
+      "size": 47,
+      "subclusters": [
+        {
+          "id": 0,
+          "label_ko": "미토콘드리아·자가포식·대사",
+          "keywords": [
+            "Autophagy in Disease and Therapy",
+            "Adipose Tissue and Metabolism",
+            "Hippo pathway signaling and YAP/TAZ",
+            "Mitochondrial Function and Pathology",
+            "Adipokines, Inflammation, and Metabolic Diseases"
+          ],
+          "size": 17
+        },
+        {
+          "id": 1,
+          "label_ko": "후성유전·단일세포 유전체",
+          "keywords": [
+            "Single-cell and spatial transcriptomics",
+            "Epigenetics and DNA Methylation",
+            "Cancer Genomics and Diagnostics",
+            "Immune cells in cancer",
+            "Genomics and Chromatin Dynamics"
+          ],
+          "size": 16
+        },
+        {
+          "id": 2,
+          "label_ko": "면역학",
+          "keywords": [
+            "Immune Cell Function and Interaction",
+            "T-cell and B-cell Immunology",
+            "Inflammasome and immune disorders",
+            "Extracellular vesicles in disease",
+            "interferon and immune responses"
+          ],
+          "size": 10
+        },
+        {
+          "id": 3,
+          "label_ko": "장내 미생물·대사체",
+          "keywords": [
+            "Gut microbiota and health",
+            "Metabolomics and Mass Spectrometry Studies",
+            "Bacterial Genetics and Biotechnology",
+            "Enzyme Structure and Function",
+            "Probiotics and Fermented Foods"
+          ],
+          "size": 4
+        }
+      ]
     },
     {
       "id": 1,
@@ -69434,7 +69982,45 @@
         "Advanced Photocatalysis Techniques",
         "Advanced Battery Materials and Technologies"
       ],
-      "size": 44
+      "size": 44,
+      "subclusters": [
+        {
+          "id": 4,
+          "label_ko": "유기전자·페로브스카이트·광촉매",
+          "keywords": [
+            "Organic Electronics and Photovoltaics",
+            "2D Materials and Applications",
+            "Advanced Photocatalysis Techniques",
+            "Perovskite Materials and Applications",
+            "Advanced Electron Microscopy Techniques and Applications"
+          ],
+          "size": 18
+        },
+        {
+          "id": 5,
+          "label_ko": "이차전지·전기화학 촉매",
+          "keywords": [
+            "Advanced Battery Materials and Technologies",
+            "Advancements in Battery Materials",
+            "Electrocatalysts for Energy Conversion",
+            "Advanced battery technologies research",
+            "CO2 Reduction Techniques and Catalysts"
+          ],
+          "size": 14
+        },
+        {
+          "id": 6,
+          "label_ko": "MOF·나노입자 촉매",
+          "keywords": [
+            "Metal-Organic Frameworks: Synthesis and Applications",
+            "Catalytic Processes in Materials Science",
+            "Electrocatalysts for Energy Conversion",
+            "Gold and Silver Nanoparticles Synthesis and Applications",
+            "CO2 Reduction Techniques and Catalysts"
+          ],
+          "size": 12
+        }
+      ]
     },
     {
       "id": 2,
@@ -69446,7 +70032,57 @@
         "2D Materials and Applications",
         "Physics of Superconductivity and Magnetism"
       ],
-      "size": 42
+      "size": 42,
+      "subclusters": [
+        {
+          "id": 7,
+          "label_ko": "초전도·자성·다강체",
+          "keywords": [
+            "Physics of Superconductivity and Magnetism",
+            "2D Materials and Applications",
+            "Multiferroics and related materials",
+            "Advanced Condensed Matter Physics",
+            "Topological Materials and Phenomena"
+          ],
+          "size": 12
+        },
+        {
+          "id": 8,
+          "label_ko": "양자 다체계·위상 현상",
+          "keywords": [
+            "Cold Atom Physics and Bose-Einstein Condensates",
+            "Topological Materials and Phenomena",
+            "Quantum many-body systems",
+            "Advanced Condensed Matter Physics",
+            "Black Holes and Theoretical Physics"
+          ],
+          "size": 12
+        },
+        {
+          "id": 9,
+          "label_ko": "그래핀·2차원 소자",
+          "keywords": [
+            "Graphene research and applications",
+            "2D Materials and Applications",
+            "Advanced Memory and Neural Computing",
+            "Topological Materials and Phenomena",
+            "Organic Electronics and Photovoltaics"
+          ],
+          "size": 9
+        },
+        {
+          "id": 10,
+          "label_ko": "자성 박막·스핀트로닉스",
+          "keywords": [
+            "Magnetic properties of thin films",
+            "Advanced Condensed Matter Physics",
+            "Multiferroics and related materials",
+            "Physical Unclonable Functions (PUFs) and Hardware Security",
+            "Topological Materials and Phenomena"
+          ],
+          "size": 9
+        }
+      ]
     },
     {
       "id": 3,
@@ -69458,7 +70094,45 @@
         "Nonlinear Dynamics and Pattern Formation",
         "Random Matrices and Applications"
       ],
-      "size": 40
+      "size": 40,
+      "subclusters": [
+        {
+          "id": 11,
+          "label_ko": "조화해석·스펙트럼 이론·과학계산",
+          "keywords": [
+            "Model Reduction and Neural Networks",
+            "Advanced Harmonic Analysis Research",
+            "Nanofluid Flow and Heat Transfer",
+            "Spectral Theory in Mathematical Physics",
+            "Numerical methods in inverse problems"
+          ],
+          "size": 17
+        },
+        {
+          "id": 12,
+          "label_ko": "확률·동역학계·통계역학",
+          "keywords": [
+            "Distributed Control Multi-Agent Systems",
+            "Random Matrices and Applications",
+            "Nonlinear Dynamics and Pattern Formation",
+            "Stochastic processes and statistical mechanics",
+            "Advanced Thermodynamics and Statistical Mechanics"
+          ],
+          "size": 14
+        },
+        {
+          "id": 13,
+          "label_ko": "비선형 편미분방정식·유체",
+          "keywords": [
+            "Nonlinear Partial Differential Equations",
+            "Navier-Stokes equation solutions",
+            "Advanced Mathematical Physics Problems",
+            "Geometry and complex manifolds",
+            "Computational Fluid Dynamics and Aerodynamics"
+          ],
+          "size": 9
+        }
+      ]
     },
     {
       "id": 4,
@@ -69470,7 +70144,45 @@
         "RNA modifications and cancer",
         "Genetics, Aging, and Longevity in Model Organisms"
       ],
-      "size": 38
+      "size": 38,
+      "subclusters": [
+        {
+          "id": 14,
+          "label_ko": "세포 내 수송·단백질 품질관리",
+          "keywords": [
+            "Cellular transport and secretion",
+            "RNA and protein synthesis mechanisms",
+            "Endoplasmic Reticulum Stress and Disease",
+            "Biotin and Related Studies",
+            "Ubiquitin and proteasome pathways"
+          ],
+          "size": 18
+        },
+        {
+          "id": 15,
+          "label_ko": "RNA 생물학·DNA 복구·노화",
+          "keywords": [
+            "RNA modifications and cancer",
+            "RNA Research and Splicing",
+            "Genetics, Aging, and Longevity in Model Organisms",
+            "DNA Repair Mechanisms",
+            "RNA Interference and Gene Delivery"
+          ],
+          "size": 12
+        },
+        {
+          "id": 16,
+          "label_ko": "구조생물학·생물정보학",
+          "keywords": [
+            "Protein Structure and Dynamics",
+            "Computational Drug Discovery Methods",
+            "Machine Learning in Bioinformatics",
+            "Genomics and Phylogenetic Studies",
+            "Enzyme Structure and Function"
+          ],
+          "size": 8
+        }
+      ]
     },
     {
       "id": 5,
@@ -69482,7 +70194,45 @@
         "Nanoparticle-Based Drug Delivery",
         "Biosensors and Analytical Detection"
       ],
-      "size": 33
+      "size": 33,
+      "subclusters": [
+        {
+          "id": 17,
+          "label_ko": "분자 센서·광학 이미징",
+          "keywords": [
+            "Molecular Sensors and Ion Detection",
+            "Digital Holography and Microscopy",
+            "Biosensors and Analytical Detection",
+            "Quantum Dots Synthesis And Properties",
+            "Electrocatalysts for Energy Conversion"
+          ],
+          "size": 12
+        },
+        {
+          "id": 18,
+          "label_ko": "나노입자 바이오분석·마이크로로봇",
+          "keywords": [
+            "Gold and Silver Nanoparticles Synthesis and Applications",
+            "Polymer Surface Interaction Studies",
+            "Micro and Nano Robotics",
+            "Advanced biosensing and bioanalysis techniques",
+            "Advanced Sensor and Energy Harvesting Materials"
+          ],
+          "size": 11
+        },
+        {
+          "id": 19,
+          "label_ko": "약물·유전자 전달 나노의학",
+          "keywords": [
+            "Chemical Synthesis and Analysis",
+            "Nanoplatforms for cancer theranostics",
+            "Nanoparticle-Based Drug Delivery",
+            "RNA Interference and Gene Delivery",
+            "Monoclonal and Polyclonal Antibodies Research"
+          ],
+          "size": 10
+        }
+      ]
     },
     {
       "id": 6,
@@ -69494,11 +70244,49 @@
         "Laser-Matter Interactions and Applications",
         "Photorefractive and Nonlinear Optics"
       ],
-      "size": 33
+      "size": 33,
+      "subclusters": [
+        {
+          "id": 20,
+          "label_ko": "나노광학·메타물질",
+          "keywords": [
+            "2D Materials and Applications",
+            "Photorefractive and Nonlinear Optics",
+            "Metamaterials and Metasurfaces Applications",
+            "Photonic and Optical Devices",
+            "Plasmonic and Surface Plasmon Research"
+          ],
+          "size": 13
+        },
+        {
+          "id": 21,
+          "label_ko": "양자정보·양자컴퓨팅",
+          "keywords": [
+            "Quantum Computing Algorithms and Architecture",
+            "Quantum Information and Cryptography",
+            "Cold Atom Physics and Bose-Einstein Condensates",
+            "Quantum and electron transport phenomena",
+            "Quantum optics and atomic interactions"
+          ],
+          "size": 10
+        },
+        {
+          "id": 22,
+          "label_ko": "레이저·플라스마·X선",
+          "keywords": [
+            "Laser-Plasma Interactions and Diagnostics",
+            "Laser-Matter Interactions and Applications",
+            "Advanced X-ray Imaging Techniques",
+            "Astrophysics and Cosmic Phenomena",
+            "Astrophysical Phenomena and Observations"
+          ],
+          "size": 10
+        }
+      ]
     },
     {
       "id": 7,
-      "label_ko": "데이터·기계학습·자연어",
+      "label_ko": "데이터 과학·수리 모델링",
       "keywords": [
         "Recommender Systems and Techniques",
         "Topic Modeling",
@@ -69506,7 +70294,45 @@
         "Advanced Graph Neural Networks",
         "Information Retrieval and Search Behavior"
       ],
-      "size": 31
+      "size": 31,
+      "subclusters": [
+        {
+          "id": 23,
+          "label_ko": "수리생물·복잡계 모델링",
+          "keywords": [
+            "Model Reduction and Neural Networks",
+            "Gene Regulatory Network Analysis",
+            "Circadian rhythm and melatonin",
+            "Sleep and related disorders",
+            "Stochastic processes and financial applications"
+          ],
+          "size": 17
+        },
+        {
+          "id": 24,
+          "label_ko": "추천·정보검색·언어 모델",
+          "keywords": [
+            "Recommender Systems and Techniques",
+            "Topic Modeling",
+            "Advanced Neural Network Applications",
+            "Information Retrieval and Search Behavior",
+            "Advanced Graph Neural Networks"
+          ],
+          "size": 9
+        },
+        {
+          "id": 25,
+          "label_ko": "시각화·감정 인식·사회 데이터",
+          "keywords": [
+            "Data Visualization and Analytics",
+            "Innovative Human-Technology Interaction",
+            "Emotion and Mood Recognition",
+            "Misinformation and Its Impacts",
+            "Digital Mental Health Interventions"
+          ],
+          "size": 5
+        }
+      ]
     },
     {
       "id": 8,
@@ -69518,7 +70344,45 @@
         "Advanced Polymer Synthesis and Characterization",
         "Spectroscopy and Quantum Chemical Studies"
       ],
-      "size": 30
+      "size": 30,
+      "subclusters": [
+        {
+          "id": 26,
+          "label_ko": "고분자·액정 자기조립",
+          "keywords": [
+            "Block Copolymer Self-Assembly",
+            "Liquid Crystal Research Advancements",
+            "Advanced Polymer Synthesis and Characterization",
+            "Advanced Battery Materials and Technologies",
+            "Organic Electronics and Photovoltaics"
+          ],
+          "size": 11
+        },
+        {
+          "id": 27,
+          "label_ko": "분광학·화학 동역학",
+          "keywords": [
+            "Spectroscopy and Quantum Chemical Studies",
+            "Photochemistry and Electron Transfer Studies",
+            "Advanced Chemical Physics Studies",
+            "Atomic and Molecular Physics",
+            "Material Dynamics and Properties"
+          ],
+          "size": 10
+        },
+        {
+          "id": 28,
+          "label_ko": "계산화학·초분자·천연물",
+          "keywords": [
+            "Machine Learning in Materials Science",
+            "Microbial Natural Products and Biosynthesis",
+            "Supramolecular Chemistry and Complexes",
+            "Computational Drug Discovery Methods",
+            "Luminescence and Fluorescent Materials"
+          ],
+          "size": 9
+        }
+      ]
     },
     {
       "id": 9,
@@ -69530,7 +70394,45 @@
         "Security and Verification in Computing",
         "Cloud Computing and Resource Management"
       ],
-      "size": 30
+      "size": 30,
+      "subclusters": [
+        {
+          "id": 29,
+          "label_ko": "저장장치·클라우드·블록체인",
+          "keywords": [
+            "Advanced Data Storage Technologies",
+            "Parallel Computing and Optimization Techniques",
+            "Blockchain Technology Applications and Security",
+            "Cloud Computing and Resource Management",
+            "Security and Verification in Computing"
+          ],
+          "size": 12
+        },
+        {
+          "id": 30,
+          "label_ko": "컴퓨터 구조·임베디드·실시간",
+          "keywords": [
+            "Parallel Computing and Optimization Techniques",
+            "IoT and Edge/Fog Computing",
+            "Advanced Neural Network Applications",
+            "Real-Time Systems Scheduling",
+            "Embedded Systems Design Techniques"
+          ],
+          "size": 10
+        },
+        {
+          "id": 31,
+          "label_ko": "암호·보안",
+          "keywords": [
+            "Cryptography and Data Security",
+            "Security and Verification in Computing",
+            "Cryptographic Implementations and Security",
+            "Internet Traffic Analysis and Secure E-voting",
+            "Adversarial Robustness in Machine Learning"
+          ],
+          "size": 8
+        }
+      ]
     },
     {
       "id": 10,
@@ -69542,7 +70444,33 @@
         "Catalytic Cross-Coupling Reactions",
         "Fluorine in Organic Chemistry"
       ],
-      "size": 28
+      "size": 28,
+      "subclusters": [
+        {
+          "id": 32,
+          "label_ko": "라디칼·비대칭 유기합성",
+          "keywords": [
+            "Radical Photochemical Reactions",
+            "Asymmetric Synthesis and Catalysis",
+            "Advanced Synthetic Organic Chemistry",
+            "Catalytic Cross-Coupling Reactions",
+            "Fluorine in Organic Chemistry"
+          ],
+          "size": 15
+        },
+        {
+          "id": 33,
+          "label_ko": "유기금속·촉매 메커니즘",
+          "keywords": [
+            "Advanced Battery Materials and Technologies",
+            "Metal-Catalyzed Oxygenation Mechanisms",
+            "Organometallic Complex Synthesis and Catalysis",
+            "Synthetic Organic Chemistry Methods",
+            "Organoboron and organosilicon chemistry"
+          ],
+          "size": 13
+        }
+      ]
     },
     {
       "id": 11,
@@ -69554,7 +70482,45 @@
         "Algebraic structures and combinatorial models",
         "Analytic Number Theory Research"
       ],
-      "size": 26
+      "size": 26,
+      "subclusters": [
+        {
+          "id": 34,
+          "label_ko": "위상수학·대수기하",
+          "keywords": [
+            "Geometric and Algebraic Topology",
+            "Algebraic Geometry and Number Theory",
+            "Commutative Algebra and Its Applications",
+            "Homotopy and Cohomology in Algebraic Topology",
+            "Geometry and complex manifolds"
+          ],
+          "size": 9
+        },
+        {
+          "id": 35,
+          "label_ko": "정수론·대수 조합",
+          "keywords": [
+            "Algebraic structures and combinatorial models",
+            "Analytic Number Theory Research",
+            "Algebraic Geometry and Number Theory",
+            "Advanced Algebra and Geometry",
+            "Advanced Mathematical Identities"
+          ],
+          "size": 9
+        },
+        {
+          "id": 36,
+          "label_ko": "고에너지 이론·우주론",
+          "keywords": [
+            "Black Holes and Theoretical Physics",
+            "Particle physics theoretical and experimental studies",
+            "Quantum chaos and dynamical systems",
+            "Cosmology and Gravitation Theories",
+            "Cold Atom Physics and Bose-Einstein Condensates"
+          ],
+          "size": 8
+        }
+      ]
     },
     {
       "id": 12,
@@ -69566,7 +70532,33 @@
         "Advanced Neural Network Applications",
         "Human Motion and Animation"
       ],
-      "size": 23
+      "size": 23,
+      "subclusters": [
+        {
+          "id": 37,
+          "label_ko": "컴퓨터 비전·생성 모델",
+          "keywords": [
+            "3D Shape Modeling and Analysis",
+            "Generative Adversarial Networks and Image Synthesis",
+            "Advanced Neural Network Applications",
+            "Multimodal Machine Learning Applications",
+            "Advanced Vision and Imaging"
+          ],
+          "size": 15
+        },
+        {
+          "id": 38,
+          "label_ko": "촉각·몰입형 인터랙션·BCI",
+          "keywords": [
+            "Tactile and Sensory Interactions",
+            "Interactive and Immersive Displays",
+            "Teleoperation and Haptic Systems",
+            "EEG and Brain-Computer Interfaces",
+            "Indoor and Outdoor Localization Technologies"
+          ],
+          "size": 8
+        }
+      ]
     },
     {
       "id": 13,
@@ -69578,7 +70570,21 @@
         "Photosynthetic Processes and Mechanisms",
         "Plant Reproductive Biology"
       ],
-      "size": 19
+      "size": 19,
+      "subclusters": [
+        {
+          "id": 39,
+          "label_ko": "식물 분자생물학",
+          "keywords": [
+            "Plant Molecular Biology Research",
+            "Mycorrhizal Fungi and Plant Interactions",
+            "Plant Pathogens and Fungal Diseases",
+            "Photosynthetic Processes and Mechanisms",
+            "Plant Reproductive Biology"
+          ],
+          "size": 19
+        }
+      ]
     },
     {
       "id": 14,
@@ -69590,7 +70596,21 @@
         "Neuroinflammation and Neurodegeneration Mechanisms",
         "Memory and Neural Mechanisms"
       ],
-      "size": 16
+      "size": 16,
+      "subclusters": [
+        {
+          "id": 40,
+          "label_ko": "신경과학",
+          "keywords": [
+            "Neuroscience and Neuropharmacology Research",
+            "Genetics and Neurodevelopmental Disorders",
+            "Neural dynamics and brain function",
+            "Neuroinflammation and Neurodegeneration Mechanisms",
+            "Memory and Neural Mechanisms"
+          ],
+          "size": 16
+        }
+      ]
     },
     {
       "id": 15,
@@ -69602,7 +70622,21 @@
         "Formal Methods in Verification",
         "Software Reliability and Analysis Research"
       ],
-      "size": 11
+      "size": 11,
+      "subclusters": [
+        {
+          "id": 41,
+          "label_ko": "소프트웨어공학·프로그래밍 언어",
+          "keywords": [
+            "Software Testing and Debugging Techniques",
+            "Software Engineering Research",
+            "Logic, programming, and type systems",
+            "Formal Methods in Verification",
+            "Software Reliability and Analysis Research"
+          ],
+          "size": 11
+        }
+      ]
     },
     {
       "id": 16,
@@ -69614,7 +70648,21 @@
         "Complexity and Algorithms in Graphs",
         "Advanced Combinatorial Mathematics"
       ],
-      "size": 7
+      "size": 7,
+      "subclusters": [
+        {
+          "id": 42,
+          "label_ko": "그래프 이론·조합·알고리즘",
+          "keywords": [
+            "Limits and Structures in Graph Theory",
+            "Advanced Graph Theory Research",
+            "Computational Geometry and Mesh Generation",
+            "Complexity and Algorithms in Graphs",
+            "Advanced Combinatorial Mathematics"
+          ],
+          "size": 7
+        }
+      ]
     }
   ]
 }

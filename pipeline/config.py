@@ -45,6 +45,11 @@ SIMILARITY_THRESHOLD_QUANTILE = 0.25  # threshold = this quantile of all labs' t
 LOUVAIN_SEED = 42
 LOUVAIN_TARGET_CLUSTERS = (6, 12)
 LOUVAIN_RESOLUTIONS = [round(0.5 + 0.05 * i, 2) for i in range(51)]  # 0.5 .. 3.0
+# sub-clusters: a cluster this large is split again on its own kNN graph (shown when the map is zoomed in)
+SUBCLUSTER_MIN_SIZE = 20
+SUBCLUSTER_MIN_PART = 4                 # no sub-cluster smaller than this
+SUBCLUSTER_LABS_PER_PART = 10           # aim for about one sub-cluster per this many labs
+SUBCLUSTER_RESOLUTIONS = [round(0.5 + 0.1 * i, 1) for i in range(26)]  # 0.5 .. 3.0
 UMAP_SEED = 42
 FLAG_COSINE = 0.70                  # papers further than this from their lab centre go to manual review
 REPRESENTATIVE_PAPERS = 3

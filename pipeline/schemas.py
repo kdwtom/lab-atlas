@@ -188,6 +188,8 @@ class Lab(Strict):
     vector_paper_count: int = 0            # papers behind the lab's vector; few papers make its neighbours unstable
     keywords: list[str] = Field(default_factory=list)
     cluster_id: Optional[int] = None
+    subcluster_id: Optional[int] = None
+    trend: Optional[LabTrend] = None
     x: Optional[float] = None
     y: Optional[float] = None
     intro_ko: Optional[str] = None
@@ -228,11 +230,38 @@ class Edge(Strict):
     paper_pairs: list[tuple[str, str]] = Field(default_factory=list, max_length=3)
 
 
+class LabTrend(Strict):
+    """Change of topic between the first and last two years of the window (pipeline/trend.py). Not an evaluation."""
+    status: Literal["shifted", "stable", "insufficient"]
+    early_years: tuple[int, int]
+    recent_years: tuple[int, int]
+    early_papers: int
+    recent_papers: int
+    shift: Optional[float] = None              # 1 - cosine of the two periods' mean paper vectors
+    p_value: Optional[float] = None            # permutation test; "shifted" also passes a false-discovery correction
+    emerging_topics: list[str] = Field(default_factory=list)
+    fading_topics: list[str] = Field(default_factory=list)
+    toward_lab_ids: list[str] = Field(default_factory=list)
+    toward_subcluster_id: Optional[int] = None
+    away_subcluster_id: Optional[int] = None
+    toward_xy: Optional[tuple[float, float]] = None  # map point (UMAP coordinates) the recent papers moved toward
+    early_xy: Optional[tuple[float, float]] = None   # where each period's papers would sit on the map (UMAP coordinates)
+    recent_xy: Optional[tuple[float, float]] = None
+
+
+class SubCluster(Strict):
+    id: int                                # unique across all clusters
+    label_ko: str
+    keywords: list[str]
+    size: int
+
+
 class Cluster(Strict):
     id: int
     label_ko: str
     keywords: list[str]
     size: int
+    subclusters: list[SubCluster] = Field(default_factory=list)  # a single entry when the cluster is not split
 
 
 class Counts(Strict):

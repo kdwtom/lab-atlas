@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "label_ko": "면역·미생물·대사",
+    "label_ko": "세포생물학·면역·대사",
     "keywords": [
       "Immune Cell Function and Interaction",
       "Immune cells in cancer",
@@ -9,7 +9,57 @@
       "T-cell and B-cell Immunology",
       "Gut microbiota and health"
     ],
-    "size": 47
+    "size": 47,
+    "subclusters": [
+      {
+        "id": 0,
+        "label_ko": "미토콘드리아·자가포식·대사",
+        "keywords": [
+          "Autophagy in Disease and Therapy",
+          "Adipose Tissue and Metabolism",
+          "Hippo pathway signaling and YAP/TAZ",
+          "Mitochondrial Function and Pathology",
+          "Adipokines, Inflammation, and Metabolic Diseases"
+        ],
+        "size": 17
+      },
+      {
+        "id": 1,
+        "label_ko": "후성유전·단일세포 유전체",
+        "keywords": [
+          "Single-cell and spatial transcriptomics",
+          "Epigenetics and DNA Methylation",
+          "Cancer Genomics and Diagnostics",
+          "Immune cells in cancer",
+          "Genomics and Chromatin Dynamics"
+        ],
+        "size": 16
+      },
+      {
+        "id": 2,
+        "label_ko": "면역학",
+        "keywords": [
+          "Immune Cell Function and Interaction",
+          "T-cell and B-cell Immunology",
+          "Inflammasome and immune disorders",
+          "Extracellular vesicles in disease",
+          "interferon and immune responses"
+        ],
+        "size": 10
+      },
+      {
+        "id": 3,
+        "label_ko": "장내 미생물·대사체",
+        "keywords": [
+          "Gut microbiota and health",
+          "Metabolomics and Mass Spectrometry Studies",
+          "Bacterial Genetics and Biotechnology",
+          "Enzyme Structure and Function",
+          "Probiotics and Fermented Foods"
+        ],
+        "size": 4
+      }
+    ]
   },
   {
     "id": 1,
@@ -21,7 +71,45 @@
       "Advanced Photocatalysis Techniques",
       "Advanced Battery Materials and Technologies"
     ],
-    "size": 44
+    "size": 44,
+    "subclusters": [
+      {
+        "id": 4,
+        "label_ko": "유기전자·페로브스카이트·광촉매",
+        "keywords": [
+          "Organic Electronics and Photovoltaics",
+          "2D Materials and Applications",
+          "Advanced Photocatalysis Techniques",
+          "Perovskite Materials and Applications",
+          "Advanced Electron Microscopy Techniques and Applications"
+        ],
+        "size": 18
+      },
+      {
+        "id": 5,
+        "label_ko": "이차전지·전기화학 촉매",
+        "keywords": [
+          "Advanced Battery Materials and Technologies",
+          "Advancements in Battery Materials",
+          "Electrocatalysts for Energy Conversion",
+          "Advanced battery technologies research",
+          "CO2 Reduction Techniques and Catalysts"
+        ],
+        "size": 14
+      },
+      {
+        "id": 6,
+        "label_ko": "MOF·나노입자 촉매",
+        "keywords": [
+          "Metal-Organic Frameworks: Synthesis and Applications",
+          "Catalytic Processes in Materials Science",
+          "Electrocatalysts for Energy Conversion",
+          "Gold and Silver Nanoparticles Synthesis and Applications",
+          "CO2 Reduction Techniques and Catalysts"
+        ],
+        "size": 12
+      }
+    ]
   },
   {
     "id": 2,
@@ -33,7 +121,57 @@
       "2D Materials and Applications",
       "Physics of Superconductivity and Magnetism"
     ],
-    "size": 42
+    "size": 42,
+    "subclusters": [
+      {
+        "id": 7,
+        "label_ko": "초전도·자성·다강체",
+        "keywords": [
+          "Physics of Superconductivity and Magnetism",
+          "2D Materials and Applications",
+          "Multiferroics and related materials",
+          "Advanced Condensed Matter Physics",
+          "Topological Materials and Phenomena"
+        ],
+        "size": 12
+      },
+      {
+        "id": 8,
+        "label_ko": "양자 다체계·위상 현상",
+        "keywords": [
+          "Cold Atom Physics and Bose-Einstein Condensates",
+          "Topological Materials and Phenomena",
+          "Quantum many-body systems",
+          "Advanced Condensed Matter Physics",
+          "Black Holes and Theoretical Physics"
+        ],
+        "size": 12
+      },
+      {
+        "id": 9,
+        "label_ko": "그래핀·2차원 소자",
+        "keywords": [
+          "Graphene research and applications",
+          "2D Materials and Applications",
+          "Advanced Memory and Neural Computing",
+          "Topological Materials and Phenomena",
+          "Organic Electronics and Photovoltaics"
+        ],
+        "size": 9
+      },
+      {
+        "id": 10,
+        "label_ko": "자성 박막·스핀트로닉스",
+        "keywords": [
+          "Magnetic properties of thin films",
+          "Advanced Condensed Matter Physics",
+          "Multiferroics and related materials",
+          "Physical Unclonable Functions (PUFs) and Hardware Security",
+          "Topological Materials and Phenomena"
+        ],
+        "size": 9
+      }
+    ]
   },
   {
     "id": 3,
@@ -45,7 +183,45 @@
       "Nonlinear Dynamics and Pattern Formation",
       "Random Matrices and Applications"
     ],
-    "size": 40
+    "size": 40,
+    "subclusters": [
+      {
+        "id": 11,
+        "label_ko": "조화해석·스펙트럼 이론·과학계산",
+        "keywords": [
+          "Model Reduction and Neural Networks",
+          "Advanced Harmonic Analysis Research",
+          "Nanofluid Flow and Heat Transfer",
+          "Spectral Theory in Mathematical Physics",
+          "Numerical methods in inverse problems"
+        ],
+        "size": 17
+      },
+      {
+        "id": 12,
+        "label_ko": "확률·동역학계·통계역학",
+        "keywords": [
+          "Distributed Control Multi-Agent Systems",
+          "Random Matrices and Applications",
+          "Nonlinear Dynamics and Pattern Formation",
+          "Stochastic processes and statistical mechanics",
+          "Advanced Thermodynamics and Statistical Mechanics"
+        ],
+        "size": 14
+      },
+      {
+        "id": 13,
+        "label_ko": "비선형 편미분방정식·유체",
+        "keywords": [
+          "Nonlinear Partial Differential Equations",
+          "Navier-Stokes equation solutions",
+          "Advanced Mathematical Physics Problems",
+          "Geometry and complex manifolds",
+          "Computational Fluid Dynamics and Aerodynamics"
+        ],
+        "size": 9
+      }
+    ]
   },
   {
     "id": 4,
@@ -57,7 +233,45 @@
       "RNA modifications and cancer",
       "Genetics, Aging, and Longevity in Model Organisms"
     ],
-    "size": 38
+    "size": 38,
+    "subclusters": [
+      {
+        "id": 14,
+        "label_ko": "세포 내 수송·단백질 품질관리",
+        "keywords": [
+          "Cellular transport and secretion",
+          "RNA and protein synthesis mechanisms",
+          "Endoplasmic Reticulum Stress and Disease",
+          "Biotin and Related Studies",
+          "Ubiquitin and proteasome pathways"
+        ],
+        "size": 18
+      },
+      {
+        "id": 15,
+        "label_ko": "RNA 생물학·DNA 복구·노화",
+        "keywords": [
+          "RNA modifications and cancer",
+          "RNA Research and Splicing",
+          "Genetics, Aging, and Longevity in Model Organisms",
+          "DNA Repair Mechanisms",
+          "RNA Interference and Gene Delivery"
+        ],
+        "size": 12
+      },
+      {
+        "id": 16,
+        "label_ko": "구조생물학·생물정보학",
+        "keywords": [
+          "Protein Structure and Dynamics",
+          "Computational Drug Discovery Methods",
+          "Machine Learning in Bioinformatics",
+          "Genomics and Phylogenetic Studies",
+          "Enzyme Structure and Function"
+        ],
+        "size": 8
+      }
+    ]
   },
   {
     "id": 5,
@@ -69,7 +283,45 @@
       "Nanoparticle-Based Drug Delivery",
       "Biosensors and Analytical Detection"
     ],
-    "size": 33
+    "size": 33,
+    "subclusters": [
+      {
+        "id": 17,
+        "label_ko": "분자 센서·광학 이미징",
+        "keywords": [
+          "Molecular Sensors and Ion Detection",
+          "Digital Holography and Microscopy",
+          "Biosensors and Analytical Detection",
+          "Quantum Dots Synthesis And Properties",
+          "Electrocatalysts for Energy Conversion"
+        ],
+        "size": 12
+      },
+      {
+        "id": 18,
+        "label_ko": "나노입자 바이오분석·마이크로로봇",
+        "keywords": [
+          "Gold and Silver Nanoparticles Synthesis and Applications",
+          "Polymer Surface Interaction Studies",
+          "Micro and Nano Robotics",
+          "Advanced biosensing and bioanalysis techniques",
+          "Advanced Sensor and Energy Harvesting Materials"
+        ],
+        "size": 11
+      },
+      {
+        "id": 19,
+        "label_ko": "약물·유전자 전달 나노의학",
+        "keywords": [
+          "Chemical Synthesis and Analysis",
+          "Nanoplatforms for cancer theranostics",
+          "Nanoparticle-Based Drug Delivery",
+          "RNA Interference and Gene Delivery",
+          "Monoclonal and Polyclonal Antibodies Research"
+        ],
+        "size": 10
+      }
+    ]
   },
   {
     "id": 6,
@@ -81,11 +333,49 @@
       "Laser-Matter Interactions and Applications",
       "Photorefractive and Nonlinear Optics"
     ],
-    "size": 33
+    "size": 33,
+    "subclusters": [
+      {
+        "id": 20,
+        "label_ko": "나노광학·메타물질",
+        "keywords": [
+          "2D Materials and Applications",
+          "Photorefractive and Nonlinear Optics",
+          "Metamaterials and Metasurfaces Applications",
+          "Photonic and Optical Devices",
+          "Plasmonic and Surface Plasmon Research"
+        ],
+        "size": 13
+      },
+      {
+        "id": 21,
+        "label_ko": "양자정보·양자컴퓨팅",
+        "keywords": [
+          "Quantum Computing Algorithms and Architecture",
+          "Quantum Information and Cryptography",
+          "Cold Atom Physics and Bose-Einstein Condensates",
+          "Quantum and electron transport phenomena",
+          "Quantum optics and atomic interactions"
+        ],
+        "size": 10
+      },
+      {
+        "id": 22,
+        "label_ko": "레이저·플라스마·X선",
+        "keywords": [
+          "Laser-Plasma Interactions and Diagnostics",
+          "Laser-Matter Interactions and Applications",
+          "Advanced X-ray Imaging Techniques",
+          "Astrophysics and Cosmic Phenomena",
+          "Astrophysical Phenomena and Observations"
+        ],
+        "size": 10
+      }
+    ]
   },
   {
     "id": 7,
-    "label_ko": "데이터·기계학습·자연어",
+    "label_ko": "데이터 과학·수리 모델링",
     "keywords": [
       "Recommender Systems and Techniques",
       "Topic Modeling",
@@ -93,7 +383,45 @@
       "Advanced Graph Neural Networks",
       "Information Retrieval and Search Behavior"
     ],
-    "size": 31
+    "size": 31,
+    "subclusters": [
+      {
+        "id": 23,
+        "label_ko": "수리생물·복잡계 모델링",
+        "keywords": [
+          "Model Reduction and Neural Networks",
+          "Gene Regulatory Network Analysis",
+          "Circadian rhythm and melatonin",
+          "Sleep and related disorders",
+          "Stochastic processes and financial applications"
+        ],
+        "size": 17
+      },
+      {
+        "id": 24,
+        "label_ko": "추천·정보검색·언어 모델",
+        "keywords": [
+          "Recommender Systems and Techniques",
+          "Topic Modeling",
+          "Advanced Neural Network Applications",
+          "Information Retrieval and Search Behavior",
+          "Advanced Graph Neural Networks"
+        ],
+        "size": 9
+      },
+      {
+        "id": 25,
+        "label_ko": "시각화·감정 인식·사회 데이터",
+        "keywords": [
+          "Data Visualization and Analytics",
+          "Innovative Human-Technology Interaction",
+          "Emotion and Mood Recognition",
+          "Misinformation and Its Impacts",
+          "Digital Mental Health Interventions"
+        ],
+        "size": 5
+      }
+    ]
   },
   {
     "id": 8,
@@ -105,7 +433,45 @@
       "Advanced Polymer Synthesis and Characterization",
       "Spectroscopy and Quantum Chemical Studies"
     ],
-    "size": 30
+    "size": 30,
+    "subclusters": [
+      {
+        "id": 26,
+        "label_ko": "고분자·액정 자기조립",
+        "keywords": [
+          "Block Copolymer Self-Assembly",
+          "Liquid Crystal Research Advancements",
+          "Advanced Polymer Synthesis and Characterization",
+          "Advanced Battery Materials and Technologies",
+          "Organic Electronics and Photovoltaics"
+        ],
+        "size": 11
+      },
+      {
+        "id": 27,
+        "label_ko": "분광학·화학 동역학",
+        "keywords": [
+          "Spectroscopy and Quantum Chemical Studies",
+          "Photochemistry and Electron Transfer Studies",
+          "Advanced Chemical Physics Studies",
+          "Atomic and Molecular Physics",
+          "Material Dynamics and Properties"
+        ],
+        "size": 10
+      },
+      {
+        "id": 28,
+        "label_ko": "계산화학·초분자·천연물",
+        "keywords": [
+          "Machine Learning in Materials Science",
+          "Microbial Natural Products and Biosynthesis",
+          "Supramolecular Chemistry and Complexes",
+          "Computational Drug Discovery Methods",
+          "Luminescence and Fluorescent Materials"
+        ],
+        "size": 9
+      }
+    ]
   },
   {
     "id": 9,
@@ -117,7 +483,45 @@
       "Security and Verification in Computing",
       "Cloud Computing and Resource Management"
     ],
-    "size": 30
+    "size": 30,
+    "subclusters": [
+      {
+        "id": 29,
+        "label_ko": "저장장치·클라우드·블록체인",
+        "keywords": [
+          "Advanced Data Storage Technologies",
+          "Parallel Computing and Optimization Techniques",
+          "Blockchain Technology Applications and Security",
+          "Cloud Computing and Resource Management",
+          "Security and Verification in Computing"
+        ],
+        "size": 12
+      },
+      {
+        "id": 30,
+        "label_ko": "컴퓨터 구조·임베디드·실시간",
+        "keywords": [
+          "Parallel Computing and Optimization Techniques",
+          "IoT and Edge/Fog Computing",
+          "Advanced Neural Network Applications",
+          "Real-Time Systems Scheduling",
+          "Embedded Systems Design Techniques"
+        ],
+        "size": 10
+      },
+      {
+        "id": 31,
+        "label_ko": "암호·보안",
+        "keywords": [
+          "Cryptography and Data Security",
+          "Security and Verification in Computing",
+          "Cryptographic Implementations and Security",
+          "Internet Traffic Analysis and Secure E-voting",
+          "Adversarial Robustness in Machine Learning"
+        ],
+        "size": 8
+      }
+    ]
   },
   {
     "id": 10,
@@ -129,7 +533,33 @@
       "Catalytic Cross-Coupling Reactions",
       "Fluorine in Organic Chemistry"
     ],
-    "size": 28
+    "size": 28,
+    "subclusters": [
+      {
+        "id": 32,
+        "label_ko": "라디칼·비대칭 유기합성",
+        "keywords": [
+          "Radical Photochemical Reactions",
+          "Asymmetric Synthesis and Catalysis",
+          "Advanced Synthetic Organic Chemistry",
+          "Catalytic Cross-Coupling Reactions",
+          "Fluorine in Organic Chemistry"
+        ],
+        "size": 15
+      },
+      {
+        "id": 33,
+        "label_ko": "유기금속·촉매 메커니즘",
+        "keywords": [
+          "Advanced Battery Materials and Technologies",
+          "Metal-Catalyzed Oxygenation Mechanisms",
+          "Organometallic Complex Synthesis and Catalysis",
+          "Synthetic Organic Chemistry Methods",
+          "Organoboron and organosilicon chemistry"
+        ],
+        "size": 13
+      }
+    ]
   },
   {
     "id": 11,
@@ -141,7 +571,45 @@
       "Algebraic structures and combinatorial models",
       "Analytic Number Theory Research"
     ],
-    "size": 26
+    "size": 26,
+    "subclusters": [
+      {
+        "id": 34,
+        "label_ko": "위상수학·대수기하",
+        "keywords": [
+          "Geometric and Algebraic Topology",
+          "Algebraic Geometry and Number Theory",
+          "Commutative Algebra and Its Applications",
+          "Homotopy and Cohomology in Algebraic Topology",
+          "Geometry and complex manifolds"
+        ],
+        "size": 9
+      },
+      {
+        "id": 35,
+        "label_ko": "정수론·대수 조합",
+        "keywords": [
+          "Algebraic structures and combinatorial models",
+          "Analytic Number Theory Research",
+          "Algebraic Geometry and Number Theory",
+          "Advanced Algebra and Geometry",
+          "Advanced Mathematical Identities"
+        ],
+        "size": 9
+      },
+      {
+        "id": 36,
+        "label_ko": "고에너지 이론·우주론",
+        "keywords": [
+          "Black Holes and Theoretical Physics",
+          "Particle physics theoretical and experimental studies",
+          "Quantum chaos and dynamical systems",
+          "Cosmology and Gravitation Theories",
+          "Cold Atom Physics and Bose-Einstein Condensates"
+        ],
+        "size": 8
+      }
+    ]
   },
   {
     "id": 12,
@@ -153,7 +621,33 @@
       "Advanced Neural Network Applications",
       "Human Motion and Animation"
     ],
-    "size": 23
+    "size": 23,
+    "subclusters": [
+      {
+        "id": 37,
+        "label_ko": "컴퓨터 비전·생성 모델",
+        "keywords": [
+          "3D Shape Modeling and Analysis",
+          "Generative Adversarial Networks and Image Synthesis",
+          "Advanced Neural Network Applications",
+          "Multimodal Machine Learning Applications",
+          "Advanced Vision and Imaging"
+        ],
+        "size": 15
+      },
+      {
+        "id": 38,
+        "label_ko": "촉각·몰입형 인터랙션·BCI",
+        "keywords": [
+          "Tactile and Sensory Interactions",
+          "Interactive and Immersive Displays",
+          "Teleoperation and Haptic Systems",
+          "EEG and Brain-Computer Interfaces",
+          "Indoor and Outdoor Localization Technologies"
+        ],
+        "size": 8
+      }
+    ]
   },
   {
     "id": 13,
@@ -165,7 +659,21 @@
       "Photosynthetic Processes and Mechanisms",
       "Plant Reproductive Biology"
     ],
-    "size": 19
+    "size": 19,
+    "subclusters": [
+      {
+        "id": 39,
+        "label_ko": "식물 분자생물학",
+        "keywords": [
+          "Plant Molecular Biology Research",
+          "Mycorrhizal Fungi and Plant Interactions",
+          "Plant Pathogens and Fungal Diseases",
+          "Photosynthetic Processes and Mechanisms",
+          "Plant Reproductive Biology"
+        ],
+        "size": 19
+      }
+    ]
   },
   {
     "id": 14,
@@ -177,7 +685,21 @@
       "Neuroinflammation and Neurodegeneration Mechanisms",
       "Memory and Neural Mechanisms"
     ],
-    "size": 16
+    "size": 16,
+    "subclusters": [
+      {
+        "id": 40,
+        "label_ko": "신경과학",
+        "keywords": [
+          "Neuroscience and Neuropharmacology Research",
+          "Genetics and Neurodevelopmental Disorders",
+          "Neural dynamics and brain function",
+          "Neuroinflammation and Neurodegeneration Mechanisms",
+          "Memory and Neural Mechanisms"
+        ],
+        "size": 16
+      }
+    ]
   },
   {
     "id": 15,
@@ -189,7 +711,21 @@
       "Formal Methods in Verification",
       "Software Reliability and Analysis Research"
     ],
-    "size": 11
+    "size": 11,
+    "subclusters": [
+      {
+        "id": 41,
+        "label_ko": "소프트웨어공학·프로그래밍 언어",
+        "keywords": [
+          "Software Testing and Debugging Techniques",
+          "Software Engineering Research",
+          "Logic, programming, and type systems",
+          "Formal Methods in Verification",
+          "Software Reliability and Analysis Research"
+        ],
+        "size": 11
+      }
+    ]
   },
   {
     "id": 16,
@@ -201,6 +737,20 @@
       "Complexity and Algorithms in Graphs",
       "Advanced Combinatorial Mathematics"
     ],
-    "size": 7
+    "size": 7,
+    "subclusters": [
+      {
+        "id": 42,
+        "label_ko": "그래프 이론·조합·알고리즘",
+        "keywords": [
+          "Limits and Structures in Graph Theory",
+          "Advanced Graph Theory Research",
+          "Computational Geometry and Mesh Generation",
+          "Complexity and Algorithms in Graphs",
+          "Advanced Combinatorial Mathematics"
+        ],
+        "size": 7
+      }
+    ]
   }
 ]

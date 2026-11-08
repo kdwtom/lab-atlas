@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
-import type { Cluster, Edge, Lab, Meta, Paper } from '../types/data';
+import type { Cluster, Edge, Lab, Meta, Paper, SubCluster } from '../types/data';
 import { makeDummy } from './dummy';
 
 export interface Neighbor {
@@ -16,6 +16,7 @@ export interface Atlas {
   labById: Map<string, Lab>;
   paperById: Map<string, Paper>;
   clusterById: Map<number, Cluster>;
+  subclusterById: Map<number, SubCluster>;
   /** neighbours per lab and edge type, strongest first */
   neighbors: (labId: string, type: Edge['type']) => Neighbor[];
   dummy: boolean;
@@ -56,6 +57,7 @@ export function buildAtlas(labs: Lab[], papers: Paper[], edges: Edge[], clusters
     labs, papers, edges, clusters, meta, labById, dummy,
     paperById: new Map(papers.map((p) => [p.id, p])),
     clusterById: new Map(clusters.map((c) => [c.id, c])),
+    subclusterById: new Map(clusters.flatMap((c) => (c.subclusters ?? []).map((s) => [s.id, s] as const))),
     neighbors: (labId, type) => adj.get(`${labId}|${type}`) ?? [],
   };
 }
@@ -91,6 +93,14 @@ export function DataProvider({ children }: { children: ReactNode }) {
 
 export function useAtlasState(): State {
   return useContext(Ctx);
+}
+
+/** "cluster › sub-cluster", or just the cluster when it is not split. */
+export function clusterPath(atlas: Atlas, lab: Lab): string {
+  const c = lab.cluster_id === null ? undefined : atlas.clusterById.get(lab.cluster_id);
+  if (!c) return '';
+  const sub = lab.subcluster_id == null ? undefined : atlas.subclusterById.get(lab.subcluster_id);
+  return sub && (c.subclusters?.length ?? 0) > 1 ? `${c.label_ko} › ${sub.label_ko}` : c.label_ko;
 }
 
 /** Only call below a component that has checked status === 'ready'. */

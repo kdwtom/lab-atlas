@@ -48,6 +48,9 @@ export interface Lab {
   vector_paper_count: number;
   keywords: string[];
   cluster_id: number | null;
+  /** finer area inside the cluster (unique across clusters) */
+  subcluster_id?: number | null;
+  trend?: LabTrend | null;
   x: number | null;
   y: number | null;
   intro_ko: string | null;
@@ -56,6 +59,27 @@ export interface Lab {
   representative_paper_ids: string[];
   keyword_timeline: YearKeywords[];
   sources: Source[];
+}
+
+/** Change of topic between the first and last two years of the window (pipeline/trend.py). Not an evaluation. */
+export interface LabTrend {
+  status: 'shifted' | 'stable' | 'insufficient';
+  early_years: [number, number];
+  recent_years: [number, number];
+  early_papers: number;
+  recent_papers: number;
+  shift?: number | null;
+  p_value?: number | null;
+  emerging_topics?: string[];
+  fading_topics?: string[];
+  toward_lab_ids?: string[];
+  toward_subcluster_id?: number | null;
+  away_subcluster_id?: number | null;
+  /** map point (UMAP coordinates, like Lab.x/y) the recent papers moved toward */
+  toward_xy?: [number, number] | null;
+  /** where each period's papers would sit on the map (UMAP coordinates) */
+  early_xy?: [number, number] | null;
+  recent_xy?: [number, number] | null;
 }
 
 export interface PiRole {
@@ -115,11 +139,20 @@ export interface Edge {
   cross: boolean;
 }
 
+export interface SubCluster {
+  id: number;
+  label_ko: string;
+  keywords: string[];
+  size: number;
+}
+
 export interface Cluster {
   id: number;
   label_ko: string;
   keywords: string[];
   size: number;
+  /** a single entry when the cluster is not split */
+  subclusters?: SubCluster[];
 }
 
 export interface Meta {

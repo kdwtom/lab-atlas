@@ -8,6 +8,7 @@ import ExplorePage from './pages/ExplorePage';
 import LabPage from './pages/LabPage';
 import AboutPage from './pages/AboutPage';
 import ShortlistPage from './pages/ShortlistPage';
+import BridgePage from './pages/BridgePage';
 
 const THEME_NEXT: Record<ThemeChoice, ThemeChoice> = { system: 'light', light: 'dark', dark: 'system' };
 const THEME_LABEL: Record<ThemeChoice, string> = { system: '시스템', light: '라이트', dark: '다크' };
@@ -22,9 +23,11 @@ function Header({ choice, onTheme }: { choice: ThemeChoice; onTheme: () => void 
       <nav aria-label="주 메뉴">
         <NavLink to="/" end>탐색</NavLink>
         <NavLink to="/shortlist">내 후보{ids.length > 0 && ` ${ids.length}`}</NavLink>
+        <NavLink to="/bridge">다리 찾기</NavLink>
         <NavLink to="/about">방법론</NavLink>
         <button className="theme-btn" onClick={onTheme} aria-label={`테마 전환 (현재 ${THEME_LABEL[choice]})`}>
-          테마: {THEME_LABEL[choice]}
+          <span className="theme-full">테마: {THEME_LABEL[choice]}</span>
+          <span className="theme-short" aria-hidden="true">◐</span>
         </button>
       </nav>
     </header>
@@ -41,6 +44,7 @@ function Routed({ mode }: { mode: Mode }) {
       <Route path="/lab/:id" element={<LabPage mode={mode} />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/shortlist" element={<ShortlistPage mode={mode} />} />
+      <Route path="/bridge" element={<BridgePage mode={mode} />} />
       <Route path="*" element={<ExplorePage mode={mode} />} />
     </Routes>
   );

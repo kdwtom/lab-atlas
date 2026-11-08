@@ -77,6 +77,7 @@ export default function ExplorePage({ mode }: { mode: Mode }) {
   }, []);
 
   const clusterName = (id: number | null) => (id === null ? '' : atlas.clusterById.get(id)?.label_ko ?? '');
+  const subclusterName = (id: number) => atlas.subclusterById.get(id)?.label_ko ?? '';
   const hoverLab = hover && filtered.includes(hover) ? hover : null;
   // the picked edge disappears with its line when a filter or the line type hides it
   const shownIds = useMemo(() => new Set(filtered.map((l) => l.id)), [filtered]);
@@ -106,6 +107,7 @@ export default function ExplorePage({ mode }: { mode: Mode }) {
             center={center}
             sheet={mobile}
             clusterName={clusterName}
+            subclusterName={subclusterName}
             onHover={onNodeHover}
             onEdgeClick={(e) => { setSelected(null); setPickedEdge(e); }}
             onSelect={select}

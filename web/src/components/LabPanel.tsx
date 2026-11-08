@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
 import type { Edge, Lab, Paper } from '../types/data';
-import { useAtlas } from '../data/DataContext';
+import { clusterPath, useAtlas } from '../data/DataContext';
 import { NA, affiliation, doiHref, introText, neighbourCaution, piName, similarityBand } from '../lib/format';
 import StarButton from './StarButton';
+import TrendSection from './TrendSection';
 import { FIELD_LABEL, fieldColor, type Mode } from '../lib/palette';
 
 interface Props {
@@ -14,10 +15,9 @@ interface Props {
   onClose?: () => void;
 }
 
-export function ClusterChip({ id }: { id: number | null }) {
+export function ClusterChip({ lab }: { lab: Lab }) {
   const atlas = useAtlas();
-  const c = id === null ? undefined : atlas.clusterById.get(id);
-  return <span className="cluster-chip" title="연구 주제 클러스터">{c ? c.label_ko : NA}</span>;
+  return <span className="cluster-chip" title="연구 주제 클러스터 › 세부 분야">{clusterPath(atlas, lab) || NA}</span>;
 }
 
 export function FieldChips({ lab, mode }: { lab: Lab; mode: Mode }) {
@@ -124,7 +124,7 @@ export default function LabPanel({ lab, edge, mode, sheet, pinned, onClose }: Pr
           <ul className="hint">
             <li>노드에 마우스를 올리면 연구실 정보가 여기에 표시되고, 마우스를 옮겨도 남아 있어 스크롤할 수 있습니다.</li>
             <li>노드를 클릭하면 이 창에 고정되고, 한 번 더 클릭하면 상세 페이지로 이동합니다. 빈 곳 클릭이나 Esc로 고정을 풉니다.</li>
-            <li>축소하면 일부 연구실만 크게 보이고 나머지는 작은 점으로 남습니다. 확대할수록 연구실과 이름이 늘어나고, 클러스터 이름을 누르면 그 묶음으로 들어갑니다. 표시 순서는 평가가 아닙니다.</li>
+            <li>축소하면 큰 분야 이름만 보이고, 확대하면 세부 분야 이름이, 더 확대하면 교수 이름이 나타납니다. 분야 이름을 누르면 그 묶음으로 들어갑니다. 일부 연구실을 먼저 크게 그리는 순서는 평가가 아닙니다.</li>
             <li>선을 클릭하면 두 연구실의 공통 주제와 내용이 가까운 논문을 볼 수 있습니다.</li>
             <li>☆ 담기를 누르면 <Link to="/shortlist">내 후보</Link>에서 비슷한 연구실 추천과 비교표를 볼 수 있습니다.</li>
           </ul>
@@ -154,7 +154,7 @@ export default function LabPanel({ lab, edge, mode, sheet, pinned, onClose }: Pr
           {piName(lab)}
           {lab.pi_name_en && lab.pi_name_ko && <span className="en"> {lab.pi_name_en}</span>}
         </h2>
-        <div className="chip-row"><FieldChips lab={lab} mode={mode} /><ClusterChip id={lab.cluster_id} /></div>
+        <div className="chip-row"><FieldChips lab={lab} mode={mode} /><ClusterChip lab={lab} /></div>
         <StarButton id={lab.id} name={piName(lab)} />
         {sheet && <Link className="btn btn-top" to={`/lab/${encodeURIComponent(lab.id)}`}>상세 페이지 보기</Link>}
         <h3>핵심 키워드</h3>
@@ -162,6 +162,12 @@ export default function LabPanel({ lab, edge, mode, sheet, pinned, onClose }: Pr
           : <p className="muted">{NA}</p>}
         <h3>연구실 소개</h3>
         <p className={lab.intro_ko ? '' : 'muted'}>{introText(lab)}</p>
+        {lab.trend?.status === 'shifted' && (
+          <>
+            <h3>연구 방향 변화</h3>
+            <TrendSection lab={lab} compact />
+          </>
+        )}
         <h3>대표 논문</h3>
         {rep ? (
           <div className="rep">

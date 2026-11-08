@@ -7,8 +7,11 @@ Similarity edges = each lab's top-k neighbours above a data-driven threshold, pl
 similar lab in a different field (same threshold) so cross-disciplinary neighbours are never crowded out
 (PLAN_PHASE1.md 3-4). Edges between labs of different fields carry cross=True.
 
+Clusters that are large are split once more on their own kNN graph, so the zoomed-in map can name finer areas
+(a cluster such as immunology plus metabolism plus ageing would otherwise read as one field).
+
 Inputs : lab_vectors.npz (step 7), papers_raw.jsonl, lab_status.json,
-         curation/cluster_labels.json (hand-written Korean labels, optional)
+         curation/cluster_labels.json, curation/subcluster_labels.json (hand-written Korean labels, optional)
 Output : output/analysis.json
 """
 from __future__ import annotations
@@ -24,11 +27,12 @@ from . import config
 from .lib.io import read_json, read_jsonl, write_json
 from .lib.selection import in_analysis_set
 from .lib.textutil import norm_title
-from .schemas import Cluster, Edge
+from .schemas import Cluster, Edge, SubCluster
 from .step07_embed import cached_paper_vectors
 
 log = logging.getLogger(__name__)
 LABELS_PATH = config.PIPELINE_DIR / "curation" / "cluster_labels.json"
+SUB_LABELS_PATH = config.PIPELINE_DIR / "curation" / "subcluster_labels.json"
 
 
 # ------------------------------------------------------------------ keywords
@@ -163,6 +167,30 @@ def louvain(n: int, pairs: dict[tuple[int, int], float]) -> tuple[list[set[int]]
     return sorted(comms, key=lambda c: (-len(c), min(c))), r, sweep
 
 
+def split_cluster(sim: np.ndarray) -> list[set[int]]:
+    """Sub-clusters of one cluster (indices into sim), largest first; the whole cluster when it is small or will not split."""
+    import networkx as nx
+
+    n = len(sim)
+    whole = [set(range(n))]
+    if n < config.SUBCLUSTER_MIN_SIZE:
+        return whole
+    g = nx.Graph()
+    g.add_nodes_from(range(n))
+    for (i, j), w in knn_pairs(sim, config.SIMILARITY_K).items():
+        g.add_edge(i, j, weight=w)
+    lo, hi = 2, max(2, round(n / config.SUBCLUSTER_LABS_PER_PART))
+    best = None
+    for r in config.SUBCLUSTER_RESOLUTIONS:
+        parts = nx.community.louvain_communities(g, weight="weight", resolution=r, seed=config.LOUVAIN_SEED)
+        if not lo <= len(parts) <= hi or min(len(p) for p in parts) < config.SUBCLUSTER_MIN_PART:
+            continue
+        key = (abs(len(parts) - (lo + hi) / 2), -nx.community.modularity(g, parts, weight="weight"))
+        if best is None or key < best[0]:
+            best = (key, parts)
+    return sorted(best[1], key=lambda p: (-len(p), min(p))) if best else whole
+
+
 def umap_xy(vectors: np.ndarray) -> np.ndarray:
     import umap
 
@@ -233,17 +261,37 @@ def run(client=None) -> None:
     groups = {cid: sum((prof[lab_ids[i]] for i in c), Counter()) for cid, c in enumerate(comms)}
     kw = ctfidf(groups)
     labels = read_json(LABELS_PATH) if LABELS_PATH.exists() else {}
+    sub_labels = read_json(SUB_LABELS_PATH) if SUB_LABELS_PATH.exists() else {}
     clusters = []
+    subcluster_of: dict[str, int] = {}
+    next_sub = 0
     for cid, c in enumerate(comms):
         lab = labels.get(str(cid))
         if lab and lab.get("keywords") != kw[cid]:
             log.warning("cluster %d keywords changed since labelling; label '%s' needs review", cid, lab["label_ko"])
-        clusters.append(Cluster(id=cid, label_ko=(lab or {}).get("label_ko", f"클러스터 {cid + 1}"),
-                                keywords=kw[cid], size=len(c)))
+        label = (lab or {}).get("label_ko", f"클러스터 {cid + 1}")
+        members = sorted(c)
+        parts = [{members[i] for i in p} for p in split_cluster(sim[np.ix_(members, members)])]
+        # keywords contrast each sub-cluster with its siblings, which is what tells them apart
+        sub_kw = ctfidf({k: sum((prof[lab_ids[i]] for i in p), Counter()) for k, p in enumerate(parts)}) \
+            if len(parts) > 1 else {0: kw[cid]}
+        subs = []
+        for k, p in enumerate(parts):
+            key = f"{cid}-{k}"
+            sl = sub_labels.get(key)
+            if len(parts) > 1 and sl and sl.get("keywords") != sub_kw[k]:
+                log.warning("sub-cluster %s keywords changed since labelling; label '%s' needs review", key, sl["label_ko"])
+            name = label if len(parts) == 1 else (sl or {}).get("label_ko", f"{label} {k + 1}")
+            subs.append(SubCluster(id=next_sub, label_ko=name, keywords=sub_kw[k], size=len(p)))
+            for i in p:
+                subcluster_of[lab_ids[i]] = next_sub
+            next_sub += 1
+        clusters.append(Cluster(id=cid, label_ko=label, keywords=kw[cid], size=len(c), subclusters=subs))
 
     xy = umap_xy(vec)
     labs_out = {
-        lid: {"cluster_id": cluster_of[lid], "x": round(float(xy[i, 0]), 5), "y": round(float(xy[i, 1]), 5),
+        lid: {"cluster_id": cluster_of[lid], "subcluster_id": subcluster_of[lid],
+              "x": round(float(xy[i, 0]), 5), "y": round(float(xy[i, 1]), 5),
               "keywords": [t for t, _ in prof[lid].most_common(5)], "vector_paper_count": len(used[lid]),
               "keyword_timeline": keyword_timeline(papers, lid)}
         for i, lid in enumerate(lab_ids)
@@ -259,5 +307,5 @@ def run(client=None) -> None:
         "labs": labs_out, "edges": edges, "clusters": clusters,
     })
     log.info("labs %d | similarity edges %d (threshold %.4f; %d bridges, %d cross-field) | coauthor edges %d | "
-             "clusters %d (resolution %.2f)", len(lab_ids), n_sim, threshold, len(bridges),
-             sum(e.cross for e in edges if e.type == "similarity"), len(edges) - n_sim, len(clusters), resolution)
+             "clusters %d (resolution %.2f), sub-clusters %d", len(lab_ids), n_sim, threshold, len(bridges),
+             sum(e.cross for e in edges if e.type == "similarity"), len(edges) - n_sim, len(clusters), resolution, next_sub)

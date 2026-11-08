@@ -11,7 +11,7 @@ import logging
 import sys
 import time
 
-from . import (check_links, config, field_stats, flag_papers, similarity_audit, spot_check, step01_faculty, step02_institutions,
+from . import (check_links, config, field_stats, flag_papers, similarity_audit, spot_check, step01_faculty, trend, step02_institutions,
                step03_match, step04_papers, step05_tldr, step06_stats, step07_embed, step08_analyze, step09_select,
                step10_export, validate)
 from .lib.http import CachedClient
@@ -26,6 +26,7 @@ STEPS = {
     "flag": flag_papers.run,
     "embed": step07_embed.run,
     "analyze": step08_analyze.run,
+    "trend": trend.run,
     "select": step09_select.run,
     "export": step10_export.run,
     "validate": validate.run,
@@ -36,7 +37,7 @@ STEPS = {
 }
 STAGES = {
     "collect": ["faculty", "institutions", "match", "papers", "tldr", "stats", "validate"],
-    "analyze": ["embed", "analyze", "validate"],
+    "analyze": ["embed", "analyze", "trend", "validate"],
     "export": ["select", "export", "validate"],
     "verify": ["validate", "fields", "links", "spotcheck"],  # stage 6: live checks, no cache
 }

@@ -1732,8 +1732,8 @@
     "cross": false,
     "reasons": [
       "Epigenetics and DNA Methylation",
-      "RNA modifications and cancer",
-      "Genomics and Chromatin Dynamics"
+      "Genomics and Chromatin Dynamics",
+      "RNA modifications and cancer"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -3163,8 +3163,8 @@
     "cross": false,
     "reasons": [
       "RNA modifications and cancer",
-      "Ubiquitin and proteasome pathways",
-      "Autophagy in Disease and Therapy"
+      "Autophagy in Disease and Therapy",
+      "Histone Deacetylase Inhibitors Research"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -3272,7 +3272,7 @@
     "reasons": [
       "Mitochondrial Function and Pathology",
       "RNA regulation and disease",
-      "Ubiquitin and proteasome pathways"
+      "Autophagy in Disease and Therapy"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -5993,7 +5993,7 @@
     "reasons": [
       "Advanced biosensing and bioanalysis techniques",
       "Immune Cell Function and Interaction",
-      "RNA Interference and Gene Delivery"
+      "Biosensors and Analytical Detection"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -6128,7 +6128,7 @@
     "reasons": [
       "Immune Cell Function and Interaction",
       "CAR-T cell therapy research",
-      "RNA modifications and cancer"
+      "Epigenetics and DNA Methylation"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -7091,8 +7091,8 @@
     "cross": false,
     "reasons": [
       "Pain Mechanisms and Treatments",
-      "Protein Degradation and Inhibitors",
-      "Chemical Synthesis and Analysis"
+      "Chemical Synthesis and Analysis",
+      "Protein Degradation and Inhibitors"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -11886,8 +11886,8 @@
     "cross": false,
     "reasons": [
       "Plasmonic and Surface Plasmon Research",
-      "Orbital Angular Momentum in Optics",
-      "Magnetic and transport properties of perovskites and related materials"
+      "Magnetic and transport properties of perovskites and related materials",
+      "Orbital Angular Momentum in Optics"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -19834,7 +19834,7 @@
     "reasons": [
       "Software Testing and Debugging Techniques",
       "Software Engineering Research",
-      "Logic, programming, and type systems"
+      "Software System Performance and Reliability"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -27559,7 +27559,7 @@
     "reasons": [
       "Software Testing and Debugging Techniques",
       "Software Engineering Research",
-      "Logic, programming, and type systems"
+      "Software System Performance and Reliability"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -27586,7 +27586,7 @@
     "reasons": [
       "Software Testing and Debugging Techniques",
       "Software Engineering Research",
-      "Logic, programming, and type systems"
+      "Software System Performance and Reliability"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -29205,7 +29205,7 @@
     "reasons": [
       "Software Testing and Debugging Techniques",
       "Software Engineering Research",
-      "Logic, programming, and type systems"
+      "Software System Performance and Reliability"
     ],
     "paper_ids": [],
     "paper_pairs": [
@@ -31494,8 +31494,8 @@
     "weight": 0.9522,
     "cross": true,
     "reasons": [
-      "Organic and Molecular Conductors Research",
       "Advanced Chemical Physics Studies",
+      "Organic and Molecular Conductors Research",
       "2D Materials and Applications"
     ],
     "paper_ids": [],

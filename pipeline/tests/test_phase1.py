@@ -11,7 +11,8 @@ from pipeline.schemas import FacultyRecord, MatchResult
 from pipeline.step03_match import apply_override, evaluate, field_share
 from pipeline.similarity_audit import self_retrieval_rank
 from pipeline.step04_papers import alphabetical, group_labs
-from pipeline.step08_analyze import band_cuts, closest_paper_pairs, similarity_band
+from pipeline.trend import benjamini_hochberg, drop_outliers, map_place, shift_test, topic_shift
+from pipeline.step08_analyze import band_cuts, closest_paper_pairs, similarity_band, split_cluster
 
 INST = "I111"
 
@@ -283,3 +284,50 @@ def test_self_retrieval_rank_finds_the_matching_half():
     half_a, half_b = np.array([0.0, 1.0]), np.array([0.0, 1.0])
     assert self_retrieval_rank(half_a, half_b, others, 1) == 1
     assert self_retrieval_rank(np.array([1.0, 0.0]), half_b, others, 1) == 3
+
+
+def test_split_cluster_finds_two_groups_and_keeps_small_clusters_whole():
+    rng = np.random.RandomState(0)
+    base = np.eye(8)[[0] * 12 + [1] * 12]           # two groups of 12 labs pointing in different directions
+    vec = base + 0.05 * rng.randn(24, 8)
+    vec /= np.linalg.norm(vec, axis=1, keepdims=True)
+    parts = split_cluster(vec @ vec.T)
+    assert sorted(len(p) for p in parts) == [12, 12]
+    assert all(p <= set(range(12)) or p <= set(range(12, 24)) for p in parts)
+    small = vec[:10] @ vec[:10].T
+    assert split_cluster(small) == [set(range(10))]
+
+
+# ------------------------------------------------------------------ research direction (PLAN_PHASE2.md 5-6)
+def test_shift_test_separates_a_real_change_from_sampling_noise():
+    rng = np.random.RandomState(1)
+    a, b = np.eye(6)[0], np.eye(6)[1]
+    same = a + 0.3 * rng.randn(16, 6)
+    moved = np.vstack([a + 0.3 * rng.randn(8, 6), b + 0.3 * rng.randn(8, 6)])
+    _, p_same = shift_test(same[:8], same[8:], rng, permutations=200)
+    shift, p_moved = shift_test(moved[:8], moved[8:], rng, permutations=200)
+    assert p_moved < 0.01 < p_same and shift > 0
+
+
+def test_benjamini_hochberg_and_topic_shift():
+    assert benjamini_hochberg({"a": 0.001, "b": 0.02, "c": 0.04, "d": 0.5}, q=0.05) == {"a", "b"}
+    t = lambda *names: {"topics": [{"name": n, "score": 1.0} for n in names]}  # noqa: E731
+    grew, shrank = topic_shift([t("A"), t("A"), t("B")], [t("C"), t("C"), t("B")])
+    assert grew == ["C"] and shrank == ["A"]
+
+
+def test_drop_outliers_sets_aside_a_namesake_paper():
+    rng = np.random.RandomState(2)
+    core = np.eye(6)[0]
+    own = core + 0.1 * rng.randn(9, 6)
+    stranger = np.eye(6)[3][None, :]
+    vecs = np.vstack([own, stranger])
+    vecs /= np.linalg.norm(vecs, axis=1, keepdims=True)
+    kept, kv = drop_outliers([{"id": i} for i in range(10)], vecs, core)
+    assert [p["id"] for p in kept] == list(range(9)) and len(kv) == 9
+
+
+def test_map_place_follows_the_most_similar_labs():
+    V = np.eye(4)
+    xy = np.array([[0.0, 0.0], [1.0, 0.0], [0.0, 1.0], [5.0, 5.0]])
+    assert map_place(np.array([0, 1.0, 0, 0]), V, xy, skip=0, k=2) == [1.0, 0.0]

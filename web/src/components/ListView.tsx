@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import type { Lab } from '../types/data';
-import { useAtlas } from '../data/DataContext';
+import { useAtlas, clusterPath } from '../data/DataContext';
 import { UNIV_LABEL, labTitle, piName } from '../lib/format';
 import { FIELD_LABEL, fieldColor, type Mode } from '../lib/palette';
 import StarButton from './StarButton';
@@ -19,7 +19,7 @@ const COLS: { key: Key; label: string; numeric?: boolean }[] = [
 export default function ListView({ labs, mode }: { labs: Lab[]; mode: Mode }) {
   const atlas = useAtlas();
   const [sort, setSort] = useState<{ key: Key; asc: boolean }>({ key: 'papers', asc: false });
-  const clusterName = (l: Lab) => (l.cluster_id === null ? '' : atlas.clusterById.get(l.cluster_id)?.label_ko ?? '');
+  const clusterName = (l: Lab) => clusterPath(atlas, l);
 
   const rows = useMemo(() => {
     const val = (l: Lab): string | number => {

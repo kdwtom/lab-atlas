@@ -1,6 +1,6 @@
 {
   "0": {
-    "label_ko": "면역·미생물·대사",
+    "label_ko": "세포생물학·면역·대사",
     "keywords": [
       "Immune Cell Function and Interaction",
       "Immune cells in cancer",
@@ -70,7 +70,7 @@
     ]
   },
   "7": {
-    "label_ko": "데이터·기계학습·자연어",
+    "label_ko": "데이터 과학·수리 모델링",
     "keywords": [
       "Recommender Systems and Techniques",
       "Topic Modeling",

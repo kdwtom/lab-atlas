@@ -20,7 +20,7 @@ from . import config
 from .lib.curation import excluded_papers
 from .lib.io import read_json, read_jsonl, write_json
 from .lib.selection import in_analysis_set
-from .schemas import (Cluster, Counts, DepartmentInfo, Edge, Lab, Meta, Paper, PaperSummary, PiRole, Source,
+from .schemas import (Cluster, Counts, DepartmentInfo, Edge, Lab, LabTrend, Meta, Paper, PaperSummary, PiRole, Source,
                       SummaryCoverage, Topic, YearKeywords)
 from .step06_stats import rule_ko
 
@@ -76,6 +76,8 @@ def run(client=None) -> None:
     summaries, intros = load_summaries()
     unavailable = load_intro_unavailable()
     lab_ids = sorted(analysis["labs"])
+    trends_path = out / "trends.json"
+    trends = read_json(trends_path) if trends_path.exists() else {}
     keep = set(lab_ids)
 
     # ------------------------------------------------------------------ papers (analysis set only)
@@ -135,9 +137,10 @@ def run(client=None) -> None:
             paper_count_5y=st["paper_count_5y"],
             senior_paper_count_5y=st["senior_paper_count_5y"], vector_paper_count=a["vector_paper_count"],
             keywords=a["keywords"],
-            cluster_id=a["cluster_id"], x=a["x"], y=a["y"], intro_ko=intros.get(lid),
+            cluster_id=a["cluster_id"], subcluster_id=a["subcluster_id"], x=a["x"], y=a["y"], intro_ko=intros.get(lid),
             intro_unavailable=None if lid in intros else unavailable.get(lid),
             representative_paper_ids=rep_ids,
+            trend=LabTrend(**trends[lid]) if lid in trends else None,
             keyword_timeline=[YearKeywords(**t) for t in a["keyword_timeline"]],
             sources=sources,
         ))

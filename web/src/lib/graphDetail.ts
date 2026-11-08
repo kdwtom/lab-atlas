@@ -39,7 +39,31 @@ export function detailRanks(labs: DetailInput[]): Map<string, DetailRank> {
 }
 
 export interface LabelBox { x0: number; y0: number; x1: number; y1: number }
-export interface LabelInput { x: number; y: number; r: number; width: number }
+export interface LabelInput { x: number; y: number; r: number; width: number; height?: number }
+
+/** Break a label into lines no wider than maxWidth, at spaces where possible; a word longer than a line is split. */
+export function wrapLabel(text: string, maxWidth: number, measure: (s: string) => number): string[] {
+  const lines: string[] = [];
+  let line = '';
+  for (const word of text.split(/\s+/).filter(Boolean)) {
+    const next = line ? `${line} ${word}` : word;
+    if (measure(next) <= maxWidth) {
+      line = next;
+      continue;
+    }
+    if (line) lines.push(line);
+    line = '';
+    for (const ch of word) { // a single long word: fill lines character by character
+      if (line && measure(line + ch) > maxWidth) {
+        lines.push(line);
+        line = '';
+      }
+      line += ch;
+    }
+  }
+  if (line) lines.push(line);
+  return lines;
+}
 
 /** Place labels in order, below or else above each node, skipping any that would collide. Returns each label's centre y, or null. */
 export function placeLabels(labels: LabelInput[], taken: LabelBox[], height: number, gap: number): (number | null)[] {
@@ -65,8 +89,9 @@ export function placeLabels(labels: LabelInput[], taken: LabelBox[], height: num
   taken.forEach(add);
   return labels.map((l) => {
     const w = l.width / 2;
-    for (const cy of [l.y + l.r + gap + height / 2, l.y - l.r - gap - height / 2]) {
-      const b = { x0: l.x - w, y0: cy - height / 2, x1: l.x + w, y1: cy + height / 2 };
+    const h = l.height ?? height;
+    for (const cy of [l.y + l.r + gap + h / 2, l.y - l.r - gap - h / 2]) {
+      const b = { x0: l.x - w, y0: cy - h / 2, x1: l.x + w, y1: cy + h / 2 };
       if (hits(b)) continue;
       add(b);
       return cy;

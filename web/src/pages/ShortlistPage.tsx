@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import type { Lab } from '../types/data';
-import { useAtlas } from '../data/DataContext';
+import { clusterPath, useAtlas } from '../data/DataContext';
 import { useShortlist } from '../data/shortlist';
 import StarButton from '../components/StarButton';
 import { FieldChips } from '../components/LabPanel';
@@ -186,7 +186,7 @@ function Compare({ labs, mode }: { labs: Lab[]; mode: Mode }) {
   const rows: { label: string; cell: (l: Lab) => React.ReactNode }[] = [
     { label: '대학 · 학과', cell: affiliation },
     { label: '분야', cell: (l) => <div className="chip-row"><FieldChips lab={l} mode={mode} /></div> },
-    { label: '연구 클러스터', cell: (l) => (l.cluster_id === null ? NA : atlas.clusterById.get(l.cluster_id)?.label_ko ?? NA) },
+    { label: '연구 클러스터', cell: (l) => clusterPath(atlas, l) || NA },
     { label: '직위', cell: (l) => l.position ?? NA },
     { label: '소개', cell: introText },
     { label: '핵심 키워드', cell: (l) => <KeywordList items={l.keywords.slice(0, 5)} /> },

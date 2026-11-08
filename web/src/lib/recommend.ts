@@ -72,6 +72,30 @@ export function recommend(v: LabVectors, seeds: string[]): Recommendation[] {
   return out.sort((a, b) => b.score - a.score);
 }
 
+/** Unit-length mean of some labs' vectors (a field, a sub-cluster or one lab), or null when none have vectors. */
+export function meanVector(v: LabVectors, ids: string[]): Float32Array | null {
+  const rows = ids.map((id) => v.index.get(id)).filter((r): r is number => r !== undefined);
+  if (rows.length === 0) return null;
+  const m = new Float32Array(v.dim);
+  for (const r of rows) for (let d = 0; d < v.dim; d++) m[d] += v.values[r * v.dim + d];
+  const norm = Math.hypot(...m) || 1;
+  for (let d = 0; d < v.dim; d++) m[d] /= norm;
+  return m;
+}
+
+export interface BridgeRow {
+  id: string;
+  toA: number;   // cosine similarity to starting point A
+  toB: number;
+}
+
+/** Labs close to both starting points, ranked by the weaker of the two similarities (a balanced bridge comes first). */
+export function bridge(v: LabVectors, a: Float32Array, b: Float32Array): BridgeRow[] {
+  return v.ids
+    .map((id, i) => ({ id, toA: dot(v, i, a), toB: dot(v, i, b) }))
+    .sort((x, y) => Math.min(y.toA, y.toB) - Math.min(x.toA, x.toB));
+}
+
 /** Lab id -> OpenAlex topic weights, normalised per lab (same basis as the map's "연결 이유"). */
 export function topicProfiles(papers: { lab_ids: string[]; topics: { name: string; score: number }[] }[]) {
   const prof = new Map<string, Map<string, number>>();
