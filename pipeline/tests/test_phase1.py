@@ -2,6 +2,7 @@
 from datetime import date
 
 import numpy as np
+import pytest
 
 from pipeline import config
 from pipeline.lib.faculty import dgist_tracks, gist, gist_depts, kaist_depts, snu_depts
@@ -287,6 +288,7 @@ def test_self_retrieval_rank_finds_the_matching_half():
 
 
 def test_split_cluster_finds_two_groups_and_keeps_small_clusters_whole():
+    pytest.importorskip("networkx")  # analysis-only dependency (requirements-ml.txt), absent from the CI data check
     rng = np.random.RandomState(0)
     base = np.eye(8)[[0] * 12 + [1] * 12]           # two groups of 12 labs pointing in different directions
     vec = base + 0.05 * rng.randn(24, 8)
