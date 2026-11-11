@@ -1,0 +1,2717 @@
+{
+  "cut": 0.6375,
+  "suspects": [
+    {
+      "lab_id": "unist-A5100765704",
+      "dept": "unist-math",
+      "papers": 17,
+      "outlier_share": 0.588,
+      "core": [
+        "Recursive reservoir concatenation for salt-and-pepper denoising",
+        "Reservoir concatenation and the spectrum distribution of concatenated reservoir state matrices",
+        "Improved weight initialization for deep and narrow feedforward neural network",
+        "Deep-Learning-Based Algorithm for the Removal of Electromagnetic Interference Noise in Photoacoustic Endoscopic Image Processing",
+        "Numerical investigation into the dependence of the Allen–Cahn equation on the free energy",
+        "Fine-Tuning of Predictive Models CNN-LSTM and CONV-LSTM for Nowcasting PM2.5 Level",
+        "Boosting Algorithm to Handle Unbalanced Classification of PM2.5 Concentration Levels by Observing Meteorological Parameters in Jakarta-Indonesia Using AdaBoost, XGBoost, CatBoost, and LightGBM",
+        "Empowering deaf communication: a novel LSTM model for recognizing Indonesian sign language"
+      ],
+      "outliers": [
+        {
+          "id": "W4324095392",
+          "title": "Connectivity, sport events, and tourism development of Mandalika’s special economic zone: A perspective from big data cognitive analytics",
+          "venue": "Cogent Business & Management"
+        },
+        {
+          "id": "W4410120864",
+          "title": "Intrinsically‐Stretchable and Patternable Quantum Dot Color Conversion Layers for Stretchable Displays in Robotic Skin and Wearable Electronics",
+          "venue": "Advanced Materials"
+        },
+        {
+          "id": "W4313703406",
+          "title": "Spatial integration framework of solar, wind, and hydropower energy potential in Southeast Asia",
+          "venue": "Scientific Reports"
+        },
+        {
+          "id": "W7169993469",
+          "title": "China, Thailand, and India",
+          "venue": "Seoul National University Open Repository (Seoul National University)"
+        },
+        {
+          "id": "W4393033223",
+          "title": "Understanding Pediatric Health Trends in Papua: Insights From SUSENAS, RISKESDAS, Remote Sensing, and Its Relevance to Prabowo and Gibran’s Free Lunch and Milk Program",
+          "venue": "IEEE Access"
+        },
+        {
+          "id": "W4389436239",
+          "title": "Recent Advances in Patterning Strategies for Full-Color Perovskite Light-Emitting Diodes",
+          "venue": "Nano-Micro Letters"
+        },
+        {
+          "id": "W7169864822",
+          "title": "Generation and Validation of Finite Element Models of Computed Tomography for Unidirectional Composites Using Supervised Learning-based Segmentation Techniques",
+          "venue": "Seoul National University Open Repository (Seoul National University)"
+        },
+        {
+          "id": "W4391020006",
+          "title": "Investigating Adolescent Vulnerability in Indonesia: A Socio-Remote Sensing Big Data Analytics Study Using Night Light Data",
+          "venue": "IEEE Access"
+        },
+        {
+          "id": "W4401398978",
+          "title": "Automatic Code Model Generation for State Machine with Internal Transitions",
+          "venue": "The Journal of the Korean Institute of Information and Communication Engineering"
+        },
+        {
+          "id": "W4392647026",
+          "title": "Empowering deaf communication: a novel LSTM model for recognizing Indonesian sign language",
+          "venue": "Universal Access in the Information Society"
+        }
+      ]
+    },
+    {
+      "lab_id": "postech-A5100440925",
+      "dept": "postech-cs",
+      "papers": 9,
+      "outlier_share": 0.556,
+      "core": [
+        "A study on immersion and value of content using metaverse -Focusing on ZEPETO Convenience Store-",
+        "A study on the social value of digital art using an AI image generator -Digital art research using AI image generator in the Post-Human Era",
+        "Subject- and Task-Aware EEG Foundation Model",
+        "Analysis of Israel-related Research Trends in South Korea : Focusing on Language Network and Topic Modeling Analysis",
+        "Perceptions, Experiences, and Support Needs of Participants in a Positive Behavior Supports for Students with Emotional and Behavioral Crisis in General School: A Focus Group Interview*",
+        "Perceptions, Experiences, and Support Needs of Participants in a Positive Behavior Supports for Students with Emotional and Behavioral Crisis in General School: A Focus Group Interview",
+        "Glio-LLaMA-Vision: A Vision-Language Model for Molecular Prediction, Radiology Report Generation, and VQA in Adult-type Diffuse Gliomas",
+        "Enhancement of Perivascular Spaces Using Densely Connected Deep Convolutional Neural Network"
+      ],
+      "outliers": [
+        {
+          "id": "W7214285219",
+          "title": "Retrieval-Guided Semi-supervised Federated Learning for Medical Image Segmentation",
+          "venue": "Lecture notes in computer science"
+        },
+        {
+          "id": "W4416215296",
+          "title": "Enhancement of Perivascular Spaces Using Densely Connected Deep Convolutional Neural Network",
+          "venue": "Carolina Digital Repository (University of North Carolina at Chapel Hill)"
+        },
+        {
+          "id": "W4414236519",
+          "title": "Glio-LLaMA-Vision: A Vision-Language Model for Molecular Prediction, Radiology Report Generation, and VQA in Adult-type Diffuse Gliomas",
+          "venue": "Proceedings on CD-ROM - International Society for Magnetic Resonance in Medicine. Scientific Meeting and Exhibition/Proceedings of the International Society for Magnetic Resonance in Medicine, Scientific Meeting and Exhibition"
+        },
+        {
+          "id": "W4410544074",
+          "title": "Perceptions, Experiences, and Support Needs of Participants in a Positive Behavior Supports for Students with Emotional and Behavioral Crisis in General School: A Focus Group Interview",
+          "venue": null
+        },
+        {
+          "id": "W4396808529",
+          "title": "Perceptions, Experiences, and Support Needs of Participants in a Positive Behavior Supports for Students with Emotional and Behavioral Crisis in General School: A Focus Group Interview*",
+          "venue": "Journal of Behavior Analysis and Support"
+        }
+      ]
+    },
+    {
+      "lab_id": "snu-A5100418710",
+      "dept": "snu-chem",
+      "papers": 15,
+      "outlier_share": 0.533,
+      "core": [
+        "Orthogonally-tunable and ER-targeting fluorophores detect avian influenza virus early infection",
+        "Excited-State Intramolecular Proton Transfer Enables Self-Reporting Fluorescent Photoaffinity Labeling in Live Cells",
+        "Fluorescence Turn-On Sensor for Gingipains: Selective Detection of Porphyromonas gingivalis in Periodontal Disease",
+        "Molecular Probes for Sulfatase Detection and Bio‐Imaging",
+        "Erlotinib-conjugated iridium(III) complexes for EGFR-mediated photodynamic therapy of cancer",
+        "Development of cholesterol cyanine conjugates for cholesterol uptake monitoring in live cell",
+        "Membrane-mediated methods",
+        "A study on bias effect of elastic net penalized regression for model selection"
+      ],
+      "outliers": [
+        {
+          "id": "W4213205103",
+          "title": "Shape Optimization of the Bellmouth to Improve Flow Uniformity under High Reynolds Number with Non-aligned Inflow",
+          "venue": "The KSFM Journal of Fluid Machinery"
+        },
+        {
+          "id": "W4220987168",
+          "title": "Prey preference of Orius minutus and its functional response in comparison that of O. laevigatus, on Tetranychus urticae",
+          "venue": "Journal of Asia-Pacific Entomology"
+        },
+        {
+          "id": "W4386064599",
+          "title": "A Study on Optimizing Algorithm of Control Signal for Time Reduction of Generator Synchronization",
+          "venue": "The Transactions of The Korean Institute of Electrical Engineers"
+        },
+        {
+          "id": "W4390572726",
+          "title": "A Study on Optimization for Mixing Process of High Iron-content Briquette Manufacturing from By-Products of Steel Production",
+          "venue": "Journal of Korean institute of intelligent systems"
+        },
+        {
+          "id": "W4399870918",
+          "title": "Optimization of Power Allocation and Compression Rate for Uplink Data and Pilot in Open NTN Architecture",
+          "venue": "한국통신학회논문지"
+        },
+        {
+          "id": "W4313580878",
+          "title": "Optimal Irradiation Conditions for Radiopacity Tests of Dental Materials Using General-purpose X-ray Imaging Devices",
+          "venue": "Journal of Magnetics"
+        },
+        {
+          "id": "W4376133837",
+          "title": "Drone System Capable of Inserting an Object While Moving on a High-Rise Building Wall",
+          "venue": "Transactions of the Korean Society of Mechanical Engineers A"
+        },
+        {
+          "id": "W4213314600",
+          "title": "A study on bias effect of elastic net penalized regression for model selection",
+          "venue": "Journal of the Korean Data and Information Science Society"
+        }
+      ]
+    },
+    {
+      "lab_id": "unist-A5100339473",
+      "dept": "unist-life",
+      "papers": 14,
+      "outlier_share": 0.5,
+      "core": [
+        "Circulating Extracellular-Vesicle-Incorporated MicroRNAs as Potential Biomarkers for Ischemic Stroke in Patients With Cancer",
+        "Machine Learning-Based Etiologic Subtyping of Ischemic Stroke Using Circulating Exosomal microRNAs",
+        "Lyoprotectant Constituents Suited for Lyophilization and Reconstitution of Stem-Cell-Derived Extracellular Vesicles",
+        "Targeting RBM39 with Tasisulam enhances TRAIL-induced apoptosis through DR5 upregulation and Bcl-2 downregulation in renal cell carcinoma",
+        "GPC-100, a novel CXCR4 antagonist, improves in vivo hematopoietic cell mobilization when combined with propranolol",
+        "Clinical-Scale Mesenchymal Stem Cell-Derived Extracellular Vesicle Therapy for Wound Healing",
+        "Akt enhances the vulnerability of cancer cells to VCP/p97 inhibition-mediated paraptosis",
+        "Dual role of p21 in regulating apoptosis and mitotic integrity in response to doxorubicin in colon cancer cells"
+      ],
+      "outliers": [
+        {
+          "id": "W4383551666",
+          "title": "The Effect of Emotional Labor on Organizational Commitment in General Hospital Nurses",
+          "venue": "The Korean Health & Fundamental Medical Science Society"
+        },
+        {
+          "id": "W4408914599",
+          "title": "Study on the Usefulness of Space Exploration Applications as Museum Educational Content: Focusing on the Self-Directedness of the Tween Generation",
+          "venue": "글로벌문화콘텐츠"
+        },
+        {
+          "id": "W4403410903",
+          "title": "The Influence of Learning Ethics Consciousness, Human Rights Consciousness, and Ethical Values on the Professionalism of Nursing Students before Clinical Practice",
+          "venue": "The Korean Society for Multicultural Health"
+        },
+        {
+          "id": "W4410735617",
+          "title": "A Study on the Lifestyle of University Students in Some Rural Areas",
+          "venue": "The Journal of Korean Island"
+        },
+        {
+          "id": "W4393188250",
+          "title": "Interspecific Variations in the Internal Mercury Isotope Dynamics of Antarctic Penguins: Implications for Biomonitoring",
+          "venue": "Environmental Science & Technology"
+        },
+        {
+          "id": "W7170189294",
+          "title": "IFITM3 promotes triple-negative breast cancer progression by regulating β-catenin localization",
+          "venue": "Biochemical and Biophysical Research Communications"
+        },
+        {
+          "id": "W4409147829",
+          "title": "Dual role of p21 in regulating apoptosis and mitotic integrity in response to doxorubicin in colon cancer cells",
+          "venue": "Cell Death Discovery"
+        }
+      ]
+    },
+    {
+      "lab_id": "postech-A5100440437",
+      "dept": "postech-life",
+      "papers": 4,
+      "outlier_share": 0.5,
+      "core": [
+        "Cryo-EM structures of human OAT1 reveal drug binding and inhibition mechanisms",
+        "Domoic acid: Toxicity, Analytical Methods, and Safety Management",
+        "Structure of Bacillus subtilis Ku-mediated DNA synaptic complex",
+        "SARS‐CoV ‐2 spike trimer vaccine expressed in Nicotiana benthamiana adjuvanted with Alum elicits protective immune responses in mice"
+      ],
+      "outliers": [
+        {
+          "id": "W4293826420",
+          "title": "SARS‐CoV ‐2 spike trimer vaccine expressed in Nicotiana benthamiana adjuvanted with Alum elicits protective immune responses in mice",
+          "venue": "Plant Biotechnology Journal"
+        },
+        {
+          "id": "W4415396390",
+          "title": "Structure of Bacillus subtilis Ku-mediated DNA synaptic complex",
+          "venue": "Nucleic Acids Research"
+        }
+      ]
+    },
+    {
+      "lab_id": "unist-A5058636971",
+      "dept": "unist-cs",
+      "papers": 4,
+      "outlier_share": 0.5,
+      "core": [
+        "QuadStretcher: A Forearm-Worn Skin Stretch Display for Bare-Hand Interaction in AR/VR",
+        "Augmenting On-Body Touch Input with Tactile Feedback Through Fingernail Haptics",
+        "Design and Field Trial of Tunee in Shared Houses: Exploring Experiences of Sharing Individuals’ Current Noise-level Preferences with Housemates",
+        "Diversifying Grain-Based Compliance Illusion by Varying Base Compliance"
+      ],
+      "outliers": [
+        {
+          "id": "W4409748211",
+          "title": "Diversifying Grain-Based Compliance Illusion by Varying Base Compliance",
+          "venue": "CHI Conference on Human Factors in Computing Systems"
+        },
+        {
+          "id": "W4366591144",
+          "title": "Design and Field Trial of Tunee in Shared Houses: Exploring Experiences of Sharing Individuals’ Current Noise-level Preferences with Housemates",
+          "venue": "CHI Conference on Human Factors in Computing Systems"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5100736025",
+      "dept": "kaist-phys",
+      "papers": 4,
+      "outlier_share": 0.5,
+      "core": [
+        "Autonomously designed pulses for robust, site-selective control of atomic qubits",
+        "Advancing hybrid quantum-classical algorithms via mean operators",
+        "Development of Operation Optimization Technology for Gas Turbine Combined-Cycle Power Plants",
+        "Eco-Efficiency Evaluation about Capacity Change of an Absorption Tower"
+      ],
+      "outliers": [
+        {
+          "id": "W4415606236",
+          "title": "Eco-Efficiency Evaluation about Capacity Change of an Absorption Tower",
+          "venue": "Journal of Fisheries and Marine Sciences Education"
+        },
+        {
+          "id": "W7153899496",
+          "title": "Development of Operation Optimization Technology for Gas Turbine Combined-Cycle Power Plants",
+          "venue": "The KSFM Journal of Fluid Machinery"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5031913417",
+      "dept": "kaist-phys",
+      "papers": 6,
+      "outlier_share": 0.5,
+      "core": [
+        "Adaptive quantum tomography in an indistinct measurement system with superconducting circuits",
+        "Measurement-induced bistability in the excited state of a transmon",
+        "Controlled suppression of the field-induced Bose metallic state via disorder tuning in a two-dimensional superconducting system",
+        "\"Andrew Jackson’s Indian Removal Policy: Settler Colonialism and Genocide\"",
+        "Classification of English Poetic Emotions Using QA Neural Network Model",
+        "The Effect of Undergraduate’s Self-efficacy on College Satisfaction due to COVID-19 Pandemic: Mediation Effects of Self-directed Learning"
+      ],
+      "outliers": [
+        {
+          "id": "W4316804264",
+          "title": "The Effect of Undergraduate’s Self-efficacy on College Satisfaction due to COVID-19 Pandemic: Mediation Effects of Self-directed Learning",
+          "venue": "The Journal of Humanities and Social sciences 21"
+        },
+        {
+          "id": "W4224308739",
+          "title": "Classification of English Poetic Emotions Using QA Neural Network Model",
+          "venue": "The Korean Data Analysis Society"
+        },
+        {
+          "id": "W4353029029",
+          "title": "\"Andrew Jackson’s Indian Removal Policy: Settler Colonialism and Genocide\"",
+          "venue": "Journal of Korean Politics"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5100616121",
+      "dept": "kaist-math",
+      "papers": 4,
+      "outlier_share": 0.5,
+      "core": [
+        "On isomorphism of the space of continuous functions with finite p-th variation along a partition sequence",
+        "Hölder regularity and roughness: Construction and examples",
+        "The Impact of Exporter’s Humanistic Knowledge on Rapport with Importer through Intercultural Communicative Competence",
+        "Research on the Relationship between Customer-based Tourism Destination Brand Equity and Tourist’ Behavioral Intentions"
+      ],
+      "outliers": [
+        {
+          "id": "W4393099104",
+          "title": "Research on the Relationship between Customer-based Tourism Destination Brand Equity and Tourist’ Behavioral Intentions",
+          "venue": "호텔리조트연구"
+        },
+        {
+          "id": "W4392713056",
+          "title": "The Impact of Exporter’s Humanistic Knowledge on Rapport with Importer through Intercultural Communicative Competence",
+          "venue": "Journal of CEO and Management Studies"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5100412739",
+      "dept": "kaist-cs",
+      "papers": 23,
+      "outlier_share": 0.478,
+      "core": [
+        "Rethinking the Nested U-Net Approach: Enhancing Biomarker Segmentation with Attention Mechanisms and Multiscale Feature Fusion",
+        "Deep Representation Learning With Sample Generation and Augmented Attention Module for Imbalanced ECG Classification",
+        "Deep multimodal emotion recognition using modality-aware attention and proxy-based multimodal loss",
+        "Diagnostic Assessment of Deep Learning Algorithms for Frozen Tissue Section Analysis in Women with Breast Cancer",
+        "IntegraScale: A Unified Integral Framework for PSF-Aware Quantized Subpixel Image Scaling",
+        "Revisiting the Importance of Amplifying Bias for Debiasing",
+        "Empirical Study of Attention Mechanism on Neural Ordinary Differential Equations",
+        "Deep Representation Learning With Assisted Domain Adaptation for EEG-Based Cross-Subject Emotion Recognition"
+      ],
+      "outliers": [
+        {
+          "id": "W7203662106",
+          "title": "Terrain Impact Analysis and Mission Effectiveness Evaluation for Hybrid Employment of Vehicle-Mounted and Portable EW Assets",
+          "venue": "Journal of the Korea Institute of Military Science and Technology"
+        },
+        {
+          "id": "W7212019632",
+          "title": "The Ontological Structure of Wu-wei and Its Political-Philosophical Development in Laozi’s Dao De Jing",
+          "venue": "Barun Academy of History"
+        },
+        {
+          "id": "W4413917835",
+          "title": "Hybrid EPCIS: Integrating GS1/ISO Standards with On-Chain and Off-Chain Distributed Ledger for Supply Chain Traceability",
+          "venue": "IEEE International Conference on Decentralized Applications and Infrastructures (DAPPS)"
+        },
+        {
+          "id": "W4415835537",
+          "title": "Literature Study on the Change of Tea Culture and Tea Food",
+          "venue": null
+        },
+        {
+          "id": "W4402595438",
+          "title": "Decentralized Ledger Technology for EPCIS 2.0: Utilizing NFTs for Enhanced Product Traceability",
+          "venue": "IEEE International Conference on Blockchain (Blockchain)"
+        },
+        {
+          "id": "W4406501791",
+          "title": "QuantuneV2: Compiler-based local metric-driven mixed precision quantization for practical embedded AI applications",
+          "venue": "Future Generation Computer Systems"
+        },
+        {
+          "id": "W4410809972",
+          "title": "Building Digital Product Passports: EPCIS 2.0 Meets Knowledge Graphs",
+          "venue": "IEEE International Conference on RFID"
+        },
+        {
+          "id": "W4309969871",
+          "title": "Conditional GAN based Collaborative Filtering with Data Augmentation for Cold-Start User",
+          "venue": "International Conference on Information and Communication Technology Convergence (ICTC)"
+        },
+        {
+          "id": "W7154615237",
+          "title": "DDRL:Dyna-Based Discriminative Reinforcement Learning for Optimizing Sepsis Treatment Pathways in Offline Environments",
+          "venue": "IEEE Journal of Biomedical and Health Informatics"
+        },
+        {
+          "id": "W4213338214",
+          "title": "Fully Complex Deep Learning Classifiers for Signal Modulation Recognition in Non-Cooperative Environment",
+          "venue": "IEEE Access"
+        },
+        {
+          "id": "W4403998757",
+          "title": "Time-Efficient and Identity-Consistent Virtual Try-On Using A Variant of Altered Diffusion Models",
+          "venue": "Lecture notes in computer science"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5100627007",
+      "dept": "kaist-phys",
+      "papers": 19,
+      "outlier_share": 0.474,
+      "core": [
+        "Wireless Modular Implantable Neural Device with One‐touch Magnetic Assembly for Versatile Neuromodulation",
+        "IoT-enabled wireless neural implant for chronic, programmable neuropharmacology and optogenetics",
+        "Microfluidic Solid-State pH Sensor for Dynamic Monitoring of Extracellular pH in Live Cell Cultures",
+        "Picoliter‐Volume Isothermal Titration Calorimetry Using Parylene Chip Calorimeter Integrated with on‐Demand Droplet Microfluidics",
+        "Improving Machine Learning-Based Brain Age Prediction Using Multimodal Neuroimaging Data",
+        "Environmentally Stable and Highly Crystalline MXenes for Multispectral Electromagnetic Shielding up to Millimeter Waves",
+        "Integrated Parylene‐Based Thin‐Film Microfluidic Device for Time‐Resolved Cryo‐Electron Microscopy",
+        "Anatomy-Guided Diffusion Models for 3D Synthetic Brain MRI Generation"
+      ],
+      "outliers": [
+        {
+          "id": "W4306649288",
+          "title": "A Study on the Cultural Interpretation of Taekwondo Origin and Okinawa Origin",
+          "venue": null
+        },
+        {
+          "id": "W4411633260",
+          "title": "An Exploratory Study on the Effect of the Labor-Management Joint Council of Public Institutions on the Treatment of Workers in Subsidiary Companies",
+          "venue": "산업관계연구"
+        },
+        {
+          "id": "W4306649302",
+          "title": "The Relationship Among Social Support, Career Adaptability, Psychological Capital and Career Preparation Behavior of Judo Kata Major",
+          "venue": null
+        },
+        {
+          "id": "W4388619214",
+          "title": "Quality characteristics and antioxidant activity of seasoning according to the addition ratio of onion soy sauce powder",
+          "venue": "Korean Journal of Food Science and Technology"
+        },
+        {
+          "id": "W4413407756",
+          "title": "A Qualitative Approach to the Career Perceptions of Beauty Major College Students: Viewpoint of Social Support and Grit",
+          "venue": "Korean Journal of Security Convergence Management"
+        },
+        {
+          "id": "W4392596434",
+          "title": "Microfluidic Capture Device for Simple, Cell Surface Marker-Based Quantification of Senescent CD8+ T Cells",
+          "venue": "BioChip Journal"
+        },
+        {
+          "id": "W4377836908",
+          "title": "EEG-Based Emotion Recognition Using a 3D Convolutional Neural Network with a Bottleneck Structure",
+          "venue": "정보과학회 컴퓨팅의 실제 논문지"
+        },
+        {
+          "id": "W4297839731",
+          "title": "\"Exploring the Perceived Effects and the Practical Applications of Physical Activity Program: With Focus on Older Adults with Mild Cognitive Impairment\"",
+          "venue": "The Journal of Humanities and Social sciences 21"
+        },
+        {
+          "id": "W4281759852",
+          "title": "Alteration of Inertial Focusing Positions in Triangular Channels Using Flexible PDMS Microfluidics",
+          "venue": "BioChip Journal"
+        }
+      ]
+    },
+    {
+      "lab_id": "gist-A5102904761",
+      "dept": "gist-life",
+      "papers": 13,
+      "outlier_share": 0.462,
+      "core": [
+        "Human Dental Pulp Stem Cell Secretome Restores Ischemic Stroke–Impaired Motor and Cognitive Functions by Reprogramming Redox and Inflammatory Signaling",
+        "Dental pulp stem cell secretome inhibits mitophagy-induced hippocampal neural injury during hypoxia",
+        "Effects of cereblon on stress-activated redox proteins and core behavior",
+        "A sexually transmitted sugar orchestrates reproductive responses to nutritional stress",
+        "Diagnostic Blood Biomarkers in Alzheimer’s Disease",
+        "Anti-proteolytic regulation of KRAS by USP9X/NDRG3 in KRAS-driven cancer development",
+        "Structure and activation of the RING E3 ubiquitin ligase TRIM72 on the membrane",
+        "A peptide interfering with the dimerization of oncogenic KITENIN protein and its stability suppresses colorectal tumour progression"
+      ],
+      "outliers": [
+        {
+          "id": "W7165612143",
+          "title": "Development of a LC-MS-based simultaneous protein quantification method for all regulated allergenic foods in Korea",
+          "venue": "Food Chemistry"
+        },
+        {
+          "id": "W4391836988",
+          "title": "Comparative analysis of LC-MS/MS and real-time PCR assays for efficient detection of potential allergenic silkworm",
+          "venue": "Food Chemistry"
+        },
+        {
+          "id": "W4406214279",
+          "title": "Acetogenesis to ethanologenesis: facilitating NADH oxidation via reductive acetate uptake",
+          "venue": "Trends in biotechnology"
+        },
+        {
+          "id": "W4392391577",
+          "title": "Cathepsin D promotes polarization of tumor-associated macrophages and metastasis through TGFBI-CCL20 signaling",
+          "venue": "Experimental & Molecular Medicine"
+        },
+        {
+          "id": "W4384469835",
+          "title": "Discovery, verification, and validation of walnut protein marker peptides using LC-MS approaches",
+          "venue": "Food Chemistry"
+        },
+        {
+          "id": "W4285808027",
+          "title": "A peptide interfering with the dimerization of oncogenic KITENIN protein and its stability suppresses colorectal tumour progression",
+          "venue": "Clinical and Translational Medicine"
+        }
+      ]
+    },
+    {
+      "lab_id": "dgist-A5037567383",
+      "dept": "dgist-life",
+      "papers": 11,
+      "outlier_share": 0.455,
+      "core": [
+        "Comparative proteomics analysis of biofilms and planktonic cells of Enterococcus faecalis and Staphylococcus lugdunensis with contrasting biofilm-forming ability",
+        "Identification and comparison of protein composition of biofilms in response to EGCG from Enterococcus faecalis and Staphylococcus lugdunensis, which showed opposite patterns in biofilm-forming abilities",
+        "Assessment of the biofilm-forming ability on solid surfaces of periprosthetic infection-associated pathogens",
+        "Nanostructure-based wettability modification of TiAl6V4 alloy surface for modulating biofilm production: Superhydrophilic, superhydrophobic, and slippery surfaces",
+        "Antibacterial Immunonegative Coating with Biocompatible Materials on a Nanostructured Titanium Plate for Orthopedic Bone Fracture Surgery",
+        "Diabetes mellitus and diabetic foot ulcer: Etiology, biochemical and molecular based treatment strategies via gene and nanotherapy",
+        "Structure and function of the keratin 17 tail domain associated with keratin intermediate filament organization",
+        "A role for Keratin 17 in Rac1-mediated DNA damage response in keratinocytes"
+      ],
+      "outliers": [
+        {
+          "id": "W7155507145",
+          "title": "A novel role of erythropoietin in skin pigmentation through melanin production",
+          "venue": "Scientific Reports"
+        },
+        {
+          "id": "W7141496046",
+          "title": "Expression and purification of the ectodomain of erythropoietin receptor fused to mCitrine or mTFP1 fluorescent protein in Escherichia coli",
+          "venue": "Protein Expression and Purification"
+        },
+        {
+          "id": "W7128736084",
+          "title": "MLPH-mediated activation of dermal papilla IGF-1 signaling drives human hair shaft elongation and anagen induction",
+          "venue": "Biomedicine & Pharmacotherapy"
+        },
+        {
+          "id": "W7140324844",
+          "title": "A role for Keratin 17 in Rac1-mediated DNA damage response in keratinocytes",
+          "venue": "Molecular Biology of the Cell"
+        },
+        {
+          "id": "W4414555441",
+          "title": "Structure and function of the keratin 17 tail domain associated with keratin intermediate filament organization",
+          "venue": "European Journal of Cell Biology"
+        }
+      ]
+    },
+    {
+      "lab_id": "gist-A5101518866",
+      "dept": "gist-chem",
+      "papers": 11,
+      "outlier_share": 0.455,
+      "core": [
+        "Strong Plasmon–Exciton Coupling Tuned by Corner Etching of Gold Nanocubes and Nanotriangles",
+        "Strong Plasmon–Exciton Coupling Tuned by Corner Etching of Gold Nanocubes and Nanotriangles (Advanced Optical Materials 18/2026)",
+        "Strong coupling in plasmonic metal nanoparticles",
+        "Plasmon–Exciton Strong Coupling in Colloidal Au Nanocubes with Layered Molecular J-Aggregates",
+        "Hierarchical nanogap-lattice coupling transduces molecular chirality into collective optical modes",
+        "Scalable Purification of Gold Nanocubes via Centrifugal Depletion-Induced Flocculation: A Pathway to High-Precision Nanomaterials",
+        "Simultaneous Detection of Infectious Diseases Using Aptamer-Conjugated Gold Nanoparticles in the Lateral Flow Immunoassay-Based Signal Amplification Platform",
+        "Quenching Epigenetic Drug Resistance Using Antihypoxic Microparticles in Glioblastoma Patient‐Derived Chips (Adv. Healthcare Mater. 8/2022)"
+      ],
+      "outliers": [
+        {
+          "id": "W4416603466",
+          "title": "PCR-Based Evaluation of Aquaculture Status in Takifugu rubripes Products",
+          "venue": "Journal of Food Hygiene and Safety"
+        },
+        {
+          "id": "W4404026894",
+          "title": "Heavy metal contents in commercial fishery products distributed in Seoul and their safety evaluations",
+          "venue": "Korean Journal of Food Science and Technology"
+        },
+        {
+          "id": "W4405990482",
+          "title": "Simultaneous Detection of Five Infectious Diseases in a Single Strip: Oligo dT-Utilized Lateral Flow Immunoassay",
+          "venue": "Analytical Chemistry"
+        },
+        {
+          "id": "W4224271955",
+          "title": "Quenching Epigenetic Drug Resistance Using Antihypoxic Microparticles in Glioblastoma Patient‐Derived Chips (Adv. Healthcare Mater. 8/2022)",
+          "venue": "Advanced Healthcare Materials"
+        },
+        {
+          "id": "W4391035157",
+          "title": "Simultaneous Detection of Infectious Diseases Using Aptamer-Conjugated Gold Nanoparticles in the Lateral Flow Immunoassay-Based Signal Amplification Platform",
+          "venue": "Analytical Chemistry"
+        }
+      ]
+    },
+    {
+      "lab_id": "snu-A5083084972",
+      "dept": "snu-cs",
+      "papers": 11,
+      "outlier_share": 0.455,
+      "core": [
+        "Hippo",
+        "Blaze: Holistic Caching for Iterative Data Processing",
+        "OpenNetLab: Open Platform for RL-based Congestion Control for Real-Time Communications",
+        "Two Examples are Better than One: Context Regularization for Gradient-based Prompt Tuning",
+        "Band",
+        "Meta-Learning of Prompt Generation for Lightweight Prompt Engineering on Language-Model-as-a-Service",
+        "FlowKV: A Semantic-Aware Store for Large-Scale State Management of Stream Processing Engines",
+        "SWAN"
+      ],
+      "outliers": [
+        {
+          "id": "W4399323774",
+          "title": "Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality",
+          "venue": "International Conference on Mobile Systems, Applications, and Services"
+        },
+        {
+          "id": "W4399324308",
+          "title": "Poster: Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality",
+          "venue": "International Conference on Mobile Systems, Applications, and Services"
+        },
+        {
+          "id": "W7155532584",
+          "title": "Garen: Reliable Cluster Management with Atomic State Reconciliation",
+          "venue": "European Conference on Computer Systems"
+        },
+        {
+          "id": "W4293716505",
+          "title": "SWAN",
+          "venue": "ACM SIGOPS Asia-Pacific Workshop on Systems (APSys)"
+        },
+        {
+          "id": "W4372258380",
+          "title": "FlowKV: A Semantic-Aware Store for Large-Scale State Management of Stream Processing Engines",
+          "venue": null
+        }
+      ]
+    },
+    {
+      "lab_id": "gist-A5070496831",
+      "dept": "gist-chem",
+      "papers": 20,
+      "outlier_share": 0.45,
+      "core": [
+        "Monodefluorinative Halogenation of Perfluoroalkyl Ketones via Organophosphorus-Mediated Selective C–F Activation",
+        "Stereoselective synthesis of geminal bromofluoroalkenes by kinetically controlled selective conversion of oxaphosphetane intermediates",
+        "Fluorine-Assisted Rearrangement of Geminal Azidofluorides to Imidoyl Fluorides",
+        "Stereospecific syn-dihalogenations and regiodivergent syn-interhalogenation of alkenes via vicinal double electrophilic activation strategy",
+        "α-Fluoroamine synthesis via P( iii )-mediated deoxygenative geminal fluorosulfonimidation of 1,2-diketones",
+        "Internally Directed Stereochemical Alteration of Alkene Dihalogenation",
+        "Study on Pyridine-Boryl Radical-Promoted, Ketyl Radical-Mediated Carbon–Carbon Bond-Forming Reactions",
+        "Stereospecific syn-dichlorination of allylic amines enabled by identification of a superior stereo-directing group"
+      ],
+      "outliers": [
+        {
+          "id": "W4310535931",
+          "title": "Spatial inhomogeneity and molecular aggregation behavior in aqueous binary liquid mixtures",
+          "venue": "Journal of Molecular Liquids"
+        },
+        {
+          "id": "W4406985971",
+          "title": "Microscopic Heterogeneity Driven by Molecular Aggregation and Water Dynamics in Aqueous Osmolyte Solutions",
+          "venue": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "id": "W4388819843",
+          "title": "Molecular Aggregation Behavior and Microscopic Heterogeneity in Binary Osmolyte–Water Solutions",
+          "venue": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "id": "W4399812762",
+          "title": "Unraveling the interplay of temperature with molecular aggregation and miscibility in TEA–water mixtures",
+          "venue": "Physical Chemistry Chemical Physics"
+        },
+        {
+          "id": "W4377089245",
+          "title": "Pressure dependence of molecular aggregation and phase behavior in methane-water mixtures",
+          "venue": "Journal of Molecular Liquids"
+        },
+        {
+          "id": "W4281493017",
+          "title": "Identification of New Non-BBB Permeable Tryptophan Hydroxylase Inhibitors for Treating Obesity and Fatty Liver Disease",
+          "venue": "Molecules"
+        },
+        {
+          "id": "W4398771783",
+          "title": "Design, Synthesis, and Biological Evaluation of New 2,6,7-Substituted Purine Derivatives as Toll-like Receptor 7 Agonists for Intranasal Vaccine Adjuvants",
+          "venue": "Journal of Medicinal Chemistry"
+        },
+        {
+          "id": "W4416442135",
+          "title": "Temperature-driven molecular aggregation and phase behavior in sec-butyl alcohol/water mixtures",
+          "venue": "Journal of Molecular Liquids"
+        },
+        {
+          "id": "W4391360106",
+          "title": "Addressing Intrinsic Limitations of Aqueous Electric Double-Layer Capacitors with Designer Redox-Active Deep Eutectic Solvent Electrolytes",
+          "venue": "ACS Applied Energy Materials"
+        }
+      ]
+    },
+    {
+      "lab_id": "snu-A5101968404",
+      "dept": "snu-chem",
+      "papers": 29,
+      "outlier_share": 0.448,
+      "core": [
+        "Molecular architecture of the human TRPC1/C5 heteromeric channel",
+        "Molecular architecture of the Gαi-bound TRPC5 ion channel",
+        "Direct crosstalk between GPCRs and ion channels via G proteins",
+        "Mefloquine-induced conformational shift in Cx36 N-terminal helix leading to channel closure mediated by lipid bilayer",
+        "Cryo-EM structures of human Cx36/GJD2 neuronal gap junction channel",
+        "CryoEM structure of mGlu6 captures receptor activation prior to G protein coupling",
+        "FRET analysis of the temperature-induced structural changes in human TRPV3",
+        "Symmetry-driven gating of TRPM8 by PIP2 and menthol"
+      ],
+      "outliers": [
+        {
+          "id": "W4393216035",
+          "title": "Enzymatic conversion of CO2 to formate: The potential of tungsten-containing formate dehydrogenase in flow reactor system",
+          "venue": "Journal of CO2 Utilization"
+        },
+        {
+          "id": "W4411700123",
+          "title": "Outside Back Cover: Fortification of FeS Clusters Reshapes Anaerobic CO Dehydrogenase into an Air‐Viable Enzyme through Multilayered Sealing of O 2 Tunnels",
+          "venue": "Angewandte Chemie"
+        },
+        {
+          "id": "W4295885708",
+          "title": "O2-tolerant CO dehydrogenase via tunnel redesign for the removal of CO from industrial flue gas",
+          "venue": "Nature Catalysis"
+        },
+        {
+          "id": "W4393254568",
+          "title": "Identifying a key spot for electron mediator-interaction to tailor CO dehydrogenase’s affinity",
+          "venue": "Nature Communications"
+        },
+        {
+          "id": "W4411023245",
+          "title": "Fortification of FeS Clusters Reshapes Anaerobic CO Dehydrogenase into an Air‐Viable Enzyme Through Multilayered Sealing of O 2 Tunnels",
+          "venue": "Angewandte Chemie"
+        },
+        {
+          "id": "W4411011804",
+          "title": "Fortification of FeS Clusters Reshapes Anaerobic CO Dehydrogenase into an Air‐Viable Enzyme Through Multilayered Sealing of O 2 Tunnels",
+          "venue": "Angewandte Chemie International Edition"
+        },
+        {
+          "id": "W4411668086",
+          "title": "Outside Back Cover: Fortification of FeS Clusters Reshapes Anaerobic CO Dehydrogenase into an Air‐Viable Enzyme through Multilayered Sealing of O 2 Tunnels",
+          "venue": "Angewandte Chemie International Edition"
+        },
+        {
+          "id": "W4289544933",
+          "title": "FOXL2 and FOXA1 cooperatively assemble on the TP53 promoter in alternative dimer configurations",
+          "venue": "Nucleic Acids Research"
+        },
+        {
+          "id": "W4391847274",
+          "title": "Structure of recombinant formate dehydrogenase from Methylobacterium extorquens (MeFDH1)",
+          "venue": "Scientific Reports"
+        },
+        {
+          "id": "W4383302993",
+          "title": "Inhibition mechanism of testis-expressed gene 14 (TEX14) in cytokinetic abscission: Well-tempered metadynamics simulation studies",
+          "venue": "The Journal of Chemical Physics"
+        },
+        {
+          "id": "W4225001140",
+          "title": "Structure-based inhibitor design for reshaping bacterial morphology",
+          "venue": "Communications Biology"
+        },
+        {
+          "id": "W4408803510",
+          "title": "Direct Quantification of Protein–Protein Interactions in Living Bacterial Cells",
+          "venue": "Advanced Science"
+        }
+      ]
+    },
+    {
+      "lab_id": "unist-A5062938377",
+      "dept": "unist-life",
+      "papers": 9,
+      "outlier_share": 0.444,
+      "core": [
+        "TonEBP regulates ESR1 transcription and ER-dependent proliferation in ER-positive breast cancer",
+        "Pseudohypoxic stabilization of HIF1α via cyclophilin D suppression promotes melanoma metastasis",
+        "Benchmarking integration of single-cell differential expression",
+        "Characterizing efficient feature selection for single-cell expression analysis",
+        "Hepatic miR-93 promotes the pathogenesis of metabolic dysfunction-associated steatotic liver disease by suppressing SIRT1",
+        "Dynamic and reversible transcriptomic age shifts induced by COVID-19 in Korean whole blood",
+        "MicroRNA-29 Ameliorates Fibro-Inflammation and Insulin Resistance in HIF1α-Deficient Obese Adipose Tissue by Inhibiting Endotrophin Generation",
+        "Impacts of the accumulated extinction of endangered species on stream food webs"
+      ],
+      "outliers": [
+        {
+          "id": "W4408301607",
+          "title": "Restored streams recover food web properties but with different scaling relationships when compared with natural streams",
+          "venue": "Ecological Applications"
+        },
+        {
+          "id": "W4388980187",
+          "title": "Impacts of the accumulated extinction of endangered species on stream food webs",
+          "venue": "Global Ecology and Conservation"
+        },
+        {
+          "id": "W4213374770",
+          "title": "MicroRNA-29 Ameliorates Fibro-Inflammation and Insulin Resistance in HIF1α-Deficient Obese Adipose Tissue by Inhibiting Endotrophin Generation",
+          "venue": "Diabetes"
+        },
+        {
+          "id": "W4411169381",
+          "title": "Dynamic and reversible transcriptomic age shifts induced by COVID-19 in Korean whole blood",
+          "venue": "Aging"
+        }
+      ]
+    },
+    {
+      "lab_id": "gist-A5075061660",
+      "dept": "gist-life",
+      "papers": 9,
+      "outlier_share": 0.444,
+      "core": [
+        "Pheophorbide A and SN38 conjugated hyaluronan nanoparticles for photodynamic- and cascadic chemotherapy of cancer stem-like ovarian cancer",
+        "A bleomycin-mimicking manganese-porphyrin-conjugated mitochondria-targeting peptoid for cancer therapy",
+        "Cereblon (CRBN) inhibits prostate cancer metastasis by negatively regulating 6-phosphogluconate dehydrogenase (6PGD)",
+        "CRBN deletion enhances mitochondrial metabolism by stimulating mitochondrial calcium accumulation in non-small cell lung cancer",
+        "Protective effect of TPP-Niacin on microgravity-induced oxidative stress and mitochondrial dysfunction of retinal epithelial cells",
+        "Comparative analysis of dermal collagen and lipids in cereblon ablated mice using a multimodal nonlinear optical system",
+        "A Monolithic 3D-Printed Platform for Functional Maturation and In Situ Contractility Assessment of 3D Skeletal Muscle",
+        "Cellular changes in an in vitro neural circuit system under simulated microgravity"
+      ],
+      "outliers": [
+        {
+          "id": "W7203766837",
+          "title": "Hypothalamus–Peripheral Organ Crosstalk in Energy Metabolism: A Bidirectional Regulatory Network",
+          "venue": "Endocrinology and Metabolism"
+        },
+        {
+          "id": "W4413138024",
+          "title": "Cellular changes in an in vitro neural circuit system under simulated microgravity",
+          "venue": "Acta Biomaterialia"
+        },
+        {
+          "id": "W7154570153",
+          "title": "A Monolithic 3D-Printed Platform for Functional Maturation and In Situ Contractility Assessment of 3D Skeletal Muscle",
+          "venue": "Biomaterials Research"
+        },
+        {
+          "id": "W4296604565",
+          "title": "Comparative analysis of dermal collagen and lipids in cereblon ablated mice using a multimodal nonlinear optical system",
+          "venue": "Journal of Biophotonics"
+        }
+      ]
+    },
+    {
+      "lab_id": "dgist-A5004876274",
+      "dept": "dgist-life",
+      "papers": 23,
+      "outlier_share": 0.435,
+      "core": [
+        "Continuous centrifugal microfluidics (CCM) isolates heterogeneous circulating tumor cells via full automation",
+        "Robust Automated Separation of Circulating Tumor Cells and Cancer-Associated Fibroblasts for Enhanced Liquid Biopsy in Breast Cancer",
+        "Robust Isolation and Multiplexed Identification of Circulating Rare Cells via Continuous Centrifugal Microfluidics and Hydrogel Immunocytochemistry",
+        "Fully Automated Continuous Centrifugal Microfluidics Isolates Natural Killer Cells with High Performance and Minimal Stress",
+        "Continuous centrifugal microfluidics identifies the marker and size heterogeneity of circulating trophoblasts for accurate non-invasive prenatal diagnosis",
+        "CD45⁺ hybrid circulating cells may reflect tumor-immune interactions and serve as transcriptomic indicators of metastatic potential in prostate cancer",
+        "Lossless Immunocytochemistry Based on Large-Scale Porous Hydrogel Pellicle for Accurate Rare Cell Analysis",
+        "Detection and prognostic role of circulating cancer-associated fibroblasts in the blood of melanoma patients"
+      ],
+      "outliers": [
+        {
+          "id": "W4403561629",
+          "title": "The prospect of electroceutical intervention and its implementation toward intractable neuromuscular diseases",
+          "venue": "Current Opinion in Biomedical Engineering"
+        },
+        {
+          "id": "W4386275096",
+          "title": "Farnesol prevents aging-related muscle weakness in mice through enhanced farnesylation of Parkin-interacting substrate",
+          "venue": "Science Translational Medicine"
+        },
+        {
+          "id": "W4393130460",
+          "title": "Double‐Sided, Thin‐Film Microelectrode Array with Hemispheric Electrodes for Subretinal Stimulation",
+          "venue": "Advanced Materials Technologies"
+        },
+        {
+          "id": "W4287148639",
+          "title": "Advantages of Adult Mouse Dorsal Root Ganglia Explant Culture in Investigating Myelination in an Inherited Neuropathic Mice Model",
+          "venue": "Methods and Protocols"
+        },
+        {
+          "id": "W4308980553",
+          "title": "Implantable Electroceutical Approach Improves Myelination by Restoring Membrane Integrity in a Mouse Model of Peripheral Demyelinating Neuropathy (Adv. Sci. 32/2022)",
+          "venue": "Advanced Science"
+        },
+        {
+          "id": "W4392601757",
+          "title": "An Ultrasoft and Flexible PDMS-Based Balloon-Type Implantable Device for Controlled Drug Delivery",
+          "venue": "Biomaterials Research"
+        },
+        {
+          "id": "W4406735372",
+          "title": "BCL6 coordinates muscle mass homeostasis with nutritional states",
+          "venue": "Proceedings of the National Academy of Sciences"
+        },
+        {
+          "id": "W4292080583",
+          "title": "Implantable Electroceutical Approach Improves Myelination by Restoring Membrane Integrity in a Mouse Model of Peripheral Demyelinating Neuropathy",
+          "venue": "Advanced Science"
+        },
+        {
+          "id": "W7212390895",
+          "title": "A Biomimetic 3D Human Skeletal Muscle Microtissue for Modeling Biological and Functional Hallmarks of Aging",
+          "venue": "Small Science"
+        },
+        {
+          "id": "W4385618089",
+          "title": "Silver electroceutical technology to treat sarcopenia",
+          "venue": "Proceedings of the National Academy of Sciences"
+        }
+      ]
+    },
+    {
+      "lab_id": "postech-A5100785224",
+      "dept": "postech-math",
+      "papers": 7,
+      "outlier_share": 0.429,
+      "core": [
+        "K-stable Fano threefolds of rank 2 and degree 30",
+        "Double Veronese cones with 28 nodes",
+        "Simply connected positive Sasakian 5‐manifolds",
+        "New Sasaki–Einstein 5‐manifolds",
+        "Spatial Data Analysis Based on Weighted Expectation Maximization",
+        "Anomaly Trajectory Detection Using Clustering and Isolation Forest",
+        "A Study on a 3D Convolution-Based Video Recognition System for Driving Aggressiveness Recognition"
+      ],
+      "outliers": [
+        {
+          "id": "W4405971625",
+          "title": "A Study on a 3D Convolution-Based Video Recognition System for Driving Aggressiveness Recognition",
+          "venue": "Journal of KIISE"
+        },
+        {
+          "id": "W4392919730",
+          "title": "Anomaly Trajectory Detection Using Clustering and Isolation Forest",
+          "venue": "Journal of Korean institute of intelligent systems"
+        },
+        {
+          "id": "W4406808233",
+          "title": "Spatial Data Analysis Based on Weighted Expectation Maximization",
+          "venue": "Journal of Korean institute of intelligent systems"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5100424985",
+      "dept": "kaist-life",
+      "papers": 24,
+      "outlier_share": 0.417,
+      "core": [
+        "Multisensory integration in the mammalian brain: diversity and flexibility in health and disease",
+        "Attentional modulation of multisensory integration across the cortical hierarchy",
+        "Locomotion-dependent auditory gating to the parietal cortex guides multisensory decisions",
+        "Reduced activity of parvalbumin-positive interneurons in the posterior parietal cortex causes visually dominant multisensory decisions in freely navigating mice",
+        "Perceptual generalization across visual and tactile spaces",
+        "Adolescent Parvalbumin Expression in the Left Orbitofrontal Cortex Shapes Sociability in Female Mice",
+        "Synaptic ensembles between raphe and D 1 R-containing accumbens shell neurons underlie postisolation sociability in males",
+        "Encoding the glucose identity by discrete hypothalamic neurons via the gut-brain axis"
+      ],
+      "outliers": [
+        {
+          "id": "W4399297848",
+          "title": "Non-carbapenem Drugs for Patients with Bacteremia caused by Extended-Spectrum β-Lactamase-Producing Enterobacteriaceae: Piperacillin-Tazobactam",
+          "venue": "Korean Journal of Medicine"
+        },
+        {
+          "id": "W4400029583",
+          "title": "Development of an Easy-To-Handle Redox Active Group for Alcohols: Catalytic Transformation of Tertiary Alcohols to Nitriles",
+          "venue": "Organic Letters"
+        },
+        {
+          "id": "W4390699603",
+          "title": "Evaluating the Efficacy of Commercial Polysulfone Hollow Fiber Membranes for Separating H2 from H2/CO Gas Mixtures",
+          "venue": "Membrane Journal"
+        },
+        {
+          "id": "W4407146995",
+          "title": "The Impact of a Company’s ESG Activities on its Corporate Image : Focusing on the Mediating Effect of Consumer-Company Identification and the Moderating Effect of Consumer Citizenship",
+          "venue": "Journal of Industrial Convergence"
+        },
+        {
+          "id": "W4392783598",
+          "title": "The Relationship between Ethnic Identity and Psychosocial Adaptation of returnee employees in Korea: The Moderated Mediating Effect of Acculturation Strategy by Reverse Culture Shock",
+          "venue": "Korean Association For Learner-Centered Curriculum And Instruction"
+        },
+        {
+          "id": "W4394851295",
+          "title": "A Study on the Development and Validation of Scale of CSFT(College Student of Failure Tolerance): Structural relationship of Failure Tolerance, Grit and Academic amotivation",
+          "venue": "Korean Association For Learner-Centered Curriculum And Instruction"
+        },
+        {
+          "id": "W4386931143",
+          "title": "The Effect of Workplace Bullying on Social Workers\" Burnout: The Mediating Effect of Perception of Organizational Fairness",
+          "venue": "Journal of community welfare"
+        },
+        {
+          "id": "W4392401851",
+          "title": "The Relations of Adolescents’ Achievement Goal Orientations to Academic Failure Tolerance : The Moderating Effects of Attributional Style",
+          "venue": "YOUTH FACILITY AND ENVIRONMENT Journal of the Korea Institute of Youth Facility and Environment"
+        },
+        {
+          "id": "W4408283407",
+          "title": "Verification of the Moderating Effect of Resilience in the Relationship Between Job Stress and Burnout of Social Workers: Focusing on the Differences Between the MZ Generation and the X Generation",
+          "venue": null
+        },
+        {
+          "id": "W4293279737",
+          "title": "Excited-State Intramolecular Hydrogen Transfer of Compact Molecules Controls Amyloid Aggregation Profiles",
+          "venue": "JACS Au"
+        }
+      ]
+    },
+    {
+      "lab_id": "gist-A5076624264",
+      "dept": "gist-phys",
+      "papers": 12,
+      "outlier_share": 0.417,
+      "core": [
+        "Characterization of relativistic electron–positron beams produced with laser-accelerated GeV electrons",
+        "Heat transfer within nonequilibrium dense aluminum heated by a heavy ion beam",
+        "Temperature evolution of dense gold and diamond heated by energetic laser-driven aluminum ions",
+        "Review of laser-plasma physics research and applications in Korea",
+        "Rapid, uniform, and efficient heat transfer into dense matter using energetic proton beams with finite energy spreads",
+        "Characteristics of electron beams accelerated by parallel and antiparallel circularly polarized Laguerre–Gaussian laser pulses",
+        "Compact, high-yield laser-driven neutron source for fast neutron radiography",
+        "Effects of Dry Heat Treatment on the Reduction of Main Food-Borne Bacteria on Alfalfa Seeds"
+      ],
+      "outliers": [
+        {
+          "id": "W4281653957",
+          "title": "Changes in Quality of Expired Tofu During Storage at Different Temperatures",
+          "venue": "Journal of Food Hygiene and Safety"
+        },
+        {
+          "id": "W4328112706",
+          "title": "Efficacy of Sodium Hypochlorite against E. coli on Various Leafy Green and Stem Vegetables",
+          "venue": "Journal of Food Hygiene and Safety"
+        },
+        {
+          "id": "W4392711639",
+          "title": "Antibiotic Resistance of Salmonella spp. After Exposure to Mild Heat Treatment",
+          "venue": "Journal of Food Hygiene and Safety"
+        },
+        {
+          "id": "W4312455746",
+          "title": "Bactericidal Effects of Food-borne Bacteria using Chlorine Dioxide and Electrolyzed Water",
+          "venue": "Journal of Food Hygiene and Safety"
+        },
+        {
+          "id": "W4312757207",
+          "title": "Effects of Dry Heat Treatment on the Reduction of Main Food-Borne Bacteria on Alfalfa Seeds",
+          "venue": "Journal of Food Hygiene and Safety"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5013893562",
+      "dept": "kaist-chem",
+      "papers": 17,
+      "outlier_share": 0.412,
+      "core": [
+        "Femtosecond X-ray Tracking of Oxygen Vacancy-Driven Shallow-to-Deep Trap Transition and Its Impact on Charge Carrier Dynamics in Blue TiO2",
+        "Nano‐Size Effects on Decay Dynamics of Photo‐Excited Polarons in CeO2",
+        "Size‐Dependent Ultrafast UV Photochemistry of Aliphatic Disulfides in Solution",
+        "Local Atom Disorder Mediated Crystal Facet Valence State of PtCu Alloy for Ultrafast Ammonia Oxidation Dehydrogenation",
+        "Spin–orbit ab initio and density functional theory study of vinyl iodide: Molecular properties and photodissociation dynamics",
+        "Significance of transition metal dichalcogenides and their role in the activity of semiconductor materials for spectacular photocatalytic hydrogen production",
+        "Strongly Coupled Metal/Amorphous Ru/RuOx Heterostructure for Efficient Electrocatalytic Hydrogen Production",
+        "UV photochemistry of the L-cystine disulfide bridge in aqueous solution investigated by femtosecond X-ray absorption spectroscopy"
+      ],
+      "outliers": [
+        {
+          "id": "W4389526561",
+          "title": "Effect of combined exercise program and low-sodium diet education on metabolic syndrome risk factors, pulse wave velocity and nutrient intakes status in elderly women",
+          "venue": null
+        },
+        {
+          "id": "W4310343639",
+          "title": "The Effect of Yoga Exercise on PWI-SF, Cortisol and hs-CRP in Menopause Women",
+          "venue": "Korean Journal of Neuromuscular Rehabilitation"
+        },
+        {
+          "id": "W4417142347",
+          "title": "Effects of 12-week of High-intensity Combined Exercise on HbA1c, C-peptide, and Insulin Resistance Indicator in Middle-aged Women with Obesity",
+          "venue": null
+        },
+        {
+          "id": "W4405155412",
+          "title": "Effect of a 12-Week Combined Exercise Program on SFT, TyG Index, Metabolic Syndrome Risk Factors and Vascular Stiffness in Elderly women",
+          "venue": "여가학연구"
+        },
+        {
+          "id": "W4387404560",
+          "title": "Effect of Combined Exercise on Serum Lipids, Liver Function and Inflammatory Levels of hs-CRP on Elderly Women",
+          "venue": "한국여성체육학회지"
+        },
+        {
+          "id": "W4392375611",
+          "title": "Effect of a 12-Week Resistance Exercise on Bone Metabolism and Fall Efficacy in Elderly Women",
+          "venue": null
+        },
+        {
+          "id": "W4405170485",
+          "title": "Effects of a 12-Week Silver Taekwondo Program on SFT, Lung Function, and Metabolic Syndrome Risk Factors in Overweight Elderly women",
+          "venue": "여가학연구"
+        }
+      ]
+    },
+    {
+      "lab_id": "gist-A5100615032",
+      "dept": "gist-math",
+      "papers": 17,
+      "outlier_share": 0.412,
+      "core": [
+        "Rainbow independent sets in certain classes of graphs",
+        "Strong Erdős-Hajnal Properties in Chordal Graphs",
+        "Independent domination versus packing in subcubic graphs",
+        "Well-mixing vertices and almost expanders",
+        "Extensions of the colorful Helly theorem for d-collapsible and d-Leray complexes",
+        "Independent domination of graphs with bounded maximum degree",
+        "Colorful Fractional Helly Theorem via Weak Saturation",
+        "Leray Numbers of Tolerance Complexes"
+      ],
+      "outliers": [
+        {
+          "id": "W4405044409",
+          "title": "Effect of Al addition on the room and cryogenic temperature deformation of Mg-xAl-1Zn-1Ca alloy (x = 2, 3 wt.%)",
+          "venue": "Journal of Magnesium and Alloys"
+        },
+        {
+          "id": "W4411547586",
+          "title": "Optimization of Cam-forming Process for Side Bead Considering Springback",
+          "venue": "Journal of the korean society of manufacturing technology engineers"
+        },
+        {
+          "id": "W4415560563",
+          "title": "Prediction of Optimal Punch Displacement in Cam-Forming of Side-Bead Considering Material Properties and Sheet Thickness",
+          "venue": "Journal of the korean society of manufacturing technology engineers"
+        },
+        {
+          "id": "W4413414705",
+          "title": "Evaluation of Valid Thickness in ASTM Standard Tensile Specimen Considering Stress Triaxiality and Strain Path",
+          "venue": "Journal of the korean society of manufacturing technology engineers"
+        },
+        {
+          "id": "W4392213088",
+          "title": "Determination of Friction Coefficient in Structural Forming Analysis Considering Anisotropic Yield Function",
+          "venue": "Journal of the korean society of manufacturing technology engineers"
+        },
+        {
+          "id": "W4405824854",
+          "title": "Modeling of Hardening Behavior for Titanium Alloy Sheet Considering Strain Rate and Temperature",
+          "venue": "Journal of the korean society of manufacturing technology engineers"
+        },
+        {
+          "id": "W4413414767",
+          "title": "FEA Based Optimization of Blank Dimension for Hirth Coupling Gear Semi-Open Die Forging Process",
+          "venue": "Journal of the korean society of manufacturing technology engineers"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5100653784",
+      "dept": "kaist-cs",
+      "papers": 34,
+      "outlier_share": 0.412,
+      "core": [
+        "3D Distillation: Improving Self-Supervised Monocular Depth Estimation on Reflective Surfaces",
+        "MAPConNet: Self-supervised 3D Pose Transfer with Mesh and Point Contrastive Learning",
+        "Joint Learning of Pose Regression and Denoising Diffusion with Score Scaling Sampling for Category-Level 6D Pose Estimation",
+        "Multivariate Probabilistic Monocular 3D Object Detection",
+        "Pop-Out Motion: 3D-Aware Image Deformation via Learning the Shape Laplacian",
+        "Energy-Based Domain-Adaptive Segmentation With Depth Guidance",
+        "Contrastive Knowledge Distillation for Anomaly Detection in Multi-Illumination/Focus Display Images",
+        "Dream360: Diverse and Immersive Outdoor Virtual Scene Creation via Transformer-Based 360° Image Outpainting"
+      ],
+      "outliers": [
+        {
+          "id": "W4310863210",
+          "title": "Development of Mobile Learning Management Application Using Gamification",
+          "venue": "Journal of Digital Contents Society"
+        },
+        {
+          "id": "W4392236828",
+          "title": "A De-construc tive Reading: Organic Inter-actions between the Language Experience in the film MINARI and Wittgenstein's Philosophy of Language",
+          "venue": "Barun Academy of History"
+        },
+        {
+          "id": "W4411321149",
+          "title": "Development of Combustion System for a Hybrid-Dedicated Homogeneous Lean Burn Engine",
+          "venue": "SAE International Journal of Advances and Current Practices in Mobility"
+        },
+        {
+          "id": "W4403700325",
+          "title": "The Impact of Urban-to-Rural Migrants’ Satisfaction on Reverse Urban-to-Rural Migrate Intention",
+          "venue": "농업경영·정책연구"
+        },
+        {
+          "id": "W4387406398",
+          "title": "The Action Research on the Development and Application of Coaching Programs to Strengthen Self-Directed Learning Ability of Youth",
+          "venue": "미래청소년학회지"
+        },
+        {
+          "id": "W4404288768",
+          "title": "The Effect of the Rice Income Compensation Payment Program on the Variability of Farm Household Income",
+          "venue": "Journal of Agriculture & Life Science"
+        },
+        {
+          "id": "W4224065282",
+          "title": "How does competition in the development of artificial intelligence affect a firm’s technology search strategy? Evidence from the U.S. pharmaceutical industry",
+          "venue": "Applied Economics Letters"
+        },
+        {
+          "id": "W4312585606",
+          "title": "An Analysis of the Efficiency of Premium Subsidy for Crop Insurance: Focusing on the Apple",
+          "venue": "농업경제연구"
+        },
+        {
+          "id": "W4327640377",
+          "title": "Factors Affecting Economic and Life Satisfaction of Urban to Rural Migrants",
+          "venue": "농업경영·정책연구"
+        },
+        {
+          "id": "W4295768673",
+          "title": "The Impact of Artificial Intelligence on Firm Performance",
+          "venue": "Portland International Conference on Management of Engineering and Technology (PICMET)"
+        },
+        {
+          "id": "W4283789476",
+          "title": "When does AI pay off? AI-adoption intensity, complementary investments, and R&D strategy",
+          "venue": "Technovation"
+        },
+        {
+          "id": "W4362678346",
+          "title": "Consumer Valuation of Apple Taste Information using Experimental Auction －Focus on Sugar Content－",
+          "venue": "Korean Journal of Food Mareting Econmics"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5075516902",
+      "dept": "kaist-cs",
+      "papers": 32,
+      "outlier_share": 0.406,
+      "core": [
+        "QSCL-EWIL: Quantum Stochastic Contrastive Learning for Enhanced Wi-Fi-Based Indoor Localization",
+        "Towards Hybrid Quantum-Classical Deep Learning Architecture for Indoor-Outdoor Detection Using QCNN-LSTM and Cluster State Signal Processing",
+        "FedNav: A Federated Learning Approach for Secure AIoT-enabled Inertial Odometry",
+        "TabCLR: Contrastive Learning Representation of Tabular Data Classification for Indoor-Outdoor Detection",
+        "DeepIOD: Towards A Context-Aware Indoor–Outdoor Detection Framework Using Smartphone Sensors",
+        "A Framework for Indoor Map Layout Construction in Collaborative Positioning: Optimized Analysis of Reachability and Vertical Transitions",
+        "Adaptive Sensor Fusion Framework for Personalized Indoor Navigation",
+        "A Sensor Fusion Framework for Indoor Navigation With Online Error Correction and Radio Map Update"
+      ],
+      "outliers": [
+        {
+          "id": "W4407079825",
+          "title": "Revival of the Korean Early Church and Prayer: Focusing on 1884 to 1910",
+          "venue": "성경과 신학"
+        },
+        {
+          "id": "W4211246582",
+          "title": "Exploring the Concept of Feedback in Sport Pedagogy",
+          "venue": "Korean Association of Sport Pedagogy"
+        },
+        {
+          "id": "W4376140773",
+          "title": "A review of precedents on Human Rights Sensitivity for Understanding and Utilizing Safety Accident Litigation in Physical Education Class",
+          "venue": "Korean Association of Sport Pedagogy"
+        },
+        {
+          "id": "W4316371678",
+          "title": "An Attempt to Reassess the Participation of Korean Conservative Christianity in Politics: Focusing on 1960-70s",
+          "venue": "역사신학 논총"
+        },
+        {
+          "id": "W4288462170",
+          "title": "Jonathan Edwards’ Theology of Worship: Focusing on Public Worship",
+          "venue": "역사신학 논총"
+        },
+        {
+          "id": "W4391189058",
+          "title": "Reformed Theology Encounters the Charismatic Movement: J. Rodman Williams’ Thoughts on the Baptism in the Holy Spirit",
+          "venue": "Korea Reformed Journal"
+        },
+        {
+          "id": "W7125507498",
+          "title": "The Anti-Biblical Challenges of Natural Science and Hyung-Nong Park’s Reformed Theological Response",
+          "venue": "역사신학 논총"
+        },
+        {
+          "id": "W4384642449",
+          "title": "Temperance Movements of Presbyterian and Methodist Missionaries in Early Korean Christianity",
+          "venue": "역사신학 논총"
+        },
+        {
+          "id": "W4385301305",
+          "title": "A Smart Card based Approach for Privacy Preservation Authentication of Non-Fungible Token using Non-Interactive Zero Knowledge Proof",
+          "venue": null
+        },
+        {
+          "id": "W7128484620",
+          "title": "A Study on the Ideas of Myeong-dang and Feng Shui in Korea - Focusing on the Eum-taek(cemetery) of Goryeo and Joseon Dynasty-",
+          "venue": "The Korean Folklore"
+        },
+        {
+          "id": "W4311087252",
+          "title": "Piezoelectric characteristics of PVA/DL-alanine polycrystals in d33 mode",
+          "venue": "iScience"
+        },
+        {
+          "id": "W4401454784",
+          "title": "Compact Walsh–Hadamard Transform-Driven S-Box Design for ASIC Implementations",
+          "venue": "Electronics"
+        }
+      ]
+    },
+    {
+      "lab_id": "postech-A5100403762",
+      "dept": "postech-life",
+      "papers": 15,
+      "outlier_share": 0.4,
+      "core": [
+        "Harnessing the Power of IL-7 to Boost T Cell Immunity in Experimental and Clinical Immunotherapies",
+        "IL7-TBRII, a Dual Cytokine Modulator Targeting IL-7 and TGF-β Pathways, Inhibits Tumor Progression and Metastasis",
+        "Development of Bispecific Antibody for Cancer Immunotherapy: Focus on T Cell Engaging Antibody",
+        "Fc-fused IL-7 provides broad antiviral effects against respiratory virus infections through IL-17A-producing pulmonary innate-like T cells",
+        "IL-6-induced C/EBPα drives follicular regulatory T cell differentiation to regulate humoral immunity in mice",
+        "Homeostatic serum IgE is secreted by plasma cells in the thymus and enhances mast cell survival",
+        "Golden Age of Immunotherapy: Challenges and Opportunities",
+        "Combined IgE neutralization and Bifidobacterium longum supplementation reduces the allergic response in models of food allergy"
+      ],
+      "outliers": [
+        {
+          "id": "W4410933407",
+          "title": "Comparison of Respiratory Function from Sitting Position With and Without Waist Belt",
+          "venue": "Korean Journal of Neuromuscular Rehabilitation"
+        },
+        {
+          "id": "W4387752493",
+          "title": "The Study on the Verification Factors Affecting the Elderly's Voice Phishing Victim Experiences : Focusing on Gender Differences",
+          "venue": "Korean Association of Addiction Crime Review"
+        },
+        {
+          "id": "W4306852040",
+          "title": "Network Analysis of Research Trend in Criminology : Using Criminology Research Articles from 2000s to Present",
+          "venue": "Korean Association of Addiction Crime Review"
+        },
+        {
+          "id": "W4383877340",
+          "title": "A Study on the Use of Artificial Intelligence(A.I.) for Sermon : Focusing on ChatGPT",
+          "venue": "Korea Reformed Journal"
+        },
+        {
+          "id": "W4308958909",
+          "title": "Rapid and Accurate On-Site Immunodiagnostics of Highly Contagious Severe Acute Respiratory Syndrome Coronavirus 2 Using Portable Surface-Enhanced Raman Scattering-Lateral Flow Assay Reader",
+          "venue": "ACS Sensors"
+        },
+        {
+          "id": "W4401055267",
+          "title": "AAV-aMTD-Parkin, a therapeutic gene delivery cargo, enhances motor and cognitive functions in Parkinson's and Alzheimer’s diseases",
+          "venue": "Pharmacological Research"
+        }
+      ]
+    },
+    {
+      "lab_id": "unist-A5017217837",
+      "dept": "unist-life",
+      "papers": 10,
+      "outlier_share": 0.4,
+      "core": [
+        "Thrap3 promotes nonalcoholic fatty liver disease by suppressing AMPK-mediated autophagy",
+        "Melandryoside attenuates steatohepatitis and fibrosis by restoring PPM1A-mediated SMAD signaling termination",
+        "Hepatic miR-93 promotes the pathogenesis of metabolic dysfunction-associated steatotic liver disease by suppressing SIRT1",
+        "The Role of MicroRNAs in the Progression of Metabolic Dysfunction-associated Steatotic Liver Disease",
+        "DUSP4 activates adipocyte thermogenesis via CRTC3 dephosphorylation-dependent UCP1 expression",
+        "N-terminal thrombospondin-1 enhances muscle function and tissue-specific metabolic adaptation in response to exercise and cold exposure",
+        "Targeting IP6 signaling to destabilize homologous recombination proteins to overcome PARP inhibitor resistance",
+        "Precision targeting tumor cells using cancer-specific InDel mutations with CRISPR-Cas9"
+      ],
+      "outliers": [
+        {
+          "id": "W4385616946",
+          "title": "Alkylation of nucleobases by 2-chloro-N,N-diethylethanamine hydrochloride (CDEAH) sensitizes PARP1-deficient tumors",
+          "venue": "NAR Cancer"
+        },
+        {
+          "id": "W4382344985",
+          "title": "Alteration of replication protein A binding mode on single-stranded DNA by NSMF potentiates RPA phosphorylation by ATR kinase",
+          "venue": "Nucleic Acids Research"
+        },
+        {
+          "id": "W4214617915",
+          "title": "Precision targeting tumor cells using cancer-specific InDel mutations with CRISPR-Cas9",
+          "venue": "Proceedings of the National Academy of Sciences"
+        },
+        {
+          "id": "W7149283400",
+          "title": "Targeting IP6 signaling to destabilize homologous recombination proteins to overcome PARP inhibitor resistance",
+          "venue": "Nature Communications"
+        }
+      ]
+    },
+    {
+      "lab_id": "unist-A5024932910",
+      "dept": "unist-cs",
+      "papers": 5,
+      "outlier_share": 0.4,
+      "core": [
+        "PROCTOR: An Extensible C-to-Rust Translation Framework With Static-Analysis-Driven Plug-Ins",
+        "Rust’s Type Checker Implementation Is Unsound: An Empirical Study on Soundness Bugs in rustc",
+        "Securing Union-Based Type Punning in C-to-Rust Translation",
+        "Demonstration of Risk Management Monitoring Systems for Korean Natural Gas Liquefied Plant",
+        "Analysis of Methane (CH4) Distribution in Northeast Asia Based on Satellite Measurement Data"
+      ],
+      "outliers": [
+        {
+          "id": "W4416269463",
+          "title": "Analysis of Methane (CH4) Distribution in Northeast Asia Based on Satellite Measurement Data",
+          "venue": "Journal of Korean Society for Atmospheric Environment"
+        },
+        {
+          "id": "W4391073880",
+          "title": "Demonstration of Risk Management Monitoring Systems for Korean Natural Gas Liquefied Plant",
+          "venue": "Korean Journal of Hazardous Materials"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5036974227",
+      "dept": "kaist-math",
+      "papers": 5,
+      "outlier_share": 0.4,
+      "core": [
+        "A nonoverlapping domain decomposition method for extreme learning machines: Elliptic problems",
+        "A Neumann-Neumann acceleration with coarse space for domain decomposition of extreme learning machines",
+        "Two-level group convolution",
+        "Individual tooth segmentation in human teeth images using pseudo edge-region obtained by deep neural networks",
+        "Defect inspection in semiconductor images using FAST-MCD method and neural network"
+      ],
+      "outliers": [
+        {
+          "id": "W4387310568",
+          "title": "Defect inspection in semiconductor images using FAST-MCD method and neural network",
+          "venue": "The International Journal of Advanced Manufacturing Technology"
+        },
+        {
+          "id": "W4387953498",
+          "title": "Individual tooth segmentation in human teeth images using pseudo edge-region obtained by deep neural networks",
+          "venue": "Signal Processing Image Communication"
+        }
+      ]
+    },
+    {
+      "lab_id": "dgist-A5073541718",
+      "dept": "dgist-chem",
+      "papers": 5,
+      "outlier_share": 0.4,
+      "core": [
+        "A Historical Study of the Adversarial System in Criminal Procedure and Its Implications for Criminal Justice Reform",
+        "A Study on Academic and Supreme Court Opinions Regarding Mistakes in the Premises of Justification Grounds ― In Relation to the Evolution of Supreme Court Precedents ―",
+        "The Current State and Problems of Electronic Monitoring Systems for Crime Prevention",
+        "Unveiling hidden wavepacket dynamics in time-resolved x-ray scattering data via singular spectrum analysis",
+        "Integrative analysis framework for discerning oscillatory signals associated with molecular vibrations from time‐resolved X‐ray scattering data"
+      ],
+      "outliers": [
+        {
+          "id": "W4412814316",
+          "title": "Integrative analysis framework for discerning oscillatory signals associated with molecular vibrations from time‐resolved X‐ray scattering data",
+          "venue": "Bulletin of the Korean Chemical Society"
+        },
+        {
+          "id": "W4412112500",
+          "title": "Unveiling hidden wavepacket dynamics in time-resolved x-ray scattering data via singular spectrum analysis",
+          "venue": "Structural Dynamics"
+        }
+      ]
+    },
+    {
+      "lab_id": "gist-A5013222112",
+      "dept": "gist-life",
+      "papers": 18,
+      "outlier_share": 0.389,
+      "core": [
+        "A Qualitative Study on School Experiences and Support Needs of Young Carers",
+        "Relationship between Role Recognition, Professionalism, and Job-Satisfaction of Child Welfare Teachers",
+        "Validation of the Best Interests of the Child-Self Report Scale (BIC-S) for Children and Adolescents in Out-of-Home Care due to Child Abuse",
+        "Exploring the Experiences of Child Protection Workers with the Needs Assessment in Children Requiring Protection",
+        "Validation of the Phubbing Scale for Mothers with Infants and Toddlers",
+        "The Climate Divide in the Era of Climate Change: A Comparative Study of Perception, Knowledge, Attitude, and Behavior between Adolescents and Parents",
+        "The impact of children's public decision-making participation and sense of social responsibility on climate action",
+        "The Effects of Digital Attitude, Health Status, and Quality of Life on Participation Satisfaction among Older Adults in Smart Senior Center Programs: Focusing on the Elderly in Bucheon"
+      ],
+      "outliers": [
+        {
+          "id": "W4206427547",
+          "title": "Two Opposing Roles of SARS-CoV-2 RBD-Reactive Antibodies in Pre-Pandemic Plasma Samples From Elderly People in ACE2-Mediated Pseudovirus Infection",
+          "venue": "Frontiers in Immunology"
+        },
+        {
+          "id": "W4387865664",
+          "title": "Transcriptional control of motor pool formation and motor circuit connectivity by the LIM-HD protein Isl2",
+          "venue": "eLife"
+        },
+        {
+          "id": "W7165865316",
+          "title": "TWIK-1 plays distinct roles in spinal and peripheral sensory circuits controlling mechanical sensitivity and neuropathic hypersensitivity",
+          "venue": "Signal Transduction and Targeted Therapy"
+        },
+        {
+          "id": "W4210859927",
+          "title": "Modeling axonal regeneration by changing cytoskeletal dynamics in stem cell-derived motor nerve organoids",
+          "venue": "Scientific Reports"
+        },
+        {
+          "id": "W4220747652",
+          "title": "Production of human spinal-cord organoids recapitulating neural-tube morphogenesis",
+          "venue": "Nature Biomedical Engineering"
+        },
+        {
+          "id": "W4414851446",
+          "title": "An integrated transcriptomic approach for identifying enhancers in limb motor pools",
+          "venue": "Scientific Reports"
+        },
+        {
+          "id": "W4303684320",
+          "title": "The Korean undiagnosed diseases program phase I: expansion of the nationwide network and the development of long-term infrastructure",
+          "venue": "Orphanet Journal of Rare Diseases"
+        }
+      ]
+    },
+    {
+      "lab_id": "postech-A5100720092",
+      "dept": "postech-cs",
+      "papers": 18,
+      "outlier_share": 0.389,
+      "core": [
+        "Revisiting Trim for CXL Memory",
+        "Experimental Study on System-Level Performance Impact of Read Disturbance in Modern SSDs",
+        "Adaptive Data I/O Management Scheme to Maximize Real-Time Guarantee Duration of Flash Memory",
+        "Experimental Study on System-Level Performance Impact of Read Disturbance in Modern SSDs",
+        "Experimental Study on System-Level Performance Impact of Read Disturbance in Modern SSDs",
+        "Solid State Drive Targeted Memory-Efficient Indexing for Universal I/O Patterns and Fragmentation Degrees",
+        "srNAND: A Novel NAND Flash Organization for Enhanced Small Read Throughput in SSDs",
+        "Integrated Host-SSD Mapping Table Cache Management Techniques for Improving Performance of a Mobile Storage Device"
+      ],
+      "outliers": [
+        {
+          "id": "W4323305762",
+          "title": "Development and Analytical Performance Verification of Connection using a Horizontal Rotation Connector of Bow-Tie type for Precast Concrete",
+          "venue": "Journal of the Korea Academia-Industrial cooperation Society"
+        },
+        {
+          "id": "W4408717434",
+          "title": "Unveiling CNS cell morphology with deep learning: A gateway to anti-inflammatory compound screening",
+          "venue": "PLoS ONE"
+        },
+        {
+          "id": "W4380488012",
+          "title": "Cyclic flexural performance of precast lightweight aggregate concrete insulation panels",
+          "venue": "Structural Concrete"
+        },
+        {
+          "id": "W4376272533",
+          "title": "Thermal performance and condensation analysis of insulated concrete panels using a thermal-meta structure",
+          "venue": "Applied Thermal Engineering"
+        },
+        {
+          "id": "W4376879818",
+          "title": "Flexural behavior of precast lightweight aggregate concrete insulation panels",
+          "venue": "Journal of Building Engineering"
+        },
+        {
+          "id": "W4412721239",
+          "title": "Development and Applications of APR1400 MMIS Virtualization Simulator for NPP",
+          "venue": null
+        },
+        {
+          "id": "W4413074514",
+          "title": "i-CU: Intelligent Cache Replacement and Content Update for Data Freshness in Cloud-Edge Networks",
+          "venue": "IEEE Transactions on Mobile Computing"
+        }
+      ]
+    },
+    {
+      "lab_id": "postech-A5074578302",
+      "dept": "postech-life",
+      "papers": 13,
+      "outlier_share": 0.385,
+      "core": [
+        "TLR3 forms a highly organized cluster when bound to a poly(I:C) RNA ligand",
+        "Highly ordered clustering of TNFα and BAFF ligand-receptor-intracellular adaptor complexes on a lipid membrane",
+        "Structure-Guided Development of Bivalent Aptamers Blocking SARS-CoV-2 Infection",
+        "Ultra-Sensitive Aptamer-Based Diagnostic Systems for Rapid Detection of All SARS-CoV-2 Variants",
+        "The anti-tumor effect of the IFNγ/Fas chimera expressed on CT26 tumor cells",
+        "Quantitative imaging of vesicle–protein interactions reveals close cooperation among proteins",
+        "Tumor cells ectopically expressing the membrane-bound form of IL-7 develop an antitumor immune response efficiently in a colon carcinoma model",
+        "IL9 Polarizes Macrophages to M1 and Induces the Infiltration of Antitumor Immune Cells via MIP-1 and CXCR3 Chemokines"
+      ],
+      "outliers": [
+        {
+          "id": "W4402199197",
+          "title": "6′-Sialyllactose Alleviates Muscle Fatigue through Reduced Blood Lactate Level after Treadmill Exercise in Mice",
+          "venue": "Nutrients"
+        },
+        {
+          "id": "W4221096170",
+          "title": "Structural features of a minimal intact methyltransferase of a type I restriction-modification system",
+          "venue": "International Journal of Biological Macromolecules"
+        },
+        {
+          "id": "W4401425652",
+          "title": "6′-Sialyllactose Enhances Exercise Performance via Increased Muscle Mass and Strength",
+          "venue": "Nutrients"
+        },
+        {
+          "id": "W4413024423",
+          "title": "Mouse Tumor Tissue‐Derived Extracellular Vesicles Induce Angiogenesis Through VEGF Production From Macrophages",
+          "venue": "Journal of Extracellular Vesicles"
+        },
+        {
+          "id": "W4409109823",
+          "title": "Disulfide-stabilized diabodies enable near-atomic cryo-EM imaging of small proteins: A case study of the bacterial Na+/citrate symporter CitS",
+          "venue": "Structure"
+        }
+      ]
+    },
+    {
+      "lab_id": "snu-A5046653471",
+      "dept": "snu-chem",
+      "papers": 13,
+      "outlier_share": 0.385,
+      "core": [
+        "Unraveling the role of counter ions in shaping the structures of helical peptides in aqueous phase",
+        "Understanding Antimicrobial Peptide Synergy: Differential Binding Interactions and Their Impact on Membrane Integrity",
+        "Comparing the influence of explicit and implicit solvation models on site‐specific thermodynamic stability of proteins",
+        "In silico investigation of the structural stability as the origin of the pathogenicity of α -synuclein protofibrils",
+        "Finding, mapping, and classifying optimal protocols for two-qubit entangling gates",
+        "Optimal protocols for entangling gates inN-qubit atomic systems",
+        "Two-qubit atomic gates: spatio-temporal control of Rydberg interaction",
+        "Two-qubit quantum gates with minimal pulse sequences"
+      ],
+      "outliers": [
+        {
+          "id": "W4403442183",
+          "title": "Value Structure of Physical Education in the 0th Period from the Perspective of Parsons’ AGIL Model : The Case Study about ‘Blue’ Middle School",
+          "venue": "Journal of Coaching Development"
+        },
+        {
+          "id": "W4353052295",
+          "title": "The causal relationship model among participatory Service Quality by Using IPA",
+          "venue": "Journal of Korean Society for the Study of Physical Education"
+        },
+        {
+          "id": "W4220803478",
+          "title": "Subjectivity regarding Female University Students in Volleyball Club Activities",
+          "venue": "Korean Society for the Sociology of Sport"
+        },
+        {
+          "id": "W4416590880",
+          "title": "Adolescents’ Perceptions of Female Celebrities’ Participation in Futsal : A Text Mining Analysis of Kick a Goal",
+          "venue": "Journal of Sport and Leisure Studies"
+        },
+        {
+          "id": "W7204958551",
+          "title": "Overcoming Stark-shift constraints in phase-controlled Rydberg two-qubit gates",
+          "venue": "Physical Review A"
+        }
+      ]
+    },
+    {
+      "lab_id": "snu-A5076713179",
+      "dept": "snu-cs",
+      "papers": 8,
+      "outlier_share": 0.375,
+      "core": [
+        "Leveraging Certificate Transparency to Mitigate Downgrade Attacks",
+        "A Certificate-centric Security Oracle for the Trustworthy Internet",
+        "Poster: Reconsidering DNS-Based Domain Verification: Privacy and Overhead Implications",
+        "ZTLS: A DNS-based Approach to Zero Round Trip Delay in TLS handshake",
+        "Pave: Information Flow Control for Privacy-preserving Online Data Processing Services",
+        "Preventing rumor spread with deep learning",
+        "Light-weight, adaptable, and transferable predictor for traffic forecasting in data centers",
+        "Predicting diversification scores of videos in recommendation network"
+      ],
+      "outliers": [
+        {
+          "id": "W4387125910",
+          "title": "Predicting diversification scores of videos in recommendation network",
+          "venue": "Expert Systems with Applications"
+        },
+        {
+          "id": "W4408321495",
+          "title": "Light-weight, adaptable, and transferable predictor for traffic forecasting in data centers",
+          "venue": "Computer Networks"
+        },
+        {
+          "id": "W4214580531",
+          "title": "Preventing rumor spread with deep learning",
+          "venue": "Expert Systems with Applications"
+        }
+      ]
+    },
+    {
+      "lab_id": "snu-A5085451600",
+      "dept": "snu-cs",
+      "papers": 11,
+      "outlier_share": 0.364,
+      "core": [
+        "Direct Preference-based Policy Optimization without Reward Modeling",
+        "Learning to Better Search with Language Models via Guided Reinforced Self-Training",
+        "Rethinking Value Function Learning for Generalization in Reinforcement Learning",
+        "Discovering Hierarchical Achievements in Reinforcement Learning via Contrastive Learning",
+        "Query-Efficient Black-Box Red Teaming via Bayesian Optimization",
+        "Development and validation of VentPilot: an AI-based recommendation system for mechanical ventilation",
+        "Neural Relation Graph: A Unified Framework for Identifying Label Noise and Outlier Data",
+        "Preemptive Image Robustification for Protecting Users against Man-in-the-Middle Adversarial Attacks"
+      ],
+      "outliers": [
+        {
+          "id": "W7196955186",
+          "title": "KVzip: Query-Agnostic KV Cache Compression with Context Reconstruction",
+          "venue": "neural information processing systems"
+        },
+        {
+          "id": "W7196966924",
+          "title": "Q-Palette: Fractional-Bit Quantizers Toward Optimal Bit Allocation for Efficient LLM Deployment",
+          "venue": "neural information processing systems"
+        },
+        {
+          "id": "W4283797426",
+          "title": "Preemptive Image Robustification for Protecting Users against Man-in-the-Middle Adversarial Attacks",
+          "venue": "AAAI Publications (The Association for the Advancement of Artificial Intelligence (AAAI))"
+        },
+        {
+          "id": "W4226249590",
+          "title": "Preemptive Image Robustification for Protecting Users against Man-in-the-Middle Adversarial Attacks",
+          "venue": "Proceedings of the AAAI Conference on Artificial Intelligence"
+        }
+      ]
+    },
+    {
+      "lab_id": "gist-A5100691150",
+      "dept": "gist-phys",
+      "papers": 11,
+      "outlier_share": 0.364,
+      "core": [
+        "Deep-ultraviolet chiral interband plasmonics in silicon nanohelices",
+        "Dichroic Engineering from Invisible to Full Colors Using Plasmonics",
+        "Dichroic Engineering from Invisible to Full Colors Using Plasmonics (Adv. Funct. Mater. 28/2024)",
+        "Mechanism for selective initialization of silicon-vacancy spin qubits with S = 3/2 in silicon carbide",
+        "Thermal performance of a compact cryostat with an in-vacuum objective for color center spin-photon interfaces in silicon carbide",
+        "Spectator-transition crosstalk in a spin- 3 / 2 silicon-vacancy qudit in silicon carbide revealed by broadband Ramsey interferometry",
+        "Classification of Single‐Photon Emitters in Confocal Fluorescence Microscope Images by Deep Convolutional Neural Networks",
+        "Antibacterial effects of vinegar N6 and UV-C light-emitting diodes against Shiga toxin-producing and enterohemorrhagic Escherichia coli in fresh beef"
+      ],
+      "outliers": [
+        {
+          "id": "W4392756823",
+          "title": "Paleogene mid-crustal intrusions in the Ruby Mountains–East Humboldt Range metamorphic core complex, northeastern Nevada, USA",
+          "venue": "Geosphere"
+        },
+        {
+          "id": "W4387684284",
+          "title": "A Study on the Pareto Optimization Method of Boost Inductor for PFC Converter",
+          "venue": "The Transactions of the Korean Institute of Power Electronics"
+        },
+        {
+          "id": "W4399589231",
+          "title": "Experiment and Analysis of Tilt Prediction for Anguk-dong Byeolgung Roof based on EfficientNet according to Integration by Environment",
+          "venue": "문화재방재학회 논문집"
+        },
+        {
+          "id": "W4318763599",
+          "title": "Antibacterial effects of vinegar N6 and UV-C light-emitting diodes against Shiga toxin-producing and enterohemorrhagic Escherichia coli in fresh beef",
+          "venue": "Food Science and Biotechnology"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5064907804",
+      "dept": "kaist-math",
+      "papers": 14,
+      "outlier_share": 0.357,
+      "core": [
+        "Joint estimation of precision matrices for long-memory time series",
+        "Fréchet distance-based cluster analysis for multi-dimensional functional data",
+        "Brainpack: a suite of advanced statistical techniques for multi-subject and multi-group fMRI data analysis",
+        "Sparse multiway canonical correlation analysis for multimodal stroke recovery data",
+        "Joint graphical lasso with regularized aggregation",
+        "Deep Symbolic Learning for Histogram‐Valued Regression Data",
+        "Quantile estimation for encrypted data",
+        "A comparison of synthetic data approaches using utility and disclosure risk measures"
+      ],
+      "outliers": [
+        {
+          "id": "W4368370181",
+          "title": "Experimental Study of Pervious Concrete for Application to Pavement Base Course",
+          "venue": "International Journal of Highway Engineering"
+        },
+        {
+          "id": "W4288459488",
+          "title": "Climate change adaptation and its impacts on farm income and downside risk exposure",
+          "venue": "Resources Environment and Sustainability"
+        },
+        {
+          "id": "W4396599490",
+          "title": "Federal Impacts on Buprenorphine Prescribing in Washington State, 2012 to 2022",
+          "venue": "American Journal of Public Health"
+        },
+        {
+          "id": "W7166805456",
+          "title": "Design Principles and Application of a Data-Driven PDCA Feedback Model for Quality Management of Major Competencies in Universities : Focusing on the Integrated Operation Model of T University",
+          "venue": "Journal of Skills and Qualifications"
+        },
+        {
+          "id": "W4399565344",
+          "title": "A deep learning paradigm for medical imaging data",
+          "venue": "Expert Systems with Applications"
+        }
+      ]
+    },
+    {
+      "lab_id": "snu-A5100390278",
+      "dept": "snu-cs",
+      "papers": 14,
+      "outlier_share": 0.357,
+      "core": [
+        "ZWAN: Leveraging Zone Random Write Area (ZRWA) for Avoiding WAL Tax in LSM-tree",
+        "ZRAID: Leveraging Zone Random Write Area (ZRWA) for Alleviating Partial Parity Tax in ZNS RAID",
+        "An Efficient Order-Preserving Recovery for F2FS with ZNS SSD",
+        "Dotori: A Key-Value SSD Based KV Store",
+        "A Hash-Based Key-Value SSD FTL with Efficient Small-Value Support",
+        "Empowering Storage Systems Research with NVMeVirt: A Comprehensive NVMe Device Emulator",
+        "ArkFS: A Distributed File System on Object Storage for Archiving Data in HPC Environment",
+        "Efficient Read Disturb Management Schemes in Resource-Constrained Flash Memory Controller"
+      ],
+      "outliers": [
+        {
+          "id": "W4282924181",
+          "title": "Analysis of the Technology Curriculum in French Elementary and Secondary Schools",
+          "venue": "Liberal Arts Innovation Center"
+        },
+        {
+          "id": "W4404542016",
+          "title": "Dynamic response and tension estimation of stay cables with disturbed images acquired from vision sensors",
+          "venue": "Nondestructive Testing And Evaluation"
+        },
+        {
+          "id": "W4404159330",
+          "title": "The Improvement of the Domestic Eco-Friendly Building Certification System for Apartment : Through a Comparative Analysis with LEED Considering Architectural Design Phase",
+          "venue": "KIEAE Journal"
+        },
+        {
+          "id": "W4409649927",
+          "title": "Conformity and Exemption under the CISG: Environmental Compliance in International Sales Contracts",
+          "venue": null
+        },
+        {
+          "id": "W4317207112",
+          "title": "On the Padovan Codes and the Padovan Cubes",
+          "venue": "Symmetry"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5039226532",
+      "dept": "kaist-chem",
+      "papers": 17,
+      "outlier_share": 0.353,
+      "core": [
+        "Size-controlled assembly of phase separated protein condensates with interfacial protein cages",
+        "Symmetry‐Guided Optical Control of Dynamic 1D Protein Self‐Assembly and Precise In Vitro Initiation of Biomolecular Condensation",
+        "Lipid coated protein condensates as stable protocells with selective uptake abilities for biomolecules",
+        "Valence-controlled protein conjugation on nanoparticles via re-arrangeable multivalent interactions of tandem repeat protein chains",
+        "High order assembly of multiple protein cages with homogeneous sizes and shapes via limited cage surface engineering",
+        "Protein Cages Engineered for Interaction-Driven Selective Encapsulation of Biomolecules",
+        "Supersaturation, Nucleation, and Phase Separation of Mesoscopic Systems",
+        "A machine learning framework for predicting and modulating condition-dependent protein phase separation"
+      ],
+      "outliers": [
+        {
+          "id": "W4401949804",
+          "title": "Multiplex Detection of Foodborne Pathogens using 3D Nanostructure Swab and Deep Learning‐Based Classification of Raman Spectra (Small 35/2024)",
+          "venue": "Small"
+        },
+        {
+          "id": "W4393577539",
+          "title": "Multiplex Detection of Foodborne Pathogens using 3D Nanostructure Swab and Deep Learning‐Based Classification of Raman Spectra",
+          "venue": "Small"
+        },
+        {
+          "id": "W4417091480",
+          "title": "Steric disruption of EGFR oligomerization overcomes therapy resistance in non–small cell lung cancer",
+          "venue": "Science Advances"
+        },
+        {
+          "id": "W4413293896",
+          "title": "Interpretability-driven deep learning for SERS-based classification of respiratory viruses",
+          "venue": "Biosensors and Bioelectronics"
+        },
+        {
+          "id": "W4402822096",
+          "title": "Advancing SARS‐CoV‐2 Variant Detection with High Affinity Monoclonal Antibodies and Plasmonic Nanostructure",
+          "venue": "Advanced Functional Materials"
+        },
+        {
+          "id": "W4223512186",
+          "title": "Ligation-free isothermal nucleic acid amplification",
+          "venue": "Biosensors and Bioelectronics"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5061810530",
+      "dept": "kaist-cs",
+      "papers": 67,
+      "outlier_share": 0.343,
+      "core": [
+        "Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions",
+        "Blaming Humans and Machines: What Shapes People’s Reactions to Algorithmic Harm",
+        "Who Should Pay When Machines Cause Harm? Laypeople’s Expectations of Legal Damages for Machine-Caused Harm",
+        "How Do Moral Emotions Shape Political Participation? A Cross-Cultural Analysis of Online Petitions Using Language Models",
+        "SQuARe: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created through Human-Machine Collaboration",
+        "The Conflict Between Explainable and Accountable Decision-Making Algorithms",
+        "DualFair: Fair Representation Learning at Both Group and Individual Levels via Contrastive Self-supervision",
+        "Others Are to Blame: Whom People Consider Responsible for Online Misinformation"
+      ],
+      "outliers": [
+        {
+          "id": "W4327928476",
+          "title": "Neural Classification of Terrestrial Biomes",
+          "venue": "IEEE International Conference on Big Data and Smart Computing (BigComp)"
+        },
+        {
+          "id": "W4408454442",
+          "title": "Detection and Localization of Stationary Waves on Venus Using a Self‐Supervised Anomaly Detection Model",
+          "venue": "Journal of Geophysical Research Machine Learning and Computation"
+        },
+        {
+          "id": "W4386355362",
+          "title": "Fine-Grained Socioeconomic Prediction from Satellite Images with Distributional Adjustment",
+          "venue": "ACM International Conference on Information and Knowledge Management (CIKM)"
+        },
+        {
+          "id": "W4402332450",
+          "title": "Assessing climate risks from satellite imagery with machine learning: A case study of flood risks in Jakarta",
+          "venue": "Climate Risk Management"
+        },
+        {
+          "id": "W3174961728",
+          "title": "Evaluating the Robustness of Trigger Set-Based Watermarks Embedded in Deep Neural Networks",
+          "venue": "IEEE Transactions on Dependable and Secure Computing"
+        },
+        {
+          "id": "W4304144549",
+          "title": "Disaster assessment using computer vision and satellite imagery: Applications in detecting water-related building damages",
+          "venue": "Frontiers in Environmental Science"
+        },
+        {
+          "id": "W4327928008",
+          "title": "Self-supervised learning for climate downscaling",
+          "venue": "IEEE International Conference on Big Data and Smart Computing (BigComp)"
+        },
+        {
+          "id": "W4401025039",
+          "title": "Self-Supervised Vision for Climate Downscaling",
+          "venue": null
+        },
+        {
+          "id": "W4387029649",
+          "title": "End-to-End System Based on Wearable Devices for Measuring HRV and its Potential as an Insomnia Indicator",
+          "venue": "정보과학회 컴퓨팅의 실제 논문지"
+        },
+        {
+          "id": "W4229004105",
+          "title": "Learning Economic Indicators by Aggregating Multi-Level Geospatial Information",
+          "venue": "Proceedings of the AAAI Conference on Artificial Intelligence"
+        },
+        {
+          "id": "W7140797258",
+          "title": "Minimally supervised learning on sub-meter satellite imagery reveals slum expansion during the COVID-19 pandemic",
+          "venue": "Communications Sustainability"
+        },
+        {
+          "id": "W4390874351",
+          "title": "Towards Attack-tolerant Federated Learning via Critical Parameter Analysis",
+          "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5048407979",
+      "dept": "kaist-chem",
+      "papers": 9,
+      "outlier_share": 0.333,
+      "core": [
+        "Identification, Characterization, and Electronic Structures of Interconvertible Cobalt–Oxygen TAML Intermediates",
+        "Dual O2-Mediated Reactivity of a Mononuclear Cobalt Complex with Amyloid-β Peptides",
+        "A stable acyl cobalt-based catalyst with exceptionally elevated activity for the carbonylation of epoxides into β-lactones",
+        "Efficient Nicotinamide Adenine Dinucleotide Regeneration with a Rhodium–Carbene Catalyst and Isolation of a Hydride Intermediate",
+        "Re-examining the stereochemistry of polycyclic suffruticosine via TDDFT calculations, ECD spectroscopy, and chemical synthesis",
+        "O2-Coupled Copper–Cysteine Redox Chemistry Drives Oxidative Modifications and Higher-Order Assembly of Monomeric Transthyretin",
+        "Conformational and functional changes of the native neuropeptide somatostatin occur in the presence of copper and amyloid-β",
+        "A study of instructional innovation process based on design thinking in higher education"
+      ],
+      "outliers": [
+        {
+          "id": "W4319336413",
+          "title": "Fatigue Life Prediction for the Skin Structures of Aircraft Sensor Pod Under Acoustic Load with Mean Stress",
+          "venue": "Journal of the Korea Institute of Military Science and Technology"
+        },
+        {
+          "id": "W4283159069",
+          "title": "A study of instructional innovation process based on design thinking in higher education",
+          "venue": "Journal of Curriculum Integration"
+        },
+        {
+          "id": "W4285011371",
+          "title": "Conformational and functional changes of the native neuropeptide somatostatin occur in the presence of copper and amyloid-β",
+          "venue": "Nature Chemistry"
+        }
+      ]
+    },
+    {
+      "lab_id": "snu-A5100638533",
+      "dept": "snu-life",
+      "papers": 12,
+      "outlier_share": 0.333,
+      "core": [
+        "Gut microbial metabolites link dietary history to appetite regulation",
+        "Complex interplay of neuronal and hormonal gut-brain responses to essential amino acid deficit",
+        "Microbiome-emitted scents activate olfactory neuron-independent airway-gut-brain axis to promote host growth in Drosophila",
+        "The Nα-acetyl-L-lysine/Loxl2/H2O2 promotes intestinal tumor growth in Drosophila and cell proliferation in human colorectal cancer",
+        "Secreted Akkermansia muciniphila threonyl-tRNA synthetase functions to monitor and modulate immune homeostasis",
+        "Fine-tuning protein hunger: sex- and mating-dependent setpoint control",
+        "A mannose-sensing AraC-type transcriptional activator regulates cell–cell aggregation of Vibrio cholerae",
+        "The calcineurin pathway regulates extreme thermotolerance, cell membrane and wall integrity, antifungal resistance, and virulence in Candida auris"
+      ],
+      "outliers": [
+        {
+          "id": "W4390743777",
+          "title": "Skin microbe-dependent TSLP-ILC2 priming axis in early life is co-opted in allergic inflammation",
+          "venue": "Cell Host & Microbe"
+        },
+        {
+          "id": "W4221021916",
+          "title": "Heat shock protein 60 couples an oxidative stress-responsive p38/MK2 signaling and NF-κB survival machinery in cancer cells",
+          "venue": "Redox Biology"
+        },
+        {
+          "id": "W4396553711",
+          "title": "Airway epithelial CD47 plays a critical role in inducing influenza virus-mediated bacterial super-infection",
+          "venue": "Nature Communications"
+        },
+        {
+          "id": "W4385302414",
+          "title": "Statins suppress cell-to-cell propagation of α-synuclein by lowering cholesterol",
+          "venue": "Cell Death and Disease"
+        }
+      ]
+    },
+    {
+      "lab_id": "snu-A5043286860",
+      "dept": "snu-life",
+      "papers": 15,
+      "outlier_share": 0.333,
+      "core": [
+        "LPA1-mediated inhibition of CXCR4 attenuates CXCL12-induced signaling and cell migration",
+        "Regulation of CXCR4 function by S1P1 through heteromerization",
+        "Simultaneous activation of CXC chemokine receptor 4 and histamine receptor H1 enhances calcium signaling and cancer cell migration",
+        "The β2-adrenergic receptor associates with CXCR4 multimers in human cancer cells",
+        "Activation of the pituitary adenylate cyclase-activating polypeptide type I receptor promotes neuroblastoma proliferation and migration through distinct G protein pathways",
+        "GPC-100, a novel CXCR4 antagonist, improves in vivo hematopoietic cell mobilization when combined with propranolol",
+        "Discovery of a Novel Template, N 3-1′-Homologated 4′-Truncated Thiosugar-Substituted Xanthine as an A 3 AR Antagonist via Conversion of an A 1 AR Antagonist",
+        "Sphingosine‑1‑phosphate receptor 1 enhances olfactory receptor 51E1‑mediated inhibition of proliferation via Src/JNK signaling in prostate cancer cells"
+      ],
+      "outliers": [
+        {
+          "id": "W4400791866",
+          "title": "The ubiquitin-proteasome system degrades fatty acid synthase under nitrogen starvation when autophagy is dysfunctional in Saccharomyces cerevisiae",
+          "venue": "Biochemical and Biophysical Research Communications"
+        },
+        {
+          "id": "W4409086309",
+          "title": "Sensitive detection of pertussis toxin in acellular pertussis vaccines using HRH1-mediated calcium signaling",
+          "venue": "Vaccine"
+        },
+        {
+          "id": "W4394009163",
+          "title": "ARV1 deficiency induces lipid bilayer stress and enhances rDNA stability by activating the unfolded protein response in Saccharomyces cerevisiae",
+          "venue": "Journal of Biological Chemistry"
+        },
+        {
+          "id": "W4321371986",
+          "title": "Atg1-dependent phosphorylation of Vps34 is required for dynamic regulation of the phagophore assembly site and autophagy in Saccharomyces cerevisiae",
+          "venue": "Autophagy"
+        },
+        {
+          "id": "W4296180007",
+          "title": "Expression level of Sec62 modulates membrane insertion of marginally hydrophobic segments",
+          "venue": "Biochimica et Biophysica Acta (BBA) - Biomembranes"
+        }
+      ]
+    },
+    {
+      "lab_id": "postech-A5070884113",
+      "dept": "postech-life",
+      "papers": 6,
+      "outlier_share": 0.333,
+      "core": [
+        "Deciphering the molecular mechanisms of stem cell dynamics in hair follicle regeneration",
+        "Aging of hair follicle stem cells and their niches",
+        "Wound-Induced Hair Follicle Neogenesis as a Promising Approach for Hair Regeneration",
+        "Recent Advances in Genetically Engineered Mouse Models of Melanoma: Insights into Tumor Initiation and Oncogenic Signaling Pathways",
+        "Diabetic sensory neuropathy and insulin resistance are induced by loss of UCHL1 in Drosophila",
+        "Exploring novel immunotherapy biomarker candidates induced by cancer deformation"
+      ],
+      "outliers": [
+        {
+          "id": "W4396886945",
+          "title": "Exploring novel immunotherapy biomarker candidates induced by cancer deformation",
+          "venue": "PLoS ONE"
+        },
+        {
+          "id": "W4390753551",
+          "title": "Diabetic sensory neuropathy and insulin resistance are induced by loss of UCHL1 in Drosophila",
+          "venue": "Nature Communications"
+        }
+      ]
+    },
+    {
+      "lab_id": "postech-A5102012499",
+      "dept": "postech-math",
+      "papers": 24,
+      "outlier_share": 0.333,
+      "core": [
+        "Stratified Sampling Algorithms for Machine Learning Methods in Solving Two-scale Partial Differential Equations",
+        "A Chebyshev multidomain adaptive mesh method for reaction-diffusion equations",
+        "Supervised Low-Rank Semi-nonnegative Matrix Factorization with Frequency Regularization for Forecasting Spatio-temporal Data",
+        "Drop-in density-aware partitioning for tree-based anomaly detection",
+        "A third-order finite difference weighted essentially non-oscillatory scheme with shallow neural network",
+        "Explicit radial basis function Runge–Kutta methods",
+        "Weighted isolation and random cut forests for anomaly detection",
+        "A Study on the Influence Factors and Predictability of Competitive Bidding Land Using Machine Learning"
+      ],
+      "outliers": [
+        {
+          "id": "W7148532825",
+          "title": "Cross-Domain Evaluation and Fine-Tuned Adaptation of iCatcher+ for Korean Infant Gaze Data",
+          "venue": "Open Science Framework"
+        },
+        {
+          "id": "W7161823991",
+          "title": "Cross-domain evaluation and fine-tuned adaptation of iCatcher+ for Korean infant gaze data",
+          "venue": "Infant Behavior and Development"
+        },
+        {
+          "id": "W4367844613",
+          "title": "Machine composition of Korean music via topological data analysis and artificial neural network",
+          "venue": "Journal of Mathematics and Music"
+        },
+        {
+          "id": "W4409467409",
+          "title": "Research on Utilizing Generative AI for Image Development",
+          "venue": "Journal of Cultural Product & Design"
+        },
+        {
+          "id": "W3134916063",
+          "title": "Topological data analysis of Korean music in Jeongganbo: a cycle structure",
+          "venue": "Journal of Mathematics and Music"
+        },
+        {
+          "id": "W4367054194",
+          "title": "Quantitative imaging of vesicle–protein interactions reveals close cooperation among proteins",
+          "venue": "Journal of Extracellular Vesicles"
+        },
+        {
+          "id": "W4407925760",
+          "title": "GECKO Follow-up Observations of the Binary Neutron Star–Black Hole Merger Candidate S230518h",
+          "venue": "The Astrophysical Journal"
+        },
+        {
+          "id": "W4416413717",
+          "title": "Stellar spectral classification using convolutional neural networks on objective prism plates",
+          "venue": "Astronomy and Computing"
+        }
+      ]
+    },
+    {
+      "lab_id": "gist-A5088811678",
+      "dept": "gist-life",
+      "papers": 6,
+      "outlier_share": 0.333,
+      "core": [
+        "Engulfment and Cell Motility 1 (ELMO1) Regulates Tumor Cell Behavior and Predicts Prognosis in Colorectal Cancer",
+        "CD47 mediates the progression of colorectal cancer by inducing tumor cell apoptosis and angiogenesis",
+        "Oligonucleotide–Chemosensor Conjugate as a Dual Responsive Detection Platform and Its Application for Simultaneous Detection of ATP and Zn2+",
+        "After cell death: the molecular machinery of efferocytosis",
+        "Internalization of apoptotic cells during efferocytosis requires Mertk-mediated calcium influx",
+        "Unification Education for the cultivation of citizenship in Elementary Moral Education: Focusing on Kant’s Zum ewigen Frieden"
+      ],
+      "outliers": [
+        {
+          "id": "W4376866596",
+          "title": "Unification Education for the cultivation of citizenship in Elementary Moral Education: Focusing on Kant’s Zum ewigen Frieden",
+          "venue": "Korean Association For Learner-Centered Curriculum And Instruction"
+        },
+        {
+          "id": "W4382777583",
+          "title": "Internalization of apoptotic cells during efferocytosis requires Mertk-mediated calcium influx",
+          "venue": "Cell Death and Disease"
+        }
+      ]
+    },
+    {
+      "lab_id": "dgist-A5068493893",
+      "dept": "dgist-life",
+      "papers": 6,
+      "outlier_share": 0.333,
+      "core": [
+        "Acetate-Mediated Odorant Receptor OR51E2 Activation Results in Calcitonin Secretion in Parafollicular C-Cells: A Novel Diagnostic Target of Human Medullary Thyroid Cancer",
+        "Odorant receptors in cancer",
+        "Comprehensive Transcriptomic Analysis Reveals Cell-Type-Specific Roles of Human Odorant Receptors in Glioblastoma and the Tumor Microenvironment",
+        "Olfactory marker protein regulation of glucagon secretion in hyperglycemia",
+        "2-Undecanone derived from Pseudomonas aeruginosa modulates the neutrophil activity",
+        "A Sulfonamide Intermediate Elicits Therapeutic Effect Against Sepsis by Enhancing Neutrophil Maturation"
+      ],
+      "outliers": [
+        {
+          "id": "W7208814887",
+          "title": "A Sulfonamide Intermediate Elicits Therapeutic Effect Against Sepsis by Enhancing Neutrophil Maturation",
+          "venue": "Journal of Cellular and Molecular Medicine"
+        },
+        {
+          "id": "W4282931967",
+          "title": "2-Undecanone derived from Pseudomonas aeruginosa modulates the neutrophil activity",
+          "venue": "BMB Reports"
+        }
+      ]
+    },
+    {
+      "lab_id": "dgist-A5028471243",
+      "dept": "dgist-life",
+      "papers": 9,
+      "outlier_share": 0.333,
+      "core": [
+        "How does cohesin organize the 3D genome?",
+        "Regulation of loop extrusion on the interphase genome",
+        "CTCF and R-loops are boundaries of cohesin-mediated DNA looping",
+        "Fluid-driven DNA stretching for single-molecule studies on chromatin-associated proteins",
+        "Metal–stabilized G–quadruplexes: biological insights and sensing applications",
+        "Structural and dynamic basis of Ssp4-mediated DNA protection in foodborne bacterial spores",
+        "A core outcome domain set to assess cutaneous neurofibromas related to neurofibromatosis type 1 in clinical trials",
+        "IS AN AGING POPULATION GOOD OR BAD FOR THE ENVIRONMENT? PANEL EVIDENCE FROM 25 OECD COUNTRIES"
+      ],
+      "outliers": [
+        {
+          "id": "W4280522912",
+          "title": "Modeling of a methanol synthesis process to utilize CO2 in the exhaust gas from an engine plant",
+          "venue": "Korean Journal of Chemical Engineering"
+        },
+        {
+          "id": "W4296212249",
+          "title": "IS AN AGING POPULATION GOOD OR BAD FOR THE ENVIRONMENT? PANEL EVIDENCE FROM 25 OECD COUNTRIES",
+          "venue": "The Singapore Economic Review"
+        },
+        {
+          "id": "W4387930796",
+          "title": "A core outcome domain set to assess cutaneous neurofibromas related to neurofibromatosis type 1 in clinical trials",
+          "venue": "British Journal of Dermatology"
+        }
+      ]
+    },
+    {
+      "lab_id": "postech-A5101770891",
+      "dept": "postech-math",
+      "papers": 12,
+      "outlier_share": 0.333,
+      "core": [
+        "Phase analysis for a family of stochastic reaction-diffusion equations",
+        "On the valleys of the stochastic heat equation",
+        "The Compact Support Property for Solutions to the Stochastic Partial Differential Equations with Colored Noise",
+        "Dissipation in parabolic SPDEs II: Oscillation and decay of the solution",
+        "Small-ball constants, and exceptional flat points of SPDEs",
+        "Small ball probability estimates for the Hölder semi-norm of the stochastic heat equation",
+        "AI Flaw Detection for Performance Verification of Pulsed Eddy Current Apparatus",
+        "Study on Additive Anisotropic Properties of Hastelloy X Materials through Progressive Virtual Printing Simulation"
+      ],
+      "outliers": [
+        {
+          "id": "W4379745848",
+          "title": "Creation of 3D Augmented Reality Contents for Learning Korean Sign Language Words",
+          "venue": "Korean Journal of Computational Design and Engineering"
+        },
+        {
+          "id": "W4399353627",
+          "title": "An Empirical Study on Improving the Accuracy of Demand Forecasting Based on Multi-Machine Learning",
+          "venue": "Journal of the Korea Institute of Military Science and Technology"
+        },
+        {
+          "id": "W4405266911",
+          "title": "Sign Language Motion Recognition using Machine Learning and RGB Image Processing",
+          "venue": "Korean Journal of Computational Design and Engineering"
+        },
+        {
+          "id": "W4362586685",
+          "title": "Anomaly Detection of Air Dryer for Radar based on Machine Learning Algorithms",
+          "venue": "Journal of the Korea Academia-Industrial cooperation Society"
+        }
+      ]
+    },
+    {
+      "lab_id": "unist-A5006437153",
+      "dept": "unist-math",
+      "papers": 3,
+      "outlier_share": 0.333,
+      "core": [
+        "Non-Abelian Chern–Simons–Higgs system with indefinite functional",
+        "Infinitely many segregated vector solutions of Schrodinger system",
+        "Multi-bubbling condensates for the Maxwell-Chern-Simons model"
+      ],
+      "outliers": [
+        {
+          "id": "W4206719613",
+          "title": "Multi-bubbling condensates for the Maxwell-Chern-Simons model",
+          "venue": "Calculus of Variations and Partial Differential Equations"
+        }
+      ]
+    },
+    {
+      "lab_id": "unist-A5029717042",
+      "dept": "unist-cs",
+      "papers": 6,
+      "outlier_share": 0.333,
+      "core": [
+        "Advocating for Key-Value Stores with Workload Pattern Aware Dynamic Compaction",
+        "A Dynamic Characteristic Aware Index Structure Optimized for Real-world Datasets",
+        "DyTIS: A Dynamic Dataset Targeted Index Structure Simultaneously Efficient for Search, Insert, and Scan",
+        "FaaSlim: Partial Caching of Snapshot-based VMs for Serverless Computing",
+        "HPMD: Enabling Hybrid Parallelism with Multi-Dimensional Adaptive DNN Training",
+        "JABAS: Joint Adaptive Batching and Automatic Scaling for DNN Training on Heterogeneous GPUs"
+      ],
+      "outliers": [
+        {
+          "id": "W4408889169",
+          "title": "JABAS: Joint Adaptive Batching and Automatic Scaling for DNN Training on Heterogeneous GPUs",
+          "venue": null
+        },
+        {
+          "id": "W7167077162",
+          "title": "HPMD: Enabling Hybrid Parallelism with Multi-Dimensional Adaptive DNN Training",
+          "venue": "ACM International Conference on Supercomputing (ICS)"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5062186042",
+      "dept": "kaist-math",
+      "papers": 3,
+      "outlier_share": 0.333,
+      "core": [
+        "On localization for cubical higher Chow groups",
+        "Motivic cohomology of fat points in Milnor range via formal and rigid geometries",
+        "A Study on the Self-Efficacy, Learning Immersion, and Class Satisfaction of College Students Majoring in Hair Through Prior Learning"
+      ],
+      "outliers": [
+        {
+          "id": "W4402460942",
+          "title": "A Study on the Self-Efficacy, Learning Immersion, and Class Satisfaction of College Students Majoring in Hair Through Prior Learning",
+          "venue": "Journal of Business Convergence"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5046066368",
+      "dept": "kaist-cs",
+      "papers": 15,
+      "outlier_share": 0.333,
+      "core": [
+        "Impact of Emerging Hardware on Security and Privacy",
+        "Harnessing the x86 Intermediate Rings for Intra-Process Isolation",
+        "Interstellar: Fully Partitioned and Efficient Security Monitoring Hardware Near a Processor Core for Protecting Systems against Attacks on Privileged Software",
+        "3rdParTEE: Securing Third-Party IoT Services Using the Trusted Execution Environment",
+        "EnclaveVPN: Toward Optimized Utilization of Enclave Page Cache and Practical Performance of Data Plane for Security-Enhanced Cloud VPN",
+        "GENESIS: A Generalizable, Efficient, and Secure Intra-kernel Privilege Separation",
+        "PIM-ORAM: Towards Oblivious RAM Primitives in Commodity Processing-In-Memory",
+        "A Novel Efficient Crash Consistency Solution Enabling Rollback Recovery for Secure NVM in Low-Power Energy Harvesting Systems"
+      ],
+      "outliers": [
+        {
+          "id": "W4406142599",
+          "title": "Discriminator to grade classification results of neural networks via Prediction Error Tracking Method",
+          "venue": "Knowledge-Based Systems"
+        },
+        {
+          "id": "W7117760048",
+          "title": "CF-DETR: Coarse-to-Fine Transformer for Real-Time Object Detection",
+          "venue": "IEEE Real-Time Systems Symposium (RTSS)"
+        },
+        {
+          "id": "W7137845641",
+          "title": "Timestep-Compressed Attack on Spiking Neural Networks Through Timestep-Level Backpropagation",
+          "venue": "Proceedings of the AAAI Conference on Artificial Intelligence"
+        },
+        {
+          "id": "W4414360193",
+          "title": "BankTweak: Adversarial Attack Against Multi-Object Trackers by Manipulating Feature Banks",
+          "venue": "International Joint Conference on Artificial Intelligence"
+        },
+        {
+          "id": "W4322754584",
+          "title": "Towards scalable and configurable simulation for disaggregated architecture",
+          "venue": "Simulation Modelling Practice and Theory"
+        }
+      ]
+    },
+    {
+      "lab_id": "snu-A5027374744",
+      "dept": "snu-life",
+      "papers": 40,
+      "outlier_share": 0.325,
+      "core": [
+        "Novel Diagnostic Biomarkers for High-Grade Serous Ovarian Cancer Uncovered by Data-Independent Acquisition Mass Spectrometry",
+        "Proteogenomic landscape of human pancreatic ductal adenocarcinoma in an Asian population reveals tumor cell-enriched and immune-rich subtypes",
+        "Proteogenomic characterization of molecular and cellular targets for treatment-resistant subtypes in locally advanced cervical cancers",
+        "Precision Medicine in Treatment: Based on Multiomics or Clinical Data",
+        "Novel Online Three-Dimensional Separation Expands the Detectable Functional Landscape of Cellular Phosphoproteome",
+        "Identification of MYH9 as a key regulator for synoviocyte migration and invasion through secretome profiling",
+        "Integration of Single-Cell RNA-Seq Datasets: A Review of Computational Methods",
+        "Proteogenomic Characterization of Human Pancreatic Cancer"
+      ],
+      "outliers": [
+        {
+          "id": "W7134126703",
+          "title": "Chaperonin‐mediated winter cold response via circadian clock components in Arabidopsis",
+          "venue": "New Phytologist"
+        },
+        {
+          "id": "W4221041191",
+          "title": "Ethylene responsive factor34 mediates stress‐induced leaf senescence by regulating salt stress‐responsive genes",
+          "venue": "Plant Cell & Environment"
+        },
+        {
+          "id": "W4372334037",
+          "title": "DDM1-mediated gene body DNA methylation is associated with inducible activation of defense-related genes in Arabidopsis",
+          "venue": "Genome biology"
+        },
+        {
+          "id": "W4210806855",
+          "title": "ORESARA 15, a PLATZ transcription factor, controls root meristem size through auxin and cytokinin signalling-related pathways",
+          "venue": "Journal of Experimental Botany"
+        },
+        {
+          "id": "W4393901603",
+          "title": "Phytohormonal regulation determines the organization pattern of shoot aerenchyma in greater duckweed (Spirodela polyrhiza)",
+          "venue": "PLANT PHYSIOLOGY"
+        },
+        {
+          "id": "W4410053817",
+          "title": "Identification of STN7-associated leaf senescence networks in thylakoid membranes of Arabidopsis",
+          "venue": "iScience"
+        },
+        {
+          "id": "W4382024028",
+          "title": "Adnp-mutant mice with cognitive inflexibility, CaMKIIα hyperactivity, and synaptic plasticity deficits",
+          "venue": "Molecular Psychiatry"
+        },
+        {
+          "id": "W4224079413",
+          "title": "E3 ligase BRUTUS Is a Negative Regulator for the Cellular Energy Level and the Expression of Energy Metabolism-Related Genes Encoded by Two Organellar Genomes in Leaf Tissues",
+          "venue": "Molecules and Cells"
+        },
+        {
+          "id": "W4377115718",
+          "title": "ANT2 Accelerates Cutaneous Wound Healing in Aged Skin by Regulating Energy Homeostasis and Inflammation",
+          "venue": "Journal of Investigative Dermatology"
+        },
+        {
+          "id": "W4280554871",
+          "title": "BMP4 signaling plays critical roles in self-renewal of R2i mouse embryonic stem cells",
+          "venue": "Biochemical and Biophysical Research Communications"
+        },
+        {
+          "id": "W4214651251",
+          "title": "SENP2 suppresses browning of white adipose tissues by de-conjugating SUMO from C/EBPβ",
+          "venue": "Cell Reports"
+        },
+        {
+          "id": "W4390903572",
+          "title": "Morc2a variants cause hydroxyl radical-mediated neuropathy and are rescued by restoring GHKL ATPase",
+          "venue": "Brain"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5100362666",
+      "dept": "kaist-cs",
+      "papers": 34,
+      "outlier_share": 0.324,
+      "core": [
+        "Your lottery ticket is damaged: Towards all-alive pruning for extremely sparse networks",
+        "GPUTucker: Large-Scale GPU-Based Tucker Decomposition Using Tensor Partitioning",
+        "SPATS: a practical system for comparative analysis of spatio-temporal graph neural networks",
+        "ConnectomeNet: A Unified Deep Neural Network Modeling Framework for Multi-Task Learning",
+        "AFLiP: An Access-Recomputation Decoupling Framework for Efficient and Structure-Preserving GNN-based Link Prediction",
+        "A federated learning framework for arbitrary spatio-temporal graph neural networks",
+        "SearchLight: Neural Architecture Search for Lightweight Spatio-Temporal Graph Neural Networks",
+        "TENAS: Using Taylor Expansion and Channel-Level Skip Connection for Neural Architecture Search"
+      ],
+      "outliers": [
+        {
+          "id": "W4395479078",
+          "title": "A Study on the Effectiveness of Competency-based Social Welfare Field Practice Seminars Applying Capstone Design",
+          "venue": "Social Welfare Policy and Practice"
+        },
+        {
+          "id": "W4392465467",
+          "title": "A Study on the Relationship between Linguistic and Social Structures in Émile Benveniste's Study of Indo-European Languages",
+          "venue": "언어와 언어학"
+        },
+        {
+          "id": "W4376873898",
+          "title": "Fluorine‐Rich Covalent Organic Framework to Boost Electrochemical Kinetics and Storages of K+ Ions for Potassium‐Ion Battery",
+          "venue": "Advanced Energy Materials"
+        },
+        {
+          "id": "W4319589410",
+          "title": "Performance Evaluation of Conveyor-Less Matrix Assembly System Using Simulation and Mathematical Models",
+          "venue": "Volume 2B: Advanced Manufacturing"
+        },
+        {
+          "id": "W4384343736",
+          "title": "Fluorine‐Rich Covalent Organic Framework to Boost Electrochemical Kinetics and Storages of K+ Ions for Potassium‐Ion Battery (Adv. Energy Mater. 26/2023)",
+          "venue": "Advanced Energy Materials"
+        },
+        {
+          "id": "W4392783569",
+          "title": "A Study on the Visual Recognition Patterns of Japanese Beginner Learners Regarding Hangul Characters: Focusing on Consonant Letters",
+          "venue": "Korean Association For Learner-Centered Curriculum And Instruction"
+        },
+        {
+          "id": "W4416136756",
+          "title": "Probabilistic Dynamic Line Rating Forecasting with Line Graph Convolutional LSTM",
+          "venue": null
+        },
+        {
+          "id": "W4409607948",
+          "title": "A Study on the Recognition Patterns of Hangul Letterforms by Japanese Native Speakers: Focusing on Non-learners",
+          "venue": "Korean Association For Learner-Centered Curriculum And Instruction"
+        },
+        {
+          "id": "W4313036432",
+          "title": "A dynamic programming-based heuristic algorithm for a flexible job shop scheduling problem of a matrix system in automotive industry",
+          "venue": "2022 IEEE 18th International Conference on Automation Science and Engineering (CASE)"
+        },
+        {
+          "id": "W7161151516",
+          "title": "Synchronous climbing fiber activity enables instructive signaling for cerebellar learning through modulation of disinhibitory circuits",
+          "venue": "Nature Neuroscience"
+        },
+        {
+          "id": "W4319338834",
+          "title": "Facing to Latency of Hyperledger Fabric for Blockchain-Enabled IoT: Modeling and Analysis",
+          "venue": "IEEE Network"
+        }
+      ]
+    },
+    {
+      "lab_id": "dgist-A5083141649",
+      "dept": "dgist-chem",
+      "papers": 13,
+      "outlier_share": 0.308,
+      "core": [
+        "Nickel-Catalyzed Mono- and Dihydrosilylation of Aliphatic Alkynes in Aqueous and Aerobic Conditions",
+        "Recent advances in earth-abundant transition metal-catalyzed dihydrosilylation of terminal alkynes",
+        "Synthesis of ( Z )-Allylsilanes by Cu-Catalyzed Regioselective Protosilylation of Allenes via a Single-Electron Process",
+        "Spectroscopic Evidence of a Reduced Alkenylnickel Intermediate in Catalytic Markovnikov-Selective Alkyne Hydroboration",
+        "Intramolecular hydroamidation of alkenes enabling asymmetric synthesis of β-lactams via transposed NiH catalysis",
+        "Post-functionalization of polyethers by photoinduced C–H amidation via polar-radical relay",
+        "Iterative SuFEx approach for sequence-regulated oligosulfates and its extension to periodic copolymers",
+        "Real‐Time Visualisation of Reaction Kinetics and Dynamics: Single‐Molecule Insights into the Iminium‐Catalysed Diels–Alder Reaction"
+      ],
+      "outliers": [
+        {
+          "id": "W4405411622",
+          "title": "Basic Research on the Inspection System of Electric Vehicle AVAS",
+          "venue": "Transactions of Korean Society of Automotive Engineers"
+        },
+        {
+          "id": "W4415896757",
+          "title": "A Training Method for Improving Image Diversity in Generative Adversarial Networks Using a Perceptual Cosine Similarity Loss",
+          "venue": "The Journal of the Korean Institute of Information and Communication Engineering"
+        },
+        {
+          "id": "W4413201290",
+          "title": "Study of critical dimension small-angle X-ray scattering within-spot uniformity with mass critical dimension scanning electron microscope and 3D tomography",
+          "venue": "Journal of Micro/Nanopatterning Materials and Metrology"
+        },
+        {
+          "id": "W4416145078",
+          "title": "Basic Investigation on the Electrical Structure Characteristics of 72V Battery Charging Connector",
+          "venue": "International Journal of Computational and Experimental Science and Engineering"
+        }
+      ]
+    },
+    {
+      "lab_id": "snu-A5025355311",
+      "dept": "snu-math",
+      "papers": 13,
+      "outlier_share": 0.308,
+      "core": [
+        "Phenotypic clusters and sacubitril/valsartan in heart failure with preserved ejection fraction: a PARAGON-HF substudy",
+        "Phenomapping-derived tool to individualize the effect of sacubitril-valsartan in heart failure with preserved ejection fraction",
+        "Analysis of the PARAGON-HF Study Results Using Win Ratio",
+        "Risk factors based vessel‐specific prediction for stages of coronary artery disease using Bayesian quantile regression machine learning method: Results from the PARADIGM registry",
+        "Angiotensin‐Neprilysin Inhibition and Renal Outcome in Men and Women With Heart Failure",
+        "Network Analysis of Cardiac Remodeling by Primary Mitral Regurgitation Emphasizes the Role of Diastolic Function",
+        "Health status trajectories using Markov modeling in patients with heart failure with preserved ejection fraction",
+        "Deep learning based ECG segmentation for delineation of diverse arrhythmias"
+      ],
+      "outliers": [
+        {
+          "id": "W4400268934",
+          "title": "Simplicial Kirchhoff index of random complexes",
+          "venue": "Advances in Applied Mathematics"
+        },
+        {
+          "id": "W4296137303",
+          "title": "Fractional centralities on networks: Consolidating the local and the global",
+          "venue": "Physical review. E"
+        },
+        {
+          "id": "W7163149899",
+          "title": "Fractional degree centrality for directed networks",
+          "venue": "Physical review. E"
+        },
+        {
+          "id": "W4410312155",
+          "title": "Simplicial effective resistance and enumeration of spanning trees",
+          "venue": "Israel Journal of Mathematics"
+        }
+      ]
+    },
+    {
+      "lab_id": "kaist-A5027517013",
+      "dept": "kaist-phys",
+      "papers": 10,
+      "outlier_share": 0.3,
+      "core": [
+        "From BPS spectra of Argyres-Douglas theories to families of 3d TFTs",
+        "Boundary vertex algebras for 3d $\\mathcal{N}=4$ rank-0 SCFTs",
+        "Macdonald index from 3d TQFT",
+        "3D TFTs from 4d $$ \\mathcal{N} $$ = 2 BPS particles",
+        "Three dimensional topological field theories and Nahm sum formulas",
+        "Three-Dimensional Topological Field Theories and Nonunitary Minimal Models",
+        "Preface — Thirty Years of Gauged Linear Sigma Models",
+        "In-vehicle Network Intrusion Detection Using Supervised and Unsupervised Deep Learning"
+      ],
+      "outliers": [
+        {
+          "id": "W4404960690",
+          "title": "Anthocyanin-containing Bicolor Waxy Corn, ‘Mihyeonchal’",
+          "venue": "Korean Journal of Breeding Science"
+        },
+        {
+          "id": "W7134179128",
+          "title": "Tumor‐educated platelets in cancer diagnostics and prognostics: A critical appraisal and roadmap for clinical translation",
+          "venue": "International Journal of Cancer"
+        },
+        {
+          "id": "W4390521157",
+          "title": "In-vehicle Network Intrusion Detection Using Supervised and Unsupervised Deep Learning",
+          "venue": "The Journal of Next-generation Convergence Technology Association"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,754 @@
+[
+  {
+    "dept": "kaist-life",
+    "name": "김현우",
+    "truth": "A5100667694",
+    "rule": "A5100667694",
+    "choice": "A5100667694",
+    "confidence": "medium",
+    "reason": "The professor works on molecular metabolism and exercise biochemistry. C1's irisin/FNDC5 papers fit that well: irisin is an exercise-induced hormone. C1 also has some unrelated titles (bed simulation, radiographs, eyebrow lifting), which suggests it is mixed with other people's work, so confidence is medium rather than high. C2 and C4 are materials and optics work, so they are namesakes. C3 is small, and only its Tie2/ROS paper is biological.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 2075,
+      "output": 187
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "kaist-life",
+    "name": "양한슬",
+    "truth": "A5137663456",
+    "rule": "A5079276210",
+    "choice": "A5079276210",
+    "confidence": "medium",
+    "reason": "C1 lists KAIST on most papers and has department coauthors. It includes on-topic titles such as 'Ras drives malignancy through stem cell crosstalk' (Fuchs-lab style), Müller glia regeneration and Kdm5b epigenetic remodeling, which fit stem cells, epigenetics and regeneration. It also contains some off-topic papers (a paper-coating chemistry study), so the profile is likely partly merged. C2 is a one-paper fragment whose only paper also appears in C1. C3 is a different person (Ashley Seifert).",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1712,
+      "output": 212
+    },
+    "cached": false,
+    "correct": false
+  },
+  {
+    "dept": "snu-life",
+    "name": "설재홍",
+    "truth": "A5112600121",
+    "rule": null,
+    "choice": null,
+    "confidence": "high",
+    "reason": "no candidate has papers in the window",
+    "model": null,
+    "usage": {
+      "input": 0,
+      "output": 0
+    },
+    "cached": true,
+    "correct": false
+  },
+  {
+    "dept": "unist-life",
+    "name": "황성민",
+    "truth": "A5076737114",
+    "rule": "A5076737114",
+    "choice": "A5076737114",
+    "confidence": "high",
+    "reason": "C1 holds a coherent body of tumor immunology and immunometabolism work (ER stress, T cells, ovarian cancer immunity) that fits a life sciences professor, and it lists UNIST. C2 is a single-paper fragment on the same topic, T cell exhaustion. C1 carries the main body of work.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1176,
+      "output": 127
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "gist-life",
+    "name": "진석원",
+    "truth": "A5077161977",
+    "rule": "A5077161977",
+    "choice": "A5077161977",
+    "confidence": "high",
+    "reason": "C1's titles cover BMP receptor signaling (ACVR1/ALK2, BMPR1A), endothelial cell biology and vascular development, which match the lab's stated research fields exactly. C2 is a single structural-biology paper on Xrn1 RNA unwinding, likely a collaboration fragment that does not fit his main research.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 2240,
+      "output": 134
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "dgist-life",
+    "name": "김유리",
+    "truth": "A5028471243",
+    "rule": "A5028471243",
+    "choice": "A5028471243",
+    "confidence": "medium",
+    "reason": "C1 holds the main body of DGIST work that fits molecular epigenetics and chromatin biology: CTCF/R-loop cohesin looping, loop extrusion, and single-molecule DNA stretching on chromatin proteins. It does carry some unrelated titles (economics, clinical) that look like namesake contamination, which keeps confidence at medium. C2 is a single related paper, likely a fragment of the same person.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1181,
+      "output": 162
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "dgist-life",
+    "name": "김태완",
+    "truth": "A5100670572",
+    "rule": "A5100670572",
+    "choice": "A5100670572",
+    "confidence": "high",
+    "reason": "C1 includes several on-topic papers: human pluripotent stem cell engineering with CRISPR for Parkinson's disease, stem cell-based cell replacement therapy, and prime editing in hPSCs. These match 'Stem Cell Engineering and Therapy'. C1 is also a mixed profile containing namesakes' papers. C4 has one related hPSC dopamine neuron paper, but it is a small fragment. C2 and C3 are clinical ophthalmology and materials/energy work respectively, so they look like namesakes.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1736,
+      "output": 200
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "dgist-life",
+    "name": "이상임",
+    "truth": "A5078210130",
+    "rule": "A5078210130",
+    "choice": "A5078210130",
+    "confidence": "high",
+    "reason": "C1 holds the main body of work, with 23 papers and 21 listing DGIST. Its titles on magpie nest defense, cavity-nesting birds and water striders fit Integrative Animal Ecology exactly. C2 and C3 are single-paper fragments.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1281,
+      "output": 110
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "dgist-life",
+    "name": "이영삼",
+    "truth": "A5102833618",
+    "rule": "A5020372110",
+    "choice": "A5020372110",
+    "confidence": "medium",
+    "reason": "C1 lists DGIST on 16 papers and includes several senescence and aging titles (qCAGEs, senescence assays, caloric restriction lifespan) that match the faculty page's 'Senescence-Associated Mechanism'. It also mixes in a namesake's control-engineering papers on inverted pendulums, but it still carries the professor's main body of work. C2 looks like a different biochemist with no DGIST affiliation. C3 and C4 are single-paper fragments.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1572,
+      "output": 181
+    },
+    "cached": false,
+    "correct": false
+  },
+  {
+    "dept": "dgist-life",
+    "name": "이재민",
+    "truth": "A5132760735",
+    "rule": "A5100329288",
+    "choice": "A5100329288",
+    "confidence": "medium",
+    "reason": "C1 is a mixed profile that merges several namesakes: orthopedic surgery, ship tank engineering and ecology papers. It also contains metabolism and aging-related biology work that fits the DGIST New Biology professor, such as the FGF21/miR-223 extracellular vesicles for MASLD, the Vutiglabridin PON2 modulator in Parkinson's models, and the Tie2xVEGF antibody. Six papers list DGIST, which supports assigning the profile to him despite the contamination.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1162,
+      "output": 192
+    },
+    "cached": false,
+    "correct": false
+  },
+  {
+    "dept": "dgist-life",
+    "name": "이종찬",
+    "truth": "A5128182557",
+    "rule": "A5100758445",
+    "choice": "A5151102385",
+    "confidence": "low",
+    "reason": "C1 is a mixed profile. Its plant senescence papers (Arabidopsis WSS1A, PIF4/5 autophagy, CHLORELLA lncRNA) are probably from a namesake student in a DGIST plant aging lab. The rest are computer-science and HRD papers. Its share in the department's discipline is 0. C2's single DGIST paper on proteostasis in neurodegeneration and aging, with a department colleague, fits a cell-biology professor in Cell Dynamics and Imaging better.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1233,
+      "output": 862
+    },
+    "cached": false,
+    "correct": false
+  },
+  {
+    "dept": "postech-chem",
+    "name": "장영태",
+    "truth": "A5001055290",
+    "rule": "A5001055290",
+    "choice": "A5001055290",
+    "confidence": "high",
+    "reason": "장영태 (Young-Tae Chang) is a well-known POSTECH chemistry professor whose work centers on fluorescent probes and chemical biology. C1's titles on cell-selective fluorescent probes and fluorogenic imaging match this, and 75 of its 82 papers list POSTECH. The other candidates are namesakes with different names or fields: C2 works on phononics and metamaterials, and C3 is Taihyun Chang, a polymer chemist.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 3697,
+      "output": 177
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "postech-phys",
+    "name": "김준성",
+    "truth": "A5100721055",
+    "rule": "A5100721055",
+    "choice": "A5100721055",
+    "confidence": "high",
+    "reason": "Jun Sung Kim at POSTECH Physics is a condensed matter experimentalist working on magnetism, kagome magnets and topological materials. C1 is the largest profile, all its papers list POSTECH, 11 involve department colleagues, and its titles (kagome YMn6Sn6, multiferroics, vdW heterostructures) fit this exactly. C2 and C3 look like smaller fragments of the same person's work.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 3047,
+      "output": 165
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "postech-phys",
+    "name": "이승우",
+    "truth": "A5100403765",
+    "rule": "A5100403765",
+    "choice": "A5100403765",
+    "confidence": "medium",
+    "reason": "C1 is the only candidate actually named Seung-Woo Lee (이승우). Its quantum information and quantum optics papers fit a physics department, and 4 of its papers list POSTECH. The other candidates have different given names. C2 (Hyun-Woo Lee) is a POSTECH physicist but a different person. The others work in materials, electronics or medicine.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 3585,
+      "output": 143
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "postech-math",
+    "name": "차재춘",
+    "truth": "A5141675938",
+    "rule": null,
+    "choice": null,
+    "confidence": "high",
+    "reason": "no candidate has papers in the window",
+    "model": null,
+    "usage": {
+      "input": 0,
+      "output": 0
+    },
+    "cached": true,
+    "correct": false
+  },
+  {
+    "dept": "unist-chem",
+    "name": "박철민",
+    "truth": "A5101806583",
+    "rule": "A5143823599",
+    "choice": "A5101806583",
+    "confidence": "low",
+    "reason": "With no research fields listed, the titles cannot be matched to the faculty page, so this rests mainly on affiliation. C3 is the only sizable profile that lists UNIST (6 papers). Its work is computational modeling and entropy-based simulation, which could plausibly sit in a chemistry department. C2 is a large battery-anode profile, but none of its papers list UNIST, and it likely belongs to a namesake at another institution. C1 is a small cement-materials fragment.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1734,
+      "output": 665
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "unist-phys",
+    "name": "김재영",
+    "truth": "A5100344647",
+    "rule": "A5100344647",
+    "choice": "A5100344647",
+    "confidence": "medium",
+    "reason": "C1 is dominated by VLBI/EHT astrophysics on AGN jets, which fits a UNIST physics professor. Jae-Young Kim, the EHT/VLBI researcher, moved to UNIST. A few titles are off-topic (export credit, monolayer semiconductors), which suggests some merging with namesakes. C2 has a different name and is a mixed bag of unrelated fields.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1534,
+      "output": 158
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "unist-cs",
+    "name": "김정훈",
+    "truth": "A5043541925",
+    "rule": "A5043541925",
+    "choice": "A5043541925",
+    "confidence": "high",
+    "reason": "C1 holds the main body of work: 13 of 15 recent papers list UNIST, and the titles (cohesive subgraphs, community search, hypergraph cores) fit a computer science professor. C2 is a small graph-mining profile that is probably a fragment of the same person.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1275,
+      "output": 227
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "kaist-chem",
+    "name": "김현우",
+    "truth": "A5100330179",
+    "rule": "A5100330179",
+    "choice": "A5100330179",
+    "confidence": "high",
+    "reason": "C1's titles are chemistry: asymmetric catalysis, 1,2-dicarbonyl chemistry, and 19F NMR chiral analysis, which matches the KAIST chemistry Hyunwoo Kim Group. Most of its papers list KAIST, and it is the only profile with department colleagues. The other candidates are electrical engineering, imaging/biotech, robotics, computer science, or mixed namesakes.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 3205,
+      "output": 164
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "kaist-math",
+    "name": "강문진",
+    "truth": "A5100908017",
+    "rule": "A5100908017",
+    "choice": "A5100908017",
+    "confidence": "high",
+    "reason": "C1 carries the main body of work: 11 recent papers on viscous shock stability for Navier–Stokes equations, squarely nonlinear PDE, with 9 listing KAIST. C2's two papers are on the same topic and look like a fragment of the same person's output, so the larger profile is preferred.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1246,
+      "output": 121
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "kaist-cs",
+    "name": "김민수",
+    "truth": "A5100362666",
+    "rule": "A5100362666",
+    "choice": "A5100362666",
+    "confidence": "high",
+    "reason": "Min-Soo Kim of KAIST InfoLab works on database and graph systems such as GNN systems, GPU graph query processing, and spatio-temporal GNNs. C1 is the large profile with this body of work, with 26 papers listing KAIST. C5 is a small fragment of the same work. The other candidates work in materials, speech, or fairness in machine learning, which do not match.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 3412,
+      "output": 151
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "kaist-cs",
+    "name": "김현우",
+    "truth": "A5084814930",
+    "rule": "A5100330202",
+    "choice": "A5084814930",
+    "confidence": "high",
+    "reason": "Hyunwoo J. Kim (formerly at Korea University, now at KAIST) works on computer vision and machine learning. C3 carries the main body of that work, with 44 papers on efficient ViTs, Gaussian splatting, video-text retrieval and PEFT. A few titles in C3 are mixed in from namesakes, but the core is clearly this professor. C2 and C4 are small fragments of the same person's work. C1 is a signal-integrity and hardware engineer, and the remaining candidates are in other disciplines.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 3244,
+      "output": 197
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "kaist-cs",
+    "name": "류석영",
+    "truth": "A5087492388",
+    "rule": "A5087492388",
+    "choice": "A5087492388",
+    "confidence": "high",
+    "reason": "C1 and C2 both have programming-language titles that fit the KAIST PL group: C-to-Rust translation, P4 mechanization, WebAssembly testing and rustc soundness. C2 looks like a fragment of the same person's work. C1 carries the larger body of work (24 vs 6 papers), so it is the better choice. The other candidates work in hardware, materials, OLEDs, vision or antennas and are namesakes.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 3848,
+      "output": 164
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "kaist-cs",
+    "name": "박노성",
+    "truth": "A5067253588",
+    "rule": "A5121259557",
+    "choice": "A5067253588",
+    "confidence": "high",
+    "reason": "Noseong Park is a KAIST CS machine learning professor. C2 is the largest profile, with ML titles on recommendation, linear transformers, and quantization, and it lists KAIST. C1 and C3 are small fragments of the same person's work.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 3439,
+      "output": 104
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "kaist-cs",
+    "name": "오태현",
+    "truth": "A5078114111",
+    "rule": "A5078114111",
+    "choice": "A5078114111",
+    "confidence": "high",
+    "reason": "C1 holds the main body of work: 63 recent papers in computer vision, multimodal generation, Gaussian splatting and vision-language models. These match the listed fields of computer vision, machine learning and graphics, and 15 papers list KAIST. C2 is a single-paper fragment in the same area. The other candidates are namesakes in other fields or different people.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 3435,
+      "output": 138
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "kaist-cs",
+    "name": "이주영",
+    "truth": "A5100401535",
+    "rule": "A5100401535",
+    "choice": "A5100401535",
+    "confidence": "high",
+    "reason": "C1's recent titles are all on cryptography: provable security of MACs and DRBGs, ZK-friendly hashes, TFHE and secure multi-party computation. This matches the 암호론 (cryptography) lab at KAIST CS, and 16 of its 18 papers list KAIST. The other candidates work on HCI/XR, surrogate modeling, chemistry, bioengineering or construction, so they are namesakes.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 3510,
+      "output": 163
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "gist-chem",
+    "name": "김형진",
+    "truth": "A5100609778",
+    "rule": "A5100609778",
+    "choice": "A5100609778",
+    "confidence": "medium",
+    "reason": "Both profiles cover the same research line: Zn-ion battery dendrite suppression, plus ZnO/QD-LED work, all at GIST. They look like fragments of one person's work. C1 carries the larger body of battery papers (13), with 11 listing GIST, so it is the main profile.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1475,
+      "output": 119
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "snu-chem",
+    "name": "이승훈",
+    "truth": "A5100399239",
+    "rule": "A5100399239",
+    "choice": "A5100399239",
+    "confidence": "high",
+    "reason": "C1 carries the largest body of chemistry work, including quantum chemistry titles such as the grouped-bath spin-flip CI, quantum simulation of strongly correlated molecules and MRSF-TDDFT. This fits an SNU chemistry professor. C2 covers the same topics but has only 5 papers, so it looks like a fragment. The other candidates are medicine, aerospace or unrelated namesakes.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 3356,
+      "output": 295
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "snu-chem",
+    "name": "한상수",
+    "truth": "A5157767648",
+    "rule": null,
+    "choice": null,
+    "confidence": "high",
+    "reason": "None of the candidates is named Sang Soo Han. C1 (Seong-Jin Park) is a mixed profile spanning dentistry, engineering and materials. C2 is veterinary imaging, C3 is aerospace control and policy, and C4 is genomics and RNA biology. None of these matches a chemistry professor named Han Sang Soo, who is known for computational materials chemistry.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 2331,
+      "output": 150
+    },
+    "cached": false,
+    "correct": false
+  },
+  {
+    "dept": "snu-phys",
+    "name": "홍승훈",
+    "truth": "A5087322859",
+    "rule": "A5087322859",
+    "choice": "A5087322859",
+    "confidence": "high",
+    "reason": "Seunghun Hong at SNU Physics is known for nanoscale mapping and bioelectronic nose/biosensor work. C1 carries 25 SNU papers that fit this profile exactly. C2 is a single-paper fragment on the same bioelectronics theme, so C1 holds the main body of work.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1266,
+      "output": 124
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "snu-math",
+    "name": "김기현",
+    "truth": "A5100353405",
+    "rule": "A5100353405",
+    "choice": "A5100353405",
+    "confidence": "high",
+    "reason": "Every C1 title is dispersive PDE analysis: blow-up dynamics and soliton resolution for the Chern–Simons–Schrödinger equation, and stable blow-up of wave maps. This matches the professor's Analysis/PDE fields exactly, and the profile lists SNU. C2 is control engineering and InSAR monitoring, C3 is mostly hematology, C4 is condensed matter physics, and C5 and C6 are different names working in other fields.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 2894,
+      "output": 177
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "snu-math",
+    "name": "이기암",
+    "truth": "A5041150244",
+    "rule": "A5041150244",
+    "choice": "A5041150244",
+    "confidence": "medium",
+    "reason": "All three profiles are PDE work at SNU and look like pieces of the same professor's output. C1 is the largest (16 papers, 15 listing SNU), and its titles fit Analysis(PDEs): obstacle problems, fully nonlinear and parabolic regularity, and geometric flows. It is the best candidate for the main body of work. Confidence is medium because C2 and C3 look like parallel fragments of the same person.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1400,
+      "output": 162
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "snu-math",
+    "name": "이다빈",
+    "truth": "A5136173924",
+    "rule": "A5136173924",
+    "choice": null,
+    "confidence": "high",
+    "reason": "Neither profile fits a math professor working on optimization, algorithms and machine learning. C1's only paper is about Taekwondo training for children, a sports-science topic. C2's only paper is about plasma and space-physics waves. Both look like namesakes rather than this professor.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 904,
+      "output": 109
+    },
+    "cached": false,
+    "correct": false
+  },
+  {
+    "dept": "snu-math",
+    "name": "이승진",
+    "truth": "A5100600176",
+    "rule": "A5100600176",
+    "choice": "A5100600176",
+    "confidence": "medium",
+    "reason": "C1 and C2 both carry algebraic combinatorics work: Macdonald polynomials, K-theory Schubert calculus, and crystals on tableaux. They look like fragments of the same person. C1 has the full share in the department's discipline, so I pick it as the better fit. C3 is a different person (Seung Joon Lee) working in ophthalmology and detector physics.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1098,
+      "output": 146
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "snu-cs",
+    "name": "강유",
+    "truth": "A5074561505",
+    "rule": "A5074561505",
+    "choice": "A5074561505",
+    "confidence": "medium",
+    "reason": "Both profiles show the same research line: tensor factorization, model compression, recommendation, and graph mining. That is U Kang's SNU data mining work, so C2 looks like a fragment split from the same person. C1 carries the main body of work (59 papers) and has co-authorship with department colleagues, so it is the primary profile. Confidence is medium because the two profiles cannot be told apart by topic.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1394,
+      "output": 152
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "snu-cs",
+    "name": "권태경",
+    "truth": "A5076713179",
+    "rule": "A5076713179",
+    "choice": "A5076713179",
+    "confidence": "medium",
+    "reason": "Taekyoung Kwon at SNU CSE works on networking and security. C1 is the larger profile, with networking and security papers (DNS, certificate transparency, traffic forecasting) and 8 papers listing SNU. C2 is a 2-paper fragment that is also plausibly his (DNS-based DDoS defense), but C1 carries the main body of work.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1162,
+      "output": 143
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "snu-cs",
+    "name": "김선",
+    "truth": "A5148532450",
+    "rule": "A5100460439",
+    "choice": "A5100460439",
+    "confidence": "high",
+    "reason": "Sun Kim at SNU CSE is a known bioinformatics and AI drug discovery researcher. C1 is the main profile, with 68 papers on drug-target interaction, multi-omics mining and drug response prediction. C2 is a small fragment that overlaps C1's titles. The other candidates are namesakes in other fields.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 2456,
+      "output": 131
+    },
+    "cached": false,
+    "correct": false
+  },
+  {
+    "dept": "snu-cs",
+    "name": "김태현",
+    "truth": "A5100439010",
+    "rule": "A5100439010",
+    "choice": "A5100439010",
+    "confidence": "medium",
+    "reason": "C1 is a merged profile, but it contains trapped-ion quantum computing papers, such as the motional-mode noise and ion-trap chip work. These match the known SNU CSE professor Taehyun Kim, and C1 has a department colleague link. The other candidates are mainly medicine, forestry, materials or other namesakes.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 3427,
+      "output": 285
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "snu-cs",
+    "name": "이창건",
+    "truth": "A5078173247",
+    "rule": "A5103198710",
+    "choice": "A5078173247",
+    "confidence": "low",
+    "reason": "Chang-Gun Lee at SNU CSE works on real-time and cyber-physical systems and, more recently, AI for adolescent mental health. Both C1 and C2 contain his work. C1 has core real-time titles (DAG scheduling under Global EDF, automotive memory bandwidth, autonomous driving). C2 has a CPS safety paper and several mental-health AI papers that match his lab's direction, and it is the largest profile with 92% of its work in the discipline. Some C2 titles are biology namesake work (mice, nanoparticles), which is why confidence is low. C2 is picked because it carries the bulk of his work, but C1 is a close alternative.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1943,
+      "output": 685
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "snu-cs",
+    "name": "장병탁",
+    "truth": "A5050928023",
+    "rule": "A5050928023",
+    "choice": "A5050928023",
+    "confidence": "medium",
+    "reason": "All candidates look like fragments of the same SNU AI and robotics researcher. C1 carries the largest body of work (35 papers, 25 listing SNU), and its titles fit the computer science department: embodied AI, robot policies, video question generation and reinforcement learning environments.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 2420,
+      "output": 113
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "snu-cs",
+    "name": "정대룡",
+    "truth": "A5006285740",
+    "rule": "A5006285740",
+    "choice": "A5006285740",
+    "confidence": "high",
+    "reason": "C1's name matches exactly (Dae R. Jeong), and its papers are systems security and mobile computing work: kernel concurrency bugs, fuzzing, ARM pointer authentication. That fits a CS professor. C2 is a different person (Dae Hong Jeong) working on battery materials and SERS chemistry, which is another discipline.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1498,
+      "output": 136
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "snu-cs",
+    "name": "췐링 판(범성림)",
+    "truth": "A5080242645",
+    "rule": "A5080242645",
+    "choice": "A5080242645",
+    "confidence": "high",
+    "reason": "C1 holds the professor's main body of work: approximation algorithms, correlation clustering, metric fitting and computational geometry. These fit SNU computer science, and four of its papers list this university. C2 is a single-paper fragment of the same theory work and is likely the same person split off.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1125,
+      "output": 112
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "snu-cs",
+    "name": "황승원",
+    "truth": "A5024873601",
+    "rule": "A5024873601",
+    "choice": "A5024873601",
+    "confidence": "medium",
+    "reason": "All three profiles carry NLP and information-retrieval papers from the same SNU CS professor, so they appear to be fragments of one person's work. C1 is the largest, with 40 papers and 36 listing SNU, so it holds the main body of work. It is the only one with a department colleague, though that is just one co-authored paper.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1641,
+      "output": 127
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "gist-phys",
+    "name": "고도경",
+    "truth": "A5024274900",
+    "rule": "A5024274900",
+    "choice": "A5024274900",
+    "confidence": "high",
+    "reason": "C1 carries the main body of work: ultrafast Ti:sapphire lasers, OAM beams and terahertz emission, which fits an ultrafast nonlinear optics lab at GIST. C2 has the same research themes but only 3 papers, so it looks like a fragment of the same person's work.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1267,
+      "output": 120
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "dgist-chem",
+    "name": "Suil In",
+    "truth": "A5051640018",
+    "rule": "A5051640018",
+    "choice": "A5051640018",
+    "confidence": "high",
+    "reason": "Both profiles cover the same photocatalytic CO2 reduction and PEC hydrogen work at DGIST, so they are the same person. C1 carries the main body of work with 44 papers, while C2 is a 3-paper fragment.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1383,
+      "output": 100
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "dgist-chem",
+    "name": "Hye Won Moon",
+    "truth": "A5028853544",
+    "rule": "A5028853544",
+    "choice": "A5028853544",
+    "confidence": "high",
+    "reason": "C1's papers are all on bismuth redox catalysis and main-group inorganic synthesis. That is a close match for a Molecular Inorganic Synthesis and Catalysis Lab in a chemistry track. The profile lists no DGIST affiliation, which suggests the work dates from before the move to DGIST, likely postdoc research in Cornella's bismuth group.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1139,
+      "output": 144
+    },
+    "cached": false,
+    "correct": true
+  },
+  {
+    "dept": "dgist-phys",
+    "name": "김소연",
+    "truth": "A5100703121",
+    "rule": "A5100703121",
+    "choice": "A5100703121",
+    "confidence": "high",
+    "reason": "C1's titles are condensed-matter spectroscopy: ellipsometry of excitons in WSe2 and ReSe2, ultrafast reflectivity, and charge density wave materials. This matches a physics professor running a Correlated Matter Spectroscopy Lab, and the profile lists DGIST.",
+    "model": "claude-opus-5-5",
+    "usage": {
+      "input": 1076,
+      "output": 124
+    },
+    "cached": false,
+    "correct": true
+  }
+]
