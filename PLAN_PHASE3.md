@@ -74,9 +74,37 @@
 | main과의 데이터 충돌 | 코드만 합치고 데이터는 합친 뒤 다시 생성 |
 | 기존 학교 결과가 바뀜 | 회귀 검사. 바뀐 곳은 이유를 기록 |
 
+## 8. S1 학과 조사 결과 (2026-11-11)
+
+교수진 페이지를 직접 열어 HTML에 교수 정보가 들어 있는지 확인했다. 인원은 S3에서 수집기로 확정한다.
+
+| 대학 | 분야 | 학과 | 교수진 페이지 | 형태 | 난이도 |
+|---|---|---|---|---|---|
+| 연세대 | 생명 | 시스템생물학과 | bio.yonsei.ac.kr/bio/major/system_faculty.do | 정적, 이메일 포함 | 쉬움 |
+| 연세대 | 생명 | 생화학과 | biochem.yonsei.ac.kr/biochem/faculty/faculty01.do | 정적, 상세는 하위 페이지 | 보통 |
+| 연세대 | 화학 | 화학과 | chem.yonsei.ac.kr/prof | 정적, 이메일 포함 | 쉬움 |
+| 연세대 | 물리 | 물리학과 | physics.yonsei.ac.kr/people/professor | 정적, 이메일 포함 | 쉬움 |
+| 연세대 | 수학 | 수학과 | math.yonsei.ac.kr/math/math/faculty.do | 정적, 이메일 포함 | 쉬움 |
+| 연세대 | 컴퓨터 | 컴퓨터과학과 | cs.yonsei.ac.kr/csai/member/fullProfessor.do | 정적, 이메일 없음 | 보통 |
+| 고려대 | 생명 | 생명과학부 | ls.korea.ac.kr/ls/professor/professor.do | 정적, 이메일 포함 | 쉬움 |
+| 고려대 | 화학 | 화학과 | chem.korea.ac.kr/chemistry/faculty/full-time-professor.do | 정적, 이메일 없음 | 보통 |
+| 고려대 | 물리 | 물리학과 | physics.korea.ac.kr/physics/faculty/faculty-full-time.do | 정적(목록 주소만 확인) | 보통 |
+| 고려대 | 수학 | 수학과 | math.korea.ac.kr/math/member/full-time-professors.do | 정적, 이메일 거의 없음 | 보통 |
+| 고려대 | 컴퓨터 | 컴퓨터학과 | cs.korea.ac.kr/cs/intro/fulltime_faculty.do | 정적, 이메일 포함 | 쉬움 |
+| 성균관대 | 생명·화학·물리·수학 | 생명과학과·화학과·물리학과·수학과 | cscience.skku.edu/cscience/intro/faculty_{bio,chem,physics,math}.do | 정적, 한 대학 사이트에 같은 형식 | 쉬움(파서 1개) |
+| 성균관대 | 컴퓨터 | 소프트웨어학과 | sw.skku.edu/sw/faculty.do | 정적, 이메일 포함 | 쉬움 |
+| 한양대 | 생명 | 생명과학과 | lifescience.hanyang.ac.kr/-7 | 정적, 이메일 포함 | 쉬움 |
+| 한양대 | 화학·물리·수학·컴퓨터 | 화학과·물리학과·수학과·컴퓨터소프트웨어학부 | 각 학과 사이트(같은 CMS) | 정적, 이메일 포함 | 쉬움(파서 1개 예상) |
+| 서강대 | 5개 분야 | 생명과학과·화학과·물리학과·수학과·컴퓨터공학과 | www.sogang.ac.kr (Nuxt 앱) | 자바스크립트 앱, 공개 API(/api/)로 데이터 로드 | 어려움 |
+
+- 서강대: 학교 사이트의 인증서 체인이 Python 기본 인증서 목록으로 검증되지 않는다. 검증을 끄지 않고, `truststore`로 윈도우 인증서 저장소를 써서 검증해 해결했다. 예전 교수진 주소는 없어졌고, 새 사이트는 자바스크립트 앱이라 S3에서 브라우저로 API 경로를 확인한 뒤 수집한다. 안 되면 서강대는 보류하고 기록한다
+- 고려대는 대학 공통 교수소개 사이트(faculty.korea.ac.kr)도 있어, 학과 페이지가 부족하면 보조 출처로 쓴다
+- 생명과학 학과 선택: 연세대 시스템생물학과·생화학과, 고려대 생명과학부, 성균관대 생명과학과, 한양대 생명과학과, 서강대 생명과학과 (생명공학·식품·환경·의약생명 계열 제외)
+
 ## 7. 진행 기록
 
 | 날짜 | 내용 |
 |---|---|
 | 2026-11-11 | 브랜치 생성, 계획 작성. API 키 없음, SDK 미설치 확인 |
 | 2026-11-11 | S0 완료: `local.env`에 API 키 추가(사용자), `anthropic` 2.8.0 설치, 시험 호출 1회 성공(입력 18·출력 4 토큰) |
+| 2026-11-11 | S1 완료: 26개 학과 교수진 페이지 확인. 서강대는 자바스크립트 앱이라 어려움, 나머지는 정적 HTML |
