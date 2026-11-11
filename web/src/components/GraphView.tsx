@@ -61,6 +61,7 @@ export default function GraphView({ labs, edges, mode, matched, focusId, selecte
   const box = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState({ w: 800, h: 600 });
   const [hoverId, setHoverId] = useState<string | null>(null);
+  const [dragId, setDragId] = useState<string | null>(null);
   const [hoverLink, setHoverLink] = useState<GLink | null>(null);
   const nodeCache = useRef(new Map<string, GNode>());
   const fitted = useRef(false);
@@ -239,8 +240,9 @@ export default function GraphView({ labs, edges, mode, matched, focusId, selecte
   }, [center]); // eslint-disable-line react-hooks/exhaustive-deps -- re-centre only on a new request
 
   const chrome = CHROME[mode];
-  // while a line is selected it stays the subject: hovering a lab does not take over the highlight
-  const activeId = selectedEdge ? null : hoverId ?? focusId;
+  // while a line is selected it stays the subject: hovering a lab does not take over the highlight. A dragged lab stays
+  // active for the whole drag, so its arrow and neighbours follow it even when the pointer slips off the node.
+  const activeId = selectedEdge ? null : dragId ?? hoverId ?? focusId;
   const activeSet = activeId ? neighborIds.get(activeId) ?? new Set<string>() : null;
   const edgeEnds = selectedEdge ? [selectedEdge.source, selectedEdge.target] : null;
 
@@ -363,19 +365,19 @@ export default function GraphView({ labs, edges, mode, matched, focusId, selecte
     if (!t || t.status !== 'shifted' || n.x === undefined || n.y === undefined) return null;
     const lx = n.lab.x ?? 0;
     const ly = n.lab.y ?? 0;
-    const at = (p: [number, number] | null | undefined) => (p ? { x: n.x! + (p[0] - lx) * SCALE, y: n.y! + (p[1] - ly) * SCALE } : null);
-    const start = at(t.early_xy) ?? { x: n.x, y: n.y };
-    const end = at(t.recent_xy) ?? start;
-    let dx = end.x - start.x;
-    let dy = end.y - start.y;
+    // the arrow always starts at the centre of the lab's own node (read every frame, so it follows a drag); only its
+    // direction comes from the two periods' map positions
+    let dx = t.early_xy && t.recent_xy ? (t.recent_xy[0] - t.early_xy[0]) * SCALE : 0;
+    let dy = t.early_xy && t.recent_xy ? (t.recent_xy[1] - t.early_xy[1]) * SCALE : 0;
     if (Math.hypot(dx, dy) < 8 && t.toward_xy) {
       dx = (t.toward_xy[0] - lx) * SCALE;
       dy = (t.toward_xy[1] - ly) * SCALE;
     }
     const len = Math.hypot(dx, dy);
     if (len < 1e-6) return null;
-    const L = Math.max(Math.min(len, 160 / scale), 70 / scale);
-    return { x0: start.x, y0: start.y, x1: start.x + (dx / len) * L, y1: start.y + (dy / len) * L, ux: dx / len, uy: dy / len };
+    const r = Math.max(n.r, MIN_NODE_PX / scale);
+    const L = r + Math.max(Math.min(len, 160 / scale), 70 / scale);
+    return { x0: n.x, y0: n.y, x1: n.x + (dx / len) * L, y1: n.y + (dy / len) * L, ux: dx / len, uy: dy / len };
   };
 
   const paintTrend = (ctx: CanvasRenderingContext2D, scale: number) => {
@@ -447,7 +449,9 @@ export default function GraphView({ labs, edges, mode, matched, focusId, selecte
       const off = 16 / scale;
       if (one) {
         const toward = t.toward_subcluster_id != null ? subclusterName(t.toward_subcluster_id) : '';
-        label(`${t.early_years[0]}–${String(t.early_years[1]).slice(2)}`, a.x0 - a.ux * off, a.y0 - a.uy * off, false);
+        // the start sits on the node, so its year goes just outside the node on the opposite side of the arrow
+        const back = Math.max(n.r, MIN_NODE_PX / scale) + off;
+        label(`${t.early_years[0]}–${String(t.early_years[1]).slice(2)}`, a.x0 - a.ux * back, a.y0 - a.uy * back, false);
         label(`${t.recent_years[0]}–${String(t.recent_years[1]).slice(2)}${toward ? ` · ${toward}` : ''}`,
           a.x1 + a.ux * off, a.y1 + a.uy * off, true);
       } // with every arrow shown, the lab's own name at the start already says whose arrow it is
@@ -638,6 +642,8 @@ export default function GraphView({ labs, edges, mode, matched, focusId, selecte
         linkHoverPrecision={3}
         onRenderFramePre={paintUnderlay}
         onRenderFramePost={paintOverlay}
+        onNodeDrag={(n) => { if (dragId !== String(n.id)) setDragId(String(n.id)); }}
+        onNodeDragEnd={() => setDragId(null)}
         onNodeHover={(n) => {
           setHoverId(n ? String(n.id) : null);
           onHover(n ? n.lab : null);
