@@ -5,3 +5,5 @@ networkx>=3.2
 umap-learn>=0.5
 scikit-learn>=1.4
 numpy>=1.26
+# Phase 3 namesake adjudication and intro generation (PLAN_PHASE3.md); key in local.env as ANTHROPIC_API_KEY
+anthropic>=2.8
