@@ -1,7 +1,9 @@
-# Check the committed data and the site on every push. Nothing is published: the repository is private.
+# Build the static site from the committed data (web/public/data) and publish it to GitHub Pages.
 # The data pipeline is NOT run here: it needs API quota, a manual curation step and a large model.
 # Refresh data locally (see README), commit web/public/data, then push.
-name: CI
+#
+# One-time setup: Settings → Pages → Build and deployment → Source: "GitHub Actions".
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -10,9 +12,11 @@ on:
 
 permissions:
   contents: read
+  pages: write
+  id-token: write
 
 concurrency:
-  group: ci-${{ github.ref }}
+  group: pages
   cancel-in-progress: true
 
 jobs:
@@ -49,3 +53,18 @@ jobs:
       - run: npm run build
         env:
           VITE_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
