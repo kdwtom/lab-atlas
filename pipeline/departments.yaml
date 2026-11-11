@@ -18,6 +18,12 @@ universities:
             openalex_query: Gwangju Institute of Science and Technology}
   dgist:   {name_ko: DGIST, name_en: Daegu Gyeongbuk Institute of Science and Technology,
             openalex_query: Daegu Gyeongbuk Institute of Science and Technology}
+  # phase 3 (PLAN_PHASE3.md): main campuses only
+  yonsei:  {name_ko: 연세대학교, name_en: Yonsei University, openalex_query: Yonsei University}
+  korea:   {name_ko: 고려대학교, name_en: Korea University, openalex_query: Korea University}
+  skku:    {name_ko: 성균관대학교, name_en: Sungkyunkwan University, openalex_query: Sungkyunkwan University}
+  hanyang: {name_ko: 한양대학교, name_en: Hanyang University, openalex_query: Hanyang University}
+  sogang:  {name_ko: 서강대학교, name_en: Sogang University, openalex_query: Sogang University}
 
 departments:
   # ------------------------------------------------------------------ life sciences (original six)
@@ -97,3 +103,58 @@ departments:
      url: "https://sites.google.com/view/physics-at-dgist/member"}
   # Not included in phase 1 (PLAN_PHASE1.md 5): GIST 전기전자컴퓨터공학부 and DGIST 전기전자컴퓨터공학과 are
   # combined EE + CS departments (deferred with engineering); DGIST has no mathematics roster.
+
+  # ------------------------------------------------------------------ phase 3: five more universities (PLAN_PHASE3.md 8)
+  - {code: yonsei-sysbio, univ: yonsei, name_ko: 시스템생물학과, discipline: life, parser: yonsei_cards, matching: roster,
+     url: "https://bio.yonsei.ac.kr/bio/major/system_faculty.do"}
+  - {code: yonsei-biochem, univ: yonsei, name_ko: 생화학과, discipline: life, parser: yonsei_cards, matching: roster,
+     url: "https://biochem.yonsei.ac.kr/biochem/faculty/faculty01.do"}
+  - {code: yonsei-chem, univ: yonsei, name_ko: 화학과, discipline: chem, parser: yonsei_chem, matching: roster,
+     url: "https://chem.yonsei.ac.kr/prof"}
+  - {code: yonsei-phys, univ: yonsei, name_ko: 물리학과, discipline: phys, parser: yonsei_phys, matching: roster,
+     url: "https://physics.yonsei.ac.kr/people/professor"}
+  - {code: yonsei-math, univ: yonsei, name_ko: 수학과, discipline: math, parser: yonsei_cards, matching: roster,
+     url: "https://math.yonsei.ac.kr/math/math/faculty.do"}
+  - {code: yonsei-cs, univ: yonsei, name_ko: 컴퓨터과학과, discipline: cs, parser: yonsei_cs, matching: roster,
+     url: "https://cs.yonsei.ac.kr/csai/member/fullProfessor.do"}
+  - {code: korea-life, univ: korea, name_ko: 생명과학부, discipline: life, parser: korea_cms, matching: roster,
+     url: "https://ls.korea.ac.kr/ls/professor/professor.do"}
+  - {code: korea-chem, univ: korea, name_ko: 화학과, discipline: chem, parser: korea_cms, matching: roster,
+     url: "https://chem.korea.ac.kr/chemistry/faculty/full-time-professor.do"}
+  - {code: korea-phys, univ: korea, name_ko: 물리학과, discipline: phys, parser: korea_cms, matching: roster,
+     url: "https://physics.korea.ac.kr/physics/faculty/faculty-full-time.do"}
+  - {code: korea-math, univ: korea, name_ko: 수학과, discipline: math, parser: korea_cms, matching: roster,
+     url: "https://math.korea.ac.kr/math/member/full-time-professors.do"}
+  - {code: korea-cs, univ: korea, name_ko: 컴퓨터학과, discipline: cs, parser: korea_cms, matching: roster,
+     url: "https://cs.korea.ac.kr/cs/intro/fulltime_faculty.do"}
+  - {code: skku-life, univ: skku, name_ko: 생명과학과, discipline: life, parser: skku_cards, matching: roster,
+     url: "https://cscience.skku.edu/cscience/intro/faculty_bio.do"}
+  - {code: skku-chem, univ: skku, name_ko: 화학과, discipline: chem, parser: skku_cards, matching: roster,
+     url: "https://cscience.skku.edu/cscience/intro/faculty_chem.do"}
+  - {code: skku-phys, univ: skku, name_ko: 물리학과, discipline: phys, parser: skku_cards, matching: roster,
+     url: "https://cscience.skku.edu/cscience/intro/faculty_physics.do"}
+  - {code: skku-math, univ: skku, name_ko: 수학과, discipline: math, parser: skku_cards, matching: roster,
+     url: "https://cscience.skku.edu/cscience/intro/faculty_math.do"}
+  - {code: skku-cs, univ: skku, name_ko: 소프트웨어학과, discipline: cs, parser: skku_cards, matching: roster,
+     url: "https://sw.skku.edu/sw/faculty.do"}
+  - {code: hanyang-life, univ: hanyang, name_ko: 생명과학과, discipline: life, parser: hanyang_liferay, matching: roster,
+     url: "https://lifescience.hanyang.ac.kr/-7"}
+  - {code: hanyang-chem, univ: hanyang, name_ko: 화학과, discipline: chem, parser: hanyang_liferay, matching: roster,
+     url: "https://chem.hanyang.ac.kr/%EA%B5%90%EC%88%98_%EC%86%8C%EA%B0%9C"}
+  - {code: hanyang-phys, univ: hanyang, name_ko: 물리학과, discipline: phys, parser: hanyang_liferay, matching: roster,
+     url: "https://physics.hanyang.ac.kr/faculty"}
+  - {code: hanyang-math, univ: hanyang, name_ko: 수학과, discipline: math, parser: hanyang_liferay, matching: roster,
+     url: "https://math.hanyang.ac.kr/%EA%B5%90%EC%88%98%EC%A7%84"}
+  - {code: hanyang-cs, univ: hanyang, name_ko: 컴퓨터소프트웨어학부, discipline: cs, parser: hanyang_liferay, matching: roster,
+     url: "https://cs.hanyang.ac.kr/-02-1"}
+  # lifescien.sogang.ac.kr serves plain HTTP only (its HTTPS certificate does not verify); bo_table=teacher = 전임교원
+  - {code: sogang-life, univ: sogang, name_ko: 생명과학과, discipline: life, parser: sogang, matching: roster,
+     url: "http://lifescien.sogang.ac.kr/bbs/board.php?bo_table=teacher"}
+  - {code: sogang-chem, univ: sogang, name_ko: 화학과, discipline: chem, parser: sogang, matching: roster,
+     url: "https://chemistry.sogang.ac.kr/chemistry/10580/subview.do"}
+  - {code: sogang-phys, univ: sogang, name_ko: 물리학과, discipline: phys, parser: sogang, matching: roster,
+     url: "https://physics.sogang.ac.kr/physics/6771/subview.do"}
+  - {code: sogang-math, univ: sogang, name_ko: 수학과, discipline: math, parser: sogang, matching: roster,
+     url: "https://math.sogang.ac.kr/math/7364/subview.do"}
+  - {code: sogang-cs, univ: sogang, name_ko: 컴퓨터공학과, discipline: cs, parser: sogang, matching: roster,
+     url: "https://computing.sogang.ac.kr/ko/education/undergraduate/computer-science"}

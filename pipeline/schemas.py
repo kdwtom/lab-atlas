@@ -13,7 +13,7 @@ from typing import Literal, Optional
 
 from pydantic import BaseModel, ConfigDict, Field
 
-Univ = Literal["kaist", "snu", "postech", "unist", "gist", "dgist"]
+Univ = Literal["kaist", "snu", "postech", "unist", "gist", "dgist", "yonsei", "korea", "skku", "hanyang", "sogang"]
 SourceKind = Literal[
     "faculty_page", "faculty_detail", "openalex_author", "openalex_works",
     "semantic_scholar", "homepage",

@@ -1,4 +1,5 @@
-from . import dgist, dgist_tracks, gist, gist_depts, kaist, kaist_depts, postech, snu, snu_depts, unist
+from . import (dgist, dgist_tracks, gist, gist_depts, hanyang, kaist, kaist_depts, korea, postech, skku, snu, snu_depts,
+               sogang, unist, yonsei)
 
 # parser name (departments.yaml) -> collect(client, dept)
 PARSERS = {
@@ -18,4 +19,13 @@ PARSERS = {
     "gist_phys": gist_depts.collect_phys,
     "dgist_cms_track": dgist_tracks.collect_cms_track,
     "dgist_site_track": dgist_tracks.collect_site_track,
+    # phase 3
+    "yonsei_cards": yonsei.collect_cards,
+    "yonsei_chem": yonsei.collect_chem,
+    "yonsei_phys": yonsei.collect_phys,
+    "yonsei_cs": yonsei.collect_cs,
+    "korea_cms": korea.collect,
+    "skku_cards": skku.collect,
+    "hanyang_liferay": hanyang.collect,
+    "sogang": sogang.collect,
 }
