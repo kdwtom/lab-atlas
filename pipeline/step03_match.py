@@ -276,7 +276,15 @@ def match_one(oa: OpenAlex, fac: FacultyRecord, inst_id: str, roster: Optional[R
 
 
 def load_overrides() -> dict:
-    return read_json(config.PIPELINE_DIR / "curation" / "match_overrides.json")
+    """Hand-made corrections, on top of the namesake system's automatic decisions (pipeline/namesake.py)."""
+    hand = read_json(config.PIPELINE_DIR / "curation" / "match_overrides.json")
+    auto_path = config.PIPELINE_DIR / "curation" / "namesake_decisions.json"
+    if not auto_path.exists():
+        return hand
+    auto = read_json(auto_path)
+    decided = set(hand["force"]) | set(hand["exclude"])
+    return {"force": {**{k: v for k, v in auto["force"].items() if k not in decided}, **hand["force"]},
+            "exclude": {**{k: v for k, v in auto["exclude"].items() if k not in decided}, **hand["exclude"]}}
 
 
 def override_key(r: MatchResult) -> str:

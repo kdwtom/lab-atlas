@@ -1,0 +1,547 @@
+[
+  {
+    "key": "yonsei-phys|이승주",
+    "univ": "yonsei",
+    "dept": "yonsei-phys",
+    "name_ko": "이승주",
+    "name_en": "Seung-Joo Lee",
+    "faculty_page_url": "https://physics.yonsei.ac.kr/people/professor?idx=61&return_url=%2Fpeople%2Fprofessor",
+    "research_fields": [
+      "핵·입자·천체물리학"
+    ],
+    "step3": "A5100621700",
+    "step3_reason": null,
+    "rule": "A5100621700",
+    "rule_certain": false,
+    "source": "adjudicator",
+    "choice": "A5100621700",
+    "confidence": "low",
+    "why": "C1 looks like a merged profile. Most of its listed titles (MEMS scanners, LiDAR hardware, smart insoles, reservoir seepage) belong to unrelated namesakes, and none of its papers list Yonsei. However, 'Non-minimal elliptic threefolds at infinite distance' is F-theory/string theory work that fits a particle-theory professor named Seung-Joo Lee. The reported 0.91 discipline share also suggests much of the profile is physics. C1 probably contains the professor's work, but the mixing makes this uncertain.",
+    "candidates": [
+      {
+        "openalex_id": "A5100621700",
+        "display_name": "Seung-Joo Lee",
+        "name_ok": true,
+        "affiliation_ok": true,
+        "field_share": 0.912,
+        "anchor_hits": 0,
+        "works_window": 30,
+        "home_recent": 0,
+        "dept_coauthor": 0,
+        "subfield_sim": 0.0,
+        "subfield_near": 0.0,
+        "pi_papers": 9,
+        "top_titles": [
+          "Feedforward Countersignal Control to Suppress Magnetic Field Coupling in Electromagnetic 2D MEMS Scanners",
+          "A Light-weight Asymmetric Multi-Processing FPGA Architecture for Real-time High-resolution LiDAR",
+          "A Self-Calibration Method for Time-Interleaved ADCs in High-Resolution LiDAR Systems without a Pilot Tone",
+          "Offline and online coupled tensor factorization with knowledge graph",
+          "Design and manufacturing of a smart insole",
+          "Seepage of aging conduits in small reservoirs by centrifuge model test",
+          "Non-minimal elliptic threefolds at infinite distance II: asymptotic physics",
+          "Enhancing Lubrication of Electrified Interfaces by Inert Gas Atmosphere"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "yonsei-phys|이충만",
+    "univ": "yonsei",
+    "dept": "yonsei-phys",
+    "name_ko": "이충만",
+    "name_en": "Choongman Lee",
+    "faculty_page_url": "https://physics.yonsei.ac.kr/people/professor?idx=66&return_url=%2Fpeople%2Fprofessor",
+    "research_fields": [
+      "응용물리학"
+    ],
+    "step3": null,
+    "step3_reason": "affiliation_mismatch",
+    "rule": "A5087591431",
+    "rule_certain": false,
+    "source": "adjudicator",
+    "choice": "A5087591431",
+    "confidence": "low",
+    "why": "C1 is a mixed profile with no Yonsei affiliation. Some titles plainly belong to namesakes: the Khmer Rouge tribunal paper and the energy storage / governor papers. Its biophysics papers on light-induced condensate targeting and condensate effects on gene bursting could fit an applied or biological physicist recently hired into Yonsei physics. That makes it the only plausible match, but the evidence is weak.",
+    "candidates": [
+      {
+        "openalex_id": "A5087591431",
+        "display_name": "Choongman Lee",
+        "name_ok": true,
+        "affiliation_ok": false,
+        "field_share": 0.462,
+        "anchor_hits": 0,
+        "works_window": 7,
+        "home_recent": 0,
+        "dept_coauthor": 0,
+        "subfield_sim": 0.0,
+        "subfield_near": 0.0,
+        "pi_papers": 1,
+        "top_titles": [
+          "The End of the Khmer Rouge Tribunal: Its Success and Legacy",
+          "Light-induced targeting enables proteomics on endogenous condensates",
+          "Direct observation of a condensate effect on super-enhancer controlled gene bursting",
+          "Targeting and manipulating endogenous transcriptional condensates",
+          "Direct observation of a condensate effect on super-enhancer controlled gene bursting",
+          "Reserve replacement from governor to energy storage system on conventional generator for operating-cost reduct",
+          "Operation Method of Energy Storage System Replacing Governor for Frequency Regulation of Synchronous Generator"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "korea-cs|김세연",
+    "univ": "korea",
+    "dept": "korea-cs",
+    "name_ko": "김세연",
+    "name_en": null,
+    "faculty_page_url": "https://cs.korea.ac.kr/cs/intro/fulltime_faculty.do?mode=view&articleNo=755118&article.offset=0&articleLimit=200",
+    "research_fields": [],
+    "step3": null,
+    "step3_reason": "ambiguous_multiple_candidates",
+    "rule": "A5066488450",
+    "rule_certain": false,
+    "source": "adjudicator",
+    "choice": "A5066488450",
+    "confidence": "low",
+    "why": "Both profiles hold mobile/systems work (thermal-aware DVFS, video streaming) that likely belongs to the same person. C1 is larger, lists Korea University 5 times and has a department co-author, so it likely carries the professor's current work. However, C1 is mixed: it includes vision diffusion papers and a materials (HfO2) paper. That mixing, plus the empty faculty page, makes this a guess.",
+    "candidates": [
+      {
+        "openalex_id": "A5066488450",
+        "display_name": "Seyeon Kim",
+        "name_ok": true,
+        "affiliation_ok": true,
+        "field_share": 1.0,
+        "anchor_hits": 0,
+        "works_window": 11,
+        "home_recent": 5,
+        "dept_coauthor": 1,
+        "subfield_sim": 0.0,
+        "subfield_near": 0.0,
+        "pi_papers": 3,
+        "top_titles": [
+          "DeepSFU: Scalable Deepfake Detection for Video Conferencing",
+          "DualEngine: A Thermal-Aware Vision Inference Framework via Mobile and Cloud Co-Execution",
+          "Enhanced Vision-Language Models for Diverse Sensor Understanding: Cost-Efficient Optimization and Benchmarking",
+          "DeltaStream: 2D-Inferred Delta Encoding for Live Volumetric Video Streaming",
+          "MoDiTalker: Motion-Disentangled Diffusion Model for High-Fidelity Talking Head Generation",
+          "NeuroBalancer: Balancing System Frequencies With Punctual Laziness for Timely and Energy-Efficient DNN Inferen",
+          "Exploring the Morphotropic Phase Boundary in HfO 2 ‐Based Ferroelectrics for Advanced High‐k Dielectrics",
+          "Hybrid Video Diffusion Models with 2D Triplane and 3D Wavelet Representation"
+        ]
+      },
+      {
+        "openalex_id": "A5101611498",
+        "display_name": "Seyeon Kim",
+        "name_ok": true,
+        "affiliation_ok": true,
+        "field_share": 0.786,
+        "anchor_hits": 0,
+        "works_window": 5,
+        "home_recent": 1,
+        "dept_coauthor": 0,
+        "subfield_sim": 0.0,
+        "subfield_near": 0.0,
+        "pi_papers": 0,
+        "top_titles": [
+          "PAVE: Mitigating Non-Congestive Delay for Seamless Video Calls over NextG Mobile Networks",
+          "LLMem: Estimating GPU Memory Usage for Fine-Tuning Pre-Trained LLMs",
+          "Repurposing Cellular Reference Signals: Accurate RSRP Measurements with Mobile Phones",
+          "R-FEC: RL-based FEC Adjustment for Better QoE in WebRTC",
+          "zTT: Learning-Based DVFS with Zero Thermal Throttling for Mobile Devices"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "korea-cs|김정현",
+    "univ": "korea",
+    "dept": "korea-cs",
+    "name_ko": "김정현",
+    "name_en": null,
+    "faculty_page_url": "https://cs.korea.ac.kr/cs/intro/fulltime_faculty.do?mode=view&articleNo=126137&article.offset=0&articleLimit=200",
+    "research_fields": [],
+    "step3": "A5100727309",
+    "step3_reason": null,
+    "rule": "A5102080009",
+    "rule_certain": false,
+    "source": "adjudicator",
+    "choice": "A5100720519",
+    "confidence": "low",
+    "why": "Only C2 matches the romanization of 김정현 (Jeong-Hyun); C1, C3 and C4 are Jong-Hyun (종현) and work on devices and engineering. C2 has some ML and deep-learning work (PTSD screening, vocal biomarkers), but most of its titles are mental-health research, so the fit with a CS department is uncertain.",
+    "candidates": [
+      {
+        "openalex_id": "A5102080009",
+        "display_name": "Jong-hyun Kim",
+        "name_ok": true,
+        "affiliation_ok": true,
+        "field_share": 0.667,
+        "anchor_hits": 0,
+        "works_window": 4,
+        "home_recent": 4,
+        "dept_coauthor": 0,
+        "subfield_sim": 0.0,
+        "subfield_near": 0.0,
+        "pi_papers": 0,
+        "top_titles": [
+          "First Implementation of Edge‐Contacted α‐In2Se3 Ferroelectric Semiconductor Field‐Effect Transistors and their",
+          "A novel AZO capping approach on SnO thin-film transistors for efficient threshold voltage modulation and elect",
+          "Schottky Barrier Height engineering and electrical performance enhancement using ZnO as an interlayer in MIS c",
+          "Novel source/drain contact structure for a-IGZO devices: Oxygen-scavenger-layer metal-interlayer-semiconductor"
+        ]
+      },
+      {
+        "openalex_id": "A5100720519",
+        "display_name": "Jeong‐Hyun Kim",
+        "name_ok": true,
+        "affiliation_ok": true,
+        "field_share": 0.759,
+        "anchor_hits": 0,
+        "works_window": 11,
+        "home_recent": 1,
+        "dept_coauthor": 0,
+        "subfield_sim": 0.0,
+        "subfield_near": 0.0,
+        "pi_papers": 7,
+        "top_titles": [
+          "Effectiveness of Mobile-Delivered Exercise and Yoga Programs on Depressive Symptom Reduction in Employees: Ran",
+          "A machine learning-based screening tool for classifying post-traumatic stress disorder in firefighters: Firefi",
+          "Exploring customers’ attitudes, purchase, and visit intentions toward signature products in luxury hotels: A v",
+          "Role of peer support in mitigating PTSD and suicide risk among firefighters experiencing colleagues’ death",
+          "Evaluating the Effects of Mindfulness-Based Self-Help via an OTT Platform on Breast Cancer Patients Undergoing",
+          "Novel Deep Learning-Based Vocal Biomarkers for Stress Detection in Koreans",
+          "Mediating Effect of Firefighters’ Resilience and Public Service Motivation Regarding the Influence of Depressi",
+          "Differential effects of desvenlafaxine on hot flashes in women with breast cancer taking tamoxifen: a randomiz"
+        ]
+      },
+      {
+        "openalex_id": "A5100720487",
+        "display_name": "Jong-Hyun Kim",
+        "name_ok": true,
+        "affiliation_ok": true,
+        "field_share": 0.615,
+        "anchor_hits": 0,
+        "works_window": 5,
+        "home_recent": 1,
+        "dept_coauthor": 0,
+        "subfield_sim": 0.0,
+        "subfield_near": 0.0,
+        "pi_papers": 0,
+        "top_titles": [
+          "Enhancement of the thermal stability in a-IGZO S/D contacts by ZnO-based post-interlayer deposition annealing ",
+          "A device‐dependent auto‐segmentation method based on combined generalized and single‐device datasets",
+          "Enabling Spherical Beam Coverage for Millimeter-Wave Stationary and Mobile Applications: A stackable patch ant",
+          "Characteristics of Flame Front Propagation in a Fixed Bed of Marine Plastic SRF Cofired with Wood Pellets",
+          "Numerical study on prediction of icing phenomena in intake system of diesel engine: Operating conditions with "
+        ]
+      },
+      {
+        "openalex_id": "A5100727309",
+        "display_name": "Jong‐Hyun Kim",
+        "name_ok": true,
+        "affiliation_ok": true,
+        "field_share": 0.433,
+        "anchor_hits": 0,
+        "works_window": 53,
+        "home_recent": 3,
+        "dept_coauthor": 0,
+        "subfield_sim": 0.0,
+        "subfield_near": 0.0,
+        "pi_papers": 22,
+        "top_titles": [
+          "Comparative analysis of the control methods of façade integrated Photovoltaic-Thermal (PVT) system",
+          "Exploring non-deterministic behavior in Nematic liquid crystals for true random number generation",
+          "Evaluation of static and dynamic contact angle methods for their correlation with interfacial properties in co",
+          "Implementation of Integrated J1939/NMEA Gateway for Diesel-Electric Hybrid Ships",
+          "Characterization of Nanofiber Size by Laser Beam Scattering",
+          "From blue to red color wavelength complex modulation characteristics of liquid crystal on a metasurface device",
+          "Synthesis and Effects of Copolymers Polymerized via RAFT Polymerization on the Mechanical Properties of Epoxy ",
+          "Multidirectional manipulation of anisotropic particles embedded in nematic media using photo-alignment"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "korea-cs|박성빈",
+    "univ": "korea",
+    "dept": "korea-cs",
+    "name_ko": "박성빈",
+    "name_en": null,
+    "faculty_page_url": "https://cs.korea.ac.kr/cs/intro/fulltime_faculty.do?mode=view&articleNo=126170&article.offset=0&articleLimit=200",
+    "research_fields": [],
+    "step3": "A5057645734",
+    "step3_reason": null,
+    "rule": "A5057645734",
+    "rule_certain": false,
+    "source": "adjudicator",
+    "choice": null,
+    "confidence": "low",
+    "why": "Prof. Park Seongbin's Hypermedia Lab at Korea University works on web, hypermedia and informatics-education topics. C1's titles are almost all utility and periodic pattern mining on data streams. That style matches a student in a stream-pattern-mining group (I believe Unil Yun's at Sejong University), not this professor. C1 shows 3 papers listing Korea University, but these may come from mixed or mistaken affiliations, so this is a guess.",
+    "candidates": [
+      {
+        "openalex_id": "A5057645734",
+        "display_name": "Seongbin Park",
+        "name_ok": true,
+        "affiliation_ok": true,
+        "field_share": 1.0,
+        "anchor_hits": 0,
+        "works_window": 11,
+        "home_recent": 3,
+        "dept_coauthor": 0,
+        "subfield_sim": 0.0,
+        "subfield_near": 0.0,
+        "pi_papers": 2,
+        "top_titles": [
+          "Temporal importance and utility based pattern analysis with negative units for industrial data streams",
+          "KPM: a novel approach for top-K flexible periodic pattern analysis in time-series data",
+          "Exploring and detecting utility streams on prelarge and time fading properties",
+          "Flexibility and periodicity intended pattern mining on shifting stream windows in time-series data",
+          "Advanced Temporal Fuzzy Utility Pattern Analysis for Dynamic Uncertain Data Streams",
+          "Intelligent average utility pattern analysis using pre-large concept in dynamic stream data",
+          "Characterizing Carbon Cost of Federated Learning",
+          "Utility and occupancy driven pattern analysis for processing dynamic data streams in damped window control"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "korea-cs|정순영",
+    "univ": "korea",
+    "dept": "korea-cs",
+    "name_ko": "정순영",
+    "name_en": null,
+    "faculty_page_url": "https://cs.korea.ac.kr/cs/intro/fulltime_faculty.do?mode=view&articleNo=126190&article.offset=0&articleLimit=200",
+    "research_fields": [],
+    "step3": "A5043500102",
+    "step3_reason": null,
+    "rule": "A5043500102",
+    "rule_certain": false,
+    "source": "adjudicator",
+    "choice": "A5043500102",
+    "confidence": "low",
+    "why": "C1's one computing paper, on conditioned source separation, matches the music source separation work tied to Soonyoung Jung at Korea University CS. The other three titles are cancer and cell biology, which suggests the profile mixes in a biology namesake. It is the only candidate with a plausible link to this professor.",
+    "candidates": [
+      {
+        "openalex_id": "A5043500102",
+        "display_name": "Soonyoung Jung",
+        "name_ok": true,
+        "affiliation_ok": true,
+        "field_share": 1.0,
+        "anchor_hits": 0,
+        "works_window": 4,
+        "home_recent": 1,
+        "dept_coauthor": 0,
+        "subfield_sim": 0.0,
+        "subfield_near": 0.0,
+        "pi_papers": 0,
+        "top_titles": [
+          "KRIBB11 Exerts Anticancer Effects on A172 Glioblastoma Cells via the Cdh1/SKP2/p27 and HSF1/p53/p21 Pathways",
+          "Skeletal Muscle-Specific Bis Depletion Leads to Muscle Dysfunction and Early Death Accompanied by Impairment i",
+          "Conditioned Source Separation by Attentively Aggregating Frequency Transformations With Self-Conditioning",
+          "SF3B4 Depletion Retards the Growth of A549 Non-Small Cell Lung Cancer Cells via UBE4B-Mediated Regulation of p"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "skku-chem|김인호",
+    "univ": "skku",
+    "dept": "skku-chem",
+    "name_ko": "김인호",
+    "name_en": null,
+    "faculty_page_url": "https://cscience.skku.edu/cscience/intro/faculty_chem.do?mode=view&perId=LZStrOoDQzAlgzg1gcgURAFgLIDtgHFkCUBMUAgnAOwDmAvJUA",
+    "research_fields": [
+      "물리화학",
+      "고분자화학"
+    ],
+    "step3": "A5100783618",
+    "step3_reason": null,
+    "rule": "A5100783618",
+    "rule_certain": false,
+    "source": "adjudicator",
+    "choice": "A5100783618",
+    "confidence": "low",
+    "why": "The lab name 'interactive soft systems' fits the soft robotics and soft actuator titles (BeetleBot, soft actuators). However, much of the profile is oxide TFT and OLED device work, which looks like electrical engineering. Only 1 paper lists SKKU. The profile may be merged from several people or reflect the professor's earlier training, so this match is uncertain.",
+    "candidates": [
+      {
+        "openalex_id": "A5100783618",
+        "display_name": "In Ho Kim",
+        "name_ok": true,
+        "affiliation_ok": true,
+        "field_share": 1.0,
+        "anchor_hits": 0,
+        "works_window": 31,
+        "home_recent": 1,
+        "dept_coauthor": 0,
+        "subfield_sim": 0.0,
+        "subfield_near": 0.0,
+        "pi_papers": 3,
+        "top_titles": [
+          "High Energy Photon Induced Defect Engineering in Ultra‐Thin Indium Oxide Transistors for BEOL‐Compatible Logic",
+          "BeetleBot: An integrated bioinspired soft robot for multimodal sensing and adaptive interaction",
+          "Simultaneous Substrate Debonding and Device Annealing of Flexible a‐IGZO Thin‐Film Transistors on Colorless Po",
+          "Wearable OLED-OPD Medical Devices for Blood Glucose Management: From Diagnosis to Treatment",
+          "Organic-Passivated ZnON TFTs with Extended Lifespan for OLED Driving",
+          "Simultaneous Substrate Debonding and Device Annealing of Flexible a‐IGZO Thin‐Film Transistors on Colorless Po",
+          "Strategic Design of Soft Actuators in Translational Medical Robotics for Human‐Centered Healthcare",
+          "An advanced wound care dressing against laser patterned mesh foam dressing OLED patch"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "hanyang-phys|이창민",
+    "univ": "hanyang",
+    "dept": "hanyang-phys",
+    "name_ko": "이창민",
+    "name_en": "Chang-Min Lee",
+    "faculty_page_url": "https://physics.hanyang.ac.kr/faculty",
+    "research_fields": [],
+    "step3": null,
+    "step3_reason": "ambiguous_multiple_candidates",
+    "rule": "A5029769019",
+    "rule_certain": false,
+    "source": "adjudicator",
+    "choice": "A5100609699",
+    "confidence": "low",
+    "why": "C2 is a mixed profile combining finance papers, OLED chemistry and one condensed-matter physics paper ('Light-Induced Reorientation Transition in an Antiferromagnetic Semiconductor'). That physics paper is the only work among all candidates that fits a physics department, and 5 of C2's papers list Hanyang. C1 (excavator fault diagnosis) and C3 (marine and ship engineering, structures) are clearly other disciplines. With no research fields on the faculty page to check against, this is a guess.",
+    "candidates": [
+      {
+        "openalex_id": "A5029769019",
+        "display_name": "Changmin Lee",
+        "name_ok": true,
+        "affiliation_ok": true,
+        "field_share": 1.0,
+        "anchor_hits": 0,
+        "works_window": 1,
+        "home_recent": 0,
+        "dept_coauthor": 0,
+        "subfield_sim": 0.0,
+        "subfield_near": 0.0,
+        "pi_papers": 0,
+        "top_titles": [
+          "Anomaly Detection and Fault Diagnosis Based on Action States for Excavators"
+        ]
+      },
+      {
+        "openalex_id": "A5100609699",
+        "display_name": "Changmin Lee",
+        "name_ok": true,
+        "affiliation_ok": true,
+        "field_share": 0.578,
+        "anchor_hits": 0,
+        "works_window": 16,
+        "home_recent": 5,
+        "dept_coauthor": 0,
+        "subfield_sim": 0.0,
+        "subfield_near": 0.0,
+        "pi_papers": 4,
+        "top_titles": [
+          "CEO Accountability in FTC vs. SEC Filings: Turnover Consequences of Consumer and Shareholder Violations",
+          "Light-Induced Reorientation Transition in an Antiferromagnetic Semiconductor",
+          "High-efficiency blue OLED host materials based on new anthracene-dibenzofuran derivatives",
+          "The Impact of Legal Proceedings Against Controlling Shareholders on Business Group Value",
+          "Who, republican or democrat CEOs, laughs last? Political cycles in the market for corporate directors",
+          "New blue emitters based on anthracene through charge transfer control",
+          "The Impact of Legal Proceedings Against Controlling Shareholders on Corporate Value",
+          "Stewardship Code and Firm’s R&D Investment in Japan"
+        ]
+      },
+      {
+        "openalex_id": "A5102005827",
+        "display_name": "Chang-Min Lee",
+        "name_ok": true,
+        "affiliation_ok": true,
+        "field_share": 0.826,
+        "anchor_hits": 0,
+        "works_window": 20,
+        "home_recent": 1,
+        "dept_coauthor": 0,
+        "subfield_sim": 0.0,
+        "subfield_near": 0.0,
+        "pi_papers": 1,
+        "top_titles": [
+          "A Robust Framework for Image-Based Spare-Parts Classification in Smart Ships Using a Consistency-Regularized S",
+          "Shape optimization of 4D-printed multi-material morphing structures for enhanced structural stability",
+          "Simulated Annealing based Operating Flow Rate Combination Search Method for Reducing Power Consumption of Mult",
+          "Numerical Study on Ammonia Dispersion and Explosion Characteristics in Confined Space of Marine Fuel Preparati",
+          "Comparison of Buckling Behaviors for Hemispherical Foam Core Sandwich Shells at Room and Cryogenic Temperature",
+          "Design of an Automated Framework for Applying Generative AI-Based Source Code Obfuscation Techniques",
+          "Adaptive Control of Ships’ Oil-Fired Boilers Using Flame Image-Based IMC-PID and Deep Reinforcement Learning",
+          "Combustion Control of Ship’s Oil-Fired Boilers Based on Prediction of Flame Images"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "sogang-life|정수진",
+    "univ": "sogang",
+    "dept": "sogang-life",
+    "name_ko": "정수진",
+    "name_en": null,
+    "faculty_page_url": "http://lifescien.sogang.ac.kr/bbs/board.php?bo_table=teacher&wr_id=21",
+    "research_fields": [
+      "RNA 생물학",
+      "RNA 치료제",
+      "시스템 바이러스학",
+      "숙주 바이러스 상호작용"
+    ],
+    "step3": "A5019204885",
+    "step3_reason": null,
+    "rule": "A5019204885",
+    "rule_certain": false,
+    "source": "adjudicator",
+    "choice": "A5059140548",
+    "confidence": "low",
+    "why": "Both profiles are mixed and each holds one title that fits the RNA biology lab. C2 has 'Functional atlas of vertebrate viral RNA elements that stabilize RNA and enhance translation', which matches systems virology and RNA biology. C2 is also the only profile listing Sogang. C1 has a matching mRNA therapeutics paper, but most of its titles are food-safety phage work, and C2 is mostly pathology. The Sogang affiliation tips the choice toward C2, but this is close to a guess.",
+    "candidates": [
+      {
+        "openalex_id": "A5019204885",
+        "display_name": "Soo-Jin Jung",
+        "name_ok": true,
+        "affiliation_ok": true,
+        "field_share": 1.0,
+        "anchor_hits": 0,
+        "works_window": 9,
+        "home_recent": 0,
+        "dept_coauthor": 0,
+        "subfield_sim": 0.0,
+        "subfield_near": 0.0,
+        "pi_papers": 0,
+        "top_titles": [
+          "Targeted biocontrol of Escherichia coli O157:H7 biofilms in food environments using the novel bacteriophage CA",
+          "Revolutionizing seafood safety with bacteriophages: emerging technologies and applications",
+          "RNA stability enhancers for durable base-modified mRNA therapeutics",
+          "CRISPR–Cas systems as emerging tools for precision biofilm control for food safety: Mechanisms and application",
+          "Receptor-specific phage resistance induced phenotypic and gene expression shifts in Salmonella Typhimurium imp",
+          "Evaluation of Direct Multiplex Real-Time PCR Using FS Finder SL for Detection of Salmonella spp. in Ready-To-E",
+          "Evaluation of a Compact Dry Method for Enumerating Bacteria in Contaminated Foods",
+          "Prophylactic efficacy of baicalin and carvacrol against Salmonella Typhimurium biofilm on food and food contac"
+        ]
+      },
+      {
+        "openalex_id": "A5059140548",
+        "display_name": "Soo Jin Jung",
+        "name_ok": true,
+        "affiliation_ok": true,
+        "field_share": 0.0,
+        "anchor_hits": 0,
+        "works_window": 19,
+        "home_recent": 1,
+        "dept_coauthor": 0,
+        "subfield_sim": 0.0,
+        "subfield_near": 0.0,
+        "pi_papers": 4,
+        "top_titles": [
+          "Functional atlas of vertebrate viral RNA elements that stabilize RNA and enhance translation",
+          "Conjunctival Foreign Body Granuloma With Hemosiderin Deposition Mimicking Malignant Melanoma",
+          "Diagnostic value of cytology in detecting human papillomavirus–independent cervical malignancies: a nation-wid",
+          "National quality assurance program using digital cytopathology: a 5-year digital transformation experience by ",
+          "Genomic characterization of four Salmonella-specific bacteriophages and evaluation of their cocktail efficacy ",
+          "Impact of variant histology in the prognosis of non‑muscle invasive bladder cancer with low‑tumor burden: A pr",
+          "311 Risk factors for the recurrence in patients with early endometrioid endometrial cancer achieving complete ",
+          "Risk-adapted scoring model to identify candidates benefiting from adjuvant chemotherapy after radical nephrour"
+        ]
+      }
+    ]
+  }
+]

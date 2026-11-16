@@ -110,7 +110,7 @@ departments:
   - {code: yonsei-biochem, univ: yonsei, name_ko: 생화학과, discipline: life, parser: yonsei_cards, matching: roster,
      url: "https://biochem.yonsei.ac.kr/biochem/faculty/faculty01.do"}
   - {code: yonsei-chem, univ: yonsei, name_ko: 화학과, discipline: chem, parser: yonsei_chem, matching: roster,
-     url: "https://chem.yonsei.ac.kr/prof"}
+     url: "https://chemyonsei.kr/people/faculty"}
   - {code: yonsei-phys, univ: yonsei, name_ko: 물리학과, discipline: phys, parser: yonsei_phys, matching: roster,
      url: "https://physics.yonsei.ac.kr/people/professor"}
   - {code: yonsei-math, univ: yonsei, name_ko: 수학과, discipline: math, parser: yonsei_cards, matching: roster,

@@ -92,5 +92,118 @@
         "display_name": "Daegu Gyeongbuk Institute of Science and Technology"
       }
     ]
+  },
+  "yonsei": {
+    "id": "I193775966",
+    "display_name": "Yonsei University",
+    "ror": "https://ror.org/01wjejq96",
+    "works_count": 182305,
+    "query": "Yonsei University",
+    "alternatives": [
+      {
+        "id": "I193775966",
+        "display_name": "Yonsei University"
+      },
+      {
+        "id": "I4210160791",
+        "display_name": "Yonsei University Health System"
+      },
+      {
+        "id": "I4405258769",
+        "display_name": "Yonsei University Mirae Campus"
+      },
+      {
+        "id": "I4400600942",
+        "display_name": "Yonsei University College of Dentistry"
+      },
+      {
+        "id": "I4210118648",
+        "display_name": "Yonsei University Dental Hospital"
+      }
+    ]
+  },
+  "korea": {
+    "id": "I197347611",
+    "display_name": "Korea University",
+    "ror": "https://ror.org/047dqcg40",
+    "works_count": 132114,
+    "query": "Korea University",
+    "alternatives": [
+      {
+        "id": "I197347611",
+        "display_name": "Korea University"
+      },
+      {
+        "id": "I88761825",
+        "display_name": "Korea University of Science and Technology"
+      },
+      {
+        "id": "I2799980853",
+        "display_name": "Korea University Medical Center"
+      },
+      {
+        "id": "I87111246",
+        "display_name": "Catholic University of Korea"
+      },
+      {
+        "id": "I4405258752",
+        "display_name": "Korea University Guro Hospital"
+      }
+    ]
+  },
+  "skku": {
+    "id": "I848706",
+    "display_name": "Sungkyunkwan University",
+    "ror": "https://ror.org/04q78tk20",
+    "works_count": 131879,
+    "query": "Sungkyunkwan University",
+    "alternatives": [
+      {
+        "id": "I848706",
+        "display_name": "Sungkyunkwan University"
+      }
+    ]
+  },
+  "hanyang": {
+    "id": "I4575257",
+    "display_name": "Hanyang University",
+    "ror": "https://ror.org/046865y68",
+    "works_count": 96249,
+    "query": "Hanyang University",
+    "alternatives": [
+      {
+        "id": "I4575257",
+        "display_name": "Hanyang University"
+      },
+      {
+        "id": "I4210142845",
+        "display_name": "Hanyang University Seoul Hospital"
+      },
+      {
+        "id": "I4210124541",
+        "display_name": "Hanyang University Guri Hospital"
+      },
+      {
+        "id": "I4405259564",
+        "display_name": "Hanyang University Hospital for Rheumatic Disease"
+      },
+      {
+        "id": "I4210152466",
+        "display_name": "Hanyang University Medical Center"
+      }
+    ]
+  },
+  "sogang": {
+    "id": "I148751991",
+    "display_name": "Sogang University",
+    "ror": "https://ror.org/056tn4839",
+    "works_count": 19232,
+    "query": "Sogang University",
+    "alternatives": [
+      {
+        "id": "I148751991",
+        "display_name": "Sogang University"
+      }
+    ]
   }
 }

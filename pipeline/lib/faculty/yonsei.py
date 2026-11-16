@@ -1,7 +1,7 @@
 """연세대학교 (신촌) 시스템생물학과 · 생화학과 · 화학과 · 물리학과 · 수학과 · 컴퓨터과학과.
 
 시스템생물학과, 생화학과 and 수학과 use the university CMS card list (div.board-faculty-box). The life-science
-cards hold the Korean name only (detail pages need JavaScript); 수학과 cards hold both names. 화학과, 물리학과 and
+cards hold the Korean name only (detail pages need JavaScript); 수학과 cards hold both names. 화학과 (chemyonsei.kr), 물리학과 and
 컴퓨터과학과 run their own sites.
 """
 from __future__ import annotations
@@ -80,17 +80,28 @@ def collect_cards(client, dept: config.Department) -> list[FacultyRecord]:
 
 # ------------------------------------------------------------------ 화학과
 def parse_chem(html: str, base_url: str) -> list[dict]:
+    """chemyonsei.kr/people/faculty (chem.yonsei.ac.kr now hosts only the BK21 centre's participating faculty)."""
     out = []
-    for item in soup(html).select("div.team-item"):
-        name = text(item.select_one("h5"))
-        if not name:
+    for item in soup(html).select("li.faculty-list__item"):
+        strong = item.select_one("strong.faculty-list__name")
+        if not strong:
+            continue
+        pos_el = strong.select_one("span.faculty-list__position")
+        pos = text(pos_el)
+        if pos_el:
+            pos_el.extract()
+        name_ko, name_en = split_names(text(strong), None)
+        if not (name_ko or name_en):
             continue
         mail = item.select_one("a[href^='mailto:']")
-        home = item.select_one("a[href^='http']")
-        name_ko, name_en = split_names(name, None)
-        out.append({"name_ko": name_ko, "name_en": name_en, "position_raw": text(item.select_one("div.p-4 span")),
+        lab = item.select_one("a.faculty-list__laboratory[href]")
+        detail = item.select_one("a.faculty-list__link[href]")
+        out.append({"name_ko": name_ko, "name_en": name_en, "position_raw": pos,
                     "email": clean_email(mail["href"]) if mail else None,
-                    "homepage_url": abs_url(base_url, home["href"]) if home else None})
+                    "homepage_url": abs_url(base_url, lab["href"]) if lab else None,
+                    "lab_name": text(lab) if lab else None,
+                    "research_fields": [t for t in (text(x) for x in item.select("span.faculty-list__tag")) if t],
+                    "faculty_page_url": abs_url(base_url, detail["href"]) if detail else base_url})
     return out
 
 

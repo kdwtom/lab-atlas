@@ -109,6 +109,8 @@ def features(oa: OpenAlex, ctx: Context, m: dict, cand: dict, inst_id: str) -> F
     disc = config.DEPT_BY_CODE[m["dept"]].disc
     f = Features(openalex_id=aid, display_name=cand["display_name"], name_ok=cand["name_ok"],
                  affiliation_ok=cand["affiliation_ok"], field_share=cand["field_share"], anchor_hits=cand["anchor_hits"])
+    if not cand["name_ok"]:   # scored -1 whatever the papers say; skip the OpenAlex works download
+        return f
     colleagues = ctx.dept_ids.get(m["dept"], set()) - {aid}
     works = []
     for w, _ in oa.works_for_author(aid, config.YEAR_FROM):
@@ -315,11 +317,86 @@ def evaluate(client: CachedClient) -> None:
               f"to review={len(rs) - len(cert)}")
 
 
+# ------------------------------------------------------------------ resolve (new universities, S4)
+DECISIONS = config.PIPELINE_DIR / "curation" / "namesake_decisions.json"
+REVIEW = config.OUTPUT_DIR / "namesake_review.json"
+
+
+def resolve(client: CachedClient, univs: list[str]) -> None:
+    """Rule decision for every professor with candidates; the adjudicator for uncertain ones.
+
+    Accepted automatically: certain rule decisions and adjudicator answers with high or medium confidence
+    (user decision 2026-11-11). Low-confidence answers go to namesake_review.json for a person. Decisions that
+    differ from step 3's pick are written to curation/namesake_decisions.json, which step 3 applies below the
+    hand-made match_overrides.json.
+    """
+    import anthropic
+    ai = anthropic.Anthropic()   # key from local.env, loaded by config
+    oa = OpenAlex(client)
+    matches = read_json(config.OUTPUT_DIR / "matches.json")
+    ctx = Context(matches, read_jsonl(config.OUTPUT_DIR / "papers_raw.jsonl"))
+    inst = read_json(config.OUTPUT_DIR / "institutions.json")
+    fac = {f"{f['dept']}|{f['name_ko'] or f['name_en']}": f for f in read_json(config.OUTPUT_DIR / "faculty.json")}
+    hand = read_json(config.PIPELINE_DIR / "curation" / "match_overrides.json")
+    # professors whose candidates all fail the name check (step 3: name_mismatch) are left to step 3
+    todo = [m for m in matches if m["univ"] in univs and any(c["name_ok"] for c in m["candidates"])
+            and f"{m['dept']}|{m['name_ko'] or m['name_en']}" not in hand["force"] | hand["exclude"]]
+    force, exclude, review, usages, rows = {}, {}, [], [], []
+    # after a rerun of step 3, matches.json already carries earlier decisions, so "same as step 3" can mean
+    # "same as our own earlier decision": keep those entries instead of dropping them
+    old = read_json(DECISIONS) if DECISIONS.exists() else {"force": {}, "exclude": {}}
+    for n, m in enumerate(todo, 1):
+        key = f"{m['dept']}|{m['name_ko'] or m['name_en']}"
+        feats = [features(oa, ctx, m, c, inst[m["univ"]]["id"]) for c in m["candidates"]]
+        if not any(f.works_window > 0 for f in feats):
+            # nothing to tell namesakes apart by; step 3's pick stands and the selection step drops it for
+            # too few papers, as on the first six universities
+            continue
+        d = decide(feats)
+        source, final, conf, why = "rule", d.choice, "certain", d.reason
+        if not d.certain:
+            a = adjudicate(ai, m, fac.get(key), feats)
+            if not a["cached"]:
+                usages.append(a["usage"])
+            source, final, conf, why = "adjudicator", a["choice"], a["confidence"], a["reason"]
+        current = m["openalex_id"] if m["status"] == "matched" else None
+        row = {"key": key, "univ": m["univ"], "dept": m["dept"], "name_ko": m["name_ko"], "name_en": m["name_en"],
+               "faculty_page_url": m["faculty_page_url"], "research_fields": (fac.get(key) or {}).get("research_fields"),
+               "step3": current, "step3_reason": m.get("reason"), "rule": d.choice, "rule_certain": d.certain,
+               "source": source, "choice": final, "confidence": conf, "why": why,
+               "candidates": [vars(f) for f in sorted(feats, key=score, reverse=True) if f.works_window > 0][:8]}
+        rows.append(row)
+        if conf == "low":
+            review.append(row)
+        elif (final != current or (final and old["force"].get(key, {}).get("openalex_id") == final)
+              or (not final and key in old["exclude"])):
+            note = f"namesake system ({source}, {conf}): {why}"[:300]
+            if final:
+                force[key] = {"openalex_id": final, "note": note}
+            else:
+                exclude[key] = {"note": note}
+        if n % 25 == 0:
+            print(f"  {n}/{len(todo)} | calls {len(usages)} ${cost(usages):.2f}", file=sys.stderr, flush=True)
+    keep = lambda d: {k: v for k, v in d.items() if k.split("-", 1)[0] not in univs}  # noqa: E731
+    write_json(DECISIONS, {"_comment": "Automatic namesake decisions (pipeline/namesake.py resolve). Applied by step 3 "
+                                       "below match_overrides.json; low-confidence cases are not here but in "
+                                       "output/namesake_review.json.",
+                           "force": {**keep(old["force"]), **force}, "exclude": {**keep(old["exclude"]), **exclude}})
+    write_json(REVIEW, review)
+    write_json(config.OUTPUT_DIR / "namesake_resolve.json", rows)
+    by = Counter((r["source"], r["confidence"]) for r in rows)
+    print(f"professors with candidates {len(rows)}: " + ", ".join(f"{s}/{c} {v}" for (s, c), v in sorted(by.items())))
+    print(f"changed from step 3: force {len(force)}, exclude {len(exclude)}; for review {len(review)}")
+    print(f"adjudicator calls {len(usages)}, cost ${cost(usages):.2f}")
+
+
 if __name__ == "__main__":
     logging.basicConfig(level=logging.WARNING)
     sys.stdout.reconfigure(encoding="utf-8")
     if sys.argv[1:] == ["eval"]:
         evaluate(CachedClient())
+    elif sys.argv[1:2] == ["resolve"]:
+        resolve(CachedClient(), sys.argv[2].split(","))
     elif sys.argv[1:2] == ["pilot"]:
         pilot(sys.argv[2], int(sys.argv[3]) if len(sys.argv) > 3 else 10)
     else:

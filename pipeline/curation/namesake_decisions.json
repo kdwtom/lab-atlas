@@ -1,0 +1,242 @@
+{
+  "_comment": "Automatic namesake decisions (pipeline/namesake.py resolve). Applied by step 3 below match_overrides.json; low-confidence cases are not here but in output/namesake_review.json.",
+  "force": {
+    "yonsei-sysbio|신동혁": {
+      "openalex_id": "A5085715323",
+      "note": "namesake system (adjudicator, medium): C1 is a mixed profile. Several of its titles fit a systems biology department: OTUB1 bioPhosTAC, STK38-RIPK1 necroptosis, and XRCC4 O-GlcNAcylation. It also lists Yonsei and shares a paper with a department colleague. The other titles (membranes, gamma spectrom"
+    },
+    "yonsei-sysbio|조현수": {
+      "openalex_id": "A5103032803",
+      "note": "namesake system (rule, certain): field 0.61, coauthors in dept 1, home 23/23, margin 0.809"
+    },
+    "yonsei-sysbio|홍준영": {
+      "openalex_id": "A5037484762",
+      "note": "namesake system (adjudicator, medium): C3 holds coherent sirtuin and lysine fatty-acylation chemical biology work, consistent with a Lin-lab postdoc background. It also has recent Yonsei-style projects (Zbtb46, TRIM10) and the only co-authorship with a department colleague. C1 is a mixed profile spa"
+    },
+    "yonsei-biochem|김영준": {
+      "openalex_id": "A5100757885",
+      "note": "namesake system (rule, certain): field 0.71, coauthors in dept 2, home 21/22, margin 1.33"
+    },
+    "yonsei-biochem|오현정": {
+      "openalex_id": "A5108636739",
+      "note": "namesake system (adjudicator, high): C1's papers are on lncRNA gene regulation and Jpx/Xist chromatin architecture, which fits an RNA genome regulation lab in biochemistry. C2's papers are occupational and environmental medicine studies of firefighters and pesticide exposure, so C2 is a namesake."
+    },
+    "yonsei-biochem|홍승희": {
+      "openalex_id": "A5001041084",
+      "note": "namesake system (rule, certain): field 0.89, coauthors in dept 0, home 2/3, margin 1.089"
+    },
+    "yonsei-chem|김묘정": {
+      "openalex_id": "A5062553900",
+      "note": "namesake system (adjudicator, medium): Most of the titles fit organic reaction development and photocatalysis: copper-catalysed deaminative cyanation, sulfonamide synthesis via SO2 insertion, sulfonyl radical reactions, coumarin-based photocatalysts, and pyridine C–H alkylation. A few nursing papers"
+    },
+    "yonsei-chem|김병수": {
+      "openalex_id": "A5034945169",
+      "note": "namesake system (rule, certain): field 1.00, coauthors in dept 1, home 61/64, margin 1.699"
+    },
+    "yonsei-phys|김재훈": {
+      "openalex_id": "A5100347893",
+      "note": "namesake system (rule, certain): field 1.00, coauthors in dept 6, home 25/34, margin 1.69"
+    },
+    "yonsei-math|김준일": {
+      "openalex_id": "A5071720212",
+      "note": "namesake system (adjudicator, medium): All four C1 titles are harmonic analysis: maximal operators, Heisenberg group, and sublevel-set estimates, which exactly match the listed field. C2 also has two harmonic analysis papers, but it mixes in an economics paper on income mobility. That suggests C2 is"
+    },
+    "yonsei-cs|김대현": {
+      "openalex_id": "A5100374581",
+      "note": "namesake system (adjudicator, high): C3 (Dae Hyun Kim) has HCI, visualization and human-AI interaction papers, such as interactive SQL authoring, dimensionality reduction, UI design benchmarks and multimodal conversational search. These match the lab's research fields exactly. The other candidates' "
+    },
+    "yonsei-cs|김영석": {
+      "openalex_id": "A5088551237",
+      "note": "namesake system (rule, certain): field 1.00, coauthors in dept 8, home 34/35, margin 1.917"
+    },
+    "yonsei-cs|김지응": {
+      "openalex_id": "A5015256366",
+      "note": "namesake system (adjudicator, high): C1's titles are all on formal verification of distributed systems and system software, which matches the listed fields of programming language theory, formal verification and system software reliability. The name Jieung Kim also matches. C2 (Jieun Kim) works on m"
+    },
+    "yonsei-cs|이동하": {
+      "openalex_id": "A5071595184",
+      "note": "namesake system (rule, certain): field 1.00, coauthors in dept 15, home 30/48, margin 1.034"
+    },
+    "yonsei-cs|이종민": {
+      "openalex_id": "A5127821245",
+      "note": "namesake system (adjudicator, high): C2's titles are all reinforcement learning and sequential decision-making work, including the DICE offline RL line, value iteration and contextual bandits, which matches the professor's listed fields exactly. None of its papers list Yonsei, which is consistent wi"
+    },
+    "korea-life|고영규": {
+      "openalex_id": "A5019018250",
+      "note": "namesake system (rule, certain): field 1.00, coauthors in dept 7, home 12/12, margin 3.0"
+    },
+    "korea-life|Daniel Park": {
+      "openalex_id": "A5100613718",
+      "note": "namesake system (adjudicator, medium): Most of C1's recent titles fit plant diversity, ecology and evolution: thistle defence traits, the BIEN plant observation platform, spring ephemeral pollination, and biodiversity informatics. That matches the faculty page, and five papers list Korea University."
+    },
+    "korea-chem|이상원": {
+      "openalex_id": "A5100444708",
+      "note": "namesake system (adjudicator, medium): C1 includes a deep-proteomics mass spectrometry paper, which matches the known analytical/biological chemistry work of Korea University's Sang-Won Lee. It also has the only coauthorship with department colleagues. The profile is mixed with namesake papers, thou"
+    },
+    "korea-chem|이진우": {
+      "openalex_id": "A5100406460",
+      "note": "namesake system (adjudicator, medium): C1's papers are coherent polymer and energy chemistry work: organic photovoltaics, polymer semiconductors, mixed conductors and Li–S batteries. This fits the Polymer and Energy fields, and the profile has links to department colleagues. C2 is a mixed profile sp"
+    },
+    "korea-phys|김동하": {
+      "openalex_id": "A5101665884",
+      "note": "namesake system (adjudicator, high): C1's titles fit spatiotemporal photonics directly: space-time wave packets, optical vortices, nondiffracting beams, and metasurfaces. Four of its papers list Korea University. C2's papers are chemistry and electrocatalysis work (zinc batteries, hydrogen evolution"
+    },
+    "korea-phys|김민혁": {
+      "openalex_id": "A5080075819",
+      "note": "namesake system (adjudicator, high): C1 carries the main body of Rydberg-atom and neutral-atom quantum computing work, with 7 papers listing Korea University, which matches the listed fields exactly. One stray medical-AI title is probably a mis-attribution. C2 is a single-paper fragment of the same "
+    },
+    "korea-phys|유재혁": {
+      "openalex_id": "A5151735922",
+      "note": "namesake system (adjudicator, medium): C1 and C2 both look like this professor. C1 holds 19 CMS collaboration papers on searches beyond the standard model, which fits his CMS SUSY work, and it shares 16 papers with department colleagues. C2 is smaller but clearly the same person: it lists Korea Univ"
+    },
+    "korea-phys|이동헌": {
+      "openalex_id": "A5100348876",
+      "note": "namesake system (adjudicator, high): C1's titles are about NV-based scanning magnetometry, diamond quantum microscopy, and diamond mechanical oscillators coupled to NV centers. These match the listed research fields exactly. C2's papers are deep learning applied to seismology and pathology, which po"
+    },
+    "korea-phys|정재호": {
+      "openalex_id": "A5057989257",
+      "note": "namesake system (rule, certain): field 1.00, coauthors in dept 0, home 5/5, margin 0.833"
+    },
+    "korea-phys|홍병식": {
+      "openalex_id": "A5151800820",
+      "note": "namesake system (rule, certain): field 1.00, coauthors in dept 23, home 0/25, margin 2.0"
+    },
+    "korea-phys|홍석철": {
+      "openalex_id": "A5017143532",
+      "note": "namesake system (rule, certain): field 0.33, coauthors in dept 0, home 9/9, margin 1.23"
+    },
+    "korea-math|김경훈": {
+      "openalex_id": "A5056956197",
+      "note": "namesake system (adjudicator, medium): Both profiles contain genuine PDE/SPDE work by Kyeong-Hun Kim, the Korea University mathematician. C1 is larger (11 papers) and has more of the core titles: weighted Sobolev theory, time-fractional SPDEs and the trace theorem. It also links to a department coll"
+    },
+    "korea-math|이동헌": {
+      "openalex_id": "A5100348868",
+      "note": "namesake system (adjudicator, medium): C1's titles are deep learning and ML-methods papers (functional neural networks, training dynamics, GANs) applied across domains, which fits an AI/RL mathematician. C2's papers are NV-center quantum sensing physics, so C2 is a namesake physicist at the same uni"
+    },
+    "korea-math|한창호": {
+      "openalex_id": "A5132944602",
+      "note": "namesake system (adjudicator, medium): C2's only paper, on counting isogenies of elliptic curves, is arithmetic geometry, which fits a math professor working in algebraic geometry. C1 is a mechanical/energy engineer working on heat pumps and hydrogen refueling, so it is a namesake despite its high d"
+    },
+    "korea-cs|김영근": {
+      "openalex_id": "A5101854550",
+      "note": "namesake system (rule, certain): field 1.00, coauthors in dept 4, home 15/18, margin 0.933"
+    },
+    "korea-cs|민성기": {
+      "openalex_id": "A5012942201",
+      "note": "namesake system (adjudicator, high): The lab is a high-speed communications lab, and C1's papers are on vehicular IPv6 mobility management and networking, which fits a computer science networking professor. C1 also has co-authors from the department. C2's papers are on civil and structural engineeri"
+    },
+    "korea-cs|이상민": {
+      "openalex_id": "A5100319637",
+      "note": "namesake system (adjudicator, medium): C1's papers are CS: UAV networks, reinforcement-learning routing, GANs, and vehicular localization. Nine of its ten papers list Korea University. C2 is a counseling psychologist. C4–C8 are mixed or mostly another discipline (materials, devices, physics) and rar"
+    },
+    "skku-life|김지연": {
+      "openalex_id": "A5076121426",
+      "note": "namesake system (adjudicator, medium): C1 and C2 are breast oncology clinicians, most likely at Samsung Medical Center, not a life science department. C3's plant biology papers (Arabidopsis vascular cell identity, SWEET transporters) fit a life science professor, though the profile also mixes in pha"
+    },
+    "skku-life|김진섭": {
+      "openalex_id": "A5031766745",
+      "note": "namesake system (rule, certain): field 1.00, coauthors in dept 0, home 6/7, margin 0.847"
+    },
+    "skku-chem|강도형": {
+      "openalex_id": "A5084684658",
+      "note": "namesake system (adjudicator, high): C2's titles are on ultrafast time-resolved photoelectron spectroscopy and anion dynamics. That matches the professor's physical chemistry field (spectroscopy and dynamics) and the ultrafast electron dynamics lab. C1's titles are on electric motor design, so C1 is"
+    },
+    "skku-chem|고영민": {
+      "openalex_id": "A5010802792",
+      "note": "namesake system (adjudicator, high): The lab works on electrochemical interfaces and energy materials, and the listed fields are analytical chemistry and battery chemistry. C2's titles fit this directly: silicon anodes, electrolytes, solid-state batteries and lithium-rich cathodes. The low share of "
+    },
+    "skku-chem|이동기": {
+      "openalex_id": "A5102827176",
+      "note": "namesake system (adjudicator, high): C1's papers are on asymmetric and cell-penetrating siRNA, which fits a biochemistry professor; Dong-ki Lee at SKKU Chemistry is known for asiRNA work. Six of its eight papers list SKKU. C2 is an electrocatalysis and CO2-reduction researcher with only one SKKU aff"
+    },
+    "skku-phys|강대준": {
+      "openalex_id": "A5061505485",
+      "note": "namesake system (rule, certain): field 1.00, coauthors in dept 1, home 53/54, margin 0.842"
+    },
+    "skku-math|김승원": {
+      "openalex_id": "A5024657958",
+      "note": "namesake system (adjudicator, medium): C1's papers are on plastic waste pyrolysis, catalysis and environmental engineering, so it is a namesake from chemical or environmental engineering. C2's only paper is in low-dimensional topology (splitting spheres for a split link in S^4), which fits a mathema"
+    },
+    "skku-math|박정형": {
+      "openalex_id": "A5029711635",
+      "note": "namesake system (adjudicator, high): C1's papers are all differential geometry: weakly Einstein manifolds, harmonic spaces, and Einstein hypersurfaces. That matches a geometry professor in the math department. C2 works on engineering and health topics, and C3 on media research, so both are namesakes"
+    },
+    "skku-cs|박진영": {
+      "openalex_id": "A5044635661",
+      "note": "namesake system (rule, certain): field 0.38, coauthors in dept 5, home 37/44, margin 1.12"
+    },
+    "skku-cs|정재훈": {
+      "openalex_id": "A5101067640",
+      "note": "namesake system (adjudicator, medium): C1 'Jaehoon Jeong' contains IoT networking work, such as NB-IoT over non-terrestrial networks, that fits the IoT lab, and 76% of its papers fall in the department's discipline. The profile also mixes in namesake papers on perovskites, plant biology and coatings"
+    },
+    "hanyang-life|이원철": {
+      "openalex_id": "A5126100531",
+      "note": "namesake system (adjudicator, medium): The one recent title is a copepod taxonomy paper (Porcellidiidae, Harpacticoida), which fits a life science department. The profile lists Hanyang, and the romanization 'Wonchoel' is unusual and matches exactly. Wonchoel Lee at Hanyang is a known copepod taxonom"
+    },
+    "hanyang-life|이경민": {
+      "openalex_id": "A5045163758",
+      "note": "namesake system (rule, certain): field 0.80, coauthors in dept 6, home 11/16, margin 1.359"
+    },
+    "hanyang-life|박범수": {
+      "openalex_id": "A5033393093",
+      "note": "namesake system (rule, certain): field 0.14, coauthors in dept 0, home 22/28, margin 0.931"
+    },
+    "hanyang-life|Ivana Karanovic": {
+      "openalex_id": "A5013108380",
+      "note": "namesake system (adjudicator, high): C1's titles are ostracod and crustacean taxonomy, which fits a life sciences professor (Ivana Karanovic is a known ostracod taxonomist at Hanyang), and 10 of its 11 papers list this university. C2 is a single-paper fragment with no Hanyang affiliation."
+    },
+    "hanyang-life|김백호": {
+      "openalex_id": "A5082589395",
+      "note": "namesake system (rule, certain): field 0.19, coauthors in dept 1, home 22/27, margin 1.204"
+    },
+    "hanyang-chem|손대원": {
+      "openalex_id": "A5003192163",
+      "note": "namesake system (rule, certain): field 0.27, coauthors in dept 2, home 25/30, margin 1.506"
+    },
+    "hanyang-chem|김민경": {
+      "openalex_id": "A5126432435",
+      "note": "namesake system (adjudicator, medium): The faculty page lists environmental chemical engineering, and C1's titles fit that best. They cover biodegradable microspheres, oil–water separation membranes, cellulose nanofiber and ZIF-8 membranes, and aerosol measurements. C1 also has the highest share of "
+    },
+    "hanyang-phys|김선우": {
+      "openalex_id": "A5100702614",
+      "note": "namesake system (adjudicator, high): C2's papers are condensed-matter physics (kagome metals, charge density waves, phonons, quantum geometry), which fits a physics department. It also has co-authors from the department. C1 is a radar and wireless communications engineer, a namesake in electrical en"
+    },
+    "hanyang-phys|김태정": {
+      "openalex_id": "A5068632927",
+      "note": "namesake system (adjudicator, medium): Tae Jeong Kim at Hanyang Physics is a CMS experimental particle physicist. C1 holds his CMS RPC detector work and lists Hanyang on 10 papers, so it carries his main body of work. C2 is also CMS physics papers, but it lists no Hanyang affiliation, so it is likel"
+    },
+    "hanyang-math|김승혁": {
+      "openalex_id": "A5000509319",
+      "note": "namesake system (adjudicator, high): C2's titles are squarely PDE and geometric analysis: Brezis-Nirenberg stability, the Yamabe flow, fractional conformal Laplacians and the Lane-Emden system. That matches the listed fields of 편미분방정식 and 기하해석학. C1 publishes on RF circuits and C3 on battery material"
+    },
+    "hanyang-math|정진욱": {
+      "openalex_id": "A5053474905",
+      "note": "namesake system (adjudicator, high): C2's titles are on Vlasov–Fokker–Planck, Navier–Stokes and Euler systems, which matches the listed fields of kinetic and fluid equations. Its few non-math titles look like merged namesake papers. C1's papers are plasma physics and engineering, so it is a differen"
+    },
+    "hanyang-cs|노영균": {
+      "openalex_id": "A5021287644",
+      "note": "namesake system (adjudicator, medium): Both profiles carry the distinctive name 'Yung-Kyun Noh' and look like the same Hanyang CS machine-learning researcher. C2 holds his ML theory papers but is only a 3-paper fragment. C1 is the main body of work: 40 papers, 34 listing Hanyang, mostly deep-learnin"
+    },
+    "hanyang-cs|백은옥": {
+      "openalex_id": "A5082966786",
+      "note": "namesake system (rule, certain): field 0.00, coauthors in dept 1, home 15/15, margin 1.2"
+    },
+    "sogang-life|김성룡": {
+      "openalex_id": "A5103136352",
+      "note": "namesake system (rule, certain): field 1.00, coauthors in dept 0, home 2/2, margin 1.2"
+    },
+    "sogang-life|허진영": {
+      "openalex_id": "A5073852259",
+      "note": "namesake system (adjudicator, high): The C1 titles fit metabolic disease, energy metabolism and inflammation closely: adipocyte biology, MASH, macrophages in obesity, and iNKT cells. Eight of its 14 recent papers list Sogang University. No department-colleague overlap was found, but the subject matc"
+    },
+    "sogang-cs|이혁준": {
+      "openalex_id": "A5001698754",
+      "note": "namesake system (adjudicator, medium): C1 is a merged profile. Two of its titles are computer architecture work: MRAM-based memory for on-device DNN inference and an MRAM packet buffer. These match an intelligent computer architecture and embedded computing lab. The other titles (animal science, geo"
+    }
+  },
+  "exclude": {
+    "yonsei-sysbio|이상화": {
+      "note": "namesake system (adjudicator, medium): C1 is a mixed profile made up mostly of metallurgy papers (high-entropy alloys, Al alloys), with unrelated webtoon and sexual self-efficacy papers alongside. None of the titles fit a Systems Biology department. Only one paper lists Yonsei, and no department col"
+    }
+  }
+}
