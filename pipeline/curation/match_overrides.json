@@ -45,7 +45,11 @@
     "snu-math|오정석": {"openalex_id": "A5019814714", "note": "algebraic geometry; the other profile is mostly engineering"},
     "snu-cs|이상구": {"openalex_id": "A5102802605", "note": "recommender systems and language models; the other candidate is a smaller, partly mixed profile"},
     "snu-cs|이재욱": {"openalex_id": "A5100415731", "note": "computer systems at SNU; the other profile is a merged namesake in biomass research"},
-    "snu-cs|이재진": {"openalex_id": "A5100767182", "note": "parallel computing and GPU systems at SNU, under the same name spelling"}
+    "snu-cs|이재진": {"openalex_id": "A5100767182", "note": "parallel computing and GPU systems at SNU, under the same name spelling"},
+    "yonsei-phys|이충만": {"openalex_id": "A5087591431", "note": "phase 3 namesake review by the user (2026-11-17): adjudicator's low-confidence pick confirmed"},
+    "korea-cs|김세연": {"openalex_id": "A5066488450", "note": "phase 3 namesake review by the user (2026-11-17): adjudicator's low-confidence pick confirmed"},
+    "korea-cs|정순영": {"openalex_id": "A5043500102", "note": "phase 3 namesake review by the user (2026-11-17): adjudicator's low-confidence pick confirmed"},
+    "skku-chem|김인호": {"openalex_id": "A5100783618", "note": "phase 3 namesake review by the user (2026-11-17): adjudicator's low-confidence pick confirmed"}
   },
   "exclude": {
     "postech-math|김민성": {"note": "candidates are photoacoustic/power or plant namesakes; the faculty page's dynamics paper has only a 1-work profile"},
@@ -55,6 +59,11 @@
     "snu-cs|김태수": {"note": "the candidate writes on Daoist and Buddhist philosophy, a different person"},
     "kaist-math|김동환": {"note": "optimization researcher; the bioprinting pick is a namesake and the optimization-topic profile lists only unrelated recent papers (airline service, concrete, ship fuel)"},
     "snu-chem|김상민": {"note": "researches novel chemical bonds; no candidate has such papers"},
-    "snu-chem|김예진": {"note": "researches ultrafast electron dynamics; no candidate has such papers"}
+    "snu-chem|김예진": {"note": "researches ultrafast electron dynamics; no candidate has such papers"},
+    "yonsei-phys|이승주": {"note": "phase 3 namesake review by the user (2026-11-17): no candidate profile is this professor"},
+    "korea-cs|김정현": {"note": "phase 3 namesake review by the user (2026-11-17): no candidate profile is this professor"},
+    "korea-cs|박성빈": {"note": "phase 3 namesake review by the user (2026-11-17): no candidate profile is this professor"},
+    "hanyang-phys|이창민": {"note": "phase 3 namesake review by the user (2026-11-17): no candidate profile is this professor"},
+    "sogang-life|정수진": {"note": "phase 3 namesake review by the user (2026-11-17): no candidate profile is this professor"}
   }
 }

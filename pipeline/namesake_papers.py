@@ -28,6 +28,7 @@ from .namesake import ADJ_MODEL, cost
 log = logging.getLogger(__name__)
 
 OUTLIER_PCT = 10        # papers below this percentile of medoid similarity (over all labs) are outliers
+OUTLIER_CUT = 0.6375    # that percentile on the six original universities (2026-11-11)
 SUSPECT_SHARE = 0.3     # labs with at least this share of outliers go to the adjudicator
 CACHE = config.CACHE_DIR / "adjudicator_papers"
 
@@ -54,7 +55,9 @@ def screen() -> list[dict]:
     papers = lab_papers(lab_dept)
     vec = embed([p for ps in papers.values() for p in ps])
     sims = {lid: medoid_similarity(np.stack([vec[p["id"]] for p in ps])) for lid, ps in papers.items() if len(ps) >= 3}
-    cut = float(np.percentile(np.concatenate(list(sims.values())), OUTLIER_PCT))
+    # the cut measured on the six original universities (their 10th percentile); kept fixed so adding
+    # universities does not move the threshold the evaluation was done with
+    cut = OUTLIER_CUT
     rows = []
     for lid, s in sims.items():
         out = s < cut
@@ -62,7 +65,8 @@ def screen() -> list[dict]:
         order = np.argsort(-s)
         rows.append({"lab_id": lid, "dept": lab_dept[lid], "papers": len(ps), "outlier_share": round(float(out.mean()), 3),
                      "core": [ps[i]["title"] for i in order[:8]],
-                     "outliers": [{"id": ps[i]["id"], "title": ps[i]["title"], "venue": ps[i].get("venue")}
+                     "outliers": [{"id": ps[i]["id"], "title": ps[i]["title"], "venue": ps[i].get("venue"),
+                                   "sim": round(float(s[i]), 3)}
                                   for i in order[::-1] if out[i]][:12]})
     rows.sort(key=lambda r: -r["outlier_share"])
     suspects = [r for r in rows if r["outlier_share"] >= SUSPECT_SHARE]
@@ -159,11 +163,62 @@ def pilot(limit: int) -> None:
           f"cost ${cost(usages):.3f}")
 
 
+def apply(univs: list[str]) -> None:
+    """Adjudicate the suspects of the given universities and add the named foreign papers to
+    curation/excluded_papers.csv (step 4 drops them on its next run). "unclear" verdicts and labs where most
+    outliers are foreign go to output/namesake_paper_review.json instead."""
+    import csv
+
+    import anthropic
+    ai = anthropic.Anthropic()   # key from local.env, loaded by config
+    data = read_json(config.OUTPUT_DIR / "namesake_paper_suspects.json")
+    matches = read_json(config.OUTPUT_DIR / "matches.json")
+    by_lab = {f"{m['univ']}-{m['openalex_id']}": m for m in matches if m["status"] == "matched"}
+    fac = {f"{f['dept']}|{f['name_ko'] or f['name_en']}": f for f in read_json(config.OUTPUT_DIR / "faculty.json")}
+    path = config.PIPELINE_DIR / "curation" / "excluded_papers.csv"
+    with path.open(encoding="utf-8-sig") as f:
+        existing = list(csv.DictReader(f))
+    have = {(r["lab_id"], r["paper_id"]) for r in existing}
+    added, review, usages, verdicts = [], [], [], defaultdict(int)
+    for r in data["suspects"]:
+        if r["lab_id"].split("-", 1)[0] not in univs:
+            continue
+        m = by_lab.get(r["lab_id"])
+        if not m:
+            continue
+        a = adjudicate(ai, r, fac.get(f"{m['dept']}|{m['name_ko'] or m['name_en']}"))
+        if not a["cached"]:
+            usages.append(a["usage"])
+        verdicts[a["verdict"]] += 1
+        if a["verdict"] == "unclear":
+            review.append({**r, **a})
+            continue
+        title = {o["id"]: o for o in r["outliers"]}
+        for pid in a["foreign"]:
+            if (r["lab_id"], pid) in have:
+                continue
+            o = title[pid]
+            added.append({"lab_id": r["lab_id"], "paper_id": pid, "pi_name": m["name_ko"] or m["name_en"],
+                          "title": o["title"], "cosine": o.get("sim", ""),
+                          "reason": f"namesake (adjudicator, phase 3): {a['reason'][:200]}"})
+            have.add((r["lab_id"], pid))
+    with path.open("w", encoding="utf-8-sig", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=["lab_id", "paper_id", "pi_name", "title", "cosine", "reason"])
+        w.writeheader()
+        w.writerows(existing + added)
+    write_json(config.OUTPUT_DIR / "namesake_paper_review.json", review)
+    print(f"verdicts: {dict(verdicts)}; foreign papers added {len(added)} in "
+          f"{len({x['lab_id'] for x in added})} labs; unclear for review {len(review)}")
+    print(f"adjudicator calls {len(usages)}, cost ${cost(usages):.2f}")
+
+
 if __name__ == "__main__":
     logging.basicConfig(level=logging.WARNING)
     sys.stdout.reconfigure(encoding="utf-8")
     if sys.argv[1:] == ["screen"]:
         report_screen(screen())
+    elif sys.argv[1:2] == ["apply"]:
+        apply(sys.argv[2].split(","))
     elif sys.argv[1:2] == ["pilot"]:
         pilot(int(sys.argv[2]) if len(sys.argv) > 2 else 10)
     else:
