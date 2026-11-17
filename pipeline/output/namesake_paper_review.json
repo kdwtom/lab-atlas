@@ -1,0 +1,43 @@
+[
+  {
+    "lab_id": "skku-A5100783618",
+    "dept": "skku-chem",
+    "papers": 5,
+    "outlier_share": 0.6,
+    "core": [
+      "Strategic Design of Soft Actuators in Translational Medical Robotics for Human‐Centered Healthcare",
+      "Hydrocolloid-based OLED patch for enhanced wound-care photobiomodulation with wet-dressing",
+      "Forward Osmotic Pressure-Free (△π≤0) Reverse Osmosis and Osmotic Pressure Approximation of Concentrated NaCl Solutions",
+      "Environmental life cycle assessment of renewable starch alternative plastic: a comparative analysis of end-of-life scenarios in the Republic of Korea",
+      "Analysis Method of Volatile Sulfur Compounds Utilizing Separation Column and Metal Oxide Semiconductor Gas Sensor"
+    ],
+    "outliers": [
+      {
+        "id": "W4399814838",
+        "title": "Analysis Method of Volatile Sulfur Compounds Utilizing Separation Column and Metal Oxide Semiconductor Gas Sensor",
+        "venue": "Journal of Sensor Science and Technology",
+        "sim": 0.451
+      },
+      {
+        "id": "W4412432977",
+        "title": "Environmental life cycle assessment of renewable starch alternative plastic: a comparative analysis of end-of-life scenarios in the Republic of Korea",
+        "venue": "Journal of Cleaner Production",
+        "sim": 0.523
+      },
+      {
+        "id": "W4296359114",
+        "title": "Forward Osmotic Pressure-Free (△π≤0) Reverse Osmosis and Osmotic Pressure Approximation of Concentrated NaCl Solutions",
+        "venue": "Membrane Journal",
+        "sim": 0.57
+      }
+    ],
+    "verdict": "unclear",
+    "reason": "The listed papers (VOC gas sensing, starch plastic life-cycle assessment, reverse-osmosis theory) are not core soft-actuator or OLED-patch work. Each could still plausibly come from a physical/polymer chemist doing side projects, or from a namesake in chemical or environmental engineering. With so few papers, the profile can't be reliably split.",
+    "foreign": [],
+    "usage": {
+      "input": 1134,
+      "output": 416
+    },
+    "cached": false
+  }
+]

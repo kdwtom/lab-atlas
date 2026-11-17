@@ -133,7 +133,7 @@
     ],
     "early_papers": 12,
     "recent_papers": 10,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0687,
     "p_value": 0.0254,
     "emerging_topics": [
@@ -145,6 +145,27 @@
       "Advanced biosensing and bioanalysis techniques",
       "Supramolecular Self-Assembly in Materials",
       "Gold and Silver Nanoparticles Synthesis and Applications"
+    ],
+    "toward_lab_ids": [
+      "dgist-A5051640018",
+      "skku-A5079695818",
+      "korea-A5069460253",
+      "hanyang-A5033670362",
+      "dgist-A5047491735"
+    ],
+    "early_xy": [
+      -0.34564,
+      0.00725
+    ],
+    "recent_xy": [
+      -0.44205,
+      0.10391
+    ],
+    "toward_subcluster_id": 35,
+    "away_subcluster_id": 23,
+    "toward_xy": [
+      -0.50997,
+      0.1922
     ]
   },
   "kaist-A5062127128": {
@@ -282,7 +303,7 @@
     ],
     "early_papers": 7,
     "recent_papers": 8,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.1318,
     "p_value": 0.014,
     "emerging_topics": [
@@ -293,6 +314,24 @@
     "fading_topics": [
       "Adipose Tissue and Metabolism",
       "Hippo pathway signaling and YAP/TAZ"
+    ],
+    "toward_lab_ids": [
+      "yonsei-A5100757885",
+      "hanyang-A5068700705",
+      "gist-A5071676695"
+    ],
+    "early_xy": [
+      -0.09128,
+      -0.30782
+    ],
+    "recent_xy": [
+      -0.06824,
+      -0.31289
+    ],
+    "away_subcluster_id": 5,
+    "toward_xy": [
+      -0.07718,
+      -0.35507
     ]
   },
   "kaist-A5038871139": {
@@ -758,7 +797,7 @@
     ],
     "early_papers": 8,
     "recent_papers": 17,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0449,
     "p_value": 0.0151,
     "emerging_topics": [
@@ -770,6 +809,27 @@
       "Plant and animal studies",
       "Lepidoptera: Biology and Taxonomy",
       "Forest Insect Ecology and Management"
+    ],
+    "toward_lab_ids": [
+      "gist-A5100757887",
+      "skku-A5039577998",
+      "snu-A5100418710",
+      "snu-A5100366248",
+      "unist-A5068286820"
+    ],
+    "early_xy": [
+      -0.33015,
+      -0.40303
+    ],
+    "recent_xy": [
+      -0.33319,
+      -0.3977
+    ],
+    "toward_subcluster_id": 56,
+    "away_subcluster_id": 66,
+    "toward_xy": [
+      -0.06006,
+      -0.19404
     ]
   },
   "snu-A5020003410": {
@@ -836,25 +896,25 @@
       "Algal biology and biofuel production"
     ],
     "toward_lab_ids": [
-      "snu-A5100364611",
       "snu-A5073424725",
+      "korea-A5036282573",
       "kaist-A5102961870",
       "snu-A5057696830",
       "dgist-A5083518122"
     ],
     "early_xy": [
-      0.41285,
-      -0.68705
+      -0.36278,
+      -0.52447
     ],
     "recent_xy": [
-      0.40387,
-      -0.6727
+      -0.36331,
+      -0.5194
     ],
-    "toward_subcluster_id": 39,
+    "toward_subcluster_id": 66,
     "away_subcluster_id": 14,
     "toward_xy": [
-      0.36574,
-      -0.64032
+      -0.35332,
+      -0.50522
     ]
   },
   "snu-A5100364611": {
@@ -2808,25 +2868,25 @@
       "Advanced Image and Video Retrieval Techniques"
     ],
     "toward_lab_ids": [
-      "kaist-A5137335070",
-      "snu-A5012388103",
-      "postech-A5102012499",
+      "sogang-A5080385405",
+      "korea-A5061842716",
       "snu-A5114626700",
-      "snu-A5036077761"
+      "hanyang-A5016424347",
+      "yonsei-A5041516963"
     ],
     "early_xy": [
-      0.5517,
-      0.05339
+      0.5143,
+      -0.21667
     ],
     "recent_xy": [
-      0.56561,
-      0.03795
+      0.51873,
+      -0.25131
     ],
-    "toward_subcluster_id": 38,
-    "away_subcluster_id": 24,
+    "toward_subcluster_id": 30,
+    "away_subcluster_id": 51,
     "toward_xy": [
-      0.55798,
-      0.13735
+      0.53587,
+      -0.2317
     ]
   },
   "postech-A5086283693": {
@@ -2899,7 +2959,7 @@
     ],
     "early_papers": 4,
     "recent_papers": 9,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.075,
     "p_value": 0.0145,
     "emerging_topics": [
@@ -2908,6 +2968,27 @@
     ],
     "fading_topics": [
       "Advanced Combinatorial Mathematics"
+    ],
+    "toward_lab_ids": [
+      "kaist-A5100354947",
+      "snu-A5080242645",
+      "yonsei-A5102493933",
+      "kaist-A5100347881",
+      "gist-A5100615032"
+    ],
+    "early_xy": [
+      0.36084,
+      0.19203
+    ],
+    "recent_xy": [
+      0.39038,
+      0.17845
+    ],
+    "toward_subcluster_id": 49,
+    "away_subcluster_id": 9,
+    "toward_xy": [
+      0.39047,
+      0.17713
     ]
   },
   "postech-A5101408509": {
@@ -3094,7 +3175,7 @@
     ],
     "early_papers": 9,
     "recent_papers": 6,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.079,
     "p_value": 0.0194,
     "emerging_topics": [
@@ -3106,6 +3187,27 @@
       "Radiation Detection and Scintillator Technologies",
       "Photochromic and Fluorescence Chemistry",
       "Luminescence and Fluorescent Materials"
+    ],
+    "toward_lab_ids": [
+      "snu-A5100755766",
+      "snu-A5063669156",
+      "postech-A5100359395",
+      "dgist-A5071338997",
+      "sogang-A5032249659"
+    ],
+    "early_xy": [
+      -0.39067,
+      0.15411
+    ],
+    "recent_xy": [
+      -0.28933,
+      0.27666
+    ],
+    "toward_subcluster_id": 48,
+    "away_subcluster_id": 34,
+    "toward_xy": [
+      -0.30859,
+      0.33298
     ]
   },
   "unist-A5062645264": {
@@ -3305,7 +3407,7 @@
     ],
     "early_papers": 19,
     "recent_papers": 19,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0355,
     "p_value": 0.0177,
     "emerging_topics": [
@@ -3317,6 +3419,27 @@
       "Advanced Battery Materials and Technologies",
       "Conducting polymers and applications",
       "Supercapacitor Materials and Fabrication"
+    ],
+    "toward_lab_ids": [
+      "hanyang-A5089218042",
+      "skku-A5052141994",
+      "skku-A5006114292",
+      "gist-A5009338048",
+      "postech-A5025254146"
+    ],
+    "early_xy": [
+      -0.60162,
+      0.16869
+    ],
+    "recent_xy": [
+      -0.54675,
+      0.24576
+    ],
+    "toward_subcluster_id": 27,
+    "away_subcluster_id": 16,
+    "toward_xy": [
+      -0.5033,
+      0.2965
     ]
   },
   "unist-A5087895403": {
@@ -3330,7 +3453,7 @@
     ],
     "early_papers": 14,
     "recent_papers": 23,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.032,
     "p_value": 0.0264,
     "emerging_topics": [
@@ -3340,6 +3463,26 @@
     ],
     "fading_topics": [
       "Catalytic Cross-Coupling Reactions"
+    ],
+    "toward_lab_ids": [
+      "snu-A5003116915",
+      "snu-A5044961635",
+      "kaist-A5059653088",
+      "snu-A5019985343",
+      "snu-A5039312032"
+    ],
+    "early_xy": [
+      -0.46045,
+      0.00739
+    ],
+    "recent_xy": [
+      -0.41075,
+      -0.03925
+    ],
+    "away_subcluster_id": 43,
+    "toward_xy": [
+      -0.27619,
+      -0.17522
     ]
   },
   "unist-A5068268441": {
@@ -3438,7 +3581,7 @@
     ],
     "early_papers": 8,
     "recent_papers": 4,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.103,
     "p_value": 0.0169,
     "emerging_topics": [
@@ -3450,6 +3593,27 @@
       "Laser-Plasma Interactions and Diagnostics",
       "Astrophysics and Cosmic Phenomena",
       "Astrophysics and Star Formation Studies"
+    ],
+    "toward_lab_ids": [
+      "skku-A5012042206",
+      "postech-A5102012499",
+      "unist-A5039238470",
+      "kaist-A5101743347",
+      "korea-A5100698865"
+    ],
+    "early_xy": [
+      -0.02887,
+      0.23035
+    ],
+    "recent_xy": [
+      -0.00638,
+      0.23863
+    ],
+    "toward_subcluster_id": 63,
+    "away_subcluster_id": 10,
+    "toward_xy": [
+      0.12474,
+      0.11877
     ]
   },
   "unist-A5044742844": {
@@ -3643,7 +3807,7 @@
     ],
     "early_papers": 5,
     "recent_papers": 9,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0987,
     "p_value": 0.0181,
     "emerging_topics": [
@@ -3654,6 +3818,26 @@
     "fading_topics": [
       "Nanofluid Flow and Heat Transfer",
       "Heat and Mass Transfer in Porous Media"
+    ],
+    "toward_lab_ids": [
+      "korea-A5101514247",
+      "korea-A5111650287",
+      "korea-A5056956197",
+      "postech-A5101396625",
+      "sogang-A5056888396"
+    ],
+    "early_xy": [
+      0.18826,
+      0.08049
+    ],
+    "recent_xy": [
+      0.20827,
+      0.07799
+    ],
+    "toward_subcluster_id": 12,
+    "toward_xy": [
+      0.20459,
+      0.13676
     ]
   },
   "unist-A5023336468": {
@@ -3719,7 +3903,7 @@
     ],
     "early_papers": 8,
     "recent_papers": 10,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0846,
     "p_value": 0.0252,
     "emerging_topics": [
@@ -3731,6 +3915,27 @@
       "Cryptography and Data Security",
       "Cryptographic Implementations and Security",
       "Logic, programming, and type systems"
+    ],
+    "toward_lab_ids": [
+      "unist-A5009308931",
+      "kaist-A5070401254",
+      "korea-A5067772621",
+      "kaist-A5071661688",
+      "kaist-A5046980238"
+    ],
+    "early_xy": [
+      0.92071,
+      -0.172
+    ],
+    "recent_xy": [
+      0.87125,
+      -0.25834
+    ],
+    "toward_subcluster_id": 37,
+    "away_subcluster_id": 58,
+    "toward_xy": [
+      0.88646,
+      -0.3559
     ]
   },
   "unist-A5071289684": {
@@ -3810,23 +4015,23 @@
     ],
     "toward_lab_ids": [
       "postech-A5018699270",
+      "sogang-A5101902737",
       "snu-A5091055050",
       "snu-A5100608258",
-      "kaist-A5023660115",
-      "postech-A5060796492"
+      "kaist-A5023660115"
     ],
     "early_xy": [
-      -0.09446,
-      -0.49413
+      -0.11881,
+      -0.13872
     ],
     "recent_xy": [
-      -0.15749,
-      -0.34461
+      -0.23097,
+      -0.14327
     ],
-    "toward_subcluster_id": 28,
+    "toward_subcluster_id": 53,
     "toward_xy": [
-      -0.179,
-      -0.2477
+      -0.30439,
+      -0.13897
     ]
   },
   "kaist-A5038403149": {
@@ -3912,21 +4117,20 @@
       "Advanced Synthetic Organic Chemistry"
     ],
     "toward_lab_ids": [
-      "unist-A5087895403"
+      "hanyang-A5100388383"
     ],
     "early_xy": [
-      -0.95999,
-      -0.29912
+      -0.78679,
+      -0.12998
     ],
     "recent_xy": [
-      -0.93999,
-      -0.28527
+      -0.75128,
+      -0.11701
     ],
-    "toward_subcluster_id": 28,
-    "away_subcluster_id": 32,
+    "away_subcluster_id": 21,
     "toward_xy": [
-      -0.30503,
-      -0.25395
+      -0.68184,
+      -0.04814
     ]
   },
   "kaist-A5100388376": {
@@ -3956,22 +4160,23 @@
     "toward_lab_ids": [
       "snu-A5033296151",
       "unist-A5050686436",
-      "snu-A5066311276",
-      "postech-A5060796492",
-      "gist-A5100330194"
+      "korea-A5001165782",
+      "yonsei-A5015184859",
+      "postech-A5060796492"
     ],
     "early_xy": [
-      -0.55455,
-      -0.04949
+      -0.63136,
+      0.15128
     ],
     "recent_xy": [
-      -0.48251,
-      -0.09163
+      -0.54459,
+      0.11299
     ],
-    "away_subcluster_id": 5,
+    "toward_subcluster_id": 17,
+    "away_subcluster_id": 16,
     "toward_xy": [
-      -0.38981,
-      -0.14987
+      -0.46458,
+      0.08891
     ]
   },
   "kaist-A5024869511": {
@@ -4234,7 +4439,7 @@
     ],
     "early_papers": 15,
     "recent_papers": 13,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0453,
     "p_value": 0.0242,
     "emerging_topics": [
@@ -4246,6 +4451,27 @@
       "Silk-based biomaterials and applications",
       "Surgical Sutures and Adhesives",
       "Hemostasis and retained surgical items"
+    ],
+    "toward_lab_ids": [
+      "hanyang-A5026538440",
+      "gist-A5008969887",
+      "yonsei-A5000703747",
+      "kaist-A5004297961",
+      "kaist-A5004086841"
+    ],
+    "early_xy": [
+      -0.36602,
+      -0.01215
+    ],
+    "recent_xy": [
+      -0.42106,
+      0.04152
+    ],
+    "toward_subcluster_id": 34,
+    "away_subcluster_id": 23,
+    "toward_xy": [
+      -0.44214,
+      0.1183
     ]
   },
   "kaist-A5050472874": {
@@ -4259,7 +4485,7 @@
     ],
     "early_papers": 15,
     "recent_papers": 15,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0376,
     "p_value": 0.0237,
     "emerging_topics": [
@@ -4271,6 +4497,27 @@
       "Enzyme Structure and Function",
       "Photoreceptor and optogenetics research",
       "Protein Structure and Dynamics"
+    ],
+    "toward_lab_ids": [
+      "skku-A5101445145",
+      "dgist-A5019564898",
+      "skku-A5100645023",
+      "yonsei-A5032446162",
+      "yonsei-A5015184859"
+    ],
+    "early_xy": [
+      -0.3028,
+      0.10463
+    ],
+    "recent_xy": [
+      -0.37191,
+      0.1312
+    ],
+    "toward_subcluster_id": 36,
+    "away_subcluster_id": 45,
+    "toward_xy": [
+      -0.48272,
+      0.11807
     ]
   },
   "kaist-A5103259274": {
@@ -4435,25 +4682,25 @@
       "Catalytic Cross-Coupling Reactions"
     ],
     "toward_lab_ids": [
-      "unist-A5084310453",
-      "unist-A5044210377",
-      "dgist-A5100681214",
-      "dgist-A5068701918",
-      "dgist-A5019564898"
+      "yonsei-A5019903630",
+      "skku-A5061505485",
+      "korea-A5052171305",
+      "yonsei-A5034945169",
+      "sogang-A5011601556"
     ],
     "early_xy": [
-      -0.93614,
-      -0.28968
+      -0.7748,
+      -0.11771
     ],
     "recent_xy": [
-      -0.84764,
-      -0.22254
+      -0.68256,
+      -0.03497
     ],
-    "toward_subcluster_id": 6,
-    "away_subcluster_id": 32,
+    "toward_subcluster_id": 67,
+    "away_subcluster_id": 21,
     "toward_xy": [
-      -0.50119,
-      -0.10297
+      -0.58469,
+      0.1088
     ]
   },
   "kaist-A5044287208": {
@@ -4481,25 +4728,25 @@
       "Catalytic C–H Functionalization Methods"
     ],
     "toward_lab_ids": [
-      "kaist-A5019876038",
+      "hanyang-A5064501803",
       "kaist-A5020559815",
       "postech-A5030673319",
-      "gist-A5065178055",
-      "gist-A5070496831"
+      "skku-A5023524317",
+      "gist-A5065178055"
     ],
     "early_xy": [
-      -0.93741,
-      -0.30314
+      -0.78326,
+      -0.11109
     ],
     "recent_xy": [
-      -0.94696,
-      -0.30397
+      -0.78344,
+      -0.12422
     ],
-    "toward_subcluster_id": 28,
-    "away_subcluster_id": 6,
+    "toward_subcluster_id": 20,
+    "away_subcluster_id": 21,
     "toward_xy": [
-      -0.97516,
-      -0.27941
+      -0.78072,
+      -0.14317
     ]
   },
   "kaist-A5043448697": {
@@ -4654,7 +4901,7 @@
     ],
     "early_papers": 15,
     "recent_papers": 18,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0313,
     "p_value": 0.0123,
     "emerging_topics": [
@@ -4666,6 +4913,27 @@
       "Magnetic properties of thin films",
       "Magnetic Properties of Alloys",
       "Magneto-Optical Properties and Applications"
+    ],
+    "toward_lab_ids": [
+      "snu-A5101477947",
+      "snu-A5063669156",
+      "sogang-A5032249659",
+      "unist-A5044742844",
+      "yonsei-A5100347893"
+    ],
+    "early_xy": [
+      -0.40095,
+      0.52037
+    ],
+    "recent_xy": [
+      -0.3947,
+      0.51079
+    ],
+    "toward_subcluster_id": 48,
+    "away_subcluster_id": 42,
+    "toward_xy": [
+      -0.32467,
+      0.34022
     ]
   },
   "kaist-A5101652337": {
@@ -5539,14 +5807,14 @@
     ],
     "toward_lab_ids": [],
     "early_xy": [
-      0.50642,
-      0.20533
+      0.49713,
+      -0.07667
     ],
     "recent_xy": [
-      0.5131,
-      0.22052
+      0.49135,
+      -0.0519
     ],
-    "away_subcluster_id": 30
+    "away_subcluster_id": 0
   },
   "kaist-A5102907692": {
     "early_years": [
@@ -5635,24 +5903,24 @@
       "Software Testing and Debugging Techniques"
     ],
     "toward_lab_ids": [
-      "kaist-A5082521029",
-      "kaist-A5037553165",
-      "snu-A5029793438",
       "kaist-A5046066368",
-      "snu-A5078173247"
+      "postech-A5085748879",
+      "unist-A5042587361",
+      "kaist-A5019825813",
+      "skku-A5101660662"
     ],
     "early_xy": [
-      0.76752,
-      0.17975
+      0.88017,
+      -0.35183
     ],
     "recent_xy": [
-      0.76927,
-      0.1826
+      0.87595,
+      -0.34429
     ],
-    "toward_subcluster_id": 31,
+    "toward_subcluster_id": 33,
     "toward_xy": [
-      0.7908,
-      0.28296
+      0.87297,
+      -0.21955
     ]
   },
   "kaist-A5067253588": {
@@ -5787,24 +6055,24 @@
       "Computer Graphics and Visualization Techniques"
     ],
     "toward_lab_ids": [
+      "korea-A5006604581",
+      "hanyang-A5016424347",
+      "yonsei-A5103036411",
       "kaist-A5057980326",
-      "postech-A5021864220",
-      "snu-A5083084972",
-      "kaist-A5100412739",
-      "kaist-A5077461583"
+      "yonsei-A5041516963"
     ],
     "early_xy": [
-      0.57207,
-      0.02429
+      0.52975,
+      -0.27491
     ],
     "recent_xy": [
-      0.56702,
-      0.02854
+      0.51912,
+      -0.27875
     ],
-    "toward_subcluster_id": 24,
+    "toward_subcluster_id": 30,
     "toward_xy": [
-      0.56975,
-      0.10475
+      0.51485,
+      -0.26571
     ]
   },
   "kaist-A5082893706": {
@@ -5896,24 +6164,25 @@
       "Software Engineering Techniques and Practices"
     ],
     "toward_lab_ids": [
-      "kaist-A5079055843",
-      "snu-A5083084972",
-      "kaist-A5079709359",
-      "kaist-A5061810530",
-      "snu-A5085451600"
+      "skku-A5001227049",
+      "kaist-A5077052539",
+      "yonsei-A5100322270",
+      "skku-A5067651075",
+      "yonsei-A5077698683"
     ],
     "early_xy": [
-      0.7713,
-      0.17648
+      0.8854,
+      -0.35683
     ],
     "recent_xy": [
-      0.75995,
-      0.18161
+      0.88208,
+      -0.34904
     ],
-    "toward_subcluster_id": 25,
+    "toward_subcluster_id": 1,
+    "away_subcluster_id": 37,
     "toward_xy": [
-      0.61075,
-      0.18613
+      0.60164,
+      -0.11362
     ]
   },
   "kaist-A5078173428": {
@@ -5991,25 +6260,25 @@
       "Emotion and Mood Recognition"
     ],
     "toward_lab_ids": [
+      "hanyang-A5101569791",
       "postech-A5100440925",
-      "gist-A5013222112",
       "kaist-A5064907804",
       "kaist-A5079709359",
-      "kaist-A5100424985"
+      "kaist-A5061810530"
     ],
     "early_xy": [
-      0.60721,
-      0.14125
+      0.6151,
+      -0.18139
     ],
     "recent_xy": [
-      0.57745,
-      0.16261
+      0.5797,
+      -0.15331
     ],
-    "toward_subcluster_id": 25,
-    "away_subcluster_id": 38,
+    "toward_subcluster_id": 0,
+    "away_subcluster_id": 33,
     "toward_xy": [
-      0.41539,
-      -0.04188
+      0.51886,
+      -0.08545
     ]
   },
   "kaist-A5101805827": {
@@ -6670,7 +6939,7 @@
     ],
     "early_papers": 8,
     "recent_papers": 8,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0904,
     "p_value": 0.0227,
     "emerging_topics": [
@@ -6682,6 +6951,27 @@
       "Plasmonic and Surface Plasmon Research",
       "Near-Field Optical Microscopy",
       "Gold and Silver Nanoparticles Synthesis and Applications"
+    ],
+    "toward_lab_ids": [
+      "kaist-A5030203661",
+      "unist-A5023832222",
+      "gist-A5025652620",
+      "kaist-A5043448697",
+      "unist-A5057681381"
+    ],
+    "early_xy": [
+      -0.34787,
+      0.16885
+    ],
+    "recent_xy": [
+      -0.50473,
+      0.09298
+    ],
+    "toward_subcluster_id": 19,
+    "away_subcluster_id": 46,
+    "toward_xy": [
+      -0.6917,
+      -0.00717
     ]
   },
   "snu-A5087000163": {
@@ -6757,24 +7047,24 @@
       "Luminescence and Fluorescent Materials"
     ],
     "toward_lab_ids": [
-      "postech-A5054668018",
       "kaist-A5019876038",
+      "korea-A5042615016",
       "snu-A5016493258",
-      "kaist-A5044287208",
-      "postech-A5018699270"
+      "postech-A5018699270",
+      "snu-A5003116915"
     ],
     "early_xy": [
-      -0.1625,
-      -0.26444
+      -0.29731,
+      -0.14514
     ],
     "recent_xy": [
-      -0.1818,
-      -0.25611
+      -0.32959,
+      -0.13552
     ],
-    "away_subcluster_id": 14,
+    "away_subcluster_id": 22,
     "toward_xy": [
-      -0.82949,
-      -0.28785
+      -0.61627,
+      -0.1605
     ]
   },
   "snu-A5003116915": {
@@ -7296,7 +7586,7 @@
     ],
     "early_papers": 21,
     "recent_papers": 28,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0144,
     "p_value": 0.0197,
     "emerging_topics": [
@@ -7308,6 +7598,27 @@
       "Topological Materials and Phenomena",
       "Multiferroics and related materials",
       "Physics of Superconductivity and Magnetism"
+    ],
+    "toward_lab_ids": [
+      "dgist-A5091182455",
+      "kaist-A5091019660",
+      "yonsei-A5088497737",
+      "dgist-A5081623766",
+      "postech-A5100607085"
+    ],
+    "early_xy": [
+      -0.35681,
+      0.47662
+    ],
+    "recent_xy": [
+      -0.35777,
+      0.474
+    ],
+    "toward_subcluster_id": 41,
+    "away_subcluster_id": 42,
+    "toward_xy": [
+      -0.40535,
+      0.52883
     ]
   },
   "snu-A5036817463": {
@@ -7408,24 +7719,24 @@
     ],
     "toward_lab_ids": [
       "snu-A5036817463",
+      "skku-A5076068376",
       "snu-A5090014181",
       "gist-A5044362251",
-      "unist-A5044742844",
       "postech-A5024040277"
     ],
     "early_xy": [
-      -0.39859,
-      0.3162
+      -0.31622,
+      0.46648
     ],
     "recent_xy": [
-      -0.36623,
-      0.28604
+      -0.29282,
+      0.42469
     ],
-    "toward_subcluster_id": 8,
-    "away_subcluster_id": 10,
+    "toward_subcluster_id": 48,
+    "away_subcluster_id": 42,
     "toward_xy": [
-      -0.30001,
-      0.27512
+      -0.31125,
+      0.40899
     ]
   },
   "snu-A5008771440": {
@@ -7747,7 +8058,7 @@
     ],
     "early_papers": 27,
     "recent_papers": 14,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0179,
     "p_value": 0.0114,
     "emerging_topics": [
@@ -7757,6 +8068,27 @@
     ],
     "fading_topics": [
       "Nonlinear Partial Differential Equations"
+    ],
+    "toward_lab_ids": [
+      "yonsei-A5100645950",
+      "kaist-A5100908017",
+      "kaist-A5101860214",
+      "unist-A5057828593",
+      "yonsei-A5111489069"
+    ],
+    "early_xy": [
+      0.18523,
+      0.14603
+    ],
+    "recent_xy": [
+      0.17504,
+      0.14345
+    ],
+    "toward_subcluster_id": 10,
+    "away_subcluster_id": 9,
+    "toward_xy": [
+      0.15526,
+      0.11052
     ]
   },
   "snu-A5031106905": {
@@ -8125,7 +8457,7 @@
     ],
     "early_papers": 5,
     "recent_papers": 9,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0507,
     "p_value": 0.0196,
     "emerging_topics": [
@@ -8135,6 +8467,27 @@
     ],
     "fading_topics": [
       "Cryptography and Data Security"
+    ],
+    "toward_lab_ids": [
+      "hanyang-A5045700517",
+      "sogang-A5076950125",
+      "kaist-A5100401535",
+      "snu-A5044011121",
+      "kaist-A5082521029"
+    ],
+    "early_xy": [
+      0.81002,
+      -0.20912
+    ],
+    "recent_xy": [
+      0.81511,
+      -0.21788
+    ],
+    "toward_subcluster_id": 39,
+    "away_subcluster_id": 31,
+    "toward_xy": [
+      0.82807,
+      -0.2322
     ]
   },
   "snu-A5085451600": {
@@ -8463,7 +8816,7 @@
     ],
     "early_papers": 14,
     "recent_papers": 8,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0809,
     "p_value": 0.0218,
     "emerging_topics": [
@@ -8475,6 +8828,27 @@
       "Embedded Systems Design Techniques",
       "Advanced Neural Network Applications",
       "Model-Driven Software Engineering Techniques"
+    ],
+    "toward_lab_ids": [
+      "hanyang-A5059925471",
+      "kaist-A5079055843",
+      "kaist-A5077052539",
+      "korea-A5038510569",
+      "korea-A5049511446"
+    ],
+    "early_xy": [
+      0.98094,
+      -0.13546
+    ],
+    "recent_xy": [
+      0.84498,
+      -0.15081
+    ],
+    "toward_subcluster_id": 33,
+    "away_subcluster_id": 59,
+    "toward_xy": [
+      0.75097,
+      -0.1253
     ]
   },
   "snu-A5035382393": {
@@ -8501,7 +8875,7 @@
     ],
     "early_papers": 25,
     "recent_papers": 7,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0574,
     "p_value": 0.0141,
     "emerging_topics": [
@@ -8511,8 +8885,26 @@
     ],
     "fading_topics": [
       "Natural Language Processing Techniques",
-      "Software Engineering Research",
-      "Speech and dialogue systems"
+      "Speech and dialogue systems",
+      "Software Engineering Research"
+    ],
+    "toward_lab_ids": [
+      "korea-A5075832345",
+      "yonsei-A5071595184",
+      "korea-A5083900503"
+    ],
+    "early_xy": [
+      0.60347,
+      -0.03782
+    ],
+    "recent_xy": [
+      0.60105,
+      -0.0304
+    ],
+    "away_subcluster_id": 51,
+    "toward_xy": [
+      0.56157,
+      0.01211
     ]
   },
   "gist-A5011037736": {
@@ -8539,7 +8931,7 @@
     ],
     "early_papers": 7,
     "recent_papers": 7,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.1006,
     "p_value": 0.0211,
     "emerging_topics": [
@@ -8551,6 +8943,27 @@
       "Terahertz technology and applications",
       "Perovskite Materials and Applications",
       "Antenna Design and Analysis"
+    ],
+    "toward_lab_ids": [
+      "yonsei-A5028845208",
+      "kaist-A5059888759",
+      "kaist-A5031913417",
+      "postech-A5100621082",
+      "gist-A5076815474"
+    ],
+    "early_xy": [
+      -0.29149,
+      0.27427
+    ],
+    "recent_xy": [
+      -0.21334,
+      0.27168
+    ],
+    "toward_subcluster_id": 65,
+    "away_subcluster_id": 46,
+    "toward_xy": [
+      -0.16842,
+      0.30945
     ]
   },
   "gist-A5076815474": {
@@ -9115,5 +9528,7297 @@
       "Magnetic Properties of Alloys",
       "Quantum and electron transport phenomena"
     ]
+  },
+  "yonsei-A5029037764": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 5,
+    "status": "stable",
+    "shift": 0.1013,
+    "p_value": 0.2382,
+    "emerging_topics": [
+      "Plant Pathogenic Bacteria Studies",
+      "Genomics and Phylogenetic Studies",
+      "Plant-Microbe Interactions and Immunity"
+    ],
+    "fading_topics": [
+      "Bacterial Genetics and Biotechnology",
+      "Microbial Metabolic Engineering and Bioproduction"
+    ]
+  },
+  "yonsei-A5068605733": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "yonsei-A5010137230": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 9,
+    "status": "insufficient"
+  },
+  "yonsei-A5032881372": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 10,
+    "recent_papers": 14,
+    "status": "stable",
+    "shift": 0.0466,
+    "p_value": 0.362,
+    "emerging_topics": [
+      "Liver Disease Diagnosis and Treatment",
+      "Glycosylation and Glycoproteins Research",
+      "Cancer-related molecular mechanisms research"
+    ],
+    "fading_topics": [
+      "Extracellular vesicles in disease",
+      "Plant Molecular Biology Research",
+      "Advanced biosensing and bioanalysis techniques"
+    ]
+  },
+  "yonsei-A5031160488": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "yonsei-A5025236447": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "yonsei-A5008742544": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 6,
+    "status": "insufficient"
+  },
+  "yonsei-A5103032803": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 11,
+    "recent_papers": 9,
+    "status": "stable",
+    "shift": 0.0763,
+    "p_value": 0.0704,
+    "emerging_topics": [
+      "Enzyme Structure and Function",
+      "Protein Structure and Dynamics",
+      "Protein Tyrosine Phosphatases"
+    ],
+    "fading_topics": [
+      "SARS-CoV-2 and COVID-19 Research",
+      "Receptor Mechanisms and Signaling",
+      "vaccines and immunoinformatics approaches"
+    ]
+  },
+  "yonsei-A5003179214": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 9,
+    "status": "stable",
+    "shift": 0.1345,
+    "p_value": 0.1183,
+    "emerging_topics": [
+      "Liver Disease Diagnosis and Treatment",
+      "Cell death mechanisms and regulation",
+      "Hedgehog Signaling Pathway Studies"
+    ],
+    "fading_topics": [
+      "Advancements in Transdermal Drug Delivery",
+      "Genetic and Kidney Cyst Diseases",
+      "Advanced Drug Delivery Systems"
+    ]
+  },
+  "yonsei-A5101615429": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "yonsei-A5065455532": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 6,
+    "status": "stable",
+    "shift": 0.0808,
+    "p_value": 0.7269,
+    "emerging_topics": [],
+    "fading_topics": [
+      "Acute Myeloid Leukemia Research",
+      "Chronic Myeloid Leukemia Treatments"
+    ]
+  },
+  "yonsei-A5100757885": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 6,
+    "status": "stable",
+    "shift": 0.0445,
+    "p_value": 0.1534,
+    "emerging_topics": [
+      "Colorectal Cancer Treatments and Studies",
+      "Genetic factors in colorectal cancer",
+      "Immune cells in cancer"
+    ],
+    "fading_topics": [
+      "Cancer Genomics and Diagnostics",
+      "Epigenetics and DNA Methylation",
+      "Genomic variations and chromosomal abnormalities"
+    ]
+  },
+  "yonsei-A5021701572": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "yonsei-A5069785427": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 4,
+    "status": "insufficient"
+  },
+  "yonsei-A5003546968": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 13,
+    "recent_papers": 16,
+    "status": "stable",
+    "shift": 0.0476,
+    "p_value": 0.0403,
+    "emerging_topics": [
+      "Tuberculosis Research and Epidemiology",
+      "Nanoparticle-Based Drug Delivery",
+      "Immunotherapy and Immune Responses"
+    ],
+    "fading_topics": [
+      "Cancer Immunotherapy and Biomarkers",
+      "T-cell and B-cell Immunology",
+      "IL-33, ST2, and ILC Pathways"
+    ]
+  },
+  "yonsei-A5034945169": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 23,
+    "recent_papers": 21,
+    "status": "stable",
+    "shift": 0.023,
+    "p_value": 0.047,
+    "emerging_topics": [
+      "biodegradable polymer synthesis and properties",
+      "Advanced Polymer Synthesis and Characterization",
+      "Advanced biosensing and bioanalysis techniques"
+    ],
+    "fading_topics": [
+      "Advanced Battery Materials and Technologies",
+      "Covalent Organic Framework Applications",
+      "Nanoplatforms for cancer theranostics"
+    ]
+  },
+  "yonsei-A5032446162": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 11,
+    "recent_papers": 13,
+    "status": "stable",
+    "shift": 0.0354,
+    "p_value": 0.05,
+    "emerging_topics": [
+      "Photochemistry and Electron Transfer Studies",
+      "Spectroscopy and Quantum Chemical Studies",
+      "Organic Electronics and Photovoltaics"
+    ],
+    "fading_topics": [
+      "Nanocluster Synthesis and Applications",
+      "Supramolecular Chemistry and Complexes",
+      "Inorganic Chemistry and Materials"
+    ]
+  },
+  "yonsei-A5100406369": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 16,
+    "status": "insufficient"
+  },
+  "yonsei-A5018300958": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.0482,
+    "p_value": 0.6814,
+    "emerging_topics": [
+      "Lysosomal Storage Disorders Research",
+      "Click Chemistry and Applications"
+    ],
+    "fading_topics": [
+      "Carbohydrate Chemistry and Synthesis",
+      "Glycosylation and Glycoproteins Research",
+      "Luminescence and Fluorescent Materials"
+    ]
+  },
+  "yonsei-A5015184859": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 14,
+    "recent_papers": 5,
+    "status": "stable",
+    "shift": 0.0773,
+    "p_value": 0.1048,
+    "emerging_topics": [
+      "Machine Learning in Materials Science",
+      "Advanced Chemical Physics Studies"
+    ],
+    "fading_topics": [
+      "Nanocluster Synthesis and Applications",
+      "Phase-change materials and chalcogenides",
+      "Advanced Memory and Neural Computing"
+    ]
+  },
+  "yonsei-A5041611357": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 12,
+    "status": "insufficient"
+  },
+  "yonsei-A5019903630": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 5,
+    "status": "stable",
+    "shift": 0.0245,
+    "p_value": 0.5268,
+    "emerging_topics": [],
+    "fading_topics": [
+      "Metal-Organic Frameworks: Synthesis and Applications",
+      "Covalent Organic Framework Applications",
+      "Mesoporous Materials and Catalysis"
+    ]
+  },
+  "yonsei-A5101710370": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 11,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.0532,
+    "p_value": 0.1349,
+    "emerging_topics": [
+      "CO2 Reduction Techniques and Catalysts",
+      "Nanocluster Synthesis and Applications",
+      "Quantum Dots Synthesis And Properties"
+    ],
+    "fading_topics": [
+      "Electrocatalysts for Energy Conversion",
+      "Polyoxometalates: Synthesis and Applications",
+      "Inorganic Chemistry and Materials"
+    ]
+  },
+  "yonsei-A5000703747": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 16,
+    "recent_papers": 11,
+    "status": "stable",
+    "shift": 0.0236,
+    "p_value": 0.6556,
+    "emerging_topics": [
+      "Advanced Polymer Synthesis and Characterization",
+      "Block Copolymer Self-Assembly",
+      "Porphyrin and Phthalocyanine Chemistry"
+    ],
+    "fading_topics": [
+      "Supramolecular Self-Assembly in Materials",
+      "Molecular Sensors and Ion Detection",
+      "Calcium Carbonate Crystallization and Inhibition"
+    ]
+  },
+  "yonsei-A5027405760": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 9,
+    "status": "stable",
+    "shift": 0.0426,
+    "p_value": 0.464,
+    "emerging_topics": [
+      "Graphene research and applications",
+      "Electrochemical sensors and biosensors",
+      "Transition Metal Oxide Nanomaterials"
+    ],
+    "fading_topics": [
+      "Carbon Nanotubes in Composites",
+      "Electromagnetic wave absorption materials",
+      "2D Materials and Applications"
+    ]
+  },
+  "yonsei-A5048206781": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 12,
+    "status": "shifted",
+    "shift": 0.0728,
+    "p_value": 0.0272,
+    "emerging_topics": [
+      "Neuroscience and Neural Engineering",
+      "Advanced Memory and Neural Computing",
+      "2D Materials and Applications"
+    ],
+    "fading_topics": [
+      "CRISPR and Genetic Engineering",
+      "Micro and Nano Robotics"
+    ],
+    "toward_lab_ids": [
+      "skku-A5052141994",
+      "skku-A5006114292",
+      "yonsei-A5026332374",
+      "gist-A5074809975",
+      "hanyang-A5089218042"
+    ],
+    "early_xy": [
+      -0.29459,
+      0.08002
+    ],
+    "recent_xy": [
+      -0.41952,
+      0.32219
+    ],
+    "toward_subcluster_id": 26,
+    "away_subcluster_id": 45,
+    "toward_xy": [
+      -0.49777,
+      0.29972
+    ]
+  },
+  "yonsei-A5055277847": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 5,
+    "status": "insufficient"
+  },
+  "yonsei-A5083687252": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 12,
+    "status": "insufficient"
+  },
+  "yonsei-A5009205853": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 37,
+    "recent_papers": 31,
+    "status": "stable",
+    "shift": 0.0145,
+    "p_value": 0.0356,
+    "emerging_topics": [
+      "2D Materials and Applications",
+      "Metal-Organic Frameworks: Synthesis and Applications",
+      "Graphene research and applications"
+    ],
+    "fading_topics": [
+      "Covalent Organic Framework Applications",
+      "Advanced Chemical Physics Studies",
+      "Electrocatalysts for Energy Conversion"
+    ]
+  },
+  "yonsei-A5088497737": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 17,
+    "status": "insufficient"
+  },
+  "yonsei-A5080030566": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 35,
+    "recent_papers": 20,
+    "status": "stable",
+    "shift": 0.0087,
+    "p_value": 0.8835,
+    "emerging_topics": [
+      "Advanced Memory and Neural Computing",
+      "Machine Learning in Materials Science",
+      "Perovskite Materials and Applications"
+    ],
+    "fading_topics": [
+      "2D Materials and Applications",
+      "Advanced Thermoelectric Materials and Devices",
+      "Graphene research and applications"
+    ]
+  },
+  "yonsei-A5100347893": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 15,
+    "recent_papers": 7,
+    "status": "stable",
+    "shift": 0.0444,
+    "p_value": 0.076,
+    "emerging_topics": [
+      "Advanced Condensed Matter Physics",
+      "Multiferroics and related materials"
+    ],
+    "fading_topics": [
+      "Semiconductor materials and devices",
+      "Thin-Film Transistor Technologies",
+      "Electronic and Structural Properties of Oxides"
+    ]
+  },
+  "yonsei-A5075736412": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 8,
+    "recent_papers": 11,
+    "status": "stable",
+    "shift": 0.0197,
+    "p_value": 0.2624,
+    "emerging_topics": [
+      "Particle physics theoretical and experimental studies",
+      "Neutrino Physics Research",
+      "Black Holes and Theoretical Physics"
+    ],
+    "fading_topics": [
+      "Cosmology and Gravitation Theories"
+    ]
+  },
+  "yonsei-A5064268872": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 14,
+    "recent_papers": 12,
+    "status": "stable",
+    "shift": 0.0161,
+    "p_value": 0.3444,
+    "emerging_topics": [
+      "High-Energy Particle Collisions Research",
+      "Nuclear physics research studies"
+    ],
+    "fading_topics": [
+      "Quantum Chromodynamics and Particle Interactions",
+      "Particle physics theoretical and experimental studies"
+    ]
+  },
+  "yonsei-A5088900746": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 13,
+    "recent_papers": 19,
+    "status": "stable",
+    "shift": 0.016,
+    "p_value": 0.6395,
+    "emerging_topics": [
+      "Organic Electronics and Photovoltaics",
+      "Advanced Photocatalysis Techniques",
+      "Quantum Dots Synthesis And Properties"
+    ],
+    "fading_topics": [
+      "2D Materials and Applications",
+      "Graphene research and applications"
+    ]
+  },
+  "yonsei-A5021955131": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "yonsei-A5026332374": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 19,
+    "recent_papers": 9,
+    "status": "stable",
+    "shift": 0.0243,
+    "p_value": 0.4181,
+    "emerging_topics": [
+      "Phase-change materials and chalcogenides",
+      "2D Materials and Applications",
+      "Advanced Memory and Neural Computing"
+    ],
+    "fading_topics": [
+      "Advanced Thermoelectric Materials and Devices",
+      "Thin-Film Transistor Technologies",
+      "Graphene research and applications"
+    ]
+  },
+  "yonsei-A5024452942": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 1,
+    "recent_papers": 7,
+    "status": "insufficient"
+  },
+  "yonsei-A5087475048": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 18,
+    "recent_papers": 10,
+    "status": "stable",
+    "shift": 0.0326,
+    "p_value": 0.11,
+    "emerging_topics": [
+      "Magnetic properties of thin films",
+      "Topological Materials and Phenomena",
+      "Phase-change materials and chalcogenides"
+    ],
+    "fading_topics": [
+      "2D Materials and Applications",
+      "Semiconductor materials and interfaces",
+      "Graphene research and applications"
+    ]
+  },
+  "yonsei-A5057719433": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 10,
+    "recent_papers": 6,
+    "status": "stable",
+    "shift": 0.02,
+    "p_value": 0.6579,
+    "emerging_topics": [
+      "Multiferroics and related materials",
+      "Magnetic and transport properties of perovskites and related materials"
+    ],
+    "fading_topics": [
+      "Magnetic properties of thin films",
+      "Advanced Condensed Matter Physics",
+      "Physics of Superconductivity and Magnetism"
+    ]
+  },
+  "yonsei-A5027286584": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 0,
+    "status": "insufficient"
+  },
+  "yonsei-A5028845208": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 7,
+    "status": "insufficient"
+  },
+  "yonsei-A5006695691": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 4,
+    "status": "insufficient"
+  },
+  "yonsei-A5102493933": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "yonsei-A5103107879": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 17,
+    "recent_papers": 18,
+    "status": "stable",
+    "shift": 0.0122,
+    "p_value": 0.7348,
+    "emerging_topics": [
+      "Navier-Stokes equation solutions",
+      "Advanced Mathematical Physics Problems",
+      "Nonlinear Partial Differential Equations"
+    ],
+    "fading_topics": [
+      "Gas Dynamics and Kinetic Theory",
+      "Geometric Analysis and Curvature Flows",
+      "Stochastic processes and statistical mechanics"
+    ]
+  },
+  "yonsei-A5101577274": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "yonsei-A5024513674": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "yonsei-A5111489069": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 11,
+    "recent_papers": 11,
+    "status": "stable",
+    "shift": 0.0156,
+    "p_value": 0.7781,
+    "emerging_topics": [
+      "Navier-Stokes equation solutions",
+      "Advanced Mathematical Physics Problems",
+      "Nonlinear Partial Differential Equations"
+    ],
+    "fading_topics": [
+      "Mathematical Biology Tumor Growth",
+      "Geometric Analysis and Curvature Flows",
+      "Advanced Harmonic Analysis Research"
+    ]
+  },
+  "yonsei-A5071720212": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 1,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "yonsei-A5079361781": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "yonsei-A5100646584": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "yonsei-A5051914610": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.0772,
+    "p_value": 0.5235,
+    "emerging_topics": [
+      "Stock Market Forecasting Methods",
+      "Financial Risk and Volatility Modeling"
+    ],
+    "fading_topics": [
+      "Stochastic processes and financial applications",
+      "Singular Perturbation, Asymptotics and Difference Schemes",
+      "Numerical Solvers for Ordinary Differential Equations"
+    ]
+  },
+  "yonsei-A5067297442": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "yonsei-A5100645950": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "yonsei-A5110009907": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "yonsei-A5045395230": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 8,
+    "status": "insufficient"
+  },
+  "yonsei-A5103036411": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 13,
+    "recent_papers": 16,
+    "status": "shifted",
+    "shift": 0.0497,
+    "p_value": 0.008,
+    "emerging_topics": [
+      "3D Shape Modeling and Analysis",
+      "Multimodal Machine Learning Applications",
+      "Image Enhancement Techniques"
+    ],
+    "fading_topics": [
+      "Advanced Neural Network Applications",
+      "Human Pose and Action Recognition",
+      "Video Surveillance and Tracking Methods"
+    ],
+    "toward_lab_ids": [
+      "yonsei-A5013897558",
+      "postech-A5101408509",
+      "hanyang-A5016424347",
+      "kaist-A5004099860",
+      "snu-A5100611457"
+    ],
+    "early_xy": [
+      0.52063,
+      -0.21176
+    ],
+    "recent_xy": [
+      0.5243,
+      -0.25108
+    ],
+    "toward_subcluster_id": 29,
+    "toward_xy": [
+      0.51239,
+      -0.28907
+    ]
+  },
+  "yonsei-A5088551237": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 13,
+    "recent_papers": 6,
+    "status": "stable",
+    "shift": 0.0612,
+    "p_value": 0.0888,
+    "emerging_topics": [
+      "Advanced Database Systems and Queries",
+      "Parallel Computing and Optimization Techniques",
+      "Advanced Memory and Neural Computing"
+    ],
+    "fading_topics": [
+      "Advanced Neural Network Applications",
+      "Graph Theory and Algorithms",
+      "Embedded Systems Design Techniques"
+    ]
+  },
+  "yonsei-A5129653907": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 6,
+    "status": "insufficient"
+  },
+  "yonsei-A5010089204": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 4,
+    "status": "insufficient"
+  },
+  "yonsei-A5100322270": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 12,
+    "recent_papers": 29,
+    "status": "stable",
+    "shift": 0.03,
+    "p_value": 0.2896,
+    "emerging_topics": [
+      "Topic Modeling",
+      "Anomaly Detection Techniques and Applications",
+      "Advanced Neural Network Applications"
+    ],
+    "fading_topics": [
+      "Advanced Database Systems and Queries",
+      "Software System Performance and Reliability",
+      "Advanced Data Storage Technologies"
+    ]
+  },
+  "yonsei-A5086980677": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 10,
+    "status": "stable",
+    "shift": 0.0423,
+    "p_value": 0.2029,
+    "emerging_topics": [
+      "Parallel Computing and Optimization Techniques",
+      "Advanced Neural Network Applications",
+      "Low-power high-performance VLSI design"
+    ],
+    "fading_topics": [
+      "Graph Theory and Algorithms",
+      "Matrix Theory and Algorithms"
+    ]
+  },
+  "yonsei-A5013897558": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 9,
+    "status": "insufficient"
+  },
+  "yonsei-A5103089896": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 25,
+    "recent_papers": 14,
+    "status": "stable",
+    "shift": 0.0182,
+    "p_value": 0.0402,
+    "emerging_topics": [
+      "Advanced X-ray and CT Imaging",
+      "Image and Signal Denoising Methods",
+      "Dental Radiography and Imaging"
+    ],
+    "fading_topics": [
+      "Medical Imaging Techniques and Applications",
+      "Digital Radiography and Breast Imaging",
+      "AI in cancer detection"
+    ]
+  },
+  "yonsei-A5076900864": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 20,
+    "status": "stable",
+    "shift": 0.0645,
+    "p_value": 0.0306,
+    "emerging_topics": [
+      "Recommender Systems and Techniques",
+      "Information Retrieval and Search Behavior",
+      "Reinforcement Learning in Robotics"
+    ],
+    "fading_topics": [
+      "Speech and dialogue systems",
+      "Intelligent Tutoring Systems and Adaptive Learning",
+      "Domain Adaptation and Few-Shot Learning"
+    ]
+  },
+  "yonsei-A5031543156": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "yonsei-A5044514062": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 8,
+    "recent_papers": 16,
+    "status": "shifted",
+    "shift": 0.0708,
+    "p_value": 0.011,
+    "emerging_topics": [
+      "Semantic Web and Ontologies",
+      "Advanced Graph Neural Networks",
+      "Topic Modeling"
+    ],
+    "fading_topics": [
+      "Recommender Systems and Techniques",
+      "Speech and dialogue systems",
+      "Machine Learning and Algorithms"
+    ],
+    "toward_lab_ids": [
+      "korea-A5076917278",
+      "yonsei-A5071595184",
+      "yonsei-A5100322270",
+      "korea-A5075832345",
+      "skku-A5071646906"
+    ],
+    "early_xy": [
+      0.59608,
+      -0.03381
+    ],
+    "recent_xy": [
+      0.60094,
+      -0.02372
+    ],
+    "toward_subcluster_id": 1,
+    "toward_xy": [
+      0.55732,
+      -0.02922
+    ]
+  },
+  "yonsei-A5071595184": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 16,
+    "status": "stable",
+    "shift": 0.0913,
+    "p_value": 0.0662,
+    "emerging_topics": [
+      "Information Retrieval and Search Behavior",
+      "Natural Language Processing Techniques",
+      "Recommender Systems and Techniques"
+    ],
+    "fading_topics": [
+      "Topic Modeling"
+    ]
+  },
+  "yonsei-A5078211287": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 5,
+    "status": "insufficient"
+  },
+  "yonsei-A5065644953": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 14,
+    "status": "insufficient"
+  },
+  "yonsei-A5101964277": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 13,
+    "status": "shifted",
+    "shift": 0.1103,
+    "p_value": 0.0035,
+    "emerging_topics": [
+      "Satellite Communication Systems",
+      "UAV Applications and Optimization",
+      "Vehicular Ad Hoc Networks (VANETs)"
+    ],
+    "fading_topics": [
+      "IoT and Edge/Fog Computing",
+      "Internet of Things and AI",
+      "Energy Efficiency in Computing"
+    ],
+    "toward_lab_ids": [
+      "korea-A5051967131",
+      "sogang-A5100704334",
+      "skku-A5101688828",
+      "skku-A5054933494",
+      "korea-A5035314009"
+    ],
+    "early_xy": [
+      0.79347,
+      -0.09345
+    ],
+    "recent_xy": [
+      0.76321,
+      -0.08532
+    ],
+    "toward_subcluster_id": 0,
+    "away_subcluster_id": 59,
+    "toward_xy": [
+      0.68206,
+      -0.10186
+    ]
+  },
+  "yonsei-A5103278399": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "yonsei-A5028464272": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 13,
+    "status": "stable",
+    "shift": 0.089,
+    "p_value": 0.0812,
+    "emerging_topics": [
+      "Data Visualization and Analytics",
+      "Team Dynamics and Performance",
+      "Interactive and Immersive Displays"
+    ],
+    "fading_topics": [
+      "Virtual Reality Applications and Impacts",
+      "Teleoperation and Haptic Systems"
+    ]
+  },
+  "yonsei-A5046146264": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 8,
+    "status": "insufficient"
+  },
+  "yonsei-A5041516963": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 15,
+    "status": "insufficient"
+  },
+  "yonsei-A5055351043": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 5,
+    "status": "insufficient"
+  },
+  "yonsei-A5108081550": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 29,
+    "recent_papers": 34,
+    "status": "shifted",
+    "shift": 0.0275,
+    "p_value": 0.0074,
+    "emerging_topics": [
+      "Domain Adaptation and Few-Shot Learning",
+      "Topic Modeling",
+      "Spam and Phishing Detection"
+    ],
+    "fading_topics": [
+      "Advanced Malware Detection Techniques",
+      "Machine Fault Diagnosis Techniques",
+      "Context-Aware Activity Recognition Systems"
+    ],
+    "toward_lab_ids": [
+      "hanyang-A5036440250",
+      "snu-A5085451600",
+      "skku-A5044635661",
+      "skku-A5071646906",
+      "kaist-A5061810530"
+    ],
+    "early_xy": [
+      0.47746,
+      -0.08424
+    ],
+    "recent_xy": [
+      0.50085,
+      -0.08457
+    ],
+    "toward_subcluster_id": 1,
+    "toward_xy": [
+      0.54572,
+      -0.07184
+    ]
+  },
+  "yonsei-A5000631554": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 11,
+    "status": "stable",
+    "shift": 0.0755,
+    "p_value": 0.035,
+    "emerging_topics": [
+      "Advanced Neural Network Applications",
+      "Parallel Computing and Optimization Techniques",
+      "Computer Graphics and Visualization Techniques"
+    ],
+    "fading_topics": [
+      "Energy Harvesting in Wireless Networks",
+      "Battery Modeling and Management",
+      "Innovative Energy Harvesting Technologies"
+    ]
+  },
+  "yonsei-A5061872375": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "yonsei-A5077698683": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 18,
+    "recent_papers": 31,
+    "status": "shifted",
+    "shift": 0.0348,
+    "p_value": 0.0171,
+    "emerging_topics": [
+      "Software Testing and Debugging Techniques",
+      "Software Engineering Research",
+      "Advanced Steganography and Watermarking Techniques"
+    ],
+    "fading_topics": [
+      "semigroups and automata theory",
+      "Topic Modeling",
+      "Sentiment Analysis and Opinion Mining"
+    ],
+    "toward_lab_ids": [
+      "skku-A5002028881",
+      "korea-A5067772621",
+      "korea-A5042036026",
+      "kaist-A5070401254",
+      "snu-A5101789148"
+    ],
+    "early_xy": [
+      0.54789,
+      -0.05865
+    ],
+    "recent_xy": [
+      0.60758,
+      -0.0689
+    ],
+    "toward_subcluster_id": 37,
+    "away_subcluster_id": 0,
+    "toward_xy": [
+      0.8864,
+      -0.3415
+    ]
+  },
+  "yonsei-A5022991142": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 22,
+    "status": "stable",
+    "shift": 0.095,
+    "p_value": 0.0941,
+    "emerging_topics": [
+      "Generative Adversarial Networks and Image Synthesis",
+      "Retinal Imaging and Analysis",
+      "Medical Image Segmentation Techniques"
+    ],
+    "fading_topics": [
+      "Domain Adaptation and Few-Shot Learning"
+    ]
+  },
+  "korea-A5026242696": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "korea-A5059299742": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 5,
+    "status": "shifted",
+    "shift": 0.1348,
+    "p_value": 0.0132,
+    "emerging_topics": [
+      "Wound Healing and Treatments",
+      "Liver Disease Diagnosis and Treatment",
+      "Lipid metabolism and biosynthesis"
+    ],
+    "fading_topics": [
+      "Adipose Tissue and Metabolism",
+      "Liver physiology and pathology",
+      "Adipokines, Inflammation, and Metabolic Diseases"
+    ],
+    "toward_lab_ids": [
+      "kaist-A5000604839",
+      "hanyang-A5067433666",
+      "kaist-A5045941705",
+      "snu-A5030453441",
+      "kaist-A5030760350"
+    ],
+    "early_xy": [
+      -0.09672,
+      -0.3016
+    ],
+    "recent_xy": [
+      -0.28362,
+      -0.12763
+    ],
+    "toward_subcluster_id": 24,
+    "away_subcluster_id": 5,
+    "toward_xy": [
+      -0.36175,
+      -0.02318
+    ]
+  },
+  "korea-A5101789447": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 5,
+    "status": "insufficient"
+  },
+  "korea-A5079679300": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "korea-A5069513324": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 10,
+    "recent_papers": 12,
+    "status": "stable",
+    "shift": 0.0485,
+    "p_value": 0.3434,
+    "emerging_topics": [
+      "Ubiquitin and proteasome pathways",
+      "Autophagy in Disease and Therapy",
+      "RNA and protein synthesis mechanisms"
+    ],
+    "fading_topics": [
+      "Cancer Immunotherapy and Biomarkers",
+      "Cellular transport and secretion",
+      "Enzyme Structure and Function"
+    ]
+  },
+  "korea-A5020359188": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "korea-A5068506881": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "korea-A5100630680": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 9,
+    "status": "stable",
+    "shift": 0.0529,
+    "p_value": 0.1125,
+    "emerging_topics": [
+      "Antibiotic Resistance in Bacteria",
+      "Salmonella and Campylobacter epidemiology",
+      "Escherichia coli research studies"
+    ],
+    "fading_topics": [
+      "Bacterial Genetics and Biotechnology",
+      "Plant nutrient uptake and metabolism"
+    ]
+  },
+  "korea-A5036282573": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 1,
+    "recent_papers": 4,
+    "status": "insufficient"
+  },
+  "korea-A5030626915": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "korea-A5078973583": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 6,
+    "status": "insufficient"
+  },
+  "korea-A5015291887": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 8,
+    "status": "stable",
+    "shift": 0.0744,
+    "p_value": 0.2459,
+    "emerging_topics": [
+      "Platelet Disorders and Treatments"
+    ],
+    "fading_topics": [
+      "Urinary Tract Infections Management",
+      "Escherichia coli research studies"
+    ]
+  },
+  "korea-A5054896286": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "korea-A5080252466": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 5,
+    "status": "stable",
+    "shift": 0.0566,
+    "p_value": 0.692,
+    "emerging_topics": [
+      "RNA and protein synthesis mechanisms",
+      "Ubiquitin and proteasome pathways",
+      "Chemical Synthesis and Analysis"
+    ],
+    "fading_topics": [
+      "RNA modifications and cancer"
+    ]
+  },
+  "korea-A5100613718": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 5,
+    "status": "insufficient"
+  },
+  "korea-A5001165782": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 21,
+    "recent_papers": 13,
+    "status": "stable",
+    "shift": 0.0273,
+    "p_value": 0.3396,
+    "emerging_topics": [
+      "Spectroscopy and Quantum Chemical Studies",
+      "Advanced Battery Materials and Technologies",
+      "Aqueous and Flow Batteries"
+    ],
+    "fading_topics": [
+      "Organic Electronics and Photovoltaics",
+      "Quantum Dots Synthesis And Properties",
+      "Advanced Thermoelectric Materials and Devices"
+    ]
+  },
+  "korea-A5100737773": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 83,
+    "recent_papers": 77,
+    "status": "stable",
+    "shift": 0.0072,
+    "p_value": 0.0562,
+    "emerging_topics": [
+      "Luminescence and Fluorescent Materials",
+      "Advanced Fluorescence Microscopy Techniques",
+      "Nanoplatforms for cancer theranostics"
+    ],
+    "fading_topics": [
+      "Cancer Cells and Metastasis",
+      "Bone Metabolism and Diseases",
+      "Alzheimer's disease research and treatments"
+    ]
+  },
+  "korea-A5050980307": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "korea-A5002260690": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 23,
+    "recent_papers": 21,
+    "status": "stable",
+    "shift": 0.0152,
+    "p_value": 0.594,
+    "emerging_topics": [
+      "Organic Light-Emitting Diodes Research",
+      "Advanced Battery Materials and Technologies",
+      "Machine Learning in Materials Science"
+    ],
+    "fading_topics": [
+      "Organic Electronics and Photovoltaics",
+      "Photochemistry and Electron Transfer Studies",
+      "Molecular Sensors and Ion Detection"
+    ]
+  },
+  "korea-A5069460253": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 124,
+    "recent_papers": 120,
+    "status": "shifted",
+    "shift": 0.0039,
+    "p_value": 0.0007,
+    "emerging_topics": [
+      "Conducting polymers and applications",
+      "Organic Electronics and Photovoltaics",
+      "Advanced Photocatalysis Techniques"
+    ],
+    "fading_topics": [
+      "Advanced Thermoelectric Materials and Devices",
+      "Organic Light-Emitting Diodes Research",
+      "Perovskite Materials and Applications"
+    ],
+    "toward_lab_ids": [
+      "skku-A5100645023",
+      "gist-A5074809975",
+      "snu-A5089907294",
+      "hanyang-A5026538440",
+      "unist-A5046785997"
+    ],
+    "early_xy": [
+      -0.47656,
+      0.20973
+    ],
+    "recent_xy": [
+      -0.47673,
+      0.21413
+    ],
+    "toward_subcluster_id": 26,
+    "toward_xy": [
+      -0.46764,
+      0.18244
+    ]
+  },
+  "korea-A5100722599": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 21,
+    "recent_papers": 13,
+    "status": "stable",
+    "shift": 0.026,
+    "p_value": 0.0659,
+    "emerging_topics": [
+      "Thermal properties of materials",
+      "Organic Electronics and Photovoltaics"
+    ],
+    "fading_topics": [
+      "Molecular Junctions and Nanostructures",
+      "Electrocatalysts for Energy Conversion",
+      "Surface Chemistry and Catalysis"
+    ]
+  },
+  "korea-A5009755251": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 30,
+    "recent_papers": 22,
+    "status": "stable",
+    "shift": 0.0111,
+    "p_value": 0.2735,
+    "emerging_topics": [
+      "Electrocatalysts for Energy Conversion",
+      "Covalent Organic Framework Applications",
+      "Quantum Dots Synthesis And Properties"
+    ],
+    "fading_topics": [
+      "MXene and MAX Phase Materials",
+      "CO2 Reduction Techniques and Catalysts",
+      "High Entropy Alloys Studies"
+    ]
+  },
+  "korea-A5100444708": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "korea-A5100676516": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "korea-A5100406460": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "korea-A5084346302": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 10,
+    "recent_papers": 11,
+    "status": "stable",
+    "shift": 0.0179,
+    "p_value": 0.7834,
+    "emerging_topics": [
+      "2D Materials and Applications",
+      "Advanced Semiconductor Detectors and Materials",
+      "Chalcogenide Semiconductor Thin Films"
+    ],
+    "fading_topics": [
+      "Quantum Dots Synthesis And Properties",
+      "Plasmonic and Surface Plasmon Research",
+      "Gold and Silver Nanoparticles Synthesis and Applications"
+    ]
+  },
+  "korea-A5027685378": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 31,
+    "recent_papers": 32,
+    "status": "stable",
+    "shift": 0.0142,
+    "p_value": 0.226,
+    "emerging_topics": [
+      "Orbital Angular Momentum in Optics",
+      "Perovskite Materials and Applications",
+      "Advanced Battery Materials and Technologies"
+    ],
+    "fading_topics": [
+      "Quantum Dots Synthesis And Properties",
+      "Spectroscopy Techniques in Biomedical and Chemical Research",
+      "Advanced Fluorescence Microscopy Techniques"
+    ]
+  },
+  "korea-A5015725542": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 18,
+    "status": "stable",
+    "shift": 0.0193,
+    "p_value": 0.4752,
+    "emerging_topics": [
+      "Ammonia Synthesis and Nitrogen Reduction",
+      "Advanced Photocatalysis Techniques",
+      "Supercapacitor Materials and Fabrication"
+    ],
+    "fading_topics": [
+      "Electrocatalysts for Energy Conversion",
+      "CO2 Reduction Techniques and Catalysts"
+    ]
+  },
+  "korea-A5042615016": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 8,
+    "recent_papers": 10,
+    "status": "stable",
+    "shift": 0.0279,
+    "p_value": 0.139,
+    "emerging_topics": [
+      "Organic Chemistry Synthesis Methods",
+      "Advanced Synthetic Organic Chemistry",
+      "Synthesis of heterocyclic compounds"
+    ],
+    "fading_topics": [
+      "Synthesis of Indole Derivatives",
+      "Catalytic Cross-Coupling Reactions",
+      "Asymmetric Synthesis and Catalysis"
+    ]
+  },
+  "korea-A5018180265": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "korea-A5052171305": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 22,
+    "recent_papers": 22,
+    "status": "shifted",
+    "shift": 0.0279,
+    "p_value": 0.0088,
+    "emerging_topics": [
+      "Organic Light-Emitting Diodes Research",
+      "Carbon Dioxide Capture Technologies",
+      "Hydrogen Storage and Materials"
+    ],
+    "fading_topics": [
+      "Covalent Organic Framework Applications",
+      "Advanced Photocatalysis Techniques",
+      "Fuel Cells and Related Materials"
+    ],
+    "toward_lab_ids": [
+      "skku-A5100645023",
+      "dgist-A5047491735",
+      "dgist-A5019564898",
+      "yonsei-A5000703747",
+      "skku-A5101445145"
+    ],
+    "early_xy": [
+      -0.62237,
+      0.10804
+    ],
+    "recent_xy": [
+      -0.59676,
+      0.07605
+    ],
+    "toward_subcluster_id": 36,
+    "away_subcluster_id": 16,
+    "toward_xy": [
+      -0.48365,
+      0.14878
+    ]
+  },
+  "korea-A5032057581": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 1,
+    "recent_papers": 12,
+    "status": "insufficient"
+  },
+  "korea-A5003809177": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 9,
+    "status": "stable",
+    "shift": 0.0332,
+    "p_value": 0.5033,
+    "emerging_topics": [
+      "Photonic Crystals and Applications",
+      "Metamaterials and Metasurfaces Applications",
+      "Topological Materials and Phenomena"
+    ],
+    "fading_topics": [
+      "Strong Light-Matter Interactions",
+      "Plasmonic and Surface Plasmon Research",
+      "2D Materials and Applications"
+    ]
+  },
+  "korea-A5072000148": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 7,
+    "status": "insufficient"
+  },
+  "korea-A5085121570": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 4,
+    "status": "insufficient"
+  },
+  "korea-A5078005695": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 5,
+    "status": "stable",
+    "shift": 0.0349,
+    "p_value": 0.3303,
+    "emerging_topics": [
+      "Laser-Matter Interactions and Applications",
+      "Spectroscopy and Laser Applications"
+    ],
+    "fading_topics": [
+      "Spectroscopy and Quantum Chemical Studies",
+      "Photochemistry and Electron Transfer Studies"
+    ]
+  },
+  "korea-A5090077335": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "korea-A5100348876": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 10,
+    "status": "stable",
+    "shift": 0.0481,
+    "p_value": 0.3543,
+    "emerging_topics": [
+      "Mechanical and Optical Resonators",
+      "Magnetic properties of thin films",
+      "Quantum and electron transport phenomena"
+    ],
+    "fading_topics": [
+      "Diamond and Carbon-based Materials Research"
+    ]
+  },
+  "korea-A5043822272": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 6,
+    "status": "insufficient"
+  },
+  "korea-A5033200577": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 8,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "korea-A5042980240": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "korea-A5016969455": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 16,
+    "recent_papers": 13,
+    "status": "stable",
+    "shift": 0.033,
+    "p_value": 0.0388,
+    "emerging_topics": [
+      "Photoacoustic and Ultrasonic Imaging",
+      "Image and Signal Denoising Methods",
+      "Optical Imaging and Spectroscopy Techniques"
+    ],
+    "fading_topics": [
+      "Random lasers and scattering media",
+      "Advanced Fluorescence Microscopy Techniques",
+      "Optical Coherence Tomography Applications"
+    ]
+  },
+  "korea-A5017143532": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "korea-A5056956197": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "korea-A5038281542": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 8,
+    "recent_papers": 7,
+    "status": "stable",
+    "shift": 0.0646,
+    "p_value": 0.2035,
+    "emerging_topics": [
+      "Game Theory and Applications",
+      "Probability and Risk Models",
+      "Optimization and Search Problems"
+    ],
+    "fading_topics": [
+      "Advanced Queuing Theory Analysis"
+    ]
+  },
+  "korea-A5101514247": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "korea-A5100698865": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 77,
+    "recent_papers": 75,
+    "status": "stable",
+    "shift": 0.0072,
+    "p_value": 0.0349,
+    "emerging_topics": [
+      "Fractional Differential Equations Solutions",
+      "Model Reduction and Neural Networks",
+      "Solidification and crystal growth phenomena"
+    ],
+    "fading_topics": [
+      "Advanced Numerical Methods in Computational Mathematics",
+      "Image and Signal Denoising Methods",
+      "Complex Systems and Time Series Analysis"
+    ]
+  },
+  "korea-A5055484471": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 6,
+    "status": "insufficient"
+  },
+  "korea-A5091866605": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.0429,
+    "p_value": 0.4405,
+    "emerging_topics": [
+      "Algebraic Geometry and Number Theory"
+    ],
+    "fading_topics": [
+      "Commutative Algebra and Its Applications",
+      "Polynomial and algebraic computation"
+    ]
+  },
+  "korea-A5111650287": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 4,
+    "status": "insufficient"
+  },
+  "korea-A5064077787": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 8,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "korea-A5100348868": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "korea-A5103435783": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 5,
+    "status": "stable",
+    "shift": 0.0525,
+    "p_value": 0.4162,
+    "emerging_topics": [
+      "Advanced Mathematical Identities",
+      "Advanced Combinatorial Mathematics"
+    ],
+    "fading_topics": [
+      "Advanced Algebra and Geometry",
+      "Analytic Number Theory Research",
+      "Algebraic Geometry and Number Theory"
+    ]
+  },
+  "korea-A5075832345": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 23,
+    "status": "insufficient"
+  },
+  "korea-A5076917278": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 29,
+    "recent_papers": 34,
+    "status": "shifted",
+    "shift": 0.0341,
+    "p_value": 0.001,
+    "emerging_topics": [
+      "Artificial Intelligence in Healthcare and Education",
+      "Spam and Phishing Detection",
+      "Topic Modeling"
+    ],
+    "fading_topics": [
+      "Biomedical Text Mining and Ontologies",
+      "Recommender Systems and Techniques",
+      "Machine Learning in Healthcare"
+    ],
+    "toward_lab_ids": [
+      "yonsei-A5077698683",
+      "yonsei-A5129653907",
+      "snu-A5085451600",
+      "korea-A5033580486",
+      "skku-A5064051041"
+    ],
+    "early_xy": [
+      0.57257,
+      -0.03121
+    ],
+    "recent_xy": [
+      0.58798,
+      -0.03812
+    ],
+    "toward_subcluster_id": 1,
+    "toward_xy": [
+      0.59798,
+      -0.06368
+    ]
+  },
+  "korea-A5011229651": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 8,
+    "status": "insufficient"
+  },
+  "korea-A5049511446": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 1,
+    "recent_papers": 11,
+    "status": "insufficient"
+  },
+  "korea-A5055061586": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 8,
+    "recent_papers": 20,
+    "status": "shifted",
+    "shift": 0.0754,
+    "p_value": 0.002,
+    "emerging_topics": [
+      "Parallel Computing and Optimization Techniques",
+      "Advanced Neural Network Applications",
+      "Computer Graphics and Visualization Techniques"
+    ],
+    "fading_topics": [
+      "Security and Verification in Computing"
+    ],
+    "toward_lab_ids": [
+      "snu-A5044493612",
+      "snu-A5029793438",
+      "kaist-A5037553165",
+      "yonsei-A5086980677",
+      "snu-A5100767182"
+    ],
+    "early_xy": [
+      0.93017,
+      -0.13262
+    ],
+    "recent_xy": [
+      0.98556,
+      -0.13307
+    ],
+    "toward_subcluster_id": 59,
+    "away_subcluster_id": 31,
+    "toward_xy": [
+      0.97658,
+      -0.13162
+    ]
+  },
+  "korea-A5067772621": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 5,
+    "status": "insufficient"
+  },
+  "korea-A5061842716": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 11,
+    "recent_papers": 5,
+    "status": "stable",
+    "shift": 0.106,
+    "p_value": 0.0356,
+    "emerging_topics": [
+      "Advanced Neural Network Applications",
+      "Advanced Vision and Imaging"
+    ],
+    "fading_topics": [
+      "Domain Adaptation and Few-Shot Learning",
+      "Generative Adversarial Networks and Image Synthesis",
+      "Autonomous Vehicle Technology and Safety"
+    ]
+  },
+  "korea-A5021651278": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 18,
+    "status": "stable",
+    "shift": 0.0531,
+    "p_value": 0.0662,
+    "emerging_topics": [
+      "Intelligent Tutoring Systems and Adaptive Learning",
+      "Teaching and Learning Programming",
+      "Digital literacy in education"
+    ],
+    "fading_topics": [
+      "Artificial Intelligence in Education",
+      "EEG and Brain-Computer Interfaces",
+      "Online Learning and Analytics"
+    ]
+  },
+  "korea-A5051967131": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 16,
+    "recent_papers": 9,
+    "status": "shifted",
+    "shift": 0.0538,
+    "p_value": 0.0055,
+    "emerging_topics": [
+      "Network Traffic and Congestion Control",
+      "Advanced Wireless Network Optimization",
+      "Wireless Networks and Protocols"
+    ],
+    "fading_topics": [
+      "Vehicular Ad Hoc Networks (VANETs)",
+      "IPv6, Mobility, Handover, Networks, Security",
+      "Traffic control and management"
+    ],
+    "toward_lab_ids": [
+      "sogang-A5100704334",
+      "korea-A5009631871",
+      "snu-A5021349769",
+      "skku-A5038941174",
+      "korea-A5052703193"
+    ],
+    "early_xy": [
+      0.7629,
+      -0.08699
+    ],
+    "recent_xy": [
+      0.7704,
+      -0.08465
+    ],
+    "toward_subcluster_id": 0,
+    "toward_xy": [
+      0.64034,
+      -0.0745
+    ]
+  },
+  "korea-A5086668734": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 4,
+    "status": "insufficient"
+  },
+  "korea-A5049432290": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 9,
+    "status": "insufficient"
+  },
+  "korea-A5009631871": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 6,
+    "status": "stable",
+    "shift": 0.0797,
+    "p_value": 0.7508,
+    "emerging_topics": [
+      "3D Shape Modeling and Analysis",
+      "Generative Adversarial Networks and Image Synthesis"
+    ],
+    "fading_topics": [
+      "Dysphagia Assessment and Management",
+      "Dental Radiography and Imaging",
+      "Medical Image Segmentation Techniques"
+    ]
+  },
+  "korea-A5018071173": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 8,
+    "status": "stable",
+    "shift": 0.1072,
+    "p_value": 0.0539,
+    "emerging_topics": [
+      "Parallel Computing and Optimization Techniques",
+      "Advanced Neural Network Applications",
+      "Cryptography and Residue Arithmetic"
+    ],
+    "fading_topics": [
+      "Security and Verification in Computing"
+    ]
+  },
+  "korea-A5068419888": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 8,
+    "recent_papers": 13,
+    "status": "shifted",
+    "shift": 0.0751,
+    "p_value": 0.0276,
+    "emerging_topics": [
+      "Blockchain Technology Applications and Security",
+      "Network Traffic and Congestion Control",
+      "Parallel Computing and Optimization Techniques"
+    ],
+    "fading_topics": [
+      "Cloud Computing and Resource Management",
+      "Software-Defined Networks and 5G",
+      "Energy Efficiency in Computing"
+    ],
+    "toward_lab_ids": [
+      "yonsei-A5100322270",
+      "skku-A5067651075",
+      "hanyang-A5036440250",
+      "snu-A5085451600",
+      "yonsei-A5010089204"
+    ],
+    "early_xy": [
+      0.90566,
+      -0.12272
+    ],
+    "recent_xy": [
+      0.82579,
+      -0.11519
+    ],
+    "toward_subcluster_id": 1,
+    "toward_xy": [
+      0.62056,
+      -0.07731
+    ]
+  },
+  "korea-A5038510569": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 7,
+    "status": "insufficient"
+  },
+  "korea-A5042036026": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 11,
+    "recent_papers": 11,
+    "status": "stable",
+    "shift": 0.0377,
+    "p_value": 0.0377,
+    "emerging_topics": [
+      "Software Engineering Research",
+      "Logic, programming, and type systems",
+      "Formal Methods in Verification"
+    ],
+    "fading_topics": [
+      "Software Testing and Debugging Techniques",
+      "Security and Verification in Computing"
+    ]
+  },
+  "korea-A5009593110": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 8,
+    "status": "stable",
+    "shift": 0.088,
+    "p_value": 0.0398,
+    "emerging_topics": [
+      "Software Engineering Research",
+      "Software Testing and Debugging Techniques"
+    ],
+    "fading_topics": [
+      "Advanced Malware Detection Techniques"
+    ]
+  },
+  "korea-A5052703193": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 8,
+    "recent_papers": 12,
+    "status": "stable",
+    "shift": 0.0448,
+    "p_value": 0.2865,
+    "emerging_topics": [
+      "IoT and Edge/Fog Computing",
+      "Parallel Computing and Optimization Techniques",
+      "Software System Performance and Reliability"
+    ],
+    "fading_topics": [
+      "Cloud Computing and Resource Management",
+      "Energy Efficiency in Computing"
+    ]
+  },
+  "korea-A5039833822": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "korea-A5083900503": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 17,
+    "status": "insufficient"
+  },
+  "korea-A5100420177": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 7,
+    "status": "insufficient"
+  },
+  "korea-A5090330829": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 12,
+    "recent_papers": 11,
+    "status": "stable",
+    "shift": 0.0326,
+    "p_value": 0.1126,
+    "emerging_topics": [
+      "Microwave Engineering and Waveguides",
+      "Radio Frequency Integrated Circuit Design",
+      "Antenna Design and Analysis"
+    ],
+    "fading_topics": [
+      "Microwave and Dielectric Measurement Techniques",
+      "Digital Filter Design and Implementation",
+      "Electromagnetic Compatibility and Noise Suppression"
+    ]
+  },
+  "korea-A5101630726": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 9,
+    "status": "stable",
+    "shift": 0.0469,
+    "p_value": 0.692,
+    "emerging_topics": [
+      "Software Engineering Research",
+      "IoT-based Smart Home Systems",
+      "Information and Cyber Security"
+    ],
+    "fading_topics": [
+      "Network Security and Intrusion Detection",
+      "Advanced Malware Detection Techniques",
+      "Security and Verification in Computing"
+    ]
+  },
+  "korea-A5033580486": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 37,
+    "recent_papers": 42,
+    "status": "shifted",
+    "shift": 0.0369,
+    "p_value": 0.0001,
+    "emerging_topics": [
+      "Topic Modeling",
+      "Information Retrieval and Search Behavior",
+      "Handwritten Text Recognition Techniques"
+    ],
+    "fading_topics": [
+      "Natural Language Processing Techniques",
+      "Speech and dialogue systems",
+      "Speech Recognition and Synthesis"
+    ],
+    "toward_lab_ids": [
+      "korea-A5075832345",
+      "yonsei-A5100322270",
+      "korea-A5076917278",
+      "yonsei-A5077698683",
+      "snu-A5085451600"
+    ],
+    "early_xy": [
+      0.60222,
+      -0.03219
+    ],
+    "recent_xy": [
+      0.60198,
+      -0.02888
+    ],
+    "toward_subcluster_id": 3,
+    "toward_xy": [
+      0.57049,
+      -0.04704
+    ]
+  },
+  "korea-A5068698319": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 9,
+    "status": "stable",
+    "shift": 0.0744,
+    "p_value": 0.179,
+    "emerging_topics": [
+      "Recommender Systems and Techniques",
+      "Multimodal Machine Learning Applications",
+      "Natural Language Processing Techniques"
+    ],
+    "fading_topics": [
+      "Speech and dialogue systems"
+    ]
+  },
+  "korea-A5072430210": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.0501,
+    "p_value": 0.9658,
+    "emerging_topics": [
+      "Parallel Computing and Optimization Techniques"
+    ],
+    "fading_topics": [
+      "Distributed systems and fault tolerance",
+      "Radiation Effects in Electronics",
+      "Low-power high-performance VLSI design"
+    ]
+  },
+  "korea-A5060644906": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 12,
+    "recent_papers": 8,
+    "status": "stable",
+    "shift": 0.0695,
+    "p_value": 0.0599,
+    "emerging_topics": [
+      "Distributed systems and fault tolerance",
+      "Cloud Computing and Resource Management"
+    ],
+    "fading_topics": [
+      "Data Management and Algorithms",
+      "Target Tracking and Data Fusion in Sensor Networks",
+      "Advanced Database Systems and Queries"
+    ]
+  },
+  "korea-A5025485089": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 14,
+    "recent_papers": 11,
+    "status": "stable",
+    "shift": 0.0299,
+    "p_value": 0.6613,
+    "emerging_topics": [
+      "Generative Adversarial Networks and Image Synthesis",
+      "Advanced Neural Network Applications",
+      "AI in cancer detection"
+    ],
+    "fading_topics": [
+      "Medical Image Segmentation Techniques",
+      "Image and Signal Denoising Methods",
+      "Cell Image Analysis Techniques"
+    ]
+  },
+  "korea-A5006604581": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 9,
+    "status": "insufficient"
+  },
+  "korea-A5035314009": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 5,
+    "status": "stable",
+    "shift": 0.0794,
+    "p_value": 0.3091,
+    "emerging_topics": [
+      "Network Traffic and Congestion Control",
+      "IoT and Edge/Fog Computing",
+      "Age of Information Optimization"
+    ],
+    "fading_topics": [
+      "Caching and Content Delivery",
+      "Digital Platforms and Economics",
+      "Stability and Control of Uncertain Systems"
+    ]
+  },
+  "korea-A5069240871": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 8,
+    "recent_papers": 5,
+    "status": "stable",
+    "shift": 0.0512,
+    "p_value": 0.8264,
+    "emerging_topics": [
+      "Advanced Vision and Imaging",
+      "3D Shape Modeling and Analysis",
+      "Virtual Reality Applications and Impacts"
+    ],
+    "fading_topics": [
+      "Computer Graphics and Visualization Techniques",
+      "Interactive and Immersive Displays",
+      "Simulation and Modeling Applications"
+    ]
+  },
+  "korea-A5059902523": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 24,
+    "recent_papers": 22,
+    "status": "stable",
+    "shift": 0.0245,
+    "p_value": 0.1839,
+    "emerging_topics": [
+      "Adversarial Robustness in Machine Learning",
+      "Advanced Authentication Protocols Security",
+      "Web Application Security Vulnerabilities"
+    ],
+    "fading_topics": [
+      "Security and Verification in Computing",
+      "Cybercrime and Law Enforcement Studies",
+      "Internet Traffic Analysis and Secure E-voting"
+    ]
+  },
+  "skku-A5039577998": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 1,
+    "recent_papers": 4,
+    "status": "insufficient"
+  },
+  "skku-A5100777880": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 10,
+    "status": "shifted",
+    "shift": 0.0469,
+    "p_value": 0.0016,
+    "emerging_topics": [
+      "Genomics and Phylogenetic Studies",
+      "Chromosomal and Genetic Variations",
+      "Genetic diversity and population structure"
+    ],
+    "fading_topics": [
+      "Plant Diversity and Evolution",
+      "Plant Ecology and Taxonomy Studies"
+    ],
+    "toward_lab_ids": [
+      "snu-A5100364611",
+      "korea-A5100613718",
+      "snu-A5073424725",
+      "kaist-A5102961870",
+      "snu-A5100447456"
+    ],
+    "early_xy": [
+      -0.33129,
+      -0.40091
+    ],
+    "recent_xy": [
+      -0.32826,
+      -0.40183
+    ],
+    "toward_subcluster_id": 60,
+    "toward_xy": [
+      -0.35202,
+      -0.45189
+    ]
+  },
+  "skku-A5061799347": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 8,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "skku-A5089880841": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 14,
+    "recent_papers": 12,
+    "status": "stable",
+    "shift": 0.0147,
+    "p_value": 0.334,
+    "emerging_topics": [
+      "Protist diversity and phylogeny",
+      "Chromosomal and Genetic Variations",
+      "Infectious Diseases and Mycology"
+    ],
+    "fading_topics": [
+      "Plant Diversity and Evolution",
+      "Genomics and Phylogenetic Studies",
+      "Photosynthetic Processes and Mechanisms"
+    ]
+  },
+  "skku-A5001542437": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 5,
+    "status": "insufficient"
+  },
+  "skku-A5023474900": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 49,
+    "recent_papers": 32,
+    "status": "stable",
+    "shift": 0.017,
+    "p_value": 0.0394,
+    "emerging_topics": [
+      "Iron Metabolism and Disorders",
+      "Effects of Environmental Stressors on Livestock",
+      "Effects and risks of endocrine disrupting chemicals"
+    ],
+    "fading_topics": [
+      "Zebrafish Biomedical Research Applications",
+      "Reproductive Biology and Fertility",
+      "Flavonoids in Medical Research"
+    ]
+  },
+  "skku-A5085542419": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.0668,
+    "p_value": 0.483,
+    "emerging_topics": [
+      "Bacteriophages and microbial interactions",
+      "Biochemical and Structural Characterization",
+      "Escherichia coli research studies"
+    ],
+    "fading_topics": [
+      "Bacterial Genetics and Biotechnology",
+      "Antibiotic Resistance in Bacteria",
+      "Protein Structure and Dynamics"
+    ]
+  },
+  "skku-A5079695818": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 13,
+    "recent_papers": 10,
+    "status": "stable",
+    "shift": 0.0392,
+    "p_value": 0.0437,
+    "emerging_topics": [
+      "Perovskite Materials and Applications",
+      "Luminescence Properties of Advanced Materials",
+      "Photochemistry and Electron Transfer Studies"
+    ],
+    "fading_topics": [
+      "Machine Learning in Materials Science",
+      "Organic Electronics and Photovoltaics",
+      "Quantum Dots Synthesis And Properties"
+    ]
+  },
+  "skku-A5065568852": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 22,
+    "recent_papers": 23,
+    "status": "shifted",
+    "shift": 0.0244,
+    "p_value": 0.013,
+    "emerging_topics": [
+      "Catalytic Processes in Materials Science",
+      "Nanomaterials for catalytic reactions",
+      "CO2 Reduction Techniques and Catalysts"
+    ],
+    "fading_topics": [
+      "TiO2 Photocatalysis and Solar Cells",
+      "Industrial Gas Emission Control",
+      "Electrocatalysts for Energy Conversion"
+    ],
+    "toward_lab_ids": [
+      "dgist-A5068701918",
+      "snu-A5027337024",
+      "kaist-A5025415011",
+      "yonsei-A5101710370",
+      "sogang-A5002709534"
+    ],
+    "early_xy": [
+      -0.64637,
+      0.14382
+    ],
+    "recent_xy": [
+      -0.65506,
+      0.13726
+    ],
+    "toward_subcluster_id": 67,
+    "away_subcluster_id": 25,
+    "toward_xy": [
+      -0.64442,
+      0.10914
+    ]
+  },
+  "skku-A5069488261": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 18,
+    "recent_papers": 27,
+    "status": "stable",
+    "shift": 0.011,
+    "p_value": 0.6676,
+    "emerging_topics": [
+      "Supercapacitor Materials and Fabrication",
+      "Gas Sensing Nanomaterials and Sensors",
+      "Aqueous and Flow Batteries"
+    ],
+    "fading_topics": [
+      "Advancements in Battery Materials",
+      "Electrocatalysts for Energy Conversion",
+      "Luminescence Properties of Advanced Materials"
+    ]
+  },
+  "skku-A5100645023": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 12,
+    "status": "insufficient"
+  },
+  "skku-A5023524317": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 11,
+    "recent_papers": 10,
+    "status": "stable",
+    "shift": 0.0247,
+    "p_value": 0.2711,
+    "emerging_topics": [
+      "Synthesis of Indole Derivatives",
+      "Asymmetric Hydrogenation and Catalysis",
+      "Enzyme Catalysis and Immobilization"
+    ],
+    "fading_topics": [
+      "Radical Photochemical Reactions",
+      "Organic Chemistry Synthesis Methods",
+      "Advanced Synthetic Organic Chemistry"
+    ]
+  },
+  "skku-A5085437228": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 15,
+    "recent_papers": 10,
+    "status": "stable",
+    "shift": 0.0203,
+    "p_value": 0.5561,
+    "emerging_topics": [
+      "Click Chemistry and Applications",
+      "Chemical Synthesis and Reactions",
+      "Sulfur-Based Synthesis Techniques"
+    ],
+    "fading_topics": [
+      "N-Heterocyclic Carbenes in Organic and Inorganic Chemistry",
+      "Gas Sensing Nanomaterials and Sensors",
+      "Supramolecular Chemistry and Complexes"
+    ]
+  },
+  "skku-A5018777808": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 9,
+    "status": "stable",
+    "shift": 0.0364,
+    "p_value": 0.648,
+    "emerging_topics": [
+      "Synthesis and properties of polymers",
+      "Covalent Organic Framework Applications",
+      "Polymer crystallization and properties"
+    ],
+    "fading_topics": [
+      "Supramolecular Self-Assembly in Materials",
+      "Hydrogels: synthesis, properties, applications",
+      "Supramolecular Chemistry and Complexes"
+    ]
+  },
+  "skku-A5007832893": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 5,
+    "status": "stable",
+    "shift": 0.0332,
+    "p_value": 0.2697,
+    "emerging_topics": [
+      "Asymmetric Synthesis and Catalysis"
+    ],
+    "fading_topics": [
+      "Radical Photochemical Reactions"
+    ]
+  },
+  "skku-A5052141994": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 15,
+    "status": "insufficient"
+  },
+  "skku-A5037018542": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 7,
+    "status": "stable",
+    "shift": 0.0262,
+    "p_value": 0.0614,
+    "emerging_topics": [
+      "Organoboron and organosilicon chemistry",
+      "Asymmetric Synthesis and Catalysis",
+      "Catalytic Alkyne Reactions"
+    ],
+    "fading_topics": [
+      "Catalytic Cross-Coupling Reactions"
+    ]
+  },
+  "skku-A5102827176": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "skku-A5101445145": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 36,
+    "recent_papers": 35,
+    "status": "stable",
+    "shift": 0.0111,
+    "p_value": 0.6356,
+    "emerging_topics": [
+      "Alzheimer's disease research and treatments",
+      "MXene and MAX Phase Materials",
+      "Advanced Photocatalysis Techniques"
+    ],
+    "fading_topics": [
+      "Advancements in Battery Materials",
+      "Graphene research and applications",
+      "Covalent Organic Framework Applications"
+    ]
+  },
+  "skku-A5077232345": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 30,
+    "recent_papers": 18,
+    "status": "shifted",
+    "shift": 0.0209,
+    "p_value": 0.0132,
+    "emerging_topics": [
+      "Electrocatalysts for Energy Conversion",
+      "CO2 Reduction Techniques and Catalysts",
+      "Catalysis for Biomass Conversion"
+    ],
+    "fading_topics": [
+      "Ammonia Synthesis and Nitrogen Reduction",
+      "2D Materials and Applications",
+      "Graphene research and applications"
+    ],
+    "toward_lab_ids": [
+      "sogang-A5002709534",
+      "korea-A5015725542",
+      "skku-A5065568852",
+      "gist-A5033770218",
+      "snu-A5027337024"
+    ],
+    "early_xy": [
+      -0.64289,
+      0.1511
+    ],
+    "recent_xy": [
+      -0.65306,
+      0.14601
+    ],
+    "away_subcluster_id": 25,
+    "toward_xy": [
+      -0.67075,
+      0.122
+    ]
+  },
+  "skku-A5052789010": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 25,
+    "recent_papers": 33,
+    "status": "shifted",
+    "shift": 0.0356,
+    "p_value": 0.0011,
+    "emerging_topics": [
+      "Advanced Memory and Neural Computing",
+      "GaN-based semiconductor devices and materials",
+      "Carbon Nanotubes in Composites"
+    ],
+    "fading_topics": [
+      "Perovskite Materials and Applications",
+      "Machine Learning in Materials Science",
+      "Gas Sensing Nanomaterials and Sensors"
+    ],
+    "toward_lab_ids": [
+      "kaist-A5000208797",
+      "snu-A5084894869",
+      "korea-A5100722599",
+      "hanyang-A5057140860",
+      "skku-A5006114292"
+    ],
+    "early_xy": [
+      -0.47567,
+      0.22142
+    ],
+    "recent_xy": [
+      -0.49436,
+      0.26219
+    ],
+    "toward_subcluster_id": 26,
+    "away_subcluster_id": 35,
+    "toward_xy": [
+      -0.45535,
+      0.31709
+    ]
+  },
+  "skku-A5009423567": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.084,
+    "p_value": 0.2175,
+    "emerging_topics": [
+      "Electrocatalysts for Energy Conversion"
+    ],
+    "fading_topics": [
+      "Perovskite Materials and Applications",
+      "Crystal structures of chemical compounds",
+      "Synthesis and characterization of novel inorganic/organometallic compounds"
+    ]
+  },
+  "skku-A5075044838": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "skku-A5101866798": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "skku-A5061505485": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 19,
+    "recent_papers": 24,
+    "status": "stable",
+    "shift": 0.0125,
+    "p_value": 0.6897,
+    "emerging_topics": [
+      "Advanced Sensor and Energy Harvesting Materials",
+      "Electrocatalysts for Energy Conversion",
+      "CO2 Reduction Techniques and Catalysts"
+    ],
+    "fading_topics": [
+      "2D Materials and Applications",
+      "Metal-Organic Frameworks: Synthesis and Applications",
+      "Electrohydrodynamics and Fluid Dynamics"
+    ]
+  },
+  "skku-A5036756607": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 11,
+    "recent_papers": 6,
+    "status": "stable",
+    "shift": 0.04,
+    "p_value": 0.5006,
+    "emerging_topics": [
+      "Quantum Computing Algorithms and Architecture",
+      "Quantum many-body systems",
+      "Magnetic properties of thin films"
+    ],
+    "fading_topics": [
+      "Physics of Superconductivity and Magnetism",
+      "Cold Atom Physics and Bose-Einstein Condensates"
+    ]
+  },
+  "skku-A5081422740": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 22,
+    "recent_papers": 19,
+    "status": "stable",
+    "shift": 0.0175,
+    "p_value": 0.1114,
+    "emerging_topics": [
+      "Physics of Superconductivity and Magnetism",
+      "Electronic and Structural Properties of Oxides",
+      "Topological Materials and Phenomena"
+    ],
+    "fading_topics": [
+      "Rare-earth and actinide compounds",
+      "Iron-based superconductors research",
+      "Magnetic and transport properties of perovskites and related materials"
+    ]
+  },
+  "skku-A5076068376": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 12,
+    "recent_papers": 9,
+    "status": "stable",
+    "shift": 0.0316,
+    "p_value": 0.1757,
+    "emerging_topics": [
+      "Superconductivity in MgB2 and Alloys",
+      "Advanced Condensed Matter Physics",
+      "Rare-earth and actinide compounds"
+    ],
+    "fading_topics": [
+      "Iron-based superconductors research",
+      "Physics of Superconductivity and Magnetism",
+      "2D Materials and Applications"
+    ]
+  },
+  "skku-A5100758572": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 13,
+    "recent_papers": 9,
+    "status": "shifted",
+    "shift": 0.0744,
+    "p_value": 0.0052,
+    "emerging_topics": [
+      "DNA and Biological Computing",
+      "Algorithms and Data Compression",
+      "Fractal and DNA sequence analysis"
+    ],
+    "fading_topics": [
+      "Advanced biosensing and bioanalysis techniques",
+      "RNA and protein synthesis mechanisms",
+      "Hydrogels: synthesis, properties, applications"
+    ],
+    "toward_lab_ids": [
+      "snu-A5100390278",
+      "skku-A5061945152",
+      "hanyang-A5084486486",
+      "snu-A5073947704",
+      "snu-A5043554497"
+    ],
+    "early_xy": [
+      -0.38075,
+      0.06571
+    ],
+    "recent_xy": [
+      -0.24145,
+      -0.04246
+    ],
+    "away_subcluster_id": 24,
+    "toward_xy": [
+      0.50412,
+      -0.14624
+    ]
+  },
+  "skku-A5012042206": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 10,
+    "recent_papers": 9,
+    "status": "stable",
+    "shift": 0.0326,
+    "p_value": 0.2937,
+    "emerging_topics": [
+      "Nuclear physics research studies",
+      "Astronomical and nuclear sciences",
+      "Quantum Chromodynamics and Particle Interactions"
+    ],
+    "fading_topics": [
+      "Particle Detector Development and Performance",
+      "Gamma-ray bursts and supernovae",
+      "Radiation Detection and Scintillator Technologies"
+    ]
+  },
+  "skku-A5038971321": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 19,
+    "recent_papers": 12,
+    "status": "stable",
+    "shift": 0.0176,
+    "p_value": 0.2666,
+    "emerging_topics": [
+      "Multiferroics and related materials",
+      "Magnetic properties of thin films",
+      "2D Materials and Applications"
+    ],
+    "fading_topics": [
+      "Electronic and Structural Properties of Oxides",
+      "Magnetic and transport properties of perovskites and related materials",
+      "Physics of Superconductivity and Magnetism"
+    ]
+  },
+  "skku-A5101957170": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 13,
+    "recent_papers": 5,
+    "status": "stable",
+    "shift": 0.0529,
+    "p_value": 0.4089,
+    "emerging_topics": [
+      "Topological Materials and Phenomena"
+    ],
+    "fading_topics": [
+      "Laser Material Processing Techniques",
+      "Graphene research and applications",
+      "Advanced Condensed Matter Physics"
+    ]
+  },
+  "skku-A5053190979": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 6,
+    "status": "insufficient"
+  },
+  "skku-A5006114292": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 12,
+    "recent_papers": 21,
+    "status": "shifted",
+    "shift": 0.0379,
+    "p_value": 0.0051,
+    "emerging_topics": [
+      "2D Materials and Applications",
+      "Advanced Memory and Neural Computing",
+      "Advancements in Semiconductor Devices and Circuit Design"
+    ],
+    "fading_topics": [
+      "Electromagnetic wave absorption materials",
+      "Electrocatalysts for Energy Conversion",
+      "Plasmonic and Surface Plasmon Research"
+    ],
+    "toward_lab_ids": [
+      "kaist-A5014009200",
+      "postech-A5010542458",
+      "yonsei-A5026332374",
+      "kaist-A5000208797",
+      "snu-A5002034810"
+    ],
+    "early_xy": [
+      -0.48761,
+      0.28516
+    ],
+    "recent_xy": [
+      -0.46179,
+      0.32389
+    ],
+    "toward_subcluster_id": 26,
+    "away_subcluster_id": 25,
+    "toward_xy": [
+      -0.40932,
+      0.35036
+    ]
+  },
+  "skku-A5067209248": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 16,
+    "recent_papers": 27,
+    "status": "stable",
+    "shift": 0.0112,
+    "p_value": 0.1723,
+    "emerging_topics": [
+      "2D Materials and Applications",
+      "Magnetic properties of thin films",
+      "Topological Materials and Phenomena"
+    ],
+    "fading_topics": [
+      "Advanced Condensed Matter Physics",
+      "Magnetic and transport properties of perovskites and related materials",
+      "Physics of Superconductivity and Magnetism"
+    ]
+  },
+  "skku-A5101696047": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "skku-A5089566116": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "skku-A5000089868": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 7,
+    "status": "stable",
+    "shift": 0.0303,
+    "p_value": 0.7908,
+    "emerging_topics": [
+      "Mathematical functions and polynomials",
+      "Advanced Mathematical Identities"
+    ],
+    "fading_topics": [
+      "Advanced Combinatorial Mathematics",
+      "Algebraic structures and combinatorial models",
+      "Advanced Algebra and Geometry"
+    ]
+  },
+  "skku-A5056531149": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "skku-A5029982173": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.0326,
+    "p_value": 0.9476,
+    "emerging_topics": [
+      "Advanced Harmonic Analysis Research"
+    ],
+    "fading_topics": [
+      "Mathematical Analysis and Transform Methods",
+      "Approximation Theory and Sequence Spaces"
+    ]
+  },
+  "skku-A5029711635": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "skku-A5060341549": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.0725,
+    "p_value": 0.068,
+    "emerging_topics": [],
+    "fading_topics": [
+      "Advanced Mathematical Physics Problems",
+      "Differential Equations and Boundary Problems",
+      "Nonlinear Partial Differential Equations"
+    ]
+  },
+  "skku-A5101668163": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "skku-A5102721570": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "skku-A5050827941": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 7,
+    "status": "stable",
+    "shift": 0.0588,
+    "p_value": 0.1817,
+    "emerging_topics": [
+      "Computational Fluid Dynamics and Aerodynamics",
+      "Lattice Boltzmann Simulation Studies",
+      "Statistical Mechanics and Entropy"
+    ],
+    "fading_topics": [
+      "Gas Dynamics and Kinetic Theory",
+      "Navier-Stokes equation solutions"
+    ]
+  },
+  "skku-A5029350157": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 8,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "skku-A5017448265": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 0,
+    "status": "insufficient"
+  },
+  "skku-A5038941174": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 17,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.0943,
+    "p_value": 0.0419,
+    "emerging_topics": [
+      "Stability and Control of Uncertain Systems"
+    ],
+    "fading_topics": [
+      "Matrix Theory and Algorithms",
+      "Optimization and Variational Analysis",
+      "Distributed Control Multi-Agent Systems"
+    ]
+  },
+  "skku-A5030444750": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "skku-A5006939410": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "skku-A5019321903": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 5,
+    "status": "stable",
+    "shift": 0.0663,
+    "p_value": 0.1447,
+    "emerging_topics": [
+      "Distributed Control Multi-Agent Systems",
+      "Stochastic Gradient Optimization Techniques",
+      "Optimization and Variational Analysis"
+    ],
+    "fading_topics": [
+      "Advanced Numerical Methods in Computational Mathematics",
+      "Numerical Solvers for Ordinary Differential Equations"
+    ]
+  },
+  "skku-A5005187753": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 4,
+    "status": "insufficient"
+  },
+  "skku-A5013964577": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 1,
+    "recent_papers": 6,
+    "status": "insufficient"
+  },
+  "skku-A5101502615": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 5,
+    "status": "stable",
+    "shift": 0.058,
+    "p_value": 0.3075,
+    "emerging_topics": [
+      "Holomorphic and Operator Theory"
+    ],
+    "fading_topics": [
+      "Advanced Operator Algebra Research",
+      "Spectral Theory in Mathematical Physics"
+    ]
+  },
+  "skku-A5002028881": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 7,
+    "status": "stable",
+    "shift": 0.0682,
+    "p_value": 0.2866,
+    "emerging_topics": [
+      "Adversarial Robustness in Machine Learning",
+      "Privacy-Preserving Technologies in Data",
+      "Security and Verification in Computing"
+    ],
+    "fading_topics": [
+      "Software Engineering Research"
+    ]
+  },
+  "skku-A5101586598": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 7,
+    "status": "shifted",
+    "shift": 0.1197,
+    "p_value": 0.0169,
+    "emerging_topics": [
+      "Domain Adaptation and Few-Shot Learning",
+      "Advanced Neural Network Applications",
+      "Multimodal Machine Learning Applications"
+    ],
+    "fading_topics": [],
+    "toward_lab_ids": [
+      "sogang-A5078314427",
+      "snu-A5102802605",
+      "skku-A5067651075",
+      "skku-A5029469141",
+      "snu-A5085451600"
+    ],
+    "early_xy": [
+      0.46807,
+      -0.16635
+    ],
+    "recent_xy": [
+      0.50733,
+      -0.21565
+    ],
+    "toward_subcluster_id": 1,
+    "away_subcluster_id": 52,
+    "toward_xy": [
+      0.54326,
+      -0.12716
+    ]
+  },
+  "skku-A5101688828": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 8,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.1007,
+    "p_value": 0.3196,
+    "emerging_topics": [],
+    "fading_topics": [
+      "Cognitive Radio Networks and Spectrum Sensing",
+      "Reinforcement Learning in Robotics",
+      "Wireless Signal Modulation Classification"
+    ]
+  },
+  "skku-A5084877960": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 6,
+    "status": "stable",
+    "shift": 0.0363,
+    "p_value": 0.4608,
+    "emerging_topics": [
+      "Parallel Computing and Optimization Techniques",
+      "Advanced Data Storage Technologies"
+    ],
+    "fading_topics": [
+      "Advanced Database Systems and Queries",
+      "Distributed systems and fault tolerance"
+    ]
+  },
+  "skku-A5044635661": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 15,
+    "recent_papers": 15,
+    "status": "shifted",
+    "shift": 0.0652,
+    "p_value": 0.0067,
+    "emerging_topics": [
+      "Speech and dialogue systems",
+      "Ethics and Social Impacts of AI",
+      "Natural Language Processing Techniques"
+    ],
+    "fading_topics": [
+      "Fire Detection and Safety Systems",
+      "Sentiment Analysis and Opinion Mining",
+      "Advanced Neural Network Applications"
+    ],
+    "toward_lab_ids": [
+      "kaist-A5079709359",
+      "yonsei-A5076900864",
+      "korea-A5033580486",
+      "yonsei-A5044514062",
+      "hanyang-A5101523174"
+    ],
+    "early_xy": [
+      0.57758,
+      -0.06386
+    ],
+    "recent_xy": [
+      0.6034,
+      -0.03162
+    ],
+    "toward_subcluster_id": 2,
+    "away_subcluster_id": 51,
+    "toward_xy": [
+      0.60532,
+      -0.03959
+    ]
+  },
+  "skku-A5071646906": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 21,
+    "status": "stable",
+    "shift": 0.0457,
+    "p_value": 0.2226,
+    "emerging_topics": [
+      "Multimodal Machine Learning Applications",
+      "Human Pose and Action Recognition",
+      "Time Series Analysis and Forecasting"
+    ],
+    "fading_topics": [
+      "Recommender Systems and Techniques",
+      "Explainable Artificial Intelligence (XAI)"
+    ]
+  },
+  "skku-A5062665275": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 12,
+    "recent_papers": 6,
+    "status": "stable",
+    "shift": 0.0363,
+    "p_value": 0.8702,
+    "emerging_topics": [
+      "Blockchain Technology Applications and Security",
+      "Advanced Database Systems and Queries"
+    ],
+    "fading_topics": [
+      "Cloud Computing and Resource Management",
+      "Software System Performance and Reliability",
+      "Parallel Computing and Optimization Techniques"
+    ]
+  },
+  "skku-A5064051041": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 13,
+    "status": "stable",
+    "shift": 0.0941,
+    "p_value": 0.0569,
+    "emerging_topics": [
+      "Multimodal Machine Learning Applications",
+      "Topic Modeling",
+      "Information Retrieval and Search Behavior"
+    ],
+    "fading_topics": [
+      "Speech Recognition and Synthesis",
+      "Domain Adaptation and Few-Shot Learning",
+      "Speech and Audio Processing"
+    ]
+  },
+  "skku-A5001227049": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 14,
+    "recent_papers": 14,
+    "status": "shifted",
+    "shift": 0.0578,
+    "p_value": 0.006,
+    "emerging_topics": [
+      "AI-based Problem Solving and Planning",
+      "Topic Modeling",
+      "Robot Manipulation and Learning"
+    ],
+    "fading_topics": [
+      "Reinforcement Learning in Robotics",
+      "Advanced Data Storage Technologies",
+      "Advanced Neural Network Applications"
+    ],
+    "toward_lab_ids": [
+      "kaist-A5079709359",
+      "yonsei-A5077698683",
+      "kaist-A5070401254",
+      "korea-A5038510569",
+      "yonsei-A5076900864"
+    ],
+    "early_xy": [
+      0.58268,
+      -0.11449
+    ],
+    "recent_xy": [
+      0.64708,
+      -0.12961
+    ],
+    "toward_subcluster_id": 2,
+    "away_subcluster_id": 51,
+    "toward_xy": [
+      0.66559,
+      -0.14329
+    ]
+  },
+  "skku-A5043069803": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "skku-A5015550942": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 13,
+    "recent_papers": 9,
+    "status": "shifted",
+    "shift": 0.0489,
+    "p_value": 0.0026,
+    "emerging_topics": [
+      "Teaching and Learning Programming",
+      "Web Application Security Vulnerabilities",
+      "Software Testing and Debugging Techniques"
+    ],
+    "fading_topics": [
+      "Software Engineering Research",
+      "Software Engineering Techniques and Practices",
+      "Evolutionary Algorithms and Applications"
+    ],
+    "toward_lab_ids": [
+      "kaist-A5079709359",
+      "kaist-A5077052539",
+      "kaist-A5087492388",
+      "yonsei-A5077698683",
+      "skku-A5101530748"
+    ],
+    "early_xy": [
+      0.88572,
+      -0.35711
+    ],
+    "recent_xy": [
+      0.88513,
+      -0.35348
+    ],
+    "toward_subcluster_id": 1,
+    "toward_xy": [
+      0.71612,
+      -0.19189
+    ]
+  },
+  "skku-A5065423554": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 20,
+    "recent_papers": 24,
+    "status": "shifted",
+    "shift": 0.029,
+    "p_value": 0.0121,
+    "emerging_topics": [
+      "Recommender Systems and Techniques",
+      "Information Retrieval and Search Behavior",
+      "Multimodal Machine Learning Applications"
+    ],
+    "fading_topics": [
+      "Intelligent Tutoring Systems and Adaptive Learning",
+      "Advanced Neural Network Applications",
+      "Machine Learning and Data Classification"
+    ],
+    "toward_lab_ids": [
+      "korea-A5075832345",
+      "yonsei-A5044514062",
+      "yonsei-A5071595184",
+      "hanyang-A5100656150"
+    ],
+    "early_xy": [
+      0.55447,
+      -0.01975
+    ],
+    "recent_xy": [
+      0.56928,
+      0.00086
+    ],
+    "away_subcluster_id": 1,
+    "toward_xy": [
+      0.57791,
+      0.01154
+    ]
+  },
+  "skku-A5067651075": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 20,
+    "recent_papers": 7,
+    "status": "stable",
+    "shift": 0.0725,
+    "p_value": 0.0603,
+    "emerging_topics": [
+      "Domain Adaptation and Few-Shot Learning",
+      "Topic Modeling",
+      "Natural Language Processing Techniques"
+    ],
+    "fading_topics": [
+      "Recommender Systems and Techniques",
+      "Industrial Vision Systems and Defect Detection",
+      "Sentiment Analysis and Opinion Mining"
+    ]
+  },
+  "skku-A5101660662": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 5,
+    "status": "stable",
+    "shift": 0.0615,
+    "p_value": 0.6919,
+    "emerging_topics": [
+      "Security and Verification in Computing",
+      "Software Testing and Debugging Techniques",
+      "Logic, programming, and type systems"
+    ],
+    "fading_topics": [
+      "Parallel Computing and Optimization Techniques"
+    ]
+  },
+  "skku-A5087179276": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "skku-A5102959274": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 8,
+    "recent_papers": 5,
+    "status": "stable",
+    "shift": 0.0573,
+    "p_value": 0.3835,
+    "emerging_topics": [
+      "Data Visualization and Analytics",
+      "Topological and Geometric Data Analysis"
+    ],
+    "fading_topics": [
+      "Face and Expression Recognition",
+      "Digital Media and Visual Art",
+      "Generative Adversarial Networks and Image Synthesis"
+    ]
+  },
+  "skku-A5061945152": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 4,
+    "status": "insufficient"
+  },
+  "skku-A5054815114": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 6,
+    "status": "insufficient"
+  },
+  "skku-A5054933494": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 30,
+    "recent_papers": 22,
+    "status": "stable",
+    "shift": 0.0228,
+    "p_value": 0.4188,
+    "emerging_topics": [
+      "Traffic Prediction and Management Techniques",
+      "Phonocardiography and Auscultation Techniques",
+      "Brain Tumor Detection and Classification"
+    ],
+    "fading_topics": [
+      "Energy Efficient Wireless Sensor Networks",
+      "Anomaly Detection Techniques and Applications",
+      "Advanced Image Processing Techniques"
+    ]
+  },
+  "skku-A5035561846": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "skku-A5029469141": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 18,
+    "recent_papers": 20,
+    "status": "stable",
+    "shift": 0.0224,
+    "p_value": 0.3389,
+    "emerging_topics": [
+      "3D Shape Modeling and Analysis",
+      "Multimodal Machine Learning Applications",
+      "Human Pose and Action Recognition"
+    ],
+    "fading_topics": [
+      "Domain Adaptation and Few-Shot Learning",
+      "Advanced Neural Network Applications",
+      "Advanced Image and Video Retrieval Techniques"
+    ]
+  },
+  "skku-A5101530748": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 8,
+    "status": "insufficient"
+  },
+  "hanyang-A5015920248": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 10,
+    "recent_papers": 10,
+    "status": "stable",
+    "shift": 0.0249,
+    "p_value": 0.456,
+    "emerging_topics": [
+      "Plant biochemistry and biosynthesis",
+      "Photosynthetic Processes and Mechanisms"
+    ],
+    "fading_topics": [
+      "Algal biology and biofuel production",
+      "Microbial Metabolic Engineering and Bioproduction"
+    ]
+  },
+  "hanyang-A5068700705": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "hanyang-A5011176089": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "hanyang-A5077447040": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 6,
+    "status": "stable",
+    "shift": 0.042,
+    "p_value": 0.2863,
+    "emerging_topics": [
+      "T-cell and B-cell Immunology",
+      "Cancer Immunotherapy and Biomarkers"
+    ],
+    "fading_topics": [
+      "Psoriasis: Treatment and Pathogenesis",
+      "Immunotherapy and Immune Responses"
+    ]
+  },
+  "hanyang-A5054741433": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 8,
+    "status": "stable",
+    "shift": 0.0962,
+    "p_value": 0.1347,
+    "emerging_topics": [
+      "Advanced biosensing and bioanalysis techniques",
+      "Biosensors and Analytical Detection",
+      "SARS-CoV-2 detection and testing"
+    ],
+    "fading_topics": [
+      "Nanoplatforms for cancer theranostics"
+    ]
+  },
+  "hanyang-A5084486486": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 6,
+    "status": "stable",
+    "shift": 0.0546,
+    "p_value": 0.5302,
+    "emerging_topics": [
+      "HER2/EGFR in Cancer Research",
+      "Breast Cancer Treatment Studies"
+    ],
+    "fading_topics": [
+      "Genomic variations and chromosomal abnormalities",
+      "Cancer Genomics and Diagnostics"
+    ]
+  },
+  "hanyang-A5033393093": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 10,
+    "status": "stable",
+    "shift": 0.0408,
+    "p_value": 0.2014,
+    "emerging_topics": [
+      "Algal biology and biofuel production",
+      "Marine Plankton and Biogeochemistry",
+      "Protist diversity and phylogeny"
+    ],
+    "fading_topics": [
+      "Marine Toxins and Detection Methods",
+      "Aquatic Ecosystems and Phytoplankton Dynamics"
+    ]
+  },
+  "hanyang-A5013108380": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.0244,
+    "p_value": 0.5316,
+    "emerging_topics": [
+      "Crustacean biology and ecology",
+      "Invertebrate Taxonomy and Ecology"
+    ],
+    "fading_topics": [
+      "Marine Biology and Ecology Research"
+    ]
+  },
+  "hanyang-A5082589395": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 14,
+    "status": "stable",
+    "shift": 0.0541,
+    "p_value": 0.032,
+    "emerging_topics": [
+      "Freshwater macroinvertebrate diversity and ecology",
+      "Aquatic Ecosystems and Phytoplankton Dynamics",
+      "Water Quality Monitoring Technologies"
+    ],
+    "fading_topics": [
+      "Diatoms and Algae Research",
+      "Environmental Toxicology and Ecotoxicology"
+    ]
+  },
+  "hanyang-A5064501803": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "hanyang-A5026538440": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 11,
+    "recent_papers": 11,
+    "status": "stable",
+    "shift": 0.0398,
+    "p_value": 0.0936,
+    "emerging_topics": [
+      "Polymer crystallization and properties",
+      "Perovskite Materials and Applications",
+      "biodegradable polymer synthesis and properties"
+    ],
+    "fading_topics": [
+      "Organic Electronics and Photovoltaics",
+      "Photochromic and Fluorescence Chemistry",
+      "Photorefractive and Nonlinear Optics"
+    ]
+  },
+  "hanyang-A5045960589": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 11,
+    "recent_papers": 10,
+    "status": "shifted",
+    "shift": 0.0421,
+    "p_value": 0.0146,
+    "emerging_topics": [
+      "Extracellular vesicles in disease",
+      "Advanced Fluorescence Microscopy Techniques",
+      "Luminescence Properties of Advanced Materials"
+    ],
+    "fading_topics": [
+      "Advanced Electron Microscopy Techniques and Applications",
+      "Spectroscopy and Quantum Chemical Studies",
+      "Cell Image Analysis Techniques"
+    ],
+    "toward_lab_ids": [
+      "snu-A5012298830",
+      "sogang-A5100439519",
+      "unist-A5030449534",
+      "kaist-A5100608115",
+      "unist-A5025370124"
+    ],
+    "early_xy": [
+      -0.24456,
+      0.04266
+    ],
+    "recent_xy": [
+      -0.30869,
+      0.12191
+    ],
+    "toward_subcluster_id": 46,
+    "away_subcluster_id": 45,
+    "toward_xy": [
+      -0.32429,
+      0.25618
+    ]
+  },
+  "hanyang-A5100388383": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 1,
+    "recent_papers": 5,
+    "status": "insufficient"
+  },
+  "hanyang-A5083069264": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 6,
+    "status": "stable",
+    "shift": 0.0445,
+    "p_value": 0.2519,
+    "emerging_topics": [
+      "Molecular Junctions and Nanostructures",
+      "Surface Chemistry and Catalysis"
+    ],
+    "fading_topics": [
+      "Advanced Photocatalysis Techniques",
+      "TiO2 Photocatalysis and Solar Cells",
+      "Polydiacetylene-based materials and applications"
+    ]
+  },
+  "hanyang-A5089218042": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 13,
+    "status": "stable",
+    "shift": 0.0383,
+    "p_value": 0.5012,
+    "emerging_topics": [
+      "Advancements in Photolithography Techniques",
+      "Advanced Thermoelectric Materials and Devices",
+      "Thin-Film Transistor Technologies"
+    ],
+    "fading_topics": []
+  },
+  "hanyang-A5003192163": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 11,
+    "recent_papers": 6,
+    "status": "stable",
+    "shift": 0.0489,
+    "p_value": 0.2747,
+    "emerging_topics": [
+      "Advanced Polymer Synthesis and Characterization",
+      "Polymer Nanocomposite Synthesis and Irradiation"
+    ],
+    "fading_topics": [
+      "Adsorption and biosorption for pollutant removal",
+      "Carbon and Quantum Dots Applications",
+      "Analytical chemistry methods development"
+    ]
+  },
+  "hanyang-A5002204188": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.037,
+    "p_value": 0.4962,
+    "emerging_topics": [
+      "Cyclopropane Reaction Mechanisms",
+      "Synthesis and Catalytic Reactions",
+      "Oxidative Organic Chemistry Reactions"
+    ],
+    "fading_topics": [
+      "Catalytic Alkyne Reactions",
+      "Asymmetric Synthesis and Catalysis",
+      "Radical Photochemical Reactions"
+    ]
+  },
+  "hanyang-A5062473163": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 10,
+    "recent_papers": 14,
+    "status": "stable",
+    "shift": 0.0609,
+    "p_value": 0.0486,
+    "emerging_topics": [
+      "Extracellular vesicles in disease",
+      "Chemistry and Chemical Engineering",
+      "Animal testing and alternatives"
+    ],
+    "fading_topics": [
+      "Luminescence Properties of Advanced Materials",
+      "Nanoparticle-Based Drug Delivery",
+      "Gold and Silver Nanoparticles Synthesis and Applications"
+    ]
+  },
+  "hanyang-A5024532352": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 1,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "hanyang-A5066251454": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 4,
+    "status": "insufficient"
+  },
+  "hanyang-A5067433666": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 10,
+    "recent_papers": 12,
+    "status": "stable",
+    "shift": 0.0483,
+    "p_value": 0.2985,
+    "emerging_topics": [
+      "Luminescence Properties of Advanced Materials",
+      "Gas Sensing Nanomaterials and Sensors",
+      "Luminescence and Fluorescent Materials"
+    ],
+    "fading_topics": [
+      "Nanoplatforms for cancer theranostics",
+      "Coronary Interventions and Diagnostics",
+      "Tissue Engineering and Regenerative Medicine"
+    ]
+  },
+  "hanyang-A5101660438": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "hanyang-A5079206867": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 6,
+    "status": "stable",
+    "shift": 0.0386,
+    "p_value": 0.2874,
+    "emerging_topics": [
+      "Advanced Battery Materials and Technologies",
+      "Ionic liquids properties and applications"
+    ],
+    "fading_topics": [
+      "Electrocatalysts for Energy Conversion",
+      "Aqueous and Flow Batteries",
+      "Advancements in Battery Materials"
+    ]
+  },
+  "hanyang-A5018571634": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 16,
+    "recent_papers": 11,
+    "status": "stable",
+    "shift": 0.0331,
+    "p_value": 0.2792,
+    "emerging_topics": [
+      "Gold and Silver Nanoparticles Synthesis and Applications"
+    ],
+    "fading_topics": [
+      "Spectroscopy Techniques in Biomedical and Chemical Research",
+      "Laser-induced spectroscopy and plasma",
+      "Spectroscopy and Chemometric Analyses"
+    ]
+  },
+  "hanyang-A5052181447": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "hanyang-A5033670362": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 38,
+    "recent_papers": 26,
+    "status": "shifted",
+    "shift": 0.0247,
+    "p_value": 0.0001,
+    "emerging_topics": [
+      "Advanced Sensor and Energy Harvesting Materials",
+      "Supercapacitor Materials and Fabrication",
+      "Luminescence and Fluorescent Materials"
+    ],
+    "fading_topics": [
+      "Organic Electronics and Photovoltaics",
+      "Perovskite Materials and Applications",
+      "Quantum Dots Synthesis And Properties"
+    ],
+    "toward_lab_ids": [
+      "yonsei-A5000703747",
+      "skku-A5061505485",
+      "skku-A5052789010",
+      "hanyang-A5057140860",
+      "gist-A5074809975"
+    ],
+    "early_xy": [
+      -0.47712,
+      0.21323
+    ],
+    "recent_xy": [
+      -0.46978,
+      0.20415
+    ],
+    "toward_subcluster_id": 25,
+    "away_subcluster_id": 35,
+    "toward_xy": [
+      -0.50052,
+      0.20263
+    ]
+  },
+  "hanyang-A5100702614": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 1,
+    "recent_papers": 4,
+    "status": "insufficient"
+  },
+  "hanyang-A5078173419": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 8,
+    "status": "stable",
+    "shift": 0.045,
+    "p_value": 0.2339,
+    "emerging_topics": [
+      "Magnetic properties of thin films",
+      "High-pressure geophysics and materials",
+      "Advanced Condensed Matter Physics"
+    ],
+    "fading_topics": [
+      "Boron and Carbon Nanomaterials Research",
+      "ZnO doping and properties",
+      "Fullerene Chemistry and Applications"
+    ]
+  },
+  "hanyang-A5010589085": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 8,
+    "status": "stable",
+    "shift": 0.0502,
+    "p_value": 0.1796,
+    "emerging_topics": [
+      "Quantum Mechanics and Non-Hermitian Physics",
+      "Physics of Superconductivity and Magnetism",
+      "2D Materials and Applications"
+    ],
+    "fading_topics": [
+      "Magnetic properties of thin films",
+      "Topological Materials and Phenomena",
+      "Advanced Condensed Matter Physics"
+    ]
+  },
+  "hanyang-A5088950987": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 11,
+    "status": "stable",
+    "shift": 0.0342,
+    "p_value": 0.2741,
+    "emerging_topics": [
+      "Metamaterials and Metasurfaces Applications",
+      "Optical Coatings and Gratings",
+      "Photonic and Optical Devices"
+    ],
+    "fading_topics": [
+      "Plasmonic and Surface Plasmon Research",
+      "Topological Materials and Phenomena"
+    ]
+  },
+  "hanyang-A5003214466": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 5,
+    "status": "insufficient"
+  },
+  "hanyang-A5080582549": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 6,
+    "status": "insufficient"
+  },
+  "hanyang-A5057140860": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 30,
+    "recent_papers": 27,
+    "status": "stable",
+    "shift": 0.0193,
+    "p_value": 0.0477,
+    "emerging_topics": [
+      "2D Materials and Applications",
+      "Advanced Memory and Neural Computing",
+      "Ferroelectric and Negative Capacitance Devices"
+    ],
+    "fading_topics": [
+      "Perovskite Materials and Applications",
+      "Graphene research and applications",
+      "Organic Electronics and Photovoltaics"
+    ]
+  },
+  "hanyang-A5035797448": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 5,
+    "status": "insufficient"
+  },
+  "hanyang-A5101848509": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 10,
+    "recent_papers": 7,
+    "status": "shifted",
+    "shift": 0.0657,
+    "p_value": 0.025,
+    "emerging_topics": [
+      "Aqueous and Flow Batteries",
+      "Supercapacitor Materials and Fabrication",
+      "ZnO doping and properties"
+    ],
+    "fading_topics": [
+      "Perovskite Materials and Applications",
+      "2D Materials and Applications",
+      "Advanced Sensor and Energy Harvesting Materials"
+    ],
+    "toward_lab_ids": [
+      "postech-A5100447428",
+      "gist-A5100609778",
+      "dgist-A5022583737",
+      "gist-A5028889140",
+      "gist-A5033770218"
+    ],
+    "early_xy": [
+      -0.48199,
+      0.2749
+    ],
+    "recent_xy": [
+      -0.61468,
+      0.19774
+    ],
+    "toward_subcluster_id": 18,
+    "away_subcluster_id": 26,
+    "toward_xy": [
+      -0.65764,
+      0.21592
+    ]
+  },
+  "hanyang-A5091504641": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "hanyang-A5049332012": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "hanyang-A5000509319": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "hanyang-A5000879537": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "hanyang-A5045700517": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 7,
+    "status": "stable",
+    "shift": 0.0886,
+    "p_value": 0.1679,
+    "emerging_topics": [
+      "Biometric Identification and Security",
+      "Adversarial Robustness in Machine Learning",
+      "Face recognition and analysis"
+    ],
+    "fading_topics": [
+      "Cryptography and Data Security",
+      "Advanced Authentication Protocols Security"
+    ]
+  },
+  "hanyang-A5063764927": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "hanyang-A5053474905": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 8,
+    "status": "insufficient"
+  },
+  "hanyang-A5034314759": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 1,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "hanyang-A5059925471": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 8,
+    "status": "stable",
+    "shift": 0.0729,
+    "p_value": 0.2246,
+    "emerging_topics": [
+      "Parallel Computing and Optimization Techniques",
+      "Advanced Data Storage Technologies",
+      "Network Packet Processing and Optimization"
+    ],
+    "fading_topics": [
+      "Advanced Database Systems and Queries",
+      "Cloud Computing and Remote Desktop Technologies",
+      "IoT and Edge/Fog Computing"
+    ]
+  },
+  "hanyang-A5044269840": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 10,
+    "recent_papers": 6,
+    "status": "stable",
+    "shift": 0.0304,
+    "p_value": 0.8047,
+    "emerging_topics": [
+      "Human Motion and Animation",
+      "Computer Graphics and Visualization Techniques"
+    ],
+    "fading_topics": [
+      "Interactive and Immersive Displays",
+      "3D Shape Modeling and Analysis",
+      "Simulation and Modeling Applications"
+    ]
+  },
+  "hanyang-A5100656150": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 33,
+    "recent_papers": 31,
+    "status": "stable",
+    "shift": 0.0134,
+    "p_value": 0.4393,
+    "emerging_topics": [
+      "Advanced Graph Neural Networks",
+      "Information Retrieval and Search Behavior",
+      "Traffic Prediction and Management Techniques"
+    ],
+    "fading_topics": [
+      "Complex Network Analysis Techniques",
+      "Spam and Phishing Detection",
+      "Parallel Computing and Optimization Techniques"
+    ]
+  },
+  "hanyang-A5011022538": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "hanyang-A5101523174": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 16,
+    "status": "stable",
+    "shift": 0.0496,
+    "p_value": 0.0893,
+    "emerging_topics": [
+      "Multimodal Machine Learning Applications",
+      "Speech and dialogue systems",
+      "Computational and Text Analysis Methods"
+    ],
+    "fading_topics": [
+      "Domain Adaptation and Few-Shot Learning",
+      "Natural Language Processing Techniques",
+      "Topic Modeling"
+    ]
+  },
+  "hanyang-A5100438996": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 14,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "hanyang-A5021287644": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 15,
+    "recent_papers": 11,
+    "status": "stable",
+    "shift": 0.0506,
+    "p_value": 0.1505,
+    "emerging_topics": [
+      "Temporomandibular Joint Disorders",
+      "Artificial Intelligence in Healthcare and Education",
+      "Salivary Gland Disorders and Functions"
+    ],
+    "fading_topics": [
+      "Breast Cancer Treatment Studies",
+      "Artificial Intelligence in Healthcare",
+      "Glioma Diagnosis and Treatment"
+    ]
+  },
+  "hanyang-A5101411354": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 1,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "hanyang-A5017254623": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "hanyang-A5101569791": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "hanyang-A5082966786": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.0553,
+    "p_value": 0.441,
+    "emerging_topics": [
+      "Machine Learning in Bioinformatics",
+      "Advanced Proteomics Techniques and Applications",
+      "Protein Structure and Dynamics"
+    ],
+    "fading_topics": [
+      "Mass Spectrometry Techniques and Applications"
+    ]
+  },
+  "hanyang-A5103146890": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.0535,
+    "p_value": 0.3546,
+    "emerging_topics": [
+      "Human Motion and Animation",
+      "3D Shape Modeling and Analysis"
+    ],
+    "fading_topics": [
+      "Robotic Locomotion and Control",
+      "Reinforcement Learning in Robotics",
+      "Computer Graphics and Visualization Techniques"
+    ]
+  },
+  "hanyang-A5015785399": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 7,
+    "status": "stable",
+    "shift": 0.0812,
+    "p_value": 0.0956,
+    "emerging_topics": [
+      "Caching and Content Delivery",
+      "Cloud Computing and Resource Management",
+      "Advanced Data Storage Technologies"
+    ],
+    "fading_topics": [
+      "IoT and Edge/Fog Computing",
+      "Software-Defined Networks and 5G",
+      "Blockchain Technology Applications and Security"
+    ]
+  },
+  "hanyang-A5009979103": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 1,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "hanyang-A5016424347": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 9,
+    "status": "insufficient"
+  },
+  "hanyang-A5062763435": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 21,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "hanyang-A5036440250": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 14,
+    "recent_papers": 39,
+    "status": "stable",
+    "shift": 0.0394,
+    "p_value": 0.0444,
+    "emerging_topics": [
+      "Domain Adaptation and Few-Shot Learning",
+      "Advanced Chemical Sensor Technologies",
+      "Advanced Graph Neural Networks"
+    ],
+    "fading_topics": [
+      "Recommender Systems and Techniques",
+      "Explainable Artificial Intelligence (XAI)",
+      "Time Series Analysis and Forecasting"
+    ]
+  },
+  "hanyang-A5100677785": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 11,
+    "recent_papers": 17,
+    "status": "shifted",
+    "shift": 0.0591,
+    "p_value": 0.0191,
+    "emerging_topics": [
+      "Generative Adversarial Networks and Image Synthesis",
+      "Advanced Neural Network Applications",
+      "Adversarial Robustness in Machine Learning"
+    ],
+    "fading_topics": [
+      "Advanced Image Processing Techniques",
+      "Multimodal Machine Learning Applications",
+      "Human Pose and Action Recognition"
+    ],
+    "toward_lab_ids": [
+      "yonsei-A5071595184",
+      "korea-A5076917278",
+      "hanyang-A5101523174",
+      "korea-A5033580486",
+      "korea-A5068698319"
+    ],
+    "early_xy": [
+      0.52485,
+      -0.1771
+    ],
+    "recent_xy": [
+      0.56547,
+      -0.1045
+    ],
+    "toward_subcluster_id": 2,
+    "toward_xy": [
+      0.59981,
+      -0.02689
+    ]
+  },
+  "sogang-A5014318381": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "sogang-A5048886580": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.0469,
+    "p_value": 0.4138,
+    "emerging_topics": [
+      "Plant Surface Properties and Treatments",
+      "Plant Stress Responses and Tolerance"
+    ],
+    "fading_topics": [
+      "Lipid metabolism and biosynthesis"
+    ]
+  },
+  "sogang-A5070408026": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "sogang-A5065943380": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "sogang-A5117537474": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 4,
+    "status": "insufficient"
+  },
+  "sogang-A5034928816": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 18,
+    "recent_papers": 13,
+    "status": "stable",
+    "shift": 0.0302,
+    "p_value": 0.5317,
+    "emerging_topics": [
+      "Lipid Membrane Structure and Behavior",
+      "Wound Healing and Treatments",
+      "SARS-CoV-2 detection and testing"
+    ],
+    "fading_topics": [
+      "Origins and Evolution of Life",
+      "Tissue Engineering and Regenerative Medicine",
+      "Nanomaterials and Printing Technologies"
+    ]
+  },
+  "sogang-A5067125728": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 18,
+    "status": "stable",
+    "shift": 0.0478,
+    "p_value": 0.5134,
+    "emerging_topics": [
+      "Forensic Toxicology and Drug Analysis",
+      "Supramolecular Chemistry and Complexes",
+      "Computational Drug Discovery Methods"
+    ],
+    "fading_topics": [
+      "Mass Spectrometry Techniques and Applications",
+      "Analytical chemistry methods development",
+      "Advanced Proteomics Techniques and Applications"
+    ]
+  },
+  "sogang-A5091478170": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 48,
+    "recent_papers": 43,
+    "status": "shifted",
+    "shift": 0.0184,
+    "p_value": 0.0001,
+    "emerging_topics": [
+      "Nonlinear Optical Materials Research",
+      "Crystallography and molecular interactions",
+      "Polyoxometalates: Synthesis and Applications"
+    ],
+    "fading_topics": [
+      "Advanced Thermoelectric Materials and Devices",
+      "Ferroelectric and Piezoelectric Materials",
+      "Inorganic Fluorides and Related Compounds"
+    ],
+    "toward_lab_ids": [
+      "yonsei-A5032446162",
+      "korea-A5002260690",
+      "unist-A5056250877"
+    ],
+    "early_xy": [
+      -0.45134,
+      0.23518
+    ],
+    "recent_xy": [
+      -0.43676,
+      0.2039
+    ],
+    "away_subcluster_id": 27,
+    "toward_xy": [
+      -0.40732,
+      0.14853
+    ]
+  },
+  "sogang-A5101902737": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "sogang-A5005463849": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 11,
+    "status": "stable",
+    "shift": 0.025,
+    "p_value": 0.3906,
+    "emerging_topics": [
+      "Advancements in Battery Materials",
+      "Battery Modeling and Management"
+    ],
+    "fading_topics": [
+      "Advanced Battery Materials and Technologies"
+    ]
+  },
+  "sogang-A5071300800": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 6,
+    "status": "insufficient"
+  },
+  "sogang-A5015611571": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 5,
+    "status": "stable",
+    "shift": 0.0519,
+    "p_value": 0.2286,
+    "emerging_topics": [
+      "Advanced Electron Microscopy Techniques and Applications",
+      "Advanced Fluorescence Microscopy Techniques",
+      "Advanced biosensing and bioanalysis techniques"
+    ],
+    "fading_topics": [
+      "Microfluidic and Capillary Electrophoresis Applications",
+      "DNA and Nucleic Acid Chemistry",
+      "Innovative Microfluidic and Catalytic Techniques Innovation"
+    ]
+  },
+  "sogang-A5055283096": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 7,
+    "status": "insufficient"
+  },
+  "sogang-A5083950843": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 5,
+    "status": "insufficient"
+  },
+  "sogang-A5011601556": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "sogang-A5002709534": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "sogang-A5002551670": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "sogang-A5100362648": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "sogang-A5101577512": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 4,
+    "status": "stable",
+    "shift": 0.0607,
+    "p_value": 0.1655,
+    "emerging_topics": [
+      "Noncommutative and Quantum Gravity Theories",
+      "Relativity and Gravitational Theory",
+      "Astrophysical Phenomena and Observations"
+    ],
+    "fading_topics": [
+      "Cosmology and Gravitation Theories",
+      "Black Holes and Theoretical Physics"
+    ]
+  },
+  "sogang-A5100439519": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 12,
+    "recent_papers": 13,
+    "status": "stable",
+    "shift": 0.0242,
+    "p_value": 0.5318,
+    "emerging_topics": [
+      "Multiferroics and related materials",
+      "Ferroelectric and Piezoelectric Materials",
+      "Advanced X-ray Imaging Techniques"
+    ],
+    "fading_topics": [
+      "Organic Electronics and Photovoltaics",
+      "Organic Light-Emitting Diodes Research",
+      "Laser Material Processing Techniques"
+    ]
+  },
+  "sogang-A5062096268": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "sogang-A5032249659": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 8,
+    "status": "insufficient"
+  },
+  "sogang-A5049991540": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 1,
+    "recent_papers": 11,
+    "status": "insufficient"
+  },
+  "sogang-A5087912030": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 8,
+    "status": "stable",
+    "shift": 0.0308,
+    "p_value": 0.8776,
+    "emerging_topics": [
+      "Graphene research and applications",
+      "2D Materials and Applications",
+      "Ferroelectric and Negative Capacitance Devices"
+    ],
+    "fading_topics": [
+      "Multiferroics and related materials"
+    ]
+  },
+  "sogang-A5012240196": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 22,
+    "recent_papers": 18,
+    "status": "stable",
+    "shift": 0.0167,
+    "p_value": 0.1545,
+    "emerging_topics": [
+      "Crystal Structures and Properties",
+      "Ferroelectric and Piezoelectric Materials",
+      "Nonlinear Optical Materials Research"
+    ],
+    "fading_topics": [
+      "2D Materials and Applications",
+      "Strong Light-Matter Interactions",
+      "Organic Electronics and Photovoltaics"
+    ]
+  },
+  "sogang-A5045896881": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 11,
+    "recent_papers": 9,
+    "status": "stable",
+    "shift": 0.0297,
+    "p_value": 0.392,
+    "emerging_topics": [
+      "Magnetic properties of thin films",
+      "Physics of Superconductivity and Magnetism",
+      "Rare-earth and actinide compounds"
+    ],
+    "fading_topics": [
+      "Topological Materials and Phenomena",
+      "Heusler alloys: electronic and magnetic properties",
+      "Magnetic Properties of Alloys"
+    ]
+  },
+  "sogang-A5068371091": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 10,
+    "status": "insufficient"
+  },
+  "sogang-A5052221875": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 0,
+    "recent_papers": 5,
+    "status": "insufficient"
+  },
+  "sogang-A5100326520": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "sogang-A5079135242": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "sogang-A5002260007": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "sogang-A5056888396": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 8,
+    "status": "stable",
+    "shift": 0.0259,
+    "p_value": 0.2559,
+    "emerging_topics": [
+      "Nonlinear Partial Differential Equations"
+    ],
+    "fading_topics": [
+      "Advanced Harmonic Analysis Research",
+      "Geometric Analysis and Curvature Flows",
+      "Advanced Numerical Methods in Computational Mathematics"
+    ]
+  },
+  "sogang-A5103063552": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "sogang-A5075156748": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 1,
+    "recent_papers": 2,
+    "status": "insufficient"
+  },
+  "sogang-A5100704334": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 17,
+    "recent_papers": 7,
+    "status": "stable",
+    "shift": 0.0334,
+    "p_value": 0.1968,
+    "emerging_topics": [
+      "Caching and Content Delivery",
+      "Advanced Wireless Network Optimization",
+      "Network Traffic and Congestion Control"
+    ],
+    "fading_topics": [
+      "IoT and Edge/Fog Computing",
+      "Cognitive Radio Networks and Spectrum Sensing",
+      "Advanced MIMO Systems Optimization"
+    ]
+  },
+  "sogang-A5100458491": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 14,
+    "recent_papers": 18,
+    "status": "shifted",
+    "shift": 0.0273,
+    "p_value": 0.0194,
+    "emerging_topics": [
+      "Cloud Computing and Resource Management",
+      "Advanced Database Systems and Queries",
+      "Energy Efficiency in Computing"
+    ],
+    "fading_topics": [
+      "Advanced Data Storage Technologies",
+      "Parallel Computing and Optimization Techniques",
+      "Distributed systems and fault tolerance"
+    ],
+    "toward_lab_ids": [
+      "postech-A5100334897",
+      "yonsei-A5088551237",
+      "yonsei-A5086980677",
+      "skku-A5035561846",
+      "korea-A5055061586"
+    ],
+    "early_xy": [
+      0.89596,
+      -0.07633
+    ],
+    "recent_xy": [
+      0.89852,
+      -0.078
+    ],
+    "toward_subcluster_id": 59,
+    "toward_xy": [
+      0.9844,
+      -0.12745
+    ]
+  },
+  "sogang-A5101944386": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 0,
+    "status": "insufficient"
+  },
+  "sogang-A5100451538": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 1,
+    "status": "insufficient"
+  },
+  "sogang-A5101413142": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 4,
+    "recent_papers": 7,
+    "status": "stable",
+    "shift": 0.0665,
+    "p_value": 0.2856,
+    "emerging_topics": [
+      "Advanced Database Systems and Queries",
+      "Advanced Data Storage Technologies",
+      "Energy Efficiency in Computing"
+    ],
+    "fading_topics": [
+      "Parallel Computing and Optimization Techniques",
+      "Distributed systems and fault tolerance",
+      "Cloud Computing and Resource Management"
+    ]
+  },
+  "sogang-A5076950125": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "sogang-A5046573028": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 9,
+    "recent_papers": 10,
+    "status": "stable",
+    "shift": 0.075,
+    "p_value": 0.0739,
+    "emerging_topics": [
+      "Voice and Speech Disorders",
+      "Speech Recognition and Synthesis",
+      "Advanced Neural Network Applications"
+    ],
+    "fading_topics": [
+      "Human Pose and Action Recognition",
+      "Advanced Image and Video Retrieval Techniques",
+      "Advanced Vision and Imaging"
+    ]
+  },
+  "sogang-A5022288678": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 7,
+    "recent_papers": 13,
+    "status": "stable",
+    "shift": 0.0863,
+    "p_value": 0.0859,
+    "emerging_topics": [
+      "Speech Recognition and Synthesis",
+      "Voice and Speech Disorders",
+      "Language Development and Disorders"
+    ],
+    "fading_topics": [
+      "Phonetics and Phonology Research",
+      "Energy Efficient Wireless Sensor Networks"
+    ]
+  },
+  "sogang-A5046628656": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 6,
+    "recent_papers": 9,
+    "status": "stable",
+    "shift": 0.1073,
+    "p_value": 0.0817,
+    "emerging_topics": [
+      "Generative Adversarial Networks and Image Synthesis",
+      "Time Series Analysis and Forecasting",
+      "Parallel Computing and Optimization Techniques"
+    ],
+    "fading_topics": [
+      "Stock Market Forecasting Methods",
+      "Advanced Image Processing Techniques"
+    ]
+  },
+  "sogang-A5029634385": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 1,
+    "recent_papers": 3,
+    "status": "insufficient"
+  },
+  "sogang-A5049458130": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 4,
+    "status": "insufficient"
+  },
+  "sogang-A5080385405": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 2,
+    "recent_papers": 7,
+    "status": "insufficient"
+  },
+  "sogang-A5078314427": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 3,
+    "recent_papers": 9,
+    "status": "insufficient"
   }
 }
