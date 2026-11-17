@@ -96,6 +96,62 @@
     "unist-A5100765704": {
       "reason": "mixed_topics",
       "note": "reservoir computing mixed with displays, sign language, Indonesian social data"
+    },
+    "hanyang-A5000879537": {
+      "reason": "mixed_topics",
+      "note": "API intro writer: Half of the six titles concern multi-agent and kinetic dynamics in mathematics, while the other half are Korean constitutional law case reviews, suggesting papers from a namesake author are mixed in."
+    },
+    "hanyang-A5062763435": {
+      "reason": "mixed_topics",
+      "note": "API intro writer: About half the titles are deep-learning image recognition applications, while the rest cover unrelated areas (NAND flash/SSD data placement, blockchain certificates, GPS mobility analysis, HTML content extraction), which suggests papers from same-name authors are mixed in."
+    },
+    "hanyang-A5100702614": {
+      "reason": "insufficient_papers",
+      "note": "API intro writer: Only two titles are available, one on pressure-induced C60 polymerization and one on quantum-geometric optical conductivity, which is too few and too disparate to define a coherent research theme."
+    },
+    "hanyang-A5101569791": {
+      "reason": "mixed_topics",
+      "note": "API intro writer: About half of the titles concern cryptography and mass spectrometry search while the other half address multicultural education and teacher studies, suggesting papers from a namesake author are mixed in."
+    },
+    "korea-A5038510569": {
+      "reason": "insufficient_papers",
+      "note": "API intro writer: Only two recent last-author titles are available, covering edge-TPU real-time scheduling and multi-device app interaction, which is too little to reliably characterize the lab's research focus."
+    },
+    "korea-A5072000148": {
+      "reason": "mixed_topics",
+      "note": "API intro writer: Half of the six titles are quantum computing/information papers while the other half are Christian theology and church history studies, suggesting papers from a namesake author are mixed in."
+    },
+    "korea-A5090330829": {
+      "reason": "wrong_field",
+      "note": "API intro writer: All titles concern microwave/RF filter and waveguide circuit design, which belongs to electrical engineering rather than a computer science department, so the profile match is doubtful."
+    },
+    "korea-A5100406460": {
+      "reason": "insufficient_papers",
+      "note": "API intro writer: No last- or corresponding-author paper titles were provided, so the research topic cannot be described from keywords alone."
+    },
+    "korea-A5100420177": {
+      "reason": "wrong_field",
+      "note": "API intro writer: Nearly all titles address electrical engineering topics (signal integrity of differential transmission lines, power delivery network design, and radar/array beamforming), which does not fit a computer science department and suggests a profile mismatch, even though some papers apply deep learning or genetic algorithms."
+    },
+    "skku-A5030444750": {
+      "reason": "mixed_topics",
+      "note": "API intro writer: About half the titles are on event-triggered containment and consensus control of fuzzy and Markov-jump multi-agent systems, while the rest are on Riemannian and trust-region optimization and trend filtering, which suggests papers from a different author with the same name may be mixed in."
+    },
+    "skku-A5102721570": {
+      "reason": "insufficient_papers",
+      "note": "API intro writer: Only two titles are available, and one ('Toward Butler's conjecture') is too general to identify a research theme beyond a broad hint of combinatorial commutative algebra."
+    },
+    "sogang-A5014318381": {
+      "reason": "insufficient_papers",
+      "note": "API intro writer: Only one last-author paper, on bitterness taste responsiveness profiling, is available, which is too little to characterize the lab's research focus without over-interpreting a single title."
+    },
+    "yonsei-A5079361781": {
+      "reason": "insufficient_papers",
+      "note": "API intro writer: Only one last/corresponding-author paper (on spectral gaps of the symmetric inclusion process) is available, which is too little to characterize the lab's research themes."
+    },
+    "yonsei-A5103278399": {
+      "reason": "mixed_topics",
+      "note": "API intro writer: Of only three titles, one concerns robotic manipulation with diffusion models while two are Korean/Chinese historical studies (Gaya wooden tablets, Jin king in Han), suggesting papers from a namesake author are mixed in."
     }
   },
   "review": {

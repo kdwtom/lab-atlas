@@ -1,59 +1,59 @@
 {
-  "generated_at": "2026-11-08",
-  "data_retrieved_at": "2026-11-04",
+  "generated_at": "2026-11-17",
+  "data_retrieved_at": "2026-11-16",
   "window_years": [
     2022,
     2026
   ],
   "min_senior_papers": 5,
-  "louvain_resolution": 1.6,
+  "louvain_resolution": 2.75,
   "louvain_seed": 42,
   "similarity_k": 5,
-  "similarity_threshold": 0.9179,
+  "similarity_threshold": 0.9241,
   "similarity_bands": {
     "all": [
-      0.9351,
-      0.9521
+      0.9415,
+      0.9579
     ],
     "chem": [
-      0.9431,
-      0.9594
+      0.9484,
+      0.9631
     ],
     "cross": [
-      0.9311,
-      0.9456
+      0.9353,
+      0.9522
     ],
     "cs": [
-      0.9331,
-      0.9471
+      0.9433,
+      0.9565
     ],
     "life": [
-      0.9322,
-      0.9428
+      0.9351,
+      0.9443
     ],
     "math": [
-      0.9248,
-      0.9404
+      0.9365,
+      0.9506
     ],
     "phys": [
-      0.9472,
-      0.9625
+      0.952,
+      0.9663
     ]
   },
   "counts": {
-    "labs": 498,
-    "papers": 9797,
-    "edges_similarity": 1302,
-    "edges_coauthor": 696
+    "labs": 848,
+    "papers": 17632,
+    "edges_similarity": 2344,
+    "edges_coauthor": 1240
   },
   "summary_coverage": {
-    "representative_papers": 1441,
+    "representative_papers": 2447,
     "papers_with_summary": 268,
-    "labs": 498,
-    "labs_with_intro": 474,
-    "labs_intro_unavailable": 24
+    "labs": 848,
+    "labs_with_intro": 810,
+    "labs_intro_unavailable": 38
   },
-  "excluded_namesake_papers": 317,
+  "excluded_namesake_papers": 392,
   "departments": [
     {
       "code": "kaist-life",
@@ -297,6 +297,240 @@
       "discipline": "phys",
       "faculty_list_url": "https://sites.google.com/view/physics-at-dgist/member",
       "labs": 10
+    },
+    {
+      "code": "yonsei-sysbio",
+      "univ": "yonsei",
+      "univ_name_ko": "연세대학교",
+      "name_ko": "시스템생물학과",
+      "discipline": "life",
+      "faculty_list_url": "https://bio.yonsei.ac.kr/bio/major/system_faculty.do",
+      "labs": 8
+    },
+    {
+      "code": "yonsei-biochem",
+      "univ": "yonsei",
+      "univ_name_ko": "연세대학교",
+      "name_ko": "생화학과",
+      "discipline": "life",
+      "faculty_list_url": "https://biochem.yonsei.ac.kr/biochem/faculty/faculty01.do",
+      "labs": 7
+    },
+    {
+      "code": "yonsei-chem",
+      "univ": "yonsei",
+      "univ_name_ko": "연세대학교",
+      "name_ko": "화학과",
+      "discipline": "chem",
+      "faculty_list_url": "https://chemyonsei.kr/people/faculty",
+      "labs": 14
+    },
+    {
+      "code": "yonsei-phys",
+      "univ": "yonsei",
+      "univ_name_ko": "연세대학교",
+      "name_ko": "물리학과",
+      "discipline": "phys",
+      "faculty_list_url": "https://physics.yonsei.ac.kr/people/professor",
+      "labs": 13
+    },
+    {
+      "code": "yonsei-math",
+      "univ": "yonsei",
+      "univ_name_ko": "연세대학교",
+      "name_ko": "수학과",
+      "discipline": "math",
+      "faculty_list_url": "https://math.yonsei.ac.kr/math/math/faculty.do",
+      "labs": 14
+    },
+    {
+      "code": "yonsei-cs",
+      "univ": "yonsei",
+      "univ_name_ko": "연세대학교",
+      "name_ko": "컴퓨터과학과",
+      "discipline": "cs",
+      "faculty_list_url": "https://cs.yonsei.ac.kr/csai/member/fullProfessor.do",
+      "labs": 25
+    },
+    {
+      "code": "korea-life",
+      "univ": "korea",
+      "univ_name_ko": "고려대학교",
+      "name_ko": "생명과학부",
+      "discipline": "life",
+      "faculty_list_url": "https://ls.korea.ac.kr/ls/professor/professor.do",
+      "labs": 15
+    },
+    {
+      "code": "korea-chem",
+      "univ": "korea",
+      "univ_name_ko": "고려대학교",
+      "name_ko": "화학과",
+      "discipline": "chem",
+      "faculty_list_url": "https://chem.korea.ac.kr/chemistry/faculty/full-time-professor.do",
+      "labs": 16
+    },
+    {
+      "code": "korea-phys",
+      "univ": "korea",
+      "univ_name_ko": "고려대학교",
+      "name_ko": "물리학과",
+      "discipline": "phys",
+      "faculty_list_url": "https://physics.korea.ac.kr/physics/faculty/faculty-full-time.do",
+      "labs": 12
+    },
+    {
+      "code": "korea-math",
+      "univ": "korea",
+      "univ_name_ko": "고려대학교",
+      "name_ko": "수학과",
+      "discipline": "math",
+      "faculty_list_url": "https://math.korea.ac.kr/math/member/full-time-professors.do",
+      "labs": 10
+    },
+    {
+      "code": "korea-cs",
+      "univ": "korea",
+      "univ_name_ko": "고려대학교",
+      "name_ko": "컴퓨터학과",
+      "discipline": "cs",
+      "faculty_list_url": "https://cs.korea.ac.kr/cs/intro/fulltime_faculty.do",
+      "labs": 32
+    },
+    {
+      "code": "skku-life",
+      "univ": "skku",
+      "univ_name_ko": "성균관대학교",
+      "name_ko": "생명과학과",
+      "discipline": "life",
+      "faculty_list_url": "https://cscience.skku.edu/cscience/intro/faculty_bio.do",
+      "labs": 7
+    },
+    {
+      "code": "skku-chem",
+      "univ": "skku",
+      "univ_name_ko": "성균관대학교",
+      "name_ko": "화학과",
+      "discipline": "chem",
+      "faculty_list_url": "https://cscience.skku.edu/cscience/intro/faculty_chem.do",
+      "labs": 15
+    },
+    {
+      "code": "skku-phys",
+      "univ": "skku",
+      "univ_name_ko": "성균관대학교",
+      "name_ko": "물리학과",
+      "discipline": "phys",
+      "faculty_list_url": "https://cscience.skku.edu/cscience/intro/faculty_physics.do",
+      "labs": 14
+    },
+    {
+      "code": "skku-math",
+      "univ": "skku",
+      "univ_name_ko": "성균관대학교",
+      "name_ko": "수학과",
+      "discipline": "math",
+      "faculty_list_url": "https://cscience.skku.edu/cscience/intro/faculty_math.do",
+      "labs": 18
+    },
+    {
+      "code": "skku-cs",
+      "univ": "skku",
+      "univ_name_ko": "성균관대학교",
+      "name_ko": "소프트웨어학과",
+      "discipline": "cs",
+      "faculty_list_url": "https://sw.skku.edu/sw/faculty.do",
+      "labs": 22
+    },
+    {
+      "code": "hanyang-life",
+      "univ": "hanyang",
+      "univ_name_ko": "한양대학교",
+      "name_ko": "생명과학과",
+      "discipline": "life",
+      "faculty_list_url": "https://lifescience.hanyang.ac.kr/-7",
+      "labs": 9
+    },
+    {
+      "code": "hanyang-chem",
+      "univ": "hanyang",
+      "univ_name_ko": "한양대학교",
+      "name_ko": "화학과",
+      "discipline": "chem",
+      "faculty_list_url": "https://chem.hanyang.ac.kr/%EA%B5%90%EC%88%98_%EC%86%8C%EA%B0%9C",
+      "labs": 17
+    },
+    {
+      "code": "hanyang-phys",
+      "univ": "hanyang",
+      "univ_name_ko": "한양대학교",
+      "name_ko": "물리학과",
+      "discipline": "phys",
+      "faculty_list_url": "https://physics.hanyang.ac.kr/faculty",
+      "labs": 9
+    },
+    {
+      "code": "hanyang-math",
+      "univ": "hanyang",
+      "univ_name_ko": "한양대학교",
+      "name_ko": "수학과",
+      "discipline": "math",
+      "faculty_list_url": "https://math.hanyang.ac.kr/%EA%B5%90%EC%88%98%EC%A7%84",
+      "labs": 8
+    },
+    {
+      "code": "hanyang-cs",
+      "univ": "hanyang",
+      "univ_name_ko": "한양대학교",
+      "name_ko": "컴퓨터소프트웨어학부",
+      "discipline": "cs",
+      "faculty_list_url": "https://cs.hanyang.ac.kr/-02-1",
+      "labs": 18
+    },
+    {
+      "code": "sogang-life",
+      "univ": "sogang",
+      "univ_name_ko": "서강대학교",
+      "name_ko": "생명과학과",
+      "discipline": "life",
+      "faculty_list_url": "http://lifescien.sogang.ac.kr/bbs/board.php?bo_table=teacher",
+      "labs": 4
+    },
+    {
+      "code": "sogang-chem",
+      "univ": "sogang",
+      "univ_name_ko": "서강대학교",
+      "name_ko": "화학과",
+      "discipline": "chem",
+      "faculty_list_url": "https://chemistry.sogang.ac.kr/chemistry/10580/subview.do",
+      "labs": 12
+    },
+    {
+      "code": "sogang-phys",
+      "univ": "sogang",
+      "univ_name_ko": "서강대학교",
+      "name_ko": "물리학과",
+      "discipline": "phys",
+      "faculty_list_url": "https://physics.sogang.ac.kr/physics/6771/subview.do",
+      "labs": 12
+    },
+    {
+      "code": "sogang-math",
+      "univ": "sogang",
+      "univ_name_ko": "서강대학교",
+      "name_ko": "수학과",
+      "discipline": "math",
+      "faculty_list_url": "https://math.sogang.ac.kr/math/7364/subview.do",
+      "labs": 6
+    },
+    {
+      "code": "sogang-cs",
+      "univ": "sogang",
+      "univ_name_ko": "서강대학교",
+      "name_ko": "컴퓨터공학과",
+      "discipline": "cs",
+      "faculty_list_url": "https://computing.sogang.ac.kr/ko/education/undergraduate/computer-science",
+      "labs": 13
     }
   ],
   "rules": {
