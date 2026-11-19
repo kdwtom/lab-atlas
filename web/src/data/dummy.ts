@@ -4,7 +4,7 @@ import type { Cluster, Discipline, Edge, Lab, Meta, Univ } from '../types/data';
 export function makeDummy(n: number, clusters: Cluster[], meta: Meta): { labs: Lab[]; edges: Edge[]; clusters: Cluster[]; meta: Meta } {
   let seed = 42;
   const rand = () => ((seed = (seed * 1664525 + 1013904223) % 4294967296) / 4294967296);
-  const univs: Univ[] = ['kaist', 'snu', 'postech', 'unist', 'gist', 'dgist'];
+  const univs: Univ[] = ['kaist', 'snu', 'postech', 'unist', 'gist', 'dgist', 'yonsei', 'korea', 'skku', 'hanyang', 'sogang'];
   const fields: Discipline[] = ['life', 'chem', 'phys', 'math', 'cs'];
   const k = Math.max(clusters.length, 1);
   const centers = Array.from({ length: k }, (_, i) => [Math.cos((2 * Math.PI * i) / k) * 0.6, Math.sin((2 * Math.PI * i) / k) * 0.6]);

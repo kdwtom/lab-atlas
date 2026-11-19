@@ -2,7 +2,9 @@ import type { Lab, Meta, Univ } from '../types/data';
 
 export const NA = '정보 없음';
 
-export const UNIV_ORDER: Univ[] = ['kaist', 'snu', 'postech', 'unist', 'gist', 'dgist'];
+export const UNIV_ORDER: Univ[] = [
+  'kaist', 'snu', 'postech', 'unist', 'gist', 'dgist', 'yonsei', 'korea', 'skku', 'hanyang', 'sogang',
+];
 export const UNIV_LABEL: Record<Univ, string> = {
   kaist: 'KAIST',
   snu: '서울대',
@@ -10,6 +12,11 @@ export const UNIV_LABEL: Record<Univ, string> = {
   unist: 'UNIST',
   gist: 'GIST',
   dgist: 'DGIST',
+  yonsei: '연세대',
+  korea: '고려대',
+  skku: '성균관대',
+  hanyang: '한양대',
+  sogang: '서강대',
 };
 
 /** The GitHub Actions build sets VITE_REPO_URL to the repository; local builds fall back to a placeholder. */

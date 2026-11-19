@@ -1,7 +1,9 @@
 // Web data types — mirror of pipeline/schemas.py (web data section). Keep in sync.
 // Unknown values are `null` and rendered as "정보 없음".
 
-export type Univ = 'kaist' | 'snu' | 'postech' | 'unist' | 'gist' | 'dgist';
+export type Univ =
+  | 'kaist' | 'snu' | 'postech' | 'unist' | 'gist' | 'dgist'
+  | 'yonsei' | 'korea' | 'skku' | 'hanyang' | 'sogang';
 export type SourceKind =
   | 'faculty_page'
   | 'faculty_detail'

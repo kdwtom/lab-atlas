@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import type { Edge, Lab, Paper } from '../types/data';
 import { clusterPath, useAtlas } from '../data/DataContext';
-import { NA, affiliation, doiHref, introText, neighbourCaution, piName, similarityBand } from '../lib/format';
+import { NA, UNIV_ORDER, affiliation, doiHref, introText, neighbourCaution, piName, similarityBand } from '../lib/format';
 import StarButton from './StarButton';
 import TrendSection from './TrendSection';
 import { FIELD_LABEL, fieldColor, type Mode } from '../lib/palette';
@@ -118,7 +118,7 @@ export default function LabPanel({ lab, edge, mode, sheet, pinned, onClose }: Pr
           <p className="eyebrow">연구실 지형도</p>
           <h2 className="panel-title">비슷한 연구를 하는 연구실을 한눈에</h2>
           <p>
-            국내 6개 대학 생명과학·화학·물리·수학·컴퓨터 학과의 연구실 {m.counts.labs}곳을 최근 논문의 내용으로
+            국내 {UNIV_ORDER.length}개 대학 생명과학·화학·물리·수학·컴퓨터 학과의 연구실 {m.counts.labs}곳을 최근 논문의 내용으로
             배치했습니다. 가까이 있거나 선으로 이어진 연구실일수록 연구 주제가 비슷하고, 색은 분야를 나타냅니다.
           </p>
           <ul className="hint">
