@@ -152,6 +152,10 @@
     "yonsei-A5103278399": {
       "reason": "mixed_topics",
       "note": "API intro writer: Of only three titles, one concerns robotic manipulation with diffusion models while two are Korean/Chinese historical studies (Gaya wooden tablets, Jin king in Han), suggesting papers from a namesake author are mixed in."
+    },
+    "dgist-A5020372110": {
+      "reason": "mixed_topics",
+      "note": "API intro writer: About half the titles concern reinforcement-learning control of inverted pendulums and control education platforms, unrelated to the remaining aging, yeast lifespan, and tissue engineering papers, suggesting a homonymous author's papers are mixed in."
     }
   },
   "review": {

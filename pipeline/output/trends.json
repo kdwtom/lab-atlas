@@ -154,18 +154,18 @@
       "dgist-A5047491735"
     ],
     "early_xy": [
-      -0.34564,
-      0.00725
+      0.31128,
+      -0.02328
     ],
     "recent_xy": [
-      -0.44205,
-      0.10391
+      0.43322,
+      0.05545
     ],
-    "toward_subcluster_id": 35,
-    "away_subcluster_id": 23,
+    "toward_subcluster_id": 38,
+    "away_subcluster_id": 32,
     "toward_xy": [
-      -0.50997,
-      0.1922
+      0.50406,
+      0.14029
     ]
   },
   "kaist-A5062127128": {
@@ -192,6 +192,29 @@
       "Diet and metabolism studies"
     ]
   },
+  "kaist-A5038993159": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 11,
+    "recent_papers": 7,
+    "status": "stable",
+    "shift": 0.0587,
+    "p_value": 0.548,
+    "emerging_topics": [
+      "Genomics and Chromatin Dynamics"
+    ],
+    "fading_topics": [
+      "Alzheimer's disease research and treatments",
+      "Genetic Neurodegenerative Diseases",
+      "Protein Structure and Dynamics"
+    ]
+  },
   "kaist-A5087466819": {
     "early_years": [
       2022,
@@ -205,7 +228,7 @@
     "recent_papers": 17,
     "status": "stable",
     "shift": 0.0671,
-    "p_value": 0.0419,
+    "p_value": 0.0441,
     "emerging_topics": [
       "Wnt/β-catenin signaling in development and cancer",
       "CRISPR and Genetic Engineering",
@@ -214,7 +237,7 @@
     "fading_topics": [
       "Neurogenesis and neuroplasticity mechanisms",
       "RNA modifications and cancer",
-      "Genetics and Neurodevelopmental Disorders"
+      "Cancer-related molecular mechanisms research"
     ]
   },
   "kaist-A5059786116": {
@@ -256,7 +279,7 @@
     "recent_papers": 20,
     "status": "stable",
     "shift": 0.0357,
-    "p_value": 0.1201,
+    "p_value": 0.1207,
     "emerging_topics": [
       "RNA regulation and disease",
       "Single-cell and spatial transcriptomics",
@@ -280,7 +303,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.0199,
-    "p_value": 0.6899,
+    "p_value": 0.6858,
     "emerging_topics": [
       "Cancer Immunotherapy and Biomarkers",
       "Gut microbiota and health",
@@ -305,7 +328,7 @@
     "recent_papers": 8,
     "status": "shifted",
     "shift": 0.1318,
-    "p_value": 0.014,
+    "p_value": 0.0155,
     "emerging_topics": [
       "Wnt/β-catenin signaling in development and cancer",
       "Helicobacter pylori-related gastroenterology studies",
@@ -321,17 +344,17 @@
       "gist-A5071676695"
     ],
     "early_xy": [
-      -0.09128,
-      -0.30782
+      0.11233,
+      -0.27682
     ],
     "recent_xy": [
-      -0.06824,
-      -0.31289
+      0.08853,
+      -0.25868
     ],
-    "away_subcluster_id": 5,
+    "away_subcluster_id": 42,
     "toward_xy": [
-      -0.07718,
-      -0.35507
+      0.06478,
+      -0.21299
     ]
   },
   "kaist-A5038871139": {
@@ -360,7 +383,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0623,
-    "p_value": 0.2615,
+    "p_value": 0.2712,
     "emerging_topics": [
       "Receptor Mechanisms and Signaling",
       "Neuropeptides and Animal Physiology",
@@ -385,7 +408,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0223,
-    "p_value": 0.8125,
+    "p_value": 0.8167,
     "emerging_topics": [
       "Neuroinflammation and Neurodegeneration Mechanisms",
       "Nerve injury and regeneration"
@@ -409,7 +432,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0625,
-    "p_value": 0.3072,
+    "p_value": 0.3125,
     "emerging_topics": [
       "Epigenetics and DNA Methylation",
       "Chromatin Remodeling and Cancer"
@@ -446,7 +469,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0319,
-    "p_value": 0.6382,
+    "p_value": 0.6384,
     "emerging_topics": [
       "Photosynthetic Processes and Mechanisms",
       "Plant Molecular Biology Research"
@@ -482,7 +505,7 @@
     "recent_papers": 14,
     "status": "stable",
     "shift": 0.0415,
-    "p_value": 0.4871,
+    "p_value": 0.4808,
     "emerging_topics": [
       "RNA Research and Splicing",
       "Digital Holography and Microscopy",
@@ -490,7 +513,7 @@
     ],
     "fading_topics": [
       "Neuroinflammation and Neurodegeneration Mechanisms",
-      "Memory and Neural Mechanisms",
+      "Advanced Fluorescence Microscopy Techniques",
       "Photoreceptor and optogenetics research"
     ]
   },
@@ -546,7 +569,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0631,
-    "p_value": 0.2875,
+    "p_value": 0.2927,
     "emerging_topics": [
       "interferon and immune responses"
     ],
@@ -569,7 +592,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0486,
-    "p_value": 0.3398,
+    "p_value": 0.3377,
     "emerging_topics": [],
     "fading_topics": [
       "Immune Cell Function and Interaction",
@@ -590,7 +613,7 @@
     "recent_papers": 12,
     "status": "stable",
     "shift": 0.0469,
-    "p_value": 0.7875,
+    "p_value": 0.7885,
     "emerging_topics": [
       "Glycosylation and Glycoproteins Research",
       "Mitochondrial Function and Pathology",
@@ -615,7 +638,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0452,
-    "p_value": 0.6244,
+    "p_value": 0.6183,
     "emerging_topics": [
       "Immune Response and Inflammation",
       "Antimicrobial Peptides and Activities",
@@ -653,7 +676,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.0634,
-    "p_value": 0.1202,
+    "p_value": 0.1263,
     "emerging_topics": [
       "Advanced Electron Microscopy Techniques and Applications",
       "Amyotrophic Lateral Sclerosis Research",
@@ -691,7 +714,7 @@
     "recent_papers": 19,
     "status": "stable",
     "shift": 0.0133,
-    "p_value": 0.3131,
+    "p_value": 0.3046,
     "emerging_topics": [
       "Genomics and Phylogenetic Studies",
       "Algorithms and Data Compression",
@@ -716,7 +739,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0631,
-    "p_value": 0.3376,
+    "p_value": 0.3341,
     "emerging_topics": [
       "Machine Learning in Bioinformatics",
       "Microbial Metabolic Engineering and Bioproduction"
@@ -739,7 +762,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0712,
-    "p_value": 0.3069,
+    "p_value": 0.3081,
     "emerging_topics": [
       "FOXO transcription factor regulation"
     ],
@@ -762,7 +785,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.056,
-    "p_value": 0.5412,
+    "p_value": 0.5481,
     "emerging_topics": [
       "Gut microbiota and health",
       "Enzyme Structure and Function",
@@ -799,7 +822,7 @@
     "recent_papers": 17,
     "status": "shifted",
     "shift": 0.0449,
-    "p_value": 0.0151,
+    "p_value": 0.0165,
     "emerging_topics": [
       "Diptera species taxonomy and behavior",
       "Forensic Entomology and Diptera Studies",
@@ -818,18 +841,18 @@
       "unist-A5068286820"
     ],
     "early_xy": [
-      -0.33015,
-      -0.40303
+      0.13299,
+      -0.49919
     ],
     "recent_xy": [
-      -0.33319,
-      -0.3977
+      0.1341,
+      -0.49621
     ],
-    "toward_subcluster_id": 56,
-    "away_subcluster_id": 66,
+    "toward_subcluster_id": 55,
+    "away_subcluster_id": 68,
     "toward_xy": [
-      -0.06006,
-      -0.19404
+      0.08964,
+      -0.31092
     ]
   },
   "snu-A5020003410": {
@@ -884,7 +907,7 @@
     "recent_papers": 10,
     "status": "shifted",
     "shift": 0.0963,
-    "p_value": 0.0023,
+    "p_value": 0.0014,
     "emerging_topics": [
       "Plant Molecular Biology Research",
       "Plant Reproductive Biology",
@@ -903,18 +926,18 @@
       "dgist-A5083518122"
     ],
     "early_xy": [
-      -0.36278,
-      -0.52447
+      0.16065,
+      -0.64071
     ],
     "recent_xy": [
-      -0.36331,
-      -0.5194
+      0.16053,
+      -0.64189
     ],
-    "toward_subcluster_id": 66,
-    "away_subcluster_id": 14,
+    "toward_subcluster_id": 68,
+    "away_subcluster_id": 6,
     "toward_xy": [
-      -0.35332,
-      -0.50522
+      0.15796,
+      -0.62458
     ]
   },
   "snu-A5100364611": {
@@ -956,7 +979,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.087,
-    "p_value": 0.0964,
+    "p_value": 0.0969,
     "emerging_topics": [
       "Mitochondrial Function and Pathology",
       "Genetics, Aging, and Longevity in Model Organisms"
@@ -992,7 +1015,7 @@
     "recent_papers": 19,
     "status": "stable",
     "shift": 0.0082,
-    "p_value": 0.8924,
+    "p_value": 0.8944,
     "emerging_topics": [
       "Polar Research and Ecology",
       "Microplastics and Plastic Pollution",
@@ -1030,7 +1053,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0695,
-    "p_value": 0.1584,
+    "p_value": 0.153,
     "emerging_topics": [
       "Endoplasmic Reticulum Stress and Disease",
       "Autophagy in Disease and Therapy"
@@ -1052,7 +1075,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0158,
-    "p_value": 0.8235,
+    "p_value": 0.8098,
     "emerging_topics": [
       "Forensic and Genetic Research",
       "Forensic Anthropology and Bioarchaeology Studies",
@@ -1103,7 +1126,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0745,
-    "p_value": 0.1314,
+    "p_value": 0.1297,
     "emerging_topics": [
       "Advanced Electron Microscopy Techniques and Applications",
       "Force Microscopy Techniques and Applications",
@@ -1152,7 +1175,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0809,
-    "p_value": 0.2021,
+    "p_value": 0.1934,
     "emerging_topics": [
       "Receptor Mechanisms and Signaling",
       "CRISPR and Genetic Engineering",
@@ -1175,7 +1198,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0839,
-    "p_value": 0.4649,
+    "p_value": 0.4642,
     "emerging_topics": [
       "Sphingolipid Metabolism and Signaling"
     ],
@@ -1197,7 +1220,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0931,
-    "p_value": 0.4324,
+    "p_value": 0.4269,
     "emerging_topics": [
       "Biochemical and Structural Characterization"
     ],
@@ -1219,7 +1242,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0417,
-    "p_value": 0.51,
+    "p_value": 0.5061,
     "emerging_topics": [],
     "fading_topics": [
       "Pancreatic and Hepatic Oncology Research",
@@ -1266,7 +1289,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.1383,
-    "p_value": 0.1132,
+    "p_value": 0.1101,
     "emerging_topics": [
       "Prostate Cancer Treatment and Research",
       "Cancer-related gene regulation",
@@ -1330,7 +1353,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0454,
-    "p_value": 0.5662,
+    "p_value": 0.5669,
     "emerging_topics": [
       "Computational Drug Discovery Methods",
       "Microbial Metabolic Engineering and Bioproduction"
@@ -1354,7 +1377,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0534,
-    "p_value": 0.6317,
+    "p_value": 0.621,
     "emerging_topics": [
       "Single-cell and spatial transcriptomics",
       "Pluripotent Stem Cells Research"
@@ -1391,7 +1414,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0604,
-    "p_value": 0.2539,
+    "p_value": 0.2453,
     "emerging_topics": [],
     "fading_topics": [
       "Genetics and Neurodevelopmental Disorders",
@@ -1425,7 +1448,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0457,
-    "p_value": 0.9746,
+    "p_value": 0.9757,
     "emerging_topics": [],
     "fading_topics": []
   },
@@ -1442,7 +1465,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.033,
-    "p_value": 0.5995,
+    "p_value": 0.6042,
     "emerging_topics": [
       "Gut microbiota and health",
       "Tryptophan and brain disorders",
@@ -1493,7 +1516,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0364,
-    "p_value": 0.9693,
+    "p_value": 0.9656,
     "emerging_topics": [
       "Plant nutrient uptake and metabolism",
       "Plant Molecular Biology Research"
@@ -1516,7 +1539,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.1106,
-    "p_value": 0.2143,
+    "p_value": 0.2161,
     "emerging_topics": [
       "Cell death mechanisms and regulation",
       "Mitochondrial Function and Pathology"
@@ -1539,7 +1562,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.06,
-    "p_value": 0.0429,
+    "p_value": 0.0395,
     "emerging_topics": [
       "RNA Interference and Gene Delivery",
       "Immunotherapy and Immune Responses",
@@ -1577,7 +1600,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0598,
-    "p_value": 0.1993,
+    "p_value": 0.1948,
     "emerging_topics": [
       "Nanoplatforms for cancer theranostics",
       "Photoacoustic and Ultrasonic Imaging"
@@ -1640,7 +1663,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0989,
-    "p_value": 0.4823,
+    "p_value": 0.4752,
     "emerging_topics": [],
     "fading_topics": []
   },
@@ -1683,7 +1706,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0962,
-    "p_value": 0.2817,
+    "p_value": 0.2909,
     "emerging_topics": [
       "Liver Disease Diagnosis and Treatment",
       "MicroRNA in disease regulation",
@@ -1707,7 +1730,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0478,
-    "p_value": 0.3771,
+    "p_value": 0.3861,
     "emerging_topics": [
       "Genomics and Phylogenetic Studies",
       "Bacterial Identification and Susceptibility Testing",
@@ -1745,7 +1768,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0848,
-    "p_value": 0.0779,
+    "p_value": 0.0837,
     "emerging_topics": [],
     "fading_topics": [
       "Acute Myeloid Leukemia Research",
@@ -1805,7 +1828,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0473,
-    "p_value": 0.3121,
+    "p_value": 0.3149,
     "emerging_topics": [],
     "fading_topics": [
       "Immune cells in cancer",
@@ -1891,7 +1914,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0704,
-    "p_value": 0.2825,
+    "p_value": 0.2801,
     "emerging_topics": [
       "Photosynthetic Processes and Mechanisms"
     ],
@@ -1940,7 +1963,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.097,
-    "p_value": 0.0715,
+    "p_value": 0.0763,
     "emerging_topics": [
       "Prostate Cancer Treatment and Research",
       "Microfluidic and Bio-sensing Technologies",
@@ -1978,7 +2001,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0523,
-    "p_value": 0.334,
+    "p_value": 0.3424,
     "emerging_topics": [
       "RNA Interference and Gene Delivery",
       "Monoclonal and Polyclonal Antibodies Research",
@@ -2029,7 +2052,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0422,
-    "p_value": 0.3526,
+    "p_value": 0.3601,
     "emerging_topics": [
       "Avian ecology and behavior"
     ],
@@ -2038,6 +2061,19 @@
       "Animal Vocal Communication and Behavior",
       "Fish Ecology and Management Studies"
     ]
+  },
+  "dgist-A5100329288": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 5,
+    "recent_papers": 2,
+    "status": "insufficient"
   },
   "dgist-A5037567383": {
     "early_years": [
@@ -2078,7 +2114,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0725,
-    "p_value": 0.1127,
+    "p_value": 0.1129,
     "emerging_topics": [
       "Radical Photochemical Reactions",
       "Photochemistry and Electron Transfer Studies",
@@ -2103,7 +2139,7 @@
     "recent_papers": 22,
     "status": "stable",
     "shift": 0.02,
-    "p_value": 0.4328,
+    "p_value": 0.4269,
     "emerging_topics": [
       "Photoacoustic and Ultrasonic Imaging",
       "Cancer Immunotherapy and Biomarkers",
@@ -2153,7 +2189,7 @@
     "recent_papers": 12,
     "status": "stable",
     "shift": 0.0502,
-    "p_value": 0.1261,
+    "p_value": 0.127,
     "emerging_topics": [
       "Chemical Synthesis and Analysis",
       "Advanced battery technologies research",
@@ -2178,7 +2214,7 @@
     "recent_papers": 18,
     "status": "stable",
     "shift": 0.0194,
-    "p_value": 0.3591,
+    "p_value": 0.3578,
     "emerging_topics": [
       "Cancer Cells and Metastasis",
       "Molecular Sensors and Ion Detection",
@@ -2203,7 +2239,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0195,
-    "p_value": 0.0783,
+    "p_value": 0.0794,
     "emerging_topics": [
       "Coordination Chemistry and Organometallics",
       "Organic Chemistry Synthesis Methods",
@@ -2228,7 +2264,7 @@
     "recent_papers": 14,
     "status": "stable",
     "shift": 0.0376,
-    "p_value": 0.508,
+    "p_value": 0.5096,
     "emerging_topics": [
       "Molecular Sensors and Ion Detection",
       "Quantum Dots Synthesis And Properties"
@@ -2265,7 +2301,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0386,
-    "p_value": 0.0356,
+    "p_value": 0.0332,
     "emerging_topics": [
       "Block Copolymer Self-Assembly",
       "Advanced Polymer Synthesis and Characterization",
@@ -2290,7 +2326,7 @@
     "recent_papers": 27,
     "status": "stable",
     "shift": 0.0084,
-    "p_value": 0.0391,
+    "p_value": 0.0381,
     "emerging_topics": [
       "Advanced Battery Materials and Technologies"
     ],
@@ -2326,7 +2362,7 @@
     "recent_papers": 16,
     "status": "stable",
     "shift": 0.0257,
-    "p_value": 0.1754,
+    "p_value": 0.176,
     "emerging_topics": [
       "Magnetic Properties of Alloys",
       "Catalytic Processes in Materials Science",
@@ -2377,7 +2413,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0462,
-    "p_value": 0.3786,
+    "p_value": 0.3827,
     "emerging_topics": [
       "Spectroscopy and Quantum Chemical Studies",
       "Laser-Matter Interactions and Applications"
@@ -2399,7 +2435,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0186,
-    "p_value": 0.9683,
+    "p_value": 0.9696,
     "emerging_topics": [
       "Quantum and electron transport phenomena",
       "Magnetic properties of thin films",
@@ -2424,7 +2460,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.063,
-    "p_value": 0.3255,
+    "p_value": 0.3332,
     "emerging_topics": [
       "2D Materials and Applications",
       "Advanced Condensed Matter Physics",
@@ -2447,7 +2483,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.045,
-    "p_value": 0.3413,
+    "p_value": 0.3398,
     "emerging_topics": [
       "Strong Light-Matter Interactions",
       "Quantum Information and Cryptography",
@@ -2472,7 +2508,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0263,
-    "p_value": 0.4186,
+    "p_value": 0.4255,
     "emerging_topics": [
       "Multiferroics and related materials",
       "Magnetic properties of thin films",
@@ -2497,7 +2533,7 @@
     "recent_papers": 12,
     "status": "stable",
     "shift": 0.0305,
-    "p_value": 0.5359,
+    "p_value": 0.5485,
     "emerging_topics": [
       "Advancements in Battery Materials",
       "Advanced Condensed Matter Physics",
@@ -2522,7 +2558,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0438,
-    "p_value": 0.6837,
+    "p_value": 0.6906,
     "emerging_topics": [
       "Photonic and Optical Devices",
       "Photorefractive and Nonlinear Optics"
@@ -2545,7 +2581,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0267,
-    "p_value": 0.1472,
+    "p_value": 0.1494,
     "emerging_topics": [
       "Physics of Superconductivity and Magnetism",
       "Magnetic properties of thin films",
@@ -2596,7 +2632,7 @@
     "recent_papers": 18,
     "status": "stable",
     "shift": 0.0125,
-    "p_value": 0.7595,
+    "p_value": 0.7603,
     "emerging_topics": [
       "Magnetic properties of thin films",
       "Advanced Condensed Matter Physics",
@@ -2634,7 +2670,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0376,
-    "p_value": 0.6559,
+    "p_value": 0.6449,
     "emerging_topics": [
       "Microtubule and mitosis dynamics",
       "stochastic dynamics and bifurcation"
@@ -2671,7 +2707,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0331,
-    "p_value": 0.7915,
+    "p_value": 0.7957,
     "emerging_topics": [
       "Model Reduction and Neural Networks"
     ],
@@ -2758,7 +2794,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0412,
-    "p_value": 0.7148,
+    "p_value": 0.7213,
     "emerging_topics": [
       "Advanced Data Storage Technologies",
       "Advanced Database Systems and Queries",
@@ -2782,7 +2818,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0395,
-    "p_value": 0.2626,
+    "p_value": 0.2714,
     "emerging_topics": [
       "Logic, programming, and type systems",
       "Model-Driven Software Engineering Techniques"
@@ -2806,7 +2842,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0518,
-    "p_value": 0.0682,
+    "p_value": 0.0667,
     "emerging_topics": [
       "Computer Graphics and Visualization Techniques",
       "Advanced Vision and Imaging",
@@ -2831,7 +2867,7 @@
     "recent_papers": 15,
     "status": "stable",
     "shift": 0.0335,
-    "p_value": 0.3826,
+    "p_value": 0.3861,
     "emerging_topics": [
       "Information Retrieval and Search Behavior",
       "Recommender Systems and Techniques",
@@ -2856,7 +2892,7 @@
     "recent_papers": 18,
     "status": "shifted",
     "shift": 0.0404,
-    "p_value": 0.0006,
+    "p_value": 0.0004,
     "emerging_topics": [
       "Advanced Neural Network Applications",
       "Video Analysis and Summarization",
@@ -2875,18 +2911,18 @@
       "yonsei-A5041516963"
     ],
     "early_xy": [
-      0.5143,
-      -0.21667
+      -0.54674,
+      -0.15203
     ],
     "recent_xy": [
-      0.51873,
-      -0.25131
+      -0.56346,
+      -0.178
     ],
-    "toward_subcluster_id": 30,
-    "away_subcluster_id": 51,
+    "toward_subcluster_id": 8,
+    "away_subcluster_id": 10,
     "toward_xy": [
-      0.53587,
-      -0.2317
+      -0.56654,
+      -0.16181
     ]
   },
   "postech-A5086283693": {
@@ -2902,7 +2938,7 @@
     "recent_papers": 26,
     "status": "stable",
     "shift": 0.0142,
-    "p_value": 0.2232,
+    "p_value": 0.2183,
     "emerging_topics": [
       "Vehicle Noise and Vibration Control",
       "Advanced Sensor and Energy Harvesting Materials",
@@ -2927,7 +2963,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0514,
-    "p_value": 0.3568,
+    "p_value": 0.3519,
     "emerging_topics": [],
     "fading_topics": [
       "Context-Aware Activity Recognition Systems",
@@ -2961,7 +2997,7 @@
     "recent_papers": 9,
     "status": "shifted",
     "shift": 0.075,
-    "p_value": 0.0145,
+    "p_value": 0.0146,
     "emerging_topics": [
       "Complexity and Algorithms in Graphs",
       "Computational Geometry and Mesh Generation"
@@ -2977,18 +3013,18 @@
       "gist-A5100615032"
     ],
     "early_xy": [
-      0.36084,
-      0.19203
+      -0.33879,
+      0.19497
     ],
     "recent_xy": [
-      0.39038,
-      0.17845
+      -0.37317,
+      0.18648
     ],
-    "toward_subcluster_id": 49,
-    "away_subcluster_id": 9,
+    "toward_subcluster_id": 52,
+    "away_subcluster_id": 2,
     "toward_xy": [
-      0.39047,
-      0.17713
+      -0.37338,
+      0.18352
     ]
   },
   "postech-A5101408509": {
@@ -3004,7 +3040,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0484,
-    "p_value": 0.0698,
+    "p_value": 0.074,
     "emerging_topics": [
       "3D Shape Modeling and Analysis",
       "Computer Graphics and Visualization Techniques",
@@ -3029,7 +3065,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0457,
-    "p_value": 0.1179,
+    "p_value": 0.1159,
     "emerging_topics": [
       "Nanomaterials and Printing Technologies",
       "TiO2 Photocatalysis and Solar Cells",
@@ -3067,7 +3103,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.0092,
-    "p_value": 0.8141,
+    "p_value": 0.8114,
     "emerging_topics": [
       "Organic Light-Emitting Diodes Research",
       "Advancements in Photolithography Techniques",
@@ -3092,7 +3128,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.05,
-    "p_value": 0.7037,
+    "p_value": 0.7001,
     "emerging_topics": [
       "Enzyme function and inhibition",
       "Lipid Membrane Structure and Behavior"
@@ -3139,7 +3175,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0396,
-    "p_value": 0.4359,
+    "p_value": 0.4295,
     "emerging_topics": [
       "Organic Electronics and Photovoltaics",
       "Synthesis and Properties of Aromatic Compounds",
@@ -3177,7 +3213,7 @@
     "recent_papers": 6,
     "status": "shifted",
     "shift": 0.079,
-    "p_value": 0.0194,
+    "p_value": 0.0208,
     "emerging_topics": [
       "2D Materials and Applications",
       "Semiconductor Quantum Structures and Devices",
@@ -3196,18 +3232,18 @@
       "sogang-A5032249659"
     ],
     "early_xy": [
-      -0.39067,
-      0.15411
+      0.3912,
+      0.10395
     ],
     "recent_xy": [
-      -0.28933,
-      0.27666
+      0.29194,
+      0.21667
     ],
-    "toward_subcluster_id": 48,
-    "away_subcluster_id": 34,
+    "toward_subcluster_id": 26,
+    "away_subcluster_id": 39,
     "toward_xy": [
-      -0.30859,
-      0.33298
+      0.3191,
+      0.2736
     ]
   },
   "unist-A5062645264": {
@@ -3223,7 +3259,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0363,
-    "p_value": 0.9236,
+    "p_value": 0.9248,
     "emerging_topics": [
       "Advanced Memory and Neural Computing",
       "Neuroscience and Neural Engineering",
@@ -3248,7 +3284,7 @@
     "recent_papers": 17,
     "status": "stable",
     "shift": 0.0229,
-    "p_value": 0.3052,
+    "p_value": 0.3201,
     "emerging_topics": [
       "Metal-Organic Frameworks: Synthesis and Applications",
       "Spacecraft and Cryogenic Technologies",
@@ -3273,7 +3309,7 @@
     "recent_papers": 12,
     "status": "stable",
     "shift": 0.0323,
-    "p_value": 0.0598,
+    "p_value": 0.0582,
     "emerging_topics": [
       "Telomeres, Telomerase, and Senescence",
       "Nanoplatforms for cancer theranostics",
@@ -3298,7 +3334,7 @@
     "recent_papers": 17,
     "status": "stable",
     "shift": 0.0249,
-    "p_value": 0.057,
+    "p_value": 0.0563,
     "emerging_topics": [
       "Advancements in Photolithography Techniques",
       "2D Materials and Applications",
@@ -3336,7 +3372,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0551,
-    "p_value": 0.0847,
+    "p_value": 0.0836,
     "emerging_topics": [
       "Organometallic Complex Synthesis and Catalysis"
     ],
@@ -3359,7 +3395,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.031,
-    "p_value": 0.4463,
+    "p_value": 0.4454,
     "emerging_topics": [
       "CO2 Reduction Techniques and Catalysts",
       "Synthesis and Properties of Aromatic Compounds",
@@ -3384,7 +3420,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.078,
-    "p_value": 0.0611,
+    "p_value": 0.0556,
     "emerging_topics": [
       "Advanced Polymer Synthesis and Characterization",
       "Catalytic Cross-Coupling Reactions",
@@ -3409,7 +3445,7 @@
     "recent_papers": 19,
     "status": "shifted",
     "shift": 0.0355,
-    "p_value": 0.0177,
+    "p_value": 0.018,
     "emerging_topics": [
       "Semiconductor materials and devices",
       "Ga2O3 and related materials",
@@ -3428,18 +3464,18 @@
       "postech-A5025254146"
     ],
     "early_xy": [
-      -0.60162,
-      0.16869
+      0.58462,
+      0.10198
     ],
     "recent_xy": [
-      -0.54675,
-      0.24576
+      0.53924,
+      0.17555
     ],
-    "toward_subcluster_id": 27,
-    "away_subcluster_id": 16,
+    "toward_subcluster_id": 29,
+    "away_subcluster_id": 12,
     "toward_xy": [
-      -0.5033,
-      0.2965
+      0.50516,
+      0.22664
     ]
   },
   "unist-A5087895403": {
@@ -3455,7 +3491,7 @@
     "recent_papers": 23,
     "status": "shifted",
     "shift": 0.032,
-    "p_value": 0.0264,
+    "p_value": 0.0246,
     "emerging_topics": [
       "Multicomponent Synthesis of Heterocycles",
       "Chemistry and Chemical Engineering",
@@ -3472,17 +3508,18 @@
       "snu-A5039312032"
     ],
     "early_xy": [
-      -0.46045,
-      0.00739
+      0.45421,
+      -0.06764
     ],
     "recent_xy": [
-      -0.41075,
-      -0.03925
+      0.39287,
+      -0.09199
     ],
-    "away_subcluster_id": 43,
+    "toward_subcluster_id": 24,
+    "away_subcluster_id": 59,
     "toward_xy": [
-      -0.27619,
-      -0.17522
+      0.27054,
+      -0.20491
     ]
   },
   "unist-A5068268441": {
@@ -3498,7 +3535,7 @@
     "recent_papers": 14,
     "status": "stable",
     "shift": 0.0215,
-    "p_value": 0.2901,
+    "p_value": 0.2964,
     "emerging_topics": [
       "Advancements in Battery Materials",
       "Zeolite Catalysis and Synthesis",
@@ -3562,7 +3599,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0708,
-    "p_value": 0.2443,
+    "p_value": 0.2471,
     "emerging_topics": [
       "2D Materials and Applications",
       "Gold and Silver Nanoparticles Synthesis and Applications",
@@ -3583,7 +3620,7 @@
     "recent_papers": 4,
     "status": "shifted",
     "shift": 0.103,
-    "p_value": 0.0169,
+    "p_value": 0.0187,
     "emerging_topics": [
       "Magnetic confinement fusion research",
       "Plasma Diagnostics and Applications",
@@ -3602,18 +3639,17 @@
       "korea-A5100698865"
     ],
     "early_xy": [
-      -0.02887,
-      0.23035
+      0.02885,
+      0.19535
     ],
     "recent_xy": [
-      -0.00638,
-      0.23863
+      0.00705,
+      0.20092
     ],
-    "toward_subcluster_id": 63,
-    "away_subcluster_id": 10,
+    "away_subcluster_id": 1,
     "toward_xy": [
-      0.12474,
-      0.11877
+      -0.13165,
+      0.10352
     ]
   },
   "unist-A5044742844": {
@@ -3629,7 +3665,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0512,
-    "p_value": 0.1624,
+    "p_value": 0.1635,
     "emerging_topics": [
       "Magnetic properties of thin films",
       "Quantum and electron transport phenomena",
@@ -3654,7 +3690,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0435,
-    "p_value": 0.0423,
+    "p_value": 0.0438,
     "emerging_topics": [
       "Metamaterials and Metasurfaces Applications",
       "Superconducting and THz Device Technology",
@@ -3691,7 +3727,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.022,
-    "p_value": 0.6605,
+    "p_value": 0.6606,
     "emerging_topics": [
       "Gyrotron and Vacuum Electronics Research",
       "Terahertz technology and applications",
@@ -3741,7 +3777,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.1268,
-    "p_value": 0.112,
+    "p_value": 0.1175,
     "emerging_topics": [
       "Neural Networks and Reservoir Computing",
       "Chaos control and synchronization"
@@ -3764,7 +3800,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0443,
-    "p_value": 0.1226,
+    "p_value": 0.1205,
     "emerging_topics": [
       "Navier-Stokes equation solutions",
       "Nonlinear Partial Differential Equations"
@@ -3787,7 +3823,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0137,
-    "p_value": 0.8273,
+    "p_value": 0.8367,
     "emerging_topics": [
       "Algebraic Geometry and Number Theory",
       "Algebraic structures and combinatorial models"
@@ -3809,7 +3845,7 @@
     "recent_papers": 9,
     "status": "shifted",
     "shift": 0.0987,
-    "p_value": 0.0181,
+    "p_value": 0.018,
     "emerging_topics": [
       "Fractional Differential Equations Solutions",
       "Phase Change Materials Research",
@@ -3827,17 +3863,18 @@
       "sogang-A5056888396"
     ],
     "early_xy": [
-      0.18826,
-      0.08049
+      -0.18589,
+      0.07652
     ],
     "recent_xy": [
-      0.20827,
-      0.07799
+      -0.20428,
+      0.0843
     ],
-    "toward_subcluster_id": 12,
+    "toward_subcluster_id": 2,
+    "away_subcluster_id": 47,
     "toward_xy": [
-      0.20459,
-      0.13676
+      -0.18448,
+      0.1315
     ]
   },
   "unist-A5023336468": {
@@ -3905,7 +3942,7 @@
     "recent_papers": 10,
     "status": "shifted",
     "shift": 0.0846,
-    "p_value": 0.0252,
+    "p_value": 0.0276,
     "emerging_topics": [
       "Software Testing and Debugging Techniques",
       "Software Engineering Research",
@@ -3924,18 +3961,18 @@
       "kaist-A5046980238"
     ],
     "early_xy": [
-      0.92071,
-      -0.172
+      -0.85453,
+      0.15259
     ],
     "recent_xy": [
-      0.87125,
-      -0.25834
+      -0.90466,
+      0.06505
     ],
-    "toward_subcluster_id": 37,
-    "away_subcluster_id": 58,
+    "toward_subcluster_id": 34,
+    "away_subcluster_id": 62,
     "toward_xy": [
-      0.88646,
-      -0.3559
+      -0.98584,
+      0.0381
     ]
   },
   "unist-A5071289684": {
@@ -3987,7 +4024,7 @@
       2026
     ],
     "early_papers": 0,
-    "recent_papers": 4,
+    "recent_papers": 3,
     "status": "insufficient"
   },
   "kaist-A5101626337": {
@@ -4003,7 +4040,7 @@
     "recent_papers": 8,
     "status": "shifted",
     "shift": 0.1252,
-    "p_value": 0.0066,
+    "p_value": 0.0085,
     "emerging_topics": [
       "Microbial Natural Products and Biosynthesis",
       "RNA and protein synthesis mechanisms",
@@ -4015,23 +4052,23 @@
     ],
     "toward_lab_ids": [
       "postech-A5018699270",
-      "sogang-A5101902737",
       "snu-A5091055050",
       "snu-A5100608258",
-      "kaist-A5023660115"
+      "kaist-A5023660115",
+      "postech-A5060796492"
     ],
     "early_xy": [
-      -0.11881,
-      -0.13872
+      0.2341,
+      -0.3486
     ],
     "recent_xy": [
-      -0.23097,
-      -0.14327
+      0.2764,
+      -0.2572
     ],
-    "toward_subcluster_id": 53,
+    "toward_subcluster_id": 5,
     "toward_xy": [
-      -0.30439,
-      -0.13897
+      0.32893,
+      -0.14783
     ]
   },
   "kaist-A5038403149": {
@@ -4060,7 +4097,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0215,
-    "p_value": 0.1203,
+    "p_value": 0.1207,
     "emerging_topics": [
       "Laser-Matter Interactions and Applications",
       "Atomic and Molecular Physics"
@@ -4084,7 +4121,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0466,
-    "p_value": 0.3389,
+    "p_value": 0.3349,
     "emerging_topics": [],
     "fading_topics": [
       "Machine Learning in Materials Science",
@@ -4105,7 +4142,7 @@
     "recent_papers": 6,
     "status": "shifted",
     "shift": 0.0953,
-    "p_value": 0.0009,
+    "p_value": 0.0007,
     "emerging_topics": [
       "Asymmetric Synthesis and Catalysis",
       "Asymmetric Hydrogenation and Catalysis",
@@ -4120,17 +4157,17 @@
       "hanyang-A5100388383"
     ],
     "early_xy": [
-      -0.78679,
-      -0.12998
+      0.71356,
+      -0.19265
     ],
     "recent_xy": [
-      -0.75128,
-      -0.11701
+      0.69396,
+      -0.16747
     ],
-    "away_subcluster_id": 21,
+    "away_subcluster_id": 20,
     "toward_xy": [
-      -0.68184,
-      -0.04814
+      0.60273,
+      -0.11999
     ]
   },
   "kaist-A5100388376": {
@@ -4146,7 +4183,7 @@
     "recent_papers": 23,
     "status": "shifted",
     "shift": 0.0321,
-    "p_value": 0.0022,
+    "p_value": 0.0023,
     "emerging_topics": [
       "Catalysis and Oxidation Reactions",
       "Advanced Battery Materials and Technologies",
@@ -4165,18 +4202,18 @@
       "postech-A5060796492"
     ],
     "early_xy": [
-      -0.63136,
-      0.15128
+      0.60688,
+      0.08387
     ],
     "recent_xy": [
-      -0.54459,
-      0.11299
+      0.53002,
+      0.04291
     ],
-    "toward_subcluster_id": 17,
-    "away_subcluster_id": 16,
+    "toward_subcluster_id": 13,
+    "away_subcluster_id": 12,
     "toward_xy": [
-      -0.46458,
-      0.08891
+      0.46553,
+      0.01889
     ]
   },
   "kaist-A5024869511": {
@@ -4192,7 +4229,7 @@
     "recent_papers": 15,
     "status": "stable",
     "shift": 0.0497,
-    "p_value": 0.1056,
+    "p_value": 0.1107,
     "emerging_topics": [
       "Conducting polymers and applications",
       "Nanoplatforms for cancer theranostics",
@@ -4243,7 +4280,7 @@
     "recent_papers": 28,
     "status": "stable",
     "shift": 0.0176,
-    "p_value": 0.0317,
+    "p_value": 0.0318,
     "emerging_topics": [
       "Semiconductor materials and interfaces",
       "Plasmonic and Surface Plasmon Research",
@@ -4281,7 +4318,7 @@
     "recent_papers": 18,
     "status": "stable",
     "shift": 0.01,
-    "p_value": 0.3842,
+    "p_value": 0.3821,
     "emerging_topics": [
       "Organometallic Complex Synthesis and Catalysis",
       "Sulfur-Based Synthesis Techniques",
@@ -4306,7 +4343,7 @@
     "recent_papers": 16,
     "status": "stable",
     "shift": 0.0187,
-    "p_value": 0.0994,
+    "p_value": 0.098,
     "emerging_topics": [
       "CO2 Reduction Techniques and Catalysts",
       "Advanced Battery Materials and Technologies"
@@ -4330,7 +4367,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.0223,
-    "p_value": 0.7541,
+    "p_value": 0.7535,
     "emerging_topics": [
       "Block Copolymer Self-Assembly",
       "Pickering emulsions and particle stabilization",
@@ -4355,7 +4392,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0449,
-    "p_value": 0.2065,
+    "p_value": 0.2061,
     "emerging_topics": [
       "Gold and Silver Nanoparticles Synthesis and Applications",
       "Advanced Photocatalysis Techniques",
@@ -4378,7 +4415,7 @@
     "recent_papers": 20,
     "status": "stable",
     "shift": 0.0106,
-    "p_value": 0.853,
+    "p_value": 0.8469,
     "emerging_topics": [
       "Advanced Materials and Mechanics",
       "Liquid Crystal Research Advancements",
@@ -4403,7 +4440,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0328,
-    "p_value": 0.7336,
+    "p_value": 0.7295,
     "emerging_topics": [
       "Spectroscopy and Quantum Chemical Studies",
       "Advanced Physical and Chemical Molecular Interactions",
@@ -4441,7 +4478,7 @@
     "recent_papers": 13,
     "status": "shifted",
     "shift": 0.0453,
-    "p_value": 0.0242,
+    "p_value": 0.0243,
     "emerging_topics": [
       "Synthesis and properties of polymers",
       "Hydrogels: synthesis, properties, applications",
@@ -4460,18 +4497,18 @@
       "kaist-A5004086841"
     ],
     "early_xy": [
-      -0.36602,
-      -0.01215
+      0.32392,
+      -0.04465
     ],
     "recent_xy": [
-      -0.42106,
-      0.04152
+      0.39157,
+      -0.00604
     ],
-    "toward_subcluster_id": 34,
-    "away_subcluster_id": 23,
+    "toward_subcluster_id": 37,
+    "away_subcluster_id": 32,
     "toward_xy": [
-      -0.44214,
-      0.1183
+      0.43632,
+      0.05489
     ]
   },
   "kaist-A5050472874": {
@@ -4487,7 +4524,7 @@
     "recent_papers": 15,
     "status": "shifted",
     "shift": 0.0376,
-    "p_value": 0.0237,
+    "p_value": 0.0229,
     "emerging_topics": [
       "X-ray Spectroscopy and Fluorescence Analysis",
       "Advanced Photocatalysis Techniques",
@@ -4506,18 +4543,18 @@
       "yonsei-A5015184859"
     ],
     "early_xy": [
-      -0.3028,
-      0.10463
+      0.35682,
+      0.01354
     ],
     "recent_xy": [
-      -0.37191,
-      0.1312
+      0.3925,
+      0.06221
     ],
-    "toward_subcluster_id": 36,
-    "away_subcluster_id": 45,
+    "toward_subcluster_id": 13,
+    "away_subcluster_id": 58,
     "toward_xy": [
-      -0.48272,
-      0.11807
+      0.48594,
+      0.04848
     ]
   },
   "kaist-A5103259274": {
@@ -4533,7 +4570,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0538,
-    "p_value": 0.0627,
+    "p_value": 0.0575,
     "emerging_topics": [
       "Organic Electronics and Photovoltaics",
       "Organic Light-Emitting Diodes Research"
@@ -4557,7 +4594,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.0127,
-    "p_value": 0.0898,
+    "p_value": 0.0911,
     "emerging_topics": [
       "Synthesis and Catalytic Reactions",
       "N-Heterocyclic Carbenes in Organic and Inorganic Chemistry",
@@ -4595,7 +4632,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0675,
-    "p_value": 0.2673,
+    "p_value": 0.2736,
     "emerging_topics": [
       "RNA Research and Splicing",
       "SARS-CoV-2 detection and testing",
@@ -4620,7 +4657,7 @@
     "recent_papers": 14,
     "status": "stable",
     "shift": 0.0273,
-    "p_value": 0.299,
+    "p_value": 0.2973,
     "emerging_topics": [
       "Probiotics and Fermented Foods",
       "Metal-Organic Frameworks: Synthesis and Applications",
@@ -4645,7 +4682,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0281,
-    "p_value": 0.2054,
+    "p_value": 0.1983,
     "emerging_topics": [
       "Radical Photochemical Reactions",
       "Organic Chemistry Synthesis Methods",
@@ -4670,7 +4707,7 @@
     "recent_papers": 8,
     "status": "shifted",
     "shift": 0.0731,
-    "p_value": 0.0096,
+    "p_value": 0.0103,
     "emerging_topics": [
       "Synthetic Organic Chemistry Methods",
       "Catalysis for Biomass Conversion",
@@ -4689,18 +4726,18 @@
       "sogang-A5011601556"
     ],
     "early_xy": [
-      -0.7748,
-      -0.11771
+      0.70149,
+      -0.17862
     ],
     "recent_xy": [
-      -0.68256,
-      -0.03497
+      0.62067,
+      -0.10514
     ],
-    "toward_subcluster_id": 67,
-    "away_subcluster_id": 21,
+    "toward_subcluster_id": 13,
+    "away_subcluster_id": 20,
     "toward_xy": [
-      -0.58469,
-      0.1088
+      0.56057,
+      0.04618
     ]
   },
   "kaist-A5044287208": {
@@ -4716,7 +4753,7 @@
     "recent_papers": 23,
     "status": "shifted",
     "shift": 0.0195,
-    "p_value": 0.0014,
+    "p_value": 0.0013,
     "emerging_topics": [
       "Catalytic Cross-Coupling Reactions",
       "Synthesis of heterocyclic compounds",
@@ -4735,18 +4772,17 @@
       "gist-A5065178055"
     ],
     "early_xy": [
-      -0.78326,
-      -0.11109
+      0.70409,
+      -0.17734
     ],
     "recent_xy": [
-      -0.78344,
-      -0.12422
+      0.71262,
+      -0.18198
     ],
-    "toward_subcluster_id": 20,
-    "away_subcluster_id": 21,
+    "toward_subcluster_id": 21,
     "toward_xy": [
-      -0.78072,
-      -0.14317
+      0.71785,
+      -0.19642
     ]
   },
   "kaist-A5043448697": {
@@ -4775,7 +4811,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0565,
-    "p_value": 0.0811,
+    "p_value": 0.0787,
     "emerging_topics": [
       "Cold Atom Physics and Bose-Einstein Condensates",
       "Orbital Angular Momentum in Optics"
@@ -4825,7 +4861,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.075,
-    "p_value": 0.0628,
+    "p_value": 0.0621,
     "emerging_topics": [
       "Strong Light-Matter Interactions"
     ],
@@ -4848,7 +4884,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0438,
-    "p_value": 0.902,
+    "p_value": 0.9056,
     "emerging_topics": [],
     "fading_topics": []
   },
@@ -4865,7 +4901,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.0243,
-    "p_value": 0.102,
+    "p_value": 0.0978,
     "emerging_topics": [
       "Advanced Condensed Matter Physics",
       "Magnetic properties of thin films",
@@ -4903,7 +4939,7 @@
     "recent_papers": 18,
     "status": "shifted",
     "shift": 0.0313,
-    "p_value": 0.0123,
+    "p_value": 0.0119,
     "emerging_topics": [
       "Mechanical and Optical Resonators",
       "Multiferroics and related materials",
@@ -4922,18 +4958,18 @@
       "yonsei-A5100347893"
     ],
     "early_xy": [
-      -0.40095,
-      0.52037
+      0.41417,
+      0.42551
     ],
     "recent_xy": [
-      -0.3947,
-      0.51079
+      0.40667,
+      0.41969
     ],
-    "toward_subcluster_id": 48,
-    "away_subcluster_id": 42,
+    "toward_subcluster_id": 26,
+    "away_subcluster_id": 25,
     "toward_xy": [
-      -0.32467,
-      0.34022
+      0.33332,
+      0.27739
     ]
   },
   "kaist-A5101652337": {
@@ -4949,7 +4985,7 @@
     "recent_papers": 18,
     "status": "stable",
     "shift": 0.0106,
-    "p_value": 0.7658,
+    "p_value": 0.7699,
     "emerging_topics": [
       "Advanced Condensed Matter Physics",
       "Multiferroics and related materials",
@@ -4974,7 +5010,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0394,
-    "p_value": 0.8332,
+    "p_value": 0.8387,
     "emerging_topics": [
       "Advanced Condensed Matter Physics",
       "Physics of Superconductivity and Magnetism",
@@ -5011,7 +5047,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0326,
-    "p_value": 0.2506,
+    "p_value": 0.2455,
     "emerging_topics": [
       "Surface Chemistry and Catalysis",
       "Perovskite Materials and Applications",
@@ -5036,7 +5072,7 @@
     "recent_papers": 16,
     "status": "stable",
     "shift": 0.0309,
-    "p_value": 0.3352,
+    "p_value": 0.3231,
     "emerging_topics": [
       "Photonic and Optical Devices",
       "Photonic Crystals and Applications",
@@ -5072,7 +5108,7 @@
     "recent_papers": 18,
     "status": "stable",
     "shift": 0.0259,
-    "p_value": 0.1294,
+    "p_value": 0.1253,
     "emerging_topics": [
       "Topological Materials and Phenomena",
       "Advanced Condensed Matter Physics",
@@ -5096,7 +5132,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0528,
-    "p_value": 0.0634,
+    "p_value": 0.0645,
     "emerging_topics": [
       "Quantum many-body systems",
       "Quasicrystal Structures and Properties",
@@ -5121,7 +5157,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0692,
-    "p_value": 0.0861,
+    "p_value": 0.0795,
     "emerging_topics": [
       "Topological Materials and Phenomena",
       "Photonic Crystals and Applications",
@@ -5146,7 +5182,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0213,
-    "p_value": 0.9684,
+    "p_value": 0.9658,
     "emerging_topics": [
       "Quantum many-body systems",
       "Quantum Computing Algorithms and Architecture",
@@ -5184,7 +5220,7 @@
     "recent_papers": 18,
     "status": "stable",
     "shift": 0.018,
-    "p_value": 0.2445,
+    "p_value": 0.242,
     "emerging_topics": [
       "Advanced Optical Imaging Technologies",
       "Digital Holography and Microscopy",
@@ -5222,7 +5258,7 @@
     "recent_papers": 15,
     "status": "stable",
     "shift": 0.0414,
-    "p_value": 0.0491,
+    "p_value": 0.0513,
     "emerging_topics": [
       "Photorefractive and Nonlinear Optics",
       "Quantum Information and Cryptography",
@@ -5259,7 +5295,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0202,
-    "p_value": 0.4007,
+    "p_value": 0.3997,
     "emerging_topics": [
       "Algebraic structures and combinatorial models",
       "Algebraic Geometry and Number Theory",
@@ -5283,7 +5319,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0158,
-    "p_value": 0.8325,
+    "p_value": 0.8383,
     "emerging_topics": [
       "Multiferroics and related materials",
       "Physics of Superconductivity and Magnetism",
@@ -5308,7 +5344,7 @@
     "recent_papers": 19,
     "status": "stable",
     "shift": 0.013,
-    "p_value": 0.8,
+    "p_value": 0.8024,
     "emerging_topics": [
       "2D Materials and Applications",
       "Advanced Memory and Neural Computing",
@@ -5333,7 +5369,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.041,
-    "p_value": 0.2192,
+    "p_value": 0.219,
     "emerging_topics": [
       "Advanced Condensed Matter Physics",
       "Multiferroics and related materials",
@@ -5410,7 +5446,7 @@
     "recent_papers": 22,
     "status": "stable",
     "shift": 0.0388,
-    "p_value": 0.0577,
+    "p_value": 0.0563,
     "emerging_topics": [
       "Pharmacogenetics and Drug Metabolism",
       "Sleep and related disorders",
@@ -5435,7 +5471,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0155,
-    "p_value": 0.9839,
+    "p_value": 0.9807,
     "emerging_topics": [
       "Advanced Graph Theory Research",
       "Limits and Structures in Graph Theory",
@@ -5510,7 +5546,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.1095,
-    "p_value": 0.2629,
+    "p_value": 0.2609,
     "emerging_topics": [
       "Statistical Methods and Inference",
       "Functional Brain Connectivity Studies",
@@ -5624,7 +5660,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0771,
-    "p_value": 0.0932,
+    "p_value": 0.0937,
     "emerging_topics": [
       "Spectral Theory in Mathematical Physics",
       "Neural Networks and Applications",
@@ -5649,7 +5685,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0313,
-    "p_value": 0.9247,
+    "p_value": 0.9169,
     "emerging_topics": [
       "Advanced Algebra and Geometry",
       "Analytic Number Theory Research",
@@ -5711,7 +5747,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.1684,
-    "p_value": 0.0301,
+    "p_value": 0.0318,
     "emerging_topics": [
       "Adversarial Robustness in Machine Learning"
     ],
@@ -5732,7 +5768,7 @@
     "recent_papers": 17,
     "status": "stable",
     "shift": 0.0537,
-    "p_value": 0.3017,
+    "p_value": 0.3054,
     "emerging_topics": [
       "Privacy-Preserving Technologies in Data",
       "Software Testing and Debugging Techniques",
@@ -5757,7 +5793,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0472,
-    "p_value": 0.4853,
+    "p_value": 0.4792,
     "emerging_topics": [
       "Parallel Computing and Optimization Techniques",
       "Logic, programming, and type systems",
@@ -5791,14 +5827,14 @@
       2026
     ],
     "early_papers": 11,
-    "recent_papers": 8,
+    "recent_papers": 7,
     "status": "shifted",
-    "shift": 0.1002,
-    "p_value": 0.0013,
+    "shift": 0.0891,
+    "p_value": 0.0098,
     "emerging_topics": [
-      "Thermal Analysis in Power Transmission",
       "Advanced Graph Neural Networks",
-      "Graph Theory and Algorithms"
+      "Graph Theory and Algorithms",
+      "Traffic Prediction and Management Techniques"
     ],
     "fading_topics": [
       "Tensor decomposition and applications",
@@ -5807,14 +5843,14 @@
     ],
     "toward_lab_ids": [],
     "early_xy": [
-      0.49713,
-      -0.07667
+      -0.50552,
+      -0.0194
     ],
     "recent_xy": [
-      0.49135,
-      -0.0519
+      -0.50969,
+      0.00614
     ],
-    "away_subcluster_id": 0
+    "away_subcluster_id": 50
   },
   "kaist-A5102907692": {
     "early_years": [
@@ -5855,7 +5891,7 @@
     "recent_papers": 18,
     "status": "stable",
     "shift": 0.0233,
-    "p_value": 0.1022,
+    "p_value": 0.0993,
     "emerging_topics": [
       "Digital Media and Visual Art",
       "Ethics and Social Impacts of AI",
@@ -5893,7 +5929,7 @@
     "recent_papers": 6,
     "status": "shifted",
     "shift": 0.075,
-    "p_value": 0.0078,
+    "p_value": 0.0096,
     "emerging_topics": [
       "Formal Methods in Verification"
     ],
@@ -5906,21 +5942,21 @@
       "kaist-A5046066368",
       "postech-A5085748879",
       "unist-A5042587361",
-      "kaist-A5019825813",
-      "skku-A5101660662"
+      "skku-A5101660662",
+      "kaist-A5077052539"
     ],
     "early_xy": [
-      0.88017,
-      -0.35183
+      -0.97159,
+      0.03211
     ],
     "recent_xy": [
-      0.87595,
-      -0.34429
+      -0.96538,
+      0.0241
     ],
-    "toward_subcluster_id": 33,
+    "toward_subcluster_id": 50,
     "toward_xy": [
-      0.87297,
-      -0.21955
+      -0.85128,
+      0.05227
     ]
   },
   "kaist-A5067253588": {
@@ -5949,7 +5985,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.092,
-    "p_value": 0.103,
+    "p_value": 0.1068,
     "emerging_topics": [
       "3D Shape Modeling and Analysis",
       "Robotic Path Planning Algorithms",
@@ -5971,9 +6007,9 @@
     ],
     "early_papers": 7,
     "recent_papers": 8,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0891,
-    "p_value": 0.03,
+    "p_value": 0.0278,
     "emerging_topics": [
       "Parallel Computing and Optimization Techniques",
       "Advanced Neural Network Applications"
@@ -5981,6 +6017,26 @@
     "fading_topics": [
       "Security and Verification in Computing",
       "Cryptographic Implementations and Security"
+    ],
+    "toward_lab_ids": [
+      "snu-A5063521444",
+      "snu-A5083084972",
+      "snu-A5100767182",
+      "yonsei-A5046146264",
+      "unist-A5071289684"
+    ],
+    "early_xy": [
+      -0.8434,
+      0.21808
+    ],
+    "recent_xy": [
+      -0.8314,
+      0.22245
+    ],
+    "toward_subcluster_id": 50,
+    "toward_xy": [
+      -0.68072,
+      0.01258
     ]
   },
   "kaist-A5100641120": {
@@ -5996,7 +6052,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0469,
-    "p_value": 0.128,
+    "p_value": 0.1251,
     "emerging_topics": [
       "Hand Gesture Recognition Systems",
       "Information Retrieval and Search Behavior",
@@ -6021,7 +6077,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0335,
-    "p_value": 0.2507,
+    "p_value": 0.2503,
     "emerging_topics": [
       "Software Reliability and Analysis Research"
     ],
@@ -6062,17 +6118,17 @@
       "yonsei-A5041516963"
     ],
     "early_xy": [
-      0.52975,
-      -0.27491
+      -0.5732,
+      -0.19458
     ],
     "recent_xy": [
-      0.51912,
-      -0.27875
+      -0.5689,
+      -0.19641
     ],
-    "toward_subcluster_id": 30,
+    "toward_subcluster_id": 8,
     "toward_xy": [
-      0.51485,
-      -0.26571
+      -0.55226,
+      -0.18719
     ]
   },
   "kaist-A5082893706": {
@@ -6088,7 +6144,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0521,
-    "p_value": 0.177,
+    "p_value": 0.1798,
     "emerging_topics": [
       "Web Application Security Vulnerabilities",
       "Security and Verification in Computing",
@@ -6152,7 +6208,7 @@
     "recent_papers": 19,
     "status": "shifted",
     "shift": 0.0289,
-    "p_value": 0.0011,
+    "p_value": 0.0008,
     "emerging_topics": [
       "Software Engineering Research",
       "Topic Modeling",
@@ -6171,18 +6227,18 @@
       "yonsei-A5077698683"
     ],
     "early_xy": [
-      0.8854,
-      -0.35683
+      -0.98382,
+      0.03606
     ],
     "recent_xy": [
-      0.88208,
-      -0.34904
+      -0.97516,
+      0.03556
     ],
-    "toward_subcluster_id": 1,
-    "away_subcluster_id": 37,
+    "toward_subcluster_id": 50,
+    "away_subcluster_id": 34,
     "toward_xy": [
-      0.60164,
-      -0.11362
+      -0.60274,
+      -0.03924
     ]
   },
   "kaist-A5078173428": {
@@ -6198,7 +6254,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.0475,
-    "p_value": 0.069,
+    "p_value": 0.0675,
     "emerging_topics": [
       "Robotic Locomotion and Control",
       "Reinforcement Learning in Robotics",
@@ -6223,7 +6279,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0216,
-    "p_value": 0.7027,
+    "p_value": 0.7033,
     "emerging_topics": [
       "Interactive and Immersive Displays",
       "Teleoperation and Haptic Systems",
@@ -6248,7 +6304,7 @@
     "recent_papers": 26,
     "status": "shifted",
     "shift": 0.0234,
-    "p_value": 0.0083,
+    "p_value": 0.0081,
     "emerging_topics": [
       "Innovative Human-Technology Interaction",
       "Context-Aware Activity Recognition Systems",
@@ -6267,18 +6323,18 @@
       "kaist-A5061810530"
     ],
     "early_xy": [
-      0.6151,
-      -0.18139
+      -0.62151,
+      -0.09382
     ],
     "recent_xy": [
-      0.5797,
-      -0.15331
+      -0.58638,
+      -0.07844
     ],
-    "toward_subcluster_id": 0,
-    "away_subcluster_id": 33,
+    "toward_subcluster_id": 44,
+    "away_subcluster_id": 50,
     "toward_xy": [
-      0.51886,
-      -0.08545
+      -0.51754,
+      -0.03988
     ]
   },
   "kaist-A5101805827": {
@@ -6294,7 +6350,7 @@
     "recent_papers": 12,
     "status": "stable",
     "shift": 0.0449,
-    "p_value": 0.4437,
+    "p_value": 0.4486,
     "emerging_topics": [
       "Time Series Analysis and Forecasting",
       "Advanced Neural Network Applications",
@@ -6319,7 +6375,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0455,
-    "p_value": 0.9213,
+    "p_value": 0.9192,
     "emerging_topics": [
       "Cryptography and Data Security",
       "Cryptography and Residue Arithmetic"
@@ -6342,7 +6398,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.1094,
-    "p_value": 0.0737,
+    "p_value": 0.0727,
     "emerging_topics": [],
     "fading_topics": [
       "EEG and Brain-Computer Interfaces",
@@ -6363,7 +6419,7 @@
     "recent_papers": 18,
     "status": "stable",
     "shift": 0.0166,
-    "p_value": 0.876,
+    "p_value": 0.8704,
     "emerging_topics": [
       "Privacy, Security, and Data Protection",
       "Adversarial Robustness in Machine Learning",
@@ -6414,7 +6470,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0697,
-    "p_value": 0.1846,
+    "p_value": 0.1816,
     "emerging_topics": [
       "Parallel Computing and Optimization Techniques",
       "Advanced Memory and Neural Computing"
@@ -6437,7 +6493,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0608,
-    "p_value": 0.9081,
+    "p_value": 0.9145,
     "emerging_topics": [
       "Generative Adversarial Networks and Image Synthesis",
       "Domain Adaptation and Few-Shot Learning",
@@ -6497,7 +6553,7 @@
     "recent_papers": 12,
     "status": "stable",
     "shift": 0.0719,
-    "p_value": 0.3062,
+    "p_value": 0.2941,
     "emerging_topics": [
       "Electrocatalysts for Energy Conversion",
       "Computational Drug Discovery Methods",
@@ -6535,7 +6591,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0395,
-    "p_value": 0.1098,
+    "p_value": 0.1052,
     "emerging_topics": [
       "Electrocatalysts for Energy Conversion"
     ],
@@ -6558,7 +6614,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0832,
-    "p_value": 0.0819,
+    "p_value": 0.0792,
     "emerging_topics": [
       "Photochemistry and Electron Transfer Studies",
       "Spectroscopy and Quantum Chemical Studies"
@@ -6581,7 +6637,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0423,
-    "p_value": 0.1093,
+    "p_value": 0.1015,
     "emerging_topics": [
       "Metal-Catalyzed Oxygenation Mechanisms",
       "Organometallic Complex Synthesis and Catalysis",
@@ -6606,7 +6662,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0548,
-    "p_value": 0.1938,
+    "p_value": 0.1927,
     "emerging_topics": [
       "Antimicrobial Peptides and Activities",
       "Antimicrobial agents and applications",
@@ -6631,7 +6687,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0876,
-    "p_value": 0.1394,
+    "p_value": 0.138,
     "emerging_topics": [
       "Synthesis and biological activity"
     ],
@@ -6680,7 +6736,7 @@
     "recent_papers": 17,
     "status": "stable",
     "shift": 0.0667,
-    "p_value": 0.0703,
+    "p_value": 0.0702,
     "emerging_topics": [
       "Electrocatalysts for Energy Conversion",
       "Advanced Photocatalysis Techniques",
@@ -6704,7 +6760,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0258,
-    "p_value": 0.3634,
+    "p_value": 0.3655,
     "emerging_topics": [
       "Synthesis of Indole Derivatives",
       "Catalytic C–H Functionalization Methods",
@@ -6729,7 +6785,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0563,
-    "p_value": 0.6795,
+    "p_value": 0.67,
     "emerging_topics": [
       "Organic Electronics and Photovoltaics",
       "N-Heterocyclic Carbenes in Organic and Inorganic Chemistry"
@@ -6751,7 +6807,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0458,
-    "p_value": 0.9308,
+    "p_value": 0.9364,
     "emerging_topics": [],
     "fading_topics": [
       "Metabolomics and Mass Spectrometry Studies",
@@ -6771,7 +6827,7 @@
     "recent_papers": 17,
     "status": "stable",
     "shift": 0.0188,
-    "p_value": 0.4501,
+    "p_value": 0.4339,
     "emerging_topics": [
       "Nanoparticle-Based Drug Delivery",
       "Mesoporous Materials and Catalysis",
@@ -6796,7 +6852,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0311,
-    "p_value": 0.9575,
+    "p_value": 0.9561,
     "emerging_topics": [],
     "fading_topics": [
       "Synthesis and Reactivity of Sulfur-Containing Compounds",
@@ -6895,7 +6951,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0292,
-    "p_value": 0.5572,
+    "p_value": 0.5609,
     "emerging_topics": [
       "Advanced Polymer Synthesis and Characterization",
       "Polymer crystallization and properties",
@@ -6920,7 +6976,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0348,
-    "p_value": 0.7136,
+    "p_value": 0.7101,
     "emerging_topics": [],
     "fading_topics": [
       "Microbial Natural Products and Biosynthesis",
@@ -6941,7 +6997,7 @@
     "recent_papers": 8,
     "status": "shifted",
     "shift": 0.0904,
-    "p_value": 0.0227,
+    "p_value": 0.0235,
     "emerging_topics": [
       "Molecular Junctions and Nanostructures",
       "Organometallic Complex Synthesis and Catalysis",
@@ -6960,18 +7016,18 @@
       "unist-A5057681381"
     ],
     "early_xy": [
-      -0.34787,
-      0.16885
+      0.33713,
+      0.11568
     ],
     "recent_xy": [
-      -0.50473,
-      0.09298
+      0.49644,
+      0.0213
     ],
-    "toward_subcluster_id": 19,
-    "away_subcluster_id": 46,
+    "toward_subcluster_id": 13,
+    "away_subcluster_id": 60,
     "toward_xy": [
-      -0.6917,
-      -0.00717
+      0.62319,
+      -0.07536
     ]
   },
   "snu-A5087000163": {
@@ -6987,7 +7043,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0203,
-    "p_value": 0.5594,
+    "p_value": 0.5648,
     "emerging_topics": [
       "Metal-Organic Frameworks: Synthesis and Applications",
       "Plasmonic and Surface Plasmon Research",
@@ -7012,7 +7068,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0555,
-    "p_value": 0.1834,
+    "p_value": 0.1803,
     "emerging_topics": [
       "Advanced Nanomaterials in Catalysis"
     ],
@@ -7035,7 +7091,7 @@
     "recent_papers": 12,
     "status": "shifted",
     "shift": 0.0652,
-    "p_value": 0.0041,
+    "p_value": 0.0031,
     "emerging_topics": [
       "Chemical Synthesis and Analysis",
       "Supramolecular Chemistry and Complexes",
@@ -7054,17 +7110,18 @@
       "snu-A5003116915"
     ],
     "early_xy": [
-      -0.29731,
-      -0.14514
+      0.30243,
+      -0.17849
     ],
     "recent_xy": [
-      -0.32959,
-      -0.13552
+      0.32985,
+      -0.15535
     ],
-    "away_subcluster_id": 22,
+    "toward_subcluster_id": 21,
+    "away_subcluster_id": 31,
     "toward_xy": [
-      -0.61627,
-      -0.1605
+      0.60966,
+      -0.19658
     ]
   },
   "snu-A5003116915": {
@@ -7080,7 +7137,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0403,
-    "p_value": 0.2362,
+    "p_value": 0.2332,
     "emerging_topics": [
       "Computational Drug Discovery Methods",
       "vaccines and immunoinformatics approaches",
@@ -7131,7 +7188,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.038,
-    "p_value": 0.4364,
+    "p_value": 0.4458,
     "emerging_topics": [
       "Click Chemistry and Applications",
       "Protein Structure and Dynamics",
@@ -7155,7 +7212,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0709,
-    "p_value": 0.45,
+    "p_value": 0.4576,
     "emerging_topics": [
       "Advanced Fluorescence Microscopy Techniques"
     ],
@@ -7178,7 +7235,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0476,
-    "p_value": 0.2789,
+    "p_value": 0.2806,
     "emerging_topics": [
       "Supramolecular Self-Assembly in Materials",
       "Supramolecular Chemistry and Complexes"
@@ -7215,7 +7272,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0451,
-    "p_value": 0.6237,
+    "p_value": 0.6201,
     "emerging_topics": [
       "Bone Tissue Engineering Materials",
       "Polymer Surface Interaction Studies",
@@ -7290,7 +7347,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0236,
-    "p_value": 0.8999,
+    "p_value": 0.9022,
     "emerging_topics": [
       "Mitochondrial Function and Pathology",
       "Cellular transport and secretion"
@@ -7314,7 +7371,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0657,
-    "p_value": 0.1553,
+    "p_value": 0.163,
     "emerging_topics": [
       "Metalloenzymes and iron-sulfur proteins",
       "Receptor Mechanisms and Signaling",
@@ -7352,7 +7409,7 @@
     "recent_papers": 22,
     "status": "stable",
     "shift": 0.0126,
-    "p_value": 0.533,
+    "p_value": 0.516,
     "emerging_topics": [
       "Electrocatalysts for Energy Conversion",
       "Advanced Battery Technologies Research",
@@ -7377,7 +7434,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.068,
-    "p_value": 0.4139,
+    "p_value": 0.4067,
     "emerging_topics": [
       "Organic Light-Emitting Diodes Research",
       "Advanced Chemical Physics Studies",
@@ -7402,7 +7459,7 @@
     "recent_papers": 12,
     "status": "stable",
     "shift": 0.021,
-    "p_value": 0.7973,
+    "p_value": 0.7958,
     "emerging_topics": [
       "Electrochemical Analysis and Applications",
       "Advanced Polymer Synthesis and Characterization",
@@ -7427,7 +7484,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0287,
-    "p_value": 0.1656,
+    "p_value": 0.1757,
     "emerging_topics": [
       "Advanced Battery Materials and Technologies",
       "Fuel Cells and Related Materials",
@@ -7452,7 +7509,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0553,
-    "p_value": 0.4003,
+    "p_value": 0.3987,
     "emerging_topics": [
       "Gas Sensing Nanomaterials and Sensors",
       "Graphene research and applications",
@@ -7489,7 +7546,7 @@
     "recent_papers": 34,
     "status": "stable",
     "shift": 0.0129,
-    "p_value": 0.0332,
+    "p_value": 0.0344,
     "emerging_topics": [
       "Advanced Photocatalysis Techniques",
       "Ammonia Synthesis and Nitrogen Reduction",
@@ -7514,7 +7571,7 @@
     "recent_papers": 14,
     "status": "stable",
     "shift": 0.0239,
-    "p_value": 0.2463,
+    "p_value": 0.2466,
     "emerging_topics": [
       "Topological Materials and Phenomena",
       "Organic and Molecular Conductors Research",
@@ -7539,7 +7596,7 @@
     "recent_papers": 16,
     "status": "stable",
     "shift": 0.0169,
-    "p_value": 0.2901,
+    "p_value": 0.2854,
     "emerging_topics": [
       "2D Materials and Applications",
       "Topological Materials and Phenomena",
@@ -7564,7 +7621,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0479,
-    "p_value": 0.5384,
+    "p_value": 0.5302,
     "emerging_topics": [
       "Topological Materials and Phenomena",
       "Advanced Condensed Matter Physics"
@@ -7588,7 +7645,7 @@
     "recent_papers": 28,
     "status": "shifted",
     "shift": 0.0144,
-    "p_value": 0.0197,
+    "p_value": 0.0203,
     "emerging_topics": [
       "Magnetic properties of thin films",
       "Graphene research and applications",
@@ -7607,18 +7664,18 @@
       "postech-A5100607085"
     ],
     "early_xy": [
-      -0.35681,
-      0.47662
+      0.37757,
+      0.39066
     ],
     "recent_xy": [
-      -0.35777,
-      0.474
+      0.37833,
+      0.38905
     ],
-    "toward_subcluster_id": 41,
-    "away_subcluster_id": 42,
+    "toward_subcluster_id": 27,
+    "away_subcluster_id": 26,
     "toward_xy": [
-      -0.40535,
-      0.52883
+      0.42003,
+      0.43423
     ]
   },
   "snu-A5036817463": {
@@ -7647,7 +7704,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0236,
-    "p_value": 0.9614,
+    "p_value": 0.9596,
     "emerging_topics": [
       "Metamaterials and Metasurfaces Applications",
       "Plasmonic and Surface Plasmon Research",
@@ -7684,7 +7741,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0622,
-    "p_value": 0.223,
+    "p_value": 0.2248,
     "emerging_topics": [
       "Quantum, superfluid, helium dynamics"
     ],
@@ -7707,7 +7764,7 @@
     "recent_papers": 7,
     "status": "shifted",
     "shift": 0.0605,
-    "p_value": 0.0103,
+    "p_value": 0.0109,
     "emerging_topics": [
       "2D Materials and Applications",
       "Physics of Superconductivity and Magnetism",
@@ -7725,18 +7782,18 @@
       "postech-A5024040277"
     ],
     "early_xy": [
-      -0.31622,
-      0.46648
+      0.342,
+      0.38733
     ],
     "recent_xy": [
-      -0.29282,
-      0.42469
+      0.31342,
+      0.35285
     ],
-    "toward_subcluster_id": 48,
-    "away_subcluster_id": 42,
+    "toward_subcluster_id": 26,
+    "away_subcluster_id": 27,
     "toward_xy": [
-      -0.31125,
-      0.40899
+      0.33004,
+      0.32359
     ]
   },
   "snu-A5008771440": {
@@ -7752,7 +7809,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0572,
-    "p_value": 0.3331,
+    "p_value": 0.3268,
     "emerging_topics": [
       "Ferroelectric and Negative Capacitance Devices",
       "Ferroelectric and Piezoelectric Materials"
@@ -7776,7 +7833,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0241,
-    "p_value": 0.5981,
+    "p_value": 0.5879,
     "emerging_topics": [
       "2D Materials and Applications",
       "Topological Materials and Phenomena",
@@ -7801,7 +7858,7 @@
     "recent_papers": 14,
     "status": "stable",
     "shift": 0.0171,
-    "p_value": 0.3845,
+    "p_value": 0.3914,
     "emerging_topics": [
       "Perovskite Materials and Applications",
       "Advanced Memory and Neural Computing",
@@ -7852,7 +7909,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0313,
-    "p_value": 0.2073,
+    "p_value": 0.206,
     "emerging_topics": [
       "Quantum Computing Algorithms and Architecture",
       "Quantum many-body systems"
@@ -7876,7 +7933,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0589,
-    "p_value": 0.0514,
+    "p_value": 0.0548,
     "emerging_topics": [
       "Magnetic properties of thin films",
       "Advanced Condensed Matter Physics",
@@ -7901,7 +7958,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0612,
-    "p_value": 0.0822,
+    "p_value": 0.0792,
     "emerging_topics": [
       "2D Materials and Applications",
       "Magnetic properties of thin films",
@@ -7925,7 +7982,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0734,
-    "p_value": 0.165,
+    "p_value": 0.1696,
     "emerging_topics": [],
     "fading_topics": [
       "Electrochemical sensors and biosensors",
@@ -7998,7 +8055,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0236,
-    "p_value": 0.8548,
+    "p_value": 0.8603,
     "emerging_topics": [
       "Stochastic processes and statistical mechanics",
       "Geometric Analysis and Curvature Flows"
@@ -8060,7 +8117,7 @@
     "recent_papers": 14,
     "status": "shifted",
     "shift": 0.0179,
-    "p_value": 0.0114,
+    "p_value": 0.0108,
     "emerging_topics": [
       "Advanced Harmonic Analysis Research",
       "Differential Equations and Boundary Problems",
@@ -8077,18 +8134,18 @@
       "yonsei-A5111489069"
     ],
     "early_xy": [
-      0.18523,
-      0.14603
+      -0.16616,
+      0.13831
     ],
     "recent_xy": [
-      0.17504,
-      0.14345
+      -0.15747,
+      0.13334
     ],
-    "toward_subcluster_id": 10,
-    "away_subcluster_id": 9,
+    "toward_subcluster_id": 1,
+    "away_subcluster_id": 2,
     "toward_xy": [
-      0.15526,
-      0.11052
+      -0.1487,
+      0.09111
     ]
   },
   "snu-A5031106905": {
@@ -8117,7 +8174,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0573,
-    "p_value": 0.432,
+    "p_value": 0.4276,
     "emerging_topics": [
       "Markov Chains and Monte Carlo Methods"
     ],
@@ -8138,7 +8195,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0365,
-    "p_value": 0.4966,
+    "p_value": 0.497,
     "emerging_topics": [
       "Algebraic Geometry and Number Theory",
       "Advanced Algebra and Geometry"
@@ -8238,7 +8295,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0647,
-    "p_value": 0.4352,
+    "p_value": 0.4387,
     "emerging_topics": [
       "Cryptography and Data Security",
       "Cryptography and Residue Arithmetic"
@@ -8262,7 +8319,7 @@
     "recent_papers": 40,
     "status": "stable",
     "shift": 0.0092,
-    "p_value": 0.2094,
+    "p_value": 0.2178,
     "emerging_topics": [
       "Distributed Control Multi-Agent Systems",
       "Metaheuristic Optimization Algorithms Research",
@@ -8313,7 +8370,7 @@
     "recent_papers": 20,
     "status": "stable",
     "shift": 0.0191,
-    "p_value": 0.6046,
+    "p_value": 0.5993,
     "emerging_topics": [
       "Recommender Systems and Techniques",
       "Stock Market Forecasting Methods",
@@ -8338,6 +8395,52 @@
     "recent_papers": 5,
     "status": "insufficient"
   },
+  "snu-A5100460439": {
+    "early_years": [
+      2022,
+      2023
+    ],
+    "recent_years": [
+      2025,
+      2026
+    ],
+    "early_papers": 23,
+    "recent_papers": 20,
+    "status": "shifted",
+    "shift": 0.04,
+    "p_value": 0.0048,
+    "emerging_topics": [
+      "Computational Drug Discovery Methods",
+      "Machine Learning in Bioinformatics",
+      "Gene expression and cancer classification"
+    ],
+    "fading_topics": [
+      "Epigenetics and DNA Methylation",
+      "Machine Learning in Materials Science",
+      "Genomics and Chromatin Dynamics"
+    ],
+    "toward_lab_ids": [
+      "kaist-A5059653088",
+      "korea-A5018180265",
+      "snu-A5003116915",
+      "korea-A5076917278",
+      "snu-A5044961635"
+    ],
+    "early_xy": [
+      -0.12501,
+      -0.15477
+    ],
+    "recent_xy": [
+      -0.01014,
+      -0.14751
+    ],
+    "toward_subcluster_id": 24,
+    "away_subcluster_id": 22,
+    "toward_xy": [
+      0.15143,
+      -0.173
+    ]
+  },
   "snu-A5062560097": {
     "early_years": [
       2022,
@@ -8351,7 +8454,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0588,
-    "p_value": 0.0384,
+    "p_value": 0.0376,
     "emerging_topics": [
       "Advanced Data Storage Technologies",
       "Advanced Memory and Neural Computing",
@@ -8375,7 +8478,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0511,
-    "p_value": 0.764,
+    "p_value": 0.7588,
     "emerging_topics": [
       "Cold Atom Physics and Bose-Einstein Condensates",
       "Quantum Computing Algorithms and Architecture"
@@ -8410,7 +8513,7 @@
     "recent_papers": 16,
     "status": "stable",
     "shift": 0.0531,
-    "p_value": 0.0937,
+    "p_value": 0.0878,
     "emerging_topics": [
       "Advanced Neural Network Applications",
       "Advanced Vision and Imaging",
@@ -8434,7 +8537,7 @@
     "recent_papers": 12,
     "status": "stable",
     "shift": 0.0253,
-    "p_value": 0.5161,
+    "p_value": 0.5234,
     "emerging_topics": [
       "Data Visualization and Analytics",
       "Usability and User Interface Design",
@@ -8459,7 +8562,7 @@
     "recent_papers": 9,
     "status": "shifted",
     "shift": 0.0507,
-    "p_value": 0.0196,
+    "p_value": 0.0197,
     "emerging_topics": [
       "Cryptography and Residue Arithmetic",
       "Cryptographic Implementations and Security",
@@ -8476,18 +8579,18 @@
       "kaist-A5082521029"
     ],
     "early_xy": [
-      0.81002,
-      -0.20912
+      -0.8351,
+      0.05067
     ],
     "recent_xy": [
-      0.81511,
-      -0.21788
+      -0.84293,
+      0.04435
     ],
-    "toward_subcluster_id": 39,
-    "away_subcluster_id": 31,
+    "toward_subcluster_id": 36,
+    "away_subcluster_id": 53,
     "toward_xy": [
-      0.82807,
-      -0.2322
+      -0.84992,
+      0.04298
     ]
   },
   "snu-A5085451600": {
@@ -8516,7 +8619,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0379,
-    "p_value": 0.5933,
+    "p_value": 0.5901,
     "emerging_topics": [
       "Cloud Computing and Resource Management",
       "Advanced Data Storage Technologies",
@@ -8539,7 +8642,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0586,
-    "p_value": 0.7176,
+    "p_value": 0.7161,
     "emerging_topics": [
       "Advanced Neural Network Applications",
       "IoT and Edge/Fog Computing"
@@ -8563,7 +8666,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0237,
-    "p_value": 0.6525,
+    "p_value": 0.64,
     "emerging_topics": [
       "3D Shape Modeling and Analysis",
       "Computer Graphics and Visualization Techniques"
@@ -8587,7 +8690,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.072,
-    "p_value": 0.4323,
+    "p_value": 0.4356,
     "emerging_topics": [
       "Advanced Neural Network Applications",
       "Topic Modeling"
@@ -8623,7 +8726,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0982,
-    "p_value": 0.1772,
+    "p_value": 0.1821,
     "emerging_topics": [
       "Logic, programming, and type systems",
       "Mobile and Web Applications"
@@ -8659,7 +8762,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0375,
-    "p_value": 0.52,
+    "p_value": 0.5219,
     "emerging_topics": [
       "IoT and Edge/Fog Computing",
       "Advanced Vision and Imaging"
@@ -8683,7 +8786,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0555,
-    "p_value": 0.0451,
+    "p_value": 0.0532,
     "emerging_topics": [
       "Advanced Neural Network Applications",
       "Algorithms and Data Compression"
@@ -8707,7 +8810,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0839,
-    "p_value": 0.457,
+    "p_value": 0.4621,
     "emerging_topics": [
       "Advanced Image Processing Techniques"
     ],
@@ -8743,7 +8846,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0489,
-    "p_value": 0.2807,
+    "p_value": 0.2792,
     "emerging_topics": [
       "Reinforcement Learning in Robotics",
       "AI-based Problem Solving and Planning",
@@ -8781,7 +8884,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.034,
-    "p_value": 0.7541,
+    "p_value": 0.7545,
     "emerging_topics": [
       "Robot Manipulation and Learning",
       "Face recognition and analysis",
@@ -8818,7 +8921,7 @@
     "recent_papers": 8,
     "status": "shifted",
     "shift": 0.0809,
-    "p_value": 0.0218,
+    "p_value": 0.021,
     "emerging_topics": [
       "Real-Time Systems Scheduling",
       "Interconnection Networks and Systems",
@@ -8837,18 +8940,18 @@
       "korea-A5049511446"
     ],
     "early_xy": [
-      0.98094,
-      -0.13546
+      -0.82636,
+      0.2196
     ],
     "recent_xy": [
-      0.84498,
-      -0.15081
+      -0.75459,
+      0.10935
     ],
-    "toward_subcluster_id": 33,
-    "away_subcluster_id": 59,
+    "toward_subcluster_id": 50,
+    "away_subcluster_id": 63,
     "toward_xy": [
-      0.75097,
-      -0.1253
+      -0.72028,
+      0.03542
     ]
   },
   "snu-A5035382393": {
@@ -8877,7 +8980,7 @@
     "recent_papers": 7,
     "status": "shifted",
     "shift": 0.0574,
-    "p_value": 0.0141,
+    "p_value": 0.0145,
     "emerging_topics": [
       "Information Retrieval and Search Behavior",
       "Topic Modeling",
@@ -8885,8 +8988,8 @@
     ],
     "fading_topics": [
       "Natural Language Processing Techniques",
-      "Speech and dialogue systems",
-      "Software Engineering Research"
+      "Software Engineering Research",
+      "Speech and dialogue systems"
     ],
     "toward_lab_ids": [
       "korea-A5075832345",
@@ -8894,17 +8997,17 @@
       "korea-A5083900503"
     ],
     "early_xy": [
-      0.60347,
-      -0.03782
+      -0.61416,
+      0.00279
     ],
     "recent_xy": [
-      0.60105,
-      -0.0304
+      -0.61082,
+      0.01151
     ],
-    "away_subcluster_id": 51,
+    "away_subcluster_id": 17,
     "toward_xy": [
-      0.56157,
-      0.01211
+      -0.56973,
+      0.0396
     ]
   },
   "gist-A5011037736": {
@@ -8933,7 +9036,7 @@
     "recent_papers": 7,
     "status": "shifted",
     "shift": 0.1006,
-    "p_value": 0.0211,
+    "p_value": 0.0201,
     "emerging_topics": [
       "Orbital Angular Momentum in Optics",
       "Solid State Laser Technologies",
@@ -8952,18 +9055,18 @@
       "gist-A5076815474"
     ],
     "early_xy": [
-      -0.29149,
-      0.27427
+      0.29589,
+      0.21077
     ],
     "recent_xy": [
-      -0.21334,
-      0.27168
+      0.23027,
+      0.2189
     ],
-    "toward_subcluster_id": 65,
-    "away_subcluster_id": 46,
+    "toward_subcluster_id": 67,
+    "away_subcluster_id": 60,
     "toward_xy": [
-      -0.16842,
-      0.30945
+      0.18325,
+      0.25786
     ]
   },
   "gist-A5076815474": {
@@ -8979,7 +9082,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0606,
-    "p_value": 0.0697,
+    "p_value": 0.0672,
     "emerging_topics": [
       "Laser-Plasma Interactions and Diagnostics",
       "Advanced Fiber Laser Technologies",
@@ -9004,7 +9107,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0337,
-    "p_value": 0.484,
+    "p_value": 0.4824,
     "emerging_topics": [
       "X-ray Diffraction in Crystallography",
       "Transition Metal Oxide Nanomaterials",
@@ -9029,7 +9132,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0683,
-    "p_value": 0.5498,
+    "p_value": 0.5474,
     "emerging_topics": [
       "Quantum Information and Cryptography",
       "Superconducting and THz Device Technology"
@@ -9051,7 +9154,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0297,
-    "p_value": 0.5741,
+    "p_value": 0.5717,
     "emerging_topics": [
       "Electron and X-Ray Spectroscopy Techniques",
       "Catalytic Processes in Materials Science",
@@ -9076,7 +9179,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0198,
-    "p_value": 0.7578,
+    "p_value": 0.7551,
     "emerging_topics": [
       "Dust and Plasma Wave Phenomena",
       "Laser-Matter Interactions and Applications",
@@ -9101,7 +9204,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0566,
-    "p_value": 0.0301,
+    "p_value": 0.0331,
     "emerging_topics": [
       "Strong Light-Matter Interactions",
       "Advanced Condensed Matter Physics",
@@ -9125,7 +9228,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.047,
-    "p_value": 0.8211,
+    "p_value": 0.816,
     "emerging_topics": [
       "Theoretical and Computational Physics",
       "Advanced Condensed Matter Physics"
@@ -9149,7 +9252,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0463,
-    "p_value": 0.2768,
+    "p_value": 0.2743,
     "emerging_topics": [
       "Polymer Surface Interaction Studies",
       "Advanced Biosensing Techniques and Applications",
@@ -9173,7 +9276,7 @@
     "recent_papers": 16,
     "status": "stable",
     "shift": 0.017,
-    "p_value": 0.1235,
+    "p_value": 0.1255,
     "emerging_topics": [
       "Electrocatalysts for Energy Conversion",
       "Advanced Energy Technologies and Civil Engineering Innovations",
@@ -9198,7 +9301,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0722,
-    "p_value": 0.483,
+    "p_value": 0.4811,
     "emerging_topics": [],
     "fading_topics": [
       "Organic Electronics and Photovoltaics",
@@ -9245,7 +9348,7 @@
     "recent_papers": 12,
     "status": "stable",
     "shift": 0.0096,
-    "p_value": 0.9385,
+    "p_value": 0.9415,
     "emerging_topics": [
       "Advanced battery technologies research"
     ],
@@ -9281,7 +9384,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0478,
-    "p_value": 0.1841,
+    "p_value": 0.1791,
     "emerging_topics": [
       "Quantum Dots Synthesis And Properties",
       "Organic Light-Emitting Diodes Research",
@@ -9306,7 +9409,7 @@
     "recent_papers": 15,
     "status": "stable",
     "shift": 0.0148,
-    "p_value": 0.3252,
+    "p_value": 0.325,
     "emerging_topics": [
       "Advanced battery technologies research",
       "Advanced Photocatalysis Techniques",
@@ -9344,7 +9447,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0282,
-    "p_value": 0.5385,
+    "p_value": 0.5341,
     "emerging_topics": [
       "Strong Light-Matter Interactions",
       "Perovskite Materials and Applications",
@@ -9382,7 +9485,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0334,
-    "p_value": 0.301,
+    "p_value": 0.2991,
     "emerging_topics": [
       "Magnetic Properties of Alloys"
     ],
@@ -9418,7 +9521,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0337,
-    "p_value": 0.456,
+    "p_value": 0.4491,
     "emerging_topics": [
       "Magnetic properties of thin films",
       "Magnetic Field Sensors Techniques",
@@ -9456,7 +9559,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0535,
-    "p_value": 0.2344,
+    "p_value": 0.2414,
     "emerging_topics": [
       "Strong Light-Matter Interactions",
       "Graphene research and applications",
@@ -9480,7 +9583,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0453,
-    "p_value": 0.7468,
+    "p_value": 0.7542,
     "emerging_topics": [
       "Physics of Superconductivity and Magnetism",
       "Rare-earth and actinide compounds",
@@ -9517,7 +9620,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0269,
-    "p_value": 0.2148,
+    "p_value": 0.2222,
     "emerging_topics": [
       "2D Materials and Applications",
       "Advanced Condensed Matter Physics",
@@ -9542,7 +9645,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.1013,
-    "p_value": 0.2382,
+    "p_value": 0.2436,
     "emerging_topics": [
       "Plant Pathogenic Bacteria Studies",
       "Genomics and Phylogenetic Studies",
@@ -9592,7 +9695,7 @@
     "recent_papers": 14,
     "status": "stable",
     "shift": 0.0466,
-    "p_value": 0.362,
+    "p_value": 0.3606,
     "emerging_topics": [
       "Liver Disease Diagnosis and Treatment",
       "Glycosylation and Glycoproteins Research",
@@ -9656,7 +9759,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0763,
-    "p_value": 0.0704,
+    "p_value": 0.0708,
     "emerging_topics": [
       "Enzyme Structure and Function",
       "Protein Structure and Dynamics",
@@ -9681,7 +9784,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.1345,
-    "p_value": 0.1183,
+    "p_value": 0.1184,
     "emerging_topics": [
       "Liver Disease Diagnosis and Treatment",
       "Cell death mechanisms and regulation",
@@ -9719,7 +9822,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0808,
-    "p_value": 0.7269,
+    "p_value": 0.7321,
     "emerging_topics": [],
     "fading_topics": [
       "Acute Myeloid Leukemia Research",
@@ -9739,7 +9842,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0445,
-    "p_value": 0.1534,
+    "p_value": 0.161,
     "emerging_topics": [
       "Colorectal Cancer Treatments and Studies",
       "Genetic factors in colorectal cancer",
@@ -9790,7 +9893,7 @@
     "recent_papers": 16,
     "status": "stable",
     "shift": 0.0476,
-    "p_value": 0.0403,
+    "p_value": 0.0388,
     "emerging_topics": [
       "Tuberculosis Research and Epidemiology",
       "Nanoparticle-Based Drug Delivery",
@@ -9815,7 +9918,7 @@
     "recent_papers": 21,
     "status": "stable",
     "shift": 0.023,
-    "p_value": 0.047,
+    "p_value": 0.0464,
     "emerging_topics": [
       "biodegradable polymer synthesis and properties",
       "Advanced Polymer Synthesis and Characterization",
@@ -9840,7 +9943,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.0354,
-    "p_value": 0.05,
+    "p_value": 0.0513,
     "emerging_topics": [
       "Photochemistry and Electron Transfer Studies",
       "Spectroscopy and Quantum Chemical Studies",
@@ -9878,7 +9981,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0482,
-    "p_value": 0.6814,
+    "p_value": 0.6693,
     "emerging_topics": [
       "Lysosomal Storage Disorders Research",
       "Click Chemistry and Applications"
@@ -9902,7 +10005,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0773,
-    "p_value": 0.1048,
+    "p_value": 0.1128,
     "emerging_topics": [
       "Machine Learning in Materials Science",
       "Advanced Chemical Physics Studies"
@@ -9960,7 +10063,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0532,
-    "p_value": 0.1349,
+    "p_value": 0.1369,
     "emerging_topics": [
       "CO2 Reduction Techniques and Catalysts",
       "Nanocluster Synthesis and Applications",
@@ -9985,7 +10088,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0236,
-    "p_value": 0.6556,
+    "p_value": 0.6535,
     "emerging_topics": [
       "Advanced Polymer Synthesis and Characterization",
       "Block Copolymer Self-Assembly",
@@ -10010,7 +10113,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0426,
-    "p_value": 0.464,
+    "p_value": 0.4741,
     "emerging_topics": [
       "Graphene research and applications",
       "Electrochemical sensors and biosensors",
@@ -10033,9 +10136,9 @@
     ],
     "early_papers": 9,
     "recent_papers": 12,
-    "status": "shifted",
+    "status": "stable",
     "shift": 0.0728,
-    "p_value": 0.0272,
+    "p_value": 0.0321,
     "emerging_topics": [
       "Neuroscience and Neural Engineering",
       "Advanced Memory and Neural Computing",
@@ -10044,27 +10147,6 @@
     "fading_topics": [
       "CRISPR and Genetic Engineering",
       "Micro and Nano Robotics"
-    ],
-    "toward_lab_ids": [
-      "skku-A5052141994",
-      "skku-A5006114292",
-      "yonsei-A5026332374",
-      "gist-A5074809975",
-      "hanyang-A5089218042"
-    ],
-    "early_xy": [
-      -0.29459,
-      0.08002
-    ],
-    "recent_xy": [
-      -0.41952,
-      0.32219
-    ],
-    "toward_subcluster_id": 26,
-    "away_subcluster_id": 45,
-    "toward_xy": [
-      -0.49777,
-      0.29972
     ]
   },
   "yonsei-A5055277847": {
@@ -10106,7 +10188,7 @@
     "recent_papers": 31,
     "status": "stable",
     "shift": 0.0145,
-    "p_value": 0.0356,
+    "p_value": 0.0348,
     "emerging_topics": [
       "2D Materials and Applications",
       "Metal-Organic Frameworks: Synthesis and Applications",
@@ -10144,7 +10226,7 @@
     "recent_papers": 20,
     "status": "stable",
     "shift": 0.0087,
-    "p_value": 0.8835,
+    "p_value": 0.8755,
     "emerging_topics": [
       "Advanced Memory and Neural Computing",
       "Machine Learning in Materials Science",
@@ -10169,7 +10251,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0444,
-    "p_value": 0.076,
+    "p_value": 0.0746,
     "emerging_topics": [
       "Advanced Condensed Matter Physics",
       "Multiferroics and related materials"
@@ -10193,7 +10275,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0197,
-    "p_value": 0.2624,
+    "p_value": 0.2669,
     "emerging_topics": [
       "Particle physics theoretical and experimental studies",
       "Neutrino Physics Research",
@@ -10216,7 +10298,7 @@
     "recent_papers": 12,
     "status": "stable",
     "shift": 0.0161,
-    "p_value": 0.3444,
+    "p_value": 0.348,
     "emerging_topics": [
       "High-Energy Particle Collisions Research",
       "Nuclear physics research studies"
@@ -10239,7 +10321,7 @@
     "recent_papers": 19,
     "status": "stable",
     "shift": 0.016,
-    "p_value": 0.6395,
+    "p_value": 0.6431,
     "emerging_topics": [
       "Organic Electronics and Photovoltaics",
       "Advanced Photocatalysis Techniques",
@@ -10276,7 +10358,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0243,
-    "p_value": 0.4181,
+    "p_value": 0.4174,
     "emerging_topics": [
       "Phase-change materials and chalcogenides",
       "2D Materials and Applications",
@@ -10314,7 +10396,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0326,
-    "p_value": 0.11,
+    "p_value": 0.1065,
     "emerging_topics": [
       "Magnetic properties of thin films",
       "Topological Materials and Phenomena",
@@ -10339,7 +10421,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.02,
-    "p_value": 0.6579,
+    "p_value": 0.6475,
     "emerging_topics": [
       "Multiferroics and related materials",
       "Magnetic and transport properties of perovskites and related materials"
@@ -10415,7 +10497,7 @@
     "recent_papers": 18,
     "status": "stable",
     "shift": 0.0122,
-    "p_value": 0.7348,
+    "p_value": 0.7267,
     "emerging_topics": [
       "Navier-Stokes equation solutions",
       "Advanced Mathematical Physics Problems",
@@ -10466,7 +10548,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0156,
-    "p_value": 0.7781,
+    "p_value": 0.7692,
     "emerging_topics": [
       "Navier-Stokes equation solutions",
       "Advanced Mathematical Physics Problems",
@@ -10530,7 +10612,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0772,
-    "p_value": 0.5235,
+    "p_value": 0.5117,
     "emerging_topics": [
       "Stock Market Forecasting Methods",
       "Financial Risk and Volatility Modeling"
@@ -10606,7 +10688,7 @@
     "recent_papers": 16,
     "status": "shifted",
     "shift": 0.0497,
-    "p_value": 0.008,
+    "p_value": 0.0106,
     "emerging_topics": [
       "3D Shape Modeling and Analysis",
       "Multimodal Machine Learning Applications",
@@ -10625,17 +10707,17 @@
       "snu-A5100611457"
     ],
     "early_xy": [
-      0.52063,
-      -0.21176
+      -0.5503,
+      -0.14735
     ],
     "recent_xy": [
-      0.5243,
-      -0.25108
+      -0.56812,
+      -0.17709
     ],
-    "toward_subcluster_id": 29,
+    "toward_subcluster_id": 8,
     "toward_xy": [
-      0.51239,
-      -0.28907
+      -0.55377,
+      -0.21102
     ]
   },
   "yonsei-A5088551237": {
@@ -10651,7 +10733,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0612,
-    "p_value": 0.0888,
+    "p_value": 0.0925,
     "emerging_topics": [
       "Advanced Database Systems and Queries",
       "Parallel Computing and Optimization Techniques",
@@ -10702,7 +10784,7 @@
     "recent_papers": 29,
     "status": "stable",
     "shift": 0.03,
-    "p_value": 0.2896,
+    "p_value": 0.3049,
     "emerging_topics": [
       "Topic Modeling",
       "Anomaly Detection Techniques and Applications",
@@ -10727,7 +10809,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0423,
-    "p_value": 0.2029,
+    "p_value": 0.2014,
     "emerging_topics": [
       "Parallel Computing and Optimization Techniques",
       "Advanced Neural Network Applications",
@@ -10764,7 +10846,7 @@
     "recent_papers": 14,
     "status": "stable",
     "shift": 0.0182,
-    "p_value": 0.0402,
+    "p_value": 0.0374,
     "emerging_topics": [
       "Advanced X-ray and CT Imaging",
       "Image and Signal Denoising Methods",
@@ -10787,9 +10869,9 @@
     ],
     "early_papers": 6,
     "recent_papers": 20,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0645,
-    "p_value": 0.0306,
+    "p_value": 0.0253,
     "emerging_topics": [
       "Recommender Systems and Techniques",
       "Information Retrieval and Search Behavior",
@@ -10799,6 +10881,26 @@
       "Speech and dialogue systems",
       "Intelligent Tutoring Systems and Adaptive Learning",
       "Domain Adaptation and Few-Shot Learning"
+    ],
+    "toward_lab_ids": [
+      "korea-A5075832345",
+      "skku-A5065423554",
+      "yonsei-A5071595184",
+      "yonsei-A5100322270",
+      "postech-A5045521125"
+    ],
+    "early_xy": [
+      -0.60588,
+      0.00664
+    ],
+    "recent_xy": [
+      -0.60987,
+      0.01407
+    ],
+    "toward_subcluster_id": 18,
+    "toward_xy": [
+      -0.56874,
+      0.02923
     ]
   },
   "yonsei-A5031543156": {
@@ -10827,7 +10929,7 @@
     "recent_papers": 16,
     "status": "shifted",
     "shift": 0.0708,
-    "p_value": 0.011,
+    "p_value": 0.0076,
     "emerging_topics": [
       "Semantic Web and Ontologies",
       "Advanced Graph Neural Networks",
@@ -10846,17 +10948,17 @@
       "skku-A5071646906"
     ],
     "early_xy": [
-      0.59608,
-      -0.03381
+      -0.6048,
+      0.00819
     ],
     "recent_xy": [
-      0.60094,
-      -0.02372
+      -0.61061,
+      0.01681
     ],
-    "toward_subcluster_id": 1,
+    "toward_subcluster_id": 18,
     "toward_xy": [
-      0.55732,
-      -0.02922
+      -0.56374,
+      0.01013
     ]
   },
   "yonsei-A5071595184": {
@@ -10872,7 +10974,7 @@
     "recent_papers": 16,
     "status": "stable",
     "shift": 0.0913,
-    "p_value": 0.0662,
+    "p_value": 0.0678,
     "emerging_topics": [
       "Information Retrieval and Search Behavior",
       "Natural Language Processing Techniques",
@@ -10921,7 +11023,7 @@
     "recent_papers": 13,
     "status": "shifted",
     "shift": 0.1103,
-    "p_value": 0.0035,
+    "p_value": 0.0039,
     "emerging_topics": [
       "Satellite Communication Systems",
       "UAV Applications and Optimization",
@@ -10940,32 +11042,19 @@
       "korea-A5035314009"
     ],
     "early_xy": [
-      0.79347,
-      -0.09345
+      -0.74543,
+      0.08231
     ],
     "recent_xy": [
-      0.76321,
-      -0.08532
+      -0.72111,
+      0.05582
     ],
-    "toward_subcluster_id": 0,
-    "away_subcluster_id": 59,
+    "toward_subcluster_id": 51,
+    "away_subcluster_id": 49,
     "toward_xy": [
-      0.68206,
-      -0.10186
+      -0.66295,
+      0.01191
     ]
-  },
-  "yonsei-A5103278399": {
-    "early_years": [
-      2022,
-      2023
-    ],
-    "recent_years": [
-      2025,
-      2026
-    ],
-    "early_papers": 0,
-    "recent_papers": 2,
-    "status": "insufficient"
   },
   "yonsei-A5028464272": {
     "early_years": [
@@ -10980,7 +11069,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.089,
-    "p_value": 0.0812,
+    "p_value": 0.0835,
     "emerging_topics": [
       "Data Visualization and Analytics",
       "Team Dynamics and Performance",
@@ -11043,7 +11132,7 @@
     "recent_papers": 34,
     "status": "shifted",
     "shift": 0.0275,
-    "p_value": 0.0074,
+    "p_value": 0.0085,
     "emerging_topics": [
       "Domain Adaptation and Few-Shot Learning",
       "Topic Modeling",
@@ -11062,17 +11151,17 @@
       "kaist-A5061810530"
     ],
     "early_xy": [
-      0.47746,
-      -0.08424
+      -0.49115,
+      -0.03053
     ],
     "recent_xy": [
-      0.50085,
-      -0.08457
+      -0.5099,
+      -0.03213
     ],
-    "toward_subcluster_id": 1,
+    "toward_subcluster_id": 17,
     "toward_xy": [
-      0.54572,
-      -0.07184
+      -0.5478,
+      -0.01977
     ]
   },
   "yonsei-A5000631554": {
@@ -11086,9 +11175,9 @@
     ],
     "early_papers": 9,
     "recent_papers": 11,
-    "status": "stable",
+    "status": "shifted",
     "shift": 0.0755,
-    "p_value": 0.035,
+    "p_value": 0.0288,
     "emerging_topics": [
       "Advanced Neural Network Applications",
       "Parallel Computing and Optimization Techniques",
@@ -11098,6 +11187,27 @@
       "Energy Harvesting in Wireless Networks",
       "Battery Modeling and Management",
       "Innovative Energy Harvesting Technologies"
+    ],
+    "toward_lab_ids": [
+      "yonsei-A5041516963",
+      "hanyang-A5016424347",
+      "snu-A5100611457",
+      "kaist-A5004099860",
+      "yonsei-A5103036411"
+    ],
+    "early_xy": [
+      -0.71436,
+      0.01155
+    ],
+    "recent_xy": [
+      -0.59569,
+      -0.15278
+    ],
+    "toward_subcluster_id": 8,
+    "away_subcluster_id": 51,
+    "toward_xy": [
+      -0.56236,
+      -0.19524
     ]
   },
   "yonsei-A5061872375": {
@@ -11126,7 +11236,7 @@
     "recent_papers": 31,
     "status": "shifted",
     "shift": 0.0348,
-    "p_value": 0.0171,
+    "p_value": 0.0173,
     "emerging_topics": [
       "Software Testing and Debugging Techniques",
       "Software Engineering Research",
@@ -11145,18 +11255,17 @@
       "snu-A5101789148"
     ],
     "early_xy": [
-      0.54789,
-      -0.05865
+      -0.55785,
+      -0.01464
     ],
     "recent_xy": [
-      0.60758,
-      -0.0689
+      -0.62151,
+      0.00092
     ],
-    "toward_subcluster_id": 37,
-    "away_subcluster_id": 0,
+    "toward_subcluster_id": 16,
     "toward_xy": [
-      0.8864,
-      -0.3415
+      -0.96718,
+      0.03254
     ]
   },
   "yonsei-A5022991142": {
@@ -11172,7 +11281,7 @@
     "recent_papers": 22,
     "status": "stable",
     "shift": 0.095,
-    "p_value": 0.0941,
+    "p_value": 0.0954,
     "emerging_topics": [
       "Generative Adversarial Networks and Image Synthesis",
       "Retinal Imaging and Analysis",
@@ -11208,7 +11317,7 @@
     "recent_papers": 5,
     "status": "shifted",
     "shift": 0.1348,
-    "p_value": 0.0132,
+    "p_value": 0.0103,
     "emerging_topics": [
       "Wound Healing and Treatments",
       "Liver Disease Diagnosis and Treatment",
@@ -11227,18 +11336,18 @@
       "kaist-A5030760350"
     ],
     "early_xy": [
-      -0.09672,
-      -0.3016
+      0.12836,
+      -0.28472
     ],
     "recent_xy": [
-      -0.28362,
-      -0.12763
+      0.26607,
+      -0.14234
     ],
-    "toward_subcluster_id": 24,
-    "away_subcluster_id": 5,
+    "toward_subcluster_id": 33,
+    "away_subcluster_id": 40,
     "toward_xy": [
-      -0.36175,
-      -0.02318
+      0.31774,
+      -0.05375
     ]
   },
   "korea-A5101789447": {
@@ -11280,7 +11389,7 @@
     "recent_papers": 12,
     "status": "stable",
     "shift": 0.0485,
-    "p_value": 0.3434,
+    "p_value": 0.3422,
     "emerging_topics": [
       "Ubiquitin and proteasome pathways",
       "Autophagy in Disease and Therapy",
@@ -11331,7 +11440,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0529,
-    "p_value": 0.1125,
+    "p_value": 0.1168,
     "emerging_topics": [
       "Antibiotic Resistance in Bacteria",
       "Salmonella and Campylobacter epidemiology",
@@ -11394,7 +11503,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0744,
-    "p_value": 0.2459,
+    "p_value": 0.2398,
     "emerging_topics": [
       "Platelet Disorders and Treatments"
     ],
@@ -11429,7 +11538,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0566,
-    "p_value": 0.692,
+    "p_value": 0.6919,
     "emerging_topics": [
       "RNA and protein synthesis mechanisms",
       "Ubiquitin and proteasome pathways",
@@ -11465,7 +11574,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.0273,
-    "p_value": 0.3396,
+    "p_value": 0.3443,
     "emerging_topics": [
       "Spectroscopy and Quantum Chemical Studies",
       "Advanced Battery Materials and Technologies",
@@ -11490,7 +11599,7 @@
     "recent_papers": 77,
     "status": "stable",
     "shift": 0.0072,
-    "p_value": 0.0562,
+    "p_value": 0.0607,
     "emerging_topics": [
       "Luminescence and Fluorescent Materials",
       "Advanced Fluorescence Microscopy Techniques",
@@ -11528,7 +11637,7 @@
     "recent_papers": 21,
     "status": "stable",
     "shift": 0.0152,
-    "p_value": 0.594,
+    "p_value": 0.5847,
     "emerging_topics": [
       "Organic Light-Emitting Diodes Research",
       "Advanced Battery Materials and Technologies",
@@ -11572,17 +11681,17 @@
       "unist-A5046785997"
     ],
     "early_xy": [
-      -0.47656,
-      0.20973
+      0.4743,
+      0.16019
     ],
     "recent_xy": [
-      -0.47673,
-      0.21413
+      0.47627,
+      0.16384
     ],
-    "toward_subcluster_id": 26,
+    "toward_subcluster_id": 30,
     "toward_xy": [
-      -0.46764,
-      0.18244
+      0.47553,
+      0.11629
     ]
   },
   "korea-A5100722599": {
@@ -11598,7 +11707,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.026,
-    "p_value": 0.0659,
+    "p_value": 0.0604,
     "emerging_topics": [
       "Thermal properties of materials",
       "Organic Electronics and Photovoltaics"
@@ -11622,7 +11731,7 @@
     "recent_papers": 22,
     "status": "stable",
     "shift": 0.0111,
-    "p_value": 0.2735,
+    "p_value": 0.2689,
     "emerging_topics": [
       "Electrocatalysts for Energy Conversion",
       "Covalent Organic Framework Applications",
@@ -11686,7 +11795,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0179,
-    "p_value": 0.7834,
+    "p_value": 0.7833,
     "emerging_topics": [
       "2D Materials and Applications",
       "Advanced Semiconductor Detectors and Materials",
@@ -11711,7 +11820,7 @@
     "recent_papers": 32,
     "status": "stable",
     "shift": 0.0142,
-    "p_value": 0.226,
+    "p_value": 0.2267,
     "emerging_topics": [
       "Orbital Angular Momentum in Optics",
       "Perovskite Materials and Applications",
@@ -11736,7 +11845,7 @@
     "recent_papers": 18,
     "status": "stable",
     "shift": 0.0193,
-    "p_value": 0.4752,
+    "p_value": 0.468,
     "emerging_topics": [
       "Ammonia Synthesis and Nitrogen Reduction",
       "Advanced Photocatalysis Techniques",
@@ -11760,7 +11869,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0279,
-    "p_value": 0.139,
+    "p_value": 0.1404,
     "emerging_topics": [
       "Organic Chemistry Synthesis Methods",
       "Advanced Synthetic Organic Chemistry",
@@ -11798,7 +11907,7 @@
     "recent_papers": 22,
     "status": "shifted",
     "shift": 0.0279,
-    "p_value": 0.0088,
+    "p_value": 0.0079,
     "emerging_topics": [
       "Organic Light-Emitting Diodes Research",
       "Carbon Dioxide Capture Technologies",
@@ -11817,18 +11926,18 @@
       "skku-A5101445145"
     ],
     "early_xy": [
-      -0.62237,
-      0.10804
+      0.60044,
+      0.04176
     ],
     "recent_xy": [
-      -0.59676,
-      0.07605
+      0.56704,
+      0.00602
     ],
-    "toward_subcluster_id": 36,
-    "away_subcluster_id": 16,
+    "toward_subcluster_id": 13,
+    "away_subcluster_id": 12,
     "toward_xy": [
-      -0.48365,
-      0.14878
+      0.48364,
+      0.07673
     ]
   },
   "korea-A5032057581": {
@@ -11857,7 +11966,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0332,
-    "p_value": 0.5033,
+    "p_value": 0.4957,
     "emerging_topics": [
       "Photonic Crystals and Applications",
       "Metamaterials and Metasurfaces Applications",
@@ -11868,19 +11977,6 @@
       "Plasmonic and Surface Plasmon Research",
       "2D Materials and Applications"
     ]
-  },
-  "korea-A5072000148": {
-    "early_years": [
-      2022,
-      2023
-    ],
-    "recent_years": [
-      2025,
-      2026
-    ],
-    "early_papers": 0,
-    "recent_papers": 7,
-    "status": "insufficient"
   },
   "korea-A5085121570": {
     "early_years": [
@@ -11908,7 +12004,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0349,
-    "p_value": 0.3303,
+    "p_value": 0.3273,
     "emerging_topics": [
       "Laser-Matter Interactions and Applications",
       "Spectroscopy and Laser Applications"
@@ -11944,7 +12040,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0481,
-    "p_value": 0.3543,
+    "p_value": 0.3633,
     "emerging_topics": [
       "Mechanical and Optical Resonators",
       "Magnetic properties of thin films",
@@ -12006,7 +12102,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.033,
-    "p_value": 0.0388,
+    "p_value": 0.0352,
     "emerging_topics": [
       "Photoacoustic and Ultrasonic Imaging",
       "Image and Signal Denoising Methods",
@@ -12057,7 +12153,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0646,
-    "p_value": 0.2035,
+    "p_value": 0.2086,
     "emerging_topics": [
       "Game Theory and Applications",
       "Probability and Risk Models",
@@ -12093,7 +12189,7 @@
     "recent_papers": 75,
     "status": "stable",
     "shift": 0.0072,
-    "p_value": 0.0349,
+    "p_value": 0.0337,
     "emerging_topics": [
       "Fractional Differential Equations Solutions",
       "Model Reduction and Neural Networks",
@@ -12131,7 +12227,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0429,
-    "p_value": 0.4405,
+    "p_value": 0.439,
     "emerging_topics": [
       "Algebraic Geometry and Number Theory"
     ],
@@ -12192,7 +12288,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0525,
-    "p_value": 0.4162,
+    "p_value": 0.4133,
     "emerging_topics": [
       "Advanced Mathematical Identities",
       "Advanced Combinatorial Mathematics"
@@ -12248,17 +12344,17 @@
       "skku-A5064051041"
     ],
     "early_xy": [
-      0.57257,
-      -0.03121
+      -0.57832,
+      0.00715
     ],
     "recent_xy": [
-      0.58798,
-      -0.03812
+      -0.59661,
+      0.00205
     ],
-    "toward_subcluster_id": 1,
+    "toward_subcluster_id": 17,
     "toward_xy": [
-      0.59798,
-      -0.06368
+      -0.60594,
+      -0.02121
     ]
   },
   "korea-A5011229651": {
@@ -12300,7 +12396,7 @@
     "recent_papers": 20,
     "status": "shifted",
     "shift": 0.0754,
-    "p_value": 0.002,
+    "p_value": 0.0022,
     "emerging_topics": [
       "Parallel Computing and Optimization Techniques",
       "Advanced Neural Network Applications",
@@ -12317,18 +12413,18 @@
       "snu-A5100767182"
     ],
     "early_xy": [
-      0.93017,
-      -0.13262
+      -0.84901,
+      0.16606
     ],
     "recent_xy": [
-      0.98556,
-      -0.13307
+      -0.83183,
+      0.22524
     ],
-    "toward_subcluster_id": 59,
-    "away_subcluster_id": 31,
+    "toward_subcluster_id": 63,
+    "away_subcluster_id": 35,
     "toward_xy": [
-      0.97658,
-      -0.13162
+      -0.81549,
+      0.22374
     ]
   },
   "korea-A5067772621": {
@@ -12357,7 +12453,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.106,
-    "p_value": 0.0356,
+    "p_value": 0.036,
     "emerging_topics": [
       "Advanced Neural Network Applications",
       "Advanced Vision and Imaging"
@@ -12381,7 +12477,7 @@
     "recent_papers": 18,
     "status": "stable",
     "shift": 0.0531,
-    "p_value": 0.0662,
+    "p_value": 0.0677,
     "emerging_topics": [
       "Intelligent Tutoring Systems and Adaptive Learning",
       "Teaching and Learning Programming",
@@ -12406,7 +12502,7 @@
     "recent_papers": 9,
     "status": "shifted",
     "shift": 0.0538,
-    "p_value": 0.0055,
+    "p_value": 0.0048,
     "emerging_topics": [
       "Network Traffic and Congestion Control",
       "Advanced Wireless Network Optimization",
@@ -12419,23 +12515,23 @@
     ],
     "toward_lab_ids": [
       "sogang-A5100704334",
-      "korea-A5009631871",
       "snu-A5021349769",
       "skku-A5038941174",
-      "korea-A5052703193"
+      "korea-A5052703193",
+      "korea-A5035314009"
     ],
     "early_xy": [
-      0.7629,
-      -0.08699
+      -0.7183,
+      0.06033
     ],
     "recent_xy": [
-      0.7704,
-      -0.08465
+      -0.72211,
+      0.063
     ],
-    "toward_subcluster_id": 0,
+    "toward_subcluster_id": 49,
     "toward_xy": [
-      0.64034,
-      -0.0745
+      -0.65191,
+      0.09627
     ]
   },
   "korea-A5086668734": {
@@ -12477,7 +12573,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0797,
-    "p_value": 0.7508,
+    "p_value": 0.7488,
     "emerging_topics": [
       "3D Shape Modeling and Analysis",
       "Generative Adversarial Networks and Image Synthesis"
@@ -12501,7 +12597,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.1072,
-    "p_value": 0.0539,
+    "p_value": 0.0584,
     "emerging_topics": [
       "Parallel Computing and Optimization Techniques",
       "Advanced Neural Network Applications",
@@ -12524,7 +12620,7 @@
     "recent_papers": 13,
     "status": "shifted",
     "shift": 0.0751,
-    "p_value": 0.0276,
+    "p_value": 0.0248,
     "emerging_topics": [
       "Blockchain Technology Applications and Security",
       "Network Traffic and Congestion Control",
@@ -12543,17 +12639,17 @@
       "yonsei-A5010089204"
     ],
     "early_xy": [
-      0.90566,
-      -0.12272
+      -0.78526,
+      0.16717
     ],
     "recent_xy": [
-      0.82579,
-      -0.11519
+      -0.72192,
+      0.12327
     ],
-    "toward_subcluster_id": 1,
+    "toward_subcluster_id": 15,
     "toward_xy": [
-      0.62056,
-      -0.07731
+      -0.5939,
+      0.01286
     ]
   },
   "korea-A5038510569": {
@@ -12582,7 +12678,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0377,
-    "p_value": 0.0377,
+    "p_value": 0.0422,
     "emerging_topics": [
       "Software Engineering Research",
       "Logic, programming, and type systems",
@@ -12606,7 +12702,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.088,
-    "p_value": 0.0398,
+    "p_value": 0.0362,
     "emerging_topics": [
       "Software Engineering Research",
       "Software Testing and Debugging Techniques"
@@ -12628,7 +12724,7 @@
     "recent_papers": 12,
     "status": "stable",
     "shift": 0.0448,
-    "p_value": 0.2865,
+    "p_value": 0.2805,
     "emerging_topics": [
       "IoT and Edge/Fog Computing",
       "Parallel Computing and Optimization Techniques",
@@ -12691,7 +12787,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0326,
-    "p_value": 0.1126,
+    "p_value": 0.1173,
     "emerging_topics": [
       "Microwave Engineering and Waveguides",
       "Radio Frequency Integrated Circuit Design",
@@ -12716,7 +12812,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0469,
-    "p_value": 0.692,
+    "p_value": 0.698,
     "emerging_topics": [
       "Software Engineering Research",
       "IoT-based Smart Home Systems",
@@ -12760,17 +12856,17 @@
       "snu-A5085451600"
     ],
     "early_xy": [
-      0.60222,
-      -0.03219
+      -0.61383,
+      0.00603
     ],
     "recent_xy": [
-      0.60198,
-      -0.02888
+      -0.61428,
+      0.00826
     ],
-    "toward_subcluster_id": 3,
+    "toward_subcluster_id": 18,
     "toward_xy": [
-      0.57049,
-      -0.04704
+      -0.57667,
+      -0.00461
     ]
   },
   "korea-A5068698319": {
@@ -12786,7 +12882,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0744,
-    "p_value": 0.179,
+    "p_value": 0.182,
     "emerging_topics": [
       "Recommender Systems and Techniques",
       "Multimodal Machine Learning Applications",
@@ -12809,7 +12905,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0501,
-    "p_value": 0.9658,
+    "p_value": 0.9628,
     "emerging_topics": [
       "Parallel Computing and Optimization Techniques"
     ],
@@ -12832,7 +12928,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0695,
-    "p_value": 0.0599,
+    "p_value": 0.0613,
     "emerging_topics": [
       "Distributed systems and fault tolerance",
       "Cloud Computing and Resource Management"
@@ -12856,7 +12952,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0299,
-    "p_value": 0.6613,
+    "p_value": 0.6528,
     "emerging_topics": [
       "Generative Adversarial Networks and Image Synthesis",
       "Advanced Neural Network Applications",
@@ -12894,7 +12990,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0794,
-    "p_value": 0.3091,
+    "p_value": 0.3014,
     "emerging_topics": [
       "Network Traffic and Congestion Control",
       "IoT and Edge/Fog Computing",
@@ -12919,7 +13015,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0512,
-    "p_value": 0.8264,
+    "p_value": 0.8324,
     "emerging_topics": [
       "Advanced Vision and Imaging",
       "3D Shape Modeling and Analysis",
@@ -12944,7 +13040,7 @@
     "recent_papers": 22,
     "status": "stable",
     "shift": 0.0245,
-    "p_value": 0.1839,
+    "p_value": 0.1841,
     "emerging_topics": [
       "Adversarial Robustness in Machine Learning",
       "Advanced Authentication Protocols Security",
@@ -12982,7 +13078,7 @@
     "recent_papers": 10,
     "status": "shifted",
     "shift": 0.0469,
-    "p_value": 0.0016,
+    "p_value": 0.0029,
     "emerging_topics": [
       "Genomics and Phylogenetic Studies",
       "Chromosomal and Genetic Variations",
@@ -13000,17 +13096,17 @@
       "snu-A5100447456"
     ],
     "early_xy": [
-      -0.33129,
-      -0.40091
+      0.13746,
+      -0.49918
     ],
     "recent_xy": [
-      -0.32826,
-      -0.40183
+      0.1361,
+      -0.49744
     ],
-    "toward_subcluster_id": 60,
+    "toward_subcluster_id": 64,
     "toward_xy": [
-      -0.35202,
-      -0.45189
+      0.15387,
+      -0.57182
     ]
   },
   "skku-A5061799347": {
@@ -13039,7 +13135,7 @@
     "recent_papers": 12,
     "status": "stable",
     "shift": 0.0147,
-    "p_value": 0.334,
+    "p_value": 0.3299,
     "emerging_topics": [
       "Protist diversity and phylogeny",
       "Chromosomal and Genetic Variations",
@@ -13077,7 +13173,7 @@
     "recent_papers": 32,
     "status": "stable",
     "shift": 0.017,
-    "p_value": 0.0394,
+    "p_value": 0.0391,
     "emerging_topics": [
       "Iron Metabolism and Disorders",
       "Effects of Environmental Stressors on Livestock",
@@ -13127,7 +13223,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0392,
-    "p_value": 0.0437,
+    "p_value": 0.0438,
     "emerging_topics": [
       "Perovskite Materials and Applications",
       "Luminescence Properties of Advanced Materials",
@@ -13152,7 +13248,7 @@
     "recent_papers": 23,
     "status": "shifted",
     "shift": 0.0244,
-    "p_value": 0.013,
+    "p_value": 0.0134,
     "emerging_topics": [
       "Catalytic Processes in Materials Science",
       "Nanomaterials for catalytic reactions",
@@ -13171,18 +13267,18 @@
       "sogang-A5002709534"
     ],
     "early_xy": [
-      -0.64637,
-      0.14382
+      0.62121,
+      0.07974
     ],
     "recent_xy": [
-      -0.65506,
-      0.13726
+      0.62947,
+      0.07298
     ],
-    "toward_subcluster_id": 67,
-    "away_subcluster_id": 25,
+    "toward_subcluster_id": 13,
+    "away_subcluster_id": 14,
     "toward_xy": [
-      -0.64442,
-      0.10914
+      0.60953,
+      0.04385
     ]
   },
   "skku-A5069488261": {
@@ -13198,7 +13294,7 @@
     "recent_papers": 27,
     "status": "stable",
     "shift": 0.011,
-    "p_value": 0.6676,
+    "p_value": 0.6695,
     "emerging_topics": [
       "Supercapacitor Materials and Fabrication",
       "Gas Sensing Nanomaterials and Sensors",
@@ -13236,7 +13332,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0247,
-    "p_value": 0.2711,
+    "p_value": 0.263,
     "emerging_topics": [
       "Synthesis of Indole Derivatives",
       "Asymmetric Hydrogenation and Catalysis",
@@ -13261,7 +13357,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0203,
-    "p_value": 0.5561,
+    "p_value": 0.5492,
     "emerging_topics": [
       "Click Chemistry and Applications",
       "Chemical Synthesis and Reactions",
@@ -13286,7 +13382,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0364,
-    "p_value": 0.648,
+    "p_value": 0.6528,
     "emerging_topics": [
       "Synthesis and properties of polymers",
       "Covalent Organic Framework Applications",
@@ -13311,7 +13407,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0332,
-    "p_value": 0.2697,
+    "p_value": 0.2755,
     "emerging_topics": [
       "Asymmetric Synthesis and Catalysis"
     ],
@@ -13345,7 +13441,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0262,
-    "p_value": 0.0614,
+    "p_value": 0.06,
     "emerging_topics": [
       "Organoboron and organosilicon chemistry",
       "Asymmetric Synthesis and Catalysis",
@@ -13381,7 +13477,7 @@
     "recent_papers": 35,
     "status": "stable",
     "shift": 0.0111,
-    "p_value": 0.6356,
+    "p_value": 0.6366,
     "emerging_topics": [
       "Alzheimer's disease research and treatments",
       "MXene and MAX Phase Materials",
@@ -13406,7 +13502,7 @@
     "recent_papers": 18,
     "status": "shifted",
     "shift": 0.0209,
-    "p_value": 0.0132,
+    "p_value": 0.0152,
     "emerging_topics": [
       "Electrocatalysts for Energy Conversion",
       "CO2 Reduction Techniques and Catalysts",
@@ -13425,17 +13521,17 @@
       "snu-A5027337024"
     ],
     "early_xy": [
-      -0.64289,
-      0.1511
+      0.62281,
+      0.08474
     ],
     "recent_xy": [
-      -0.65306,
-      0.14601
+      0.63149,
+      0.07946
     ],
-    "away_subcluster_id": 25,
+    "away_subcluster_id": 13,
     "toward_xy": [
-      -0.67075,
-      0.122
+      0.63123,
+      0.05806
     ]
   },
   "skku-A5052789010": {
@@ -13451,7 +13547,7 @@
     "recent_papers": 33,
     "status": "shifted",
     "shift": 0.0356,
-    "p_value": 0.0011,
+    "p_value": 0.0009,
     "emerging_topics": [
       "Advanced Memory and Neural Computing",
       "GaN-based semiconductor devices and materials",
@@ -13470,18 +13566,18 @@
       "skku-A5006114292"
     ],
     "early_xy": [
-      -0.47567,
-      0.22142
+      0.47529,
+      0.17013
     ],
     "recent_xy": [
-      -0.49436,
-      0.26219
+      0.49771,
+      0.19839
     ],
-    "toward_subcluster_id": 26,
-    "away_subcluster_id": 35,
+    "toward_subcluster_id": 30,
+    "away_subcluster_id": 38,
     "toward_xy": [
-      -0.45535,
-      0.31709
+      0.46444,
+      0.25578
     ]
   },
   "skku-A5009423567": {
@@ -13497,7 +13593,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.084,
-    "p_value": 0.2175,
+    "p_value": 0.2191,
     "emerging_topics": [
       "Electrocatalysts for Energy Conversion"
     ],
@@ -13546,7 +13642,7 @@
     "recent_papers": 24,
     "status": "stable",
     "shift": 0.0125,
-    "p_value": 0.6897,
+    "p_value": 0.6892,
     "emerging_topics": [
       "Advanced Sensor and Energy Harvesting Materials",
       "Electrocatalysts for Energy Conversion",
@@ -13571,7 +13667,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.04,
-    "p_value": 0.5006,
+    "p_value": 0.4971,
     "emerging_topics": [
       "Quantum Computing Algorithms and Architecture",
       "Quantum many-body systems",
@@ -13595,7 +13691,7 @@
     "recent_papers": 19,
     "status": "stable",
     "shift": 0.0175,
-    "p_value": 0.1114,
+    "p_value": 0.1159,
     "emerging_topics": [
       "Physics of Superconductivity and Magnetism",
       "Electronic and Structural Properties of Oxides",
@@ -13620,7 +13716,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0316,
-    "p_value": 0.1757,
+    "p_value": 0.1728,
     "emerging_topics": [
       "Superconductivity in MgB2 and Alloys",
       "Advanced Condensed Matter Physics",
@@ -13645,7 +13741,7 @@
     "recent_papers": 9,
     "status": "shifted",
     "shift": 0.0744,
-    "p_value": 0.0052,
+    "p_value": 0.0045,
     "emerging_topics": [
       "DNA and Biological Computing",
       "Algorithms and Data Compression",
@@ -13664,17 +13760,18 @@
       "snu-A5043554497"
     ],
     "early_xy": [
-      -0.38075,
-      0.06571
+      0.36515,
+      0.0223
     ],
     "recent_xy": [
-      -0.24145,
-      -0.04246
+      0.29387,
+      -0.14784
     ],
-    "away_subcluster_id": 24,
+    "toward_subcluster_id": 7,
+    "away_subcluster_id": 33,
     "toward_xy": [
-      0.50412,
-      -0.14624
+      -0.40282,
+      -0.05241
     ]
   },
   "skku-A5012042206": {
@@ -13690,7 +13787,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0326,
-    "p_value": 0.2937,
+    "p_value": 0.2982,
     "emerging_topics": [
       "Nuclear physics research studies",
       "Astronomical and nuclear sciences",
@@ -13715,7 +13812,7 @@
     "recent_papers": 12,
     "status": "stable",
     "shift": 0.0176,
-    "p_value": 0.2666,
+    "p_value": 0.2682,
     "emerging_topics": [
       "Multiferroics and related materials",
       "Magnetic properties of thin films",
@@ -13740,7 +13837,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0529,
-    "p_value": 0.4089,
+    "p_value": 0.4044,
     "emerging_topics": [
       "Topological Materials and Phenomena"
     ],
@@ -13776,7 +13873,7 @@
     "recent_papers": 21,
     "status": "shifted",
     "shift": 0.0379,
-    "p_value": 0.0051,
+    "p_value": 0.0067,
     "emerging_topics": [
       "2D Materials and Applications",
       "Advanced Memory and Neural Computing",
@@ -13795,18 +13892,18 @@
       "snu-A5002034810"
     ],
     "early_xy": [
-      -0.48761,
-      0.28516
+      0.49252,
+      0.21855
     ],
     "recent_xy": [
-      -0.46179,
-      0.32389
+      0.47137,
+      0.25323
     ],
-    "toward_subcluster_id": 26,
-    "away_subcluster_id": 25,
+    "toward_subcluster_id": 30,
+    "away_subcluster_id": 28,
     "toward_xy": [
-      -0.40932,
-      0.35036
+      0.42288,
+      0.27386
     ]
   },
   "skku-A5067209248": {
@@ -13822,7 +13919,7 @@
     "recent_papers": 27,
     "status": "stable",
     "shift": 0.0112,
-    "p_value": 0.1723,
+    "p_value": 0.1719,
     "emerging_topics": [
       "2D Materials and Applications",
       "Magnetic properties of thin films",
@@ -13873,7 +13970,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0303,
-    "p_value": 0.7908,
+    "p_value": 0.8003,
     "emerging_topics": [
       "Mathematical functions and polynomials",
       "Advanced Mathematical Identities"
@@ -13910,7 +14007,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0326,
-    "p_value": 0.9476,
+    "p_value": 0.9428,
     "emerging_topics": [
       "Advanced Harmonic Analysis Research"
     ],
@@ -13945,7 +14042,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0725,
-    "p_value": 0.068,
+    "p_value": 0.0694,
     "emerging_topics": [],
     "fading_topics": [
       "Advanced Mathematical Physics Problems",
@@ -13992,7 +14089,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0588,
-    "p_value": 0.1817,
+    "p_value": 0.1902,
     "emerging_topics": [
       "Computational Fluid Dynamics and Aerodynamics",
       "Lattice Boltzmann Simulation Studies",
@@ -14042,7 +14139,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0943,
-    "p_value": 0.0419,
+    "p_value": 0.0405,
     "emerging_topics": [
       "Stability and Control of Uncertain Systems"
     ],
@@ -14051,19 +14148,6 @@
       "Optimization and Variational Analysis",
       "Distributed Control Multi-Agent Systems"
     ]
-  },
-  "skku-A5030444750": {
-    "early_years": [
-      2022,
-      2023
-    ],
-    "recent_years": [
-      2025,
-      2026
-    ],
-    "early_papers": 6,
-    "recent_papers": 2,
-    "status": "insufficient"
   },
   "skku-A5006939410": {
     "early_years": [
@@ -14091,7 +14175,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0663,
-    "p_value": 0.1447,
+    "p_value": 0.1465,
     "emerging_topics": [
       "Distributed Control Multi-Agent Systems",
       "Stochastic Gradient Optimization Techniques",
@@ -14141,7 +14225,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.058,
-    "p_value": 0.3075,
+    "p_value": 0.3028,
     "emerging_topics": [
       "Holomorphic and Operator Theory"
     ],
@@ -14163,7 +14247,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0682,
-    "p_value": 0.2866,
+    "p_value": 0.2874,
     "emerging_topics": [
       "Adversarial Robustness in Machine Learning",
       "Privacy-Preserving Technologies in Data",
@@ -14186,7 +14270,7 @@
     "recent_papers": 7,
     "status": "shifted",
     "shift": 0.1197,
-    "p_value": 0.0169,
+    "p_value": 0.0179,
     "emerging_topics": [
       "Domain Adaptation and Few-Shot Learning",
       "Advanced Neural Network Applications",
@@ -14201,18 +14285,18 @@
       "snu-A5085451600"
     ],
     "early_xy": [
-      0.46807,
-      -0.16635
+      -0.48784,
+      -0.1096
     ],
     "recent_xy": [
-      0.50733,
-      -0.21565
+      -0.54076,
+      -0.15517
     ],
-    "toward_subcluster_id": 1,
-    "away_subcluster_id": 52,
+    "toward_subcluster_id": 10,
+    "away_subcluster_id": 43,
     "toward_xy": [
-      0.54326,
-      -0.12716
+      -0.55958,
+      -0.07751
     ]
   },
   "skku-A5101688828": {
@@ -14228,7 +14312,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.1007,
-    "p_value": 0.3196,
+    "p_value": 0.3079,
     "emerging_topics": [],
     "fading_topics": [
       "Cognitive Radio Networks and Spectrum Sensing",
@@ -14249,7 +14333,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0363,
-    "p_value": 0.4608,
+    "p_value": 0.46,
     "emerging_topics": [
       "Parallel Computing and Optimization Techniques",
       "Advanced Data Storage Technologies"
@@ -14272,7 +14356,7 @@
     "recent_papers": 15,
     "status": "shifted",
     "shift": 0.0652,
-    "p_value": 0.0067,
+    "p_value": 0.008,
     "emerging_topics": [
       "Speech and dialogue systems",
       "Ethics and Social Impacts of AI",
@@ -14291,18 +14375,18 @@
       "hanyang-A5101523174"
     ],
     "early_xy": [
-      0.57758,
-      -0.06386
+      -0.58939,
+      -0.0204
     ],
     "recent_xy": [
-      0.6034,
-      -0.03162
+      -0.61372,
+      0.00858
     ],
-    "toward_subcluster_id": 2,
-    "away_subcluster_id": 51,
+    "toward_subcluster_id": 16,
+    "away_subcluster_id": 10,
     "toward_xy": [
-      0.60532,
-      -0.03959
+      -0.60888,
+      0.00506
     ]
   },
   "skku-A5071646906": {
@@ -14318,7 +14402,7 @@
     "recent_papers": 21,
     "status": "stable",
     "shift": 0.0457,
-    "p_value": 0.2226,
+    "p_value": 0.2299,
     "emerging_topics": [
       "Multimodal Machine Learning Applications",
       "Human Pose and Action Recognition",
@@ -14342,7 +14426,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0363,
-    "p_value": 0.8702,
+    "p_value": 0.8694,
     "emerging_topics": [
       "Blockchain Technology Applications and Security",
       "Advanced Database Systems and Queries"
@@ -14366,7 +14450,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.0941,
-    "p_value": 0.0569,
+    "p_value": 0.0529,
     "emerging_topics": [
       "Multimodal Machine Learning Applications",
       "Topic Modeling",
@@ -14391,7 +14475,7 @@
     "recent_papers": 14,
     "status": "shifted",
     "shift": 0.0578,
-    "p_value": 0.006,
+    "p_value": 0.0044,
     "emerging_topics": [
       "AI-based Problem Solving and Planning",
       "Topic Modeling",
@@ -14410,18 +14494,18 @@
       "yonsei-A5076900864"
     ],
     "early_xy": [
-      0.58268,
-      -0.11449
+      -0.57795,
+      -0.02764
     ],
     "recent_xy": [
-      0.64708,
-      -0.12961
+      -0.63486,
+      -0.0147
     ],
-    "toward_subcluster_id": 2,
-    "away_subcluster_id": 51,
+    "toward_subcluster_id": 17,
+    "away_subcluster_id": 15,
     "toward_xy": [
-      0.66559,
-      -0.14329
+      -0.69069,
+      -0.01557
     ]
   },
   "skku-A5043069803": {
@@ -14450,7 +14534,7 @@
     "recent_papers": 9,
     "status": "shifted",
     "shift": 0.0489,
-    "p_value": 0.0026,
+    "p_value": 0.0033,
     "emerging_topics": [
       "Teaching and Learning Programming",
       "Web Application Security Vulnerabilities",
@@ -14469,17 +14553,17 @@
       "skku-A5101530748"
     ],
     "early_xy": [
-      0.88572,
-      -0.35711
+      -0.98439,
+      0.03696
     ],
     "recent_xy": [
-      0.88513,
-      -0.35348
+      -0.98109,
+      0.0364
     ],
-    "toward_subcluster_id": 1,
+    "toward_subcluster_id": 50,
     "toward_xy": [
-      0.71612,
-      -0.19189
+      -0.74994,
+      -0.00755
     ]
   },
   "skku-A5065423554": {
@@ -14495,7 +14579,7 @@
     "recent_papers": 24,
     "status": "shifted",
     "shift": 0.029,
-    "p_value": 0.0121,
+    "p_value": 0.0116,
     "emerging_topics": [
       "Recommender Systems and Techniques",
       "Information Retrieval and Search Behavior",
@@ -14513,17 +14597,18 @@
       "hanyang-A5100656150"
     ],
     "early_xy": [
-      0.55447,
-      -0.01975
+      -0.55925,
+      0.01963
     ],
     "recent_xy": [
-      0.56928,
-      0.00086
+      -0.5733,
+      0.03338
     ],
-    "away_subcluster_id": 1,
+    "toward_subcluster_id": 18,
+    "away_subcluster_id": 15,
     "toward_xy": [
-      0.57791,
-      0.01154
+      -0.5772,
+      0.04017
     ]
   },
   "skku-A5067651075": {
@@ -14539,7 +14624,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0725,
-    "p_value": 0.0603,
+    "p_value": 0.056,
     "emerging_topics": [
       "Domain Adaptation and Few-Shot Learning",
       "Topic Modeling",
@@ -14564,7 +14649,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0615,
-    "p_value": 0.6919,
+    "p_value": 0.6934,
     "emerging_topics": [
       "Security and Verification in Computing",
       "Software Testing and Debugging Techniques",
@@ -14600,7 +14685,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0573,
-    "p_value": 0.3835,
+    "p_value": 0.3805,
     "emerging_topics": [
       "Data Visualization and Analytics",
       "Topological and Geometric Data Analysis"
@@ -14650,7 +14735,7 @@
     "recent_papers": 22,
     "status": "stable",
     "shift": 0.0228,
-    "p_value": 0.4188,
+    "p_value": 0.4194,
     "emerging_topics": [
       "Traffic Prediction and Management Techniques",
       "Phonocardiography and Auscultation Techniques",
@@ -14688,7 +14773,7 @@
     "recent_papers": 20,
     "status": "stable",
     "shift": 0.0224,
-    "p_value": 0.3389,
+    "p_value": 0.3451,
     "emerging_topics": [
       "3D Shape Modeling and Analysis",
       "Multimodal Machine Learning Applications",
@@ -14726,7 +14811,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0249,
-    "p_value": 0.456,
+    "p_value": 0.469,
     "emerging_topics": [
       "Plant biochemistry and biosynthesis",
       "Photosynthetic Processes and Mechanisms"
@@ -14775,7 +14860,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.042,
-    "p_value": 0.2863,
+    "p_value": 0.2739,
     "emerging_topics": [
       "T-cell and B-cell Immunology",
       "Cancer Immunotherapy and Biomarkers"
@@ -14798,7 +14883,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0962,
-    "p_value": 0.1347,
+    "p_value": 0.1239,
     "emerging_topics": [
       "Advanced biosensing and bioanalysis techniques",
       "Biosensors and Analytical Detection",
@@ -14821,7 +14906,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0546,
-    "p_value": 0.5302,
+    "p_value": 0.5386,
     "emerging_topics": [
       "HER2/EGFR in Cancer Research",
       "Breast Cancer Treatment Studies"
@@ -14844,7 +14929,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.0408,
-    "p_value": 0.2014,
+    "p_value": 0.198,
     "emerging_topics": [
       "Algal biology and biofuel production",
       "Marine Plankton and Biogeochemistry",
@@ -14868,7 +14953,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0244,
-    "p_value": 0.5316,
+    "p_value": 0.5223,
     "emerging_topics": [
       "Crustacean biology and ecology",
       "Invertebrate Taxonomy and Ecology"
@@ -14890,7 +14975,7 @@
     "recent_papers": 14,
     "status": "stable",
     "shift": 0.0541,
-    "p_value": 0.032,
+    "p_value": 0.0325,
     "emerging_topics": [
       "Freshwater macroinvertebrate diversity and ecology",
       "Aquatic Ecosystems and Phytoplankton Dynamics",
@@ -14927,7 +15012,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0398,
-    "p_value": 0.0936,
+    "p_value": 0.0932,
     "emerging_topics": [
       "Polymer crystallization and properties",
       "Perovskite Materials and Applications",
@@ -14952,7 +15037,7 @@
     "recent_papers": 10,
     "status": "shifted",
     "shift": 0.0421,
-    "p_value": 0.0146,
+    "p_value": 0.0201,
     "emerging_topics": [
       "Extracellular vesicles in disease",
       "Advanced Fluorescence Microscopy Techniques",
@@ -14971,18 +15056,18 @@
       "unist-A5025370124"
     ],
     "early_xy": [
-      -0.24456,
-      0.04266
+      0.2609,
+      0.01805
     ],
     "recent_xy": [
-      -0.30869,
-      0.12191
+      0.30601,
+      0.07779
     ],
-    "toward_subcluster_id": 46,
-    "away_subcluster_id": 45,
+    "toward_subcluster_id": 60,
+    "away_subcluster_id": 31,
     "toward_xy": [
-      -0.32429,
-      0.25618
+      0.3207,
+      0.18877
     ]
   },
   "hanyang-A5100388383": {
@@ -15011,7 +15096,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0445,
-    "p_value": 0.2519,
+    "p_value": 0.26,
     "emerging_topics": [
       "Molecular Junctions and Nanostructures",
       "Surface Chemistry and Catalysis"
@@ -15035,7 +15120,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.0383,
-    "p_value": 0.5012,
+    "p_value": 0.4961,
     "emerging_topics": [
       "Advancements in Photolithography Techniques",
       "Advanced Thermoelectric Materials and Devices",
@@ -15056,7 +15141,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0489,
-    "p_value": 0.2747,
+    "p_value": 0.2788,
     "emerging_topics": [
       "Advanced Polymer Synthesis and Characterization",
       "Polymer Nanocomposite Synthesis and Irradiation"
@@ -15080,7 +15165,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.037,
-    "p_value": 0.4962,
+    "p_value": 0.4743,
     "emerging_topics": [
       "Cyclopropane Reaction Mechanisms",
       "Synthesis and Catalytic Reactions",
@@ -15105,7 +15190,7 @@
     "recent_papers": 14,
     "status": "stable",
     "shift": 0.0609,
-    "p_value": 0.0486,
+    "p_value": 0.0477,
     "emerging_topics": [
       "Extracellular vesicles in disease",
       "Chemistry and Chemical Engineering",
@@ -15156,7 +15241,7 @@
     "recent_papers": 12,
     "status": "stable",
     "shift": 0.0483,
-    "p_value": 0.2985,
+    "p_value": 0.2881,
     "emerging_topics": [
       "Luminescence Properties of Advanced Materials",
       "Gas Sensing Nanomaterials and Sensors",
@@ -15194,7 +15279,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0386,
-    "p_value": 0.2874,
+    "p_value": 0.285,
     "emerging_topics": [
       "Advanced Battery Materials and Technologies",
       "Ionic liquids properties and applications"
@@ -15218,7 +15303,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0331,
-    "p_value": 0.2792,
+    "p_value": 0.2909,
     "emerging_topics": [
       "Gold and Silver Nanoparticles Synthesis and Applications"
     ],
@@ -15273,18 +15358,18 @@
       "gist-A5074809975"
     ],
     "early_xy": [
-      -0.47712,
-      0.21323
+      0.47506,
+      0.16151
     ],
     "recent_xy": [
-      -0.46978,
-      0.20415
+      0.47077,
+      0.14999
     ],
-    "toward_subcluster_id": 25,
-    "away_subcluster_id": 35,
+    "toward_subcluster_id": 29,
+    "away_subcluster_id": 38,
     "toward_xy": [
-      -0.50052,
-      0.20263
+      0.49039,
+      0.1372
     ]
   },
   "hanyang-A5100702614": {
@@ -15313,7 +15398,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.045,
-    "p_value": 0.2339,
+    "p_value": 0.2261,
     "emerging_topics": [
       "Magnetic properties of thin films",
       "High-pressure geophysics and materials",
@@ -15338,7 +15423,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0502,
-    "p_value": 0.1796,
+    "p_value": 0.188,
     "emerging_topics": [
       "Quantum Mechanics and Non-Hermitian Physics",
       "Physics of Superconductivity and Magnetism",
@@ -15363,7 +15448,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0342,
-    "p_value": 0.2741,
+    "p_value": 0.2846,
     "emerging_topics": [
       "Metamaterials and Metasurfaces Applications",
       "Optical Coatings and Gratings",
@@ -15413,7 +15498,7 @@
     "recent_papers": 27,
     "status": "stable",
     "shift": 0.0193,
-    "p_value": 0.0477,
+    "p_value": 0.0549,
     "emerging_topics": [
       "2D Materials and Applications",
       "Advanced Memory and Neural Computing",
@@ -15451,7 +15536,7 @@
     "recent_papers": 7,
     "status": "shifted",
     "shift": 0.0657,
-    "p_value": 0.025,
+    "p_value": 0.0242,
     "emerging_topics": [
       "Aqueous and Flow Batteries",
       "Supercapacitor Materials and Fabrication",
@@ -15470,18 +15555,18 @@
       "gist-A5033770218"
     ],
     "early_xy": [
-      -0.48199,
-      0.2749
+      0.48474,
+      0.20893
     ],
     "recent_xy": [
-      -0.61468,
-      0.19774
+      0.60185,
+      0.12403
     ],
-    "toward_subcluster_id": 18,
-    "away_subcluster_id": 26,
+    "toward_subcluster_id": 69,
+    "away_subcluster_id": 30,
     "toward_xy": [
-      -0.65764,
-      0.21592
+      0.65121,
+      0.132
     ]
   },
   "hanyang-A5091504641": {
@@ -15523,19 +15608,6 @@
     "recent_papers": 2,
     "status": "insufficient"
   },
-  "hanyang-A5000879537": {
-    "early_years": [
-      2022,
-      2023
-    ],
-    "recent_years": [
-      2025,
-      2026
-    ],
-    "early_papers": 2,
-    "recent_papers": 1,
-    "status": "insufficient"
-  },
   "hanyang-A5045700517": {
     "early_years": [
       2022,
@@ -15549,7 +15621,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0886,
-    "p_value": 0.1679,
+    "p_value": 0.178,
     "emerging_topics": [
       "Biometric Identification and Security",
       "Adversarial Robustness in Machine Learning",
@@ -15612,7 +15684,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0729,
-    "p_value": 0.2246,
+    "p_value": 0.2311,
     "emerging_topics": [
       "Parallel Computing and Optimization Techniques",
       "Advanced Data Storage Technologies",
@@ -15637,7 +15709,7 @@
     "recent_papers": 6,
     "status": "stable",
     "shift": 0.0304,
-    "p_value": 0.8047,
+    "p_value": 0.8017,
     "emerging_topics": [
       "Human Motion and Animation",
       "Computer Graphics and Visualization Techniques"
@@ -15661,7 +15733,7 @@
     "recent_papers": 31,
     "status": "stable",
     "shift": 0.0134,
-    "p_value": 0.4393,
+    "p_value": 0.4446,
     "emerging_topics": [
       "Advanced Graph Neural Networks",
       "Information Retrieval and Search Behavior",
@@ -15699,7 +15771,7 @@
     "recent_papers": 16,
     "status": "stable",
     "shift": 0.0496,
-    "p_value": 0.0893,
+    "p_value": 0.0865,
     "emerging_topics": [
       "Multimodal Machine Learning Applications",
       "Speech and dialogue systems",
@@ -15737,7 +15809,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.0506,
-    "p_value": 0.1505,
+    "p_value": 0.1477,
     "emerging_topics": [
       "Temporomandibular Joint Disorders",
       "Artificial Intelligence in Healthcare and Education",
@@ -15775,19 +15847,6 @@
     "recent_papers": 3,
     "status": "insufficient"
   },
-  "hanyang-A5101569791": {
-    "early_years": [
-      2022,
-      2023
-    ],
-    "recent_years": [
-      2025,
-      2026
-    ],
-    "early_papers": 7,
-    "recent_papers": 2,
-    "status": "insufficient"
-  },
   "hanyang-A5082966786": {
     "early_years": [
       2022,
@@ -15801,7 +15860,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0553,
-    "p_value": 0.441,
+    "p_value": 0.4419,
     "emerging_topics": [
       "Machine Learning in Bioinformatics",
       "Advanced Proteomics Techniques and Applications",
@@ -15824,7 +15883,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0535,
-    "p_value": 0.3546,
+    "p_value": 0.3553,
     "emerging_topics": [
       "Human Motion and Animation",
       "3D Shape Modeling and Analysis"
@@ -15848,7 +15907,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0812,
-    "p_value": 0.0956,
+    "p_value": 0.0918,
     "emerging_topics": [
       "Caching and Content Delivery",
       "Cloud Computing and Resource Management",
@@ -15886,19 +15945,6 @@
     "recent_papers": 9,
     "status": "insufficient"
   },
-  "hanyang-A5062763435": {
-    "early_years": [
-      2022,
-      2023
-    ],
-    "recent_years": [
-      2025,
-      2026
-    ],
-    "early_papers": 21,
-    "recent_papers": 2,
-    "status": "insufficient"
-  },
   "hanyang-A5036440250": {
     "early_years": [
       2022,
@@ -15912,7 +15958,7 @@
     "recent_papers": 39,
     "status": "stable",
     "shift": 0.0394,
-    "p_value": 0.0444,
+    "p_value": 0.0464,
     "emerging_topics": [
       "Domain Adaptation and Few-Shot Learning",
       "Advanced Chemical Sensor Technologies",
@@ -15937,7 +15983,7 @@
     "recent_papers": 17,
     "status": "shifted",
     "shift": 0.0591,
-    "p_value": 0.0191,
+    "p_value": 0.0217,
     "emerging_topics": [
       "Generative Adversarial Networks and Image Synthesis",
       "Advanced Neural Network Applications",
@@ -15956,17 +16002,17 @@
       "korea-A5068698319"
     ],
     "early_xy": [
-      0.52485,
-      -0.1771
+      -0.54487,
+      -0.11964
     ],
     "recent_xy": [
-      0.56547,
-      -0.1045
+      -0.57737,
+      -0.05823
     ],
-    "toward_subcluster_id": 2,
+    "toward_subcluster_id": 16,
     "toward_xy": [
-      0.59981,
-      -0.02689
+      -0.6102,
+      0.0167
     ]
   },
   "sogang-A5014318381": {
@@ -15995,7 +16041,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0469,
-    "p_value": 0.4138,
+    "p_value": 0.413,
     "emerging_topics": [
       "Plant Surface Properties and Treatments",
       "Plant Stress Responses and Tolerance"
@@ -16056,7 +16102,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.0302,
-    "p_value": 0.5317,
+    "p_value": 0.5332,
     "emerging_topics": [
       "Lipid Membrane Structure and Behavior",
       "Wound Healing and Treatments",
@@ -16081,7 +16127,7 @@
     "recent_papers": 18,
     "status": "stable",
     "shift": 0.0478,
-    "p_value": 0.5134,
+    "p_value": 0.5258,
     "emerging_topics": [
       "Forensic Toxicology and Drug Analysis",
       "Supramolecular Chemistry and Complexes",
@@ -16123,17 +16169,17 @@
       "unist-A5056250877"
     ],
     "early_xy": [
-      -0.45134,
-      0.23518
+      0.46069,
+      0.17936
     ],
     "recent_xy": [
-      -0.43676,
-      0.2039
+      0.45107,
+      0.14437
     ],
-    "away_subcluster_id": 27,
+    "away_subcluster_id": 28,
     "toward_xy": [
-      -0.40732,
-      0.14853
+      0.42653,
+      0.08425
     ]
   },
   "sogang-A5101902737": {
@@ -16162,7 +16208,7 @@
     "recent_papers": 11,
     "status": "stable",
     "shift": 0.025,
-    "p_value": 0.3906,
+    "p_value": 0.4013,
     "emerging_topics": [
       "Advancements in Battery Materials",
       "Battery Modeling and Management"
@@ -16197,7 +16243,7 @@
     "recent_papers": 5,
     "status": "stable",
     "shift": 0.0519,
-    "p_value": 0.2286,
+    "p_value": 0.223,
     "emerging_topics": [
       "Advanced Electron Microscopy Techniques and Applications",
       "Advanced Fluorescence Microscopy Techniques",
@@ -16300,7 +16346,7 @@
     "recent_papers": 4,
     "status": "stable",
     "shift": 0.0607,
-    "p_value": 0.1655,
+    "p_value": 0.1609,
     "emerging_topics": [
       "Noncommutative and Quantum Gravity Theories",
       "Relativity and Gravitational Theory",
@@ -16324,7 +16370,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.0242,
-    "p_value": 0.5318,
+    "p_value": 0.5268,
     "emerging_topics": [
       "Multiferroics and related materials",
       "Ferroelectric and Piezoelectric Materials",
@@ -16388,7 +16434,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0308,
-    "p_value": 0.8776,
+    "p_value": 0.8883,
     "emerging_topics": [
       "Graphene research and applications",
       "2D Materials and Applications",
@@ -16411,7 +16457,7 @@
     "recent_papers": 18,
     "status": "stable",
     "shift": 0.0167,
-    "p_value": 0.1545,
+    "p_value": 0.1483,
     "emerging_topics": [
       "Crystal Structures and Properties",
       "Ferroelectric and Piezoelectric Materials",
@@ -16436,7 +16482,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.0297,
-    "p_value": 0.392,
+    "p_value": 0.399,
     "emerging_topics": [
       "Magnetic properties of thin films",
       "Physics of Superconductivity and Magnetism",
@@ -16526,7 +16572,7 @@
     "recent_papers": 8,
     "status": "stable",
     "shift": 0.0259,
-    "p_value": 0.2559,
+    "p_value": 0.2556,
     "emerging_topics": [
       "Nonlinear Partial Differential Equations"
     ],
@@ -16575,7 +16621,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0334,
-    "p_value": 0.1968,
+    "p_value": 0.1971,
     "emerging_topics": [
       "Caching and Content Delivery",
       "Advanced Wireless Network Optimization",
@@ -16600,7 +16646,7 @@
     "recent_papers": 18,
     "status": "shifted",
     "shift": 0.0273,
-    "p_value": 0.0194,
+    "p_value": 0.0213,
     "emerging_topics": [
       "Cloud Computing and Resource Management",
       "Advanced Database Systems and Queries",
@@ -16619,17 +16665,17 @@
       "korea-A5055061586"
     ],
     "early_xy": [
-      0.89596,
-      -0.07633
+      -0.80482,
+      0.14993
     ],
     "recent_xy": [
-      0.89852,
-      -0.078
+      -0.80356,
+      0.15378
     ],
-    "toward_subcluster_id": 59,
+    "toward_subcluster_id": 63,
     "toward_xy": [
-      0.9844,
-      -0.12745
+      -0.83859,
+      0.22545
     ]
   },
   "sogang-A5101944386": {
@@ -16671,7 +16717,7 @@
     "recent_papers": 7,
     "status": "stable",
     "shift": 0.0665,
-    "p_value": 0.2856,
+    "p_value": 0.2784,
     "emerging_topics": [
       "Advanced Database Systems and Queries",
       "Advanced Data Storage Technologies",
@@ -16709,7 +16755,7 @@
     "recent_papers": 10,
     "status": "stable",
     "shift": 0.075,
-    "p_value": 0.0739,
+    "p_value": 0.0785,
     "emerging_topics": [
       "Voice and Speech Disorders",
       "Speech Recognition and Synthesis",
@@ -16734,7 +16780,7 @@
     "recent_papers": 13,
     "status": "stable",
     "shift": 0.0863,
-    "p_value": 0.0859,
+    "p_value": 0.0871,
     "emerging_topics": [
       "Speech Recognition and Synthesis",
       "Voice and Speech Disorders",
@@ -16758,7 +16804,7 @@
     "recent_papers": 9,
     "status": "stable",
     "shift": 0.1073,
-    "p_value": 0.0817,
+    "p_value": 0.0859,
     "emerging_topics": [
       "Generative Adversarial Networks and Image Synthesis",
       "Time Series Analysis and Forecasting",

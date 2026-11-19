@@ -1,52 +1,52 @@
 {
   "0": {
-    "label_ko": "자연어처리·추천·데이터마이닝",
+    "label_ko": "편미분방정식·해석학·동역학",
+    "keywords": [
+      "Nonlinear Partial Differential Equations",
+      "Navier-Stokes equation solutions",
+      "Solidification and crystal growth phenomena",
+      "Distributed Control Multi-Agent Systems",
+      "Advanced Harmonic Analysis Research"
+    ]
+  },
+  "1": {
+    "label_ko": "RNA·단백질·미생물 분자생물학",
+    "keywords": [
+      "RNA Research and Splicing",
+      "Bacterial Genetics and Biotechnology",
+      "RNA and protein synthesis mechanisms",
+      "RNA modifications and cancer",
+      "Genetics, Aging, and Longevity in Model Organisms"
+    ]
+  },
+  "2": {
+    "label_ko": "그래픽스·비전·HCI",
+    "keywords": [
+      "3D Shape Modeling and Analysis",
+      "Generative Adversarial Networks and Image Synthesis",
+      "Human Motion and Animation",
+      "Tactile and Sensory Interactions",
+      "Advanced Neural Network Applications"
+    ]
+  },
+  "3": {
+    "label_ko": "에너지 전환·전기촉매·전지",
+    "keywords": [
+      "Electrocatalysts for Energy Conversion",
+      "CO2 Reduction Techniques and Catalysts",
+      "Metal-Organic Frameworks: Synthesis and Applications",
+      "Ammonia Synthesis and Nitrogen Reduction",
+      "Advanced Photocatalysis Techniques"
+    ]
+  },
+  "4": {
+    "label_ko": "자연어처리·추천·데이터 AI",
     "keywords": [
       "Recommender Systems and Techniques",
       "Topic Modeling",
       "Advanced Graph Neural Networks",
       "Information Retrieval and Search Behavior",
       "Natural Language Processing Techniques"
-    ]
-  },
-  "1": {
-    "label_ko": "면역·대사·세포 신호",
-    "keywords": [
-      "Immune Cell Function and Interaction",
-      "T-cell and B-cell Immunology",
-      "Cancer Immunotherapy and Biomarkers",
-      "Immune cells in cancer",
-      "Extracellular vesicles in disease"
-    ]
-  },
-  "2": {
-    "label_ko": "편미분방정식·해석학",
-    "keywords": [
-      "Nonlinear Partial Differential Equations",
-      "Navier-Stokes equation solutions",
-      "Solidification and crystal growth phenomena",
-      "Advanced Harmonic Analysis Research",
-      "Gas Dynamics and Kinetic Theory"
-    ]
-  },
-  "3": {
-    "label_ko": "RNA·단백질 항상성·분자생물학",
-    "keywords": [
-      "RNA Research and Splicing",
-      "RNA modifications and cancer",
-      "RNA and protein synthesis mechanisms",
-      "Genetics, Aging, and Longevity in Model Organisms",
-      "Ubiquitin and proteasome pathways"
-    ]
-  },
-  "4": {
-    "label_ko": "에너지 전환·전지·전기촉매",
-    "keywords": [
-      "Electrocatalysts for Energy Conversion",
-      "Advanced Battery Materials and Technologies",
-      "CO2 Reduction Techniques and Catalysts",
-      "Advancements in Battery Materials",
-      "Ammonia Synthesis and Nitrogen Reduction"
     ]
   },
   "5": {
@@ -60,46 +60,56 @@
     ]
   },
   "6": {
-    "label_ko": "분석화학·바이오센서",
+    "label_ko": "암 유전체·면역",
     "keywords": [
-      "Gold and Silver Nanoparticles Synthesis and Applications",
-      "Molecular Sensors and Ion Detection",
-      "Biosensors and Analytical Detection",
-      "Advanced biosensing and bioanalysis techniques",
-      "Spectroscopy and Chemometric Analyses"
+      "Immune Cell Function and Interaction",
+      "T-cell and B-cell Immunology",
+      "Computational Drug Discovery Methods",
+      "Cancer Immunotherapy and Biomarkers",
+      "Immune cells in cancer"
     ]
   },
   "7": {
+    "label_ko": "응집물질·자성",
+    "keywords": [
+      "Magnetic properties of thin films",
+      "Advanced Condensed Matter Physics",
+      "Topological Materials and Phenomena",
+      "Physics of Superconductivity and Magnetism",
+      "Multiferroics and related materials"
+    ]
+  },
+  "8": {
     "label_ko": "2차원 소재·나노소자",
     "keywords": [
       "2D Materials and Applications",
       "Molecular Junctions and Nanostructures",
       "Graphene research and applications",
-      "Perovskite Materials and Applications",
-      "Advanced Memory and Neural Computing"
-    ]
-  },
-  "8": {
-    "label_ko": "그래픽스·비전·HCI",
-    "keywords": [
-      "3D Shape Modeling and Analysis",
-      "Human Motion and Animation",
-      "Tactile and Sensory Interactions",
-      "Generative Adversarial Networks and Image Synthesis",
-      "Interactive and Immersive Displays"
+      "Advanced Memory and Neural Computing",
+      "Perovskite Materials and Applications"
     ]
   },
   "9": {
-    "label_ko": "분산 시스템·네트워크·IoT",
+    "label_ko": "분석화학·바이오센서",
     "keywords": [
-      "Advanced Data Storage Technologies",
-      "Cloud Computing and Resource Management",
-      "IoT and Edge/Fog Computing",
-      "Vehicular Ad Hoc Networks (VANETs)",
-      "Security and Verification in Computing"
+      "Gold and Silver Nanoparticles Synthesis and Applications",
+      "Molecular Sensors and Ion Detection",
+      "Biosensors and Analytical Detection",
+      "Environmental Toxicology and Ecotoxicology",
+      "Advanced biosensing and bioanalysis techniques"
     ]
   },
   "10": {
+    "label_ko": "소프트웨어공학·보안",
+    "keywords": [
+      "Software Testing and Debugging Techniques",
+      "Cryptography and Data Security",
+      "Software Engineering Research",
+      "Security and Verification in Computing",
+      "Logic, programming, and type systems"
+    ]
+  },
+  "11": {
     "label_ko": "고분자·유기전자 소재",
     "keywords": [
       "Organic Electronics and Photovoltaics",
@@ -109,47 +119,47 @@
       "Block Copolymer Self-Assembly"
     ]
   },
-  "11": {
-    "label_ko": "소프트웨어공학·보안",
-    "keywords": [
-      "Software Testing and Debugging Techniques",
-      "Cryptography and Data Security",
-      "Software Engineering Research",
-      "Logic, programming, and type systems",
-      "Formal Methods in Verification"
-    ]
-  },
   "12": {
-    "label_ko": "응집물질·자성",
+    "label_ko": "대사·노화·세포 항상성",
     "keywords": [
-      "Magnetic properties of thin films",
-      "Advanced Condensed Matter Physics",
-      "Multiferroics and related materials",
-      "Physics of Superconductivity and Magnetism",
-      "Topological Materials and Phenomena"
+      "Adipose Tissue and Metabolism",
+      "Autophagy in Disease and Therapy",
+      "Hippo pathway signaling and YAP/TAZ",
+      "Adipokines, Inflammation, and Metabolic Diseases",
+      "Telomeres, Telomerase, and Senescence"
     ]
   },
   "13": {
-    "label_ko": "레이저·분광·이미징",
+    "label_ko": "의료 영상 AI·생체 데이터",
     "keywords": [
-      "Laser-Plasma Interactions and Diagnostics",
-      "Digital Holography and Microscopy",
-      "Spectroscopy and Quantum Chemical Studies",
-      "Laser-Matter Interactions and Applications",
-      "Advanced Fluorescence Microscopy Techniques"
+      "AI in cancer detection",
+      "Stochastic processes and financial applications",
+      "Image and Signal Denoising Methods",
+      "Retinal Imaging and Analysis",
+      "Model Reduction and Neural Networks"
     ]
   },
   "14": {
-    "label_ko": "광자학·메타물질·반도체",
+    "label_ko": "입자·핵·고에너지 물리",
     "keywords": [
-      "Microwave Engineering and Waveguides",
-      "Metamaterials and Metasurfaces Applications",
-      "Strong Light-Matter Interactions",
-      "Photorefractive and Nonlinear Optics",
-      "Photonic and Optical Devices"
+      "Black Holes and Theoretical Physics",
+      "Laser-Plasma Interactions and Diagnostics",
+      "Quantum Chromodynamics and Particle Interactions",
+      "Nuclear physics research studies",
+      "Cosmology and Gravitation Theories"
     ]
   },
   "15": {
+    "label_ko": "분산 시스템·네트워크·IoT",
+    "keywords": [
+      "Advanced Data Storage Technologies",
+      "Cloud Computing and Resource Management",
+      "IoT and Edge/Fog Computing",
+      "Vehicular Ad Hoc Networks (VANETs)",
+      "Blockchain Technology Applications and Security"
+    ]
+  },
+  "16": {
     "label_ko": "조합론·대수·정수론",
     "keywords": [
       "Advanced Combinatorial Mathematics",
@@ -159,24 +169,14 @@
       "Algebraic Geometry and Number Theory"
     ]
   },
-  "16": {
-    "label_ko": "멀티모달 AI·의료 영상",
-    "keywords": [
-      "Multimodal Machine Learning Applications",
-      "AI in cancer detection",
-      "Generative Adversarial Networks and Image Synthesis",
-      "Domain Adaptation and Few-Shot Learning",
-      "Retinal Imaging and Analysis"
-    ]
-  },
   "17": {
-    "label_ko": "구조생물학·생물정보학",
+    "label_ko": "신경과학",
     "keywords": [
-      "Protein Structure and Dynamics",
-      "Bacterial Genetics and Biotechnology",
-      "Machine Learning in Bioinformatics",
-      "Genomics and Phylogenetic Studies",
-      "Computational Drug Discovery Methods"
+      "Neuroscience and Neuropharmacology Research",
+      "Neural dynamics and brain function",
+      "Genetics and Neurodevelopmental Disorders",
+      "Neuroinflammation and Neurodegeneration Mechanisms",
+      "Memory and Neural Mechanisms"
     ]
   },
   "18": {
@@ -190,16 +190,26 @@
     ]
   },
   "19": {
-    "label_ko": "신경과학",
+    "label_ko": "분광학·광학 이미징",
     "keywords": [
-      "Neuroscience and Neuropharmacology Research",
-      "Neural dynamics and brain function",
-      "Genetics and Neurodevelopmental Disorders",
-      "Neuroinflammation and Neurodegeneration Mechanisms",
-      "Memory and Neural Mechanisms"
+      "Spectroscopy and Quantum Chemical Studies",
+      "Digital Holography and Microscopy",
+      "Advanced Fluorescence Microscopy Techniques",
+      "Photochemistry and Electron Transfer Studies",
+      "Atomic and Molecular Physics"
     ]
   },
   "20": {
+    "label_ko": "광자학·메타물질·반도체",
+    "keywords": [
+      "Microwave Engineering and Waveguides",
+      "Metamaterials and Metasurfaces Applications",
+      "Photorefractive and Nonlinear Optics",
+      "Photonic and Optical Devices",
+      "Strong Light-Matter Interactions"
+    ]
+  },
+  "21": {
     "label_ko": "컴퓨터 구조·시스템 소프트웨어",
     "keywords": [
       "Parallel Computing and Optimization Techniques",
@@ -209,47 +219,27 @@
       "Embedded Systems Design Techniques"
     ]
   },
-  "21": {
+  "22": {
     "label_ko": "식물 분자생물학",
     "keywords": [
       "Plant Molecular Biology Research",
       "Photosynthetic Processes and Mechanisms",
-      "Plant Gene Expression Analysis",
+      "Plant Reproductive Biology",
       "Light effects on plants",
-      "Plant Reproductive Biology"
+      "Plant Gene Expression Analysis"
     ]
   },
-  "22": {
-    "label_ko": "양자 다체계·냉각 원자",
+  "23": {
+    "label_ko": "양자 다체계·위상 물질",
     "keywords": [
       "Topological Materials and Phenomena",
       "Quantum many-body systems",
       "Cold Atom Physics and Bose-Einstein Condensates",
-      "Magnetic properties of thin films",
+      "Graphene research and applications",
       "Advanced Condensed Matter Physics"
     ]
   },
-  "23": {
-    "label_ko": "입자·핵·우주론",
-    "keywords": [
-      "Black Holes and Theoretical Physics",
-      "Nuclear physics research studies",
-      "Quantum Chromodynamics and Particle Interactions",
-      "Cosmology and Gravitation Theories",
-      "Particle physics theoretical and experimental studies"
-    ]
-  },
   "24": {
-    "label_ko": "통계역학·확률·동역학계",
-    "keywords": [
-      "Distributed Control Multi-Agent Systems",
-      "Random Matrices and Applications",
-      "Nonlinear Dynamics and Pattern Formation",
-      "Stochastic processes and statistical mechanics",
-      "Advanced Thermodynamics and Statistical Mechanics"
-    ]
-  },
-  "25": {
     "label_ko": "나노의학·약물 전달",
     "keywords": [
       "Nanoplatforms for cancer theranostics",
@@ -259,7 +249,7 @@
       "Chemical Synthesis and Analysis"
     ]
   },
-  "26": {
+  "25": {
     "label_ko": "양자 정보·양자 컴퓨팅",
     "keywords": [
       "Quantum Information and Cryptography",
@@ -269,7 +259,7 @@
       "Quantum optics and atomic interactions"
     ]
   },
-  "27": {
+  "26": {
     "label_ko": "식물·미생물 다양성·진화",
     "keywords": [
       "Mycorrhizal Fungi and Plant Interactions",
@@ -279,14 +269,14 @@
       "Forensic and Genetic Research"
     ]
   },
-  "28": {
-    "label_ko": "MOF·탄소 포집 소재",
+  "27": {
+    "label_ko": "이차전지",
     "keywords": [
-      "Metal-Organic Frameworks: Synthesis and Applications",
-      "Covalent Organic Framework Applications",
-      "Carbon Dioxide Capture Technologies",
-      "Organic Light-Emitting Diodes Research",
-      "Fuel Cells and Related Materials"
+      "Advanced Battery Materials and Technologies",
+      "Advancements in Battery Materials",
+      "Advanced battery technologies research",
+      "Advanced Battery Technologies Research",
+      "Animal Disease Management and Epidemiology"
     ]
   }
 }

@@ -232,11 +232,37 @@
     "sogang-cs|이혁준": {
       "openalex_id": "A5001698754",
       "note": "namesake system (adjudicator, medium): C1 is a merged profile. Two of its titles are computer architecture work: MRAM-based memory for on-device DNN inference and an MRAM packet buffer. These match an intelligent computer architecture and embedded computing lab. The other titles (animal science, geo"
+    },
+    "kaist-life|송지준": {
+      "openalex_id": "A5038993159",
+      "note": "namesake system (rule, certain; applied at S8): field 0.30, coauthors in dept 3, home 24/25, margin 0.895"
+    },
+    "kaist-life|양한슬": {
+      "openalex_id": "A5079276210",
+      "note": "namesake system (adjudicator, medium; applied at S8): C1 lists KAIST on most papers and has department coauthors. It includes on-topic titles such as 'Ras drives malignancy through stem cell crosstalk' (Fuchs-lab style), Müller glia regeneration and Kdm5b epigenetic remodeling, which fit stem cells,"
+    },
+    "dgist-life|이영삼": {
+      "openalex_id": "A5020372110",
+      "note": "namesake system (adjudicator, medium; applied at S8): C1 lists DGIST on 16 papers and includes several senescence and aging titles (qCAGEs, senescence assays, caloric restriction lifespan) that match the faculty page's 'Senescence-Associated Mechanism'. It also mixes in a namesake's control-engineer"
+    },
+    "dgist-life|이재민": {
+      "openalex_id": "A5100329288",
+      "note": "namesake system (adjudicator, medium; applied at S8): C1 is a mixed profile that merges several namesakes: orthopedic surgery, ship tank engineering and ecology papers. It also contains metabolism and aging-related biology work that fits the DGIST New Biology professor, such as the FGF21/miR-223 ext"
+    },
+    "snu-cs|김선": {
+      "openalex_id": "A5100460439",
+      "note": "namesake system (adjudicator, high; applied at S8): Sun Kim at SNU CSE is a known bioinformatics and AI drug discovery researcher. C1 is the main profile, with 68 papers on drug-target interaction, multi-omics mining and drug response prediction. C2 is a small fragment that overlaps C1's titles. The"
     }
   },
   "exclude": {
     "yonsei-sysbio|이상화": {
       "note": "namesake system (adjudicator, medium): C1 is a mixed profile made up mostly of metallurgy papers (high-entropy alloys, Al alloys), with unrelated webtoon and sexual self-efficacy papers alongside. None of the titles fit a Systems Biology department. Only one paper lists Yonsei, and no department col"
+    },
+    "snu-chem|한상수": {
+      "note": "namesake system (adjudicator, high; applied at S8): None of the candidates is named Sang Soo Han. C1 (Seong-Jin Park) is a mixed profile spanning dentistry, engineering and materials. C2 is veterinary imaging, C3 is aerospace control and policy, and C4 is genomics and RNA biology. None of these matc"
+    },
+    "snu-math|이다빈": {
+      "note": "namesake system (adjudicator, high; applied at S8): Neither profile fits a math professor working on optimization, algorithms and machine learning. C1's only paper is about Taekwondo training for children, a sports-science topic. C2's only paper is about plasma and space-physics waves. Both look lik"
     }
   }
 }

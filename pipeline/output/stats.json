@@ -14,7 +14,7 @@
       "full_time": 39,
       "matched": 34,
       "matched_high": 0,
-      "meets_criterion": 23,
+      "meets_criterion": 24,
       "blocked": false
     },
     {
@@ -74,7 +74,7 @@
       "full_time": 21,
       "matched": 19,
       "matched_high": 0,
-      "meets_criterion": 10,
+      "meets_criterion": 12,
       "blocked": false
     },
     {
@@ -252,7 +252,7 @@
       "dept": "서울대학교 화학부",
       "listed": 37,
       "full_time": 37,
-      "matched": 33,
+      "matched": 32,
       "matched_high": 0,
       "meets_criterion": 30,
       "blocked": false
@@ -276,7 +276,7 @@
       "dept": "서울대학교 수리과학부",
       "listed": 37,
       "full_time": 37,
-      "matched": 32,
+      "matched": 31,
       "matched_high": 0,
       "meets_criterion": 24,
       "blocked": false
@@ -290,7 +290,7 @@
       "full_time": 38,
       "matched": 31,
       "matched_high": 0,
-      "meets_criterion": 28,
+      "meets_criterion": 29,
       "blocked": false
     },
     {
@@ -645,25 +645,25 @@
   "total": {
     "listed": 1348,
     "full_time": 1321,
-    "matched": 1117,
+    "matched": 1115,
     "matched_high": 114,
-    "meets_criterion": 851
+    "meets_criterion": 855
   },
-  "labs_total": 849,
+  "labs_total": 853,
   "excluded_by_reason": {
-    "below_paper_threshold": 266,
+    "below_paper_threshold": 260,
     "affiliation_mismatch": 3,
     "topic_mismatch": 41,
     "no_candidate": 23,
     "name_mismatch": 98,
     "no_english_name_no_anchor": 21,
     "not_full_time": 27,
-    "manual_review": 14,
+    "manual_review": 16,
     "ambiguous_multiple_candidates": 4
   },
   "excluded_by_dept_reason": {
     "kaist-life": {
-      "below_paper_threshold": 11,
+      "below_paper_threshold": 10,
       "affiliation_mismatch": 1,
       "topic_mismatch": 2,
       "no_candidate": 1,
@@ -690,7 +690,7 @@
       "topic_mismatch": 1
     },
     "dgist-life": {
-      "below_paper_threshold": 9,
+      "below_paper_threshold": 7,
       "topic_mismatch": 2,
       "not_full_time": 2
     },
@@ -766,9 +766,9 @@
       "no_candidate": 1
     },
     "snu-chem": {
-      "manual_review": 2,
+      "manual_review": 3,
       "topic_mismatch": 2,
-      "below_paper_threshold": 3
+      "below_paper_threshold": 2
     },
     "snu-phys": {
       "below_paper_threshold": 15,
@@ -778,14 +778,15 @@
     },
     "snu-math": {
       "name_mismatch": 1,
-      "below_paper_threshold": 8,
+      "below_paper_threshold": 7,
       "affiliation_mismatch": 1,
+      "manual_review": 1,
       "no_candidate": 1,
       "no_english_name_no_anchor": 2
     },
     "snu-cs": {
       "not_full_time": 11,
-      "below_paper_threshold": 3,
+      "below_paper_threshold": 2,
       "name_mismatch": 3,
       "topic_mismatch": 2,
       "manual_review": 1,
@@ -936,13 +937,13 @@
     }
   },
   "abstracts": {
-    "papers": 20170,
-    "with_abstract": 16140,
-    "senior_papers": 14524,
-    "senior_with_abstract": 11409,
-    "with_tldr": 7146,
-    "analysis_papers": 17632,
-    "analysis_with_abstract": 14130
+    "papers": 20252,
+    "with_abstract": 16220,
+    "senior_papers": 14592,
+    "senior_with_abstract": 11478,
+    "with_tldr": 7220,
+    "analysis_papers": 17712,
+    "analysis_with_abstract": 14209
   },
   "labs_with_lt3_senior_abstracts": 60,
   "faculty_errors": [],
