@@ -2,7 +2,8 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import type { Edge, Lab } from '../types/data';
 import { useAtlas } from '../data/DataContext';
-import { matchesQuery, passesFilters, useExplore } from '../data/explore';
+import { passesFilters, useExplore } from '../data/explore';
+import { searchLabs } from '../lib/search';
 import { useMedia } from '../lib/useMedia';
 import type { Mode } from '../lib/palette';
 import GraphView from '../components/GraphView';
@@ -35,8 +36,8 @@ export default function ExplorePage({ mode }: { mode: Mode }) {
 
   const filtered = useMemo(() => atlas.labs.filter((l) => passesFilters(l, ex)), [atlas.labs, ex]);
   const matched = useMemo(
-    () => (ex.query.trim() ? new Set(filtered.filter((l) => matchesQuery(l, ex.query)).map((l) => l.id)) : null),
-    [filtered, ex.query],
+    () => (ex.query.trim() ? new Set(searchLabs(atlas.searchIndex(), ex.query).map((h) => h.lab.id)) : null),
+    [atlas, ex.query],
   );
   const edges = useMemo(
     () => atlas.edges.filter((e) => (ex.edgeMode === 'cross' ? e.cross : e.type === ex.edgeMode)),

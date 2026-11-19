@@ -8,6 +8,7 @@ import { FieldChips } from '../components/LabPanel';
 import { NA, affiliation, doiHref, introText, labTitle, neighbourCaution, piName, similarityBand } from '../lib/format';
 import { FIELD_LABEL, FIELD_ORDER, type Mode } from '../lib/palette';
 import { loadLabVectors, recommend, sharedTopics, topicProfiles, type LabVectors } from '../lib/recommend';
+import { searchLabs } from '../lib/search';
 
 const MAX_COMPARE = 4;
 const SEARCH_LIMIT = 12;
@@ -20,48 +21,10 @@ function KeywordList({ items }: { items: string[] }) {
   return <ul className="keyword-list">{items.map((k) => <li key={k}>{k}</li>)}</ul>;
 }
 
-const norm = (s: string) => s.toLowerCase().replace(/[\s\-‐·]/g, '');
-
-/** Latin words match from a word start ("RNA" must not hit "internal"); Korean matches anywhere. */
-function matcher(word: string): (text: string) => boolean {
-  const w = word.toLowerCase();
-  if (/^[a-z0-9]+$/.test(w)) {
-    const re = new RegExp(`(?<![a-z0-9])${w}`, 'i');
-    return (text) => re.test(text);
-  }
-  const n = norm(w);
-  return (text) => norm(text).includes(n);
-}
-
-/** Plain text matching over names, intros, keywords and paper titles: every word must appear somewhere. */
+/** Shared site search (lib/search): names, keywords and their Korean renderings, sub-fields, intros, paper titles. */
 function useSearch(query: string) {
-  const { labs, papers } = useAtlas();
-  const titles = useMemo(() => {
-    const m = new Map<string, string[]>();
-    for (const p of papers) for (const l of p.lab_ids) (m.get(l) ?? m.set(l, []).get(l)!).push(p.title);
-    return m;
-  }, [papers]);
-  return useMemo(() => {
-    const words = query.trim().split(/\s+/).filter(Boolean).map(matcher);
-    if (words.length === 0) return [];
-    const scored = labs.flatMap((lab) => {
-      const names = `${labTitle(lab)} ${piName(lab)} ${lab.pi_name_en ?? ''} ${lab.dept_name_ko}`;
-      const about = `${lab.intro_ko ?? ''} ${lab.keywords.join(' ')}`;
-      const paperTitles = titles.get(lab.id) ?? [];
-      let score = 0;
-      let matchedTitle: string | undefined;
-      for (const hit of words) {
-        const title = paperTitles.find(hit);
-        const inNames = hit(names);
-        const inAbout = hit(about);
-        if (!inNames && !inAbout && !title) return [];
-        score += (inNames ? 3 : 0) + (inAbout ? 2 : 0) + (title ? 1 : 0);
-        matchedTitle ??= !inNames && !inAbout ? title : undefined;
-      }
-      return [{ lab, score, matchedTitle }];
-    });
-    return scored.sort((a, b) => b.score - a.score || b.lab.paper_count_5y - a.lab.paper_count_5y);
-  }, [query, labs, titles]);
+  const atlas = useAtlas();
+  return useMemo(() => searchLabs(atlas.searchIndex(), query), [atlas, query]);
 }
 
 function SearchSection() {
@@ -74,20 +37,22 @@ function SearchSection() {
       <input id="interest" className="interest" value={query} onChange={(e) => setQuery(e.target.value)}
              placeholder="예: 단백질 구조, graph neural network, 전고체 전지" autoComplete="off" />
       <p className="muted small">
-        연구실 이름·소개·키워드·최근 논문 제목에서 글자가 일치하는 곳을 찾습니다. 뜻이 비슷한 말까지 찾지는 않으니, 한국어로 없으면 영어로도 찾아 보세요.
+        연구실 이름·키워드·세부 분야·소개·최근 논문 제목에서 찾습니다. 영어 키워드는 한국어 번역으로도 찾으므로 "면역", "immunology" 어느 쪽으로 써도 됩니다.
+        한글을 영문 자판으로 잘못 친 말(예: aus dur)도 한글로 바꿔 찾습니다. 뜻을 이해하는 검색은 아니라 비슷한 말을 모두 찾지는 못합니다.
       </p>
       {query.trim() && (
         results.length === 0 ? <p className="empty">일치하는 연구실이 없습니다.</p> : (
           <>
             <p className="muted small" aria-live="polite">{results.length}곳 일치{results.length > SEARCH_LIMIT && `, 상위 ${SEARCH_LIMIT}곳 표시`}</p>
             <ul className="lab-rows">
-              {results.slice(0, SEARCH_LIMIT).map(({ lab, matchedTitle }) => (
+              {results.slice(0, SEARCH_LIMIT).map(({ lab, reason }) => (
                 <li key={lab.id}>
                   <StarButton id={lab.id} name={piName(lab)} compact />
                   <div>
                     <Link to={labLink(lab.id)} className="row-link">{piName(lab)}</Link>
                     <span className="muted small"> {affiliation(lab)}</span>
-                    <p className="small row-intro">{matchedTitle ? `논문: ${matchedTitle}` : introText(lab)}</p>
+                    <p className="small row-intro">{introText(lab)}</p>
+                    <p className="small muted row-why">찾은 곳 · {reason}</p>
                   </div>
                 </li>
               ))}

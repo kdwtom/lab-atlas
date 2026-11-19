@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 import type { Cluster, Edge, Lab, Meta, Paper, SubCluster } from '../types/data';
 import { makeDummy } from './dummy';
+import { buildSearchIndex, type SearchIndex, type Terms } from '../lib/search';
 
 export interface Neighbor {
   lab: Lab;
@@ -19,6 +20,10 @@ export interface Atlas {
   subclusterById: Map<number, SubCluster>;
   /** neighbours per lab and edge type, strongest first */
   neighbors: (labId: string, type: Edge['type']) => Neighbor[];
+  /** English term -> Korean renderings, for bilingual search (empty when search_terms.json is absent) */
+  terms: Terms;
+  /** built on first use */
+  searchIndex: () => SearchIndex;
   dummy: boolean;
 }
 
@@ -40,7 +45,7 @@ function dummyCount(): number {
 }
 
 export function buildAtlas(labs: Lab[], papers: Paper[], edges: Edge[], clusters: Cluster[], meta: Meta,
-                           dummy = false): Atlas {
+                           dummy = false, terms: Terms = {}): Atlas {
   const labById = new Map(labs.map((l) => [l.id, l]));
   const adj = new Map<string, Neighbor[]>();
   for (const e of edges) {
@@ -53,11 +58,19 @@ export function buildAtlas(labs: Lab[], papers: Paper[], edges: Edge[], clusters
     }
   }
   for (const list of adj.values()) list.sort((x, y) => y.edge.weight - x.edge.weight);
+  const clusterById = new Map(clusters.map((c) => [c.id, c]));
+  const subclusterById = new Map(clusters.flatMap((c) => (c.subclusters ?? []).map((s) => [s.id, s] as const)));
+  let index: SearchIndex | null = null;
+  const clusterLabels = (lab: Lab) => [
+    lab.cluster_id === null ? '' : clusterById.get(lab.cluster_id)?.label_ko ?? '',
+    lab.subcluster_id == null ? '' : subclusterById.get(lab.subcluster_id)?.label_ko ?? '',
+  ].filter(Boolean);
   return {
-    labs, papers, edges, clusters, meta, labById, dummy,
+    labs, papers, edges, clusters, meta, labById, dummy, terms,
+    searchIndex: () => (index ??= buildSearchIndex(labs, papers, terms, clusterLabels)),
     paperById: new Map(papers.map((p) => [p.id, p])),
-    clusterById: new Map(clusters.map((c) => [c.id, c])),
-    subclusterById: new Map(clusters.flatMap((c) => (c.subclusters ?? []).map((s) => [s.id, s] as const))),
+    clusterById,
+    subclusterById,
     neighbors: (labId, type) => adj.get(`${labId}|${type}`) ?? [],
   };
 }
@@ -68,9 +81,10 @@ export function DataProvider({ children }: { children: ReactNode }) {
     let alive = true;
     (async () => {
       try {
-        const [labs, papers, edges, clusters, meta] = await Promise.all([
+        const [labs, papers, edges, clusters, meta, terms] = await Promise.all([
           getJson<Lab[]>('labs.json'), getJson<Paper[]>('papers.json'), getJson<Edge[]>('edges.json'),
           getJson<Cluster[]>('clusters.json'), getJson<Meta>('meta.json'),
+          getJson<Terms>('search_terms.json').catch(() => ({})), // optional: search still works as typed
         ]);
         const n = dummyCount();
         const atlas = n
@@ -78,7 +92,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
               const d = makeDummy(n, clusters, meta);
               return buildAtlas(d.labs, [], d.edges, d.clusters, d.meta, true);
             })()
-          : buildAtlas(labs, papers, edges, clusters, meta);
+          : buildAtlas(labs, papers, edges, clusters, meta, false, terms);
         if (alive) setState({ status: 'ready', atlas });
       } catch (e) {
         if (alive) setState({ status: 'error', message: e instanceof Error ? e.message : String(e) });

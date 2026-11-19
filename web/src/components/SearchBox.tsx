@@ -1,7 +1,8 @@
 import { useId, useMemo, useState, type KeyboardEvent } from 'react';
 import type { Lab } from '../types/data';
-import { matchesQuery } from '../data/explore';
+import { useAtlas } from '../data/DataContext';
 import { affiliation, piName } from '../lib/format';
+import { searchLabs } from '../lib/search';
 
 interface Props {
   labs: Lab[];
@@ -12,10 +13,16 @@ interface Props {
 
 /** Accessible combobox: type to filter, ↑/↓ to move, Enter to pick, Esc to close. */
 export default function SearchBox({ labs, query, onQuery, onPick }: Props) {
+  const atlas = useAtlas();
   const id = useId();
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
-  const results = useMemo(() => (query.trim() ? labs.filter((l) => matchesQuery(l, query)).slice(0, 8) : []), [labs, query]);
+  const hits = useMemo(() => {
+    if (!query.trim()) return [];
+    const allowed = new Set(labs.map((l) => l.id));
+    return searchLabs(atlas.searchIndex(), query).filter((h) => allowed.has(h.lab.id)).slice(0, 8);
+  }, [atlas, labs, query]);
+  const results = hits.map((h) => h.lab);
   const show = open && results.length > 0;
 
   const pick = (lab: Lab) => {
@@ -49,7 +56,7 @@ export default function SearchBox({ labs, query, onQuery, onPick }: Props) {
         aria-controls={`${id}-list`}
         aria-activedescendant={show ? `${id}-opt-${active}` : undefined}
         aria-autocomplete="list"
-        placeholder="연구실 · PI 이름(한/영) · 키워드 검색"
+        placeholder="연구실 · PI 이름 · 연구 주제(한/영) 검색"
         value={query}
         onChange={(e) => {
           onQuery(e.target.value);
@@ -77,6 +84,7 @@ export default function SearchBox({ labs, query, onQuery, onPick }: Props) {
             >
               <span className="opt-name">{piName(lab)}{lab.pi_name_en && lab.pi_name_ko ? ` · ${lab.pi_name_en}` : ''}</span>
               <span className="opt-sub">{affiliation(lab)}</span>
+              <span className="opt-why">{hits[i].reason}</span>
             </li>
           ))}
         </ul>

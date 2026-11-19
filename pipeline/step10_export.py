@@ -62,6 +62,30 @@ def faculty_key(univ: str, page_url: str, name_ko, name_en) -> tuple:
     return univ, page_url, name_ko or name_en
 
 
+def export_search_terms(labs, papers) -> None:
+    """Korean renderings (curation/search_terms_ko.json) of the English terms that appear in the exported data,
+    for bilingual search on the site. Optional: without the curation file the site searches as typed."""
+    path = config.PIPELINE_DIR / "curation" / "search_terms_ko.json"
+    out = config.WEB_DATA_DIR / "search_terms.json"
+    if not path.exists():
+        out.unlink(missing_ok=True)
+        return
+    ko = read_json(path)
+    used: set[str] = set()
+    for lab in labs:
+        used.update(lab.keywords)
+        for y in lab.keyword_timeline:
+            used.update(y.keywords)
+    for p in papers:
+        for t in p.topics:
+            used.add(t.name)
+            if t.subfield:   # one-word subfields ("Immunology") let an English query reach Korean text
+                used.add(t.subfield)
+    terms ={t: ko[t] for t in sorted(used) if ko.get(t)}
+    write_json(out, terms)
+    log.info("search terms: %d of %d English terms have Korean renderings", len(terms), len(used))
+
+
 def run(client=None) -> None:
     out = config.OUTPUT_DIR
     analysis = read_json(out / "analysis.json")
@@ -182,6 +206,7 @@ def run(client=None) -> None:
     write_json(d / "clusters.json", clusters)
     write_json(d / "meta.json", meta.model_dump(mode="json"))
     export_vectors([l.id for l in labs])
+    export_search_terms(labs, papers)
     sc = meta.summary_coverage
     log.info("exported %d labs, %d papers, %d edges, %d clusters -> %s", len(labs), len(papers), len(edges),
              len(clusters), d)

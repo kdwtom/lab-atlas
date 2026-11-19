@@ -1,6 +1,5 @@
 import { createContext, useContext, useMemo, useState, type ReactNode } from 'react';
 import type { Discipline, Lab, Univ } from '../types/data';
-import { labTitle } from '../lib/format';
 
 export type View = 'graph' | 'list';
 /** similarity / coauthor edges, or only the edges between labs of different fields */
@@ -55,15 +54,6 @@ export function useExplore(): Ctx {
   return c;
 }
 
-const norm = (s: string) => s.toLowerCase().replace(/[\s\-‐·]/g, '');
-
-/** Search over lab name, PI Korean/English name and keywords. */
-export function matchesQuery(lab: Lab, query: string): boolean {
-  const q = norm(query.trim());
-  if (!q) return true;
-  const hay = [labTitle(lab), lab.pi_name_ko ?? '', lab.pi_name_en ?? '', lab.dept_name_ko, ...lab.keywords].map(norm);
-  return hay.some((h) => h.includes(q));
-}
 
 export function passesFilters(lab: Lab, s: Pick<ExploreState, 'univs' | 'fields' | 'clusters'>): boolean {
   return (s.univs.size === 0 || s.univs.has(lab.univ)) &&
