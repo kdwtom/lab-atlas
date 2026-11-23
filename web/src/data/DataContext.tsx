@@ -1,7 +1,8 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 import type { Cluster, Edge, Lab, Meta, Paper, SubCluster } from '../types/data';
 import { makeDummy } from './dummy';
-import { buildSearchIndex, type SearchIndex, type Terms } from '../lib/search';
+import { buildSearchIndex, type SearchIndex, type Terms } from '../lib/search/index';
+import { installSearchDiagnostics } from './searchDiagnostics';
 
 export interface Neighbor {
   lab: Lab;
@@ -24,6 +25,7 @@ export interface Atlas {
   terms: Terms;
   /** built on first use */
   searchIndex: () => SearchIndex;
+  version: string;
   dummy: boolean;
 }
 
@@ -61,13 +63,11 @@ export function buildAtlas(labs: Lab[], papers: Paper[], edges: Edge[], clusters
   const clusterById = new Map(clusters.map((c) => [c.id, c]));
   const subclusterById = new Map(clusters.flatMap((c) => (c.subclusters ?? []).map((s) => [s.id, s] as const)));
   let index: SearchIndex | null = null;
-  const clusterLabels = (lab: Lab) => [
-    lab.cluster_id === null ? '' : clusterById.get(lab.cluster_id)?.label_ko ?? '',
-    lab.subcluster_id == null ? '' : subclusterById.get(lab.subcluster_id)?.label_ko ?? '',
-  ].filter(Boolean);
+  const version = `${meta.generated_at}:${labs.length}:${papers.length}${dummy ? ':dummy' : ''}`;
   return {
     labs, papers, edges, clusters, meta, labById, dummy, terms,
-    searchIndex: () => (index ??= buildSearchIndex(labs, papers, terms, clusterLabels)),
+    version,
+    searchIndex: () => (index ??= buildSearchIndex({ version, labs, papers, clusters, legacyTerms: terms })),
     paperById: new Map(papers.map((p) => [p.id, p])),
     clusterById,
     subclusterById,
@@ -93,7 +93,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
               return buildAtlas(d.labs, [], d.edges, d.clusters, d.meta, true);
             })()
           : buildAtlas(labs, papers, edges, clusters, meta, false, terms);
-        if (alive) setState({ status: 'ready', atlas });
+        if (alive) { installSearchDiagnostics(atlas); setState({ status: 'ready', atlas }); }
       } catch (e) {
         if (alive) setState({ status: 'error', message: e instanceof Error ? e.message : String(e) });
       }

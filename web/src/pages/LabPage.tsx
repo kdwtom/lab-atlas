@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import type { Paper, PaperSummary, SourceKind } from '../types/data';
 import { useAtlas } from '../data/DataContext';
+import { useExplore } from '../data/explore';
 import { NA, affiliation, doiHref, fmtDate, introText, labTitle, neighbourCaution, piName, similarityBand } from '../lib/format';
 import type { Mode } from '../lib/palette';
 import { ClusterChip, FieldChips } from '../components/LabPanel';
@@ -59,6 +60,7 @@ function PaperCard({ paper, labId }: { paper: Paper; labId: string }) {
 }
 
 export default function LabPage({ mode }: { mode: Mode }) {
+  const explorer=useExplore();
   const { id = '' } = useParams();
   const atlas = useAtlas();
   const lab = atlas.labById.get(id);
@@ -84,7 +86,7 @@ export default function LabPage({ mode }: { mode: Mode }) {
 
   return (
     <main className="page lab-page">
-      <p className="crumb"><Link to="/">← 지형도</Link></p>
+      <p className="crumb"><Link to={explorer.returnUrl}>← 지형도</Link></p>
       <header className="lab-head">
         <p className="eyebrow">{affiliation(lab)} · {lab.position ?? '직위 정보 없음'}</p>
         <h1>

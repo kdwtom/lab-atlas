@@ -1,5 +1,25 @@
 # Lab Atlas · 연구실 지형도
 
+### Korean–English search
+
+Explorer suggestions, graph matches, list results and shortlist interest search use
+one record-based engine. The initial dictionary has 64 source-backed concepts;
+equivalent Korean/English aliases use identical relevance scoring. Exact names,
+coherent keywords/phrases and individual paper evidence rank ahead of scattered
+matches. Active filters apply before suggestion limits. Search URLs preserve query,
+filters and sort; explorer and shortlist “더 보기” controls reach the complete result set.
+
+The dictionary was reviewed by Codex against the committed corpus; human scientific
+terminology/relevance review remains pending. Existing generated translations remain
+a labeled literal fallback. This release adds no runtime translation or backend.
+See [implementation progress](docs/search/progress.md), [performance](docs/search/performance.md),
+[search baseline](docs/search/baseline.md), [dictionary review](docs/search/dictionary-review.md)
+and [implementation plan](PLAN.md). From `web`, run `npm run test`, `npm run typecheck`,
+`npm run build`, and `npm run benchmark:search`. Browser checks require an installed
+Edge (or `BROWSER_CHANNEL`) and `npm run preview -- --port 4173` in another terminal:
+`npm run check:search` and `npm run perf:search`. On Windows PowerShell with script
+execution disabled, use `npm.cmd` for these commands.
+
 **🔗 라이브 사이트: https://kdwtom.github.io/lab-atlas/** (테스트 공개 중)
 
 국내 11개 대학(KAIST·서울대·POSTECH·UNIST·GIST·DGIST·연세대·고려대·성균관대·한양대·서강대)의 **생명과학·화학·물리·수학·컴퓨터** 학과 연구실 **852곳**을
@@ -11,7 +31,7 @@
 - 선은 **연구 주제 유사도**(논문 임베딩), **공동연구**(함께 쓴 논문), **학제간 연결**(분야가 다른 연구실 사이) 중 하나로 전환
 - **다리 찾기**: 분야·세부 분야·담은 연구실 중 두 출발점을 고르면 양쪽 모두와 가까운 연구실을, 어느 쪽에 더 가까운지와 함께 보여 줍니다(예: 화학 ↔ 컴퓨터)
 - **연구 방향 변화**: 처음 2년과 마지막 2년 논문을 비교해, 주제가 뚜렷이 달라진 연구실(현재 68곳)에 늘어난·줄어든 주제와 가까워진 세부 분야를 보여 주고 지도에 방향 화살표를 그립니다. 우연과 구분하는 검정을 거치며, 표시된 곳 중 약 5곳에 1곳은 우연일 수 있습니다
-- **검색**: 이름·키워드·세부 분야·소개·논문 제목에서 찾고 결과마다 찾은 곳을 보여 줍니다. 영어 키워드 약 3천 개에 Claude로 만든 한국어 번역·동의어 사전([search_terms_ko.json](pipeline/curation/search_terms_ko.json))을 붙여 "면역"과 "immunology" 어느 쪽으로도 찾고, 한글을 영문 자판으로 친 말(ausdur → 면역)도 바꿔 찾습니다
+- **검색**: 이름·키워드·세부 분야·소개·논문 제목에서 입력한 조건을 모두 찾고, 결과마다 원문 근거를 보여 줍니다. 등록된 64개 개념의 한·영 표현은 같은 기준으로 검색하며, 기존 번역 자료는 별도의 보조 근거로 표시합니다. 한글을 영문 자판으로 친 말(ausdur → 면역)은 입력 그대로의 결과가 없을 때 보정합니다. 검색어·필터·정렬은 주소에 저장되고, 전체 결과는 더 보기로 확인할 수 있습니다. 용어와 주제 적합성에 대한 사람 검토는 아직 남아 있습니다
 - **내 후보**: 관심 연구실을 담으면 비슷한 연구실을 이유와 함께 추천하고(다른 분야만 보기 가능), 최대 4곳을 비교표로 나란히 보며 링크로 공유합니다. 서버 없이 브라우저에서 계산합니다
 - 연구실마다 한국어 소개(813곳, 쓰지 못한 39곳은 이유 표시), 대표 논문, 연도별 키워드 변화, 비슷한 연구실 Top 5, 출처와 수집 날짜
 - 모든 데이터는 공식 교수진 페이지와 OpenAlex·Semantic Scholar API 응답에서만 가져왔고, 확인할 수 없는 항목은 "정보 없음"으로 표시합니다

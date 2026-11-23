@@ -1,4 +1,4 @@
-import type { Lab, Paper } from '../types/data';
+﻿import type { Lab, Paper } from '../../../src/types/data';
 
 /** English research term -> Korean renderings (pipeline/curation/search_terms_ko.json, written with the Claude API). */
 export type Terms = Record<string, string[]>;

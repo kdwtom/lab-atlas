@@ -1,0 +1,788 @@
+{
+  "commit": "8d4d0496efbde3a5c222bec5bf5a59f97059e024",
+  "date": "2026-11-21",
+  "files": {
+    "labs.json": "5f1d702a1639fc3eeaf4e9425f5a48f62b381d29377e49558be5d13df69d82b7",
+    "papers.json": "5c1ec5aa4e25567c227b969034d830d049c7d0093e40f41569c3c155fd72bd8f",
+    "clusters.json": "6a8c76e2fcb96d2e3a65dd75b14c9f320a8bdc626a38e3ed490af24969ed99b9",
+    "search_terms.json": "91b6054daa0792da5a633797e93ce182f25ab8dd6b200757a5bbcc068bb57dad"
+  },
+  "cases": [
+    {
+      "id": "01",
+      "query": "machine learning",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair ML",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "02",
+      "query": "기계학습",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair ML",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "03",
+      "query": "기계 학습",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; Korean spacing",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "04",
+      "query": "머신러닝",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; alias",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "05",
+      "query": "deep learning",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair DL; distinct from ML",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "06",
+      "query": "딥러닝",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair DL",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "07",
+      "query": "graph neural network",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair GNN",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "08",
+      "query": "그래프 신경망",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair GNN",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "09",
+      "query": "protein structure",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair protein",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "10",
+      "query": "단백질 구조",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair protein",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "11",
+      "query": "RNA splicing",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair splicing",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "12",
+      "query": "RNA 스플라이싱",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; mixed script, pair splicing",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "13",
+      "query": "photocatalysis",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair photo",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "14",
+      "query": "광촉매",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair photo",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "15",
+      "query": "all-solid-state battery",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair battery; reviewed plural variants",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "16",
+      "query": "전고체 전지",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair battery",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "17",
+      "query": "quantum computing",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair quantum",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "18",
+      "query": "양자 컴퓨팅",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair quantum",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "19",
+      "query": "graph theory",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair graph theory; separate from GNN",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "20",
+      "query": "그래프 이론",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair graph theory",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "21",
+      "query": "partial differential equation",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair PDE",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "22",
+      "query": "편미분방정식",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair PDE",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "23",
+      "query": "algebraic topology",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair topology",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "24",
+      "query": "대수적 위상수학",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair topology",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "25",
+      "query": "software testing",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair software",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "26",
+      "query": "소프트웨어 테스팅",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair software",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "27",
+      "query": "immunology",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair immune; existing translation behavior",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "28",
+      "query": "면역학",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; pair immune",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "29",
+      "query": "이병훈",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; exact Korean PI",
+      "judgments": [
+        {
+          "labId": "dgist-A5000829476",
+          "grade": 2,
+          "evidence": [
+            {
+              "field": "pi_name_ko",
+              "originalText": "이병훈"
+            }
+          ],
+          "reason": "Unique exact stored identity field; verified against frozen dataset."
+        }
+      ],
+      "reviewStatus": "identity-verified",
+      "reviewer": "Codex (dataset identity check)",
+      "reviewedAt": "2026-11-21"
+    },
+    {
+      "id": "30",
+      "query": "Byung-Hoon Lee",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; exact English PI",
+      "judgments": [
+        {
+          "labId": "dgist-A5000829476",
+          "grade": 2,
+          "evidence": [
+            {
+              "field": "pi_name_en",
+              "originalText": "Byung-Hoon Lee"
+            }
+          ],
+          "reason": "Unique exact stored identity field; verified against frozen dataset."
+        }
+      ],
+      "reviewStatus": "identity-verified",
+      "reviewer": "Codex (dataset identity check)",
+      "reviewedAt": "2026-11-21"
+    },
+    {
+      "id": "31",
+      "query": "성민혁",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; exact Korean PI",
+      "judgments": [
+        {
+          "labId": "kaist-A5004099860",
+          "grade": 2,
+          "evidence": [
+            {
+              "field": "pi_name_ko",
+              "originalText": "성민혁"
+            }
+          ],
+          "reason": "Unique exact stored identity field; verified against frozen dataset."
+        }
+      ],
+      "reviewStatus": "identity-verified",
+      "reviewer": "Codex (dataset identity check)",
+      "reviewedAt": "2026-11-21"
+    },
+    {
+      "id": "32",
+      "query": "Minhyuk Sung",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; exact English PI",
+      "judgments": [
+        {
+          "labId": "kaist-A5004099860",
+          "grade": 2,
+          "evidence": [
+            {
+              "field": "pi_name_en",
+              "originalText": "Minhyuk Sung"
+            }
+          ],
+          "reason": "Unique exact stored identity field; verified against frozen dataset."
+        }
+      ],
+      "reviewStatus": "identity-verified",
+      "reviewer": "Codex (dataset identity check)",
+      "reviewedAt": "2026-11-21"
+    },
+    {
+      "id": "33",
+      "query": "KAIST Visual AI Group",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; exact stored lab name",
+      "judgments": [
+        {
+          "labId": "kaist-A5004099860",
+          "grade": 2,
+          "evidence": [
+            {
+              "field": "lab_name",
+              "originalText": "KAIST Visual AI Group"
+            }
+          ],
+          "reason": "Unique exact stored identity field; verified against frozen dataset."
+        }
+      ],
+      "reviewStatus": "identity-verified",
+      "reviewer": "Codex (dataset identity check)",
+      "reviewedAt": "2026-11-21"
+    },
+    {
+      "id": "34",
+      "query": "단백질 구조 deep learning",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; two concepts, mixed language",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "35",
+      "query": "graphene 광촉매",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; mixed language/disciplines",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "36",
+      "query": "RNA",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; scientific boundary negative",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "37",
+      "query": "GNN",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; abbreviation policy",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "38",
+      "query": "ML",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; ambiguous abbreviation remains literal unless guarded",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "39",
+      "query": "AI",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; ambiguous abbreviation",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "40",
+      "query": "FoldMason",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; corpus literal outside initial concept vocabulary",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "41",
+      "query": "\"graph neural network\"",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; explicit phrase",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "42",
+      "query": "machine learning",
+      "filters": {
+        "univs": [
+          "kaist"
+        ],
+        "fields": [
+          "cs"
+        ],
+        "clusters": []
+      },
+      "purpose": "univ kaist AND field cs",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "43",
+      "query": "기계학습",
+      "filters": {
+        "univs": [
+          "kaist"
+        ],
+        "fields": [
+          "cs"
+        ],
+        "clusters": []
+      },
+      "purpose": "same filters as 42; filtered bilingual equivalence",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "44",
+      "query": "편미분방정식",
+      "filters": {
+        "univs": [],
+        "fields": [
+          "math"
+        ],
+        "clusters": [
+          0
+        ]
+      },
+      "purpose": "field math AND frozen cluster of `hanyang-A5000509319`",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "45",
+      "query": "",
+      "filters": {
+        "univs": [
+          "yonsei"
+        ],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "univ yonsei; browse semantics",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "46",
+      "query": "   ",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; browse semantics",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "47",
+      "query": "zxqvnomatch913",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; intended zero, verify on frozen dataset",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "48",
+      "query": "aus dur",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; existing keyboard-layout correction",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "49",
+      "query": "이병훈",
+      "filters": {
+        "univs": [
+          "kaist"
+        ],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "univ kaist; intended filter-restricted name result",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "50",
+      "query": ",",
+      "filters": {
+        "univs": [],
+        "fields": [],
+        "clusters": []
+      },
+      "purpose": "all; invalid normalized-input regression",
+      "judgments": [],
+      "reviewStatus": "pending-human-review",
+      "reviewer": null,
+      "reviewedAt": null
+    }
+  ]
+}

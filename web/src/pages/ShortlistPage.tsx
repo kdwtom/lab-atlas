@@ -8,10 +8,10 @@ import { FieldChips } from '../components/LabPanel';
 import { NA, affiliation, doiHref, introText, labTitle, neighbourCaution, piName, similarityBand } from '../lib/format';
 import { FIELD_LABEL, FIELD_ORDER, type Mode } from '../lib/palette';
 import { loadLabVectors, recommend, sharedTopics, topicProfiles, type LabVectors } from '../lib/recommend';
-import { searchLabs } from '../lib/search';
+import InterestSearch from '../components/InterestSearch';
+import { useExplore } from '../data/explore';
 
 const MAX_COMPARE = 4;
-const SEARCH_LIMIT = 12;
 const REC_LIMIT = 12;
 type RecField = 'all' | 'other' | (typeof FIELD_ORDER)[number];
 
@@ -19,49 +19,6 @@ const labLink = (id: string) => `/lab/${encodeURIComponent(id)}`;
 function KeywordList({ items }: { items: string[] }) {
   if (items.length === 0) return <>{NA}</>;
   return <ul className="keyword-list">{items.map((k) => <li key={k}>{k}</li>)}</ul>;
-}
-
-/** Shared site search (lib/search): names, keywords and their Korean renderings, sub-fields, intros, paper titles. */
-function useSearch(query: string) {
-  const atlas = useAtlas();
-  return useMemo(() => searchLabs(atlas.searchIndex(), query), [atlas, query]);
-}
-
-function SearchSection() {
-  const [query, setQuery] = useState('');
-  const results = useSearch(query);
-  return (
-    <section aria-labelledby="find-title">
-      <h2 id="find-title">관심사로 찾기</h2>
-      <label className="sr-only" htmlFor="interest">관심 연구 주제</label>
-      <input id="interest" className="interest" value={query} onChange={(e) => setQuery(e.target.value)}
-             placeholder="예: 단백질 구조, graph neural network, 전고체 전지" autoComplete="off" />
-      <p className="muted small">
-        연구실 이름·키워드·세부 분야·소개·최근 논문 제목에서 찾습니다. 영어 키워드는 한국어 번역으로도 찾으므로 "면역", "immunology" 어느 쪽으로 써도 됩니다.
-        한글을 영문 자판으로 잘못 친 말(예: aus dur)도 한글로 바꿔 찾습니다. 뜻을 이해하는 검색은 아니라 비슷한 말을 모두 찾지는 못합니다.
-      </p>
-      {query.trim() && (
-        results.length === 0 ? <p className="empty">일치하는 연구실이 없습니다.</p> : (
-          <>
-            <p className="muted small" aria-live="polite">{results.length}곳 일치{results.length > SEARCH_LIMIT && `, 상위 ${SEARCH_LIMIT}곳 표시`}</p>
-            <ul className="lab-rows">
-              {results.slice(0, SEARCH_LIMIT).map(({ lab, reason }) => (
-                <li key={lab.id}>
-                  <StarButton id={lab.id} name={piName(lab)} compact />
-                  <div>
-                    <Link to={labLink(lab.id)} className="row-link">{piName(lab)}</Link>
-                    <span className="muted small"> {affiliation(lab)}</span>
-                    <p className="small row-intro">{introText(lab)}</p>
-                    <p className="small muted row-why">찾은 곳 · {reason}</p>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          </>
-        )
-      )}
-    </section>
-  );
 }
 
 function Recommendations({ seeds, mode }: { seeds: Lab[]; mode: Mode }) {
@@ -220,6 +177,7 @@ function Compare({ labs, mode }: { labs: Lab[]; mode: Mode }) {
 
 export default function ShortlistPage({ mode }: { mode: Mode }) {
   const atlas = useAtlas();
+  const explorer = useExplore();
   const list = useShortlist();
   const [params, setParams] = useSearchParams();
   const [copied, setCopied] = useState<string | null>(null);
@@ -238,7 +196,9 @@ export default function ShortlistPage({ mode }: { mode: Mode }) {
   const compared = candidates.slice(0, MAX_COMPARE);
 
   const share = async () => {
-    const url = `${window.location.origin}${window.location.pathname}#/shortlist?labs=${labs.map((l) => encodeURIComponent(l.id)).join(',')}`;
+    const shared = new URLSearchParams(params);
+    shared.set('labs',labs.map(l=>l.id).join(','));
+    const url = `${window.location.origin}${window.location.pathname}#/shortlist?${shared}`;
     try {
       await navigator.clipboard.writeText(url);
       setCopied('링크를 복사했습니다.');
@@ -249,21 +209,21 @@ export default function ShortlistPage({ mode }: { mode: Mode }) {
 
   return (
     <main className="page shortlist">
-      <p className="crumb"><Link to="/">← 지형도</Link></p>
+      <p className="crumb"><Link to={explorer.returnUrl}>← 지형도</Link></p>
       <h1>내 후보</h1>
       <p className="lead">관심 있는 연구실을 담으면 비슷한 연구실을 추천하고, 담은 곳을 나란히 비교합니다.</p>
 
       {sharedIds && (
         <p className="notice" role="status">
           공유받은 후보 {labs.length}곳을 보고 있습니다.{' '}
-          <button type="button" className="link-btn" onClick={() => { list.addAll(labs.map((l) => l.id)); setParams({}); }}>내 목록에 담기</button>
+          <button type="button" className="link-btn" onClick={() => { list.addAll(labs.map((l) => l.id)); setParams(p=>{const next=new URLSearchParams(p);next.delete('labs');return next;}); }}>내 목록에 담기</button>
           {' · '}
-          <button type="button" className="link-btn" onClick={() => setParams({})}>내 목록으로 돌아가기</button>
+          <button type="button" className="link-btn" onClick={() => setParams(p=>{const next=new URLSearchParams(p);next.delete('labs');return next;})}>내 목록으로 돌아가기</button>
         </p>
       )}
       {unknown > 0 && <p className="notice" role="status">데이터에 없는 연구실 {unknown}곳은 표시하지 않았습니다.</p>}
 
-      <SearchSection />
+      <InterestSearch />
 
       <section aria-labelledby="mine-title">
         <h2 id="mine-title">담은 연구실 {labs.length > 0 && <span className="muted">{labs.length}곳</span>}</h2>

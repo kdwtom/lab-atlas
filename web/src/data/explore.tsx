@@ -1,62 +1,28 @@
-import { createContext, useContext, useMemo, useState, type ReactNode } from 'react';
-import type { Discipline, Lab, Univ } from '../types/data';
-
-export type View = 'graph' | 'list';
-/** similarity / coauthor edges, or only the edges between labs of different fields */
-export type EdgeMode = 'similarity' | 'coauthor' | 'cross';
-
-export interface ExploreState {
-  view: View;
-  edgeMode: EdgeMode;
-  query: string;
-  univs: Set<Univ>;          // empty = all
-  fields: Set<Discipline>;   // empty = all
-  clusters: Set<number>;     // empty = all
+import { createContext,useContext,useEffect,useMemo,useRef,type ReactNode } from 'react';
+import { useLocation,useNavigate,useNavigationType } from 'react-router-dom';
+import type { Discipline,Univ } from '../types/data';
+import { useAtlasState } from './DataContext';
+import { parseSearchParams,writeSearchUpdate,type SearchSort,type SearchUrlState } from './searchUrl';
+export { passesSearchFilters as passesFilters } from '../lib/search/index';
+export type View='graph'|'list';
+export type EdgeMode='similarity'|'coauthor'|'cross';
+export interface ExploreState {view:View;edgeMode:EdgeMode;query:string;univs:ReadonlySet<Univ>;fields:ReadonlySet<Discipline>;clusters:ReadonlySet<number>;sort:SearchSort;keyboardCorrection:boolean}
+interface Ctx extends ExploreState {set:(patch:Partial<ExploreState>)=>void;setQuery:(q:string)=>void;endEditing:()=>void;toggleUniv:(u:Univ)=>void;toggleField:(f:Discipline)=>void;toggleCluster:(c:number)=>void;reset:()=>void;clearFilters:()=>void;acceptFilters:()=>void;notices:readonly string[];blocked:boolean;returnUrl:string}
+const C=createContext<Ctx|null>(null);
+const toggle=<T,>(s:ReadonlySet<T>,v:T)=>{const n=new Set(s);if(!n.delete(v))n.add(v);return n;};
+export function ExploreProvider({children}:{children:ReactNode}) {
+  const location=useLocation();const navigate=useNavigate();const navType=useNavigationType();const atlas=useAtlasState();
+  const saved=useRef('');const editing=useRef(false);const onExplorer=location.pathname==='/';
+  const search=onExplorer?location.search:saved.current;const version=atlas.status==='ready'?atlas.atlas.version:'';
+  const clusters=useMemo(()=>new Set(atlas.status==='ready'?atlas.atlas.clusters.map(c=>c.id):[]),[atlas]);
+  const parsed=useMemo(()=>parseSearchParams(new URLSearchParams(search),clusters,version),[search,clusters,version]);const state=parsed.state;
+  useEffect(()=>{if(onExplorer)saved.current=location.search;},[onExplorer,location.search]);
+  useEffect(()=>{if(navType==='POP')editing.current=false;},[location.key,navType]);
+  useEffect(()=>{editing.current=false;},[location.pathname]);
+  const write=(next:SearchUrlState,replace=false,acceptFilters=false)=>{const p=writeSearchUpdate(new URLSearchParams(search),parsed,next,acceptFilters).toString();if(`?${p}`!==search&&!(p===''&&search===''))navigate({pathname:'/',search:p?`?${p}`:''},{replace});};
+  const set=(patch:Partial<ExploreState>,acceptFilters=false)=>{editing.current=false;write({...state,...patch,filters:{univs:patch.univs??state.filters.univs,fields:patch.fields??state.filters.fields,clusters:patch.clusters??state.filters.clusters}},false,acceptFilters);};
+  const clearFilters=()=>set({univs:new Set(),fields:new Set(),clusters:new Set()},true);
+  const value:Ctx={...state,...state.filters,set,setQuery:q=>{const replace=editing.current;editing.current=true;write({...state,query:q,sort:q.trim()?'relevance':'papers-desc',keyboardCorrection:true},replace);},endEditing:()=>{editing.current=false;},toggleUniv:u=>set({univs:toggle(state.filters.univs,u)}),toggleField:f=>set({fields:toggle(state.filters.fields,f)}),toggleCluster:c=>set({clusters:toggle(state.filters.clusters,c)}),clearFilters,acceptFilters:()=>set({},true),reset:()=>set({query:'',univs:new Set(),fields:new Set(),clusters:new Set(),sort:'papers-desc',keyboardCorrection:true},true),notices:parsed.notices,blocked:parsed.filterState!=='valid',returnUrl:`/${onExplorer?location.search:saved.current}`};
+  return <C.Provider value={value}>{children}</C.Provider>;
 }
-
-interface Ctx extends ExploreState {
-  set: (patch: Partial<ExploreState>) => void;
-  toggleUniv: (u: Univ) => void;
-  toggleField: (f: Discipline) => void;
-  toggleCluster: (c: number) => void;
-  reset: () => void;
-}
-
-const initial: ExploreState = {
-  view: 'graph', edgeMode: 'similarity', query: '', univs: new Set(), fields: new Set(), clusters: new Set(),
-};
-const ExploreCtx = createContext<Ctx | null>(null);
-
-function toggled<T>(s: Set<T>, v: T): Set<T> {
-  const n = new Set(s);
-  if (n.has(v)) n.delete(v);
-  else n.add(v);
-  return n;
-}
-
-/** Lives above the router so filters survive a visit to a lab page and back. */
-export function ExploreProvider({ children }: { children: ReactNode }) {
-  const [state, setState] = useState<ExploreState>(initial);
-  const value = useMemo<Ctx>(() => ({
-    ...state,
-    set: (patch) => setState((s) => ({ ...s, ...patch })),
-    toggleUniv: (u) => setState((s) => ({ ...s, univs: toggled(s.univs, u) })),
-    toggleField: (f) => setState((s) => ({ ...s, fields: toggled(s.fields, f) })),
-    toggleCluster: (c) => setState((s) => ({ ...s, clusters: toggled(s.clusters, c) })),
-    reset: () => setState((s) => ({ ...initial, view: s.view, edgeMode: s.edgeMode })),
-  }), [state]);
-  return <ExploreCtx.Provider value={value}>{children}</ExploreCtx.Provider>;
-}
-
-export function useExplore(): Ctx {
-  const c = useContext(ExploreCtx);
-  if (!c) throw new Error('ExploreProvider missing');
-  return c;
-}
-
-
-export function passesFilters(lab: Lab, s: Pick<ExploreState, 'univs' | 'fields' | 'clusters'>): boolean {
-  return (s.univs.size === 0 || s.univs.has(lab.univ)) &&
-    (s.fields.size === 0 || lab.disciplines.some((d) => s.fields.has(d))) &&
-    (s.clusters.size === 0 || (lab.cluster_id !== null && s.clusters.has(lab.cluster_id)));
-}
+export function useExplore():Ctx {const c=useContext(C);if(!c)throw new Error('ExploreProvider missing');return c;}

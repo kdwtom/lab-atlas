@@ -1,6 +1,6 @@
 import { HashRouter, NavLink, Route, Routes } from 'react-router-dom';
 import { DataProvider, useAtlasState } from './data/DataContext';
-import { ExploreProvider } from './data/explore';
+import { ExploreProvider, useExplore } from './data/explore';
 import { ShortlistProvider, useShortlist } from './data/shortlist';
 import { useTheme, type ThemeChoice } from './lib/theme';
 import type { Mode } from './lib/palette';
@@ -15,13 +15,14 @@ const THEME_LABEL: Record<ThemeChoice, string> = { system: '시스템', light: '
 
 function Header({ choice, onTheme }: { choice: ThemeChoice; onTheme: () => void }) {
   const { ids } = useShortlist();
+  const explorer = useExplore();
   return (
     <header className="site-header">
       <NavLink to="/" className="brand" end>
         Lab Atlas <span className="brand-sub">연구실 지형도</span>
       </NavLink>
       <nav aria-label="주 메뉴">
-        <NavLink to="/" end>탐색</NavLink>
+        <NavLink to={explorer.returnUrl} end>탐색</NavLink>
         <NavLink to="/shortlist">내 후보{ids.length > 0 && ` ${ids.length}`}</NavLink>
         <NavLink to="/bridge">다리 찾기</NavLink>
         <NavLink to="/about">방법론</NavLink>

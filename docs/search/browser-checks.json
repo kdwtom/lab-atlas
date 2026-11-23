@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-23T10:48:47.069Z",
+  "browser": "158.0.4370.33",
+  "checks": [
+    "Paged list reaches every result in engine order",
+    "Suggestions equal top eight",
+    "Graph matched IDs agree",
+    "Dropdown opens full results",
+    "Explicit sort and relevance reset",
+    "Korean spacing parity",
+    "Reload restoration",
+    "Filters and Back/Forward",
+    "Zero-result keyboard safe",
+    "Changing result selection safe",
+    "Synthetic Korean IME Enter safe",
+    "Every shortlist result reachable exactly once",
+    "Shared shortlist actions preserve search parameters",
+    "Invalid filters do not broaden results",
+    "Query and view changes preserve invalid filters",
+    "Shortlist query changes preserve invalid filters",
+    "Stale clusters require deliberate confirmation after edits",
+    "Mobile viewport valid active descendant",
+    "Graph suggestion selects existing preview",
+    "Detail return and shortlist persistence",
+    "Existing shortlist recommendations still load",
+    "Original-only correction retry"
+  ],
+  "errors": [],
+  "manualIME": "not run (automated checks only requested)",
+  "phone": "not run"
+}
