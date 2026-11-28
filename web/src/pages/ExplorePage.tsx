@@ -2,8 +2,9 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import type { Edge, Lab } from '../types/data';
 import { useAtlas } from '../data/DataContext';
-import { passesFilters, useExplore } from '../data/explore';
-import { searchLabs } from '../lib/search';
+import { useExplore } from '../data/explore';
+import { useLabSearch } from '../data/useLabSearch';
+import { filterKey } from '../lib/search/index';
 import { useMedia } from '../lib/useMedia';
 import type { Mode } from '../lib/palette';
 import GraphView from '../components/GraphView';
@@ -34,16 +35,16 @@ export default function ExplorePage({ mode }: { mode: Mode }) {
   const [selected, setSelected] = useState<Lab | null>(null);
   const [center, setCenter] = useState<{ id: string } | null>(null);
 
-  const filtered = useMemo(() => atlas.labs.filter((l) => passesFilters(l, ex)), [atlas.labs, ex]);
-  const matched = useMemo(
-    () => (ex.query.trim() ? new Set(searchLabs(atlas.searchIndex(), ex.query).map((h) => h.lab.id)) : null),
-    [atlas, ex.query],
-  );
+  const response = useLabSearch(ex.blocked ? ',' : ex.query, ex, {keyboardCorrection:ex.keyboardCorrection,includeUnfilteredCount:true});
+  const filtered = useMemo(() => ex.blocked?[]:response.eligibleLabIds.map(id=>atlas.labById.get(id)!), [atlas,response.eligibleLabIds,ex.blocked]);
+  const matched = useMemo(() => ex.query.trim()||ex.blocked?new Set(response.matchedIds):null,[ex.query,ex.blocked,response.matchedIds]);
   const edges = useMemo(
     () => atlas.edges.filter((e) => (ex.edgeMode === 'cross' ? e.cross : e.type === ex.edgeMode)),
     [atlas.edges, ex.edgeMode],
   );
-  const listRows = matched ? filtered.filter((l) => matched.has(l.id)) : filtered;
+  const listRows = ex.blocked?[]:matched ? response.results.map(r=>atlas.labById.get(r.labId)!) : filtered;
+  useEffect(()=>{if(selected&&!filtered.some(l=>l.id===selected.id))setSelected(null);},[filtered,selected]);
+  const viewAll = () => {ex.set({view:'list',sort:'relevance'});};
 
   // desktop: click pins the lab in the panel, a second click opens its page; mobile: tap previews in the sheet
   const select = (lab: Lab) => {
@@ -91,11 +92,11 @@ export default function ExplorePage({ mode }: { mode: Mode }) {
   };
 
   return (
-    <div className="explore">
+    <div className="explore" data-matched-ids={[...response.matchedIds].join(',')}>
       {atlas.dummy && (
         <p className="banner" role="status">성능 확인용 더미 데이터 {atlas.labs.length}개 노드를 표시 중입니다 (실제 연구실 아님).</p>
       )}
-      <Toolbar mode={mode} shown={ex.view === 'list' ? listRows.length : filtered.length} onPick={pick} />
+      <Toolbar mode={mode} shown={ex.view === 'list' ? listRows.length : filtered.length} onPick={pick} response={response} onViewAll={viewAll} />
       {ex.view === 'graph' ? (
         <div className="stage">
           <GraphView
@@ -118,7 +119,7 @@ export default function ExplorePage({ mode }: { mode: Mode }) {
                     pinned={!mobile && selected !== null && !edge} onClose={clearPicks} />
         </div>
       ) : (
-        <ListView labs={listRows} mode={mode} />
+        <ListView labs={listRows} mode={mode} results={response.results} searching={Boolean(ex.query.trim())} sort={ex.sort} onSort={sort=>ex.set({sort})} resetKey={ex.query+filterKey(ex)} />
       )}
     </div>
   );

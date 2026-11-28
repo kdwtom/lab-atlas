@@ -1,0 +1,2752 @@
+{
+  "version": "2026-11-21.1",
+  "concepts": [
+    {
+      "id": "protein_structure",
+      "labelKo": "단백질 구조",
+      "labelEn": "protein structure",
+      "disciplines": [
+        "life"
+      ],
+      "aliases": [
+        {
+          "text": "protein structure",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "protein structures",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "단백질 구조",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "단백질",
+            "구조"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "gist-A5004486606",
+          "field": "keyword",
+          "text": "Protein Structure and Dynamics"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "rna_splicing",
+      "labelKo": "RNA 스플라이싱",
+      "labelEn": "RNA splicing",
+      "disciplines": [
+        "life"
+      ],
+      "aliases": [
+        {
+          "text": "RNA splicing",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "RNA 스플라이싱",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "RNA 이어맞추기",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "korea-A5100737773",
+          "field": "paper_title",
+          "text": "RNA splicing based on reporter genes system: Detection, imaging and applications",
+          "paperId": "W4309907977"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "autophagy",
+      "labelKo": "자가포식",
+      "labelEn": "autophagy",
+      "disciplines": [
+        "life"
+      ],
+      "aliases": [
+        {
+          "text": "autophagy",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "자가포식",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "오토파지",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5000829476",
+          "field": "keyword",
+          "text": "Autophagy in Disease and Therapy"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "epigenetics",
+      "labelKo": "후성유전학",
+      "labelEn": "epigenetics",
+      "disciplines": [
+        "life"
+      ],
+      "aliases": [
+        {
+          "text": "epigenetics",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "후성유전학",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5010447099",
+          "field": "keyword",
+          "text": "Epigenetics and DNA Methylation"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "dna_methylation",
+      "labelKo": "DNA 메틸화",
+      "labelEn": "DNA methylation",
+      "disciplines": [
+        "life"
+      ],
+      "aliases": [
+        {
+          "text": "DNA methylation",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "DNA 메틸화",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5010447099",
+          "field": "keyword",
+          "text": "Epigenetics and DNA Methylation"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "immunology",
+      "labelKo": "면역학",
+      "labelEn": "immunology",
+      "disciplines": [
+        "life"
+      ],
+      "aliases": [
+        {
+          "text": "immunology",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "면역학",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "면역",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "gist-A5023173703",
+          "field": "keyword",
+          "text": "T-cell and B-cell Immunology"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "immunotherapy",
+      "labelKo": "면역치료",
+      "labelEn": "immunotherapy",
+      "disciplines": [
+        "life"
+      ],
+      "aliases": [
+        {
+          "text": "immunotherapy",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "면역치료",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "면역 요법",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "면역",
+            "요법"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5015429226",
+          "field": "keyword",
+          "text": "Immunotherapy and Immune Responses"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "mitochondria",
+      "labelKo": "미토콘드리아",
+      "labelEn": "mitochondria",
+      "disciplines": [
+        "life"
+      ],
+      "aliases": [
+        {
+          "text": "mitochondria",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "mitochondrial",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "미토콘드리아",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "gist-A5010846406",
+          "field": "keyword",
+          "text": "Mitochondrial Function and Pathology"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "ubiquitin",
+      "labelKo": "유비퀴틴",
+      "labelEn": "ubiquitin",
+      "disciplines": [
+        "life"
+      ],
+      "aliases": [
+        {
+          "text": "ubiquitin",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "유비퀴틴",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5000829476",
+          "field": "keyword",
+          "text": "Ubiquitin and proteasome pathways"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "proteasome",
+      "labelKo": "프로테아좀",
+      "labelEn": "proteasome",
+      "disciplines": [
+        "life"
+      ],
+      "aliases": [
+        {
+          "text": "proteasome",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "proteasomes",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "프로테아좀",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5000829476",
+          "field": "keyword",
+          "text": "Ubiquitin and proteasome pathways"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "endoplasmic_reticulum",
+      "labelKo": "소포체",
+      "labelEn": "endoplasmic reticulum",
+      "disciplines": [
+        "life"
+      ],
+      "aliases": [
+        {
+          "text": "endoplasmic reticulum",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "소포체",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5000829476",
+          "field": "keyword",
+          "text": "Endoplasmic Reticulum Stress and Disease"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "plant_molecular_biology",
+      "labelKo": "식물 분자생물학",
+      "labelEn": "plant molecular biology",
+      "disciplines": [
+        "life"
+      ],
+      "aliases": [
+        {
+          "text": "plant molecular biology",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "식물 분자생물학",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "식물",
+            "분자생물학"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5083365266",
+          "field": "keyword",
+          "text": "Plant Molecular Biology Research"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "rna",
+      "labelKo": "리보핵산",
+      "labelEn": "RNA",
+      "disciplines": [
+        "life"
+      ],
+      "aliases": [
+        {
+          "text": "RNA",
+          "language": "scientific",
+          "kind": "abbreviation"
+        },
+        {
+          "text": "ribonucleic acid",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "리보핵산",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5000829476",
+          "field": "keyword",
+          "text": "RNA and protein synthesis mechanisms"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "neurogenesis",
+      "labelKo": "신경발생",
+      "labelEn": "neurogenesis",
+      "disciplines": [
+        "life"
+      ],
+      "aliases": [
+        {
+          "text": "neurogenesis",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "신경발생",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "신경 생성",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "신경",
+            "생성"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "kaist-A5013204190",
+          "field": "keyword",
+          "text": "Neurogenesis and neuroplasticity mechanisms"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "photocatalysis",
+      "labelKo": "광촉매",
+      "labelEn": "photocatalysis",
+      "disciplines": [
+        "chem"
+      ],
+      "aliases": [
+        {
+          "text": "photocatalysis",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "광촉매",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "광촉매 반응",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "광촉매",
+            "반응"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5047491735",
+          "field": "keyword",
+          "text": "Advanced Photocatalysis Techniques"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "electrocatalysis",
+      "labelKo": "전기촉매",
+      "labelEn": "electrocatalysis",
+      "disciplines": [
+        "chem"
+      ],
+      "aliases": [
+        {
+          "text": "electrocatalysis",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "electrocatalysts",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "electrocatalyst",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "전기촉매",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5005977543",
+          "field": "keyword",
+          "text": "Electrocatalysts for Energy Conversion"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "metal_organic_framework",
+      "labelKo": "금속 유기 골격체",
+      "labelEn": "metal organic framework",
+      "disciplines": [
+        "chem"
+      ],
+      "aliases": [
+        {
+          "text": "metal organic framework",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "metal organic frameworks",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "MOF",
+          "language": "scientific",
+          "kind": "abbreviation"
+        },
+        {
+          "text": "MOFs",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "금속 유기 골격체",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "금속",
+            "유기",
+            "골격체"
+          ]
+        },
+        {
+          "text": "금속 유기 구조체",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "금속",
+            "유기",
+            "구조체"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5019564898",
+          "field": "keyword",
+          "text": "Metal-Organic Frameworks: Synthesis and Applications"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "asymmetric_synthesis",
+      "labelKo": "비대칭 합성",
+      "labelEn": "asymmetric synthesis",
+      "disciplines": [
+        "chem"
+      ],
+      "aliases": [
+        {
+          "text": "asymmetric synthesis",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "비대칭 합성",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "비대칭",
+            "합성"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5070455001",
+          "field": "keyword",
+          "text": "Asymmetric Synthesis and Catalysis"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "all_solid_state_battery",
+      "labelKo": "전고체 전지",
+      "labelEn": "all solid state battery",
+      "disciplines": [
+        "chem"
+      ],
+      "aliases": [
+        {
+          "text": "all solid state battery",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "all solid state batteries",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "전고체 전지",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "전고체",
+            "전지"
+          ]
+        },
+        {
+          "text": "전고체 배터리",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "전고체",
+            "배터리"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "unist-A5066992242",
+          "field": "paper_title",
+          "text": "Electrolyte-free graphite electrode with enhanced interfacial conduction using Li+-conductive binder for high-performance all-solid-state batteries",
+          "paperId": "W4224041525"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "perovskite",
+      "labelKo": "페로브스카이트",
+      "labelEn": "perovskite",
+      "disciplines": [
+        "chem"
+      ],
+      "aliases": [
+        {
+          "text": "perovskite",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "perovskites",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "페로브스카이트",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5047491735",
+          "field": "keyword",
+          "text": "Perovskite Materials and Applications"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "co2_reduction",
+      "labelKo": "이산화탄소 환원",
+      "labelEn": "CO2 reduction",
+      "disciplines": [
+        "chem"
+      ],
+      "aliases": [
+        {
+          "text": "CO2 reduction",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "이산화탄소 환원",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "이산화탄소",
+            "환원"
+          ]
+        },
+        {
+          "text": "CO2 환원",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5046067694",
+          "field": "keyword",
+          "text": "CO2 Reduction Techniques and Catalysts"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "quantum_dot",
+      "labelKo": "양자점",
+      "labelEn": "quantum dot",
+      "disciplines": [
+        "chem"
+      ],
+      "aliases": [
+        {
+          "text": "quantum dot",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "quantum dots",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "양자점",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5019564898",
+          "field": "keyword",
+          "text": "Quantum Dots Synthesis And Properties"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "cross_coupling",
+      "labelKo": "교차 결합",
+      "labelEn": "cross coupling",
+      "disciplines": [
+        "chem"
+      ],
+      "aliases": [
+        {
+          "text": "cross coupling",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "교차 결합",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "교차",
+            "결합"
+          ]
+        },
+        {
+          "text": "크로스 커플링",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "크로스",
+            "커플링"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5063361478",
+          "field": "keyword",
+          "text": "Catalytic Cross-Coupling Reactions"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "photochemistry",
+      "labelKo": "광화학",
+      "labelEn": "photochemistry",
+      "disciplines": [
+        "chem"
+      ],
+      "aliases": [
+        {
+          "text": "photochemistry",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "photochemical",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "광화학",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5063361478",
+          "field": "keyword",
+          "text": "Radical Photochemical Reactions"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "organic_electronics",
+      "labelKo": "유기 전자공학",
+      "labelEn": "organic electronics",
+      "disciplines": [
+        "chem"
+      ],
+      "aliases": [
+        {
+          "text": "organic electronics",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "유기 전자공학",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "유기",
+            "전자공학"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5005977543",
+          "field": "keyword",
+          "text": "Organic Electronics and Photovoltaics"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "polymer",
+      "labelKo": "고분자",
+      "labelEn": "polymer",
+      "disciplines": [
+        "chem"
+      ],
+      "aliases": [
+        {
+          "text": "polymer",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "polymers",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "고분자",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "폴리머",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5005977543",
+          "field": "keyword",
+          "text": "Conducting polymers and applications"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "quantum_computing",
+      "labelKo": "양자 컴퓨팅",
+      "labelEn": "quantum computing",
+      "disciplines": [
+        "phys"
+      ],
+      "aliases": [
+        {
+          "text": "quantum computing",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "quantum computation",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "양자 컴퓨팅",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "양자",
+            "컴퓨팅"
+          ]
+        },
+        {
+          "text": "양자컴퓨팅",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "양자 계산",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "양자",
+            "계산"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "hanyang-A5080582549",
+          "field": "keyword",
+          "text": "Quantum Computing Algorithms and Architecture"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "graphene",
+      "labelKo": "그래핀",
+      "labelEn": "graphene",
+      "disciplines": [
+        "phys"
+      ],
+      "aliases": [
+        {
+          "text": "graphene",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "그래핀",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5019564898",
+          "field": "keyword",
+          "text": "Graphene research and applications"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "superconductivity",
+      "labelKo": "초전도",
+      "labelEn": "superconductivity",
+      "disciplines": [
+        "phys"
+      ],
+      "aliases": [
+        {
+          "text": "superconductivity",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "초전도",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "초전도성",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5049868775",
+          "field": "keyword",
+          "text": "Physics of Superconductivity and Magnetism"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "spintronics",
+      "labelKo": "스핀트로닉스",
+      "labelEn": "spintronics",
+      "disciplines": [
+        "phys"
+      ],
+      "aliases": [
+        {
+          "text": "spintronics",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "스핀트로닉스",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "postech-A5100607085",
+          "field": "paper_title",
+          "text": "Spintronics meets orbitronics: Emergence of orbital angular momentum in solids",
+          "paperId": "W4400126152"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "topological_material",
+      "labelKo": "위상 물질",
+      "labelEn": "topological materials",
+      "disciplines": [
+        "phys"
+      ],
+      "aliases": [
+        {
+          "text": "topological materials",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "topological material",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "위상 물질",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "위상",
+            "물질"
+          ]
+        },
+        {
+          "text": "위상 소재",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "위상",
+            "소재"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5071338997",
+          "field": "keyword",
+          "text": "Topological Materials and Phenomena"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "two_dimensional_material",
+      "labelKo": "2차원 물질",
+      "labelEn": "2D materials",
+      "disciplines": [
+        "phys"
+      ],
+      "aliases": [
+        {
+          "text": "2D materials",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "2D material",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "two dimensional materials",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "2차원 물질",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "이차원 물질",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "이차원",
+            "물질"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5019564898",
+          "field": "keyword",
+          "text": "2D Materials and Applications"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "condensed_matter",
+      "labelKo": "응집물질",
+      "labelEn": "condensed matter",
+      "disciplines": [
+        "phys"
+      ],
+      "aliases": [
+        {
+          "text": "condensed matter",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "응집물질",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "응집 물질",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "응집",
+            "물질"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5049868775",
+          "field": "keyword",
+          "text": "Advanced Condensed Matter Physics"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "quantum_information",
+      "labelKo": "양자 정보",
+      "labelEn": "quantum information",
+      "disciplines": [
+        "phys"
+      ],
+      "aliases": [
+        {
+          "text": "quantum information",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "양자 정보",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "양자",
+            "정보"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "gist-A5047787579",
+          "field": "keyword",
+          "text": "Quantum Information and Cryptography"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "quantum_many_body",
+      "labelKo": "양자 다체",
+      "labelEn": "quantum many body",
+      "disciplines": [
+        "phys"
+      ],
+      "aliases": [
+        {
+          "text": "quantum many body",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "양자 다체",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "양자",
+            "다체"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "gist-A5117233229",
+          "field": "keyword",
+          "text": "Quantum many-body systems"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "plasmonics",
+      "labelKo": "플라즈모닉스",
+      "labelEn": "plasmonics",
+      "disciplines": [
+        "phys"
+      ],
+      "aliases": [
+        {
+          "text": "plasmonics",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "plasmonic",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "플라즈모닉스",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "gist-A5071261215",
+          "field": "keyword",
+          "text": "Plasmonic and Surface Plasmon Research"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "light_matter_interaction",
+      "labelKo": "빛 물질 상호작용",
+      "labelEn": "light matter interactions",
+      "disciplines": [
+        "phys"
+      ],
+      "aliases": [
+        {
+          "text": "light matter interactions",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "light matter interaction",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "빛 물질 상호작용",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "빛",
+            "물질",
+            "상호작용"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5047491735",
+          "field": "keyword",
+          "text": "Strong Light-Matter Interactions"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "partial_differential_equation",
+      "labelKo": "편미분방정식",
+      "labelEn": "partial differential equation",
+      "disciplines": [
+        "math"
+      ],
+      "aliases": [
+        {
+          "text": "partial differential equation",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "partial differential equations",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "편미분방정식",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "편미분 방정식",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "편미분",
+            "방정식"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "hanyang-A5000509319",
+          "field": "keyword",
+          "text": "Nonlinear Partial Differential Equations"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "algebraic_topology",
+      "labelKo": "대수적 위상수학",
+      "labelEn": "algebraic topology",
+      "disciplines": [
+        "math"
+      ],
+      "aliases": [
+        {
+          "text": "algebraic topology",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "대수적 위상수학",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "대수적",
+            "위상수학"
+          ]
+        },
+        {
+          "text": "대수 위상수학",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "대수",
+            "위상수학"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "hanyang-A5034314759",
+          "field": "keyword",
+          "text": "Geometric and Algebraic Topology"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "graph_theory",
+      "labelKo": "그래프 이론",
+      "labelEn": "graph theory",
+      "disciplines": [
+        "math"
+      ],
+      "aliases": [
+        {
+          "text": "graph theory",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "그래프 이론",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "그래프",
+            "이론"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "gist-A5100615032",
+          "field": "keyword",
+          "text": "Limits and Structures in Graph Theory"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "stochastic_process",
+      "labelKo": "확률 과정",
+      "labelEn": "stochastic process",
+      "disciplines": [
+        "math"
+      ],
+      "aliases": [
+        {
+          "text": "stochastic process",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "stochastic processes",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "확률 과정",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "확률",
+            "과정"
+          ]
+        },
+        {
+          "text": "확률과정",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "kaist-A5100616121",
+          "field": "keyword",
+          "text": "Stochastic processes and financial applications"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "number_theory",
+      "labelKo": "정수론",
+      "labelEn": "number theory",
+      "disciplines": [
+        "math"
+      ],
+      "aliases": [
+        {
+          "text": "number theory",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "정수론",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "kaist-A5018636483",
+          "field": "keyword",
+          "text": "Algebraic Geometry and Number Theory"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "algebraic_geometry",
+      "labelKo": "대수기하학",
+      "labelEn": "algebraic geometry",
+      "disciplines": [
+        "math"
+      ],
+      "aliases": [
+        {
+          "text": "algebraic geometry",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "대수기하학",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "대수 기하학",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "대수",
+            "기하학"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "kaist-A5018636483",
+          "field": "keyword",
+          "text": "Algebraic Geometry and Number Theory"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "harmonic_analysis",
+      "labelKo": "조화해석",
+      "labelEn": "harmonic analysis",
+      "disciplines": [
+        "math"
+      ],
+      "aliases": [
+        {
+          "text": "harmonic analysis",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "조화해석",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "조화 해석",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "조화",
+            "해석"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "hanyang-A5049332012",
+          "field": "keyword",
+          "text": "Advanced Harmonic Analysis Research"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "combinatorics",
+      "labelKo": "조합론",
+      "labelEn": "combinatorics",
+      "disciplines": [
+        "math"
+      ],
+      "aliases": [
+        {
+          "text": "combinatorics",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "combinatorial mathematics",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "조합론",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "gist-A5100615032",
+          "field": "keyword",
+          "text": "Advanced Combinatorial Mathematics"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "curvature_flow",
+      "labelKo": "곡률 흐름",
+      "labelEn": "curvature flow",
+      "disciplines": [
+        "math"
+      ],
+      "aliases": [
+        {
+          "text": "curvature flow",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "curvature flows",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "곡률 흐름",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "곡률",
+            "흐름"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "hanyang-A5000509319",
+          "field": "keyword",
+          "text": "Geometric Analysis and Curvature Flows"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "kinetic_theory",
+      "labelKo": "운동론",
+      "labelEn": "kinetic theory",
+      "disciplines": [
+        "math"
+      ],
+      "aliases": [
+        {
+          "text": "kinetic theory",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "운동론",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "hanyang-A5000879537",
+          "field": "keyword",
+          "text": "Gas Dynamics and Kinetic Theory"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "navier_stokes",
+      "labelKo": "나비에 스토크스",
+      "labelEn": "Navier Stokes",
+      "disciplines": [
+        "math"
+      ],
+      "aliases": [
+        {
+          "text": "Navier Stokes",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "나비에 스토크스",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "나비에",
+            "스토크스"
+          ]
+        },
+        {
+          "text": "나비에스토크스",
+          "language": "ko",
+          "kind": "phrase"
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "hanyang-A5053474905",
+          "field": "keyword",
+          "text": "Navier-Stokes equation solutions"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "complex_manifold",
+      "labelKo": "복소 다양체",
+      "labelEn": "complex manifolds",
+      "disciplines": [
+        "math"
+      ],
+      "aliases": [
+        {
+          "text": "complex manifolds",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "complex manifold",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "복소 다양체",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "복소",
+            "다양체"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "kaist-A5079031932",
+          "field": "keyword",
+          "text": "Geometry and complex manifolds"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "machine_learning",
+      "labelKo": "머신러닝",
+      "labelEn": "machine learning",
+      "disciplines": [
+        "cs"
+      ],
+      "aliases": [
+        {
+          "text": "machine learning",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "머신러닝",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "기계학습",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "기계 학습",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "기계",
+            "학습"
+          ]
+        }
+      ],
+      "relatedIds": [
+        "deep_learning"
+      ],
+      "sourceExamples": [
+        {
+          "labId": "gist-A5065178055",
+          "field": "keyword",
+          "text": "Machine Learning in Materials Science"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "deep_learning",
+      "labelKo": "딥러닝",
+      "labelEn": "deep learning",
+      "disciplines": [
+        "cs"
+      ],
+      "aliases": [
+        {
+          "text": "deep learning",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "딥러닝",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "심층 학습",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "심층",
+            "학습"
+          ]
+        }
+      ],
+      "relatedIds": [
+        "machine_learning",
+        "neural_network"
+      ],
+      "sourceExamples": [
+        {
+          "labId": "snu-A5003116915",
+          "field": "paper_title",
+          "text": "Evaluating GPCR modeling and docking strategies in the era of deep learning-based protein structure prediction",
+          "paperId": "W4311769525"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "graph_neural_network",
+      "labelKo": "그래프 신경망",
+      "labelEn": "graph neural network",
+      "disciplines": [
+        "cs"
+      ],
+      "aliases": [
+        {
+          "text": "graph neural network",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "graph neural networks",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "GNN",
+          "language": "scientific",
+          "kind": "abbreviation"
+        },
+        {
+          "text": "GNNs",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "그래프 신경망",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "그래프",
+            "신경망"
+          ]
+        }
+      ],
+      "relatedIds": [
+        "neural_network",
+        "graph_theory"
+      ],
+      "sourceExamples": [
+        {
+          "labId": "hanyang-A5100656150",
+          "field": "keyword",
+          "text": "Advanced Graph Neural Networks"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "neural_network",
+      "labelKo": "신경망",
+      "labelEn": "neural network",
+      "disciplines": [
+        "cs"
+      ],
+      "aliases": [
+        {
+          "text": "neural network",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "neural networks",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "신경망",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "인공 신경망",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "인공",
+            "신경망"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "gist-A5053907797",
+          "field": "keyword",
+          "text": "Neural Networks and Applications"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "software_testing",
+      "labelKo": "소프트웨어 테스팅",
+      "labelEn": "software testing",
+      "disciplines": [
+        "cs"
+      ],
+      "aliases": [
+        {
+          "text": "software testing",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "소프트웨어 테스팅",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "소프트웨어",
+            "테스팅"
+          ]
+        },
+        {
+          "text": "소프트웨어 테스트",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "소프트웨어",
+            "테스트"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "kaist-A5019825813",
+          "field": "keyword",
+          "text": "Software Testing and Debugging Techniques"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "parallel_computing",
+      "labelKo": "병렬 컴퓨팅",
+      "labelEn": "parallel computing",
+      "disciplines": [
+        "cs"
+      ],
+      "aliases": [
+        {
+          "text": "parallel computing",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "병렬 컴퓨팅",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "병렬",
+            "컴퓨팅"
+          ]
+        },
+        {
+          "text": "병렬 계산",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "병렬",
+            "계산"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5081623766",
+          "field": "keyword",
+          "text": "Parallel Computing and Optimization Techniques"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "cloud_computing",
+      "labelKo": "클라우드 컴퓨팅",
+      "labelEn": "cloud computing",
+      "disciplines": [
+        "cs"
+      ],
+      "aliases": [
+        {
+          "text": "cloud computing",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "클라우드 컴퓨팅",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "클라우드",
+            "컴퓨팅"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "hanyang-A5015785399",
+          "field": "keyword",
+          "text": "Cloud Computing and Resource Management"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "multimodal_learning",
+      "labelKo": "멀티모달 학습",
+      "labelEn": "multimodal learning",
+      "disciplines": [
+        "cs"
+      ],
+      "aliases": [
+        {
+          "text": "multimodal learning",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "multimodal machine learning",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "멀티모달 학습",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "멀티모달",
+            "학습"
+          ]
+        },
+        {
+          "text": "다중모달 학습",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "다중모달",
+            "학습"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "hanyang-A5011022538",
+          "field": "keyword",
+          "text": "Multimodal Machine Learning Applications"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "domain_adaptation",
+      "labelKo": "도메인 적응",
+      "labelEn": "domain adaptation",
+      "disciplines": [
+        "cs"
+      ],
+      "aliases": [
+        {
+          "text": "domain adaptation",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "도메인 적응",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "도메인",
+            "적응"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "hanyang-A5036440250",
+          "field": "keyword",
+          "text": "Domain Adaptation and Few-Shot Learning"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "few_shot_learning",
+      "labelKo": "퓨샷 학습",
+      "labelEn": "few shot learning",
+      "disciplines": [
+        "cs"
+      ],
+      "aliases": [
+        {
+          "text": "few shot learning",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "퓨샷 학습",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "퓨샷",
+            "학습"
+          ]
+        },
+        {
+          "text": "소수 샷 학습",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "소수",
+            "샷",
+            "학습"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "hanyang-A5036440250",
+          "field": "keyword",
+          "text": "Domain Adaptation and Few-Shot Learning"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "recommender_system",
+      "labelKo": "추천 시스템",
+      "labelEn": "recommender systems",
+      "disciplines": [
+        "cs"
+      ],
+      "aliases": [
+        {
+          "text": "recommender systems",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "recommender system",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "recommendation systems",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "추천 시스템",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "추천",
+            "시스템"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "hanyang-A5036440250",
+          "field": "keyword",
+          "text": "Recommender Systems and Techniques"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "generative_adversarial_network",
+      "labelKo": "생성적 적대 신경망",
+      "labelEn": "generative adversarial networks",
+      "disciplines": [
+        "cs"
+      ],
+      "aliases": [
+        {
+          "text": "generative adversarial networks",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "generative adversarial network",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "GAN",
+          "language": "scientific",
+          "kind": "abbreviation"
+        },
+        {
+          "text": "GANs",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "생성적 적대 신경망",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "생성적",
+            "적대",
+            "신경망"
+          ]
+        },
+        {
+          "text": "생성 적대 신경망",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "생성",
+            "적대",
+            "신경망"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "hanyang-A5016424347",
+          "field": "keyword",
+          "text": "Generative Adversarial Networks and Image Synthesis"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "computer_vision",
+      "labelKo": "컴퓨터 비전",
+      "labelEn": "computer vision",
+      "disciplines": [
+        "cs"
+      ],
+      "aliases": [
+        {
+          "text": "computer vision",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "컴퓨터 비전",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "컴퓨터",
+            "비전"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "postech-A5101998656",
+          "field": "paper_title",
+          "text": "Computer Vision – ACCV 2024 Workshops",
+          "paperId": "W4408973677"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "natural_language_processing",
+      "labelKo": "자연어 처리",
+      "labelEn": "natural language processing",
+      "disciplines": [
+        "cs"
+      ],
+      "aliases": [
+        {
+          "text": "natural language processing",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "자연어 처리",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "자연어",
+            "처리"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "hanyang-A5101523174",
+          "field": "keyword",
+          "text": "Natural Language Processing Techniques"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    },
+    {
+      "id": "reinforcement_learning",
+      "labelKo": "강화학습",
+      "labelEn": "reinforcement learning",
+      "disciplines": [
+        "cs"
+      ],
+      "aliases": [
+        {
+          "text": "reinforcement learning",
+          "language": "en",
+          "kind": "phrase"
+        },
+        {
+          "text": "강화학습",
+          "language": "ko",
+          "kind": "phrase"
+        },
+        {
+          "text": "강화 학습",
+          "language": "ko",
+          "kind": "phrase",
+          "hangulSegments": [
+            "강화",
+            "학습"
+          ]
+        }
+      ],
+      "relatedIds": [],
+      "sourceExamples": [
+        {
+          "labId": "dgist-A5020372110",
+          "field": "keyword",
+          "text": "Reinforcement Learning in Robotics"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex (agent review; human domain review pending)",
+        "date": "2026-11-21",
+        "note": "Conservative equivalent terms checked against corpus source; no runtime translation. Approval here records agent review, not human validation."
+      }
+    }
+  ]
+}

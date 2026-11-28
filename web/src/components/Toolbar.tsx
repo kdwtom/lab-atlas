@@ -5,6 +5,8 @@ import { passesFilters, useExplore } from '../data/explore';
 import { UNIV_LABEL, UNIV_ORDER } from '../lib/format';
 import { FIELD_LABEL, FIELD_ORDER, fieldColor, type Mode } from '../lib/palette';
 import SearchBox from './SearchBox';
+import SearchStatus from './SearchStatus';
+import { filterKey, type SearchResponse } from '../lib/search/index';
 
 const EDGE_NOTE = {
   similarity: '주제 유사도(상위 5개 이웃 + 다른 분야 최근접 1곳)',
@@ -29,9 +31,11 @@ interface Props {
   mode: Mode;
   shown: number;
   onPick: (lab: Lab) => void;
+  response: SearchResponse;
+  onViewAll: () => void;
 }
 
-export default function Toolbar({ mode, shown, onPick }: Props) {
+export default function Toolbar({ mode, shown, onPick, response, onViewAll }: Props) {
   const atlas = useAtlas();
   const ex = useExplore();
   const filtered = ex.univs.size > 0 || ex.fields.size > 0 || ex.clusters.size > 0 || ex.query.trim() !== '';
@@ -57,7 +61,7 @@ export default function Toolbar({ mode, shown, onPick }: Props) {
   return (
     <div className="toolbar">
       <div className="toolbar-row">
-        <SearchBox labs={atlas.labs} query={ex.query} onQuery={(q) => ex.set({ query: q })} onPick={onPick} />
+        <SearchBox rows={response.results.slice(0,8).map(result=>({result,lab:atlas.labById.get(result.labId)!}))} total={response.total} query={ex.query} onQuery={ex.setQuery} onPick={onPick} onViewAll={onViewAll} onEndEditing={ex.endEditing} resetKey={filterKey(ex)} />
         <div className="seg" role="group" aria-label="보기 방식">
           <button aria-pressed={ex.view === 'graph'} onClick={() => ex.set({ view: 'graph' })}>그래프</button>
           <button aria-pressed={ex.view === 'list'} onClick={() => ex.set({ view: 'list' })}>목록</button>
@@ -76,7 +80,7 @@ export default function Toolbar({ mode, shown, onPick }: Props) {
             </button>
           </div>
         )}
-        <span className="count" aria-live="polite">{atlas.labs.length}개 중 {shown}개</span>
+        <span className="count" aria-live="polite">{ex.view==='graph'?`지도 ${shown}곳`:`목록 ${shown}곳`}{ex.query.trim()?` · 검색 일치 ${response.total}곳`:` · 전체 ${atlas.labs.length}곳`}</span>
         <div className="folds" role="group" aria-label="필터 줄 보이기">
           {(Object.keys(SECTION_LABEL) as Section[]).map((s) => (
             <button key={s} className="fold" aria-expanded={open.has(s)} aria-controls={`filter-${s}`} onClick={() => toggle(s)}>
@@ -88,6 +92,9 @@ export default function Toolbar({ mode, shown, onPick }: Props) {
         </div>
         {filtered && <button className="link-btn" onClick={ex.reset}>필터 초기화</button>}
       </div>
+
+      {ex.notices.map(note=><p className="small" role="status" key={note}>{note} <button className="link-btn" onClick={ex.clearFilters}>필터 초기화</button>{ex.blocked&&<button className="link-btn" onClick={ex.acceptFilters}>현재 필터 적용</button>}</p>)}
+      {!ex.blocked&&<SearchStatus response={response} onOriginal={()=>ex.set({keyboardCorrection:false})} onClearFilters={ex.clearFilters}/>}
 
       <div id="filter-univ" hidden={!open.has('univ')} className="toolbar-row chips" role="group" aria-label="대학 필터">
         <span className="chips-label">대학</span>

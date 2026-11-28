@@ -8,6 +8,8 @@ node_modules/
 web/dist/
 web/*.log
 web/tsconfig.tsbuildinfo
+# Recreated by npm run benchmark:search; keep the frozen baseline and small reports.
+docs/search/implementation-results.json
 pipeline/cache/
 pipeline/output/run_log*.txt
 pipeline/output/*_log.txt
